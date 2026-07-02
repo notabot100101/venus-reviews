@@ -1,0 +1,9 @@
+# Venus Reviews - Hostinger .htaccess
+RewriteEngine On
+DirectoryIndex index.html
+Options -Indexes
+
+# Clean URLs
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ $1.html [L]
