@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang | default "en" }}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+    <meta name="description" content="{{ .Params.description | default .Site.Params.description }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="site-logo"><a href="{{ "/" | relURL }}">Venus Reviews</a></div>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="{{ "/products/" | relURL }}">Reviews</a>
+                <a href="{{ "/comparisons/" | relURL }}">Comparisons</a>
+                <a href="{{ "/about/" | relURL }}">About</a>
+                <a href="{{ "/affiliate-disclosure/" | relURL }}">Disclosure</a>
+                <a href="{{ "/privacy/" | relURL }}">Privacy</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="site-main">
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; {{ now.Format "2006" }} {{ .Site.Title }}. For adults 18+ only.</p>
+            <p><a href="{{ "/privacy/" | relURL }}">Privacy Policy</a> | <a href="{{ "/affiliate-disclosure/" | relURL }}">Affiliate Disclosure</a></p>
+        </div>
+    </footer>
+</body>
+</html>

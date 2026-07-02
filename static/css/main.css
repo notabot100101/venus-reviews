@@ -1,0 +1,325 @@
+/* Main Styles for Venus Reviews Site */
+
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #7b2cbf;
+    --primary-dark: #560bad;
+    --secondary: #3c096c;
+    --accent: #f72585;
+    --text: #333;
+    --text-light: #666;
+    --bg: #fafafa;
+    --white: #fff;
+    --border: #eee;
+    --success: #28a745;
+    --warning: #ffc107;
+    --danger: #dc3545;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+    background: var(--bg);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Header */
+.site-header {
+    background: var(--white);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.site-nav a {
+    margin-left: 1.5rem;
+    color: var(--text);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.site-nav a:hover {
+    color: var(--primary);
+}
+
+/* Hero Section */
+.home-hero {
+    background: linear-gradient(135deg, var(--primary), var(--accent));
+    color: var(--white);
+    text-align: center;
+    padding: 4rem 0;
+    margin: -1rem -1rem 2rem -1rem;
+}
+
+.home-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.home-hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Reviews Grid */
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.review-card {
+    background: var(--white);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid var(--border);
+}
+
+.review-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+.review-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.review-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+.review-card p {
+    color: var(--text-light);
+    margin-bottom: 1rem;
+}
+
+.btn-review {
+    display: inline-block;
+    background: var(--primary);
+    color: var(--white);
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.3s;
+}
+
+.btn-review:hover {
+    background: var(--primary-dark);
+}
+
+/* Rating */
+.rating {
+    display: flex;
+    gap: 2px;
+    margin-bottom: 1rem;
+}
+
+.star {
+    color: var(--warning);
+    font-size: 0.85rem;
+}
+
+.star.empty {
+    color: var(--border);
+}
+
+/* Pros & Cons */
+.pros-cons-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.pros, .cons {
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.pros {
+    background: #d4edda;
+    border-left: 4px solid var(--success);
+}
+
+.cons {
+    background: #f8d7da;
+    border-left: 4px solid var(--danger);
+}
+
+.pros h3, .cons h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.pros ul, .cons ul {
+    list-style: none;
+}
+
+.pros li, .cons li {
+    padding: 0.25rem 0;
+    font-size: 0.9rem;
+}
+
+/* Comparison Tables */
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.comparison-table th,
+.comparison-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+}
+
+.comparison-table th {
+    background: var(--primary);
+    color: var(--white);
+    font-weight: 600;
+}
+
+.comparison-table tr:hover {
+    background: var(--bg);
+}
+
+/* Affiliate Sidebar */
+.affiliate-sidebar {
+    background: var(--white);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    margin-top: 2rem;
+}
+
+.affiliate-disclosure {
+    background: var(--warning);
+    padding: 0.75rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+}
+
+.affiliate-offer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    background: var(--bg);
+}
+
+.affiliate-offer:last-child {
+    margin-bottom: 0;
+}
+
+.offer-button {
+    flex: 1;
+    display: block;
+    text-align: center;
+    padding: 0.75rem;
+    background: var(--primary);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.offer-button:hover {
+    background: var(--primary-dark);
+}
+
+.offer-price {
+    font-weight: 700;
+    color: var(--success);
+}
+
+.offer-discount {
+    background: var(--success);
+    color: var(--white);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+/* Shortcodes */
+{{ if .Site.Params.home.blogs }}
+{{ range .Site.Params.home.blogs }}
+<div class="collection-item">
+    <h3><a href="{{ .link | relURL }}">{{ .title }}</a></h3>
+    <p>{{ .desc }}</p>
+</div>
+{{ end }}
+{{ end }}
+
+/* Footer */
+.site-footer {
+    background: var(--secondary);
+    color: var(--white);
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.site-footer a {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .site-header .container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .site-nav a {
+        margin: 0.5rem 0.25rem;
+    }
+
+    .pros-cons-grid {
+        grid-template-columns: 1fr;
+    }
+}

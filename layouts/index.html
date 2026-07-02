@@ -1,0 +1,58 @@
+{{ define "main" }}
+<div class="home-hero">
+    <h1>{{ .Site.Params.home.subtitle }}</h1>
+    <p>{{ .Site.Params.home.description }}</p>
+</div>
+
+<div class="featured-grid">
+    <h2>Featured Reviews</h2>
+    <div class="reviews-grid">
+        {{ $featured := where .Site.RegularPages "Section" "products" | first 4 }}
+        {{ range $featured }}
+        <article class="review-card">
+            {{ if .Params.image }}
+            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+            {{ end }}
+            <h3>{{ .Title }}</h3>
+            <div class="rating">
+                {{ range $i, $r := .Params.rating }}
+                <span class="star {{ if lt $i $r }}filled{{ else }}empty{{ end }}"></span>
+                {{ end }}
+            </div>
+            <p>{{ .Params.summary | plainify }}</p>
+            <a href="{{ .RelPermalink }}" class="btn-review">Read Review</a>
+        </article>
+        {{ end }}
+    </div>
+</div>
+
+{{ if .Site.Params.home.blogs.blogs }}
+<div class="collections-section">
+    {{ range .Site.Params.home.blogs.blogs }}
+    <div class="collection-item">
+        <h3><a href="{{ index . "link" | relURL }}">{{ index . "title" }}</a></h3>
+        <p>{{ index . "desc" }}</p>
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+
+{{ if .Site.Params.home.pages.pages }}
+<div class="essential-pages">
+    <h2>Essential Information</h2>
+    <div class="pages-grid">
+        {{ range .Site.Params.home.pages.pages }}
+        <a href="{{ index . "link" | relURL }}" class="page-link">{{ index . "title" }}</a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+
+{{ if .Site.Params.home.cta }}
+<div class="cta-section">
+    <h3>{{ .Site.Params.home.cta.title }}</h3>
+    <p>{{ .Site.Params.home.cta.description }}</p>
+    <a href="{{ .Site.Params.home.cta.link | relURL }}" class="btn-primary">{{ .Site.Params.home.cta.title }}</a>
+</div>
+{{ end }}
+{{ end }}

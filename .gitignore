@@ -1,0 +1,33 @@
+# Vendor dependencies (unless you want to version them)
+vendor/
+node_modules/
+
+# Hugo cache
+hugo_cache/
+resources/_gen/
+.hugo_build.lock
+.bin/
+
+# Build output (usually you want to deploy this, not ignore it)
+public/
+_build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Test files
+*.test.js
+*.test.ts
+__tests__/

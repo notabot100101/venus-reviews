@@ -1,0 +1,90 @@
+baseURL = 'https://reviews.ultramarine963.com/'
+languageCode = 'en-us'
+title = 'Venus - Adult Product Reviews'
+contentDir = 'content/en'
+defaultContentLanguage = 'en'
+
+# Enable Google Analytics (optional - set to false for privacy)
+googleAnalytics = ''
+
+# Enable RSS/atom feeds
+disableRSS = false
+disableAtom = false
+
+# Enable sitemap
+enableRobotsTXT = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+# Production configuration
+[params]
+  disableAncestor = false
+  disableBreadcrumb = false
+  disableHomeIcon = false
+  disablePageImages = false
+  disablePageTransitions = false
+  canonicalURL = ''
+  defaultImageWidth = 0
+  defaultImageHeight = 0
+  favicon = ''
+  images = []
+  language = 'en'
+  description = 'Research-driven adult wellness product comparisons for the EU market'
+  keywords = 'adult toys, reviews, comparison, sexual wellness, european market, discreet shipping'
+  author = 'Venus Team'
+  license = ''
+  licenseURL = ''
+
+[params.main]
+  description = 'Honest reviews of adult products for the EU market'
+
+[params.main.profile]
+  avatar = 'images/avatar.jpg'
+  links = [
+    { name = 'Twitter', icon = 'fab fa-twitter', url = 'https://twitter.com/ultramarine963' },
+    { name = 'Instagram', icon = 'fab fa-instagram', url = 'https://instagram.com/ultramarine963' },
+  ]
+
+[params.main.features]
+  feature1 = 'Icon'
+  feature1Text = 'Quick, Easy & Free'
+  feature2 = 'Icon'
+  feature2Text = 'Fast & Secure'
+  feature3 = 'Icon'
+  feature3Text = '24/7 Support'
+
+[params.home]
+  title = ''
+  subtitle = 'Adult wellness comparisons for EU buyers'
+  description = 'Research-driven guides, public-spec comparisons, and discreet-shipping notes to help adults make informed choices.'
+
+[params.home.blogs]
+  blogs = [
+    { title = 'Latest Reviews', desc = 'Fresh reviews of the latest adult products', weight = 1, link = 'latest' },
+    { title = 'Brand Collections', desc = 'Organized by manufacturer and category', weight = 2, link = 'collections' },
+    { title = 'Top Picks', desc = 'Our best products across all categories', weight = 3, link = 'top-picks' },
+  ]
+
+[params.home.discover]
+  title = ''
+  subtitle = ''
+  description = ''
+
+[params.home.newsletter]
+  title = 'Subscribe to our newsletter'
+  description = 'Get the latest reviews and deals in your inbox'
+  feed = ''
+  subscribe = true
+
+[params.home.pages]
+  pages = [
+    { title = 'About', desc = 'Our mission and values', link = '/about/' },
+    { title = 'Affiliate Disclosure', desc = 'How we make money', link = '/affiliate-disclosure/' },
+    { title = 'Privacy Policy', desc = 'Data protection and GDPR', link = '/privacy/' },
+  ]
+
+[params.home.cta]
+  title = 'Shop Featured Products'
+  description = 'Browse our curated selections'
+  link = 'products/'

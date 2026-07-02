@@ -1,0 +1,38 @@
+{{ define "main" }}
+<article class="container page">
+    <header class="page-header">
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.introduction }}<p>{{ . }}</p>{{ end }}
+    </header>
+
+    <div class="affiliate-disclosure">
+        This comparison is based on public product information, retailer listings, and community feedback. It may contain affiliate links.
+    </div>
+
+    <div class="page-content">
+        {{ .Content }}
+    </div>
+
+    {{ range .Params.comparisons }}
+    <section class="comparison-item">
+        <h2>{{ .title }}</h2>
+        {{ with .introduction }}<p>{{ . }}</p>{{ end }}
+
+        {{ with .table.rows }}
+        <table class="comparison-table">
+            <tbody>
+                {{ range . }}
+                <tr>
+                    <th>{{ .name }}</th>
+                    {{ range $key, $value := . }}
+                        {{ if ne $key "name" }}<td><strong>{{ $key }}:</strong> {{ $value }}</td>{{ end }}
+                    {{ end }}
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
+        {{ end }}
+    </section>
+    {{ end }}
+</article>
+{{ end }}

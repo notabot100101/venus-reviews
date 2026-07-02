@@ -1,0 +1,67 @@
+{{ define "main" }}
+<article class="container page">
+    <header class="page-header">
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.description }}<p>{{ . }}</p>{{ end }}
+    </header>
+
+    {{ if .Params.rating }}
+    <div class="rating" aria-label="Rating">
+        {{ range .Params.rating }}<span class="star {{ if eq . 1 }}filled{{ else }}empty{{ end }}">{{ if eq . 1 }}★{{ else }}☆{{ end }}</span>{{ end }}
+    </div>
+    {{ end }}
+
+    {{ if .Params.specs }}
+    <section class="specs-box">
+        <h2>Key Specs</h2>
+        <dl>
+            {{ range .Params.specs }}
+            <div>
+                <dt>{{ .label }}</dt>
+                <dd>{{ .value }}</dd>
+            </div>
+            {{ end }}
+        </dl>
+    </section>
+    {{ end }}
+
+    {{ if or .Params.pros .Params.cons }}
+    <section class="pros-cons-grid">
+        {{ if .Params.pros }}
+        <div class="pros">
+            <h2>Pros</h2>
+            <ul>{{ range .Params.pros }}<li>{{ . }}</li>{{ end }}</ul>
+        </div>
+        {{ end }}
+        {{ if .Params.cons }}
+        <div class="cons">
+            <h2>Cons</h2>
+            <ul>{{ range .Params.cons }}<li>{{ . }}</li>{{ end }}</ul>
+        </div>
+        {{ end }}
+    </section>
+    {{ end }}
+
+    <div class="affiliate-disclosure">
+        This page may contain affiliate links. We may earn a commission if you buy through them, at no extra cost to you.
+    </div>
+
+    <div class="page-content">
+        {{ .Content }}
+    </div>
+
+    {{ if .Params.affiliate_offers }}
+    <aside class="affiliate-sidebar">
+        <h2>Current Offers</h2>
+        <div class="affiliate-offers">
+            {{ range .Params.affiliate_offers }}
+            <a href="{{ .url }}" class="affiliate-link" target="_blank" rel="nofollow noopener sponsored">
+                <span>{{ .cta_text | default (printf "View at %s" .provider) }}</span>
+                {{ with .price }}<strong>{{ . }}</strong>{{ end }}
+            </a>
+            {{ end }}
+        </div>
+    </aside>
+    {{ end }}
+</article>
+{{ end }}
