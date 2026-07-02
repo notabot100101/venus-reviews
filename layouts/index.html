@@ -10,7 +10,7 @@
         {{ $featured := where .Site.RegularPages "Section" "products" | first 4 }}
         {{ range $featured }}
         <article class="review-card">
-            {{ if .Params.image }}
+            {{ if and .Params.image (fileExists (printf "static/%s" .Params.image)) }}
             <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
             {{ end }}
             <h3>{{ .Title }}</h3>
