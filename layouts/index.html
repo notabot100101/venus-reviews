@@ -1,10 +1,20 @@
 {{ define "main" }}
 <div class="home-hero">
+    <div class="hero-kicker">Independent affiliate research · 18+</div>
     <h1>{{ .Site.Params.home.subtitle }}</h1>
     <p>{{ .Site.Params.home.description }}</p>
+    <div class="hero-actions">
+        <a href="{{ "/products/" | relURL }}" class="btn-primary">View Research Notes</a>
+        <a href="{{ "/affiliate-disclosure/" | relURL }}" class="btn-secondary">How We Make Money</a>
+    </div>
+    <div class="trust-strip">
+        <span>Discreet shipping focus</span>
+        <span>Public-spec comparisons</span>
+        <span>No fake hands-on claims</span>
+    </div>
 </div>
 
-<div class="featured-grid">
+<div class="featured-grid container">
     <h2>Featured Reviews</h2>
     <div class="reviews-grid">
         {{ $featured := where .Site.RegularPages "Section" "products" | first 4 }}
@@ -27,7 +37,7 @@
 </div>
 
 {{ if .Site.Params.home.blogs.blogs }}
-<div class="collections-section">
+<div class="collections-section container">
     {{ range .Site.Params.home.blogs.blogs }}
     <div class="collection-item">
         <h3><a href="{{ index . "link" | relURL }}">{{ index . "title" }}</a></h3>
@@ -38,7 +48,7 @@
 {{ end }}
 
 {{ if .Site.Params.home.pages.pages }}
-<div class="essential-pages">
+<div class="essential-pages container">
     <h2>Essential Information</h2>
     <div class="pages-grid">
         {{ range .Site.Params.home.pages.pages }}
@@ -49,7 +59,7 @@
 {{ end }}
 
 {{ if .Site.Params.home.cta }}
-<div class="cta-section">
+<div class="cta-section container">
     <h3>{{ .Site.Params.home.cta.title }}</h3>
     <p>{{ .Site.Params.home.cta.description }}</p>
     <a href="{{ .Site.Params.home.cta.link | relURL }}" class="btn-primary">{{ .Site.Params.home.cta.title }}</a>

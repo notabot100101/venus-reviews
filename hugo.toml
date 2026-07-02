@@ -1,6 +1,6 @@
 baseURL = 'https://reviews.ultramarine963.com/'
 languageCode = 'en-us'
-title = 'Venus - Adult Product Reviews'
+title = 'Venus Reviews'
 contentDir = 'content/en'
 defaultContentLanguage = 'en'
 
@@ -30,14 +30,14 @@ enableRobotsTXT = true
   favicon = ''
   images = []
   language = 'en'
-  description = 'Research-driven adult wellness product comparisons for the EU market'
-  keywords = 'adult toys, reviews, comparison, sexual wellness, european market, discreet shipping'
-  author = 'Venus Team'
+  description = 'Honest reviews and comparisons of adult wellness products, focused on EU buyers seeking discreet shipping and privacy.'
+  keywords = 'adult toys, reviews, comparison, sexual wellness, discreet shipping, privacy, adult wellness'
+  author = 'Paul - Venus Reviews'
   license = ''
   licenseURL = ''
 
 [params.main]
-  description = 'Honest reviews of adult products for the EU market'
+  description = 'Research-driven adult wellness comparisons for privacy-conscious buyers'
 
 [params.main.profile]
   avatar = 'images/avatar.jpg'
@@ -56,14 +56,14 @@ enableRobotsTXT = true
 
 [params.home]
   title = ''
-  subtitle = 'Adult wellness comparisons for EU buyers'
-  description = 'Research-driven guides, public-spec comparisons, and discreet-shipping notes to help adults make informed choices.'
+  subtitle = 'Independent reviews for privacy-conscious European buyers'
+  description = 'Research-driven comparisons, public-spec summaries, and discreet-shipping notes for adults who want clear information before they buy.'
 
 [params.home.blogs]
   blogs = [
-    { title = 'Latest Reviews', desc = 'Fresh reviews of the latest adult products', weight = 1, link = 'latest' },
-    { title = 'Brand Collections', desc = 'Organized by manufacturer and category', weight = 2, link = 'collections' },
-    { title = 'Top Picks', desc = 'Our best products across all categories', weight = 3, link = 'top-picks' },
+    { title = 'Research Notes', desc = 'Digital-only product pages built from public specs and retailer information', weight = 1, link = 'products/' },
+    { title = 'Comparisons', desc = 'Side-by-side guides for budget, premium, privacy, and delivery concerns', weight = 2, link = 'comparisons/' },
+    { title = 'Disclosure', desc = 'Clear affiliate and editorial standards before any recommendation', weight = 3, link = 'affiliate-disclosure/' },
   ]
 
 [params.home.discover]
@@ -85,6 +85,6 @@ enableRobotsTXT = true
   ]
 
 [params.home.cta]
-  title = 'Shop Featured Products'
-  description = 'Browse our curated selections'
+  title = 'Browse Research Notes'
+  description = 'Start with the current digital-only product and comparison templates.'
   link = 'products/'

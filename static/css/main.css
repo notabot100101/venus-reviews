@@ -1,325 +1,440 @@
-/* Main Styles for Venus Reviews Site */
-
-/* Reset & Base */
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 :root {
-    --primary: #7b2cbf;
-    --primary-dark: #560bad;
-    --secondary: #3c096c;
-    --accent: #f72585;
-    --text: #333;
-    --text-light: #666;
-    --bg: #fafafa;
-    --white: #fff;
-    --border: #eee;
-    --success: #28a745;
-    --warning: #ffc107;
-    --danger: #dc3545;
+    --ink: #231824;
+    --text: #342b35;
+    --muted: #6f6371;
+    --surface: #fffafc;
+    --surface-strong: #ffffff;
+    --line: #eadfe7;
+    --plum: #6f2d67;
+    --plum-dark: #4b1f49;
+    --rose: #c94672;
+    --coral: #e7775f;
+    --teal: #257b77;
+    --gold: #c28a2c;
+    --success: #277a55;
+    --danger: #a9434d;
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-    line-height: 1.6;
+    background: var(--surface);
     color: var(--text);
-    background: var(--bg);
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.65;
+}
+
+a {
+    color: var(--plum);
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1120px;
     margin: 0 auto;
     padding: 0 1rem;
 }
 
-/* Header */
 .site-header {
-    background: var(--white);
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    padding: 1rem 0;
+    background: rgba(255, 250, 252, 0.96);
+    border-bottom: 1px solid var(--line);
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 10;
+    backdrop-filter: blur(10px);
 }
 
 .site-header .container {
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    min-height: 72px;
 }
 
 .site-logo a {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary);
+    color: var(--ink);
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 0;
     text-decoration: none;
+}
+
+.site-logo a::before {
+    color: var(--rose);
+    content: "Venus ";
+}
+
+.site-nav {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-end;
 }
 
 .site-nav a {
-    margin-left: 1.5rem;
-    color: var(--text);
+    color: var(--muted);
+    font-size: 0.95rem;
+    font-weight: 700;
     text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s;
 }
 
 .site-nav a:hover {
-    color: var(--primary);
+    color: var(--plum);
 }
 
-/* Hero Section */
 .home-hero {
-    background: linear-gradient(135deg, var(--primary), var(--accent));
-    color: var(--white);
-    text-align: center;
-    padding: 4rem 0;
-    margin: -1rem -1rem 2rem -1rem;
+    background:
+        linear-gradient(135deg, rgba(35, 24, 36, 0.97), rgba(75, 31, 73, 0.94)),
+        linear-gradient(90deg, var(--plum), var(--teal));
+    color: #fff;
+    padding: 5rem 1rem 3rem;
+}
+
+.home-hero > * {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 980px;
+}
+
+.hero-kicker {
+    color: #f4c7d4;
+    font-size: 0.82rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 .home-hero h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    font-size: clamp(2.2rem, 5vw, 4.75rem);
+    line-height: 1.03;
+    margin-bottom: 1.1rem;
+    max-width: 900px;
 }
 
 .home-hero p {
-    font-size: 1.2rem;
-    opacity: 0.9;
+    color: #f4e9ef;
+    font-size: 1.15rem;
+    max-width: 720px;
 }
 
-/* Reviews Grid */
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    margin-top: 1.6rem;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-review,
+.affiliate-link {
+    align-items: center;
+    border-radius: 6px;
+    display: inline-flex;
+    font-weight: 800;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0.78rem 1rem;
+    text-decoration: none;
+}
+
+.btn-primary,
+.btn-review,
+.affiliate-link {
+    background: var(--rose);
+    color: #fff;
+}
+
+.btn-primary:hover,
+.btn-review:hover,
+.affiliate-link:hover {
+    background: var(--plum);
+}
+
+.btn-secondary {
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    color: #fff;
+}
+
+.trust-strip {
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+}
+
+.trust-strip span {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 999px;
+    color: #fff;
+    font-size: 0.88rem;
+    font-weight: 700;
+    padding: 0.45rem 0.75rem;
+}
+
+.featured-grid,
+.collections-section,
+.essential-pages,
+.cta-section,
+.page {
+    margin-top: 3rem;
+}
+
+.featured-grid h2,
+.essential-pages h2,
+.page-header h1 {
+    color: var(--ink);
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
 .reviews-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1.5rem;
-    margin: 2rem 0;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 }
 
-.review-card {
-    background: var(--white);
+.review-card,
+.collection-item,
+.affiliate-sidebar,
+.specs-box,
+.comparison-item,
+.cta-section {
+    background: var(--surface-strong);
+    border: 1px solid var(--line);
     border-radius: 8px;
-    padding: 1.5rem;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    border: 1px solid var(--border);
+    box-shadow: 0 12px 34px rgba(35, 24, 36, 0.06);
 }
 
-.review-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+.review-card,
+.collection-item,
+.affiliate-sidebar,
+.specs-box,
+.comparison-item {
+    padding: 1.25rem;
 }
 
-.review-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 4px;
-    margin-bottom: 1rem;
+.review-card h2,
+.review-card h3,
+.collection-item h3,
+.comparison-item h2,
+.specs-box h2,
+.affiliate-sidebar h2 {
+    color: var(--ink);
+    font-size: 1.1rem;
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
 }
 
-.review-card h3 {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-    color: var(--primary);
+.review-card p,
+.collection-item p,
+.page-header p {
+    color: var(--muted);
 }
 
-.review-card p {
-    color: var(--text-light);
-    margin-bottom: 1rem;
-}
-
-.btn-review {
-    display: inline-block;
-    background: var(--primary);
-    color: var(--white);
-    padding: 0.75rem 1.5rem;
-    border-radius: 4px;
-    text-decoration: none;
-    font-weight: 500;
-    transition: background 0.3s;
-}
-
-.btn-review:hover {
-    background: var(--primary-dark);
-}
-
-/* Rating */
 .rating {
     display: flex;
-    gap: 2px;
-    margin-bottom: 1rem;
+    gap: 0.2rem;
+    margin: 0.75rem 0;
 }
 
 .star {
-    color: var(--warning);
-    font-size: 0.85rem;
+    color: var(--gold);
+    font-size: 0.95rem;
+}
+
+.star::before {
+    content: "★";
 }
 
 .star.empty {
-    color: var(--border);
+    color: #d7cbd4;
 }
 
-/* Pros & Cons */
+.collections-section,
+.pages-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.collection-item a,
+.page-link {
+    color: var(--plum);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.page-link {
+    background: var(--surface-strong);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    display: block;
+    padding: 1rem;
+}
+
+.cta-section {
+    padding: 1.5rem;
+}
+
+.page {
+    max-width: 880px;
+}
+
+.page-content {
+    margin-top: 1rem;
+}
+
+.page-content h2,
+.page-content h3 {
+    color: var(--ink);
+    margin: 1.6rem 0 0.5rem;
+}
+
+.page-content p,
+.page-content ul,
+.page-content ol {
+    margin-bottom: 1rem;
+}
+
+.page-content ul,
+.page-content ol {
+    padding-left: 1.25rem;
+}
+
+.affiliate-disclosure {
+    background: #fff4d8;
+    border: 1px solid #f0d59b;
+    border-radius: 6px;
+    color: #6a4b13;
+    font-size: 0.92rem;
+    margin: 1rem 0;
+    padding: 0.8rem 1rem;
+}
+
 .pros-cons-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     margin: 1.5rem 0;
 }
 
-.pros, .cons {
+.pros,
+.cons {
+    border-radius: 8px;
     padding: 1rem;
-    border-radius: 4px;
 }
 
 .pros {
-    background: #d4edda;
+    background: #eef8f2;
     border-left: 4px solid var(--success);
 }
 
 .cons {
-    background: #f8d7da;
+    background: #fff0f2;
     border-left: 4px solid var(--danger);
 }
 
-.pros h3, .cons h3 {
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
-}
-
-.pros ul, .cons ul {
+.pros ul,
+.cons ul {
     list-style: none;
+    padding-left: 0;
 }
 
-.pros li, .cons li {
-    padding: 0.25rem 0;
-    font-size: 0.9rem;
+.specs-box dl {
+    display: grid;
+    gap: 0.65rem;
 }
 
-/* Comparison Tables */
+.specs-box dl div {
+    border-bottom: 1px solid var(--line);
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+
+.specs-box dt {
+    color: var(--muted);
+    font-weight: 700;
+}
+
+.specs-box dd {
+    color: var(--ink);
+    font-weight: 800;
+    text-align: right;
+}
+
 .comparison-table {
-    width: 100%;
     border-collapse: collapse;
-    margin: 1rem 0;
+    margin-top: 1rem;
+    width: 100%;
 }
 
 .comparison-table th,
 .comparison-table td {
-    padding: 0.75rem;
+    border-bottom: 1px solid var(--line);
+    padding: 0.8rem;
     text-align: left;
-    border-bottom: 1px solid var(--border);
+    vertical-align: top;
 }
 
 .comparison-table th {
-    background: var(--primary);
-    color: var(--white);
-    font-weight: 600;
+    color: var(--plum);
+    width: 24%;
 }
 
-.comparison-table tr:hover {
-    background: var(--bg);
+.affiliate-offers {
+    display: grid;
+    gap: 0.75rem;
 }
 
-/* Affiliate Sidebar */
-.affiliate-sidebar {
-    background: var(--white);
-    padding: 1.5rem;
-    border-radius: 8px;
-    border: 1px solid var(--border);
-    margin-top: 2rem;
+.affiliate-link {
+    justify-content: space-between;
 }
 
-.affiliate-disclosure {
-    background: var(--warning);
-    padding: 0.75rem;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-    font-size: 0.85rem;
-}
-
-.affiliate-offer {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    border-radius: 4px;
-    background: var(--bg);
-}
-
-.affiliate-offer:last-child {
-    margin-bottom: 0;
-}
-
-.offer-button {
-    flex: 1;
-    display: block;
-    text-align: center;
-    padding: 0.75rem;
-    background: var(--primary);
-    color: var(--white);
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: 600;
-    transition: background 0.3s;
-}
-
-.offer-button:hover {
-    background: var(--primary-dark);
-}
-
-.offer-price {
-    font-weight: 700;
-    color: var(--success);
-}
-
-.offer-discount {
-    background: var(--success);
-    color: var(--white);
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    font-size: 0.8rem;
-    font-weight: 600;
-}
-
-/* Shortcodes */
-{{ if .Site.Params.home.blogs }}
-{{ range .Site.Params.home.blogs }}
-<div class="collection-item">
-    <h3><a href="{{ .link | relURL }}">{{ .title }}</a></h3>
-    <p>{{ .desc }}</p>
-</div>
-{{ end }}
-{{ end }}
-
-/* Footer */
 .site-footer {
-    background: var(--secondary);
-    color: var(--white);
+    background: var(--ink);
+    color: #f5edf3;
+    margin-top: 4rem;
     padding: 2rem 0;
     text-align: center;
-    margin-top: 3rem;
 }
 
 .site-footer a {
-    color: var(--white);
-    text-decoration: underline;
+    color: #f5c1d0;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 720px) {
     .site-header .container {
+        align-items: flex-start;
         flex-direction: column;
-        gap: 1rem;
+        gap: 0.8rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
     }
 
-    .site-nav a {
-        margin: 0.5rem 0.25rem;
+    .site-nav {
+        gap: 0.75rem;
+        justify-content: flex-start;
     }
 
-    .pros-cons-grid {
-        grid-template-columns: 1fr;
+    .home-hero {
+        padding-top: 3.5rem;
+    }
+
+    .specs-box dl div {
+        display: block;
+    }
+
+    .specs-box dd {
+        text-align: left;
     }
 }

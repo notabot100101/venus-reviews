@@ -4,11 +4,11 @@
 # +keywords = "about, mission, values, testing methodology"
 ---
 <div class="about-content">
-    <h1>About Venus</h1>
+    <h1>About Venus Reviews</h1>
     
     <section class="about-mission">
         <h2>Our Mission</h2>
-        <p>Venus exists to provide honest, transparent reviews of adult products for the European market. We test everything from toys to lingerie so you can make informed decisions about your pleasure and wellness.</p>
+        <p>Venus Reviews provides honest, research-driven information about adult wellness products for the European market. We focus on privacy, discreet shipping, and helping buyers make confident decisions.</p>
     </section>
 
     <section class="about-values">
