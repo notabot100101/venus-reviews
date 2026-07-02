@@ -1,0 +1,80 @@
+baseURL = 'https://reviews.ultramarine963.com/'
+languageCode = 'en-us'
+title = 'Venus Reviews | Premium Pleasure Product Reviews'
+theme = 'hugo-theme-hello-friend'
+themePath = 'themes/hugo-theme-hello-friend'
+
+# Site metadata
+description = 'Expert reviews and discreet analysis of premium pleasure products for European customers. Honest, privacy-focused reviews with EU shipping.'
+keywords = ['pleasure products', 'reviews', 'discreet shipping', 'EU customer', 'premium quality', 'buying guide']
+
+# Author
+[author]
+name = 'Venus Reviews Team'
+
+# Privacy/EU focus
+[params]
+  privacyMode = true
+  gdprCompliant = true
+  euShipping = true
+  discreetDelivery = true
+  ageRestriction = '18+'
+  social = { twitter = '', instagram = '', facebook = '' }
+
+# SEO
+[params.seo]
+  images = ['venus-site/static/images/banner.jpg']
+  robotsTXT = 'Allow: /'
+
+# Analytics - optional
+[params.analytics]
+  enabled = false # Set true for Google Analytics
+
+# Theme colors
+[params.theme]
+  primary = '#6B2C91' # deep purple
+  secondary = '#B76E79' # rose gold
+  accent = '#F5F5DC' # cream
+  dark = '#1a1a1a' # elegant black
+  light = '#ffffff'
+  background = '#fafafa'
+
+# Performance
+[build]
+  noJSConfigInHTML = false
+  useResourceCache = true
+
+[taxonomies]
+  product = 'product'
+  category = 'category'
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    weight = 10
+    url = '/'
+    pre = '<i class="fas fa-home"></i>'
+
+  [[menu.main]]
+    name = 'Reviews'
+    weight = 20
+    url = '/products/'
+    pre = '<i class="fas fa-star"></i>'
+
+  [[menu.main]]
+    name = 'Buying Guides'
+    weight = 30
+    url = '/guides/'
+    pre = '<i class="fas fa-compass"></i>'
+
+  [[menu.main]]
+    name = 'Best For'
+    weight = 40
+    url = '/best-for/'
+    pre = '<i class="fas fa-crown"></i>'
+
+  [[menu.main]]
+    name = 'About Us'
+    weight = 50
+    url = '/about/'
+    pre = '<i class="fas fa-info-circle"></i>'

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ block "title" . }}{{ .Title }}{{ end }} - Venus Reviews</title>
+  
+  {{ $css := resources.Get "css/main.css" | minify }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  
+  {{ template "head-extras" . }}
+</head>
+<body>
+  {{ block "nav" . }}{{ partial "nav.html" . }}{{ end }}
+  
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  
+  {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
+  
+  {{ template "foot-extras" . }}
+</body>
+</html>

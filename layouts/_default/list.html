@@ -1,0 +1,30 @@
+{{ define "title" }}{{ .Title }} - Venus Reviews{{ end }}
+
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-content">
+    <h1>{{ .Title }}</h1>
+    <p>Expert reviews and discreet analysis of premium pleasure products</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {{ range .Pages }}
+    <article class="product-card">
+      <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <div class="product-card-meta">
+        {{ if .Params.category }}
+        <span class="meta-badge">{{ .Params.category }}</span>
+        {{ end }}
+        {{ if .Params.rating }}
+        <span class="meta-badge">★ {{ .Params.rating }}/5</span>
+        {{ end }}
+      </div>
+      <p class="product-card-desc">{{ .Summary }}</p>
+      <a href="{{ .Permalink }}" class="btn btn-outline btn-sm">Read Review</a>
+    </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

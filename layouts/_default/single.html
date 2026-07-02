@@ -1,0 +1,96 @@
+{{ define "title" }}{{ .Title }} - Venus Reviews{{ end }}
+
+{{ define "main" }}
+<article class="product-page">
+  {{ partial "page-header.html" . }}
+  
+  <div class="container" style="display: grid; grid-template-columns: 2fr 1fr; gap: var(--space-2xl);">
+    <div class="product-main">
+      {{ if .Params.image }}
+      <img src="{{ .Params.image }}" alt="{{ .Title }}" class="product-card-image" style="height: 400px;">
+      {{ end }}
+      
+      <h1>{{ .Title }}</h1>
+      
+      <div class="product-card-meta">
+        {{ if .Params.category }}
+        <span class="meta-badge">{{ .Params.category }}</span>
+        {{ end }}
+        {{ if .Params.rating }}
+        <span class="meta-badge">★ {{ .Params.rating }}/5</span>
+        {{ end }}
+        {{ if .Params.shipping }}
+        <span class="meta-badge" style="background: var(--color-primary); color: white;">{{ .Params.shipping }}</span>
+        {{ end }}
+      </div>
+      
+      <p class="product-card-desc">{{ .Content }}</p>
+      
+      {{ if .Params.pros }}
+      <h3>Pros</h3>
+      <ul class="pros-list">
+        {{ range .Params.pros }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+      {{ end }}
+      
+      {{ if .Params.cons }}
+      <h3>Cons</h3>
+      <ul class="cons-list">
+        {{ range .Params.cons }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+      {{ end }}
+      
+      {{ if .Params.specs }}
+      <h3>Specifications</h3>
+      <table class="comparison-table">
+        {{ range .Params.specs }}
+        <tr>
+          <th>{{ .label }}</th>
+          <td>{{ .value }}</td>
+        </tr>
+        {{ end }}
+      </table>
+      {{ end }}
+      
+      {{ if .Params.comparison }}
+      <h3>Comparison</h3>
+      {{ .Params.comparison | safeHTML }}
+      {{ end }}
+      
+      {{ if .Params.verdict }}
+      <h3>Verdict</h3>
+      <div style="background: var(--color-accent); padding: var(--space-lg); border-radius: 12px; margin-top: var(--space-md);">
+        {{ .Params.verdict }}
+      </div>
+      {{ end }}
+      
+      <div style="margin-top: var(--space-xl);">
+        <a href="https://amzn.to/{{ .Params.affiliateLink }}" class="btn btn-primary" target="_blank" rel="nofollow">Check Price on Amazon</a>
+      </div>
+    </div>
+    
+    <aside class="sidebar">
+      {{ if .Params.buyingGuide }}
+      <h4>Buying Guide</h4>
+      <div class="sidebar-content">{{ .Params.buyingGuide }}</div>
+      {{ end }}
+      
+      {{ if .Params.trustBadges }}
+      <h4>Why Trust Us</h4>
+      <div class="trust-badges">
+        {{ .Params.trustBadges }}
+      </div>
+      {{ end }}
+      
+      <div class="sidebar-content" style="margin-top: var(--space-lg);">
+        <strong>Privacy Promise:</strong><br>
+        We only review products we've personally tested. All reviews are honest and unbiased. We use discreet packaging and respect your privacy.
+      </div>
+    </aside>
+  </div>
+</article>
+{{ end }}
