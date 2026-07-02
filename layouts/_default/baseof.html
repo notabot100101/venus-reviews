@@ -8,6 +8,9 @@
   {{ $css := resources.Get "css/main.css" | minify }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
   
+  <!-- Dark Rose Theme -->
+  <link rel="stylesheet" href="/static/css/theme-dark-rose.css">
+  
   {{ template "head-extras" . }}
 </head>
 <body>
@@ -20,5 +23,8 @@
   {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
   
   {{ template "foot-extras" . }}
+  
+  <!-- Theme Switcher -->
+  <script src="/static/css/theme-switcher.js"></script>
 </body>
 </html>
