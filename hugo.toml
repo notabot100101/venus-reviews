@@ -1,0 +1,111 @@
+baseURL = 'https://reviews.ultramarine963.com/'
+languageCode = 'en-us'
+title = 'Venus Reviews | Premium Pleasure Product Reviews'
+theme = 'hugo-theme-hello-friend'
+themePath = 'themes/hugo-theme-hello-friend'
+
+defaultContentLanguageInSubdir = false
+
+# Site metadata - US/GLOBAL FOCUS
+description = 'Expert reviews and discreet analysis of premium pleasure products for US and global customers. Honest, privacy-focused reviews with US shipping.'
+keywords = ['pleasure products', 'reviews', 'discreet shipping', 'US shipping', 'premium quality', 'buying guide']
+
+# Author
+[author]
+name = 'Venus Reviews Team'
+
+# Privacy/US focus (FTC compliance, not GDPR)
+[params]
+  privacyMode = true
+  gdprCompliant = false
+  euShipping = false
+  usShipping = true
+  discreetDelivery = true
+  ageRestriction = '18+'
+  supportUS = true
+  social = { twitter = '', instagram = '', facebook = '' }
+
+# Theme toggle - enable CSS variables for light/dark mode
+[params.themeToggle]
+  enabled = true
+  localStorageKey = 'venus-theme-preference'
+  defaultTheme = 'dark'
+  themes = [
+    { name = 'dark', css = 'css/theme-dark-blue.css' },
+    { name = 'light', css = 'css/theme-light.css' },
+    { name = 'rose', css = 'css/theme-dark-rose.css' },
+    { name = 'green', css = 'css/theme-dark-green.css' }
+  ]
+  
+# Theme colors with CSS variable support
+[params.theme.colors]
+  primary = '#6B2C91'     # deep purple - --bg-primary
+  secondary = '#B76E79'   # rose gold - --accent-primary  
+  accent = '#F5F5DC'      # cream - --text-secondary
+  dark = '#1a1a1a'        # elegant black - --bg-dark
+  light = '#f8f8f8'       # off-white - --bg-light
+  darkBg = '#0f0f0f'      # darker base - --bg-primary
+  lightBg = '#ffffff'     # light base - --bg-secondary
+  
+# CSS variables definition
+[params.theme.variables]
+  --bg-primary = '#0f0f0f'
+  --bg-secondary = '#1a1a1a'
+  --bg-tertiary = '#2a2a2a'
+  --text-primary = '#ffffff'
+  --text-secondary = '#b0b0b0'
+  --accent-primary = '#B76E79'
+  --accent-secondary = '#6B2C91'
+  --border-color = '#3a3a3a'
+  --success = '#4CAF50'
+  --warning = '#FF9800'
+  --error = '#f44336'
+
+# SEO - US focus
+[params.seo]
+  images = ['static/images/hero-banner.png']
+  robotsTXT = 'Allow: /'
+
+# Analytics - optional
+[params.analytics]
+  enabled = false # Set true for Google Analytics
+
+# Performance
+[build]
+  noJSConfigInHTML = false
+  useResourceCache = true
+
+[taxonomies]
+  product = 'product'
+  category = 'category'
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    weight = 10
+    url = '/'
+    pre = '<i class="fas fa-home"></i>'
+
+  [[menu.main]]
+    name = 'Reviews'
+    weight = 20
+    url = '/products/'
+    pre = '<i class="fas fa-star"></i>'
+
+  [[menu.main]]
+    name = 'Best For'
+    weight = 40
+    url = '/best-for/'
+    pre = '<i class="fas fa-crown"></i>'
+
+  [[menu.main]]
+    name = 'About Us'
+    weight = 50
+    url = '/about/'
+    pre = '<i class="fas fa-info-circle"></i>'
+
+  [[menu.main]]
+    name = 'Support'
+    weight = 60
+    url = '/contact/'
+    pre = '<i class="fas fa-headset"></i>'
