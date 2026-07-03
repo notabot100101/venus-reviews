@@ -4,7 +4,7 @@
 	<meta name="generator" content="Hugo">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Venus Reviews | Premium Pleasure Product Reviews - Venus Reviews | Premium Pleasure Product Reviews</title>
+  <title>Home - Venus Reviews | Premium Pleasure Product Reviews</title>
   
   <link rel="stylesheet" href="/css/main.css">
   
@@ -32,36 +32,103 @@
       <p>We provide independent, discreet, and transparent reviews of premium pleasure products from US-based experts. Our reviews help you make informed decisions with complete privacy and authenticity.</p>
       <a href="/products/" class="btn btn-primary">Browse Products</a>
     </div>
-    <img src="/images/hero-banner.png" alt="Venus Reviews Hero Banner" class="hero-image" />
+    <img src="/images/hero-banner.jpg" alt="Venus Reviews Hero Banner" class="hero-image" />
   </section>
 
-  <main>
-    
-  
-  
+  <section class="section featured-products-section">
+    <h2 class="section-title">Featured Products</h2>
+    <div class="products-grid">
+      <!-- Featured Product 1: Womanizer 2 -->
+      <div class="product-card">
+        <img src="/images/products/product-womanizer.jpg" alt="Womanizer 2" class="product-card-image" />
+        <h3 class="product-card-title">Womanizer 2</h3>
+        <p class="product-card-desc">Experience revolutionary air pulse technology</p>
+        <div class="product-card-meta">
+          <span class="meta-badge">Premium</span>
+          <span class="meta-badge">Innovation</span>
+        </div>
+        <a href="/products/womanizer-2/" class="btn btn-primary">Read Review</a>
+      </div>
 
-  
-  
-    
-  
-  
+      <!-- Featured Product 2: Bvee Rabbit -->
+      <div class="product-card">
+        <img src="/images/products/product-bvee-rabbit.jpg" alt="Bvee Rabbit" class="product-card-image" />
+        <h3 class="product-card-title">Bvee Rabbit</h3>
+        <p class="product-card-desc">The industry-standard with versatile features</p>
+        <div class="product-card-meta">
+          <span class="meta-badge">Classic</span>
+          <span class="meta-badge">Versatile</span>
+        </div>
+        <a href="/products/bvee-rabbit/" class="btn btn-primary">Read Review</a>
+      </div>
 
-  
+      <!-- Featured Product 3: Lelo Mona -->
+      <div class="product-card">
+        <img src="/images/products/product-lelo-mona.jpg" alt="Lelo Mona" class="product-card-image" />
+        <h3 class="product-card-title">Lelo Mona</h3>
+        <p class="product-card-desc">Swiss-engineered luxury and discretion</p>
+        <div class="product-card-meta">
+          <span class="meta-badge">Luxury</span>
+          <span class="meta-badge">Quiet</span>
+        </div>
+        <a href="/products/lelo-mona/" class="btn btn-primary">Read Review</a>
+      </div>
+    </div>
 
-  <div class="posts">
-    
-    <div class="pagination">
-  <div class="pagination__buttons">
-    
-    
-  </div>
-</div>
+    <div class="cta-button-container">
+      <a href="/products/all/" class="btn btn-secondary">Shop All Products</a>
+    </div>
+  </section>
 
-  </div>
+  <section class="section newsletter-section">
+    <h2 class="section-title">Stay Updated</h2>
+    <p class="section-header p">Subscribe to our newsletter for exclusive reviews, buying guides, and early access to new content.</p>
+    
+    <div class="newsletter">
+      <div class="newsletter-content">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get the latest reviews, buying guides, and special offers delivered to your inbox. We respect your privacy and won't share your email.</p>
+        
+        <form class="newsletter-form" action="/newsletter/subscribe/" method="post" onsubmit="return validateNewsletterForm(event)">
+          <input type="email" name="email" class="newsletter-input" placeholder="Enter your email address" required />
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+          <div class="newsletter-privacy">
+            <input type="checkbox" id="privacy-check" required />
+            <label for="privacy-check" style="display: inline;">I agree to receive emails and accept our <a href="/privacy/">Privacy Policy</a></label>
+          </div>
+        </form>
+        
+        <div class="newsletter-success" style="display: none; color: #4CAF50; margin-top: 1rem;">
+          Thank you for subscribing! Check your email for a confirmation message.
+        </div>
+      </div>
+    </div>
+  </section>
 
-  
-  </main>
-  
+  <section class="section trust-section">
+    <div class="container">
+      <h2 class="section-title">Why Trust Venus Reviews?</h2>
+      <div class="privacy-grid">
+        <div class="privacy-item">
+          <h5>Independent Testing</h5>
+          <p>All products are thoroughly tested by our expert team before review</p>
+        </div>
+        <div class="privacy-item">
+          <h5>Honest Pros & Cons</h5>
+          <p>We share both the strengths and weaknesses of every product</p>
+        </div>
+        <div class="privacy-item">
+          <h5>Transparency</h5>
+          <p>We disclose affiliate relationships and maintain editorial independence</p>
+        </div>
+        <div class="privacy-item">
+          <h5>Privacy-Focused</h5>
+          <p>Your data is protected. We use discreet packaging and secure practices</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <footer class="footer">
   <div class="container">
     <div class="footer-content">
@@ -101,7 +168,28 @@
   </div>
 </footer>
 
-  
   <script src="/static/css/theme-switcher.js"></script>
+  <script>
+    function validateNewsletterForm(event) {
+      const email = event.target.email.value;
+      const privacyCheck = event.target.privacyCheck.checked;
+      
+      if (!email || !email.includes('@')) {
+        alert('Please enter a valid email address.');
+        return false;
+      }
+      
+      if (!privacyCheck) {
+        alert('You must agree to receive emails and accept our Privacy Policy.');
+        return false;
+      }
+      
+      // Simulate subscription
+      event.target.style.display = 'none';
+      document.querySelector('.newsletter-success').style.display = 'block';
+      
+      return true;
+    }
+  </script>
 </body>
 </html>
