@@ -8,8 +8,7 @@
   
   <link rel="stylesheet" href="/css/main.css">
   
-  <link rel="stylesheet" href="/static/css/theme-dark-rose.css">
-  
+  <link rel="stylesheet" href="/static/css/theme-blue-purple.css" id="theme-css">
   <meta name='impact-site-verification' value='2e3f574f-69bd-45e4-8e7f-ea8a050e73bf'>
 </head>
 <body>
@@ -23,6 +22,7 @@
       <li><a href="/best-for/">Best For</a></li>
       <li><a href="/about/">About</a></li>
     </ul>
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">🎨 Blue</button>
   </div>
 </nav>
 
@@ -168,7 +168,7 @@
   </div>
 </footer>
 
-  <script src="/static/css/theme-switcher.js"></script>
+  <script src="/static/js/theme-toggle.js"></script>
   <script>
     function validateNewsletterForm(event) {
       const email = event.target.email.value;
