@@ -1,0 +1,19 @@
+/* Trust Badges - Venus Reviews */
+.trust-badges img {
+  height: 35px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.trust-badges img:last-child {
+  margin-right: 0;
+}
+
+/* Trust badges container */
+.trust-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
