@@ -5,13 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ block "title" . }}{{ .Title }}{{ end }} - Venus Reviews</title>
   
-  {{ $css := resources.Get "css/main.css" | minify }}
-  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  <link rel="stylesheet" href="/css/main.css">
   
   <!-- Dark Rose Theme -->
   <link rel="stylesheet" href="/static/css/theme-dark-rose.css">
   
-  {{ template "head-extras" . }}
+  {{ block "head-extras" . }}{{ end }}
 </head>
 <body>
   {{ block "nav" . }}{{ partial "nav.html" . }}{{ end }}
@@ -22,7 +21,7 @@
   
   {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}
   
-  {{ template "foot-extras" . }}
+  {{ block "foot-extras" . }}{{ end }}
   
   <!-- Theme Switcher -->
   <script src="/static/css/theme-switcher.js"></script>

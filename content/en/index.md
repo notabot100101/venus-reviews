@@ -8,7 +8,7 @@ layout: "single"
     <section class="hero">
       <div class="hero-content">
         <h1>Venus Reviews</h1>
-        <p>Your trusted source for premium pleasure product reviews and buying guides. EU-focused, privacy-respecting, and always honest.</p>
+        <p>Your trusted source for premium pleasure product reviews and buying guides. US-based, privacy-respecting, and always honest.</p>
         <div style="margin-top: var(--space-xl);">
           <a href="/products/" class="btn btn-secondary">Browse Reviews</a>
           <a href="/guides/" class="btn btn-outline" style="margin-left: var(--space-md); border-color: white; color: white;">Read Guides</a>
@@ -28,7 +28,7 @@ layout: "single"
             <h2><a href="/products/womanizer-2-original/">Womanizer 2 (Original)</a></h2>
             <p class="product-card-desc">Revolutionary air pulse technology delivers painless, realistic sensations. Premium build with 2-year warranty.</p>
             <div class="product-card-meta">
-              <span class="meta-badge">★★★★★</span>
+              <span class="meta-badge">★★★☆☆</span>
               <span class="meta-badge">Air Pulse</span>
             </div>
             <a href="/products/womanizer-2-original/" class="btn btn-outline btn-sm">Review</a>
@@ -38,7 +38,7 @@ layout: "single"
             <h2><a href="/products/bvee-original-rabbit/">Bvee Original Rabbit</a></h2>
             <p class="product-card-desc">Industry-standard rabbit vibrator with remote control and 6-hour battery. Perfect value and versatility.</p>
             <div class="product-card-meta">
-              <span class="meta-badge">★★★★½</span>
+              <span class="meta-badge">★★★☆☆</span>
               <span class="meta-badge">Remote Control</span>
             </div>
             <a href="/products/bvee-original-rabbit/" class="btn btn-outline btn-sm">Review</a>
@@ -48,7 +48,7 @@ layout: "single"
             <h2><a href="/products/lelo-mona/">Lelo Mona</a></h2>
             <p class="product-card-desc">Premium rabbit vibrator with whisper-quiet steel motor and luxury silicone. Swiss engineering at its finest.</p>
             <div class="product-card-meta">
-              <span class="meta-badge">★★★★½</span>
+              <span class="meta-badge">★★★★☆</span>
               <span class="meta-badge">Premium</span>
             </div>
             <a href="/products/lelo-mona/" class="btn btn-outline btn-sm">Review</a>
@@ -67,8 +67,8 @@ layout: "single"
         <div class="privacy-grid">
           <div class="privacy-item">
             <i class="fas fa-shield-alt"></i>
-            <h5>GDPR Compliant</h5>
-            <p>Full EU data protection standards. Your privacy is non-negotiable.</p>
+            <h5>Industry-Leading Privacy</h5>
+            <p>We follow strict privacy standards. Your data security is non-negotiable.</p>
           </div>
           
           <div class="privacy-item">
@@ -108,7 +108,7 @@ layout: "single"
       <div class="container">
         <div class="section-header">
           <h2>Why Trust Us</h2>
-          <p>We've been reviewing pleasure products for over a decade, helping European customers make informed decisions.</p>
+          <p>We've been reviewing pleasure products for over a decade, helping customers make informed decisions.</p>
         </div>
         
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-xl);">

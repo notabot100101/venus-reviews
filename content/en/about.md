@@ -7,7 +7,7 @@ layout: "single"
   <div class="container">
     <h1>About Venus Reviews</h1>
     
-    <p>Welcome to Venus Reviews, your trusted source for honest, comprehensive pleasure product reviews. Based in the EU and serving European customers since 2014, we've helped thousands of people make informed decisions about their intimate lives.</p>
+    <p>Welcome to Venus Reviews, your trusted source for honest, comprehensive pleasure product reviews. Based in the US and serving customers globally since 2014, we've helped thousands of people make informed decisions about their intimate lives.</p>
     
     <h2>Our Mission</h2>
     <p>We exist to fill a gap in the pleasure product review space. Too many marketing-driven sites promise everything but deliver nothing. We test products ourselves, report real findings, and never sugarcoat our assessments.</p>
@@ -17,8 +17,8 @@ layout: "single"
     <h3>Real-World Testing</h3>
     <p>We don't just look at spec sheets. We use every product we review for weeks, exploring all features, testing durability, checking battery life, and comparing performance against similar products.</p>
     
-    <h3>EU Focus</h3>
-    <p>We understand European customers' specific needs: discreet shipping, EU voltage compatibility, GDPR compliance, and privacy protection. Every product we recommend meets EU safety standards and ships with local adapters.</p>
+    <h3>Global Focus</h3>
+    <p>We understand customers' specific needs: discreet shipping, local voltage compatibility, privacy protection, and quality assurance. Every product we recommend meets strict safety standards and ships with care from our US fulfillment center.</p>
     
     <h3>Transparency</h3>
     <p>We disclose all affiliate relationships. If we earn a commission from a purchase, it's clearly stated. Our reviews remain unbiased—recommendations are based on performance, not marketing dollars.</p>
@@ -26,7 +26,7 @@ layout: "single"
     <h2>Our Values</h2>
     
     <ul>
-      <li><strong>Privacy:</strong> Your personal data is protected. We comply with GDPR and never share information without consent.</li>
+      <li><strong>Privacy:</strong> Your personal data is protected. We follow industry-leading privacy standards and never share information without consent.</li>
       <li><strong>Honesty:</strong> Good products get positive reviews. Bad products get negative ones. We don't hide shortcomings.</li>
       <li><strong>Education:</strong> We teach you what features matter, what to avoid, and how to choose wisely.</li>
       <li><strong>Discretion:</strong> Your purchases are private. Our packaging is unmarked. Your data is secure.</li>
