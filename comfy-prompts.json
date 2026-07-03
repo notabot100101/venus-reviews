@@ -1,0 +1,18 @@
+{
+  "womanizer": {
+    "prompt": "Product photography of Womanizer 2 pleasure device on pure white background. Device ONLY. NO HANDS NO PEOPLE NO FACES no human elements, product isolated on background, studio lighting, commercial product shot",
+    "negative_prompt": "people faces hands body parts humans hands arms legs feet skin",
+    "steps": 30,
+    "cfg_scale": 7,
+    "width": 600,
+    "height": 600
+  },
+  "bvee": {
+    "prompt": "Product photography of purple silicone rabbit vibe on soft gradient background. Device ONLY. NO HANDS NO PEOPLE NO FACES no human elements, isolated product, studio lighting, commercial photography",
+    "negative_prompt": "people faces hands body parts humans hands arms legs feet skin",
+    "steps": 30,
+    "cfg_scale": 7,
+    "width": 600,
+    "height": 600
+  }
+}
