@@ -376,11 +376,13 @@ a:hover {
 
 .product-card-image {
   width: 100%;
+  max-width: 280px;
   height: 250px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 12px;
-  margin-bottom: var(--space-lg);
+  margin: 0 auto var(--space-lg) auto;
   background: var(--color-background);
+  display: block;
 }
 
 .product-card-title {
@@ -402,7 +404,18 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-sm);
-  margin-bottom: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+/* CTA Button Container - Centered with spacing */
+.cta-button-container {
+  text-align: center;
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-xl);
+}
+
+.cta-button-container .btn {
+  margin: var(--space-sm) var(--space-md);
 }
 
 .meta-badge {
@@ -463,8 +476,11 @@ a:hover {
    ============================================ */
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: var(--space-xl);
+  justify-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 /* ============================================
