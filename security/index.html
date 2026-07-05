@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Security - Venus Reviews | Trust & Safety</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/static/css/theme-dark-rose.css">
+  <style>
+    /* Security page specific styles */
+    .security-container {
+      background: var(--color-surface);
+      padding: var(--space-3xl) var(--space-xl);
+      border-radius: 16px;
+      box-shadow: var(--shadow-md);
+      border: 1px solid rgba(255, 107, 157, 0.1);
+    }
+    
+    .security-title {
+      color: var(--color-text);
+      font-size: 2rem;
+      margin-bottom: var(--space-lg);
+      text-align: center;
+    }
+    
+    .security-intro {
+      color: var(--color-text-light);
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto var(--space-3xl);
+      line-height: 1.8;
+    }
+    
+    .security-features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: var(--space-xl);
+      margin-top: var(--space-2xl);
+    }
+    
+    .security-feature {
+      background: var(--color-dark);
+      padding: var(--space-xl);
+      border-radius: 12px;
+      text-align: center;
+      border: 1px solid rgba(255, 107, 157, 0.1);
+      transition: all var(--transition-base);
+    }
+    
+    .security-feature:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+    }
+    
+    .security-feature-icon {
+      font-size: 3rem;
+      margin-bottom: var(--space-md);
+    }
+    
+    .security-feature h3 {
+      color: var(--color-primary);
+      font-size: 1.25rem;
+      margin-bottom: var(--space-sm);
+    }
+    
+    .security-feature p {
+      color: var(--color-text-light);
+      font-size: 0.9375rem;
+      line-height: 1.6;
+      margin: 0;
+    }
+    
+    .ssl-badge {
+      text-align: center;
+      padding: var(--space-xl);
+      background: linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%);
+      color: white;
+      border-radius: 12px;
+      margin-top: var(--space-2xl);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--space-md);
+    }
+    
+    .ssl-badge h3 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    
+    .ssl-badge p {
+      margin: 0;
+      opacity: 0.9;
+    }
+    
+    .badges-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: var(--space-lg);
+      margin-top: var(--space-3xl);
+    }
+    
+    .badge-item {
+      text-align: center;
+      padding: var(--space-lg);
+      background: var(--color-dark);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 107, 157, 0.1);
+    }
+    
+    .badge-item img {
+      max-width: 120px;
+      height: auto;
+      margin-bottom: var(--space-sm);
+    }
+    
+    .badge-item p {
+      color: var(--color-text);
+      font-size: 0.875rem;
+      margin: 0;
+    }
+    
+    .disclaimer-box {
+      background: rgba(255, 107, 157, 0.1);
+      border: 1px solid rgba(255, 107, 157, 0.2);
+      border-radius: 12px;
+      padding: var(--space-xl);
+      margin-top: var(--space-2xl);
+      text-align: center;
+    }
+    
+    .disclaimer-box p {
+      color: var(--color-text-light);
+      font-size: 0.875rem;
+      margin: 0;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="nav-content">
+      <a href="/" class="nav-brand">Venus<span>Reviews</span></a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/products/">Reviews</a></li>
+        <li><a href="/guides/">Buying Guides</a></li>
+        <li><a href="/best-for/">Best For</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container" style="padding: 4rem 0;">
+    <div class="page-header">
+      <h1 style="color: var(--color-text);">Security & Privacy</h1>
+      <p style="color: var(--color-text-light); margin: 0;">Your trust and safety are our top priorities</p>
+    </div>
+
+    <section class="section">
+      <div class="security-container">
+        <h2 class="security-title">Bank-Grade Security Measures</h2>
+        <p class="security-intro">
+          At Venus Reviews, we take your privacy and security seriously. We employ industry-standard security protocols to protect your personal information and ensure your data remains safe and confidential. Our commitment to security extends beyond just encryption — we've designed our entire platform with your trust in mind.
+        </p>
+
+        <div class="security-features">
+          <div class="security-feature">
+            <div class="security-feature-icon">🔒</div>
+            <h3>SSL Encryption</h3>
+            <p>All data transmitted between your browser and our servers is encrypted using 256-bit SSL encryption, the same standard used by banks and financial institutions worldwide.</p>
+          </div>
+          
+          <div class="security-feature">
+            <div class="security-feature-icon">🛡️</div>
+            <h3>Data Protection</h3>
+            <p>Your personal information is never sold or shared with third parties. We implement strict data retention policies and regularly audit our security practices.</p>
+          </div>
+          
+          <div class="security-feature">
+            <div class="security-feature-icon">👤</div>
+            <h3>Privacy First</h3>
+            <p>We respect your privacy. Our platform is designed with privacy by default, with clear policies on how your data is collected, used, and protected.</p>
+          </div>
+          
+          <div class="security-feature">
+            <div class="security-feature-icon">🔐</div>
+            <h3>Secure Payments</h3>
+            <p>All transactions are processed through PCI-DSS compliant payment gateways. We never store your full credit card information on our servers.</p>
+          </div>
+          
+          <div class="security-feature">
+            <div class="security-feature-icon">🔄</div>
+            <h3>Regular Updates</h3>
+            <p>Our security systems are updated regularly to protect against emerging threats and vulnerabilities in the digital landscape.</p>
+          </div>
+          
+          <div class="security-feature">
+            <div class="security-feature-icon">📋</div>
+            <h3>Transparency</h3>
+            <p>We maintain a comprehensive privacy policy and security practices page, providing full transparency about how we handle your information.</p>
+          </div>
+        </div>
+
+        <div class="ssl-badge">
+          <span style="font-size: 3rem;">🔒</span>
+          <h3>256-bit SSL Encryption</h3>
+          <p>Every connection is secured with industry-standard encryption</p>
+        </div>
+
+        <div class="badges-grid">
+          <div class="badge-item">
+            <img src="/trust-badges/secure-checkout.svg" alt="Secure Checkout" />
+            <p>Secure Checkout</p>
+          </div>
+          
+          <div class="badge-item">
+            <img src="/trust-badges/privacy-protected.svg" alt="Privacy Protected" />
+            <p>Privacy Protected</p>
+          </div>
+          
+          <div class="badge-item">
+            <img src="/trust-badges/18-plus.svg" alt="Age Verified" />
+            <p>Age Verified</p>
+          </div>
+        </div>
+
+        <div class="disclaimer-box">
+          <p>
+            <strong>Security Commitment:</strong> We continuously monitor our systems for potential threats and employ automated security tools alongside our security team. In the unlikely event of a security incident, we have established procedures to notify affected users promptly and take corrective action.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Venus Reviews</h3>
+          <p style="color: rgba(255, 255, 255, 0.7); line-height: 1.7;">
+            Expert reviews and discreet analysis of premium pleasure products for US and global customers. Honest, privacy-focused reviews with US shipping.
+          </p>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <a href="/products/">Product Reviews</a>
+          <a href="/guides/">Buying Guides</a>
+          <a href="/best-for/">Best For</a>
+          <a href="/about/">About Us</a>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Our Promise</h3>
+          <a href="/privacy/">Privacy Compliant</a>
+          <a href="/shipping/">Discreet Shipping</a>
+          <a href="/security/">Secure Transactions</a>
+        </div>
+        
+        <div class="footer-section">
+          <h3>Independent Review</h3>
+          <p style="color: rgba(255, 255, 255, 0.7);">Our reviews are conducted independently. We disclose all affiliate relationships and maintain complete editorial independence.</p>
+          <span class="independent-review-badge" style="display: inline-block; background: var(--color-secondary); color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; margin-top: 0.5rem;">Independent Review</span>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Venus Reviews. All rights reserved. | 18&#43;+ Content | Privacy Compliant</p>
+        <p style="font-size: 0.8rem; margin-top: var(--space-xs);">Discreet US shipping available • Secure payment processing • 24/7 customer support</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
