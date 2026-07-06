@@ -114,11 +114,6 @@ body.theme-light input[type="email"]::placeholder {
   color: #999;
 }
 
-body.theme-light .meta-badge {
-  color: var(--text-primary);
-  background-color: var(--bg-tertiary);
-}
-
 body.theme-light .hero {
   background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
 }
