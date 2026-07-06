@@ -419,14 +419,15 @@ a:hover {
 }
 
 .meta-badge {
-  background: var(--color-accent);
-  color: var(--color-dark);
+  background: rgba(255, 107, 157, 0.2);
+  color: #ff6b9d;
   padding: var(--space-xs) var(--space-sm);
   border-radius: 20px;
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  border: 1px solid rgba(255, 107, 157, 0.3);
 }
 
 .product-card-price {
@@ -451,15 +452,15 @@ a:hover {
   display: inline-flex;
   align-items: center;
   gap: var(--space-xs);
-  background: var(--color-light);
+  background: rgba(255, 107, 157, 0.15);
   padding: var(--space-sm) var(--space-md);
   border-radius: 8px;
   box-shadow: var(--shadow-sm);
-  border: 1px solid rgba(107, 44, 145, 0.1);
+  border: 1px solid rgba(255, 107, 157, 0.25);
   margin-right: var(--space-sm);
   margin-bottom: var(--space-sm);
   font-size: 0.8125rem;
-  color: var(--color-dark);
+  color: var(--color-text);
 }
 
 .trust-badge i {

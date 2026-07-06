@@ -33,12 +33,22 @@
             text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
         }
         
+        /* Hero image container */
+        .hero-image-container {
+            background: #2d2437;
+            border-radius: 16px;
+            padding: 0.5rem;
+            margin: 2rem auto 0;
+            max-width: 80%;
+            display: inline-block;
+        }
+        
         /* Hero image layout */
         .hero-image {
-            max-width: 90%;
+            max-width: 100%;
             height: auto;
-            margin: 2rem auto 0;
-            border-radius: 16px;
+            border-radius: 12px;
+            display: block;
             box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         }
         
@@ -91,7 +101,9 @@
                 <a href="/products/" class="btn btn-primary" style="padding: 1rem 2rem; font-size: 1.05rem;">Browse Products</a>
             </div>
         </div>
-        <img src="/images/hero-banner.jpg" alt="Venus Reviews Hero Banner" class="hero-image" style="max-width: 80%; width: 100%; height: auto; margin-top: 2rem; border-radius: 12px;" />
+        <div class="hero-image-container">
+            <img src="/images/hero-banner.jpg" alt="Venus Reviews Hero Banner" class="hero-image" />
+        </div>
     </section>
 
     <section class="section featured-products-section">
