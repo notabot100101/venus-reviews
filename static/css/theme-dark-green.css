@@ -388,17 +388,6 @@ a:hover {
   margin-bottom: var(--space-md);
 }
 
-.meta-badge {
-  background: var(--color-accent);
-  color: var(--color-text);
-  padding: var(--space-xs) var(--space-sm);
-  border-radius: 20px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-}
-
 .product-card-price {
   font-family: var(--font-heading);
   font-size: 1.75rem;
@@ -412,33 +401,6 @@ a:hover {
   font-family: var(--font-secondary);
   text-decoration: line-through;
   margin-right: var(--space-md);
-}
-
-/* ============================================
-   Trust Badges
-   ============================================ */
-.trust-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-xs);
-  background: var(--color-accent);
-  padding: var(--space-sm) var(--space-md);
-  border-radius: 8px;
-  box-shadow: var(--shadow-sm);
-  border: 1px solid rgba(57, 255, 20, 0.15);
-  margin-right: var(--space-sm);
-  margin-bottom: var(--space-sm);
-  font-size: 0.8125rem;
-  color: var(--color-text);
-}
-
-.trust-badge i {
-  color: var(--color-primary);
-  font-size: 1.125rem;
-}
-
-.trust-badge a {
-  color: inherit;
 }
 
 /* ============================================
