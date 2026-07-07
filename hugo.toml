@@ -75,9 +75,10 @@ name = 'Venus Reviews Team'
   noJSConfigInHTML = false
   useResourceCache = true
 
-[taxonomies]
-  product = 'product'
-  category = 'category'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [menu]
   [[menu.main]]

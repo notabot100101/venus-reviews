@@ -1,6 +1,41 @@
 {{ define "main" }}
+<section class="hero page-hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</section>
+
 <section class="section">
-  <h1>{{ .Title }}</h1>
-  <p>{{ .Content }}</p>
+  <div class="container">
+    {{ with .Content }}
+    <div class="content intro-content">
+      {{ . }}
+    </div>
+    {{ end }}
+
+    {{ if .Pages }}
+    <div class="products-grid compact-grid">
+      {{ range .Pages.ByTitle }}
+      <article class="product-card">
+        <h2 class="product-card-title">{{ .Title }}</h2>
+        <p class="product-card-desc">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
+        <a class="btn btn-primary" href="{{ .RelPermalink }}">Read More</a>
+      </article>
+      {{ end }}
+    </div>
+    {{ else if .Sections }}
+    <div class="recommendation-grid">
+      {{ range .Sections.ByTitle }}
+      <a class="recommendation-tile" href="{{ .RelPermalink }}">
+        <strong>{{ .Title }}</strong>
+        <span>{{ with .Description }}{{ . }}{{ else }}Browse this section.{{ end }}</span>
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
 </section>
 {{ end }}
