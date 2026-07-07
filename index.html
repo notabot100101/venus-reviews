@@ -33,25 +33,6 @@
             text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
         }
         
-        /* Hero image container */
-        .hero-image-container {
-            background: #2d2437;
-            border-radius: 16px;
-            padding: 0.5rem;
-            margin: 2rem auto 0;
-            max-width: 80%;
-            display: inline-block;
-        }
-        
-        /* Hero image layout */
-        .hero-image {
-            max-width: 100%;
-            height: auto;
-            border-radius: 12px;
-            display: block;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-        }
-        
         /* Hero content wrapper ensures proper centering */
         .hero-content-wrapper {
             position: relative;
@@ -72,6 +53,126 @@
         #last-updated-date {
             content: '';
             display: block;
+        }
+
+        /* Production visual polish: compose hero copy and image as one scene. */
+        .nav-links a::before,
+        .nav-links a::after {
+            content: none !important;
+        }
+
+        .hero {
+            min-height: clamp(540px, calc(100svh - 140px), 700px);
+            padding: clamp(4rem, 8vh, 6rem) 0 clamp(4rem, 9vh, 7rem) !important;
+            display: grid;
+            place-items: center;
+            background: #20174a;
+            isolation: isolate;
+        }
+
+        .hero::before {
+            display: none;
+        }
+
+        .hero-overlay {
+            z-index: 1;
+            background:
+                linear-gradient(90deg, rgba(16, 12, 39, 0.99) 0%, rgba(16, 12, 39, 0.97) 47%, rgba(32, 23, 74, 0.62) 72%, rgba(32, 23, 74, 0.88) 100%),
+                linear-gradient(180deg, rgba(32, 23, 74, 0.18) 0%, rgba(32, 23, 74, 0.58) 100%);
+        }
+
+        .hero-image-container {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            display: block;
+            width: 100%;
+            max-width: none;
+            margin: 0;
+            padding: 0;
+            background: none;
+            border-radius: 0;
+            overflow: hidden;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 100%;
+            max-width: none;
+            object-fit: cover;
+            object-position: 70% 56%;
+            border-radius: 0;
+            box-shadow: none;
+            opacity: 0.74;
+            transform: scale(1.18) translateX(5%);
+            transform-origin: center center;
+        }
+
+        .hero-content-wrapper {
+            width: min(1180px, 100%);
+            max-width: none;
+            padding: 0 clamp(1.25rem, 4vw, 3rem);
+        }
+
+        .hero-content {
+            max-width: 650px;
+            margin: 0;
+            text-align: left;
+            text-shadow: 0 3px 18px rgba(0, 0, 0, 0.7);
+            animation: none !important;
+        }
+
+        .hero h1 {
+            margin: 0 0 1.25rem;
+            color: #fff !important;
+            font-size: clamp(2.35rem, 4.6vw, 4.75rem) !important;
+            line-height: 1.03 !important;
+            letter-spacing: 0 !important;
+        }
+
+        .hero p {
+            max-width: 760px;
+            margin: 0;
+            color: rgba(255, 255, 255, 0.94) !important;
+            font-size: clamp(1.05rem, 1.8vw, 1.35rem) !important;
+            line-height: 1.65 !important;
+        }
+
+        .hero-content .btn {
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                min-height: 580px;
+                padding: 3.5rem 0 4rem !important;
+                place-items: end start;
+            }
+
+            .hero-overlay {
+                background:
+                    linear-gradient(180deg, rgba(19, 14, 47, 0.74) 0%, rgba(19, 14, 47, 0.9) 48%, rgba(19, 14, 47, 0.98) 100%);
+            }
+
+            .hero-image {
+                object-position: 88% top;
+                opacity: 0.62;
+                transform: scale(1.42) translateX(12%);
+            }
+
+            .hero-content {
+                max-width: 100%;
+                text-align: center;
+            }
+
+            .hero h1 {
+                font-size: clamp(2.1rem, 11vw, 3rem) !important;
+            }
+
+            .hero p {
+                font-size: 1rem !important;
+                line-height: 1.55 !important;
+            }
         }
     </style>
 </head>
