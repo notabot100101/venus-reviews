@@ -221,6 +221,9 @@ a:hover {
   color: var(--color-light);
   padding: var(--space-4xl) 0;
   position: relative;
+  min-height: 360px;
+  display: grid;
+  place-items: center;
   overflow: hidden;
 }
 
@@ -252,7 +255,7 @@ a:hover {
 }
 
 .hero p {
-  color: var(--color-text);
+  color: rgba(255, 255, 255, 0.9);
   font-size: 1.25rem;
   margin-bottom: var(--space-xl);
 }

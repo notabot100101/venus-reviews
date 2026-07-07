@@ -214,6 +214,9 @@ a:hover {
   color: var(--color-light);
   padding: var(--space-4xl) 0;
   position: relative;
+  min-height: 360px;
+  display: grid;
+  place-items: center;
   overflow: hidden;
 }
 
@@ -245,6 +248,7 @@ a:hover {
   z-index: 2;
   max-width: 800px;
   margin: 0 auto;
+  padding: 0 var(--space-lg);
 }
 
 .hero-content {
@@ -273,6 +277,16 @@ a:hover {
   color: rgba(255, 255, 255, 0.9);
   font-size: 1.25rem;
   margin-bottom: var(--space-xl);
+}
+
+.hero-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.32;
+  z-index: 0;
 }
 
 /* ============================================
@@ -489,12 +503,53 @@ a:hover {
    ============================================ */
 .comparison-table {
   width: 100%;
+  min-width: 1120px;
   border-collapse: collapse;
   margin: var(--space-xl) 0;
   background: var(--color-white);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: var(--shadow-md);
+}
+
+.comparison-table-container,
+.table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.table-scroll {
+  margin: var(--space-xl) 0;
+}
+
+.materials-table {
+  width: 100%;
+  min-width: 620px;
+  border-collapse: collapse;
+  background: var(--color-white);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.materials-table th,
+.materials-table td {
+  padding: var(--space-md);
+  text-align: left;
+  border-bottom: 1px solid rgba(107, 44, 145, 0.1);
+}
+
+.materials-table td {
+  color: var(--color-dark);
+}
+
+.materials-table th {
+  background: var(--color-primary);
+  color: var(--color-light);
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .comparison-table th,
@@ -828,6 +883,14 @@ a:hover {
   
   h1 { font-size: 2rem; }
   h2 { font-size: 1.75rem; }
+
+  .hero {
+    min-height: 320px;
+  }
+
+  .hero h1 {
+    font-size: 2.15rem;
+  }
   
   .products-grid {
     grid-template-columns: 1fr;
