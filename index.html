@@ -52,6 +52,24 @@
             display: block;
         }
 
+        /* Visual fixes: why-choose heading contrast + hero text centering */
+        .why-choose-us-section h2.section-title {
+            color: var(--color-dark) !important;
+        }
+        .why-choose-us-section .value-prop h3 {
+            color: var(--color-dark) !important;
+        }
+        .why-choose-us-section .value-prop p {
+            color: var(--color-text) !important;
+        }
+
+        /* Hero text: avoid hard-left edge; keep balanced padding */
+        @media (min-width: 769px) {
+            .hero-content {
+                margin-left: 2rem !important;
+            }
+        }
+
         /* Production visual polish: compose hero copy and image as one scene. */
         .nav-links a::before,
         .nav-links a::after {
