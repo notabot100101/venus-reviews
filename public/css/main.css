@@ -760,6 +760,29 @@ a:hover {
     --space-2xl: 1.5rem;
     --space-xl: 1.25rem;
   }
+
+  .nav {
+    position: static;
+  }
+
+  .nav-content {
+    flex-direction: column;
+    gap: var(--space-sm);
+    padding: 0 var(--space-md);
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.35rem 0.5rem;
+    width: 100%;
+  }
+
+  .nav-links a {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.5rem;
+    white-space: nowrap;
+  }
   
   h1 { font-size: 2rem; }
   h2 { font-size: 1.75rem; }
