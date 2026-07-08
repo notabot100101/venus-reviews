@@ -306,14 +306,17 @@
         .customer-favorites-section .rating-stars {
             position: relative;
             display: inline-block;
-            width: 4.35rem;
-            color: rgba(255, 247, 251, 0.2);
-            font-size: 0.78rem;
+            color: rgba(255, 247, 251, 0.34);
+            font-size: 0.9rem;
             line-height: 1;
             letter-spacing: 0;
         }
 
-        .customer-favorites-section .rating-stars::before,
+        .customer-favorites-section .rating-stars::before {
+            content: "☆☆☆☆☆";
+            text-shadow: 0 1px 0 rgba(0, 0, 0, 0.18);
+        }
+
         .customer-favorites-section .rating-stars::after {
             content: "★★★★★";
         }
@@ -326,6 +329,7 @@
             overflow: hidden;
             color: #f8b84e;
             white-space: nowrap;
+            text-shadow: 0 0 8px rgba(248, 184, 78, 0.18);
         }
 
         .customer-favorites-section .rating-score {
