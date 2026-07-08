@@ -54,21 +54,52 @@
 
         /* Visual fixes: light-section contrast + hero text centering */
         .why-choose-us-section {
-            background: #faf8fb !important;
+            background:
+                linear-gradient(180deg, #fff7fb 0%, #faf6fb 48%, #f7f2f8 100%) !important;
+            border-top: 1px solid rgba(255, 107, 157, 0.28);
+            box-shadow: inset 0 16px 36px rgba(30, 27, 46, 0.05);
+            color: #20172f !important;
+            margin-top: 0 !important;
         }
         .why-choose-us-section h2.section-title {
             color: #171225 !important;
+            text-align: left;
         }
         .why-choose-us-section .value-prop {
-            background: #ffffff !important;
-            border-color: rgba(118, 62, 132, 0.16) !important;
-            box-shadow: 0 12px 30px rgba(34, 24, 48, 0.08) !important;
+            background: rgba(255, 255, 255, 0.94) !important;
+            border: 1px solid rgba(233, 30, 99, 0.16) !important;
+            border-top: 4px solid rgba(255, 107, 157, 0.72) !important;
+            box-shadow: 0 18px 42px rgba(34, 24, 48, 0.1) !important;
         }
         .why-choose-us-section .value-prop h3 {
             color: #20172f !important;
         }
         .why-choose-us-section .value-prop p {
             color: #5f5668 !important;
+        }
+        .why-choose-us-section .icon-shield,
+        .why-choose-us-section .icon-star,
+        .why-choose-us-section .icon-users,
+        .why-choose-us-section .icon-heart {
+            width: 3.75rem;
+            height: 3.75rem;
+            display: inline-grid;
+            place-items: center;
+            margin: 0 auto 1.5rem;
+            border-radius: 999px;
+            background: linear-gradient(135deg, rgba(255, 107, 157, 0.18), rgba(156, 39, 176, 0.16));
+            color: #e91e63;
+            line-height: 1;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9), 0 8px 20px rgba(233, 30, 99, 0.12);
+        }
+        .why-choose-us-section .value-prop svg {
+            width: 1.8rem;
+            height: 1.8rem;
+            stroke: currentColor;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            fill: none;
         }
 
         /* Hero text: avoid hard-left edge; keep balanced padding */
@@ -298,22 +329,30 @@
             <h2 class="section-title">Why Choose Venus Reviews?</h2>
             <div class="value-props-grid">
                 <div class="value-prop">
-                    <div class="icon-shield">🛡️</div>
+                    <div class="icon-shield" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"></path><path d="m9 12 2 2 4-5"></path></svg>
+                    </div>
                     <h3>Independent Testing</h3>
                     <p>All products undergo rigorous, unbiased testing by our expert team before we share our honest verdicts.</p>
                 </div>
                 <div class="value-prop">
-                    <div class="icon-star">⭐</div>
+                    <div class="icon-star" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="m12 3 2.7 5.5 6.1.9-4.4 4.3 1 6.1L12 16.9 6.6 19.8l1-6.1-4.4-4.3 6.1-.9L12 3Z"></path></svg>
+                    </div>
                     <h3>Transparency First</h3>
                     <p>We disclose affiliate relationships and maintain complete editorial independence in every review.</p>
                 </div>
                 <div class="value-prop">
-                    <div class="icon-users">👥</div>
+                    <div class="icon-users" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                    </div>
                     <h3>Community-Driven</h3>
                     <p>Our reviews are informed by real user experiences and feedback from thousands of satisfied customers.</p>
                 </div>
                 <div class="value-prop">
-                    <div class="icon-heart">💜</div>
+                    <div class="icon-heart" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M19.5 12.6 12 20l-7.5-7.4a5 5 0 0 1 7.1-7.1l.4.4.4-.4a5 5 0 1 1 7.1 7.1Z"></path></svg>
+                    </div>
                     <h3>Privacy-Promising</h3>
                     <p>Discreet packaging, secure transactions, and data protection are woven into every aspect of our service.</p>
                 </div>
