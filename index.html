@@ -14,17 +14,6 @@
     <meta name="keywords" content="pleasure products, reviews, Venus Reviews, premium, discreet">
     
     <style>
-        /* Trust badges animation */
-        .trust-badge-img {
-            animation: pulse-badge 2s ease-in-out infinite;
-            animation-fill-mode: both;
-        }
-        
-        @keyframes pulse-badge {
-            0%, 100% { transform: scale(1); opacity: 1; }
-            50% { transform: scale(1.05); opacity: 0.95; }
-        }
-        
         /* Hero text shadow */
         .hero h1, .hero p {
             text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
@@ -304,6 +293,66 @@
             .hero p {
                 font-size: 1rem !important;
                 line-height: 1.55 !important;
+            }
+        }
+
+        .footer .trust-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.65rem;
+            justify-content: center;
+            margin: 1.5rem auto 0;
+            max-width: 760px;
+        }
+
+        .footer-trust-pill {
+            align-items: center;
+            background: rgba(255, 247, 251, 0.07);
+            border: 1px solid rgba(255, 107, 157, 0.28);
+            border-radius: 999px;
+            color: #f7edf4;
+            display: inline-flex;
+            font-size: 0.8125rem;
+            font-weight: 700;
+            gap: 0.45rem;
+            line-height: 1.2;
+            min-height: 2.25rem;
+            padding: 0.45rem 0.8rem;
+            text-decoration: none;
+            transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
+        }
+
+        .footer-trust-pill span {
+            align-items: center;
+            background: rgba(255, 107, 157, 0.18);
+            border-radius: 999px;
+            color: #ffb7cf;
+            display: inline-flex;
+            flex: 0 0 auto;
+            font-size: 0.72rem;
+            height: 1.25rem;
+            justify-content: center;
+            min-width: 1.25rem;
+            padding: 0 0.25rem;
+        }
+
+        .footer-trust-pill:hover {
+            background: rgba(255, 247, 251, 0.11);
+            border-color: rgba(255, 107, 157, 0.46);
+            color: #ffffff;
+            transform: translateY(-1px);
+        }
+
+        @media (max-width: 520px) {
+            .footer .trust-badges {
+                align-items: stretch;
+                flex-direction: column;
+                margin-top: 1rem;
+            }
+
+            .footer-trust-pill {
+                justify-content: center;
+                width: 100%;
             }
         }
     </style>
@@ -631,18 +680,22 @@
                     <p class="last-updated">Last Updated: <span id="last-updated-date"></span></p>
                     <p class="affiliate-disclaimer">We may earn commissions from qualifying purchases. This maintains our editorial independence.</p>
                 </div>
-                <div class="trust-badges">
-                    <a href="/shipping/">
-                        <img src="/trust-badges/discreet-shipping.svg" alt="Discreet Shipping Badge" class="trust-badge-img" style="height: 35px; margin-right: 10px;" loading="lazy" />
+                <div class="trust-badges" aria-label="Trust and privacy links">
+                    <a href="/shipping/" class="footer-trust-pill">
+                        <span aria-hidden="true">✓</span>
+                        Discreet shipping
                     </a>
-                    <a href="/security/">
-                        <img src="/trust-badges/secure-checkout.svg" alt="Secure Checkout Badge" class="trust-badge-img" style="height: 35px; margin-right: 10px;" loading="lazy" />
+                    <a href="/security/" class="footer-trust-pill">
+                        <span aria-hidden="true">✓</span>
+                        Secure checkout
                     </a>
-                    <a href="/privacy/">
-                        <img src="/trust-badges/18-plus.svg" alt="18+ Age Verified Badge" class="trust-badge-img" style="height: 35px; margin-right: 10px;" loading="lazy" />
+                    <a href="/privacy/" class="footer-trust-pill">
+                        <span aria-hidden="true">18+</span>
+                        Age verified
                     </a>
-                    <a href="/privacy/">
-                        <img src="/trust-badges/privacy-protected.svg" alt="Privacy Protected Badge" class="trust-badge-img" style="height: 35px;" loading="lazy" />
+                    <a href="/privacy/" class="footer-trust-pill">
+                        <span aria-hidden="true">✓</span>
+                        Privacy protected
                     </a>
                 </div>
             </div>
