@@ -123,11 +123,89 @@
         }
 
         .process-step,
-        .favorite-card,
-        .trust-section .privacy-item {
+        .favorite-card {
             background: linear-gradient(180deg, rgba(59, 45, 70, 0.92), rgba(52, 40, 63, 0.96)) !important;
             border: 1px solid rgba(255, 107, 157, 0.24) !important;
             box-shadow: 0 16px 36px rgba(0, 0, 0, 0.2) !important;
+        }
+
+        .trust-section {
+            background:
+                radial-gradient(circle at 78% 0%, rgba(255, 107, 157, 0.12), transparent 30rem),
+                linear-gradient(180deg, #1e1729 0%, #21182b 100%) !important;
+        }
+
+        .trust-section .section-title {
+            margin-bottom: 1.5rem;
+        }
+
+        .trust-section .privacy-grid {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+            gap: 1.5rem;
+        }
+
+        .trust-section .privacy-item {
+            position: relative;
+            overflow: hidden;
+            min-height: 215px;
+            padding: 1.8rem 1.35rem 1.55rem;
+            border-radius: 8px;
+            background:
+                linear-gradient(180deg, rgba(69, 50, 80, 0.96), rgba(47, 36, 57, 0.98)) !important;
+            border: 1px solid rgba(255, 141, 182, 0.32) !important;
+            box-shadow: 0 18px 40px rgba(0, 0, 0, 0.24), inset 0 1px 0 rgba(255, 247, 251, 0.08) !important;
+            transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+        }
+
+        .trust-section .privacy-item::before {
+            content: "";
+            position: absolute;
+            inset: 0 0 auto;
+            height: 3px;
+            background: linear-gradient(90deg, #ff8db6, #d3a2ff);
+            opacity: 0.85;
+        }
+
+        .trust-section .privacy-item:hover {
+            transform: translateY(-3px);
+            border-color: rgba(255, 141, 182, 0.52) !important;
+            box-shadow: 0 22px 46px rgba(0, 0, 0, 0.28), 0 0 24px rgba(255, 107, 157, 0.08) !important;
+        }
+
+        .trust-section .trust-icon {
+            width: 4rem;
+            height: 4rem;
+            display: inline-grid;
+            place-items: center;
+            margin: 0 auto 1.25rem;
+            border-radius: 999px;
+            color: #ffd6e6;
+            background:
+                radial-gradient(circle at 35% 25%, rgba(255, 247, 251, 0.18), transparent 32%),
+                linear-gradient(135deg, rgba(255, 107, 157, 0.28), rgba(139, 93, 185, 0.24));
+            box-shadow: inset 0 1px 0 rgba(255, 247, 251, 0.22), 0 10px 24px rgba(0, 0, 0, 0.22);
+        }
+
+        .trust-section .trust-icon svg {
+            width: 2rem;
+            height: 2rem;
+            stroke: currentColor;
+            stroke-width: 1.8;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            fill: none;
+        }
+
+        .trust-section .privacy-item h5 {
+            margin-bottom: 0.65rem;
+            font-size: 1.02rem;
+        }
+
+        .trust-section .privacy-item p {
+            max-width: 16rem;
+            margin: 0 auto;
+            font-size: 0.92rem;
+            line-height: 1.55;
         }
 
         .newsletter-section > .section-title,
@@ -173,6 +251,24 @@
         @media (min-width: 769px) {
             .hero-content {
                 margin-left: 2rem !important;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .trust-section .privacy-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
+        @media (max-width: 560px) {
+            .trust-section .privacy-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+
+            .trust-section .privacy-item {
+                min-height: 0;
+                padding: 1.55rem 1.15rem 1.35rem;
             }
         }
 
@@ -600,22 +696,48 @@
             <h2 class="section-title">Why Trust Venus Reviews?</h2>
             <div class="privacy-grid">
                 <div class="privacy-item">
-                    <div class="icon-check">✓</div>
+                    <div class="trust-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 3l7 3v5c0 4.6-2.8 8.4-7 10-4.2-1.6-7-5.4-7-10V6l7-3z"></path>
+                            <path d="M9 12l2 2 4-5"></path>
+                        </svg>
+                    </div>
                     <h5>Independent Testing</h5>
                     <p>All products are thoroughly tested by our expert team before review</p>
                 </div>
                 <div class="privacy-item">
-                    <div class="icon-check2">✓</div>
+                    <div class="trust-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 4v16"></path>
+                            <path d="M5 7h14"></path>
+                            <path d="M7 7l-3 6h6L7 7z"></path>
+                            <path d="M17 7l-3 6h6l-3-6z"></path>
+                            <path d="M8 20h8"></path>
+                        </svg>
+                    </div>
                     <h5>Honest Pros & Cons</h5>
                     <p>We share both the strengths and weaknesses of every product</p>
                 </div>
                 <div class="privacy-item">
-                    <div class="icon-heart-solid">❤</div>
+                    <div class="trust-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M7 3h8l4 4v14H7V3z"></path>
+                            <path d="M15 3v5h5"></path>
+                            <path d="M10 13h6"></path>
+                            <path d="M10 17h4"></path>
+                        </svg>
+                    </div>
                     <h5>Transparency</h5>
                     <p>We disclose affiliate relationships and maintain editorial independence</p>
                 </div>
                 <div class="privacy-item">
-                    <div class="icon-heart">❤</div>
+                    <div class="trust-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24">
+                            <rect x="5" y="10" width="14" height="10" rx="2"></rect>
+                            <path d="M8 10V7a4 4 0 0 1 8 0v3"></path>
+                            <path d="M12 14v2"></path>
+                        </svg>
+                    </div>
                     <h5>Privacy-Focused</h5>
                     <p>Your data is protected. We use discreet packaging and secure practices</p>
                 </div>
