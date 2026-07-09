@@ -17,39 +17,32 @@
   <div class="container">
     <div class="section-header">
       <h2>Featured Reviews</h2>
-      <p>Shortlisted products with clear strengths, tradeoffs, and buying context.</p>
+      <p>The latest live review set, with clear strengths, tradeoffs, and buying context.</p>
     </div>
     <div class="products-grid compact-grid">
-      <article class="product-card">
-        <div class="rating-pill">Quiet Pick</div>
-        <h3 class="product-card-title">Womanizer 2 Original</h3>
-        <p class="product-card-desc">Airpulse stimulation with a gentler learning curve, strong privacy notes, and easy cleaning.</p>
+      {{ with .Site.GetPage "section" "products" }}
+      {{ range first 6 .Pages.ByWeight }}
+      {{ $page := . }}
+      <article class="product-card product-review-card">
+        {{ with .Params.badge }}<div class="rating-pill">{{ . }}</div>{{ end }}
+        {{ with .Params.image }}
+        <a class="product-card-image-link" href="{{ $page.RelPermalink }}" aria-label="Read {{ $page.Title }} review">
+          <img class="product-card-image" src="{{ . }}" alt="{{ $page.Title }}">
+        </a>
+        {{ end }}
+        <h3 class="product-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p class="product-card-desc">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
         <div class="product-card-meta">
-          <span>Best for: focused stimulation</span>
-          <span>Noise: low-medium</span>
+          {{ with .Params.best_for }}<span>{{ . }}</span>{{ end }}
+          {{ with .Params.noise }}<span>{{ . }}</span>{{ end }}
         </div>
-        <a class="btn btn-primary" href="/products/womanizer-2-original/">Read Review</a>
+        <a class="btn btn-primary" href="{{ .RelPermalink }}">Read Review</a>
       </article>
-      <article class="product-card">
-        <div class="rating-pill">Premium Feel</div>
-        <h3 class="product-card-title">Lelo Mona</h3>
-        <p class="product-card-desc">Ergonomic premium design for shoppers who care about materials, control, and a refined finish.</p>
-        <div class="product-card-meta">
-          <span>Best for: premium build</span>
-          <span>Noise: low</span>
-        </div>
-        <a class="btn btn-primary" href="/products/lelo-mona/">Read Review</a>
-      </article>
-      <article class="product-card">
-        <div class="rating-pill">Dual Action</div>
-        <h3 class="product-card-title">Bvee Original Rabbit</h3>
-        <p class="product-card-desc">A dual-action option with practical notes for fit, handling, and first-time setup.</p>
-        <div class="product-card-meta">
-          <span>Best for: blended stimulation</span>
-          <span>Noise: medium</span>
-        </div>
-        <a class="btn btn-primary" href="/products/bvee-original-rabbit/">Read Review</a>
-      </article>
+      {{ end }}
+      {{ end }}
+    </div>
+    <div class="section-actions">
+      <a class="btn btn-outline" href="/products/">View All Reviews</a>
     </div>
   </div>
 </section>

@@ -1,6 +1,15 @@
 ---
 title: "Womanizer 2 Original"
 description: "Premium airpulse technology pleasure product with intelligent sensitivity"
+sku: "womanizer-2-original"
+weight: 10
+badge: "Quiet Pick"
+rating: 4.7
+reviews_count: 84
+price: "149.99"
+best_for: "Focused stimulation"
+noise: "Low-medium noise"
+image: "/images/products/womanizer-2/front.webp"
 gallery:
   - src: "/images/products/womanizer-2/packaging.webp"
     alt: "Womanizer 2 Original premium packaging"

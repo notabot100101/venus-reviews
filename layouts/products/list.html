@@ -1,0 +1,52 @@
+{{ define "main" }}
+<section class="hero page-hero">
+  <div class="container">
+    <div class="hero-content">
+      <p class="eyebrow">Catalog recovery version 2026.07.09-Phase1</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {{ with .Content }}
+    <div class="content intro-content">
+      {{ . }}
+    </div>
+    {{ end }}
+
+    <div class="catalog-toolbar" aria-label="Product catalog summary">
+      <div>
+        <strong>{{ len .Pages }} reviews live</strong>
+        <span>More products and image sets are being added in batches.</span>
+      </div>
+      <a class="btn btn-outline" href="/guides/how-to-choose/">Choosing Guide</a>
+    </div>
+
+    <div class="products-grid catalog-grid">
+      {{ range .Pages.ByWeight }}
+      {{ $page := . }}
+      <article class="product-card product-review-card">
+        {{ with .Params.badge }}<div class="rating-pill">{{ . }}</div>{{ end }}
+        {{ with .Params.image }}
+        <a class="product-card-image-link" href="{{ $page.RelPermalink }}" aria-label="Read {{ $page.Title }} review">
+          <img class="product-card-image" src="{{ . }}" alt="{{ $page.Title }}">
+        </a>
+        {{ end }}
+        <h2 class="product-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p class="product-card-desc">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
+        <div class="product-card-meta">
+          {{ with .Params.best_for }}<span>{{ . }}</span>{{ end }}
+          {{ with .Params.noise }}<span>{{ . }}</span>{{ end }}
+          {{ with .Params.rating }}<span>{{ . }}/5</span>{{ end }}
+        </div>
+        {{ with .Params.price }}<div class="product-card-price">${{ . }}</div>{{ end }}
+        <a class="btn btn-primary" href="{{ .RelPermalink }}">Read Review</a>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

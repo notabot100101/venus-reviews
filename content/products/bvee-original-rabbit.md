@@ -1,6 +1,15 @@
 ---
 title: "Bvee Original Rabbit"
 description: "Dual-action rabbit style stimulation with ergonomic design"
+sku: "bvee-original-rabbit"
+weight: 30
+badge: "Dual Action"
+rating: 4.6
+reviews_count: 42
+price: "119.99"
+best_for: "Blended stimulation"
+noise: "Medium noise"
+image: "/images/products/bvee-rabbit/front.webp"
 gallery:
   - src: "/images/products/bvee-rabbit/packaging.webp"
     alt: "Bvee Original Rabbit premium packaging"

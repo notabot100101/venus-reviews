@@ -66,6 +66,104 @@
   padding: 0.25rem 0.65rem;
 }
 
+.product-review-card {
+  gap: var(--space-md);
+}
+
+.product-review-card .product-card-title {
+  margin-bottom: 0;
+}
+
+.product-card-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.product-card-image-link {
+  display: block;
+  margin: calc(var(--space-md) * -1) calc(var(--space-md) * -1) 0;
+}
+
+.product-review-card .product-card-image {
+  aspect-ratio: 4 / 3;
+  background: #f7f1f5;
+  border-radius: 8px;
+  display: block;
+  height: auto;
+  margin: 0;
+  object-fit: cover;
+  width: 100%;
+}
+
+.catalog-toolbar {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  display: flex;
+  gap: var(--space-md);
+  justify-content: space-between;
+  margin-bottom: var(--space-2xl);
+  padding: var(--space-lg);
+}
+
+.catalog-toolbar strong,
+.catalog-toolbar span {
+  display: block;
+}
+
+.catalog-toolbar span {
+  color: var(--color-text-light);
+  font-size: 0.9375rem;
+  margin-top: 0.15rem;
+}
+
+.section-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-2xl);
+}
+
+.product-gallery {
+  margin-top: var(--space-2xl);
+}
+
+.product-gallery h2 {
+  color: var(--color-secondary);
+  margin-bottom: var(--space-lg);
+}
+
+.gallery-grid {
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.gallery-item {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.gallery-item img {
+  aspect-ratio: 4 / 3;
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+
+.gallery-item p {
+  color: var(--color-text-light);
+  font-size: 0.9rem;
+  margin: 0;
+  padding: var(--space-sm) var(--space-md) var(--space-md);
+  text-align: center;
+}
+
 .section-band {
   background:
     radial-gradient(circle at 18% 0%, rgba(255, 107, 157, 0.12), transparent 34rem),
@@ -193,5 +291,10 @@
   .hero-actions .btn,
   .article-actions .btn {
     width: 100%;
+  }
+
+  .catalog-toolbar {
+    align-items: stretch;
+    flex-direction: column;
   }
 }

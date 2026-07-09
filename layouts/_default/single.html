@@ -15,13 +15,13 @@
       {{ .Content }}
       </div>
       {{ with .Params.gallery }}
-      <div class="product-gallery" style="margin-top: 2rem;">
-        <h2 style="margin-bottom: 1rem; color: var(--color-brand);">Product Gallery</h2>
-        <div class="gallery-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;">
+      <div class="product-gallery">
+        <h2>Product Gallery</h2>
+        <div class="gallery-grid">
           {{ range . }}
-          <div class="gallery-item" style="display: flex; flex-direction: column; align-items: center;">
-            <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
-            <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--color-text-muted); text-align: center;">{{ .caption }}</p>
+          <div class="gallery-item">
+            <img src="{{ .src }}" alt="{{ .alt }}" loading="lazy">
+            <p>{{ .caption }}</p>
           </div>
           {{ end }}
         </div>

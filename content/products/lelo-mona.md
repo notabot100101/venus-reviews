@@ -2,6 +2,15 @@
 title: "Lelo Mona"
 description: "Premium suction-based stimulation device with ergonomic shape"
 menu: "main"
+sku: "lelo-mona"
+weight: 20
+badge: "Premium Feel"
+rating: 4.6
+reviews_count: 52
+price: "399.00"
+best_for: "Premium build"
+noise: "Low noise"
+image: "/images/products/lelo-mona/front.webp"
 gallery:
   - src: "/images/products/lelo-mona/front.webp"
     alt: "Lelo Mona premium pleasure device front view"
