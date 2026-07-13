@@ -2,32 +2,18 @@
 <section class="hero home-hero">
   <div class="container">
     <div class="hero-content">
-      <p class="eyebrow">Updated July 2026 • 12 live reviews</p>
+      <p class="eyebrow">Independent pleasure product reviews</p>
       <h1>Venus Reviews</h1>
-      <p>Clear, discreet analysis of premium pleasure products, now expanded with new Lelo, Lovehoney, Fun Factory, We-Vibe, Dame, and Womanizer reviews.</p>
-      <div class="hero-stats" aria-label="Catalog summary">
-        <span><strong>12</strong> reviews live</span>
-        <span><strong>9</strong> buying contexts</span>
-        <span><strong>3</strong> new premium picks</span>
+      <p>Discreet, practical buying guidance for premium pleasure products, with clear notes on feel, noise, cleaning, travel, shipping, and who each product fits best.</p>
+      <div class="hero-trust" aria-label="Review coverage">
+        <span>12 in-depth reviews</span>
+        <span>Privacy-first guidance</span>
+        <span>Beginner-friendly buying guides</span>
       </div>
       <div class="hero-actions">
         <a class="btn btn-primary" href="/products/">Read Reviews</a>
         <a class="btn btn-outline hero-outline" href="/best-for/">Browse Best For</a>
       </div>
-    </div>
-    <div class="home-hero-showcase" aria-label="Newest featured reviews">
-      {{ with .Site.GetPage "section" "products" }}
-      {{ range first 3 (sort .Pages "Weight" "desc") }}
-      {{ $page := . }}
-      <a class="showcase-product" href="{{ $page.RelPermalink }}">
-        {{ with .Params.image }}<img src="{{ . }}" alt="{{ $page.Title }}">{{ end }}
-        <span>
-          {{ with .Params.badge }}<em>{{ . }}</em>{{ end }}
-          <strong>{{ $page.Title }}</strong>
-        </span>
-      </a>
-      {{ end }}
-      {{ end }}
     </div>
   </div>
 </section>
