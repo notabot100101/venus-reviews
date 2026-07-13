@@ -205,6 +205,111 @@
   margin-top: var(--space-xl);
 }
 
+.hero-lab {
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: clamp(2rem, 5vw, 4rem) 1rem;
+}
+
+.hero-lab .lab-kicker {
+  color: var(--color-secondary);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  margin: 0 0 0.35rem;
+  text-transform: uppercase;
+}
+
+.hero-lab > h1 {
+  color: #fff7fb;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1;
+  margin: 0 0 0.75rem;
+}
+
+.hero-lab > p {
+  color: #ded2e3;
+  font-size: 1.1rem;
+  margin: 0 0 2rem;
+  max-width: 680px;
+}
+
+.hero-lab-option {
+  margin: 0 0 clamp(2rem, 5vw, 3.5rem);
+}
+
+.hero-lab-meta {
+  align-items: baseline;
+  display: grid;
+  gap: 0.4rem 1rem;
+  grid-template-columns: auto 1fr;
+  margin: 0 0 1rem;
+}
+
+.hero-lab-meta span {
+  background: rgba(183, 110, 121, 0.14);
+  border: 1px solid rgba(183, 110, 121, 0.3);
+  border-radius: 999px;
+  color: var(--color-secondary);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 0.25rem 0.65rem;
+  text-transform: uppercase;
+}
+
+.hero-lab-meta strong {
+  color: #fff7fb;
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+}
+
+.hero-lab-meta p {
+  color: #d6c8de;
+  grid-column: 1 / -1;
+  margin: 0;
+  max-width: 760px;
+}
+
+.hero-lab-preview {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  min-height: 520px;
+  overflow: hidden;
+}
+
+.hero-lab-preview h2 {
+  color: var(--color-light);
+  font-family: var(--font-heading);
+  font-size: clamp(3rem, 8vw, 5.25rem);
+  line-height: 0.95;
+  margin: 0 0 var(--space-md);
+}
+
+.hero-lab-silk {
+  background:
+    linear-gradient(90deg, rgba(25, 18, 35, 0.92) 0%, rgba(35, 24, 45, 0.76) 44%, rgba(35, 24, 45, 0.28) 100%),
+    url("/images/hero-banner---a0d189fc-d321-4faa-8ebe-5ed40610a487.jpg") center right / cover no-repeat;
+}
+
+.hero-lab-studio {
+  background:
+    linear-gradient(90deg, rgba(25, 18, 35, 0.94) 0%, rgba(35, 24, 45, 0.82) 48%, rgba(35, 24, 45, 0.42) 100%),
+    url("/images/hero-banner.png") center right / cover no-repeat;
+}
+
+.hero-lab-magazine {
+  background:
+    linear-gradient(90deg, rgba(25, 18, 35, 0.95) 0%, rgba(35, 24, 45, 0.84) 42%, rgba(35, 24, 45, 0.18) 100%),
+    url("/images/hero-banner.jpg") center right / cover no-repeat;
+}
+
+.hero-lab-brand {
+  background:
+    linear-gradient(90deg, rgba(25, 18, 35, 0.95) 0%, rgba(35, 24, 45, 0.84) 48%, rgba(35, 24, 45, 0.26) 100%),
+    url("/images/social-header.png") center right / cover no-repeat;
+}
+
 @media (max-width: 980px) {
   .home-hero {
     background:
@@ -219,6 +324,34 @@
 
   .hero-actions {
     justify-content: center;
+  }
+
+  .hero-lab-preview {
+    min-height: 500px;
+  }
+
+  .hero-lab-silk {
+    background:
+      linear-gradient(180deg, rgba(25, 18, 35, 0.92) 0%, rgba(35, 24, 45, 0.78) 56%, rgba(35, 24, 45, 0.6) 100%),
+      url("/images/hero-banner---a0d189fc-d321-4faa-8ebe-5ed40610a487.jpg") center bottom / cover no-repeat;
+  }
+
+  .hero-lab-studio {
+    background:
+      linear-gradient(180deg, rgba(25, 18, 35, 0.92) 0%, rgba(35, 24, 45, 0.78) 56%, rgba(35, 24, 45, 0.58) 100%),
+      url("/images/hero-banner.png") center bottom / cover no-repeat;
+  }
+
+  .hero-lab-magazine {
+    background:
+      linear-gradient(180deg, rgba(25, 18, 35, 0.94) 0%, rgba(35, 24, 45, 0.8) 56%, rgba(35, 24, 45, 0.58) 100%),
+      url("/images/hero-banner.jpg") center bottom / cover no-repeat;
+  }
+
+  .hero-lab-brand {
+    background:
+      linear-gradient(180deg, rgba(25, 18, 35, 0.94) 0%, rgba(35, 24, 45, 0.8) 56%, rgba(35, 24, 45, 0.58) 100%),
+      url("/images/social-header.png") center bottom / cover no-repeat;
   }
 
   .feature-strip {
@@ -238,6 +371,22 @@
 
   .hero-trust {
     justify-content: center;
+  }
+
+  .hero-lab {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
+  .hero-lab-meta {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-lab-preview {
+    border-radius: 0;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    min-height: 560px;
   }
 
   .hero-actions .btn,
