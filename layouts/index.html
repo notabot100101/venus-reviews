@@ -2,13 +2,32 @@
 <section class="hero home-hero">
   <div class="container">
     <div class="hero-content">
-      <p class="eyebrow">Privacy-first pleasure product reviews</p>
+      <p class="eyebrow">Updated July 2026 • 12 live reviews</p>
       <h1>Venus Reviews</h1>
-      <p>Clear, discreet analysis of premium pleasure products, with practical notes on feel, noise, cleaning, travel, shipping, and who each product is actually best for.</p>
+      <p>Clear, discreet analysis of premium pleasure products, now expanded with new Lelo, Lovehoney, Fun Factory, We-Vibe, Dame, and Womanizer reviews.</p>
+      <div class="hero-stats" aria-label="Catalog summary">
+        <span><strong>12</strong> reviews live</span>
+        <span><strong>9</strong> buying contexts</span>
+        <span><strong>3</strong> new premium picks</span>
+      </div>
       <div class="hero-actions">
         <a class="btn btn-primary" href="/products/">Read Reviews</a>
         <a class="btn btn-outline hero-outline" href="/best-for/">Browse Best For</a>
       </div>
+    </div>
+    <div class="home-hero-showcase" aria-label="Newest featured reviews">
+      {{ with .Site.GetPage "section" "products" }}
+      {{ range first 3 (sort .Pages "Weight" "desc") }}
+      {{ $page := . }}
+      <a class="showcase-product" href="{{ $page.RelPermalink }}">
+        {{ with .Params.image }}<img src="{{ . }}" alt="{{ $page.Title }}">{{ end }}
+        <span>
+          {{ with .Params.badge }}<em>{{ . }}</em>{{ end }}
+          <strong>{{ $page.Title }}</strong>
+        </span>
+      </a>
+      {{ end }}
+      {{ end }}
     </div>
   </div>
 </section>
@@ -17,11 +36,11 @@
   <div class="container">
     <div class="section-header">
       <h2>Featured Reviews</h2>
-      <p>The latest live review set, with clear strengths, tradeoffs, and buying context.</p>
+      <p>The current live catalog, with clear strengths, tradeoffs, and buying context.</p>
     </div>
     <div class="products-grid compact-grid">
       {{ with .Site.GetPage "section" "products" }}
-      {{ range first 6 .Pages.ByWeight }}
+      {{ range first 12 .Pages.ByWeight }}
       {{ $page := . }}
       <article class="product-card product-review-card">
         {{ with .Params.badge }}<div class="rating-pill">{{ . }}</div>{{ end }}

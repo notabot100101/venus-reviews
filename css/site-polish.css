@@ -10,6 +10,17 @@
   align-items: center;
 }
 
+.home-hero .container {
+  align-items: center;
+  display: grid;
+  gap: var(--space-2xl);
+  grid-template-columns: minmax(0, 0.95fr) minmax(300px, 0.75fr);
+}
+
+.home-hero .hero-content {
+  text-align: left;
+}
+
 .page-hero {
   padding: var(--space-3xl) 0;
 }
@@ -27,7 +38,84 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-md);
-  justify-content: center;
+  justify-content: flex-start;
+}
+
+.hero-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin: var(--space-xl) 0;
+}
+
+.hero-stats span {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  color: #f4eaf2;
+  font-size: 0.9rem;
+  padding: 0.65rem 0.85rem;
+}
+
+.hero-stats strong {
+  color: #fff;
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.home-hero-showcase {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.showcase-product {
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1), rgba(255, 107, 157, 0.1));
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  color: #fff;
+  display: grid;
+  gap: var(--space-md);
+  grid-template-columns: 86px minmax(0, 1fr);
+  min-height: 108px;
+  overflow: hidden;
+  padding: var(--space-md);
+  text-decoration: none;
+}
+
+.showcase-product img {
+  aspect-ratio: 1;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  object-fit: cover;
+  width: 86px;
+}
+
+.showcase-product span {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.showcase-product em {
+  color: var(--color-secondary);
+  font-size: 0.72rem;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.showcase-product strong {
+  color: #fff;
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.showcase-product:hover {
+  border-color: rgba(255, 107, 157, 0.38);
+  transform: translateY(-2px);
 }
 
 .hero-outline {
@@ -175,6 +263,18 @@
 }
 
 @media (max-width: 980px) {
+  .home-hero .container {
+    grid-template-columns: 1fr;
+  }
+
+  .home-hero .hero-content {
+    text-align: center;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
   .feature-strip {
     grid-template-columns: 1fr;
   }
@@ -188,6 +288,10 @@
   .hero-actions,
   .article-actions {
     flex-direction: column;
+  }
+
+  .hero-stats {
+    justify-content: center;
   }
 
   .hero-actions .btn,
