@@ -12,6 +12,19 @@ price: "59.99"
 best_for: "Classic rabbit design"
 noise: "Medium noise"
 image: "/images/products/product-lovehoney-desire.png"
+gallery:
+  - src: "/images/products/lovehoney-desire/hero/hero-01.png"
+    alt: "Lovehoney Desire hero view"
+    caption: "Product hero view"
+  - src: "/images/products/lovehoney-desire/lifestyle/lifestyle-01.png"
+    alt: "Lovehoney Desire lifestyle view"
+    caption: "Lifestyle context"
+  - src: "/images/products/lovehoney-desire/lifestyle/lifestyle-02.png"
+    alt: "Lovehoney Desire secondary lifestyle view"
+    caption: "Everyday storage and setup"
+  - src: "/images/products/lovehoney-desire/badge/badge.png"
+    alt: "Lovehoney Desire value pick badge"
+    caption: "Mid-range bestseller"
 ---
 
 <h1>Lovehoney Desire</h1>
