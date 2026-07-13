@@ -7,7 +7,7 @@
 .home-hero {
   background:
     linear-gradient(90deg, rgba(25, 18, 35, 0.9) 0%, rgba(35, 24, 45, 0.78) 48%, rgba(35, 24, 45, 0.34) 100%),
-    url("/images/hero-banner.jpg") center right / cover no-repeat;
+    url("/images/hero-banner---a0d189fc-d321-4faa-8ebe-5ed40610a487.jpg") center right / cover no-repeat;
   border-bottom: 1px solid rgba(255, 107, 157, 0.18);
   display: flex;
   align-items: center;
@@ -314,7 +314,7 @@
   .home-hero {
     background:
       linear-gradient(180deg, rgba(25, 18, 35, 0.92) 0%, rgba(35, 24, 45, 0.78) 56%, rgba(35, 24, 45, 0.6) 100%),
-      url("/images/hero-banner.jpg") center bottom / cover no-repeat;
+      url("/images/hero-banner---a0d189fc-d321-4faa-8ebe-5ed40610a487.jpg") center bottom / cover no-repeat;
   }
 
   .home-hero .hero-content {
