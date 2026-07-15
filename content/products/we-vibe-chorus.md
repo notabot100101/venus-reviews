@@ -1,6 +1,13 @@
 ---
 title: "We Vibe Chorus"
 image: "/images/products/we-vibe-chorus/front.webp"
+images:
+  - "/images/products/we-vibe-chorus/front.webp"
+  - "/images/products/we-vibe-chorus/angle-01.webp"
+  - "/images/products/we-vibe-chorus/angle-02.webp"
+  - "/images/products/we-vibe-chorus/detail.webp"
+  - "/images/products/we-vibe-chorus/scale.webp"
+  - "/images/products/we-vibe-chorus/lifestyle.webp"
 price: "$89.99"
 rating: 4.5
 category: "couples-pick"

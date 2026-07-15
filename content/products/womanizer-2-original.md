@@ -1,6 +1,13 @@
 ---
 title: "Womanizer 2 Original"
 image: "/images/products/womanizer-2-original/front.webp"
+images:
+  - "/images/products/womanizer-2-original/front.webp"
+  - "/images/products/womanizer-2-original/angle-01.webp"
+  - "/images/products/womanizer-2-original/angle-02.webp"
+  - "/images/products/womanizer-2-original/detail.webp"
+  - "/images/products/womanizer-2-original/scale.webp"
+  - "/images/products/womanizer-2-original/lifestyle.webp"
 price: "$149.99"
 rating: 4.7
 category: "quiet-pick"

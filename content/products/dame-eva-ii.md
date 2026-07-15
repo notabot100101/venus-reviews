@@ -1,6 +1,13 @@
 ---
 title: "Dame Eva II"
 image: "/images/products/dame-eva-ii/front.webp"
+images:
+  - "/images/products/dame-eva-ii/front.webp"
+  - "/images/products/dame-eva-ii/angle-01.webp"
+  - "/images/products/dame-eva-ii/angle-02.webp"
+  - "/images/products/dame-eva-ii/detail.webp"
+  - "/images/products/dame-eva-ii/scale.webp"
+  - "/images/products/dame-eva-ii/lifestyle.webp"
 price: "$129.99"
 rating: 4.6
 category: "compact-pick"

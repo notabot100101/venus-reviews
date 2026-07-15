@@ -1,6 +1,13 @@
 ---
 title: "Lovehoney Desire"
 image: "/images/products/lovehoney-desire/front.webp"
+images:
+  - "/images/products/lovehoney-desire/front.webp"
+  - "/images/products/lovehoney-desire/angle-01.webp"
+  - "/images/products/lovehoney-desire/angle-02.webp"
+  - "/images/products/lovehoney-desire/detail.webp"
+  - "/images/products/lovehoney-desire/scale.webp"
+  - "/images/products/lovehoney-desire/lifestyle.webp"
 price: "$59.99"
 rating: 4.7
 category: "mid-range-bestseller"
