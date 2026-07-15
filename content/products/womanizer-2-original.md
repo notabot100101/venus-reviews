@@ -1,5 +1,6 @@
 ---
 title: "Womanizer 2 Original"
+image: "/images/products/womanizer-2-original/front.webp"
 price: "$149.99"
 rating: 4.7
 category: "quiet-pick"

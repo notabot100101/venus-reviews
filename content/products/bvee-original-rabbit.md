@@ -1,5 +1,6 @@
 ---
 title: "Bvee Original Rabbit"
+image: "/images/products/bvee-original-rabbit/front.webp"
 price: "$119.99"
 rating: 4.6
 category: "dual-action"

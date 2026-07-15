@@ -1,5 +1,6 @@
 ---
 title: "We Vibe Chorus"
+image: "/images/products/we-vibe-chorus/front.webp"
 price: "$89.99"
 rating: 4.5
 category: "couples-pick"

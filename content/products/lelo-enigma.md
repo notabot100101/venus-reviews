@@ -1,5 +1,6 @@
 ---
 title: "Lelo Enigma"
+image: "/images/products/lelo-enigma/front.webp"
 price: "$149.99"
 rating: 4.8
 category: "advanced-pick"

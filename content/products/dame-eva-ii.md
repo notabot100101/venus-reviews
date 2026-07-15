@@ -1,5 +1,6 @@
 ---
 title: "Dame Eva II"
+image: "/images/products/dame-eva-ii/front.webp"
 price: "$129.99"
 rating: 4.6
 category: "compact-pick"
