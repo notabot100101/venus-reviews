@@ -1,52 +1,82 @@
 {{ define "main" }}
-<section class="hero page-hero">
-  <div class="container">
-    <div class="hero-content">
-      <p class="eyebrow">Catalog recovery version 2026.07.09-Phase1</p>
-      <h1>{{ .Title }}</h1>
-      {{ with .Description }}<p>{{ . }}</p>{{ end }}
-    </div>
-  </div>
-</section>
+<div class="max-w-6xl mx-auto px-4 py-8">
+  <header class="mb-12 text-center">
+    <h1 class="text-4xl font-bold mb-4">Product Reviews</h1>
+    <p class="text-gray-600 max-w-2xl mx-auto">
+      Honest, independent reviews of premium intimate products. 
+      We test everything so you don't have to.
+    </p>
+  </header>
 
-<section class="section">
-  <div class="container">
-    {{ with .Content }}
-    <div class="content intro-content">
-      {{ . }}
-    </div>
-    {{ end }}
-
-    <div class="catalog-toolbar" aria-label="Product catalog summary">
-      <div>
-        <strong>{{ len .Pages }} reviews live</strong>
-        <span>More products and image sets are being added in batches.</span>
-      </div>
-      <a class="btn btn-outline" href="/guides/how-to-choose/">Choosing Guide</a>
-    </div>
-
-    <div class="products-grid catalog-grid">
-      {{ range .Pages.ByWeight }}
-      {{ $page := . }}
-      <article class="product-card product-review-card">
-        {{ with .Params.badge }}<div class="rating-pill">{{ . }}</div>{{ end }}
-        {{ with .Params.image }}
-        <a class="product-card-image-link" href="{{ $page.RelPermalink }}" aria-label="Read {{ $page.Title }} review">
-          <img class="product-card-image" src="{{ . }}" alt="{{ $page.Title }}">
-        </a>
-        {{ end }}
-        <h2 class="product-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-        <p class="product-card-desc">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
-        <div class="product-card-meta">
-          {{ with .Params.best_for }}<span>{{ . }}</span>{{ end }}
-          {{ with .Params.noise }}<span>{{ . }}</span>{{ end }}
-          {{ with .Params.rating }}<span>{{ . }}/5</span>{{ end }}
+  {{ $products := where .Pages "Type" "products" }}
+  
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {{ range $products }}
+    <article class="product-card bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+      <a href="{{ .RelPermalink }}" class="block">
+        <div class="relative bg-gray-50 aspect-square overflow-hidden">
+          {{ if .Params.image }}
+          <img 
+            src="{{ .Params.image }}" 
+            alt="{{ .Title }}"
+            class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+          >
+          {{ else }}
+          <div class="w-full h-full flex items-center justify-center text-gray-400">
+            <span class="text-6xl">📦</span>
+          </div>
+          {{ end }}
+          
+          {{ if .Params.rating }}
+          <div class="absolute top-3 right-3 bg-white/90 backdrop-blur px-2 py-1 rounded-full text-sm font-bold text-yellow-500">
+            {{ .Params.rating }} ★
+          </div>
+          {{ end }}
+          
+          {{ if .Draft }}
+          <div class="absolute top-3 left-3 bg-yellow-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+            Draft
+          </div>
+          {{ end }}
         </div>
-        {{ with .Params.price }}<div class="product-card-price">${{ . }}</div>{{ end }}
-        <a class="btn btn-primary" href="{{ .RelPermalink }}">Read Review</a>
-      </article>
-      {{ end }}
-    </div>
+        
+        <div class="p-6">
+          <h2 class="text-xl font-bold mb-2 line-clamp-2">{{ .Title }}</h2>
+          
+          {{ if .Params.subtitle }}
+          <p class="text-gray-600 text-sm mb-3">{{ .Params.subtitle }}</p>
+          {{ end }}
+          
+          <div class="flex items-center justify-between">
+            {{ if .Params.price }}
+            <span class="text-lg font-bold text-pink-600">{{ .Params.price }}</span>
+            {{ end }}
+            
+            <span class="text-pink-600 text-sm font-medium flex items-center gap-1 group">
+              Read Review 
+              <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+              </svg>
+            </span>
+          </div>
+          
+          {{ if .Params.tags }}
+          <div class="mt-3 flex flex-wrap gap-2">
+            {{ range .Params.tags }}
+            <span class="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded-full">{{ . }}</span>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </a>
+    </article>
+    {{ end }}
   </div>
-</section>
+
+  {{ if eq (len $products) 0 }}
+  <div class="text-center py-16">
+    <p class="text-gray-500 text-lg">No reviews published yet. Check back soon!</p>
+  </div>
+  {{ end }}
+</div>
 {{ end }}
