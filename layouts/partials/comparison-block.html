@@ -1,0 +1,91 @@
+{{/* Multi-vendor price comparison block for Venus product pages */}}
+{{ $programs := .Site.Data.affiliate-config.programs }}
+{{ $productSku := replace .Title " " "-" | lower }}
+
+<div class="comparison-block bg-gray-50 border border-gray-200 rounded-xl p-6 my-8">
+  <h3 class="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
+    <span class="text-xl">🏪</span> Price Comparison
+  </h3>
+  
+  <div class="overflow-x-auto">
+    <table class="min-w-full text-sm">
+      <thead class="bg-gray-100">
+        <tr>
+          <th class="px-4 py-3 text-left font-semibold text-gray-700">Program</th>
+          <th class="px-4 py-3 text-left font-semibold text-gray-700">Price</th>
+          <th class="px-4 py-3 text-left font-semibold text-gray-700">Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range $id, $program := $programs }}
+        {{ if contains (split $program.products ",") $productSku }}
+        <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
+          <td class="px-4 py-3">
+            <a href="{{ $program.baseUrl }}" target="_blank" rel="noopener sponsored" 
+               class="text-blue-600 hover:text-blue-800 font-medium">
+              {{ title $id }}
+            </a>
+          </td>
+          <td class="px-4 py-3 text-gray-600">
+            {{ if .price }}${{ .price }}{{ else }}Price varies{{ end }}
+          </td>
+          <td class="px-4 py-3">
+            {{ if .approvedTrackingId }}
+              <span class="inline-flex items-center px-2 py-1 rounded bg-green-100 text-green-700 text-xs font-medium">
+                <span class="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
+                {{ .approvedTrackingId }}
+              </span>
+            {{ else }}
+              <span class="inline-flex items-center px-2 py-1 rounded bg-yellow-100 text-yellow-700 text-xs font-medium">
+                <span class="w-2 h-2 rounded-full bg-yellow-500 mr-2"></span>
+                Pending approval
+              </span>
+            {{ end }}
+          </td>
+        </tr>
+        {{ end }}
+        {{ end }}
+      </tbody>
+    </table>
+    
+    {{ if not (any (slice false) (eq false .Site.Data.affiliate-config.programs).products ) }}
+    <div class="text-center py-4 text-gray-500 text-xs">
+      No affiliate programs available for this product yet.
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+<style>
+.comparison-block .hover:hover {
+  background-color: rgba(243, 244, 246, 1);
+}
+.comparison-block a[target="_blank"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.comparison-block a[target="_blank"]::after {
+  content: "↗";
+  font-size: 10px;
+  opacity: 0.6;
+}
+</style>
+
+{{/* Track impression for analytics */}}
+<script>
+(function() {
+  var block = document.querySelector('.comparison-block');
+  if (block && !window._cmpBlockSeen) {
+    window._cmpBlockSeen = true;
+    console.log('[VENUS] Comparison block rendered');
+    // Track impression
+    if (typeof gtag !== 'undefined') {
+      gtag('event', 'comparison_block_view', {
+        event_category: 'affiliate',
+        event_label: 'price_comparison_table'
+      });
+    }
+  }
+})();
+</script>
