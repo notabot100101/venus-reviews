@@ -1,5 +1,9 @@
 ---
 title: "Lelo Mona"
+image: "/images/products/lelo-mona/front.jpg"
+images:
+  - "/images/products/lelo-mona/front.jpg"
+  - "/images/products/lelo-mona/top.png"
 price: "$399.00"
 rating: 4.6
 category: "premium-feel"
@@ -11,12 +15,9 @@ Premium suction-based stimulation device with ergonomic shape and quiet operatio
 
 ## Product Gallery
 
-- Premium front view - Swiss engineered design
-- Top angle perspective
-- Side profile showing ergonomic curve
-- Angled view showing complete shape
-- Size reference for product scale
-- Elegant bathroom setting
+![Lelo Mona - Front View](/images/products/lelo-mona/front.jpg)
+
+![Lelo Mona - Top Perspective](/images/products/lelo-mona/top.png)
 
 ## At a Glance
 
