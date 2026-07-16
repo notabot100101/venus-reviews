@@ -35,3 +35,6 @@ gallery:
 
 <h1>We Vibe Chorus</h1>
 <p>Synchronized dual-action stimulator designed for couples, with app-controlled coordination.</p>
+
+<h2>Product Gallery</h2>
+<p class="text-gray-600">High-resolution images showing the We Vibe Chorus from multiple angles and perspectives.</p>
