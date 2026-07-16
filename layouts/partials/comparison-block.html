@@ -1,44 +1,69 @@
 {{/* Multi-vendor price comparison block for Venus product pages */}}
-{{ $programs := .Site.Data.affiliate-config.programs }}
+{{ $config := index .Site.Data "affiliate-config" }}
+{{ $programs := $config.programs }}
 {{ $productSku := replace .Title " " "-" | lower }}
 
 <div class="comparison-block bg-gray-50 border border-gray-200 rounded-xl p-6 my-8">
   <h3 class="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
-    <span class="text-xl">🏪</span> Price Comparison
+    <span class="text-xl">🏪</span> Compare Prices & Availability
   </h3>
+  <p class="text-sm text-gray-600 mb-4">Check availability across multiple retailers. Links will be activated once affiliate partnerships are approved.</p>
   
   <div class="overflow-x-auto">
     <table class="min-w-full text-sm">
       <thead class="bg-gray-100">
         <tr>
-          <th class="px-4 py-3 text-left font-semibold text-gray-700">Program</th>
+          <th class="px-4 py-3 text-left font-semibold text-gray-700">Retailer</th>
           <th class="px-4 py-3 text-left font-semibold text-gray-700">Price</th>
           <th class="px-4 py-3 text-left font-semibold text-gray-700">Status</th>
+          <th class="px-4 py-3 text-left font-semibold text-gray-700">Action</th>
         </tr>
       </thead>
       <tbody>
-        {{ range $id, $program := $programs }}
-        {{ if contains (split $program.products ",") $productSku }}
+        {{ range $programName, $program := $programs }}
+        {{ $productMatch := false }}
+        {{ range $program.products }}
+          {{ if or (in $productSku .) (in (lower $.Title) .) }}
+            {{ $productMatch = true }}
+          {{ end }}
+        {{ end }}
+        {{ if $productMatch }}
         <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
           <td class="px-4 py-3">
-            <a href="{{ $program.baseUrl }}" target="_blank" rel="noopener sponsored" 
-               class="text-blue-600 hover:text-blue-800 font-medium">
-              {{ title $id }}
-            </a>
+            <span class="font-medium text-gray-800">{{ title $programName }}</span>
+            {{ if $program.regions }}
+            <span class="text-xs text-gray-500 block">{{ delimit $program.regions ", " }}</span>
+            {{ end }}
           </td>
           <td class="px-4 py-3 text-gray-600">
-            {{ if .price }}${{ .price }}{{ else }}Price varies{{ end }}
+            {{ if $.Params.price }}{{ $.Params.price }}{{ else }}<span class="text-gray-400">Price varies</span>{{ end }}
           </td>
           <td class="px-4 py-3">
-            {{ if .approvedTrackingId }}
+            {{ $trackingPrefix := index $config.trackingPrefixes $programName }}
+            {{ if and $trackingPrefix (not (hasPrefix $trackingPrefix "AFFILIATE_ID_")) }}
               <span class="inline-flex items-center px-2 py-1 rounded bg-green-100 text-green-700 text-xs font-medium">
                 <span class="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-                {{ .approvedTrackingId }}
+                Active
               </span>
             {{ else }}
-              <span class="inline-flex items-center px-2 py-1 rounded bg-yellow-100 text-yellow-700 text-xs font-medium">
+              <span class="inline-flex items-center px-2 py-1 rounded bg-yellow-100 text-yellow-700 text-xs font-medium" title="Affiliate partnership pending approval">
                 <span class="w-2 h-2 rounded-full bg-yellow-500 mr-2"></span>
-                Pending approval
+                Coming soon
+              </span>
+            {{ end }}
+          </td>
+          <td class="px-4 py-3">
+            {{ $trackingPrefix := index $config.trackingPrefixes $programName }}
+            {{ if and $trackingPrefix (not (hasPrefix $trackingPrefix "AFFILIATE_ID_")) }}
+              <a href="{{ $program.baseUrl }}{{ $program.trackingParam }}" 
+                 target="_blank" 
+                 rel="noopener noreferrer sponsored"
+                 class="inline-block bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition-colors text-sm font-medium">
+                Check Price
+              </a>
+            {{ else }}
+              <span class="inline-block bg-gray-200 text-gray-500 px-4 py-2 rounded-lg text-sm font-medium cursor-not-allowed" title="Link will be available once affiliate partnership is approved">
+                Coming soon
               </span>
             {{ end }}
           </td>
@@ -47,45 +72,9 @@
         {{ end }}
       </tbody>
     </table>
-    
-    {{ if not (any (slice false) (eq false .Site.Data.affiliate-config.programs).products ) }}
-    <div class="text-center py-4 text-gray-500 text-xs">
-      No affiliate programs available for this product yet.
-    </div>
-    {{ end }}
+  </div>
+  
+  <div class="mt-4 text-xs text-gray-500">
+    <p>Affiliate disclosure: As an Amazon Associate and partner with other retailers, we earn from qualifying purchases. This does not affect our independent reviews.</p>
   </div>
 </div>
-
-<style>
-.comparison-block .hover:hover {
-  background-color: rgba(243, 244, 246, 1);
-}
-.comparison-block a[target="_blank"] {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-}
-.comparison-block a[target="_blank"]::after {
-  content: "↗";
-  font-size: 10px;
-  opacity: 0.6;
-}
-</style>
-
-{{/* Track impression for analytics */}}
-<script>
-(function() {
-  var block = document.querySelector('.comparison-block');
-  if (block && !window._cmpBlockSeen) {
-    window._cmpBlockSeen = true;
-    console.log('[VENUS] Comparison block rendered');
-    // Track impression
-    if (typeof gtag !== 'undefined') {
-      gtag('event', 'comparison_block_view', {
-        event_category: 'affiliate',
-        event_label: 'price_comparison_table'
-      });
-    }
-  }
-})();
-</script>
