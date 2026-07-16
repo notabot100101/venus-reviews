@@ -384,13 +384,20 @@ sessions_yield()
 # Read results
 sessions_history({ sessionKey: "agent:worker", includeTools: true })
 
-# Push to Hostinger
+# Deploy to Hostinger - use the deploy script, nothing else
 cd /home/paul/.openclaw/workspaces/assistant/venus-site
-git push origin main
-
-# Deploy to Hostinger
-ssh root@venus-hostinger "cd /var/www/html && git pull"
+./deploy.sh "what changed"
 ```
+
+**Why `deploy.sh` (corrected 2026-07-16):** Hostinger auto-deploys the ROOT of the
+`hostinger-deploy` branch via its Git integration (hPanel). There is no ssh/git-pull
+step (the `ssh root@venus-hostinger` command previously documented here was never the
+real mechanism), and pushing `main` deploys nothing. Crucially, Hugo builds into
+`public/` but Hostinger serves the branch ROOT - the build output must be synced to
+the root before pushing, which is exactly what `deploy.sh` does. Skipping that sync
+caused task 616's "pushed successfully but live site unchanged" failure. After a
+deploy, wait 5-10 minutes for propagation, then verify with a real fetch:
+`curl -s https://reviews.ultramarine963.com/products/<any-product>/ | grep comparison`
 
 ---
 

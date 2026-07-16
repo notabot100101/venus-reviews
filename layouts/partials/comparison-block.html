@@ -1,14 +1,31 @@
-{{/* Multi-vendor price comparison block for Venus product pages */}}
+{{/* Multi-vendor price comparison block for Venus product pages.
+     Only renders when at least one affiliate program covers this product -
+     an empty headers-only table (the state Aegis flagged on dame-eva-ii,
+     2026-07-16) is worse than no block at all. */}}
 {{ $config := index .Site.Data "affiliate-config" }}
 {{ $programs := $config.programs }}
 {{ $productSku := replace .Title " " "-" | lower }}
 
+{{ $matched := slice }}
+{{ range $programName, $program := $programs }}
+  {{ $productMatch := false }}
+  {{ range $program.products }}
+    {{ if or (in $productSku .) (in (lower $.Title) .) }}
+      {{ $productMatch = true }}
+    {{ end }}
+  {{ end }}
+  {{ if $productMatch }}
+    {{ $matched = $matched | append $programName }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $matched) 0 }}
 <div class="comparison-block bg-gray-50 border border-gray-200 rounded-xl p-6 my-8">
   <h3 class="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
     <span class="text-xl">🏪</span> Compare Prices & Availability
   </h3>
   <p class="text-sm text-gray-600 mb-4">Check availability across multiple retailers. Links will be activated once affiliate partnerships are approved.</p>
-  
+
   <div class="overflow-x-auto">
     <table class="min-w-full text-sm">
       <thead class="bg-gray-100">
@@ -20,14 +37,8 @@
         </tr>
       </thead>
       <tbody>
-        {{ range $programName, $program := $programs }}
-        {{ $productMatch := false }}
-        {{ range $program.products }}
-          {{ if or (in $productSku .) (in (lower $.Title) .) }}
-            {{ $productMatch = true }}
-          {{ end }}
-        {{ end }}
-        {{ if $productMatch }}
+        {{ range $programName := $matched }}
+        {{ $program := index $programs $programName }}
         <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
           <td class="px-4 py-3">
             <span class="font-medium text-gray-800">{{ title $programName }}</span>
@@ -55,8 +66,8 @@
           <td class="px-4 py-3">
             {{ $trackingPrefix := index $config.trackingPrefixes $programName }}
             {{ if and $trackingPrefix (not (hasPrefix $trackingPrefix "AFFILIATE_ID_")) }}
-              <a href="{{ $program.baseUrl }}{{ $program.trackingParam }}" 
-                 target="_blank" 
+              <a href="{{ $program.baseUrl }}{{ $program.trackingParam }}"
+                 target="_blank"
                  rel="noopener noreferrer sponsored"
                  class="inline-block bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition-colors text-sm font-medium">
                 Check Price
@@ -69,12 +80,12 @@
           </td>
         </tr>
         {{ end }}
-        {{ end }}
       </tbody>
     </table>
   </div>
-  
+
   <div class="mt-4 text-xs text-gray-500">
     <p>Affiliate disclosure: As an Amazon Associate and partner with other retailers, we earn from qualifying purchases. This does not affect our independent reviews.</p>
   </div>
 </div>
+{{ end }}
