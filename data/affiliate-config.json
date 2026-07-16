@@ -1,0 +1,86 @@
+{
+  "programs": {
+    "lovehoney": {
+      "baseUrl": "https://www.lovehoney.com",
+      "trackingParam": "? aff=AFFILIATE_ID_LOVEHONEY",
+      "products": ["womanizer", "lelo", "we-vibe"],
+      "commissionRate": "5-8%",
+      "cookieDuration": "30 days",
+      "paymentTerms": "Monthly, min €50/£50",
+      "approvalRequired": true,
+      "regions": ["US", "UK", "EU"],
+      "productCoverage": "Full catalog + partner brands"
+    },
+    "adameve": {
+      "baseUrl": "https://www.adameve.com",
+      "trackingParam": "? affiliate=AFFILIATE_ID_ADAMEVE",
+      "products": ["adam-eve-brands", "exclusive-designers", "wellness-products"],
+      "commissionRate": "4-8%",
+      "cookieDuration": "30-90 days",
+      "paymentTerms": "Net-30/60, min $50",
+      "approvalRequired": true,
+      "regions": ["US"],
+      "productCoverage": "Full catalog + exclusive brands"
+    },
+    "amazon": {
+      "baseUrl": "https://www.amazon.com",
+      "trackingParam": "?tag=AFFILIATE_ID_AMAZON",
+      "products": ["select-adult-toys", "general-accessories"],
+      "commissionRate": "1-3%",
+      "cookieDuration": "24 hours",
+      "paymentTerms": "Net-14/30, min $10",
+      "approvalRequired": true,
+      "regions": ["US", "UK", "DE", "JP", "IN", "CA"],
+      "productCoverage": "Limited select items only",
+      "restrictions": "Must include disclosure, adult content restrictions apply"
+    },
+    "shevibe": {
+      "baseUrl": "https://www.shevibe.com",
+      "trackingParam": "? utm_source=AFFILIATE_ID_SHEVIBE",
+      "products": ["shevibe-original", "partnerships", "wellness"],
+      "commissionRate": "10-15%",
+      "cookieDuration": "30 days",
+      "paymentTerms": "Net-15/30, min $50",
+      "approvalRequired": true,
+      "regions": ["US", "UK"],
+      "productCoverage": "Full SheVibe catalog"
+    },
+    "spectrum": {
+      "baseUrl": "https://www.spectrumboutique.com",
+      "trackingParam": "? ref=AFFILIATE_ID_SPECTRUM",
+      "products": ["full-catalog", "international-brands", "new-arrivals"],
+      "commissionRate": "5-10%",
+      "cookieDuration": "30 days",
+      "paymentTerms": "Monthly, min £50",
+      "approvalRequired": true,
+      "regions": ["UK", "EU"],
+      "productCoverage": "Full Spectrum catalog"
+    }
+  },
+  "affiliateNetworks": {
+    "direct": [
+      "lovehoney",
+      "shevibe",
+      "spectrum"
+    ],
+    "networks": [
+      "adameve",
+      "amazon"
+    ]
+  },
+  "priority": [
+    "lovehoney",
+    "shevibe",
+    "spectrum",
+    "adameve",
+    "amazon"
+  ],
+  "trackingPrefixes": {
+    "lovehoney": "AFFILIATE_ID_LOVEHONEY",
+    "adameve": "AFFILIATE_ID_ADAMEVE",
+    "amazon": "AFFILIATE_ID_AMAZON",
+    "shevibe": "AFFILIATE_ID_SHEVIBE",
+    "spectrum": "AFFILIATE_ID_SPECTRUM"
+  },
+  "fallbackStrategy": "US->SheVibe->Adam&Eve, EU->Lovehoney, UK->Spectrum"
+}
