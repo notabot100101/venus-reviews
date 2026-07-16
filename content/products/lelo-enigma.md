@@ -19,12 +19,17 @@ Premium dual stimulation device combining sonic vibration with precision G-spot 
 
 ## Product Gallery
 
-- Front view and control layout
-- Angled profile
-- Secondary angle
-- Material and finish detail
-- Scale reference
-- Discreet lifestyle setting
+![Lelo Enigma - Front View](/images/products/lelo-enigma/front.webp)
+
+![Lelo Enigma - Angled Profile](/images/products/lelo-enigma/angle-01.webp)
+
+![Lelo Enigma - Secondary Angle](/images/products/lelo-enigma/angle-02.webp)
+
+![Lelo Enigma - Material Detail](/images/products/lelo-enigma/detail.webp)
+
+![Lelo Enigma - Scale Reference](/images/products/lelo-enigma/scale.webp)
+
+![Lelo Enigma - Lifestyle Setting](/images/products/lelo-enigma/lifestyle.webp)
 
 ## At a Glance
 
