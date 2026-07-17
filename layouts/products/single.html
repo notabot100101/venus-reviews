@@ -7,15 +7,19 @@
   <h1 class="text-3xl font-bold mb-2">{{ .Title }} Review</h1>
   <div class="text-gray-600 mb-6">{{ .Params.subtitle }}</div>
 
-  {{ if .Params.images }}
+  {{ if .Params.gallery }}
   <div class="product-gallery mb-8">
     <div class="main-image-container relative bg-gray-50 rounded-xl overflow-hidden">
+      {{ with index .Params.gallery 0 }}
+      {{ if .src }}
       <img 
         id="mainImage"
-        src="{{ index .Params.images 0 }}" 
-        alt="{{ .Title }}"
+        src="{{ .src }}" 
+        alt="{{ $.Title }} {{ if .alt }} {{ .alt }} {{ end }}"
         class="w-full h-auto object-contain max-h-[600px] mx-auto"
       >
+      {{ end }}
+      {{ end }}
       {{ if .Draft }}
       <div class="absolute top-4 left-4 bg-yellow-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
         Draft
@@ -24,13 +28,13 @@
     </div>
 
     <div class="thumbnail-strip flex gap-2 mt-4 overflow-x-auto pb-2">
-      {{ range $index, $img := .Params.images }}
+      {{ range $i, $img := .Params.gallery }}
       <img 
-        src="{{ $img }}"
-        alt="{{ $.Title }} view {{ add $index 1 }}"
+        src="{{ $img.src }}"
+        alt="{{ $.Title }} {{ if $img.alt }} {{ $img.alt }} {{ end }}"
         class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
-        data-index="{{ $index }}"
-        data-src="{{ $img }}"
+        data-index="{{ $i }}"
+        data-src="{{ $img.src }}"
         onclick="setMainImage(this)"
       >
       {{ end }}
@@ -38,7 +42,7 @@
 
     <div class="image-nav flex justify-between mt-2">
       <button onclick="prevImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">← Previous</button>
-      <span id="imageCounter" class="py-2 text-gray-600">1 / {{ len .Params.images }}</span>
+      <span id="imageCounter" class="py-2 text-gray-600">1 / {{ len .Params.gallery }}</span>
       <button onclick="nextImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">Next →</button>
     </div>
   </div>

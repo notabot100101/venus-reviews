@@ -41,6 +41,68 @@
   <div class="text-gray-600 mb-6"></div>
 
   
+  <div class="product-gallery mb-8">
+    <div class="main-image-container relative bg-gray-50 rounded-xl overflow-hidden">
+      
+      
+      <img 
+        id="mainImage"
+        src="/images/products/lelo-hugo/hero/hero-01.png" 
+        alt="Lelo Hugo  Lelo Hugo hero view "
+        class="w-full h-auto object-contain max-h-[600px] mx-auto"
+      >
+      
+      
+      
+    </div>
+
+    <div class="thumbnail-strip flex gap-2 mt-4 overflow-x-auto pb-2">
+      
+      <img 
+        src="/images/products/lelo-hugo/hero/hero-01.png"
+        alt="Lelo Hugo  Lelo Hugo hero view "
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="0"
+        data-src="/images/products/lelo-hugo/hero/hero-01.png"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/lelo-hugo/lifestyle/lifestyle-01.png"
+        alt="Lelo Hugo  Lelo Hugo lifestyle view "
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="1"
+        data-src="/images/products/lelo-hugo/lifestyle/lifestyle-01.png"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/lelo-hugo/lifestyle/lifestyle-02.png"
+        alt="Lelo Hugo  Lelo Hugo secondary lifestyle view "
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="2"
+        data-src="/images/products/lelo-hugo/lifestyle/lifestyle-02.png"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/lelo-hugo/badge/badge.png"
+        alt="Lelo Hugo  Lelo Hugo premium wellness badge "
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="3"
+        data-src="/images/products/lelo-hugo/badge/badge.png"
+        onclick="setMainImage(this)"
+      >
+      
+    </div>
+
+    <div class="image-nav flex justify-between mt-2">
+      <button onclick="prevImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">← Previous</button>
+      <span id="imageCounter" class="py-2 text-gray-600">1 / 4</span>
+      <button onclick="nextImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">Next →</button>
+    </div>
+  </div>
+  
 
   <div class="product-info grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
     

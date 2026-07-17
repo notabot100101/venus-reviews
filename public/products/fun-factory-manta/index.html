@@ -41,12 +41,92 @@
   <div class="text-gray-600 mb-6"></div>
 
   
+  <div class="product-gallery mb-8">
+    <div class="main-image-container relative bg-gray-50 rounded-xl overflow-hidden">
+      
+      
+      <img 
+        id="mainImage"
+        src="/images/products/fun-factory-manta/front.webp" 
+        alt="Fun Factory Manta  Fun Factory Manta front view "
+        class="w-full h-auto object-contain max-h-[600px] mx-auto"
+      >
+      
+      
+      
+    </div>
+
+    <div class="thumbnail-strip flex gap-2 mt-4 overflow-x-auto pb-2">
+      
+      <img 
+        src="/images/products/fun-factory-manta/front.webp"
+        alt="Fun Factory Manta  Fun Factory Manta front view "
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="0"
+        data-src="/images/products/fun-factory-manta/front.webp"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/fun-factory-manta/angle-01.webp"
+        alt="Fun Factory Manta  Fun Factory Manta angled view "
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="1"
+        data-src="/images/products/fun-factory-manta/angle-01.webp"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/fun-factory-manta/angle-02.webp"
+        alt="Fun Factory Manta  Fun Factory Manta second angle "
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="2"
+        data-src="/images/products/fun-factory-manta/angle-02.webp"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/fun-factory-manta/detail.webp"
+        alt="Fun Factory Manta  Fun Factory Manta detail view "
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="3"
+        data-src="/images/products/fun-factory-manta/detail.webp"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/fun-factory-manta/scale.webp"
+        alt="Fun Factory Manta  Fun Factory Manta scale reference "
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="4"
+        data-src="/images/products/fun-factory-manta/scale.webp"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/fun-factory-manta/lifestyle.webp"
+        alt="Fun Factory Manta  Fun Factory Manta lifestyle setting "
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="5"
+        data-src="/images/products/fun-factory-manta/lifestyle.webp"
+        onclick="setMainImage(this)"
+      >
+      
+    </div>
+
+    <div class="image-nav flex justify-between mt-2">
+      <button onclick="prevImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">← Previous</button>
+      <span id="imageCounter" class="py-2 text-gray-600">1 / 6</span>
+      <button onclick="nextImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">Next →</button>
+    </div>
+  </div>
+  
 
   <div class="product-info grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
     
     <div class="bg-gray-50 p-4 rounded-lg">
       <h3 class="text-sm font-semibold text-gray-600 uppercase">Price</h3>
-      <p class="text-2xl font-bold text-pink-600">$119.99</p>
+      <p class="text-2xl font-bold text-pink-600">119.99</p>
     </div>
     
 
@@ -132,63 +212,9 @@
 
 
   <div class="prose max-w-none mb-8">
-    <p>Fun Factory Manta stands out because its flexible wraparound shape is more specialized than a classic wand or bullet. That makes it interesting for shoppers who already know they want a targeted external device with more contact area.</p>
+    <h1>Fun Factory Manta</h1>
+<p>Fun Factory Manta stands out because its flexible wraparound shape is more specialized than a classic wand or bullet. That makes it interesting for shoppers who already know they want a targeted external device with more contact area.</p>
 <p>The review framing should be honest about the learning curve. It is not the simplest beginner pick, but it earns a place in the catalog because the form factor is distinct, the materials are strong, and the use case is clear.</p>
-<h2 id="product-gallery">
-  Product Gallery
-  <a href="#product-gallery" class="h-anchor" aria-hidden="true">#</a>
-</h2>
-<ul>
-<li>Front view</li>
-<li>Angled profile</li>
-<li>Secondary angle</li>
-<li>Flexible shape detail</li>
-<li>Scale reference</li>
-<li>Discreet lifestyle setting</li>
-</ul>
-<h2 id="at-a-glance">
-  At a Glance
-  <a href="#at-a-glance" class="h-anchor" aria-hidden="true">#</a>
-</h2>
-<table>
-<thead>
-<tr>
-<th>Feature</th>
-<th>Details</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Design</td>
-<td>Flexible wraparound shape</td>
-</tr>
-<tr>
-<td>Type</td>
-<td>External stimulator</td>
-</tr>
-<tr>
-<td>Materials</td>
-<td>Strong, body-safe silicone</td>
-</tr>
-<tr>
-<td>Best For</td>
-<td>Targeted external stimulation</td>
-</tr>
-<tr>
-<td>Learning Curve</td>
-<td>Moderate (not for beginners)</td>
-</tr>
-<tr>
-<td>Price Point</td>
-<td>Mid-range</td>
-</tr>
-</tbody>
-</table>
-<h2 id="the-bottom-line">
-  The Bottom Line
-  <a href="#the-bottom-line" class="h-anchor" aria-hidden="true">#</a>
-</h2>
-<p>Fun Factory Manta is a specialized external stimulator with a unique wraparound design. The German engineering and quality materials justify the learning curve for those seeking more contact area than traditional wands provide.</p>
 
   </div>
 
@@ -199,13 +225,13 @@
   <nav class="mt-12 pt-6 border-t">
     <div class="flex justify-between">
       
-      <a href="/products/bvee-original-rabbit/" class="text-gray-600 hover:text-pink-600">
-        ← Bvee Original Rabbit Review
+      <a href="/products/we-vibe-sync/" class="text-gray-600 hover:text-pink-600">
+        ← We Vibe Sync Review
       </a>
       
       
-      <a href="/products/lelo-mona/" class="text-gray-600 hover:text-pink-600">
-        Lelo Mona Review →
+      <a href="/products/fun-factory-volta/" class="text-gray-600 hover:text-pink-600">
+        Fun Factory Volta Review →
       </a>
       
     </div>
