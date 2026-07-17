@@ -31,6 +31,13 @@ gallery:
   - src: "/images/products/lelo-enigma/lifestyle.webp"
     alt: "Lelo Enigma lifestyle setting"
     caption: "Discreet lifestyle setting"
+images:
+  - "/images/products/lelo-enigma/front.webp"
+  - "/images/products/lelo-enigma/angle-01.webp"
+  - "/images/products/lelo-enigma/angle-02.webp"
+  - "/images/products/lelo-enigma/detail.webp"
+  - "/images/products/lelo-enigma/scale.webp"
+  - "/images/products/lelo-enigma/lifestyle.webp"
 ---
 
 <h1>Lelo Enigma</h1>
