@@ -1,0 +1,13 @@
+{{ define "main" }}
+Gallery exists: {{ .Params.gallery }}
+Gallery type: {{ printf "%T" .Params.gallery }}
+{{ if .Params.gallery }}
+Gallery length: {{ len .Params.gallery }}
+{{ if .Params.gallery 0 }}
+First image src: {{ .Params.gallery 0.src }}
+{{ end }}
+{{ range .Params.gallery }}
+IMAGE: {{ .src }} - {{ .alt }}
+{{ end }}
+{{ end }}
+{{ end }}
