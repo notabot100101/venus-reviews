@@ -1,10 +1,18 @@
 ---
 title: "Lelo Sona 2"
+subtitle: "Premium Compact Sonic-Wave Stimulation"
 price: "$179.99"
 rating: 4.8
 category: "sonic-wave"
 tags: ["sonic", "pressure-wave", "compact", "premium", "travel-friendly"]
 affiliate_link: ""
+gallery: 
+  - src: "/images/products/lelo-sona-2/hero/hero-01.png"
+    alt: "Lelo Sona 2 Hero View"
+  - src: "/images/products/lelo-sona-2/lifestyle/lifestyle-01.png"
+    alt: "Lelo Sona 2 Lifestyle Context"
+  - src: "/images/products/lelo-sona-2/badge/badge.png"
+    alt: "Travel-Friendly Badge"
 ---
 
 Lelo Sona 2 is the premium compact choice for shoppers who want pressure-wave stimulation rather than a classic buzzy vibration pattern. It is small, polished, and easier to store discreetly than larger wand-style products.
