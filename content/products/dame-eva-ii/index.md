@@ -11,26 +11,13 @@ reviews_count: 38
 price: "129.99"
 best_for: "Hands-free fit"
 noise: "Low noise"
-image: "/images/products/dame-eva-ii/front.webp"
-gallery:
-  - src: "/images/products/dame-eva-ii/front.webp"
-    alt: "Dame Eva II front view"
-    caption: "Front view"
-  - src: "/images/products/dame-eva-ii/angle-01.webp"
-    alt: "Dame Eva II angled view"
-    caption: "Angled profile"
-  - src: "/images/products/dame-eva-ii/angle-02.webp"
-    alt: "Dame Eva II second angle"
-    caption: "Secondary angle"
-  - src: "/images/products/dame-eva-ii/detail.webp"
-    alt: "Dame Eva II detail view"
-    caption: "Material and finish detail"
-  - src: "/images/products/dame-eva-ii/scale.webp"
-    alt: "Dame Eva II scale reference"
-    caption: "Scale reference"
-  - src: "/images/products/dame-eva-ii/lifestyle.webp"
-    alt: "Dame Eva II lifestyle setting"
-    caption: "Discreet lifestyle setting"
+images:
+  - "/images/products/dame-eva-ii/front.webp"
+  - "/images/products/dame-eva-ii/angle-01.webp"
+  - "/images/products/dame-eva-ii/angle-02.webp"
+  - "/images/products/dame-eva-ii/detail.webp"
+  - "/images/products/dame-eva-ii/scale.webp"
+  - "/images/products/dame-eva-ii/lifestyle.webp"
 ---
 
 <h1>Dame Eva II</h1>
