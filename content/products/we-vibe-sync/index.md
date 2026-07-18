@@ -12,6 +12,13 @@ price: "99.99"
 best_for: "Adjustable couples fit"
 noise: "Low-medium noise"
 image: "/images/products/we-vibe-sync/front.webp"
+images:
+  - "/images/products/we-vibe-sync/front.webp"
+  - "/images/products/we-vibe-sync/angle-01.webp"
+  - "/images/products/we-vibe-sync/angle-02.webp"
+  - "/images/products/we-vibe-sync/detail.webp"
+  - "/images/products/we-vibe-sync/scale.webp"
+  - "/images/products/we-vibe-sync/lifestyle.webp"
 gallery:
   - src: "/images/products/we-vibe-sync/front.webp"
     alt: "We Vibe Sync front view"
