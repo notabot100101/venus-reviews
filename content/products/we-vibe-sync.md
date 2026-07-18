@@ -1,5 +1,13 @@
 ---
 title: "We Vibe Sync"
+image: "/images/products/we-vibe-sync/front.webp"
+images:
+  - "/images/products/we-vibe-sync/front.webp"
+  - "/images/products/we-vibe-sync/angle-01.webp"
+  - "/images/products/we-vibe-sync/angle-02.webp"
+  - "/images/products/we-vibe-sync/detail.webp"
+  - "/images/products/we-vibe-sync/scale.webp"
+  - "/images/products/we-vibe-sync/lifestyle.webp"
 price: "$99.99"
 rating: 4.4
 category: "adjustable-fit"
