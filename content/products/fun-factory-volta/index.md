@@ -12,6 +12,13 @@ price: "109.99"
 best_for: "Precise external contact"
 noise: "Medium noise"
 image: "/images/products/fun-factory-volta/front.webp"
+images:
+  - "/images/products/fun-factory-volta/front.webp"
+  - "/images/products/fun-factory-volta/angle-01.webp"
+  - "/images/products/fun-factory-volta/angle-02.webp"
+  - "/images/products/fun-factory-volta/detail.webp"
+  - "/images/products/fun-factory-volta/scale.webp"
+  - "/images/products/fun-factory-volta/lifestyle.webp"
 gallery:
   - src: "/images/products/fun-factory-volta/front.webp"
     alt: "Fun Factory Volta front view"

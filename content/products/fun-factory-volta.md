@@ -5,6 +5,13 @@ rating: 4.3
 category: "precision-pick"
 tags: ["twin-tip", "precision", "external", "exploratory"]
 affiliate_link: ""
+images:
+  - "/images/products/fun-factory-volta/front.webp"
+  - "/images/products/fun-factory-volta/angle-01.webp"
+  - "/images/products/fun-factory-volta/angle-02.webp"
+  - "/images/products/fun-factory-volta/detail.webp"
+  - "/images/products/fun-factory-volta/scale.webp"
+  - "/images/products/fun-factory-volta/lifestyle.webp"
 ---
 
 Fun Factory Volta is a precision-focused option with a twin-tip shape that gives it a different feel from broader external stimulators. It belongs in the catalog as a comparison point for shoppers who want more targeted control.
