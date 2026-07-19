@@ -11,26 +11,13 @@ reviews_count: 24
 price: "119.99"
 best_for: "Flexible external use"
 noise: "Medium noise"
-image: "/images/products/fun-factory-manta/front.webp"
-gallery:
-  - src: "/images/products/fun-factory-manta/front.webp"
-    alt: "Fun Factory Manta front view"
-    caption: "Front view"
-  - src: "/images/products/fun-factory-manta/angle-01.webp"
-    alt: "Fun Factory Manta angled view"
-    caption: "Angled profile"
-  - src: "/images/products/fun-factory-manta/angle-02.webp"
-    alt: "Fun Factory Manta second angle"
-    caption: "Secondary angle"
-  - src: "/images/products/fun-factory-manta/detail.webp"
-    alt: "Fun Factory Manta detail view"
-    caption: "Flexible shape detail"
-  - src: "/images/products/fun-factory-manta/scale.webp"
-    alt: "Fun Factory Manta scale reference"
-    caption: "Scale reference"
-  - src: "/images/products/fun-factory-manta/lifestyle.webp"
-    alt: "Fun Factory Manta lifestyle setting"
-    caption: "Discreet lifestyle setting"
+images:
+  - "/images/products/fun-factory-manta/front.webp"
+  - "/images/products/fun-factory-manta/angle-01.webp"
+  - "/images/products/fun-factory-manta/angle-02.webp"
+  - "/images/products/fun-factory-manta/detail.webp"
+  - "/images/products/fun-factory-manta/scale.webp"
+  - "/images/products/fun-factory-manta/lifestyle.webp"
 ---
 
 <h1>Fun Factory Manta</h1>

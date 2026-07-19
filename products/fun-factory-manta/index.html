@@ -41,6 +41,84 @@
   <div class="text-gray-600 mb-6"></div>
 
   
+  <div class="product-gallery mb-8">
+    <div class="main-image-container relative bg-gray-50 rounded-xl overflow-hidden">
+      
+      <img 
+        id="mainImage"
+        src="/images/products/fun-factory-manta/front.webp" 
+        alt="Fun Factory Manta"
+        class="w-full h-auto object-contain max-h-[600px] mx-auto"
+      >
+      
+      
+    </div>
+
+    <div class="thumbnail-strip flex gap-2 mt-4 overflow-x-auto pb-2">
+      
+      <img 
+        src="/images/products/fun-factory-manta/front.webp"
+        alt="Fun Factory Manta view 1"
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="0"
+        data-src="/images/products/fun-factory-manta/front.webp"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/fun-factory-manta/angle-01.webp"
+        alt="Fun Factory Manta view 2"
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="1"
+        data-src="/images/products/fun-factory-manta/angle-01.webp"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/fun-factory-manta/angle-02.webp"
+        alt="Fun Factory Manta view 3"
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="2"
+        data-src="/images/products/fun-factory-manta/angle-02.webp"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/fun-factory-manta/detail.webp"
+        alt="Fun Factory Manta view 4"
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="3"
+        data-src="/images/products/fun-factory-manta/detail.webp"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/fun-factory-manta/scale.webp"
+        alt="Fun Factory Manta view 5"
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="4"
+        data-src="/images/products/fun-factory-manta/scale.webp"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/fun-factory-manta/lifestyle.webp"
+        alt="Fun Factory Manta view 6"
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="5"
+        data-src="/images/products/fun-factory-manta/lifestyle.webp"
+        onclick="setMainImage(this)"
+      >
+      
+    </div>
+
+    <div class="image-nav flex justify-between mt-2">
+      <button onclick="prevImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">← Previous</button>
+      <span id="imageCounter" class="py-2 text-gray-600">1 / 6</span>
+      <button onclick="nextImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">Next →</button>
+    </div>
+  </div>
+  
 
   <div class="product-info grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
     
