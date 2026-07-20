@@ -41,6 +41,80 @@
   <div class="text-gray-600 mb-6"></div>
 
   
+  
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  
+
+  
+  <div class="product-gallery mb-8">
+    <div class="main-image-container relative bg-gray-50 rounded-xl overflow-hidden">
+      
+      <img 
+        id="mainImage"
+        src="/images/products/lelo-sona-2/hero/hero-01.png" 
+        alt="Lelo Sona 2"
+        class="w-full h-auto object-contain max-h-[600px] mx-auto"
+      >
+      
+      
+    </div>
+
+    <div class="thumbnail-strip flex gap-2 mt-4 overflow-x-auto pb-2">
+      
+      <img 
+        src="/images/products/lelo-sona-2/hero/hero-01.png"
+        alt="Lelo Sona 2 view 1"
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="0"
+        data-src="/images/products/lelo-sona-2/hero/hero-01.png"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/lelo-sona-2/lifestyle/lifestyle-01.png"
+        alt="Lelo Sona 2 view 2"
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="1"
+        data-src="/images/products/lelo-sona-2/lifestyle/lifestyle-01.png"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/lelo-sona-2/lifestyle/lifestyle-02.png"
+        alt="Lelo Sona 2 view 3"
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="2"
+        data-src="/images/products/lelo-sona-2/lifestyle/lifestyle-02.png"
+        onclick="setMainImage(this)"
+      >
+      
+      <img 
+        src="/images/products/lelo-sona-2/badge/badge.png"
+        alt="Lelo Sona 2 view 4"
+        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        data-index="3"
+        data-src="/images/products/lelo-sona-2/badge/badge.png"
+        onclick="setMainImage(this)"
+      >
+      
+    </div>
+
+    <div class="image-nav flex justify-between mt-2">
+      <button onclick="prevImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">← Previous</button>
+      <span id="imageCounter" class="py-2 text-gray-600">1 / 4</span>
+      <button onclick="nextImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">Next →</button>
+    </div>
+  </div>
+  
 
   <div class="product-info grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
     
@@ -206,13 +280,13 @@
   <nav class="mt-12 pt-6 border-t">
     <div class="flex justify-between">
       
-      <a href="/products/lelo-hugo/" class="text-gray-600 hover:text-pink-600">
-        ← Lelo Hugo Review
+      <a href="/products/fun-factory-volta/" class="text-gray-600 hover:text-pink-600">
+        ← Fun Factory Volta Review
       </a>
       
       
-      <a href="/products/lovehoney-desire/" class="text-gray-600 hover:text-pink-600">
-        Lovehoney Desire Review →
+      <a href="/products/bvee-original-rabbit/" class="text-gray-600 hover:text-pink-600">
+        Bvee Original Rabbit Review →
       </a>
       
     </div>
@@ -235,6 +309,7 @@
   width: auto;
 }
 </style>
+
 
 <script>
 let currentIndex = 0;
@@ -272,6 +347,7 @@ function prevImage() {
 
 updateGallery();
 </script>
+
 
   
   </main>

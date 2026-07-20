@@ -7,10 +7,18 @@
   <h1 class="text-3xl font-bold mb-2">{{ .Title }} Review</h1>
   <div class="text-gray-600 mb-6">{{ .Params.subtitle }}</div>
 
-  {{ if .Params.images }}
+  {{ $images := .Params.images }}
+  {{ if and (not $images) .Params.gallery }}
+    {{ $images = slice }}
+    {{ range .Params.gallery }}
+      {{ $images = $images | append .src }}
+    {{ end }}
+  {{ end }}
+
+  {{ if $images }}
   <div class="product-gallery mb-8">
     <div class="main-image-container relative bg-gray-50 rounded-xl overflow-hidden">
-      {{ with index .Params.images 0 }}
+      {{ with index $images 0 }}
       <img 
         id="mainImage"
         src="{{ . }}" 
@@ -26,7 +34,7 @@
     </div>
 
     <div class="thumbnail-strip flex gap-2 mt-4 overflow-x-auto pb-2">
-      {{ range $i, $img := .Params.images }}
+      {{ range $i, $img := $images }}
       <img 
         src="{{ $img }}"
         alt="{{ $.Title }} view {{ add $i 1 }}"
@@ -40,7 +48,7 @@
 
     <div class="image-nav flex justify-between mt-2">
       <button onclick="prevImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">← Previous</button>
-      <span id="imageCounter" class="py-2 text-gray-600">1 / {{ len .Params.images }}</span>
+      <span id="imageCounter" class="py-2 text-gray-600">1 / {{ len $images }}</span>
       <button onclick="nextImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">Next →</button>
     </div>
   </div>
@@ -147,6 +155,7 @@
 }
 </style>
 
+{{ if $images }}
 <script>
 let currentIndex = 0;
 const thumbnails = document.querySelectorAll('.thumbnail');
@@ -183,4 +192,5 @@ function prevImage() {
 // Initialize
 updateGallery();
 </script>
+{{ end }}
 {{ end }}
