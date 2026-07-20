@@ -1,5 +1,11 @@
 ---
 title: "Lelo Hugo"
+image: "/images/products/lelo-hugo/front.webp"
+images:
+  - "/images/products/lelo-hugo/front.webp"
+  - "/images/products/lelo-hugo/lifestyle.webp"
+  - "/images/products/lelo-hugo/angle-01.webp"
+  - "/images/products/lelo-hugo/detail.webp"
 price: "$199.99"
 rating: 4.7
 category: "premium-wellness"
