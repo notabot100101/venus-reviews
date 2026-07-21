@@ -41,6 +41,7 @@
           {{ with .Params.best_for }}<span>{{ . }}</span>{{ end }}
           {{ with .Params.noise }}<span>{{ . }}</span>{{ end }}
         </div>
+        {{ with .Params.price }}<p class="product-card-price">${{ . }}</p>{{ end }}
         <a class="btn btn-primary" href="{{ .RelPermalink }}">Read Review</a>
       </article>
       {{ end }}

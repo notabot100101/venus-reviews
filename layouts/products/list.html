@@ -49,7 +49,7 @@
           
           <div class="flex items-center justify-between">
             {{ if .Params.price }}
-            <span class="text-lg font-bold text-pink-600">{{ .Params.price }}</span>
+            <span class="text-lg font-bold text-pink-600">${{ .Params.price }}</span>
             {{ end }}
             
             <span class="text-pink-600 text-sm font-medium flex items-center gap-1 group">

@@ -47,7 +47,7 @@
             {{ end }}
           </td>
           <td class="px-4 py-3 text-gray-600">
-            {{ if $.Params.price }}{{ $.Params.price }}{{ else }}<span class="text-gray-400">Price varies</span>{{ end }}
+            {{ if $.Params.price }}${{ $.Params.price }}{{ else }}<span class="text-gray-400">Price varies</span>{{ end }}
           </td>
           <td class="px-4 py-3">
             {{ $trackingPrefix := index $config.trackingPrefixes $programName }}

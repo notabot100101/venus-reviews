@@ -4,7 +4,7 @@ image: "/images/products/lelo-mona/front.jpg"
 images:
   - "/images/products/lelo-mona/front.jpg"
   - "/images/products/lelo-mona/top.png"
-price: "$399.00"
+price: "399.00"
 rating: 4.6
 category: "premium-feel"
 tags: ["suction", "premium", "ergonomic", "quiet", "swiss-engineered"]

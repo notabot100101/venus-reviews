@@ -14,7 +14,11 @@
   <!-- Default theme (matches theme-switcher.js's DEFAULT_THEME) - shared id so the
        switcher reuses this tag instead of appending a duplicate on load. -->
   <link id="venus-theme-css" rel="stylesheet" href="/css/theme-dark-blue.css">
-  <link rel="stylesheet" href="/css/theme-switcher-ui.css">
+  <!-- ?v= cache-busts against LiteSpeed's 7-day max-age on static assets (confirmed
+       2026-07-21: no versioning meant a fix to this exact file took up to 7 days to
+       reach anyone who'd already loaded it once). Bump the date on future edits to
+       either file. -->
+  <link rel="stylesheet" href="/css/theme-switcher-ui.css?v=20260721">
   <link rel="stylesheet" href="/css/trust-badges.css">
   <link rel="stylesheet" href="/css/hero-overlay.css">
   <link rel="stylesheet" href="/css/site-polish.css">
@@ -80,6 +84,6 @@
 </footer>
 
   
-  <script src="/css/theme-switcher.js"></script>
+  <script src="/css/theme-switcher.js?v=20260721"></script>
 </body>
 </html>

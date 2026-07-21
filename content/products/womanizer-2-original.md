@@ -8,7 +8,7 @@ images:
   - "/images/products/womanizer-2-original/detail.webp"
   - "/images/products/womanizer-2-original/scale.webp"
   - "/images/products/womanizer-2-original/lifestyle.webp"
-price: "$149.99"
+price: "149.99"
 rating: 4.7
 category: "quiet-pick"
 tags: ["airpulse", "premium", "quiet", "intelligent-sensitivity"]

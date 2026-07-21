@@ -380,6 +380,14 @@ a:hover {
   margin-bottom: var(--space-md);
 }
 
+.product-card-price {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+}
+
 .meta-badge {
   background: var(--color-accent);
   color: var(--color-dark);
