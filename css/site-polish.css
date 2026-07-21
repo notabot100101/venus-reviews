@@ -75,6 +75,16 @@
   align-items: stretch;
 }
 
+.section-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-2xl);
+}
+
+.section-actions .btn {
+  min-width: min(100%, 230px);
+}
+
 .rating-pill {
   align-self: flex-start;
   background: rgba(183, 110, 121, 0.14);
