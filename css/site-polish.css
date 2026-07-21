@@ -75,6 +75,26 @@
   align-items: stretch;
 }
 
+.reviews-header {
+  align-items: center;
+  display: flex;
+  gap: var(--space-xl);
+  justify-content: space-between;
+  text-align: left;
+}
+
+.reviews-header h2 {
+  margin-bottom: var(--space-sm);
+}
+
+.reviews-header p {
+  margin: 0;
+}
+
+.reviews-header .btn {
+  flex: 0 0 auto;
+}
+
 .rating-pill {
   align-self: flex-start;
   background: rgba(183, 110, 121, 0.14);
@@ -324,6 +344,17 @@
 
   .hero-actions {
     justify-content: center;
+  }
+
+  .reviews-header {
+    align-items: center;
+    flex-direction: column;
+    gap: var(--space-lg);
+    text-align: center;
+  }
+
+  .reviews-header p {
+    margin: 0 auto;
   }
 
   .hero-lab-preview {
