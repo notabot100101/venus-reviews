@@ -17,7 +17,6 @@
     </div>
   </div>
 </section>
-{{ end }}
 
 <section class="section">
   <div class="container">
@@ -42,9 +41,7 @@
         <h3 class="product-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
         {{ with .Params.rating }}
         <div class="rating-row product-rating-row">
-          <span aria-label="{{ . }} out of 5 stars">
-            {{ range $i := seq 5 }}{{ if le $i $.Params.rating }}★{{ else }}☆{{ end }}{{ end }}
-          </span>
+          <span aria-label="{{ . }} out of 5 stars">★★★★★</span>
           <span>{{ . }} / 5</span>
         </div>
         {{ end }}
@@ -159,3 +156,4 @@
     </div>
   </div>
 </section>
+{{ end }}
