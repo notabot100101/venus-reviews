@@ -2,6 +2,7 @@
 title: "Cleaning & Maintenance Guide"
 description: "Comprehensive guide to cleaning, maintaining, and caring for intimate products. Learn immediate cleaning vs deep cleaning, compatible cleaners, and when to replace toys."
 date: 2026-07-17
+lastmod: 2026-07-17
 slug: "cleaning-maintenance"
 draft: false
 author: "Venus Editorial Team"
@@ -375,3 +376,6 @@ Your care for your products reflects your care for your health and well-being. E
 - [Best For Couples](../best-for/couples)
 - [Best For Travel](../best-for/travel)
 - [Best For Quiet Operation](../best-for/quiet)
+
+---
+*Last updated: {{ .Lastmod | default .Date | time.Format "January 2006" }}*

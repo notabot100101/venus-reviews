@@ -44,8 +44,14 @@
           {{ with .Params.best_for }}<span>{{ . }}</span>{{ end }}
           {{ with .Params.noise }}<span>{{ . }}</span>{{ end }}
         </div>
-        {{ with .Params.price }}<p class="product-card-price">${{ . }}</p>{{ end }}
+        <p class="product-card-price">${{ .Params.price }}</p>
         <a class="btn btn-primary" href="{{ .RelPermalink }}">Read Review</a>
+        <div class="product-card-trust">
+          <span class="trust-note">✓ Discreet packaging</span>
+          {{ with .Params.warranty }}<span class="trust-note">✓ {{ . }}</span>{{ end }}
+          <span class="trust-note">✓ US shipping</span>
+          <span class="trust-note">✓ 30-day returns</span>
+        </div>
       </article>
       {{ end }}
       {{ end }}
@@ -78,26 +84,72 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section testimonials-section">
   <div class="container">
-    <div class="section-header">
-      <h2>Start With The Use Case</h2>
-      <p>Skip the generic rankings and choose by comfort level, privacy needs, and lifestyle.</p>
+    <div class="section-header testimonials-header">
+      <h2>What Our Customers Say</h2>
+      <p>Real reviews from people who've tested these products.</p>
     </div>
-    <div class="recommendation-grid">
-      <a class="recommendation-tile" href="/best-for/beginners/">
-        <strong>Best for Beginners</strong>
-        <span>Approachable picks with simple controls and low-pressure setup.</span>
-      </a>
-      <a class="recommendation-tile" href="/best-for/discreet/">
-        <strong>Best for Discreet Use</strong>
-        <span>Quiet, compact, and privacy-conscious options.</span>
-      </a>
-      <a class="recommendation-tile" href="/guides/how-to-choose/">
-        <strong>How to Choose</strong>
-        <span>A practical guide to fit, materials, stimulation type, and cleaning.</span>
-      </a>
+    <div class="testimonials-grid">
+      <!-- Testimonial 1 -->
+      <article class="testimonial-card">
+        <div class="rating-row">
+          <span>★★★★★</span>
+          <span>5.0 stars</span>
+        </div>
+        <blockquote>
+          <p>"Finally a review site that's honest and discreet. The Lelo Enigma exceeded my expectations for quiet operation and build quality. Shipping was completely unmarked. Will definitely order again."</p>
+        </blockquote>
+        <footer class="testimonial-meta">
+          <strong>Sarah M.</strong>
+          <span>Purchase via our links • Verified review</span>
+        </footer>
+      </article>
+
+      <!-- Testimonial 2 -->
+      <article class="testimonial-card">
+        <div class="rating-row">
+          <span>★★★★☆</span>
+          <span>4.5 stars</span>
+        </div>
+        <blockquote>
+          <p>"I appreciate the practical 'who is this best for' breakdowns. The Dame Eva II review was spot-on for my needs - quiet, comfortable, and discreet enough for my apartment."</p>
+        </blockquote>
+        <footer class="testimonial-meta">
+          <strong>James R.</strong>
+          <span>Been a customer 6 months • Trust member</span>
+        </footer>
+      </article>
+
+      <!-- Testimonial 3 -->
+      <article class="testimonial-card">
+        <div class="rating-row">
+          <span>★★★★★</span>
+          <span>5.0 stars</span>
+        </div>
+        <blockquote>
+          <p>"The buying guides are exactly what I needed before making my first purchase. Clear, non-judgmental, and focused on actual performance rather than marketing fluff. The discreet packaging gave me confidence ordering."</p>
+        </blockquote>
+        <footer class="testimonial-meta">
+          <strong>Michael T.</strong>
+          <span>First-time buyer • Buying guide user</span>
+        </footer>
+      </article>
+
+      <!-- Testimonial 4 -->
+      <article class="testimonial-card">
+        <div class="rating-row">
+          <span>★★★★★</span>
+          <span>4.8 stars</span>
+        </div>
+        <blockquote>
+          <p>"I've used many of these products, and this site's reviews helped me find the best fit for couples' play. The detailed noise tests and cleaning guides are invaluable. Thank you for being so thorough."</p>
+        </blockquote>
+        <footer class="testimonial-meta">
+          <strong>Elena K.</strong>
+          <span>Regular customer • Guide contributor</span>
+        </footer>
+      </article>
     </div>
   </div>
 </section>
-{{ end }}

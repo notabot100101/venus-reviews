@@ -2,6 +2,7 @@
 title: "Noise Level & Discretion Guide"
 description: "Learn about noise levels, discreet use tips, and what makes toys quiet or noticeable. Perfect for thin walls, roommates, and travel."
 date: 2026-07-17
+lastmod: 2026-07-17
 slug: "noise-and-discretion"
 draft: false
 author: "Venus Editorial Team"
@@ -271,3 +272,6 @@ Your comfort and confidence matter. Choose products designed for discretion, lea
 - [Body-Safe Materials Guide](../body-safe-materials)
 - [Cleaning & Maintenance Guide](../cleaning-maintenance)
 - [Best For Quiet Operation](../best-for/quiet)
+
+---
+*Last updated: {{ .Lastmod | default .Date | time.Format "January 2006" }}*
