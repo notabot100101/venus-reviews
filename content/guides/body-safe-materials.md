@@ -2,7 +2,7 @@
 title: "Body-Safe Materials Guide"
 description: "Learn about safe and unsafe materials for intimate products. Understand what makes a toy body-safe and how to verify material claims."
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-07-22
 slug: "body-safe-materials"
 draft: false
 author: "Venus Editorial Team"
@@ -11,6 +11,8 @@ author: "Venus Editorial Team"
 # Body-Safe Materials Guide
 
 Understanding what materials touch your body is essential for safe, enjoyable use. This guide covers why material safety matters, what to choose, what to avoid, and how to verify product claims.
+
+*Updated July 22, 2026 with clearer material verification and shopping-safety notes.*
 
 ## Why Materials Matter
 

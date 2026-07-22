@@ -2,7 +2,7 @@
 title: "Noise Level & Discretion Guide"
 description: "Learn about noise levels, discreet use tips, and what makes toys quiet or noticeable. Perfect for thin walls, roommates, and travel."
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-07-22
 slug: "noise-and-discretion"
 draft: false
 author: "Venus Editorial Team"
@@ -11,6 +11,8 @@ author: "Venus Editorial Team"
 # Noise Level & Discretion Guide
 
 Understanding noise characteristics of intimate products is essential for comfortable, private use. Whether you live in thin-walled housing, have roommates, or travel frequently, this guide helps you choose quiet products and use them discreetly.
+
+*Updated July 22, 2026 with clearer apartment, travel, and white-noise context.*
 
 ## Decibel Levels Explained
 

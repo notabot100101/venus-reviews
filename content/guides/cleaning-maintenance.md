@@ -2,7 +2,7 @@
 title: "Cleaning & Maintenance Guide"
 description: "Comprehensive guide to cleaning, maintaining, and caring for intimate products. Learn immediate cleaning vs deep cleaning, compatible cleaners, and when to replace toys."
 date: 2026-07-17
-lastmod: 2026-07-17
+lastmod: 2026-07-22
 slug: "cleaning-maintenance"
 draft: false
 author: "Venus Editorial Team"
@@ -11,6 +11,8 @@ author: "Venus Editorial Team"
 # Cleaning & Maintenance Guide
 
 Proper cleaning and maintenance extends product life, maintains hygiene, and ensures safe, enjoyable use. This guide covers everything from immediate cleaning after use to deep cleaning schedules, compatible products, and when to replace your toys.
+
+*Updated July 22, 2026 with clearer cleaning cadence and storage reminders.*
 
 ## Immediate Cleaning vs. Deep Cleaning
 

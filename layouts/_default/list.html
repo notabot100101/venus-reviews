@@ -22,6 +22,11 @@
       <article class="product-card">
         <h2 class="product-card-title">{{ .Title }}</h2>
         <p class="product-card-desc">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
+        {{ if or .Date .Lastmod }}
+        <p class="product-card-updated">
+          Updated {{ (.Lastmod | default .Date).Format "January 2, 2006" }}
+        </p>
+        {{ end }}
         <a class="btn btn-primary" href="{{ .RelPermalink }}">Read More</a>
       </article>
       {{ end }}

@@ -13,6 +13,8 @@ Venus Reviews was created to solve a simple problem: finding honest, detailed in
 
 We do things differently.
 
+We write for people who want a private, practical answer before they buy: what feels premium, what stays quiet, what cleans easily, what ships discreetly, and what might be a poor fit even when the rating looks strong.
+
 ## Who We Are
 
 **Founded by:** Experienced users who understand what matters  
@@ -115,6 +117,13 @@ We respect your privacy and will never share your information with third parties
 
 **Stuck choosing?** Want help finding the right product?  
 [Schedule a Free Consultation](mailto:support@reviews.ultramarine963.com)
+
+## Start With The Right Question
+
+Not sure where to begin? Tell us your priorities: quiet use, beginner comfort, materials, partner use, travel, or support expectations. We will point you to the most relevant review or buying guide without asking for personal details you do not want to share.
+
+[Ask For Buying Advice](mailto:support@reviews.ultramarine963.com)  
+[Suggest A Product To Review](mailto:reviews@reviews.ultramarine963.com)
 
 **Join our community:**  
 Sign up for our newsletter for latest reviews, exclusive offers, and member discounts.

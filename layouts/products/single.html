@@ -81,6 +81,32 @@
     {{ end }}
   </div>
 
+  {{ if or .Params.best_for .Params.trust_note .Params.support_note }}
+  <div class="bg-blue-50 border border-blue-100 rounded-xl p-6 mb-8">
+    <h2 class="text-xl font-bold text-blue-900 mb-3">Best Fit & Buyer Notes</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-blue-800">
+      {{ with .Params.best_for }}
+      <div>
+        <h3 class="text-sm font-semibold uppercase tracking-wide text-blue-700">Best For</h3>
+        <p>{{ . }}</p>
+      </div>
+      {{ end }}
+      {{ with .Params.trust_note }}
+      <div>
+        <h3 class="text-sm font-semibold uppercase tracking-wide text-blue-700">Trust Note</h3>
+        <p>{{ . }}</p>
+      </div>
+      {{ end }}
+      {{ with .Params.support_note }}
+      <div>
+        <h3 class="text-sm font-semibold uppercase tracking-wide text-blue-700">Support</h3>
+        <p>{{ . }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
   {{ partial "comparison-block.html" . }}
 
   <div class="prose max-w-none mb-8">

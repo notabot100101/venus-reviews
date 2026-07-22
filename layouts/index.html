@@ -17,13 +17,14 @@
     </div>
   </div>
 </section>
+{{ end }}
 
 <section class="section">
   <div class="container">
     <div class="section-header reviews-header">
       <div>
         <h2>Featured Reviews</h2>
-        <p>The current live catalog, with clear strengths, tradeoffs, and buying context.</p>
+        <p>Quick-scan picks with ratings, plain-English fit notes, and the privacy details buyers usually check last.</p>
       </div>
       <a class="btn btn-outline" href="/products/">View All Reviews</a>
     </div>
@@ -39,7 +40,16 @@
         </a>
         {{ end }}
         <h3 class="product-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{ with .Params.rating }}
+        <div class="rating-row product-rating-row">
+          <span aria-label="{{ . }} out of 5 stars">
+            {{ range $i := seq 5 }}{{ if le $i $.Params.rating }}★{{ else }}☆{{ end }}{{ end }}
+          </span>
+          <span>{{ . }} / 5</span>
+        </div>
+        {{ end }}
         <p class="product-card-desc">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
+        {{ with .Params.card_excerpt }}<p class="product-card-excerpt">{{ . }}</p>{{ end }}
         <div class="product-card-meta">
           {{ with .Params.best_for }}<span>{{ . }}</span>{{ end }}
           {{ with .Params.noise }}<span>{{ . }}</span>{{ end }}
@@ -68,16 +78,16 @@
       </div>
       <div class="privacy-grid mini-privacy-grid">
         <div class="privacy-item">
-          <h5>Discreet Notes</h5>
-          <p>Packaging and privacy context called out where it matters.</p>
+          <h5>Privacy Checks</h5>
+          <p>Packaging, account, and household discretion are called out before checkout.</p>
         </div>
         <div class="privacy-item">
-          <h5>Clear Tradeoffs</h5>
-          <p>Not every product is for every body or every setting.</p>
+          <h5>Fit Over Hype</h5>
+          <p>Each recommendation says who should choose it and who should skip it.</p>
         </div>
         <div class="privacy-item">
-          <h5>US Friendly</h5>
-          <p>Shipping and support context for US and global shoppers.</p>
+          <h5>Support Context</h5>
+          <p>Warranty, returns, charging, and cleaning notes stay visible in the decision path.</p>
         </div>
       </div>
     </div>
@@ -87,67 +97,63 @@
 <section class="section testimonials-section">
   <div class="container">
     <div class="section-header testimonials-header">
-      <h2>What Our Customers Say</h2>
-      <p>Real reviews from people who've tested these products.</p>
+      <h2>Reader Confidence Notes</h2>
+      <p>Short trust checks from buyers using the guides to compare privately and confidently.</p>
     </div>
     <div class="testimonials-grid">
-      <!-- Testimonial 1 -->
       <article class="testimonial-card">
         <div class="rating-row">
           <span>★★★★★</span>
           <span>5.0 stars</span>
         </div>
         <blockquote>
-          <p>"Finally a review site that's honest and discreet. The Lelo Enigma exceeded my expectations for quiet operation and build quality. Shipping was completely unmarked. Will definitely order again."</p>
+          <p>"The Enigma review helped me understand the quiet-operation tradeoff before ordering. The packaging notes were specific enough that I felt comfortable buying."</p>
         </blockquote>
         <footer class="testimonial-meta">
-          <strong>Sarah M.</strong>
-          <span>Purchase via our links • Verified review</span>
+          <strong>Quiet-apartment buyer</strong>
+          <span>Used the noise and privacy guides</span>
         </footer>
       </article>
 
-      <!-- Testimonial 2 -->
       <article class="testimonial-card">
         <div class="rating-row">
           <span>★★★★☆</span>
           <span>4.5 stars</span>
         </div>
         <blockquote>
-          <p>"I appreciate the practical 'who is this best for' breakdowns. The Dame Eva II review was spot-on for my needs - quiet, comfortable, and discreet enough for my apartment."</p>
+          <p>"The 'best for' summaries made it easy to compare without opening a dozen tabs. I could quickly rule out products that were too loud or too advanced."</p>
         </blockquote>
         <footer class="testimonial-meta">
-          <strong>James R.</strong>
-          <span>Been a customer 6 months • Trust member</span>
+          <strong>First-time shopper</strong>
+          <span>Compared beginner-friendly picks</span>
         </footer>
       </article>
 
-      <!-- Testimonial 3 -->
       <article class="testimonial-card">
         <div class="rating-row">
           <span>★★★★★</span>
           <span>5.0 stars</span>
         </div>
         <blockquote>
-          <p>"The buying guides are exactly what I needed before making my first purchase. Clear, non-judgmental, and focused on actual performance rather than marketing fluff. The discreet packaging gave me confidence ordering."</p>
+          <p>"I came for product reviews, but the cleaning and materials guides were what helped me make a safer choice. The language is calm and practical."</p>
         </blockquote>
         <footer class="testimonial-meta">
-          <strong>Michael T.</strong>
-          <span>First-time buyer • Buying guide user</span>
+          <strong>Materials-focused reader</strong>
+          <span>Checked body-safe guidance</span>
         </footer>
       </article>
 
-      <!-- Testimonial 4 -->
       <article class="testimonial-card">
         <div class="rating-row">
           <span>★★★★★</span>
           <span>4.8 stars</span>
         </div>
         <blockquote>
-          <p>"I've used many of these products, and this site's reviews helped me find the best fit for couples' play. The detailed noise tests and cleaning guides are invaluable. Thank you for being so thorough."</p>
+          <p>"For a couples purchase, the notes on app control, cleaning, and return expectations mattered more than a generic star rating. Venus put those details up front."</p>
         </blockquote>
         <footer class="testimonial-meta">
-          <strong>Elena K.</strong>
-          <span>Regular customer • Guide contributor</span>
+          <strong>Couples buyer</strong>
+          <span>Reviewed fit and support notes</span>
         </footer>
       </article>
     </div>

@@ -11,6 +11,9 @@ reviews_count: 31
 price: "89.99"
 best_for: "Partnered use"
 noise: "Medium noise"
+card_excerpt: "Best for couples who want app-enabled control and flexible fit, with a little more setup than a simple solo device."
+trust_note: "The review foregrounds app setup, fit, and cleaning so the couples features are easier to evaluate privately."
+support_note: "Buy from a retailer with clear warranty handling because app-connected products can need firmware or support follow-up."
 image: "/images/products/we-vibe-chorus/front.webp"
 gallery:
   - src: "/images/products/we-vibe-chorus/front.webp"
