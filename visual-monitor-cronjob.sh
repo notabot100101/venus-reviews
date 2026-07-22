@@ -66,7 +66,7 @@ function isTransparent(color) {
 }
 
 function looksLikeBrowserDefault(fontFamily) {
-  return /Times New Roman|serif/i.test(fontFamily || '');
+  return /Times New Roman|(^|,)\s*serif\s*(,|$)/i.test(fontFamily || '');
 }
 
 (async () => {
