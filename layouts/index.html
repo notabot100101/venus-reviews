@@ -41,8 +41,7 @@
         <h3 class="product-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
         {{ with .Params.rating }}
         <div class="rating-row product-rating-row">
-          <span aria-label="{{ . }} out of 5 stars">★★★★★</span>
-          <span>{{ . }} / 5</span>
+          {{ partial "rating-display.html" (dict "rating" .) }}
         </div>
         {{ end }}
         <p class="product-card-desc">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>

@@ -70,11 +70,7 @@
     {{ if .Params.rating }}
     <div>
       <h3>Rating</h3>
-      <div class="product-stars" aria-label="{{ .Params.rating }} out of 5 stars">
-        {{ range $i := seq 5 }}
-          {{ if le $i $.Params.rating }}★{{ else }}☆{{ end }}
-        {{ end }}
-      </div>
+      {{ partial "rating-display.html" (dict "rating" .Params.rating) }}
     </div>
     {{ end }}
 

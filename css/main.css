@@ -558,22 +558,24 @@ a:hover {
 }
 
 .testimonial-card {
-  background: var(--color-white);
+  background: linear-gradient(180deg, rgba(45, 45, 78, 0.96), rgba(35, 35, 62, 0.96));
   padding: var(--space-xl);
   border-radius: 12px;
   box-shadow: var(--shadow-md);
   position: relative;
+  border: 1px solid rgba(0, 188, 212, 0.18);
 }
 
 .testimonial-card::before {
   content: '"';
   position: absolute;
   top: var(--space-md);
-  left: var(--space-md);
+  left: 0.75rem;
   font-family: var(--font-heading);
   font-size: 4rem;
-  color: rgba(107, 44, 145, 0.1);
+  color: rgba(0, 188, 212, 0.15);
   line-height: 0;
+  z-index: -1;
 }
 
 .testimonial-text {
