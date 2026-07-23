@@ -1,0 +1,245 @@
+/* ============================================
+   TESTIMONIALS SECTION - Bottom Spacing & Avatars
+   ============================================ */
+
+/* Container for bottom-spaced variant */
+.testimonials-bottom-spaced {
+  padding-bottom: 4rem !important;
+}
+
+/* Testimonial Avatar */
+.testimonial-avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: var(--space-md);
+  padding: var(--space-sm);
+  background: var(--color-accent);
+  border-radius: 50%;
+  width: fit-content;
+  margin: var(--space-md) auto;
+  box-shadow: var(--shadow-md);
+}
+
+.testimonial-avatar-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-white);
+  box-shadow: 0 2px 8px rgba(107, 44, 145, 0.2);
+}
+
+/* Testimonial Grid */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-xl);
+  margin-top: var(--space-xl);
+}
+
+/* Testimonial Card */
+.testimonial-card {
+  background: var(--color-white);
+  padding: var(--space-xl);
+  border-radius: 16px;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  transition: all var(--transition-base);
+  border: 1px solid rgba(107, 44, 145, 0.1);
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(107, 44, 145, 0.2);
+}
+
+/* Rating Row */
+.rating-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+
+.rating-row span:first-child {
+  color: var(--color-primary);
+  font-size: 1.125rem;
+}
+
+.rating-row span:last-child {
+  font-size: 0.875rem;
+  color: var(--color-text-light);
+  font-weight: 600;
+}
+
+/* Quote */
+blockquote {
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-text);
+  margin-bottom: var(--space-lg);
+  padding-top: var(--space-md);
+  border-top: 1px solid rgba(107, 44, 145, 0.1);
+}
+
+blockquote p {
+  margin: 0;
+}
+
+/* Testimonial Meta */
+.testimonial-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: var(--space-md);
+  border-top: 1px solid rgba(107, 44, 145, 0.1);
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-xs);
+}
+
+.author-name {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--color-dark);
+  display: block;
+}
+
+.author-badge {
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+  font-style: italic;
+  background: var(--color-accent);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: 12px;
+}
+
+.testimonial-context {
+  font-size: 0.8125rem;
+  color: var(--color-text-light);
+  text-align: center;
+  margin-top: var(--space-xs);
+}
+
+/* ============================================
+   Testimonials Section Header
+   ============================================ */
+.testimonials-header {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.testimonials-header h2 {
+  font-size: 2rem;
+  margin-bottom: var(--space-sm);
+  color: var(--color-dark);
+}
+
+.testimonials-header p {
+  font-size: 1.125rem;
+  color: var(--color-text-light);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ============================================
+   Star Rating Component
+   ============================================ */
+.star-rating {
+  display: flex;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-md);
+}
+
+.star {
+  font-size: 1.25rem;
+}
+
+.star.filled {
+  color: var(--color-primary);
+}
+
+.star.empty {
+  color: #e0e0e0;
+}
+
+/* ============================================
+   Verified Buyer Badge
+   ============================================ */
+.testimonial-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  background: var(--color-light);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: 20px;
+  font-size: 0.75rem;
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+  box-shadow: var(--shadow-sm);
+}
+
+.testimonial-badge i {
+  font-size: 0.875rem;
+}
+
+/* ============================================
+   Social Proof Count
+   ============================================ */
+.testimonial-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-md);
+  font-size: 0.875rem;
+  color: var(--color-text-light);
+}
+
+.testimonial-count i {
+  color: var(--color-secondary);
+}
+
+/* ============================================
+   Testimonial Quote Icon
+   ============================================ */
+.quote-icon {
+  font-family: var(--font-heading);
+  font-size: 4rem;
+  color: rgba(107, 44, 145, 0.08);
+  line-height: 0;
+  display: block;
+  margin-bottom: var(--space-md);
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+@media (max-width: 768px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+  
+  .testimonials-header h2 {
+    font-size: 1.75rem;
+  }
+  
+  .testimonials-header p {
+    font-size: 1rem;
+  }
+  
+  .testimonial-avatar-img {
+    width: 60px;
+    height: 60px;
+  }
+}
