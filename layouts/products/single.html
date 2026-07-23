@@ -1,11 +1,15 @@
 {{ define "main" }}
-<div class="product-detail max-w-4xl mx-auto px-4 py-8">
-  <nav class="mb-6 text-sm text-gray-600">
-    <a href="/products" class="hover:text-pink-600">← All Reviews</a>
+<article class="product-detail">
+  <nav class="product-breadcrumb" aria-label="Product navigation">
+    <a href="/products/">← All Reviews</a>
   </nav>
 
-  <h1 class="text-3xl font-bold mb-2">{{ .Title }} Review</h1>
-  <div class="text-gray-600 mb-6">{{ .Params.subtitle }}</div>
+  <header class="product-page-header">
+    <p class="eyebrow">Independent product review</p>
+    <h1>{{ .Title }} Review</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    {{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
+  </header>
 
   {{ $images := .Params.images }}
   {{ if and (not $images) .Params.gallery }}
@@ -15,30 +19,30 @@
     {{ end }}
   {{ end }}
 
+  <section class="product-hero-detail" aria-label="{{ .Title }} product summary">
   {{ if $images }}
-  <div class="product-gallery mb-8">
-    <div class="main-image-container relative bg-gray-50 rounded-xl overflow-hidden">
+  <div class="product-gallery">
+    <div class="main-image-container">
       {{ with index $images 0 }}
       <img 
         id="mainImage"
         src="{{ . }}" 
         alt="{{ $.Title }}"
-        class="w-full h-auto object-contain max-h-[600px] mx-auto"
       >
       {{ end }}
       {{ if .Draft }}
-      <div class="absolute top-4 left-4 bg-yellow-500 text-white px-3 py-1 rounded-full text-sm font-semibold">
+      <div class="product-draft-badge">
         Draft
       </div>
       {{ end }}
     </div>
 
-    <div class="thumbnail-strip flex gap-2 mt-4 overflow-x-auto pb-2">
+    <div class="thumbnail-strip" aria-label="Product gallery thumbnails">
       {{ range $i, $img := $images }}
       <img 
         src="{{ $img }}"
         alt="{{ $.Title }} view {{ add $i 1 }}"
-        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        class="thumbnail"
         data-index="{{ $i }}"
         data-src="{{ $img }}"
         onclick="setMainImage(this)"
@@ -46,26 +50,27 @@
       {{ end }}
     </div>
 
-    <div class="image-nav flex justify-between mt-2">
-      <button onclick="prevImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">← Previous</button>
-      <span id="imageCounter" class="py-2 text-gray-600">1 / {{ len $images }}</span>
-      <button onclick="nextImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">Next →</button>
+    <div class="image-nav">
+      <button type="button" onclick="prevImage()">← Previous</button>
+      <span id="imageCounter">1 / {{ len $images }}</span>
+      <button type="button" onclick="nextImage()">Next →</button>
     </div>
   </div>
   {{ end }}
 
-  <div class="product-info grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+  <aside class="product-summary-panel">
+  <div class="product-info">
     {{ if .Params.price }}
-    <div class="bg-gray-50 p-4 rounded-lg">
-      <h3 class="text-sm font-semibold text-gray-600 uppercase">Price</h3>
-      <p class="text-2xl font-bold text-pink-600">${{ .Params.price }}</p>
+    <div>
+      <h3>Price</h3>
+      <p>${{ .Params.price }}</p>
     </div>
     {{ end }}
 
     {{ if .Params.rating }}
-    <div class="bg-gray-50 p-4 rounded-lg">
-      <h3 class="text-sm font-semibold text-gray-600 uppercase">Rating</h3>
-      <div class="text-2xl font-bold flex text-yellow-400">
+    <div>
+      <h3>Rating</h3>
+      <div class="product-stars" aria-label="{{ .Params.rating }} out of 5 stars">
         {{ range $i := seq 5 }}
           {{ if le $i $.Params.rating }}★{{ else }}☆{{ end }}
         {{ end }}
@@ -74,112 +79,100 @@
     {{ end }}
 
     {{ if .Params.trialPeriod }}
-    <div class="bg-gray-50 p-4 rounded-lg">
-      <h3 class="text-sm font-semibold text-gray-600 uppercase">Trial Period</h3>
-      <p class="text-2xl font-bold text-green-600">{{ .Params.trialPeriod }}</p>
+    <div>
+      <h3>Trial Period</h3>
+      <p>{{ .Params.trialPeriod }}</p>
     </div>
     {{ end }}
   </div>
 
+  {{ with .Params.badge }}<p class="product-badge">{{ . }}</p>{{ end }}
+  {{ with .Params.noise }}<p class="product-micro-note"><strong>Noise:</strong> {{ . }}</p>{{ end }}
+  </aside>
+  </section>
+
   {{ if or .Params.best_for .Params.trust_note .Params.support_note }}
-  <div class="bg-blue-50 border border-blue-100 rounded-xl p-6 mb-8">
-    <h2 class="text-xl font-bold text-blue-900 mb-3">Best Fit & Buyer Notes</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-blue-800">
+  <section class="buyer-notes">
+    <h2>Best Fit & Buyer Notes</h2>
+    <div class="buyer-notes-grid">
       {{ with .Params.best_for }}
       <div>
-        <h3 class="text-sm font-semibold uppercase tracking-wide text-blue-700">Best For</h3>
+        <h3>Best For</h3>
         <p>{{ . }}</p>
       </div>
       {{ end }}
       {{ with .Params.trust_note }}
       <div>
-        <h3 class="text-sm font-semibold uppercase tracking-wide text-blue-700">Trust Note</h3>
+        <h3>Trust Note</h3>
         <p>{{ . }}</p>
       </div>
       {{ end }}
       {{ with .Params.support_note }}
       <div>
-        <h3 class="text-sm font-semibold uppercase tracking-wide text-blue-700">Support</h3>
+        <h3>Support</h3>
         <p>{{ . }}</p>
       </div>
       {{ end }}
     </div>
-  </div>
+  </section>
   {{ end }}
 
   {{ partial "comparison-block.html" . }}
 
-  <div class="prose max-w-none mb-8">
-    {{ .Content }}
+  <div class="product-review-body">
+    {{ .Content | replaceRE `(?s)^\s*<h1[^>]*>.*?</h1>\s*` "" | safeHTML }}
   </div>
 
   {{ if .Params.buyLink }}  
-  <div class="bg-pink-50 border border-pink-200 rounded-xl p-6 mb-8">
-    <h3 class="text-xl font-bold text-pink-800 mb-2">Where to Buy</h3>
-    <p class="text-pink-700 mb-4">
+  <div class="where-to-buy">
+    <h3>Where to Buy</h3>
+    <p>
       This is an independent review. No compensation was received for this review.
       As an Amazon Associate we earn from qualifying purchases.
     </p>
     <a href="{{ .Params.buyLink }}" target="_blank" rel="noopener noreferrer sponsored"
-       class="inline-block bg-pink-600 text-white px-8 py-3 rounded-full hover:bg-pink-700 transition-colors font-semibold">
+       class="btn btn-primary">
       Check Price on Amazon
     </a>
   </div>
   {{ end }}
 
   {{ if .Params.cons }}
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-    <div class="bg-green-50 p-6 rounded-xl">
-      <h3 class="text-lg font-bold text-green-800 mb-3">✅ Pros</h3>
-      <ul class="space-y-2">
+  <div class="pros-cons">
+    <div>
+      <h3>Pros</h3>
+      <ul>
         {{ range .Params.pros }}
-        <li class="text-green-700">{{ . }}</li>
+        <li>{{ . }}</li>
         {{ end }}
       </ul>
     </div>
-    <div class="bg-red-50 p-6 rounded-xl">
-      <h3 class="text-lg font-bold text-red-800 mb-3">❌ Cons</h3>
-      <ul class="space-y-2">
+    <div>
+      <h3>Cons</h3>
+      <ul>
         {{ range .Params.cons }}
-        <li class="text-red-700">{{ . }}</li>
+        <li>{{ . }}</li>
         {{ end }}
       </ul>
     </div>
   </div>
   {{ end }}
 
-  <nav class="mt-12 pt-6 border-t">
-    <div class="flex justify-between">
+  <nav class="product-next-prev">
+    <div>
       {{ with .NextInSection }}
-      <a href="{{ .RelPermalink }}" class="text-gray-600 hover:text-pink-600">
+      <a href="{{ .RelPermalink }}">
         ← {{ .Title }} Review
       </a>
       {{ end }}
       {{ with .PrevInSection }}
-      <a href="{{ .RelPermalink }}" class="text-gray-600 hover:text-pink-600">
+      <a href="{{ .RelPermalink }}">
         {{ .Title }} Review →
       </a>
       {{ end }}
     </div>
   </nav>
-</div>
-
-<style>
-.thumbnail.active {
-  ring: 2px solid #ec4899;
-  ring-offset: 2px;
-}
-.main-image-container {
-  aspect-ratio: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.main-image-container img {
-  max-height: 100%;
-  width: auto;
-}
-</style>
+</article>
 
 {{ if $images }}
 <script>

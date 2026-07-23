@@ -5,14 +5,15 @@
 
 set -euo pipefail
 
-SITE_BASE="https://reviews.ultramarine963.com"
+SITE_BASE="${SITE_BASE:-https://reviews.ultramarine963.com}"
 SITE_DIR="/home/paul/.openclaw/workspaces/worker/venus-site"
-SCREENSHOT_DIR="$SITE_DIR/screenshots/visual-monitor"
-STATE_FILE="$SITE_DIR/screenshots/visual-monitor-state.json"
-LOG_FILE="$SITE_DIR/visual-monitor-cronjob.log"
+SCREENSHOT_DIR="${SCREENSHOT_DIR:-$SITE_DIR/screenshots/visual-monitor}"
+STATE_FILE="${STATE_FILE:-$SITE_DIR/screenshots/visual-monitor-state.json}"
+LOG_FILE="${LOG_FILE:-$SITE_DIR/visual-monitor-cronjob.log}"
 OPENCLAW_BIN="/home/paul/.npm-global/bin/openclaw"
 DISCORD_CHANNEL="1521616964039086378"
 CHROME_PATH="${CHROME_PATH:-/home/paul/.agent-browser/browsers/chrome-149.0.7827.54/chrome}"
+SEND_ALERTS="${SEND_ALERTS:-true}"
 
 mkdir -p "$SCREENSHOT_DIR"
 
@@ -26,6 +27,10 @@ log() {
 
 send_alert() {
   local message="$1"
+  if [[ "$SEND_ALERTS" != "true" ]]; then
+    log "ALERT SUPPRESSED: $message"
+    return
+  fi
   if [[ -x "$OPENCLAW_BIN" ]]; then
     "$OPENCLAW_BIN" message send --channel discord --target "channel:$DISCORD_CHANNEL" --message "$message" >> "$LOG_FILE" 2>&1 || true
   else
@@ -59,6 +64,27 @@ const checks = [
     url: `${siteBase}/about/`,
     requiredText: ['About', 'Venus Reviews'],
   },
+  {
+    label: 'product-lelo-enigma',
+    url: `${siteBase}/products/lelo-enigma/`,
+    requiredText: ['Lelo Enigma Review', 'Best Fit & Buyer Notes', 'At a Glance'],
+    product: true,
+    minGalleryImages: 6,
+  },
+  {
+    label: 'product-fun-factory-volta',
+    url: `${siteBase}/products/fun-factory-volta/`,
+    requiredText: ['Fun Factory Volta Review', 'Best Fit & Buyer Notes'],
+    product: true,
+    minGalleryImages: 6,
+  },
+  {
+    label: 'product-womanizer-2-original',
+    url: `${siteBase}/products/womanizer-2-original/`,
+    requiredText: ['Womanizer 2 Original Review', 'Product Gallery'],
+    product: true,
+    minGalleryImages: 6,
+  },
 ];
 
 function isTransparent(color) {
@@ -86,6 +112,10 @@ function looksLikeBrowserDefault(fontFamily) {
       const cardStyle = card ? getComputedStyle(card) : null;
       const nav = document.querySelector('.nav');
       const hero = document.querySelector('.hero');
+      const mainImage = document.querySelector('.main-image-container img');
+      const mainImageBox = mainImage ? mainImage.getBoundingClientRect() : null;
+      const galleryBox = document.querySelector('.product-gallery')?.getBoundingClientRect();
+      const productHeader = document.querySelector('.product-page-header');
       const text = document.body.innerText || '';
       return {
         title: document.title,
@@ -99,6 +129,13 @@ function looksLikeBrowserDefault(fontFamily) {
         productCardCount: document.querySelectorAll('.product-card').length,
         reviewsHeaderCount: document.querySelectorAll('.reviews-header').length,
         oldSectionActionsCount: document.querySelectorAll('.section-actions').length,
+        productHeaderCount: productHeader ? 1 : 0,
+        productGalleryCount: document.querySelectorAll('.product-gallery').length,
+        thumbnailCount: document.querySelectorAll('.thumbnail-strip img').length,
+        mainImageLoaded: mainImage ? mainImage.complete && mainImage.naturalWidth > 0 && mainImage.naturalHeight > 0 : false,
+        mainImageTop: mainImageBox ? mainImageBox.top : null,
+        mainImageHeight: mainImageBox ? mainImageBox.height : null,
+        galleryHeight: galleryBox ? galleryBox.height : null,
         cardBackground: cardStyle ? cardStyle.backgroundColor : '',
         cardRadius: cardStyle ? cardStyle.borderRadius : '',
         cardPadding: cardStyle ? cardStyle.padding : '',
@@ -119,6 +156,15 @@ function looksLikeBrowserDefault(fontFamily) {
     if (check.label === 'homepage' && data.reviewsHeaderCount < 1) pageFailures.push('missing reviews header');
     if (data.oldSectionActionsCount > 0) pageFailures.push('old section-actions CTA is back');
     if (check.label === 'homepage' && (!data.cardPadding || data.cardPadding === '0px')) pageFailures.push('product cards have no CSS padding');
+    if (check.product) {
+      if (data.productHeaderCount < 1) pageFailures.push('missing product page header');
+      if (data.productGalleryCount < 1) pageFailures.push('missing product gallery');
+      if (data.thumbnailCount < check.minGalleryImages) pageFailures.push(`too few product gallery thumbnails (${data.thumbnailCount})`);
+      if (!data.mainImageLoaded) pageFailures.push('main product image did not load');
+      if (data.mainImageTop === null || data.mainImageTop > 420) pageFailures.push(`main product image starts too low (${data.mainImageTop}px)`);
+      if (!data.mainImageHeight || data.mainImageHeight < 240) pageFailures.push(`main product image too small (${data.mainImageHeight}px)`);
+      if (data.galleryHeight && data.galleryHeight > 820) pageFailures.push(`product gallery too tall (${data.galleryHeight}px)`);
+    }
     for (const item of data.requiredTextPresent) {
       if (!item.present) pageFailures.push(`missing text: ${item.needle}`);
     }
@@ -152,7 +198,7 @@ printf '{"ok":%s,"checked_at":"%s"}\n' "$ok" "$(timestamp)" > "$STATE_FILE"
 if [[ "$ok" == "true" ]]; then
   log "OK: visual checks passed"
   if [[ "$previous" == "false" ]]; then
-    send_alert "**Venus visual monitor recovered** ($(timestamp))"$'\n\n'"Homepage, products, and about pages now pass style, DOM, and screenshot checks."
+    send_alert "**Venus visual monitor recovered** ($(timestamp))"$'\n\n'"Homepage, catalog, about, and representative product pages now pass style, DOM, gallery, and screenshot checks."
   fi
 else
   log "FAIL: $summary"

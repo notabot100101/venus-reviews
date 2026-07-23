@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="/css/theme-switcher-ui.css?v=20260721">
   <link rel="stylesheet" href="/css/trust-badges.css">
   <link rel="stylesheet" href="/css/hero-overlay.css">
-  <link rel="stylesheet" href="/css/site-polish.css">
+  <link rel="stylesheet" href="/css/site-polish.css?v=20260723-product-pages">
   
   <meta name='impact-site-verification' value='2e3f574f-69bd-45e4-8e7f-ea8a050e73bf'>
 </head>
@@ -35,13 +35,17 @@
 
   <main>
     
-<div class="product-detail max-w-4xl mx-auto px-4 py-8">
-  <nav class="mb-6 text-sm text-gray-600">
-    <a href="/products" class="hover:text-pink-600">← All Reviews</a>
+<article class="product-detail">
+  <nav class="product-breadcrumb" aria-label="Product navigation">
+    <a href="/products/">← All Reviews</a>
   </nav>
 
-  <h1 class="text-3xl font-bold mb-2">Lovehoney Desire Review</h1>
-  <div class="text-gray-600 mb-6"></div>
+  <header class="product-page-header">
+    <p class="eyebrow">Independent product review</p>
+    <h1>Lovehoney Desire Review</h1>
+    <p>Mid-range rabbit vibrator with dual motors, rechargeable power, and broad mainstream appeal.</p>
+    
+  </header>
 
   
   
@@ -57,26 +61,26 @@
     
   
 
+  <section class="product-hero-detail" aria-label="Lovehoney Desire product summary">
   
-  <div class="product-gallery mb-8">
-    <div class="main-image-container relative bg-gray-50 rounded-xl overflow-hidden">
+  <div class="product-gallery">
+    <div class="main-image-container">
       
       <img 
         id="mainImage"
         src="/images/products/lovehoney-desire/hero/hero-01.png" 
         alt="Lovehoney Desire"
-        class="w-full h-auto object-contain max-h-[600px] mx-auto"
       >
       
       
     </div>
 
-    <div class="thumbnail-strip flex gap-2 mt-4 overflow-x-auto pb-2">
+    <div class="thumbnail-strip" aria-label="Product gallery thumbnails">
       
       <img 
         src="/images/products/lovehoney-desire/hero/hero-01.png"
         alt="Lovehoney Desire view 1"
-        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        class="thumbnail"
         data-index="0"
         data-src="/images/products/lovehoney-desire/hero/hero-01.png"
         onclick="setMainImage(this)"
@@ -85,7 +89,7 @@
       <img 
         src="/images/products/lovehoney-desire/lifestyle/lifestyle-01.png"
         alt="Lovehoney Desire view 2"
-        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        class="thumbnail"
         data-index="1"
         data-src="/images/products/lovehoney-desire/lifestyle/lifestyle-01.png"
         onclick="setMainImage(this)"
@@ -94,7 +98,7 @@
       <img 
         src="/images/products/lovehoney-desire/lifestyle/lifestyle-02.png"
         alt="Lovehoney Desire view 3"
-        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        class="thumbnail"
         data-index="2"
         data-src="/images/products/lovehoney-desire/lifestyle/lifestyle-02.png"
         onclick="setMainImage(this)"
@@ -103,7 +107,7 @@
       <img 
         src="/images/products/lovehoney-desire/badge/badge.png"
         alt="Lovehoney Desire view 4"
-        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        class="thumbnail"
         data-index="3"
         data-src="/images/products/lovehoney-desire/badge/badge.png"
         onclick="setMainImage(this)"
@@ -111,26 +115,27 @@
       
     </div>
 
-    <div class="image-nav flex justify-between mt-2">
-      <button onclick="prevImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">← Previous</button>
-      <span id="imageCounter" class="py-2 text-gray-600">1 / 4</span>
-      <button onclick="nextImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">Next →</button>
+    <div class="image-nav">
+      <button type="button" onclick="prevImage()">← Previous</button>
+      <span id="imageCounter">1 / 4</span>
+      <button type="button" onclick="nextImage()">Next →</button>
     </div>
   </div>
   
 
-  <div class="product-info grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+  <aside class="product-summary-panel">
+  <div class="product-info">
     
-    <div class="bg-gray-50 p-4 rounded-lg">
-      <h3 class="text-sm font-semibold text-gray-600 uppercase">Price</h3>
-      <p class="text-2xl font-bold text-pink-600">$59.99</p>
+    <div>
+      <h3>Price</h3>
+      <p>$59.99</p>
     </div>
     
 
     
-    <div class="bg-gray-50 p-4 rounded-lg">
-      <h3 class="text-sm font-semibold text-gray-600 uppercase">Rating</h3>
-      <div class="text-2xl font-bold flex text-yellow-400">
+    <div>
+      <h3>Rating</h3>
+      <div class="product-stars" aria-label="4.7 out of 5 stars">
         
           ★
         
@@ -149,20 +154,25 @@
     
   </div>
 
+  <p class="product-badge">Mid-Range Bestseller</p>
+  <p class="product-micro-note"><strong>Noise:</strong> Medium noise</p>
+  </aside>
+  </section>
+
   
-  <div class="bg-blue-50 border border-blue-100 rounded-xl p-6 mb-8">
-    <h2 class="text-xl font-bold text-blue-900 mb-3">Best Fit & Buyer Notes</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-blue-800">
+  <section class="buyer-notes">
+    <h2>Best Fit & Buyer Notes</h2>
+    <div class="buyer-notes-grid">
       
       <div>
-        <h3 class="text-sm font-semibold uppercase tracking-wide text-blue-700">Best For</h3>
+        <h3>Best For</h3>
         <p>Classic rabbit design</p>
       </div>
       
       
       
     </div>
-  </div>
+  </section>
   
 
   
@@ -224,9 +234,8 @@
 
 
 
-  <div class="prose max-w-none mb-8">
-    <h1>Lovehoney Desire</h1>
-<p>Lovehoney Desire is the mid-range rabbit option in the catalog. It is best for shoppers who want a familiar dual-stimulation shape, rechargeable convenience, and a price point below the premium Lelo tier.</p>
+  <div class="product-review-body">
+    <p>Lovehoney Desire is the mid-range rabbit option in the catalog. It is best for shoppers who want a familiar dual-stimulation shape, rechargeable convenience, and a price point below the premium Lelo tier.</p>
 <p>The buying guidance should stay practical: the rabbit shape is popular for a reason, but fit and preferred pressure vary. Desire works well as a mainstream shortlist pick when the shopper wants stronger value than luxury branding.</p>
 
   </div>
@@ -235,38 +244,21 @@
 
   
 
-  <nav class="mt-12 pt-6 border-t">
-    <div class="flex justify-between">
+  <nav class="product-next-prev">
+    <div>
       
-      <a href="/products/lelo-sona-2/" class="text-gray-600 hover:text-pink-600">
+      <a href="/products/lelo-sona-2/">
         ← Lelo Sona 2 Review
       </a>
       
       
-      <a href="/products/bvee-original-rabbit/" class="text-gray-600 hover:text-pink-600">
+      <a href="/products/bvee-original-rabbit/">
         Bvee Original Rabbit Review →
       </a>
       
     </div>
   </nav>
-</div>
-
-<style>
-.thumbnail.active {
-  ring: 2px solid #ec4899;
-  ring-offset: 2px;
-}
-.main-image-container {
-  aspect-ratio: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.main-image-container img {
-  max-height: 100%;
-  width: auto;
-}
-</style>
+</article>
 
 
 <script>

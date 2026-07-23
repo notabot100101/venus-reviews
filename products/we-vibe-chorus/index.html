@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="/css/theme-switcher-ui.css?v=20260721">
   <link rel="stylesheet" href="/css/trust-badges.css">
   <link rel="stylesheet" href="/css/hero-overlay.css">
-  <link rel="stylesheet" href="/css/site-polish.css">
+  <link rel="stylesheet" href="/css/site-polish.css?v=20260723-product-pages">
   
   <meta name='impact-site-verification' value='2e3f574f-69bd-45e4-8e7f-ea8a050e73bf'>
 </head>
@@ -35,13 +35,17 @@
 
   <main>
     
-<div class="product-detail max-w-4xl mx-auto px-4 py-8">
-  <nav class="mb-6 text-sm text-gray-600">
-    <a href="/products" class="hover:text-pink-600">← All Reviews</a>
+<article class="product-detail">
+  <nav class="product-breadcrumb" aria-label="Product navigation">
+    <a href="/products/">← All Reviews</a>
   </nav>
 
-  <h1 class="text-3xl font-bold mb-2">We Vibe Chorus Review</h1>
-  <div class="text-gray-600 mb-6"></div>
+  <header class="product-page-header">
+    <p class="eyebrow">Independent product review</p>
+    <h1>We Vibe Chorus Review</h1>
+    <p>Synchronized dual-action stimulator for couples</p>
+    
+  </header>
 
   
   
@@ -61,26 +65,26 @@
     
   
 
+  <section class="product-hero-detail" aria-label="We Vibe Chorus product summary">
   
-  <div class="product-gallery mb-8">
-    <div class="main-image-container relative bg-gray-50 rounded-xl overflow-hidden">
+  <div class="product-gallery">
+    <div class="main-image-container">
       
       <img 
         id="mainImage"
         src="/images/products/we-vibe-chorus/front.webp" 
         alt="We Vibe Chorus"
-        class="w-full h-auto object-contain max-h-[600px] mx-auto"
       >
       
       
     </div>
 
-    <div class="thumbnail-strip flex gap-2 mt-4 overflow-x-auto pb-2">
+    <div class="thumbnail-strip" aria-label="Product gallery thumbnails">
       
       <img 
         src="/images/products/we-vibe-chorus/front.webp"
         alt="We Vibe Chorus view 1"
-        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        class="thumbnail"
         data-index="0"
         data-src="/images/products/we-vibe-chorus/front.webp"
         onclick="setMainImage(this)"
@@ -89,7 +93,7 @@
       <img 
         src="/images/products/we-vibe-chorus/angle-01.webp"
         alt="We Vibe Chorus view 2"
-        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        class="thumbnail"
         data-index="1"
         data-src="/images/products/we-vibe-chorus/angle-01.webp"
         onclick="setMainImage(this)"
@@ -98,7 +102,7 @@
       <img 
         src="/images/products/we-vibe-chorus/angle-02.webp"
         alt="We Vibe Chorus view 3"
-        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        class="thumbnail"
         data-index="2"
         data-src="/images/products/we-vibe-chorus/angle-02.webp"
         onclick="setMainImage(this)"
@@ -107,7 +111,7 @@
       <img 
         src="/images/products/we-vibe-chorus/detail.webp"
         alt="We Vibe Chorus view 4"
-        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        class="thumbnail"
         data-index="3"
         data-src="/images/products/we-vibe-chorus/detail.webp"
         onclick="setMainImage(this)"
@@ -116,7 +120,7 @@
       <img 
         src="/images/products/we-vibe-chorus/scale.webp"
         alt="We Vibe Chorus view 5"
-        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        class="thumbnail"
         data-index="4"
         data-src="/images/products/we-vibe-chorus/scale.webp"
         onclick="setMainImage(this)"
@@ -125,7 +129,7 @@
       <img 
         src="/images/products/we-vibe-chorus/lifestyle.webp"
         alt="We Vibe Chorus view 6"
-        class="thumbnail w-20 h-20 object-cover rounded-lg cursor-pointer hover:ring-2 hover:ring-pink-500 transition-all flex-shrink-0"
+        class="thumbnail"
         data-index="5"
         data-src="/images/products/we-vibe-chorus/lifestyle.webp"
         onclick="setMainImage(this)"
@@ -133,26 +137,27 @@
       
     </div>
 
-    <div class="image-nav flex justify-between mt-2">
-      <button onclick="prevImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">← Previous</button>
-      <span id="imageCounter" class="py-2 text-gray-600">1 / 6</span>
-      <button onclick="nextImage()" class="px-4 py-2 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">Next →</button>
+    <div class="image-nav">
+      <button type="button" onclick="prevImage()">← Previous</button>
+      <span id="imageCounter">1 / 6</span>
+      <button type="button" onclick="nextImage()">Next →</button>
     </div>
   </div>
   
 
-  <div class="product-info grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+  <aside class="product-summary-panel">
+  <div class="product-info">
     
-    <div class="bg-gray-50 p-4 rounded-lg">
-      <h3 class="text-sm font-semibold text-gray-600 uppercase">Price</h3>
-      <p class="text-2xl font-bold text-pink-600">$89.99</p>
+    <div>
+      <h3>Price</h3>
+      <p>$89.99</p>
     </div>
     
 
     
-    <div class="bg-gray-50 p-4 rounded-lg">
-      <h3 class="text-sm font-semibold text-gray-600 uppercase">Rating</h3>
-      <div class="text-2xl font-bold flex text-yellow-400">
+    <div>
+      <h3>Rating</h3>
+      <div class="product-stars" aria-label="4.5 out of 5 stars">
         
           ★
         
@@ -171,30 +176,35 @@
     
   </div>
 
+  <p class="product-badge">Couples Pick</p>
+  <p class="product-micro-note"><strong>Noise:</strong> Medium noise</p>
+  </aside>
+  </section>
+
   
-  <div class="bg-blue-50 border border-blue-100 rounded-xl p-6 mb-8">
-    <h2 class="text-xl font-bold text-blue-900 mb-3">Best Fit & Buyer Notes</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-blue-800">
+  <section class="buyer-notes">
+    <h2>Best Fit & Buyer Notes</h2>
+    <div class="buyer-notes-grid">
       
       <div>
-        <h3 class="text-sm font-semibold uppercase tracking-wide text-blue-700">Best For</h3>
+        <h3>Best For</h3>
         <p>Partnered use</p>
       </div>
       
       
       <div>
-        <h3 class="text-sm font-semibold uppercase tracking-wide text-blue-700">Trust Note</h3>
+        <h3>Trust Note</h3>
         <p>The review foregrounds app setup, fit, and cleaning so the couples features are easier to evaluate privately.</p>
       </div>
       
       
       <div>
-        <h3 class="text-sm font-semibold uppercase tracking-wide text-blue-700">Support</h3>
+        <h3>Support</h3>
         <p>Buy from a retailer with clear warranty handling because app-connected products can need firmware or support follow-up.</p>
       </div>
       
     </div>
-  </div>
+  </section>
   
 
   
@@ -317,9 +327,8 @@
 
 
 
-  <div class="prose max-w-none mb-8">
-    <h1>We Vibe Chorus</h1>
-<p>Synchronized dual-action stimulator designed for couples, with app-controlled coordination.</p>
+  <div class="product-review-body">
+    <p>Synchronized dual-action stimulator designed for couples, with app-controlled coordination.</p>
 <h2 id="product-gallery">
   Product Gallery
   <a href="#product-gallery" class="h-anchor" aria-hidden="true">#</a>
@@ -339,38 +348,21 @@
 
   
 
-  <nav class="mt-12 pt-6 border-t">
-    <div class="flex justify-between">
+  <nav class="product-next-prev">
+    <div>
       
-      <a href="/products/dame-eva-ii/" class="text-gray-600 hover:text-pink-600">
+      <a href="/products/dame-eva-ii/">
         ← Dame Eva II Review
       </a>
       
       
-      <a href="/products/we-vibe-sync/" class="text-gray-600 hover:text-pink-600">
+      <a href="/products/we-vibe-sync/">
         We Vibe Sync Review →
       </a>
       
     </div>
   </nav>
-</div>
-
-<style>
-.thumbnail.active {
-  ring: 2px solid #ec4899;
-  ring-offset: 2px;
-}
-.main-image-container {
-  aspect-ratio: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.main-image-container img {
-  max-height: 100%;
-  width: auto;
-}
-</style>
+</article>
 
 
 <script>
