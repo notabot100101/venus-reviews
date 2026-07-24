@@ -11,7 +11,7 @@ reviews_count: 22
 price: "179.99"
 best_for: "Focused external stimulation"
 noise: "Low-medium noise"
-image: "/images/products/product-lelo-sona-2.png"
+image: "/images/products/lelo-sona-2/hero/hero-01.png"
 gallery:
   - src: "/images/products/lelo-sona-2/hero/hero-01.png"
     alt: "Lelo Sona 2 hero view"
@@ -22,9 +22,7 @@ gallery:
   - src: "/images/products/lelo-sona-2/lifestyle/lifestyle-02.png"
     alt: "Lelo Sona 2 secondary lifestyle view"
     caption: "Travel-friendly setup"
-  - src: "/images/products/lelo-sona-2/badge/badge.png"
-    alt: "Lelo Sona 2 sonic wave badge"
-    caption: "Sonic wave pick"
+
 ---
 
 <h1>Lelo Sona 2</h1>

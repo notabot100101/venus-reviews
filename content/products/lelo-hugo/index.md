@@ -11,20 +11,20 @@ reviews_count: 19
 price: "199.99"
 best_for: "Premium prostate wellness"
 noise: "Low noise"
-image: "/images/products/product-lelo-hugo.png"
+image: "/images/products/lelo-hugo/hero/hero-01.png"
 gallery:
-  - src: "/images/products/lelo-hugo/front.webp"
+  - src: "/images/products/lelo-hugo/hero/hero-01.png"
     alt: "Lelo Hugo hero view"
     caption: "Product hero view"
-  - src: "/images/products/lelo-hugo/lifestyle.webp"
+  - src: "/images/products/lelo-hugo/lifestyle/lifestyle-01.png"
     alt: "Lelo Hugo lifestyle view"
     caption: "Lifestyle context"
-  - src: "/images/products/lelo-hugo/angle-01.webp"
+  - src: "/images/products/lelo-hugo/lifestyle/lifestyle-02.png"
     alt: "Lelo Hugo secondary lifestyle view"
     caption: "Discreet storage and setup"
-  - src: "/images/products/lelo-hugo/detail.webp"
-    alt: "Lelo Hugo premium wellness badge"
-    caption: "Premium wellness pick"
+  - src: "/images/products/lelo-hugo/lifestyle.jpg"
+    alt: "Lelo Hugo product setting"
+    caption: "Product setting"
 ---
 
 <h1>Lelo Hugo</h1>

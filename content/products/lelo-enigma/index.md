@@ -19,28 +19,8 @@ gallery:
   - src: "/images/products/lelo-enigma/front.webp"
     alt: "Lelo Enigma front view"
     caption: "Front view and control layout"
-  - src: "/images/products/lelo-enigma/angle-01.webp"
-    alt: "Lelo Enigma angled view"
-    caption: "Angled profile"
-  - src: "/images/products/lelo-enigma/angle-02.webp"
-    alt: "Lelo Enigma second angle"
-    caption: "Secondary angle"
-  - src: "/images/products/lelo-enigma/detail.webp"
-    alt: "Lelo Enigma detail view"
-    caption: "Material and finish detail"
-  - src: "/images/products/lelo-enigma/scale.webp"
-    alt: "Lelo Enigma scale reference"
-    caption: "Scale reference"
-  - src: "/images/products/lelo-enigma/lifestyle.webp"
-    alt: "Lelo Enigma lifestyle setting"
-    caption: "Discreet lifestyle setting"
 images:
   - "/images/products/lelo-enigma/front.webp"
-  - "/images/products/lelo-enigma/angle-01.webp"
-  - "/images/products/lelo-enigma/angle-02.webp"
-  - "/images/products/lelo-enigma/detail.webp"
-  - "/images/products/lelo-enigma/scale.webp"
-  - "/images/products/lelo-enigma/lifestyle.webp"
 ---
 
 Lelo Enigma is the premium dual-stimulation pick for shoppers who already know they want a more refined, quieter-feeling device rather than a basic rabbit-style shape. The value is in the finish, motor feel, and more controlled fit rather than novelty alone.
