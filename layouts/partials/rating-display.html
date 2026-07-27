@@ -1,10 +1,23 @@
 {{ $rating := float .rating }}
 {{ $label := printf "%.1f" $rating }}
-{{ $percent := printf "%.1f%%" (mul $rating 20) }}
+{{ $percent := printf "%.0f%%" (mul $rating 20.0) }}
 <div class="rating-display" aria-label="{{ $label }} out of 5 stars">
   <span class="rating-stars" aria-hidden="true">
-    <span class="rating-stars-empty">★★★★★</span>
-    <span class="rating-stars-fill" style="width: {{ $percent }}">★★★★★</span>
+    {{ range seq 1 5 }}
+    {{ $star := float . }}
+    {{ $previousStar := sub $star 1.0 }}
+    {{ $fill := 0.0 }}
+    {{ if ge $rating $star }}
+      {{ $fill = 100.0 }}
+    {{ else if gt $rating $previousStar }}
+      {{ $fill = mul (sub $rating $previousStar) 100.0 }}
+    {{ end }}
+    <span class="rating-star">
+      <span class="rating-star-empty">☆</span>
+      <span class="rating-star-fill" style="width: {{ printf "%.0f%%" $fill }};">★</span>
+    </span>
+    {{ end }}
   </span>
   <span class="rating-value">{{ $label }} / 5</span>
+  <span class="rating-meter" aria-hidden="true"><span style="width: {{ $percent }};"></span></span>
 </div>
