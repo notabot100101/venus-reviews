@@ -1,0 +1,180 @@
+.sticky-best-banner {
+  position: sticky;
+  top: 72px;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+  gap: .75rem;
+  align-items: center;
+  padding: .55rem 1rem;
+  background: rgba(16, 16, 16, .94);
+  color: #fff;
+  border-bottom: 1px solid rgba(183, 110, 121, .55);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .14);
+  font-size: .92rem;
+}
+
+.sticky-best-banner a {
+  color: #F5F5DC;
+  font-weight: 700;
+}
+
+.sticky-best-banner .sticky-cta {
+  padding: .32rem .55rem;
+  border-radius: 4px;
+  background: rgba(183, 110, 121, .9);
+  color: #fff;
+  text-decoration: none;
+}
+
+.conversion-hero-cta {
+  box-shadow: 0 12px 28px rgba(183,110,121,.28);
+}
+
+.jump-nav {
+  display: flex;
+  justify-content: center;
+  gap: .75rem;
+  padding: 1rem;
+  background: #fff;
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+
+.jump-nav a {
+  padding: .55rem .9rem;
+  border: 1px solid rgba(107,44,145,.2);
+  border-radius: 4px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.quick-verdict-section {
+  padding-top: 3rem;
+}
+
+.quick-verdict-card {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  border: 1px solid rgba(183,110,121,.28);
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(183,110,121,.16), rgba(255,255,255,.06));
+}
+
+.quick-verdict-card h2 {
+  margin-bottom: .75rem;
+}
+
+.verdict-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin-top: 1.25rem;
+}
+
+.comparison-table-wrap {
+  overflow-x: auto;
+  border: 1px solid rgba(255,255,255,.14);
+  border-radius: 6px;
+  background: rgba(255,255,255,.04);
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid rgba(255,255,255,.12);
+}
+
+.comparison-table th {
+  color: #F5F5DC;
+  font-size: .85rem;
+  text-transform: uppercase;
+}
+
+.faq-list {
+  display: grid;
+  gap: .75rem;
+}
+
+.faq-list details {
+  border: 1px solid rgba(107,44,145,.14);
+  border-radius: 6px;
+  padding: 1rem 1.1rem;
+  background: #fff;
+}
+
+.faq-list summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+@media (max-width: 720px) {
+  .sticky-best-banner {
+    position: static;
+    justify-content: flex-start;
+    padding: .65rem 1rem;
+    font-size: .86rem;
+  }
+
+  .sticky-best-banner,
+  .jump-nav {
+    flex-wrap: wrap;
+  }
+}
+
+.article-byline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .65rem;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: .9rem;
+  color: rgba(255, 255, 255, .75);
+}
+
+.product-byline {
+  color: rgba(255, 255, 255, .78);
+}
+
+.article-byline a,
+.score-methodology-link a {
+  color: #F5F5DC;
+  text-decoration: underline;
+  text-decoration-color: rgba(245, 245, 220, .45);
+}
+
+.score-methodology-link {
+  margin: .35rem 0 0;
+  font-size: .86rem;
+  line-height: 1.35;
+}
+
+.affiliate-disclosure-banner {
+  margin: .75rem 0 1rem;
+  padding: .75rem .9rem;
+  border: 1px solid rgba(183, 110, 121, .34);
+  border-radius: 6px;
+  background: rgba(183, 110, 121, .10);
+  color: inherit;
+  font-size: .92rem;
+  line-height: 1.5;
+}
+
+.affiliate-disclosure-banner a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.affiliate-disclosure-inline {
+  color: #4b4b4b;
+  background: #fff8f9;
+}
