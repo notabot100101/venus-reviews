@@ -1,0 +1,151 @@
+/* Venus Reviews - Light Theme */
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8f8f8;
+  --bg-tertiary: #fafafa;
+  --text-primary: #1a1a1a;
+  --text-secondary: #5a5a5a;
+  --accent-primary: #6B2C91;
+  --accent-secondary: #9d6c8f;
+  --border-color: #e0e0e0;
+  --success: #4CAF50;
+  --warning: #FF9800;
+  --error: #f44336;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Light theme overrides */
+body.theme-light {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+body.theme-light .site-header,
+body.theme-light footer {
+  background-color: #fff;
+  border-bottom: 1px solid var(--border-color);
+}
+
+body.theme-light .site-header .container,
+body.theme-light footer .container {
+  background-color: #fff;
+}
+
+body.theme-light .container {
+  background-color: var(--bg-primary);
+}
+
+body.theme-light .section {
+  background-color: var(--bg-primary);
+}
+
+body.theme-light .privacy-trust-section {
+  background-color: var(--bg-secondary);
+}
+
+body.theme-light .products-grid,
+body.theme-light .reviews-grid {
+  background-color: var(--bg-primary);
+}
+
+body.theme-light .product-card,
+body.theme-light .review-card {
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
+}
+
+body.theme-light .product-card:hover,
+body.theme-light .review-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+body.theme-light .btn-primary {
+  background-color: var(--accent-primary);
+  color: white;
+  border-color: var(--accent-primary);
+}
+
+body.theme-light .btn-secondary {
+  background-color: var(--accent-secondary);
+  color: white;
+  border-color: var(--accent-secondary);
+}
+
+body.theme-light .btn-outline {
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+  background-color: transparent;
+}
+
+body.theme-light .btn-outline:hover {
+  background-color: var(--accent-primary);
+  color: white;
+}
+
+body.theme-light .trust-strip,
+body.theme-light .trust-item {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+}
+
+body.theme-light .privacy-item {
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+}
+
+body.theme-light .privacy-item:hover {
+  background-color: var(--bg-secondary);
+}
+
+body.theme-light .newsletter-form {
+  background-color: var(--bg-primary);
+}
+
+body.theme-light input[type="email"] {
+  background-color: var(--bg-secondary);
+  border-color: var(--border-color);
+  color: var(--text-primary);
+}
+
+body.theme-light input[type="email"]::placeholder {
+  color: #999;
+}
+
+body.theme-light .hero {
+  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+}
+
+body.theme-light .newsletter-content h2 {
+  color: var(--text-primary);
+}
+
+body.theme-light .newsletter-content p {
+  color: var(--text-secondary);
+}
+
+/* Light theme hero banner */
+body.theme-light .hero-banner {
+  background: linear-gradient(135deg, #6B2C91 0%, #9d6c8f 100%);
+}
+
+/* Light theme footer */
+body.theme-light footer {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+body.theme-light footer a {
+  color: var(--accent-primary);
+}
+
+body.theme-light footer p {
+  color: var(--text-secondary);
+}
+
+/* Smooth transition between themes */
+body.theme-transition {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
