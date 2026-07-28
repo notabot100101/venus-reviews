@@ -1,0 +1,504 @@
+/* Discreet wellness direction: calm, light, practical, and privacy-safe. */
+:root {
+  --color-primary: #2f6158;
+  --color-secondary: #6b8790;
+  --color-accent: #c86f5a;
+  --color-dark: #21312f;
+  --color-light: #ffffff;
+  --color-background: #f7f6f1;
+  --color-text: #263331;
+  --color-text-light: #5f6c68;
+  --color-white: #ffffff;
+  --gradient-primary: none;
+  --gradient-secondary: none;
+  --gradient-accent: none;
+  --gradient-hero: none;
+  --shadow-sm: 0 2px 8px rgba(33, 49, 47, 0.06);
+  --shadow-md: 0 8px 20px rgba(33, 49, 47, 0.08);
+  --shadow-lg: 0 16px 36px rgba(33, 49, 47, 0.1);
+  --shadow-xl: 0 20px 48px rgba(33, 49, 47, 0.12);
+  --shadow-glow: none;
+  --font-primary: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-secondary: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-heading: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+html,
+body {
+  background: var(--color-background);
+}
+
+body {
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-dark);
+  letter-spacing: 0;
+}
+
+p {
+  color: var(--color-text-light);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration-color: rgba(47, 97, 88, 0.28);
+}
+
+a:hover {
+  color: #234a44;
+  text-decoration-color: currentColor;
+}
+
+.nav {
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid #dfe5df;
+  box-shadow: 0 4px 18px rgba(33, 49, 47, 0.06);
+}
+
+.nav-brand,
+.nav-links a {
+  color: var(--color-dark);
+}
+
+.nav-brand span {
+  color: var(--color-primary);
+}
+
+.nav-links a {
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.nav-links a:hover {
+  background: #eef3ef;
+  color: var(--color-primary);
+}
+
+.home-hero,
+.wellness-hero {
+  min-height: 540px;
+  background:
+    linear-gradient(90deg, rgba(247, 246, 241, 0.98) 0%, rgba(247, 246, 241, 0.95) 48%, rgba(247, 246, 241, 0.58) 100%),
+    url("/images/products/lelo-enigma/front.webp") center right 12% / min(42rem, 52vw) auto no-repeat;
+  border-bottom: 1px solid #dde5dc;
+  color: var(--color-text);
+  padding: 5.5rem 0 4.5rem;
+}
+
+.hero::before {
+  display: none;
+}
+
+.home-hero .hero-content {
+  max-width: 700px;
+}
+
+.home-hero h1,
+.home-hero p {
+  color: var(--color-dark);
+}
+
+.home-hero .hero-content > p:not(.eyebrow) {
+  color: var(--color-text-light);
+  max-width: 620px;
+}
+
+.eyebrow {
+  color: var(--color-primary);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.hero-trust span,
+.rating-pill,
+.product-card-meta span {
+  background: #edf3ee;
+  border: 1px solid #d8e4dc;
+  border-radius: 999px;
+  color: #375a53;
+}
+
+.btn {
+  border-radius: 6px;
+  box-shadow: none;
+  letter-spacing: 0;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background: #254e47;
+  border-color: #254e47;
+  box-shadow: none;
+  color: #ffffff;
+}
+
+.btn-outline,
+.hero-outline {
+  background: transparent;
+  border: 1px solid #8fa59d;
+  color: var(--color-primary);
+}
+
+.btn-outline:hover,
+.hero-outline:hover {
+  background: #eef3ef;
+  color: #234a44;
+}
+
+.conversion-hero-cta {
+  box-shadow: none;
+}
+
+.jump-nav {
+  background: #ffffff;
+  border-bottom: 1px solid #dfe5df;
+  gap: 0.5rem;
+}
+
+.jump-nav a {
+  border-color: #d8e4dc;
+  border-radius: 999px;
+  color: #375a53;
+  font-weight: 650;
+}
+
+.section {
+  background: var(--color-background);
+}
+
+.section-header p {
+  color: var(--color-text-light);
+}
+
+.needs-section,
+.guide-strip {
+  background: #ffffff;
+}
+
+.wellness-path-grid,
+.wellness-criteria-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.wellness-path-card {
+  background: #ffffff;
+  border: 1px solid #dfe5df;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  min-height: 180px;
+  padding: 1.35rem;
+  text-decoration: none;
+}
+
+.wellness-path-card:hover {
+  border-color: #aebfb6;
+  box-shadow: var(--shadow-md);
+}
+
+.wellness-path-card span {
+  color: var(--color-secondary);
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.wellness-path-card strong {
+  color: var(--color-dark);
+  font-size: 1.18rem;
+}
+
+.wellness-path-card p {
+  margin: 0;
+}
+
+.compact-guide-grid .wellness-path-card {
+  min-height: 140px;
+}
+
+.section-band,
+.wellness-band {
+  background: #eaf0eb;
+  border-bottom: 1px solid #d4ded6;
+  border-top: 1px solid #d4ded6;
+  box-shadow: none;
+  color: var(--color-text);
+}
+
+.section-band h2,
+.section-band h3,
+.section-band h5,
+.section-band p,
+.wellness-band h2,
+.wellness-band h3,
+.wellness-band h5,
+.wellness-band p {
+  color: var(--color-dark);
+}
+
+.mini-privacy-grid .privacy-item {
+  background: #ffffff;
+  border: 1px solid #d8e4dc;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+}
+
+.products-grid {
+  gap: 1.25rem;
+}
+
+.product-card,
+.product-review-card {
+  background: #ffffff;
+  border: 1px solid #dfe5df;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+}
+
+.product-card:hover,
+.product-card:focus-within {
+  box-shadow: var(--shadow-md);
+  transform: none;
+}
+
+.product-card::before {
+  display: none;
+}
+
+.product-card-image {
+  background: #f1f2ed;
+  border-radius: 6px;
+  object-fit: contain;
+}
+
+.product-card:hover img {
+  transform: none;
+}
+
+.product-card-title a {
+  color: var(--color-dark);
+}
+
+.product-card-price,
+.product-rating-row,
+.rating-display,
+.rating-value {
+  color: var(--color-primary);
+}
+
+.rating-stars-fill {
+  color: #b67952;
+}
+
+.wellness-card-criteria,
+.wellness-list-criteria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.85rem 0 1rem;
+}
+
+.wellness-card-criteria span,
+.wellness-list-criteria span {
+  background: #f2f5f0;
+  border: 1px solid #dfe5df;
+  border-radius: 999px;
+  color: #465b56;
+  font-size: 0.82rem;
+  padding: 0.28rem 0.62rem;
+}
+
+.comparison-table-wrap {
+  background: #ffffff;
+  border: 1px solid #d8e4dc;
+  border-radius: 8px;
+}
+
+.comparison-table th,
+.comparison-table td {
+  border-bottom: 1px solid #e4ebe6;
+  color: var(--color-text);
+}
+
+.comparison-table th {
+  background: #f4f7f4;
+  color: #375a53;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.faq-list details,
+.buyer-notes,
+.where-to-buy,
+.wellness-criteria-panel {
+  background: #ffffff;
+  border: 1px solid #dfe5df;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+}
+
+.faq-list summary,
+.buyer-notes h2,
+.where-to-buy h3,
+.wellness-criteria-panel h2,
+.wellness-criteria-panel h3 {
+  color: var(--color-dark);
+}
+
+.product-detail {
+  background: var(--color-background);
+}
+
+.product-page-header {
+  background: #ffffff;
+  border-bottom: 1px solid #dfe5df;
+}
+
+.product-page-header h1,
+.product-page-header p,
+.product-byline,
+.product-byline a {
+  color: var(--color-dark);
+}
+
+.product-hero-detail,
+.product-summary-panel {
+  background: #ffffff;
+  border-color: #dfe5df;
+  border-radius: 8px;
+}
+
+.product-summary-panel h3 {
+  color: #375a53;
+}
+
+.product-badge,
+.product-micro-note {
+  background: #edf3ee;
+  border: 1px solid #d8e4dc;
+  border-radius: 6px;
+  color: #375a53;
+}
+
+.wellness-criteria-panel {
+  margin: 2rem auto;
+  max-width: 1100px;
+  padding: 1.5rem;
+}
+
+.wellness-criteria-grid > div {
+  background: #f7f9f6;
+  border: 1px solid #e2e9e3;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.wellness-medical-note {
+  border-top: 1px solid #dfe5df;
+  color: #5f6c68;
+  margin: 1.2rem 0 0;
+  padding-top: 1rem;
+}
+
+.comparison-block {
+  background: #ffffff;
+  border-color: #dfe5df;
+  border-radius: 8px;
+}
+
+.retailer-label {
+  background: #edf3ee;
+  border: 1px solid #d8e4dc;
+  border-radius: 999px;
+  color: #375a53;
+  display: inline-block;
+  font-size: 0.74rem;
+  margin-right: 0.45rem;
+  padding: 0.1rem 0.45rem;
+}
+
+.affiliate-disclosure-banner {
+  background: #fff8f3;
+  border-color: #e5cdbf;
+  color: #594940;
+}
+
+.footer {
+  background: #21312f;
+}
+
+.footer h3,
+.footer-section h3 {
+  color: #ffffff;
+}
+
+.footer p,
+.footer a,
+.footer-bottom p {
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 900px) {
+  .nav-content {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 0.35rem;
+  }
+
+  .home-hero,
+  .wellness-hero {
+    background: #f7f6f1;
+    min-height: auto;
+    padding: 4rem 0 3rem;
+  }
+
+  .reviews-header,
+  .feature-strip {
+    display: block;
+    text-align: left;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  .home-hero .hero-content {
+    text-align: left;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .jump-nav {
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
+}
