@@ -1,1 +1,30 @@
 *{box-sizing:border-box}html{font:16px/1.6 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#191919;background:#fff}body{margin:0}a{color:#77344b;text-decoration-thickness:1px;text-underline-offset:3px}img{max-width:100%;height:auto}.container,.product-detail{max-width:640px;margin:auto;padding:0 20px}.nav{border-bottom:1px solid #e6e1de;background:#fff}.nav-content{max-width:640px;margin:auto;padding:14px 20px;display:flex;gap:18px;justify-content:space-between;align-items:center}.nav-brand{font-weight:800;color:#191919;text-decoration:none}.nav-brand span{color:#77344b}.nav-links{display:flex;gap:12px;list-style:none;margin:0;padding:0;flex-wrap:wrap}.nav-links a{font-size:14px;color:#333;text-decoration:none}.hero,.section{padding:36px 0}.hero{background:#f8f5f2}.hero-content,.section-header{text-align:left}h1,h2,h3{line-height:1.2;margin:0 0 12px;color:#191919;letter-spacing:0}h1{font-size:34px}h2{font-size:24px}h3{font-size:18px}p{margin:0 0 16px;color:#4b4541}.btn{display:inline-block;padding:8px 12px;border:1px solid #77344b;border-radius:3px;text-decoration:none;font-weight:700}.btn-primary{background:#77344b;color:#fff}.btn-outline{color:#77344b}.products-grid,.minimal-list,.recommendation-grid,.buyer-notes-grid,.pros-cons{display:grid;gap:18px}.product-card,.minimal-item,.article-shell,.product-summary-panel,.where-to-buy,.pros-cons>div{border-top:1px solid #e6e1de;padding-top:18px;background:transparent;box-shadow:none}.product-card-title,.minimal-item h2{font-size:20px}.product-card-image-link,.product-card-image,.product-card-trust,.hero-trust,.testimonials-section,.section-band,.product-gallery,.thumbnail-strip,.image-nav{display:none!important}.product-card-price,.meta,.product-micro-note,.product-card-meta,.product-card-updated{font-size:14px;color:#6f6660}.product-detail{padding-top:28px}.product-breadcrumb{font-size:14px;margin-bottom:24px}.product-page-header{margin-bottom:24px}.product-hero-detail{display:block}.product-info{display:grid;gap:8px}.buyer-notes,.product-review-body,.where-to-buy,.pros-cons,.product-next-prev{margin-top:28px}.content ul,.product-review-body ul{padding-left:20px}.footer{border-top:1px solid #e6e1de;margin-top:48px;padding:28px 0;background:#faf8f6}.footer-content{max-width:640px;margin:auto;padding:0 20px;display:grid;gap:20px}.footer a{display:block;margin:4px 0}.footer-bottom{max-width:640px;margin:20px auto 0;padding:0 20px;font-size:14px}@media(max-width:520px){.nav-content{display:block}.nav-links{margin-top:10px}h1{font-size:30px}}
+
+.affiliate-disclosure-banner {
+  margin: 14px 0 18px;
+  padding: 14px 16px;
+  border: 2px solid #7a2946;
+  border-radius: 6px;
+  background: #fff8ea;
+  color: #241716;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.affiliate-disclosure-banner a {
+  color: #5b1630;
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.affiliate-disclosure-inline {
+  max-width: 860px;
+}
+
+.affiliate-independence-note {
+  margin-top: 16px;
+  color: #4b5563;
+  font-size: 0.95rem;
+}
