@@ -1,0 +1,152 @@
+/* Venus Theme: Rose/Gold (Alternative) */
+[data-theme="rose-gold"] {
+  /* Primary Colors - Deep Rose Pink, Champagne Gold, Cream White */
+  --primary-rose: #880e4f;      /* Deep rose pink */
+  --primary-gold: #ffd700;      /* Champagne gold */
+  --primary-cream: #fffdd0;     /* Cream white */
+  
+  /* Accent Colors */
+  --accent-rose: #c2185b;
+  --accent-gold: #ffca28;
+  --accent-cream: #fff9c4;
+  
+  /* Neutral Colors */
+  --bg-dark: #1a0510;           /* Very dark rose */
+  --bg-medium: #2d0a1a;         /* Deep rose */
+  --bg-light: #fce4ec;          /* Very light rose */
+  --text-primary: #4a1425;      /* Dark rose-gray */
+  --text-secondary: #7f1835;    /* Muted rose-gray */
+  --text-light: #ffe4e6;        /* Off-white with pink tint */
+  
+  /* Hero Section */
+  --hero-gradient: linear-gradient(135deg, #880e4f 0%, #c2185b 100%);
+  
+  /* Product Cards */
+  --card-shadow: 0 4px 12px rgba(136, 14, 79, 0.15);
+  --card-hover-shadow: 0 8px 24px rgba(136, 14, 79, 0.25);
+  
+  /* Buttons */
+  --btn-primary: #880e4f;
+  --btn-primary-hover: #c2185b;
+  --btn-text: white;
+  
+  /* Footer */
+  --footer-bg: #1a0510;
+  --footer-text: #fce4ec;
+}
+
+[data-theme="rose-gold"] header {
+  background: linear-gradient(135deg, #ffffff 0%, #fff0f5 100%);
+  border-bottom: 3px solid var(--primary-rose);
+}
+
+[data-theme="rose-gold"] .logo {
+  background: linear-gradient(135deg, var(--primary-rose) 0%, var(--accent-rose) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+[data-theme="rose-gold"] .hero {
+  --hero-bg: var(--hero-gradient);
+  background: var(--hero-gradient);
+}
+
+[data-theme="rose-gold"] .hero h1 {
+  color: var(--text-light);
+}
+
+[data-theme="rose-gold"] .hero p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme="rose-gold"] .hero-btn {
+  background: var(--primary-gold);
+  color: var(--primary-rose);
+}
+
+[data-theme="rose-gold"] .hero-btn:hover {
+  background: var(--accent-gold);
+}
+
+[data-theme="rose-gold"] nav a {
+  color: var(--text-secondary);
+}
+
+[data-theme="rose-gold"] nav a:hover {
+  color: var(--primary-rose);
+}
+
+[data-theme="rose-gold"] .product-name {
+  background: linear-gradient(135deg, var(--primary-rose) 0%, var(--accent-rose) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+[data-theme="rose-gold"] .product-price {
+  color: var(--accent-gold);
+}
+
+[data-theme="rose-gold"] .product-btn {
+  background: linear-gradient(135deg, var(--primary-rose) 0%, var(--accent-rose) 100%);
+}
+
+[data-theme="rose-gold"] .product-btn:hover {
+  background: linear-gradient(135deg, var(--accent-rose) 0%, #e91e63 100%);
+}
+
+[data-theme="rose-gold"] footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
+}
+
+[data-theme="rose-gold"] footer a {
+  color: var(--accent-gold);
+}
+
+[data-theme="rose-gold"] .product-card {
+  box-shadow: var(--card-shadow);
+}
+
+[data-theme="rose-gold"] .product-card:hover {
+  box-shadow: var(--card-hover-shadow);
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background: linear-gradient(135deg, #b76e79, #d4a574);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(183, 110, 121, 0.4);
+}
+
+/* Ensure toggle is on right side of nav */
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
