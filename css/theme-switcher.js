@@ -1,193 +1,166 @@
 /**
  * Venus Reviews Theme Switcher
- * Implements light/dark mode with localStorage persistence
+ *
+ * Rebuilt 2026-07-21 - the previous version never actually worked: it called
+ * applyTheme() before createToggleButton() existed, so applyTheme()'s own
+ * reference to the (still-null) toggle button threw an uncaught exception on
+ * every page load, which aborted execution before the button was ever
+ * created or the theme CSS ever actually swapped (confirmed live: body class
+ * changed but the toggle button never appeared in the DOM and the CSS link
+ * never changed from whatever was hardcoded in baseof.html).
+ *
+ * Only 6 of the site's 9 theme CSS files are wired in here. The other 3
+ * (theme-light.css, theme-blue-purple.css, theme-rose-gold.css) use two
+ * DIFFERENT, mutually incompatible scoping mechanisms (body.theme-light
+ * class-scoped overrides, and [data-theme="..."] attribute selectors) that
+ * this switcher's mechanism - swapping which <link> is loaded, relying on
+ * main.css's own selectors reading the swapped :root --color-* variables -
+ * does not support. Rather than ship a half-working picker with 3 dead
+ * entries, those 3 are left out until someone rewrites them onto the same
+ * --color-* :root convention as the other 6.
  */
-
 (function() {
   'use strict';
-  
-  // Theme configuration
+
   const THEMES = [
-    { id: 'dark-blue', name: 'Dark Blue', css: '/css/theme-dark-blue.css' },
-    { id: 'dark-rose', name: 'Dark Rose', css: '/css/theme-dark-rose.css' },
-    { id: 'dark-green', name: 'Dark Green', css: '/css/theme-dark-green.css' },
-    { id: 'light', name: 'Light', css: '/css/theme-light.css' }
+    { id: 'dark-blue', name: 'Dark Blue', css: '/css/theme-dark-blue.css', swatch: '#0066ff' },
+    { id: 'dark-rose', name: 'Dark Rose', css: '/css/theme-dark-rose.css', swatch: '#ff6b9d' },
+    { id: 'dark-green', name: 'Dark Green', css: '/css/theme-dark-green.css', swatch: '#39ff14' },
+    { id: 'neon-cyber', name: 'Neon Cyber', css: '/css/theme-neon-cyber.css', swatch: '#39ff14' },
+    { id: 'deep-violet', name: 'Deep Violet', css: '/css/theme-deep-violet.css', swatch: '#8b5cf6' },
+    { id: 'midnight-gold', name: 'Midnight Gold', css: '/css/theme-midnight-gold.css', swatch: '#fbbf24' },
   ];
-  
+
   const STORAGE_KEY = 'venus-theme-preference';
   const DEFAULT_THEME = 'dark-blue';
-  
-  // DOM elements
-  let toggleButton = null;
-  let currentTheme = null;
-  
-  /**
-   * Initialize theme switcher
-   */
-  function init() {
-    // Load saved theme or use default
-    currentTheme = localStorage.getItem(STORAGE_KEY) || DEFAULT_THEME;
-    
-    // Apply saved theme
-    applyTheme(currentTheme);
-    
-    // Create toggle button
-    createToggleButton();
-    
-    // Listen for user clicks
-    toggleButton?.addEventListener('click', handleToggleClick);
+  const THEME_LINK_ID = 'venus-theme-css';
+
+  let panelOpen = false;
+
+  function currentThemeId() {
+    return localStorage.getItem(STORAGE_KEY) || DEFAULT_THEME;
   }
-  
-  /**
-   * Create floating toggle button
-   */
-  function createToggleButton() {
+
+  function applyTheme(themeId) {
+    const theme = THEMES.find(t => t.id === themeId) || THEMES[0];
+    localStorage.setItem(STORAGE_KEY, theme.id);
+
+    let link = document.getElementById(THEME_LINK_ID);
+    if (!link) {
+      link = document.createElement('link');
+      link.id = THEME_LINK_ID;
+      link.rel = 'stylesheet';
+      document.head.appendChild(link);
+    }
+    link.href = theme.css;
+
+    document.body.classList.add('theme-transition');
+    updateSwatchSelection(theme.id);
+  }
+
+  function updateSwatchSelection(themeId) {
+    document.querySelectorAll('.venus-theme-swatch').forEach(el => {
+      el.setAttribute('aria-pressed', el.dataset.themeId === themeId ? 'true' : 'false');
+    });
+  }
+
+  function buildPanel() {
+    const panel = document.createElement('div');
+    panel.id = 'venus-theme-panel';
+    panel.className = 'venus-theme-panel';
+    panel.setAttribute('role', 'menu');
+    panel.hidden = true;
+
+    THEMES.forEach(theme => {
+      const swatch = document.createElement('button');
+      swatch.type = 'button';
+      swatch.className = 'venus-theme-swatch';
+      swatch.dataset.themeId = theme.id;
+      swatch.title = theme.name;
+      swatch.setAttribute('aria-label', `Switch to ${theme.name} theme`);
+      swatch.setAttribute('role', 'menuitemradio');
+      swatch.style.setProperty('--swatch-color', theme.swatch);
+      swatch.addEventListener('click', () => {
+        applyTheme(theme.id);
+        closePanel();
+      });
+      panel.appendChild(swatch);
+    });
+
+    return panel;
+  }
+
+  function openPanel() {
+    const panel = document.getElementById('venus-theme-panel');
+    const button = document.getElementById('venus-theme-toggle');
+    if (!panel || !button) return;
+    panel.hidden = false;
+    button.setAttribute('aria-expanded', 'true');
+    panelOpen = true;
+  }
+
+  function closePanel() {
+    const panel = document.getElementById('venus-theme-panel');
+    const button = document.getElementById('venus-theme-toggle');
+    if (!panel || !button) return;
+    panel.hidden = true;
+    button.setAttribute('aria-expanded', 'false');
+    panelOpen = false;
+  }
+
+  function togglePanel() {
+    if (panelOpen) closePanel(); else openPanel();
+  }
+
+  function buildToggleButton() {
     const button = document.createElement('button');
     button.id = 'venus-theme-toggle';
     button.type = 'button';
-    button.className = 'theme-toggle-btn';
-    button.ariaLabel = 'Toggle light/dark mode';
+    button.className = 'venus-theme-toggle-btn';
+    button.setAttribute('aria-label', 'Choose color theme');
     button.setAttribute('aria-expanded', 'false');
-    
-    button.innerHTML = `
-      <svg class="theme-toggle-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="12" cy="12" r="5"></circle>
-        <line x1="12" y1="1" x2="12" y2="3"></line>
-        <line x1="12" y1="21" x2="12" y2="23"></line>
-        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-        <line x1="1" y1="12" x2="3" y2="12"></line>
-        <line x1="21" y1="12" x2="23" y2="12"></line>
-        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-      </svg>
-      <span class="theme-toggle-label">🌙</span>
-    `;
-    
-    toggleButton = button;
-    
-    // Insert before footer
+    button.setAttribute('aria-haspopup', 'true');
+    button.textContent = '\u{1F3A8}'; // 🎨
+    button.addEventListener('click', (event) => {
+      event.stopPropagation();
+      togglePanel();
+    });
+    return button;
+  }
+
+  function init() {
+    // Apply the saved/default theme first - this only swaps a <link>, no
+    // dependency on the toggle button existing.
+    applyTheme(currentThemeId());
+
+    const wrapper = document.createElement('div');
+    wrapper.id = 'venus-theme-switcher';
+    wrapper.appendChild(buildToggleButton());
+    wrapper.appendChild(buildPanel());
+
     const footer = document.querySelector('footer');
-    if (footer) {
-      footer.parentNode.insertBefore(button, footer);
+    if (footer && footer.parentNode) {
+      footer.parentNode.insertBefore(wrapper, footer);
+    } else {
+      document.body.appendChild(wrapper);
     }
-    
-    // Update icon based on current theme
-    updateIcon();
-  }
-  
-  /**
-   * Handle toggle button click
-   */
-  function handleToggleClick() {
-    const newTheme = currentTheme === 'dark-blue' || currentTheme === 'dark-rose' || currentTheme === 'dark-green' 
-      ? 'light'
-      : 'dark-blue';
-    
-    applyTheme(newTheme);
-  }
-  
-  /**
-   * Apply theme
-   */
-  function applyTheme(themeId) {
-    // Save preference
-    localStorage.setItem(STORAGE_KEY, themeId);
-    
-    // Update body class
-    document.body.className = themeId === 'light' ? 'theme-light theme-transition' : 'theme-transition';
-    
-    // Update toggle button label
-    const label = toggleButton.querySelector('.theme-toggle-label');
-    if (label) {
-      label.textContent = themeId === 'light' ? '☀️' : '🌙';
-    }
-    
-    // Update icon
-    updateIcon();
-    
-    // Remove other theme CSS if needed
-    THEMES.forEach(t => {
-      const link = document.querySelector(`link[href="${t.css}"]`);
-      if (link && t.id !== themeId) {
-        link.remove();
+
+    updateSwatchSelection(currentThemeId());
+
+    document.addEventListener('click', (event) => {
+      const switcher = document.getElementById('venus-theme-switcher');
+      if (panelOpen && switcher && !switcher.contains(event.target)) {
+        closePanel();
       }
     });
-    
-    // Add current theme CSS
-    const themeLink = document.createElement('link');
-    themeLink.rel = 'stylesheet';
-    themeLink.href = THEMES.find(t => t.id === themeId).css;
-    themeLink.id = 'venus-theme-css';
-    document.head.appendChild(themeLink);
-    
-    console.log(`Theme changed to: ${themeId}`);
+    document.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape' && panelOpen) closePanel();
+    });
   }
-  
-  /**
-   * Update toggle icon
-   */
-  function updateIcon() {
-    const svg = toggleButton.querySelector('svg');
-    const label = toggleButton.querySelector('.theme-toggle-label');
-    
-    if (svg) {
-      if (currentTheme === 'light') {
-        // Sun icon
-        svg.innerHTML = `
-          <circle cx="12" cy="12" r="5"></circle>
-          <line x1="12" y1="1" x2="12" y2="3"></line>
-          <line x1="12" y1="21" x2="12" y2="23"></line>
-          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-          <line x1="1" y1="12" x2="3" y2="12"></line>
-          <line x1="21" y1="12" x2="23" y2="12"></line>
-          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-          <line x1="16" y1="12" x2="18" y2="12"></line>
-          <line x1="12" y1="16" x2="12" y2="18"></line>
-        `;
-      } else {
-        // Moon icon
-        svg.innerHTML = `
-          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-        `;
-      }
-    }
-    
-    if (label) {
-      label.textContent = currentTheme === 'light' ? '☀️' : '🌙';
-    }
-  }
-  
-  /**
-   * Detect system preference on init
-   */
-  function detectSystemTheme() {
-    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    return prefersDark ? 'dark-blue' : 'light';
-  }
-  
-  /**
-   * Initialize on DOM ready
-   */
+
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
   } else {
-    // Already loaded
     init();
-  }
-  
-  /**
-   * Handle system theme changes
-   */
-  if (window.matchMedia) {
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
-      // Only auto-switch if no saved preference
-      if (!localStorage.getItem(STORAGE_KEY)) {
-        const systemTheme = event.matches ? 'dark-blue' : 'light';
-        applyTheme(systemTheme);
-      }
-    });
   }
 })();
