@@ -1,5 +1,3 @@
 # Non-production environment. Never index.
-# Duplicate of reviews.ultramarine963.com content - indexing this would
-# compete with production for the same keywords.
 User-agent: *
 Disallow: /
