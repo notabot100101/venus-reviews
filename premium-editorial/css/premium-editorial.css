@@ -1,0 +1,95 @@
+:root {
+  --color-primary: #1f1d1b;
+  --color-secondary: #C45C3E;
+  --color-accent: #f7eee8;
+  --color-dark: #171514;
+  --color-background: #fbf8f5;
+  --color-text: #25201d;
+  --color-text-light: #665b55;
+  --gradient-hero: linear-gradient(135deg, #241d1a 0%, #463229 58%, #C45C3E 100%);
+  --font-primary: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-secondary: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-heading: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.65;
+  background: var(--color-background);
+}
+
+h1 { font-size: 64px; line-height: 1.05; letter-spacing: 0; }
+h2 { font-size: 32px; line-height: 1.18; letter-spacing: 0; }
+h3 { font-size: 18px; line-height: 1.35; letter-spacing: 0; }
+
+.eyebrow,
+.nav-links a,
+.product-card-meta,
+.rating-pill,
+.article-byline {
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+.nav,
+.footer {
+  background: #171514;
+}
+
+.nav-brand span,
+a,
+a:hover,
+.product-card-price,
+.rating-pill {
+  color: #C45C3E;
+}
+
+.btn-primary {
+  background: #C45C3E;
+  border-color: #C45C3E;
+  color: #fff;
+}
+
+.article-byline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  align-items: center;
+  margin-top: 1rem;
+  color: rgba(255,255,255,.78);
+}
+
+.article-shell .article-byline,
+.product-byline {
+  color: #665b55;
+}
+
+.article-byline a {
+  color: inherit;
+  text-decoration-color: rgba(196,92,62,.35);
+}
+
+.affiliate-disclosure-banner {
+  display: inline-block;
+  margin: 1.5rem 0 0;
+  padding: .75rem 1rem;
+  border: 1px solid rgba(196,92,62,.28);
+  border-radius: 8px;
+  background: #fff7f2;
+  color: #665b55;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.affiliate-disclosure-banner a {
+  color: #C45C3E;
+  text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+  h1 { font-size: 42px; }
+  h2 { font-size: 28px; }
+  body { font-size: 17px; }
+}
