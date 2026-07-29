@@ -51,46 +51,7 @@
 
   <section class="product-hero-detail" aria-label="Lelo Mona product summary">
   
-  <div class="product-gallery">
-    <div class="main-image-container">
-      
-      <img 
-        id="mainImage"
-        src="/images/products/lelo-mona/front.jpg" 
-        alt="Lelo Mona"
-      >
-      
-      
-    </div>
-
-    <div class="thumbnail-strip" aria-label="Product gallery thumbnails">
-      
-      <img 
-        src="/images/products/lelo-mona/front.jpg"
-        alt="Lelo Mona view 1"
-        class="thumbnail"
-        data-index="0"
-        data-src="/images/products/lelo-mona/front.jpg"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/lelo-mona/top.png"
-        alt="Lelo Mona view 2"
-        class="thumbnail"
-        data-index="1"
-        data-src="/images/products/lelo-mona/top.png"
-        onclick="setMainImage(this)"
-      >
-      
-    </div>
-
-    <div class="image-nav">
-      <button type="button" onclick="prevImage()">← Previous</button>
-      <span id="imageCounter">1 / 2</span>
-      <button type="button" onclick="nextImage()">Next →</button>
-    </div>
-  </div>
+  
   
 
   <aside class="product-summary-panel">
@@ -106,7 +67,6 @@
     <div>
       <h3>Rating</h3>
       
-
 
 <div class="rating-display" aria-label="4.6 out of 5 stars">
   <span class="rating-stars" aria-hidden="true">
@@ -131,11 +91,6 @@
 
   
 
-
-
-
-
-
   
   
     
@@ -187,8 +142,6 @@
     
   
   
-
-
 
 <div class="comparison-block bg-gray-50 border border-gray-200 rounded-xl p-6 my-8">
   <h3 class="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
@@ -247,16 +200,16 @@
   </div>
 </div>
 
-
-
   <div class="product-review-body">
     <p>Premium suction-based stimulation device with ergonomic shape and quiet operation.</p>
 <h2 id="product-gallery">
   Product Gallery
   <a href="#product-gallery" class="h-anchor" aria-hidden="true">#</a>
 </h2>
-<p><img src="/images/products/lelo-mona/front.jpg" alt="Lelo Mona - Front View"></p>
-<p><img src="/images/products/lelo-mona/top.png" alt="Lelo Mona - Top Perspective"></p>
+<p>
+</p>
+<p>
+</p>
 <h2 id="at-a-glance">
   At a Glance
   <a href="#at-a-glance" class="h-anchor" aria-hidden="true">#</a>
@@ -322,45 +275,6 @@
     </div>
   </nav>
 </article>
-
-
-<script>
-let currentIndex = 0;
-const thumbnails = document.querySelectorAll('.thumbnail');
-const mainImage = document.getElementById('mainImage');
-const counter = document.getElementById('imageCounter');
-
-function updateGallery() {
-  const src = thumbnails[currentIndex].dataset.src;
-  mainImage.src = src;
-  
-  thumbnails.forEach((t, i) => {
-    t.classList.toggle('active', i === currentIndex);
-    t.style.opacity = i === currentIndex ? '1' : '0.6';
-  });
-  
-  counter.textContent = `${currentIndex + 1} / ${thumbnails.length}`;
-}
-
-function setMainImage(thumb) {
-  currentIndex = parseInt(thumb.dataset.index);
-  updateGallery();
-}
-
-function nextImage() {
-  currentIndex = (currentIndex + 1) % thumbnails.length;
-  updateGallery();
-}
-
-function prevImage() {
-  currentIndex = (currentIndex - 1 + thumbnails.length) % thumbnails.length;
-  updateGallery();
-}
-
-
-updateGallery();
-</script>
-
 
   
   </main>

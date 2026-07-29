@@ -51,82 +51,7 @@
 
   <section class="product-hero-detail" aria-label="Fun Factory Volta product summary">
   
-  <div class="product-gallery">
-    <div class="main-image-container">
-      
-      <img 
-        id="mainImage"
-        src="/images/products/fun-factory-volta/front.webp" 
-        alt="Fun Factory Volta"
-      >
-      
-      
-    </div>
-
-    <div class="thumbnail-strip" aria-label="Product gallery thumbnails">
-      
-      <img 
-        src="/images/products/fun-factory-volta/front.webp"
-        alt="Fun Factory Volta view 1"
-        class="thumbnail"
-        data-index="0"
-        data-src="/images/products/fun-factory-volta/front.webp"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/fun-factory-volta/angle-01.webp"
-        alt="Fun Factory Volta view 2"
-        class="thumbnail"
-        data-index="1"
-        data-src="/images/products/fun-factory-volta/angle-01.webp"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/fun-factory-volta/angle-02.webp"
-        alt="Fun Factory Volta view 3"
-        class="thumbnail"
-        data-index="2"
-        data-src="/images/products/fun-factory-volta/angle-02.webp"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/fun-factory-volta/detail.webp"
-        alt="Fun Factory Volta view 4"
-        class="thumbnail"
-        data-index="3"
-        data-src="/images/products/fun-factory-volta/detail.webp"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/fun-factory-volta/scale.webp"
-        alt="Fun Factory Volta view 5"
-        class="thumbnail"
-        data-index="4"
-        data-src="/images/products/fun-factory-volta/scale.webp"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/fun-factory-volta/lifestyle.webp"
-        alt="Fun Factory Volta view 6"
-        class="thumbnail"
-        data-index="5"
-        data-src="/images/products/fun-factory-volta/lifestyle.webp"
-        onclick="setMainImage(this)"
-      >
-      
-    </div>
-
-    <div class="image-nav">
-      <button type="button" onclick="prevImage()">← Previous</button>
-      <span id="imageCounter">1 / 6</span>
-      <button type="button" onclick="nextImage()">Next →</button>
-    </div>
-  </div>
+  
   
 
   <aside class="product-summary-panel">
@@ -142,7 +67,6 @@
     <div>
       <h3>Rating</h3>
       
-
 
 <div class="rating-display" aria-label="4.3 out of 5 stars">
   <span class="rating-stars" aria-hidden="true">
@@ -181,11 +105,6 @@
 
   
 
-
-
-
-
-
   
   
     
@@ -233,10 +152,6 @@
     
   
   
-
-
-
-
 
   <div class="product-review-body">
     <p>Fun Factory Volta is a precision-focused option with a twin-tip shape that gives it a different feel from broader external stimulators. It belongs in the catalog as a comparison point for shoppers who want more targeted control.</p>
@@ -263,45 +178,6 @@
     </div>
   </nav>
 </article>
-
-
-<script>
-let currentIndex = 0;
-const thumbnails = document.querySelectorAll('.thumbnail');
-const mainImage = document.getElementById('mainImage');
-const counter = document.getElementById('imageCounter');
-
-function updateGallery() {
-  const src = thumbnails[currentIndex].dataset.src;
-  mainImage.src = src;
-  
-  thumbnails.forEach((t, i) => {
-    t.classList.toggle('active', i === currentIndex);
-    t.style.opacity = i === currentIndex ? '1' : '0.6';
-  });
-  
-  counter.textContent = `${currentIndex + 1} / ${thumbnails.length}`;
-}
-
-function setMainImage(thumb) {
-  currentIndex = parseInt(thumb.dataset.index);
-  updateGallery();
-}
-
-function nextImage() {
-  currentIndex = (currentIndex + 1) % thumbnails.length;
-  updateGallery();
-}
-
-function prevImage() {
-  currentIndex = (currentIndex - 1 + thumbnails.length) % thumbnails.length;
-  updateGallery();
-}
-
-
-updateGallery();
-</script>
-
 
   
   </main>

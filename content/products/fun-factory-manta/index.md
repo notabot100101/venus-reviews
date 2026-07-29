@@ -11,14 +11,7 @@ reviews_count: 24
 price: "119.99"
 best_for: "Flexible external use"
 noise: "Medium noise"
-image: "/images/products/fun-factory-manta/front.webp"
 images:
-  - "/images/products/fun-factory-manta/front.webp"
-  - "/images/products/fun-factory-manta/angle-01.webp"
-  - "/images/products/fun-factory-manta/angle-02.webp"
-  - "/images/products/fun-factory-manta/detail.webp"
-  - "/images/products/fun-factory-manta/scale.webp"
-  - "/images/products/fun-factory-manta/lifestyle.webp"
 ---
 
 <h1>Fun Factory Manta</h1>

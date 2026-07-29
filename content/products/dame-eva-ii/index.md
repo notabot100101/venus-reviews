@@ -18,9 +18,6 @@ support_note: "Confirm return policy, charging cable compatibility, and cleaning
 images:
   - "/images/products/dame-eva-ii/front.png"
   - "/images/products/dame-eva-ii/angle-01.jpg"
-  - "/images/products/dame-eva-ii/angle-01.webp"
-  - "/images/products/dame-eva-ii/angle-02.webp"
-  - "/images/products/dame-eva-ii/detail.webp"
   - "/images/products/dame-eva-ii/lifestyle.jpg"
 ---
 

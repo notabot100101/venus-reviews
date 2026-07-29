@@ -11,33 +11,8 @@ reviews_count: 27
 price: "99.99"
 best_for: "Adjustable couples fit"
 noise: "Low-medium noise"
-image: "/images/products/we-vibe-sync/front.webp"
 images:
-  - "/images/products/we-vibe-sync/front.webp"
-  - "/images/products/we-vibe-sync/angle-01.webp"
-  - "/images/products/we-vibe-sync/angle-02.webp"
-  - "/images/products/we-vibe-sync/detail.webp"
-  - "/images/products/we-vibe-sync/scale.webp"
-  - "/images/products/we-vibe-sync/lifestyle.webp"
 gallery:
-  - src: "/images/products/we-vibe-sync/front.webp"
-    alt: "We Vibe Sync front view"
-    caption: "Front view"
-  - src: "/images/products/we-vibe-sync/angle-01.webp"
-    alt: "We Vibe Sync angled view"
-    caption: "Angled profile"
-  - src: "/images/products/we-vibe-sync/angle-02.webp"
-    alt: "We Vibe Sync second angle"
-    caption: "Secondary angle"
-  - src: "/images/products/we-vibe-sync/detail.webp"
-    alt: "We Vibe Sync detail view"
-    caption: "Flexible fit detail"
-  - src: "/images/products/we-vibe-sync/scale.webp"
-    alt: "We Vibe Sync scale reference"
-    caption: "Scale reference"
-  - src: "/images/products/we-vibe-sync/lifestyle.webp"
-    alt: "We Vibe Sync lifestyle setting"
-    caption: "Discreet lifestyle setting"
 ---
 
 <h1>We Vibe Sync</h1>

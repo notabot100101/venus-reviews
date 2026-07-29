@@ -74,11 +74,6 @@
 
   
 
-
-
-
-
-
   
   
     
@@ -126,10 +121,6 @@
     
   
   
-
-
-
-
 
   <div class="prose max-w-none mb-8">
     <h1>Lovehoney Desire</h1>
@@ -174,43 +165,6 @@
   width: auto;
 }
 </style>
-
-<script>
-let currentIndex = 0;
-const thumbnails = document.querySelectorAll('.thumbnail');
-const mainImage = document.getElementById('mainImage');
-const counter = document.getElementById('imageCounter');
-
-function updateGallery() {
-  const src = thumbnails[currentIndex].dataset.src;
-  mainImage.src = src;
-  
-  thumbnails.forEach((t, i) => {
-    t.classList.toggle('active', i === currentIndex);
-    t.style.opacity = i === currentIndex ? '1' : '0.6';
-  });
-  
-  counter.textContent = `${currentIndex + 1} / ${thumbnails.length}`;
-}
-
-function setMainImage(thumb) {
-  currentIndex = parseInt(thumb.dataset.index);
-  updateGallery();
-}
-
-function nextImage() {
-  currentIndex = (currentIndex + 1) % thumbnails.length;
-  updateGallery();
-}
-
-function prevImage() {
-  currentIndex = (currentIndex - 1 + thumbnails.length) % thumbnails.length;
-  updateGallery();
-}
-
-
-updateGallery();
-</script>
 
   
   </main>

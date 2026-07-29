@@ -51,82 +51,7 @@
 
   <section class="product-hero-detail" aria-label="Lelo Enigma product summary">
   
-  <div class="product-gallery">
-    <div class="main-image-container">
-      
-      <img 
-        id="mainImage"
-        src="/images/products/lelo-enigma/front.webp" 
-        alt="Lelo Enigma"
-      >
-      
-      
-    </div>
-
-    <div class="thumbnail-strip" aria-label="Product gallery thumbnails">
-      
-      <img 
-        src="/images/products/lelo-enigma/front.webp"
-        alt="Lelo Enigma view 1"
-        class="thumbnail"
-        data-index="0"
-        data-src="/images/products/lelo-enigma/front.webp"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/lelo-enigma/angle-01.webp"
-        alt="Lelo Enigma view 2"
-        class="thumbnail"
-        data-index="1"
-        data-src="/images/products/lelo-enigma/angle-01.webp"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/lelo-enigma/angle-02.webp"
-        alt="Lelo Enigma view 3"
-        class="thumbnail"
-        data-index="2"
-        data-src="/images/products/lelo-enigma/angle-02.webp"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/lelo-enigma/detail.webp"
-        alt="Lelo Enigma view 4"
-        class="thumbnail"
-        data-index="3"
-        data-src="/images/products/lelo-enigma/detail.webp"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/lelo-enigma/scale.webp"
-        alt="Lelo Enigma view 5"
-        class="thumbnail"
-        data-index="4"
-        data-src="/images/products/lelo-enigma/scale.webp"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/lelo-enigma/lifestyle.webp"
-        alt="Lelo Enigma view 6"
-        class="thumbnail"
-        data-index="5"
-        data-src="/images/products/lelo-enigma/lifestyle.webp"
-        onclick="setMainImage(this)"
-      >
-      
-    </div>
-
-    <div class="image-nav">
-      <button type="button" onclick="prevImage()">← Previous</button>
-      <span id="imageCounter">1 / 6</span>
-      <button type="button" onclick="nextImage()">Next →</button>
-    </div>
-  </div>
+  
   
 
   <aside class="product-summary-panel">
@@ -142,7 +67,6 @@
     <div>
       <h3>Rating</h3>
       
-
 
 <div class="rating-display" aria-label="4.8 out of 5 stars">
   <span class="rating-stars" aria-hidden="true">
@@ -246,11 +170,6 @@
 
   
 
-
-
-
-
-
   
   
     
@@ -302,8 +221,6 @@
     
   
   
-
-
 
 <div class="comparison-block bg-gray-50 border border-gray-200 rounded-xl p-6 my-8">
   <h3 class="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
@@ -362,8 +279,6 @@
   </div>
 </div>
 
-
-
   <div class="product-review-body">
     <p>Lelo Enigma is the premium dual-stimulation pick for shoppers who already know they want a more refined, quieter-feeling device rather than a basic rabbit-style shape. The value is in the finish, motor feel, and more controlled fit rather than novelty alone.</p>
 <h2 id="at-a-glance">At a Glance</h2>
@@ -421,45 +336,6 @@
     </div>
   </nav>
 </article>
-
-
-<script>
-let currentIndex = 0;
-const thumbnails = document.querySelectorAll('.thumbnail');
-const mainImage = document.getElementById('mainImage');
-const counter = document.getElementById('imageCounter');
-
-function updateGallery() {
-  const src = thumbnails[currentIndex].dataset.src;
-  mainImage.src = src;
-  
-  thumbnails.forEach((t, i) => {
-    t.classList.toggle('active', i === currentIndex);
-    t.style.opacity = i === currentIndex ? '1' : '0.6';
-  });
-  
-  counter.textContent = `${currentIndex + 1} / ${thumbnails.length}`;
-}
-
-function setMainImage(thumb) {
-  currentIndex = parseInt(thumb.dataset.index);
-  updateGallery();
-}
-
-function nextImage() {
-  currentIndex = (currentIndex + 1) % thumbnails.length;
-  updateGallery();
-}
-
-function prevImage() {
-  currentIndex = (currentIndex - 1 + thumbnails.length) % thumbnails.length;
-  updateGallery();
-}
-
-
-updateGallery();
-</script>
-
 
   
   </main>
