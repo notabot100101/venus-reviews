@@ -18,7 +18,7 @@ We write for people who want a private, practical answer before they buy: what f
 ## Who We Are
 
 **Founded by:** Experienced users who understand what matters  
-**Our Expertise:** Hands-on product testing, real-world usage context  
+**Our Expertise:** In-depth product research and real-world usage context  
 **Our Focus:** Practical guidance that helps you make informed decisions
 
 ## What We Believe
@@ -33,11 +33,11 @@ We write for people who want a private, practical answer before they buy: what f
 
 ## How We Review
 
-1. **Hands-On Testing**: Products are evaluated for build quality, ease of use, noise level, and performance
+1. **Product Research**: Products are evaluated for build quality, ease of use, noise level, and performance
 2. **Real-World Context**: We consider charging, storage, cleaning, and travel-friendliness
 3. **Buyer Fit Analysis**: Every review answers "who is this best for?" and "who should skip it?"
 4. **Value Assessment**: Price is weighed against features, durability, and competition
-5. **Noise Measurements**: We test sound levels in quiet environments for accurate comparisons
+5. **Noise Measurements**: We compare manufacturer-stated and user-reported sound levels for accurate comparisons
 6. **Material Verification**: Every product's materials are checked and verified
 
 ## Our Review Categories
