@@ -245,6 +245,15 @@
   line-height: 1.35;
 }
 
+.amazon-price-disclaimer {
+  display: block;
+  margin-top: .45rem;
+  color: #1a1a1a;
+  font-size: .9rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
 .offer-muted {
   color: #666;
   font-weight: 700;
