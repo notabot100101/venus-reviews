@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "venus-preview",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8899", "--directory", "/tmp/claude-1000/-home-paul--claude/26611f2d-80a3-4697-9ef9-e850115d14cf/scratchpad/preview-serve"],
+      "port": 8899
+    }
+  ]
+}

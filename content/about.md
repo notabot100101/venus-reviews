@@ -17,13 +17,13 @@ We write for people who want a private, practical answer before they buy: what f
 
 ## Who We Are
 
-**Founded by:** Experienced users who understand what matters  
-**Our Expertise:** In-depth product research and real-world usage context  
+**Founded by:** Editors focused on practical product research  
+**Our Expertise:** Specification comparison, materials research, buyer-fit analysis  
 **Our Focus:** Practical guidance that helps you make informed decisions
 
 ## What We Believe
 
-**Honesty First**: Every product is reviewed based on actual performance, not marketing claims or affiliate commissions. If a product has flaws, we tell you.
+**Honesty First**: Every product is reviewed from documented product information, published buyer feedback, and category context, not affiliate commissions. If a product has clear limitations, we tell you.
 
 **Practical Guidance**: Our reviews focus on what matters for your decision: who a product suits, where it may not fit, and what to check before ordering.
 
@@ -33,12 +33,12 @@ We write for people who want a private, practical answer before they buy: what f
 
 ## How We Review
 
-1. **Product Research**: Products are evaluated for build quality, ease of use, noise level, and performance
-2. **Real-World Context**: We consider charging, storage, cleaning, and travel-friendliness
+1. **Product Research**: Products are evaluated from specifications, materials disclosures, warranty terms, and retailer information
+2. **Practical Context**: We consider charging, storage, cleaning, and travel-friendliness
 3. **Buyer Fit Analysis**: Every review answers "who is this best for?" and "who should skip it?"
 4. **Value Assessment**: Price is weighed against features, durability, and competition
-5. **Noise Measurements**: We compare manufacturer-stated and user-reported sound levels for accurate comparisons
-6. **Material Verification**: Every product's materials are checked and verified
+5. **Noise & Discretion Research**: We compare published claims and recurring buyer feedback
+6. **Material Review**: Every product's stated materials are checked against available documentation
 
 ## Our Review Categories
 
@@ -52,13 +52,13 @@ We write for people who want a private, practical answer before they buy: what f
 
 ## Our Review Process
 
-**Testing Protocol:**
-- Unboxing experience and packaging assessment
-- First impressions and build quality check
-- Performance testing across varied use cases
-- Noise measurements in controlled environment
-- Cleaning and maintenance evaluation
-- Long-term durability assessment
+**Research Process:**
+- Manufacturer documentation and retailer listing review
+- Materials, warranty, and support-policy comparison
+- Feature and use-case comparison against similar products
+- Published buyer feedback aggregation
+- Cleaning and maintenance guidance review
+- Durability signal review from published reports
 
 **Review Criteria:**
 - Build quality and materials (30%)
@@ -71,7 +71,7 @@ We write for people who want a private, practical answer before they buy: what f
 
 **Privacy-First**: We never share personal data or browsing history  
 **No Judgement**: Products are discussed openly and respectfully  
-**Evidence-Based**: Reviews rely on testing, not speculation  
+**Evidence-Based**: Reviews rely on documented sources and published feedback, not speculation  
 **Transparent**: We disclose all affiliations and potential conflicts
 
 ## Our Review Coverage
@@ -89,17 +89,17 @@ With over a dozen in-depth product reviews and comprehensive buying guides, we c
 
 ## Trust & Credibility
 
-**12 In-Depth Reviews**: Each written by experienced testers  
+**12 In-Depth Reviews**: Each built from product research and buyer-fit analysis  
 **Real User Feedback**: We incorporate community feedback and reporting  
-**No Sponsored Rankings**: Our "Top Picks" are based on testing, not payment  
-**Independent Testing**: We evaluate products on their own merits
+**No Sponsored Rankings**: Our "Top Picks" are based on editorial criteria, not payment  
+**Independent Research**: We evaluate products on their own merits
 
 ## Recent Updates (2026)
 
 - **July 2026**: Added comprehensive body-safe materials guide
 - **July 2026**: Updated buying guides with last-modified dates
 - **July 2026**: Enhanced product cards with trust badges
-- **July 2026**: Added testimonials from verified customers
+- **July 2026**: Reframed trust pages around research and curation
 
 ## Affiliate Disclosure
 
@@ -136,6 +136,6 @@ We appreciate your support. Your purchases help us continue providing honest, he
 
 *Venus Reviews — Honest guidance for discerning adults.*
 
-*Established 2024 | 12+ Products Reviewed | 100% Independent Testing*
+*Established 2024 | 12+ Products Reviewed | Independent Research & Curation*
 
 *Last updated: {{ .Lastmod | default .Date | time.Format "January 2006" }}*

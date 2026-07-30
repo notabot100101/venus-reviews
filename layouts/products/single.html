@@ -9,6 +9,14 @@
     <h1>{{ .Title }} Review</h1>
     {{ with .Description }}<p>{{ . }}</p>{{ end }}
     {{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
+    {{ if or .Params.author .Params.last_reviewed .Params.lastReviewed .Params.last_updated .Params.lastUpdated .Params.lastmod .Params.date }}
+    <div class="article-byline product-byline">
+      {{ with .Params.author }}<span>By {{ . }}</span>{{ end }}
+      {{ with or .Params.last_reviewed .Params.lastReviewed }}<span>Last reviewed {{ . }}</span>{{ end }}
+      {{ with or .Params.last_updated .Params.lastUpdated .Params.lastmod .Params.date }}<span>Last updated {{ . }}</span>{{ end }}
+      <a href="/how-we-test/">How we evaluate</a>
+    </div>
+    {{ end }}
   </header>
 
   {{ $images := .Params.images }}
@@ -60,17 +68,18 @@
 
   <aside class="product-summary-panel">
   <div class="product-info">
-    {{ if .Params.price }}
     <div>
-      <h3>Price</h3>
-      <p>${{ .Params.price }}</p>
+      <h3>Best Verified Offer</h3>
+      <p>{{ partial "best-offer-display.html" . }}</p>
     </div>
-    {{ end }}
 
     {{ if .Params.rating }}
     <div>
       <h3>Rating</h3>
       {{ partial "rating-display.html" (dict "rating" .Params.rating) }}
+      <p class="score-methodology-link">
+        <a href="/methodology/">See scoring methodology and weights</a>
+      </p>
     </div>
     {{ end }}
 
@@ -118,20 +127,6 @@
   <div class="product-review-body">
     {{ .Content | replaceRE `(?s)^\s*<h1[^>]*>.*?</h1>\s*` "" | safeHTML }}
   </div>
-
-  {{ if .Params.buyLink }}  
-  <div class="where-to-buy">
-    <h3>Where to Buy</h3>
-    <p>
-      This is an independent review. No compensation was received for this review.
-      As an Amazon Associate we earn from qualifying purchases.
-    </p>
-    <a href="{{ .Params.buyLink }}" target="_blank" rel="noopener noreferrer sponsored"
-       class="btn btn-primary">
-      Check Price on Amazon
-    </a>
-  </div>
-  {{ end }}
 
   {{ if .Params.cons }}
   <div class="pros-cons">

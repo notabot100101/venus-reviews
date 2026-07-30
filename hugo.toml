@@ -23,6 +23,7 @@ name = 'Venus Reviews Team'
   discreetDelivery = true
   ageRestriction = '18+'
   supportUS = true
+  offerMaxAgeDays = 7
   social = { twitter = '', instagram = '', facebook = '' }
 
 # Theme toggle - enable CSS variables for light/dark mode

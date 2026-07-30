@@ -233,14 +233,14 @@ Understanding vibration characteristics helps you choose quieter options:
 - **Communicate** - Trust partner or roommates
 - **Practice** - Confidence grows with experience
 
-### Testing Discretion
+### Checking Discretion
 
 **Practice techniques:**
-- **Test before important occasions** - Build confidence
+- **Check before important occasions** - Build confidence
 - **Use during normal activities** - Cooking, showering
 - **Start low** - Lowest settings
 - **Increase gradually** - Build comfort
-- **Verify quietness** - Test in similar environment
+- **Verify quietness** - Check in a similar environment
 
 ## Noise-Masking Strategies
 

@@ -81,7 +81,7 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
       <!-- Product 5: Fun Factory Manta -->
       <article class="product-card">
         <div class="product-image">
-</div>
+        </div>
         <div class="product-info">
           <h3>Fun Factory Manta</h3>
           <div class="product-rating">★★★★☆ 4.4/5</div>
@@ -94,7 +94,7 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
       <!-- Product 6: We Vibe Sync -->
       <article class="product-card">
         <div class="product-image">
-</div>
+        </div>
         <div class="product-info">
           <h3>We Vibe Sync</h3>
           <div class="product-rating">★★★★☆ 4.4/5</div>
@@ -153,7 +153,7 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
       <div class="trust-item">
         <span class="trust-icon">✓</span>
         <h3>Honest Reviews</h3>
-        <p>Independent testing, no paid placements</p>
+        <p>Independent research, no paid placements</p>
       </div>
       <div class="trust-item">
         <span class="trust-icon">🛡️</span>

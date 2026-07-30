@@ -1,0 +1,27 @@
+{{ $offers := .Params.offers }}
+{{ $maxAgeDays := .Site.Params.offerMaxAgeDays | default 7 }}
+{{ $maxAgeSeconds := mul $maxAgeDays 86400 }}
+{{ $nowUnix := now.Unix }}
+{{ $best := dict }}
+
+{{ range $offer := $offers }}
+  {{ if and $offer.price $offer.checked }}
+    {{ $checkedTime := time.AsTime $offer.checked }}
+    {{ $isFresh := le (sub $nowUnix $checkedTime.Unix) $maxAgeSeconds }}
+    {{ if $isFresh }}
+      {{ if or (not $best.price) (lt (float $offer.price) (float $best.price)) }}
+        {{ $best = $offer }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if $best.price }}
+  {{ $currency := $best.currency | default "EUR" }}
+  {{ $symbol := "" }}
+  {{ if eq $currency "EUR" }}{{ $symbol = "€" }}{{ else if eq $currency "USD" }}{{ $symbol = "$" }}{{ else }}{{ $symbol = printf "%s " $currency }}{{ end }}
+  <span class="best-offer-price">{{ $symbol }}{{ printf "%.2f" (float $best.price) }}</span>
+  <span class="best-offer-checked">checked {{ dateFormat "2 Jan 2006" (time.AsTime $best.checked) }}</span>
+{{ else }}
+  <span class="offer-muted">No verified offer yet</span>
+{{ end }}

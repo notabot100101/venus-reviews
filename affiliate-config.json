@@ -1,86 +1,191 @@
 {
+  "meta": {
+    "lastResearched": "2026-07-30 CEST",
+    "policy": "Never render live retailer CTAs until Paul provides approval evidence and a real tracking ID for that program. Candidate rows are planning scaffolding only."
+  },
   "programs": {
     "lovehoney": {
+      "displayName": "Lovehoney",
       "baseUrl": "https://www.lovehoney.com",
-      "trackingParam": "? aff=AFFILIATE_ID_LOVEHONEY",
-      "products": ["womanizer", "lelo", "we-vibe"],
-      "commissionRate": "5-8%",
-      "cookieDuration": "30 days",
-      "paymentTerms": "Monthly, min €50/£50",
+      "officialProgramUrl": "https://www.lovehoney.com/affiliate-program/",
+      "applicationUrl": "",
+      "trackingParam": "",
+      "products": [],
+      "commissionRate": "unverified after decline",
+      "cookieDuration": "unverified after decline",
+      "paymentTerms": "network terms if reapproved",
       "approvalRequired": true,
+      "status": "declined_2026-07-29",
+      "allowedForAdultToyContent": true,
+      "implementationNote": "Disabled after Paul forwarded a Lovehoney US affiliate rejection on 2026-07-29; do not render Lovehoney retailer CTAs until a new approval and tracking link are confirmed.",
       "regions": ["US", "UK", "EU"],
-      "productCoverage": "Full catalog + partner brands"
+      "productCoverage": "Lovehoney catalog and some partner brands if approved"
     },
-    "adameve": {
-      "baseUrl": "https://www.adameve.com",
-      "trackingParam": "? affiliate=AFFILIATE_ID_ADAMEVE",
-      "products": ["adam-eve-brands", "exclusive-designers", "wellness-products"],
-      "commissionRate": "4-8%",
-      "cookieDuration": "30-90 days",
-      "paymentTerms": "Net-30/60, min $50",
+    "lelo": {
+      "displayName": "LELO",
+      "baseUrl": "https://www.lelo.com",
+      "officialProgramUrl": "https://www.lelo.com/affiliates",
+      "applicationUrl": "http://lip.hasoffers.com/signup",
+      "networkAlternatives": [
+        "https://cli.linksynergy.com/cli/common/login.php",
+        "https://members.cj.com/member/login/#/",
+        "https://www.timeone.io/en/connection/"
+      ],
+      "trackingParam": "",
+      "products": ["lelo"],
+      "commissionRate": "5-20%",
+      "cookieDuration": "not stated on official page",
+      "paymentTerms": "network/platform terms",
       "approvalRequired": true,
-      "regions": ["US"],
-      "productCoverage": "Full catalog + exclusive brands"
+      "status": "candidate_apply",
+      "allowedForAdultToyContent": true,
+      "regions": ["US", "UK", "EU", "global"],
+      "productCoverage": "LELO official catalog"
     },
-    "amazon": {
-      "baseUrl": "https://www.amazon.com",
-      "trackingParam": "?tag=AFFILIATE_ID_AMAZON",
-      "products": ["select-adult-toys", "general-accessories"],
-      "commissionRate": "1-3%",
-      "cookieDuration": "24 hours",
-      "paymentTerms": "Net-14/30, min $10",
+    "womanizer": {
+      "displayName": "Womanizer",
+      "baseUrl": "https://www.womanizer.com/us",
+      "officialProgramUrl": "https://www.womanizer.com/us/affiliate-marketing",
+      "applicationUrl": "http://app.impact.com/campaign-campaign-info-v2/Womanizer-North-America.brand",
+      "trackingParam": "",
+      "products": ["womanizer"],
+      "commissionRate": "up to 22%",
+      "cookieDuration": "Impact terms after approval",
+      "paymentTerms": "Impact terms after approval",
       "approvalRequired": true,
-      "regions": ["US", "UK", "DE", "JP", "IN", "CA"],
-      "productCoverage": "Limited select items only",
-      "restrictions": "Must include disclosure, adult content restrictions apply"
+      "status": "candidate_apply",
+      "allowedForAdultToyContent": true,
+      "regions": ["US", "CA", "EU", "UK"],
+      "productCoverage": "Womanizer official catalog"
+    },
+    "wevibe": {
+      "displayName": "We-Vibe",
+      "baseUrl": "https://www.we-vibe.com/us",
+      "officialProgramUrl": "https://www.we-vibe.com/us/affiliate-marketing",
+      "applicationUrl": "http://app.impact.com/campaign-campaign-info-v2/We-Vibe-Europe.brand",
+      "trackingParam": "",
+      "products": ["we-vibe", "we vibe"],
+      "commissionRate": "up to 22%",
+      "cookieDuration": "Impact terms after approval",
+      "paymentTerms": "Impact terms after approval",
+      "approvalRequired": true,
+      "status": "candidate_apply",
+      "allowedForAdultToyContent": true,
+      "regions": ["US", "CA", "EU", "UK"],
+      "productCoverage": "We-Vibe official catalog"
     },
     "shevibe": {
-      "baseUrl": "https://www.shevibe.com",
-      "trackingParam": "? utm_source=AFFILIATE_ID_SHEVIBE",
-      "products": ["shevibe-original", "partnerships", "wellness"],
-      "commissionRate": "10-15%",
-      "cookieDuration": "30 days",
-      "paymentTerms": "Net-15/30, min $50",
+      "displayName": "SheVibe",
+      "baseUrl": "https://shevibe.com",
+      "officialProgramUrl": "https://shevibe.com/pages/affiliate-program",
+      "applicationUrl": "https://app.impact.com/campaign-promo-signup/The-Vibe-Tribe-SheVibes-Partner-Program.brand?execution=e1s1#/?viewkey=signUpPreStart",
+      "trackingParam": "",
+      "products": [],
+      "commissionRate": "10%",
+      "cookieDuration": "Impact terms after approval",
+      "paymentTerms": "Impact terms after approval",
       "approvalRequired": true,
-      "regions": ["US", "UK"],
-      "productCoverage": "Full SheVibe catalog"
+      "status": "candidate_apply",
+      "allowedForAdultToyContent": true,
+      "regions": ["US"],
+      "productCoverage": "Broad adult retail catalog; map exact product URLs only after approval"
+    },
+    "adameve": {
+      "displayName": "Adam & Eve",
+      "baseUrl": "https://www.adameve.com",
+      "officialProgramUrl": "https://www.adameve.com/t-affiliate.aspx",
+      "applicationUrl": "https://www.pepperjamnetwork.com/affiliate/registration.php?refid=107783",
+      "trackingParam": "",
+      "products": [],
+      "commissionRate": "up to 30%",
+      "cookieDuration": "Pepperjam/partner network terms",
+      "paymentTerms": "Pepperjam/partner network terms",
+      "approvalRequired": true,
+      "status": "candidate_apply",
+      "allowedForAdultToyContent": true,
+      "regions": ["US", "CA"],
+      "productCoverage": "Adam & Eve catalog; broad marketplace comparison candidate"
+    },
+    "bellesa": {
+      "displayName": "Bellesa / BBoutique",
+      "baseUrl": "https://www.bboutique.co",
+      "officialProgramUrl": "https://www.bboutique.co/affiliate-program",
+      "applicationUrl": "https://ui.awin.com/merchant-profile/15527",
+      "trackingParam": "",
+      "products": [],
+      "commissionRate": "commission on sales; exact rate not stated on official page",
+      "cookieDuration": "Awin terms after approval",
+      "paymentTerms": "Awin terms after approval",
+      "approvalRequired": true,
+      "status": "candidate_apply",
+      "allowedForAdultToyContent": true,
+      "regions": ["US", "CA", "EU"],
+      "productCoverage": "BBoutique catalog; map exact product URLs only after approval"
     },
     "spectrum": {
-      "baseUrl": "https://www.spectrumboutique.com",
-      "trackingParam": "? ref=AFFILIATE_ID_SPECTRUM",
-      "products": ["full-catalog", "international-brands", "new-arrivals"],
-      "commissionRate": "5-10%",
-      "cookieDuration": "30 days",
-      "paymentTerms": "Monthly, min £50",
+      "displayName": "Spectrum Boutique",
+      "baseUrl": "https://spectrumboutique.com",
+      "officialProgramUrl": "https://spectrumboutique.com",
+      "applicationUrl": "",
+      "trackingParam": "",
+      "products": [],
+      "commissionRate": "not verified",
+      "cookieDuration": "not verified",
+      "paymentTerms": "not verified",
       "approvalRequired": true,
-      "regions": ["UK", "EU"],
-      "productCoverage": "Full Spectrum catalog"
+      "status": "research_needed",
+      "allowedForAdultToyContent": true,
+      "regions": ["US"],
+      "productCoverage": "Broad adult retail catalog; official affiliate page not found in this pass"
+    },
+    "amazon": {
+      "displayName": "Amazon Associates",
+      "baseUrl": "https://www.amazon.com",
+      "officialProgramUrl": "https://affiliate-program.amazon.com/",
+      "applicationUrl": "https://affiliate-program.amazon.com/welcome",
+      "policyUrl": "https://affiliate-program.amazon.com/help/operating/policies",
+      "reviewProcessUrl": "https://affiliate-program.amazon.com/help/node/topic/G8TW5AE9XL2VX9VM",
+      "trackingParam": "",
+      "products": [],
+      "commissionRate": "check current Associates schedule after login; do not hard-code",
+      "cookieDuration": "24 hours for standard Associates sessions unless Amazon terms say otherwise",
+      "paymentTerms": "Associates account settings after approval",
+      "approvalRequired": true,
+      "status": "needs_paul_login_policy_risk",
+      "allowedForAdultToyContent": false,
+      "regions": ["US", "UK", "DE", "CA", "FR", "IT", "ES", "JP"],
+      "productCoverage": "Only products Amazon permits; adult toy review content has policy risk"
     }
   },
   "affiliateNetworks": {
-    "direct": [
-      "lovehoney",
-      "shevibe",
-      "spectrum"
-    ],
-    "networks": [
-      "adameve",
-      "amazon"
-    ]
+    "direct": ["lelo"],
+    "impact": ["womanizer", "wevibe", "shevibe"],
+    "awin": ["bellesa"],
+    "pepperjam": ["adameve"],
+    "amazon": ["amazon"],
+    "blockedOrResearch": ["lovehoney", "spectrum"]
   },
   "priority": [
-    "lovehoney",
+    "lelo",
+    "womanizer",
+    "wevibe",
     "shevibe",
-    "spectrum",
     "adameve",
-    "amazon"
+    "bellesa",
+    "amazon",
+    "spectrum",
+    "lovehoney"
   ],
   "trackingPrefixes": {
     "lovehoney": "AFFILIATE_ID_LOVEHONEY",
-    "adameve": "AFFILIATE_ID_ADAMEVE",
-    "amazon": "AFFILIATE_ID_AMAZON",
+    "lelo": "AFFILIATE_ID_LELO",
+    "womanizer": "AFFILIATE_ID_WOMANIZER",
+    "wevibe": "AFFILIATE_ID_WEVIBE",
     "shevibe": "AFFILIATE_ID_SHEVIBE",
-    "spectrum": "AFFILIATE_ID_SPECTRUM"
+    "adameve": "AFFILIATE_ID_ADAMEVE",
+    "bellesa": "AFFILIATE_ID_BELLESA",
+    "spectrum": "AFFILIATE_ID_SPECTRUM",
+    "amazon": "AFFILIATE_ID_AMAZON"
   },
-  "fallbackStrategy": "US->SheVibe->Adam&Eve, EU->Lovehoney, UK->Spectrum"
+  "fallbackStrategy": "Apply direct brand programs first (LELO/Womanizer/We-Vibe), then adult-native retailers (SheVibe, Adam & Eve, BBoutique). Treat Amazon as a policy-risk fallback only."
 }

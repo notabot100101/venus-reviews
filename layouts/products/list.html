@@ -3,8 +3,8 @@
   <header class="mb-12 text-center">
     <h1 class="text-4xl font-bold mb-4">Product Reviews</h1>
     <p class="text-gray-600 max-w-2xl mx-auto">
-      Honest, independent reviews of premium intimate products. 
-      We research everything so you don't have to.
+      Honest, independent research on premium intimate products.
+      Compare materials, features, buyer-fit notes, and published feedback.
     </p>
   </header>
 
@@ -48,9 +48,7 @@
           {{ end }}
           
           <div class="flex items-center justify-between">
-            {{ if .Params.price }}
-            <span class="text-lg font-bold text-pink-600">${{ .Params.price }}</span>
-            {{ end }}
+            <span class="text-lg font-bold text-pink-600">{{ partial "best-offer-display.html" . }}</span>
             
             <span class="text-pink-600 text-sm font-medium flex items-center gap-1 group">
               Read Review 

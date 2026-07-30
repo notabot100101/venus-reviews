@@ -11,14 +11,52 @@
         <span>Beginner-friendly buying guides</span>
       </div>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="/products/">Read Reviews</a>
-        <a class="btn btn-outline hero-outline" href="/best-for/">Browse Best For</a>
+        <a class="btn btn-primary conversion-hero-cta" href="#quick-verdict">See Best Overall</a>
+        <a class="btn btn-outline hero-outline" href="#compare">Compare Picks</a>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section">
+{{ with .Site.GetPage "section" "products" }}
+{{ $top := first 1 .Pages.ByWeight }}
+{{ range $top }}
+<aside class="sticky-best-banner" aria-label="Best overall pick">
+  <strong>Best Overall:</strong>
+  <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  <span>{{ with .Params.rating }}{{ . }}/5{{ end }}</span>
+  <a class="sticky-cta" href="#quick-verdict">Jump to Verdict</a>
+</aside>
+{{ end }}
+{{ end }}
+
+<nav class="jump-nav" aria-label="Page sections">
+  <a href="#quick-verdict">Quick Verdict</a>
+  <a href="#top-picks">Top Picks</a>
+  <a href="#compare">Compare</a>
+  <a href="#faq">FAQ</a>
+</nav>
+
+{{ with .Site.GetPage "section" "products" }}
+{{ $top := first 1 .Pages.ByWeight }}
+{{ range $top }}
+<section class="section quick-verdict-section" id="quick-verdict">
+  <div class="container">
+    <div class="quick-verdict-card">
+      <p class="eyebrow">Quick verdict</p>
+      <h2>Best Overall: {{ .Title }}</h2>
+      <p>{{ with .Description }}{{ . }}{{ else }}The strongest balanced pick for readers who want a fast, practical recommendation before digging into the full comparison.{{ end }}</p>
+      <div class="verdict-actions">
+        <a class="btn btn-primary" href="{{ .RelPermalink }}">Read Full Verdict</a>
+        <a class="btn btn-outline" href="#compare">Compare Against Others</a>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<section class="section" id="top-picks">
   <div class="container">
     <div class="section-header reviews-header">
       <div>
@@ -50,7 +88,7 @@
           {{ with .Params.best_for }}<span>{{ . }}</span>{{ end }}
           {{ with .Params.noise }}<span>{{ . }}</span>{{ end }}
         </div>
-        <p class="product-card-price">${{ .Params.price }}</p>
+        <p class="product-card-price">{{ partial "best-offer-display.html" . }}</p>
         <a class="btn btn-primary" href="{{ .RelPermalink }}">Read Review</a>
         <div class="product-card-trust">
           <span class="trust-note">✓ Discreet packaging</span>
@@ -61,6 +99,43 @@
       </article>
       {{ end }}
       {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section section-band" id="compare">
+  <div class="container">
+    <div class="section-header">
+      <h2>Fast Comparison</h2>
+      <p>Use this table to move quickly from best-fit use case to the full review.</p>
+    </div>
+    <div class="comparison-table-wrap">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th>Product</th>
+            <th>Best For</th>
+            <th>Noise</th>
+            <th>Rating</th>
+            <th>Best Current Offer</th>
+            <th>Review</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ with .Site.GetPage "section" "products" }}
+          {{ range first 8 .Pages.ByWeight }}
+          <tr>
+            <td>{{ .Title }}</td>
+            <td>{{ .Params.best_for | default "General comparison" }}</td>
+            <td>{{ .Params.noise | default "See review" }}</td>
+            <td>{{ with .Params.rating }}{{ . }}/5{{ else }}Reviewed{{ end }}</td>
+            <td>{{ partial "best-offer-display.html" . }}</td>
+            <td><a href="{{ .RelPermalink }}">Read</a></td>
+          </tr>
+          {{ end }}
+          {{ end }}
+        </tbody>
+      </table>
     </div>
   </div>
 </section>
@@ -90,27 +165,24 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container">
+
+
+<section class="section" id="faq">
+  <div class="container narrow-container">
     <div class="section-header">
-      <h2>Reader Confidence Notes</h2>
-      <p>Editorial checks kept visible so readers can compare products without relying on hype, unverifiable claims, or generic star ratings alone.</p>
+      <h2>Buying FAQ</h2>
+      <p>Quick answers before you choose a review.</p>
     </div>
-    <div class="privacy-grid mini-privacy-grid">
-      <div class="privacy-item">
-        <h5>Evidence Before Claims</h5>
-        <p>Review notes separate observable product details from manufacturer positioning and avoid invented buyer endorsements.</p>
-      </div>
-      <div class="privacy-item">
-        <h5>Practical Buying Context</h5>
-        <p>Each shortlist note keeps fit, materials, cleaning, noise, warranty, returns, and shipping expectations close to the decision.</p>
-      </div>
-      <div class="privacy-item">
-        <h5>Clear Tradeoffs</h5>
-        <p>Ratings are paired with who should skip a product, not just who might like it.</p>
-      </div>
+    <div class="faq-list">
+      <details open>
+        <summary>What should I compare first?</summary>
+        <p>Start with fit, materials, noise, cleaning, warranty, and price. Extra modes matter less if the basics do not match your use case.</p>
+      </details>
+      <details>
+        <summary>Why is there a Best Overall banner?</summary>
+        <p>It gives returning readers a fast path to the strongest balanced pick while leaving the full comparison visible for more specific needs.</p>
+      </details>
     </div>
   </div>
 </section>
-
 {{ end }}

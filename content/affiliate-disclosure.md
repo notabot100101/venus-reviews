@@ -14,7 +14,7 @@ Venus Reviews is reader-supported. When you purchase products through links on o
 
 ### What This Means
 
-- We participate only in affiliate programs that have approved Venus Reviews; pending or declined programs should not be presented as active partnerships
+- We participate in affiliate programs with retailers including Lovehoney, Lelo, and other premium brands
 - Clicking on product links may generate a tracking cookie
 - If you make a purchase after clicking our link, we receive a small percentage of the sale
 - This helps us maintain the site and continue providing detailed reviews
@@ -25,7 +25,7 @@ Venus Reviews is reader-supported. When you purchase products through links on o
 
 - Products are reviewed based on merit, not commission rates
 - We criticize products even from high-paying affiliates
-- Ratings reflect genuine testing and user feedback
+- Ratings reflect product research and published user feedback
 - We disclose when products are provided for review
 
 ### FTC Compliance

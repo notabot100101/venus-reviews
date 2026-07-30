@@ -1,81 +1,77 @@
-{{/* Multi-vendor price comparison block for Venus product pages.
-     Only renders when at least one affiliate program covers this product -
-     an empty headers-only table (the state Aegis flagged on dame-eva-ii,
-     2026-07-16) is worse than no block at all. */}}
-{{ $config := index .Site.Data "affiliate-config" }}
-{{ $programs := $config.programs }}
-{{ $productSku := replace .Title " " "-" | lower }}
+{{/* Multi-retailer offer table driven by product front matter.
+     Prices render only when an offer has both a price and a checked date,
+     and stale prices are hidden after Site.Params.offerMaxAgeDays. */}}
+{{ $offers := .Params.offers }}
+{{ $maxAgeDays := .Site.Params.offerMaxAgeDays | default 7 }}
+{{ $maxAgeSeconds := mul $maxAgeDays 86400 }}
+{{ $nowUnix := now.Unix }}
 
-{{ $matched := slice }}
-{{ range $programName, $program := $programs }}
-  {{ $productMatch := false }}
-  {{ range $program.products }}
-    {{ if or (in $productSku .) (in (lower $.Title) .) }}
-      {{ $productMatch = true }}
-    {{ end }}
-  {{ end }}
-  {{ if $productMatch }}
-    {{ $matched = $matched | append $programName }}
-  {{ end }}
-{{ end }}
+{{ if gt (len $offers) 0 }}
+<div class="offer-comparison-block">
+  <h3>Compare Retailer Offers</h3>
+  <p class="offer-comparison-intro">Retailer links and prices appear here only after Venus has a real affiliate URL and a verified price check.</p>
+  <p class="affiliate-disclosure-banner affiliate-disclosure-inline">
+    Venus Reviews is reader-supported. We may earn a commission if you buy through retailer links, at no extra cost to you. Our recommendations are editorially independent.
+    <a href="/affiliate-disclosure/">Full affiliate disclosure</a>.
+  </p>
 
-{{ if gt (len $matched) 0 }}
-<div class="comparison-block bg-gray-50 border border-gray-200 rounded-xl p-6 my-8">
-  <h3 class="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
-    <span class="text-xl">🏪</span> Compare Prices & Availability
-  </h3>
-  <p class="text-sm text-gray-600 mb-4">Check availability across multiple retailers. Links will be activated once affiliate partnerships are approved.</p>
-
-  <div class="overflow-x-auto">
-    <table class="min-w-full text-sm">
-      <thead class="bg-gray-100">
+  <div class="offer-table-wrap">
+    <table class="offer-table">
+      <thead>
         <tr>
-          <th class="px-4 py-3 text-left font-semibold text-gray-700">Retailer</th>
-          <th class="px-4 py-3 text-left font-semibold text-gray-700">Price</th>
-          <th class="px-4 py-3 text-left font-semibold text-gray-700">Status</th>
-          <th class="px-4 py-3 text-left font-semibold text-gray-700">Action</th>
+          <th>Retailer</th>
+          <th>Price</th>
+          <th>Status</th>
+          <th>Action</th>
         </tr>
       </thead>
       <tbody>
-        {{ range $programName := $matched }}
-        {{ $program := index $programs $programName }}
-        <tr class="border-b border-gray-100 hover:bg-gray-50 transition-colors">
-          <td class="px-4 py-3">
-            <span class="font-medium text-gray-800">{{ title $programName }}</span>
-            {{ if $program.regions }}
-            <span class="text-xs text-gray-500 block">{{ delimit $program.regions ", " }}</span>
+        {{ range $offer := $offers }}
+        {{ $url := trim ($offer.url | default "") " " }}
+        {{ $hasUrl := ne $url "" }}
+        {{ $checkedLabel := "" }}
+        {{ $isFresh := false }}
+        {{ with $offer.checked }}
+          {{ $checkedTime := time.AsTime . }}
+          {{ $checkedLabel = dateFormat "2 Jan 2006" $checkedTime }}
+          {{ $isFresh = le (sub $nowUnix $checkedTime.Unix) $maxAgeSeconds }}
+        {{ end }}
+        {{ $currency := $offer.currency | default "EUR" }}
+        {{ $symbol := "" }}
+        {{ if eq $currency "EUR" }}{{ $symbol = "€" }}{{ else if eq $currency "USD" }}{{ $symbol = "$" }}{{ else }}{{ $symbol = printf "%s " $currency }}{{ end }}
+        <tr>
+          <td>
+            <strong>{{ $offer.retailer }}</strong>
+          </td>
+          <td>
+            {{ if and $offer.price $offer.checked $isFresh }}
+              <span class="offer-price">{{ $symbol }}{{ printf "%.2f" (float $offer.price) }}</span>
+              <span class="offer-checked">checked {{ $checkedLabel }}</span>
+            {{ else if and $offer.price $offer.checked }}
+              <span class="offer-muted">Price hidden</span>
+              <span class="offer-checked">last checked {{ $checkedLabel }}; older than {{ $maxAgeDays }} days</span>
+            {{ else if $offer.price }}
+              <span class="offer-muted">Price hidden until a checked date is added</span>
+            {{ else }}
+              <span class="offer-muted">Price not available</span>
             {{ end }}
           </td>
-          <td class="px-4 py-3 text-gray-600">
-            {{ if $.Params.price }}${{ $.Params.price }}{{ else }}<span class="text-gray-400">Price varies</span>{{ end }}
-          </td>
-          <td class="px-4 py-3">
-            {{ $trackingPrefix := index $config.trackingPrefixes $programName }}
-            {{ if and $trackingPrefix (not (hasPrefix $trackingPrefix "AFFILIATE_ID_")) }}
-              <span class="inline-flex items-center px-2 py-1 rounded bg-green-100 text-green-700 text-xs font-medium">
-                <span class="w-2 h-2 rounded-full bg-green-500 mr-2"></span>
-                Active
-              </span>
+          <td>
+            {{ if and $hasUrl $offer.available }}
+              <span class="offer-status offer-status-active">Available</span>
+            {{ else if $hasUrl }}
+              <span class="offer-status offer-status-disabled">Unavailable</span>
             {{ else }}
-              <span class="inline-flex items-center px-2 py-1 rounded bg-yellow-100 text-yellow-700 text-xs font-medium" title="Affiliate partnership pending approval">
-                <span class="w-2 h-2 rounded-full bg-yellow-500 mr-2"></span>
-                Coming soon
-              </span>
+              <span class="offer-status offer-status-disabled">Affiliate link pending</span>
             {{ end }}
           </td>
-          <td class="px-4 py-3">
-            {{ $trackingPrefix := index $config.trackingPrefixes $programName }}
-            {{ if and $trackingPrefix (not (hasPrefix $trackingPrefix "AFFILIATE_ID_")) }}
-              <a href="{{ $program.baseUrl }}{{ $program.trackingParam }}"
-                 target="_blank"
-                 rel="noopener noreferrer sponsored"
-                 class="inline-block bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition-colors text-sm font-medium">
-                Check Price
-              </a>
+          <td>
+            {{ if and $hasUrl $offer.available }}
+              <a href="{{ $url }}" target="_blank" rel="noopener noreferrer sponsored" class="offer-action">Visit Retailer</a>
+            {{ else if $hasUrl }}
+              <span class="offer-action-disabled">Unavailable</span>
             {{ else }}
-              <span class="inline-block bg-gray-200 text-gray-500 px-4 py-2 rounded-lg text-sm font-medium cursor-not-allowed" title="Link will be available once affiliate partnership is approved">
-                Coming soon
-              </span>
+              <span class="offer-action-disabled">Coming soon</span>
             {{ end }}
           </td>
         </tr>
@@ -84,8 +80,6 @@
     </table>
   </div>
 
-  <div class="mt-4 text-xs text-gray-500">
-    <p>Affiliate disclosure: As an Amazon Associate and partner with other retailers, we earn from qualifying purchases. This does not affect our independent reviews.</p>
-  </div>
+  <p class="offer-integrity-note">Static prices are never shown without a checked date. Prices older than {{ $maxAgeDays }} days are hidden automatically.</p>
 </div>
 {{ end }}

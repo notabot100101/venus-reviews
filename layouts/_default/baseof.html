@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="/css/hero-overlay.css">
   <link rel="stylesheet" href="/css/site-polish.css?v=20260723-product-pages">
   <link rel="stylesheet" href="/css/testimonials-section.css?v=20260723-dark-panels">
+  <link rel="stylesheet" href="/css/conversion-optimized.css?v=20260727">
   
   <meta name='impact-site-verification' value='2e3f574f-69bd-45e4-8e7f-ea8a050e73bf'>
 </head>
@@ -28,6 +29,8 @@
       <li><a href="/">Home</a></li>
       <li><a href="/products/">Reviews</a></li>
       <li><a href="/guides/">Buying Guides</a></li>
+      <li><a href="/how-we-test/">How We Evaluate</a></li>
+      <li><a href="/methodology/">Methodology</a></li>
       <li><a href="/best-for/">Best For</a></li>
       <li><a href="/about/">About</a></li>
     </ul>
@@ -53,6 +56,8 @@
         <h3>Quick Links</h3>
         <a href="/products/">Product Reviews</a>
         <a href="/guides/">Buying Guides</a>
+        <a href="/how-we-test/">How We Evaluate</a>
+        <a href="/methodology/">Scoring Methodology</a>
         <a href="/best-for/">Best For</a>
         <a href="/about/">About Us</a>
       </div>
@@ -81,6 +86,33 @@
     </div>
   </div>
 </footer>
+
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best overall pick on Venus Reviews?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Venus Reviews highlights the best overall pick based on fit, materials, privacy, cleaning, value, and support details."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How should I compare products?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with intended use, noise, materials, cleaning effort, warranty, and price before comparing advanced features."
+      }
+    }
+  ]
+}
+</script>
+{{ end }}
 
 </body>
 </html>
