@@ -71,6 +71,12 @@ mkdir -p "$BACKUP"
 git rev-parse HEAD > "$BACKUP/RESTORE-FROM-COMMIT.txt"
 git diff > "$BACKUP/uncommitted-tracked.patch" 2>/dev/null || true
 git status --porcelain > "$BACKUP/status-before.txt"
+# UNTRACKED files are NOT in git and are destroyed by the `rm -rf` below. On
+# 2026-07-30 this exact gap wiped 19 untracked Pixel images (recovered only because
+# Sentinel's nightly backup happened to hold them). Copy them out explicitly.
+git ls-files --others --exclude-standard -z \
+  | tar --null -T - -czf "$BACKUP/untracked-files.tar.gz" 2>/dev/null || true
+echo "  untracked files saved: $(git ls-files --others --exclude-standard | wc -l)"
 echo "Backup (git-based): $BACKUP"
 echo "  restore tracked files: git -C $REPO checkout $(git rev-parse --short HEAD) -- ." 
 
