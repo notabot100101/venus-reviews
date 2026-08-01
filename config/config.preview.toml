@@ -1,0 +1,47 @@
+# Preview Environment Configuration
+baseURL = 'https://preview.reviews.ultramarine963.com/'
+title = 'Venus Preview'
+
+[params]
+  author = 'Venus Team'
+  description = 'Preview environment for Pull Request branches'
+  keywords = ['reviews', 'premium', 'products', 'expert', 'discreet', 'preview', 'pr']
+  mainFont = 'Inter'
+  accentColor = '#6366f1'
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menu.main]]
+    identifier = 'products'
+    name = 'Reviews'
+    pageRef = '/products/'
+    weight = 20
+
+  [[menu.main]]
+    identifier = 'guides'
+    name = 'Guides'
+    pageRef = '/guides/'
+    weight = 30
+
+  [[menu.main]]
+    identifier = 'best-for'
+    name = 'Best For'
+    pageRef = '/best-for/'
+    weight = 40
+
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About'
+    pageRef = '/about/'
+    weight = 50
+
+  [[menu.main]]
+    identifier = 'contact'
+    name = 'Contact'
+    pageRef = '/contact/'
+    weight = 60

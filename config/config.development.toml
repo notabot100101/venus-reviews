@@ -1,0 +1,201 @@
+baseURL = 'https://reviews.ultramarine963.com/'
+title = 'Venus Reviews'
+
+# Theme configuration
+[params]
+  author = 'Venus Reviews Team'
+  description = 'Independent, discreet, and transparent reviews of premium pleasure products from US-based experts'
+  keywords = ['reviews', 'premium', 'products', 'expert', 'discreet']
+  license = 'none'
+  canonical = false
+
+  # Design settings
+  mainFont = 'Inter'
+  fontDisplay = ['Inter', 'Merriweather', 'Georgia']
+  accentColor = '#6366f1'
+  bgColor = '#ffffff'
+  altBgColor = '#f8fafc'
+
+  # Hero settings
+  hero = true
+  heroBg = 'gradient-to-br from-indigo-50 via-purple-50 to-pink-50'
+  heroImage = 'images/hero-placeholder.png'
+
+  # Navigation - matches live site structure
+  navItems = ['Home', 'Reviews', 'Guides', 'Best For', 'About']
+
+  # Meta
+  favicon = 'images/favicon.ico'
+  rss = false
+  rssLimit = 10
+
+[params.links.github]
+  repo = ''
+
+[params.links.twitter]
+  user = ''
+
+[params.links.instagram]
+  user = ''
+
+[params.links.facebook]
+  page = ''
+
+[params.links.youtube]
+  channel = ''
+
+[params.links.reddit]
+  username = ''
+
+[params.links.telegram]
+  username = ''
+
+[params.links.github-repo]
+  repo = ''
+
+[params.links.slack]
+  username = ''
+
+[params.links.discord]
+  username = ''
+
+[params.links.whatsapp]
+  username = ''
+
+[params.links.medium]
+  username = ''
+
+[params.links.itchio]
+  user = ''
+
+[params.links.patreon]
+  username = ''
+
+[params.links.linkedin]
+  username = ''
+
+[params.links.mastodon]
+  username = ''
+
+[params.links.pinterest]
+  username = ''
+
+[params.links.dribbble]
+  username = ''
+
+[params.links.soundcloud]
+  username = ''
+
+[params.links.bandcamp]
+  username = ''
+
+[params.links.kickstarter]
+  username = ''
+
+[params.links.buymeacoffee]
+  username = ''
+
+[params.links.unsplash]
+  username = ''
+
+[params.links.sourcegraph]
+  username = ''
+
+[params.links.codepen]
+  username = ''
+
+[params.links.behance]
+  username = ''
+
+[params.links.huggingface]
+  username = ''
+
+[params.links.twitch]
+  username = ''
+
+[params.links.xda]
+  username = ''
+
+[markup.goldmark]
+  defaultMarkdownHandler = []
+  [markup.goldmark.extensions]
+    table = true
+    tableAlign = ['left', 'center', 'right']
+    link = true
+    linkTitle = true
+    strikethrough = true
+    tagfilter = true
+    typographer = true
+    lint = true
+  [markup.goldmark.parser]
+    anchorize = true
+  [markup.goldmark.renderer]
+    hardWraps = false
+    infoStyle = 'code'
+    highlightCode = true
+    unsafe = true
+
+[markup.highlight]
+  style = 'github-dark-default'
+  noHighlight = ['bash', 'shell', 'makefile', 'toml']
+
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 4
+
+# [module]
+#   [[module.imports]]
+#     path = 'vendor'
+
+[blackfriday]
+  plainlinks = true
+  renderedPI = true
+  anchors = true
+  hrefTargetBlank = true
+  sections = true
+  fragPrefix = 'id_'
+
+# Taxonomies
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+  series = 'series'
+  author = 'authors'
+
+# Menu configuration - matches live site structure
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menu.main]]
+    identifier = 'products'
+    name = 'Reviews'
+    pageRef = '/products/'
+    weight = 20
+
+  [[menu.main]]
+    identifier = 'guides'
+    name = 'Guides'
+    pageRef = '/guides/'
+    weight = 30
+
+  [[menu.main]]
+    identifier = 'best-for'
+    name = 'Best For'
+    pageRef = '/best-for/'
+    weight = 40
+
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About'
+    pageRef = '/about/'
+    weight = 50
+
+  [[menu.main]]
+    identifier = 'contact'
+    name = 'Contact'
+    pageRef = '/contact/'
+    weight = 60
