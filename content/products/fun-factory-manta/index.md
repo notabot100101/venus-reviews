@@ -1,5 +1,6 @@
 ---
 title: "Fun Factory Manta"
+image: "/images/placeholders/ambient-03.png"
 description: "Flexible external stimulator with a distinctive wraparound shape and strong material quality."
 sku: "fun-factory-manta"
 draft: true

@@ -14,7 +14,7 @@ noise: "Low noise"
 card_excerpt: "Best when you want a premium, quiet-feeling dual-stimulation design and are comfortable paying for a refined motor and finish."
 trust_note: "Luxury silicone build, discreet shipping context, and clear cleaning expectations make it easier to compare against lower-cost alternatives."
 support_note: "Check retailer warranty and return windows before purchase; premium electronics are worth buying from a traceable seller."
-image: "/images/products/lelo-enigma/front.jpg"
+image: "/images/placeholders/ambient-01.png"
 offers:
   - retailer: "Amazon"
     url: ""

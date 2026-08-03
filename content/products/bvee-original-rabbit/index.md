@@ -1,7 +1,7 @@
 ---
 draft: true
 title: "Bvee Original Rabbit"
-image: "/images/products/bvee-original-rabbit/front.png"
+image: "/images/placeholders/ambient-01.png"
 price: "119.99"
 rating: 4.6
 category: "dual-action"

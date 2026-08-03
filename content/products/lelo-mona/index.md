@@ -1,6 +1,7 @@
 ---
 draft: true
 title: "Lelo Mona"
+image: "/images/placeholders/ambient-02.png"
 price: "399.00"
 rating: 4.6
 category: "premium-feel"

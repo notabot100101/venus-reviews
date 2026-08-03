@@ -1,12 +1,7 @@
 ---
 draft: true
 title: "Womanizer 2 Original"
-image: "/images/products/womanizer-2-original/front.png"
-images:
-  - "/images/products/womanizer-2-original/front.png"
-  - "/images/products/womanizer-2-original/lifestyle.jpg"
-  - "/images/products/womanizer-2-original/packaging.jpg"
-  - "/images/products/womanizer-2-original/top.jpg"
+image: "/images/placeholders/ambient-01.png"
 price: "149.99"
 rating: 4.7
 category: "quiet-pick"
