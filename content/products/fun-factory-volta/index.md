@@ -2,7 +2,7 @@
 title: "Fun Factory Volta"
 description: "Twin-tip stimulator for precise external contact and a more exploratory feel."
 sku: "fun-factory-volta"
-menu: "main"
+draft: true
 recoveryVersion: "2026.07.09-Phase1"
 weight: 90
 badge: "Precision Pick"

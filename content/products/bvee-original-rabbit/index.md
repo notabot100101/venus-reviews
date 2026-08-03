@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Bvee Original Rabbit"
 image: "/images/products/bvee-original-rabbit/front.png"
 price: "119.99"

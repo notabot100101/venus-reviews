@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Lelo Mona"
 price: "399.00"
 rating: 4.6

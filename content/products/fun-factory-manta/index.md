@@ -2,7 +2,7 @@
 title: "Fun Factory Manta"
 description: "Flexible external stimulator with a distinctive wraparound shape and strong material quality."
 sku: "fun-factory-manta"
-menu: "main"
+draft: true
 recoveryVersion: "2026.07.09-Phase1"
 weight: 80
 badge: "Flexible Shape"
