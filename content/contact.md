@@ -12,9 +12,9 @@ Have a question about a product? Need buying advice? Want to suggest a review? W
 
 Fill out the form below and we'll get back to you within 24-48 hours.
 
-<!-- FORMSPREE CONFIG: Replace FORMSPREE_ENDPOINT_PLACEHOLDER with your Formspree URL -->
+<!-- FORMSPREE CONFIG: Endpoint configured 2026-08-03 -->
 <!-- Format: https://formspree.io/f/XXXXXXXX -->
-<form id="contact-form" class="venus-contact-form" action="FORMSPREE_ENDPOINT_PLACEHOLDER" method="POST">
+<form id="contact-form" class="venus-contact-form" action="https://formspree.io/f/xpqgkwaj" method="POST">
 <!-- Formspree honeypot field for spam protection -->
 <input type="text" name="_gotcha" style="display:none">
 <!-- Redirect after submission (optional - update when endpoint is live) -->
@@ -193,13 +193,7 @@ color: #c62828;
 var form = document.getElementById('contact-form');
 var status = document.getElementById('form-status');
 var endpoint = form.getAttribute('action');
-if (endpoint === 'FORMSPREE_ENDPOINT_PLACEHOLDER') {
-form.addEventListener('submit', function(e) {
-e.preventDefault();
-status.style.display = 'block';
-status.className = 'form-status error';
-status.textContent = '⚠️ Form temporarily unavailable. Please use the email links below while we finalize the contact system.';
-});
-}
+// Form endpoint configured: https://formspree.io/f/xpqgkwaj
+// Formspree will handle submission; optional: add success/error handlers here
 })();
 </script>
