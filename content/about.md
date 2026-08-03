@@ -1,6 +1,6 @@
 ---
 title: "About Venus Reviews"
-description: "Our mission is to provide honest, unbiased reviews of premium pleasure products with discreet US shipping."
+description: "Our mission is to provide honest, practical reviews of premium pleasure products with clear privacy, shipping, and retailer notes."
 menu: "main"
 weight: 30
 date: 2026-07-17
@@ -27,9 +27,9 @@ We write for people who want a private, practical answer before they buy: what f
 
 **Practical Guidance**: Our reviews focus on what matters for your decision: who a product suits, where it may not fit, and what to check before ordering.
 
-**Discretion Matters**: We understand privacy is paramount. That's why we offer discreet US shipping on all orders and never share your information.
+**Discretion Matters**: We understand privacy is paramount. We compare retailer shipping and billing claims so readers know what to verify before ordering.
 
-**Independent Voices**: We're a community-driven review site with zero conflicts of interest. Our affiliate relationships never influence ratings or recommendations.
+**Independent Voices**: We're a community-driven review site. Potential affiliate relationships never influence ratings or recommendations.
 
 ## How We Review
 
@@ -103,7 +103,7 @@ With over a dozen in-depth product reviews and comprehensive buying guides, we c
 
 ## Affiliate Disclosure
 
-Venus Reviews participates in affiliate programs. This means we may earn a commission when you purchase through our links — at no extra cost to you. Our reviews remain independent; affiliate relationships never influence our ratings or recommendations.
+Venus Reviews may use approved affiliate links after a retailer or affiliate network accepts the site. Until then, offer buttons stay disabled or point only to internal reviews, and we do not claim an active partnership. Our reviews remain independent; potential affiliate relationships never influence ratings or recommendations.
 
 ## Contact Us
 

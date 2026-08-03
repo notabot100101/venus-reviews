@@ -29,7 +29,7 @@ A: Yes, but our reviews remain independent. We disclose when products are provid
 A: Absolutely! Email us your suggestion and we'll consider it for our review queue.
 
 **Q: How do I know your reviews are unbiased?**  
-A: We purchase most products ourselves. Affiliate commissions never influence our ratings — read our [Affiliate Disclosure](/affiliate-disclosure/).
+A: Reviews are based on documented product information, retailer policies, and published buyer feedback. Potential affiliate commissions never influence our ratings — read our [Affiliate Disclosure](/affiliate-disclosure/).
 
 ---
 
