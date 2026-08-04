@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Lelo Mona"
 image: "/images/placeholders/ambient-02.png"
 price: "399.00"

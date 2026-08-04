@@ -2,7 +2,7 @@
 title: "Lelo Enigma"
 description: "Premium pleasure device with advanced sonic and G-spot technology"
 sku: "lelo-enigma"
-draft: true
+draft: false
 recoveryVersion: "2026.07.09-Phase0"
 weight: 40
 badge: "Advanced Pick"

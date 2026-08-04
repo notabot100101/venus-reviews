@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Womanizer 2 Original"
 image: "/images/placeholders/ambient-01.png"
 price: "149.99"

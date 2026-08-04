@@ -2,7 +2,7 @@
 title: "Dame Eva II"
 description: "Sleek, powerful personal massager with whisper-quiet performance"
 sku: "dame-eva-ii"
-draft: true
+draft: false
 recoveryVersion: "2026.07.09-Phase0"
 weight: 50
 badge: "Compact Pick"

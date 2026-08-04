@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Bvee Original Rabbit"
 image: "/images/placeholders/ambient-01.png"
 price: "119.99"

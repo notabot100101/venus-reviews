@@ -3,7 +3,7 @@ title: "We Vibe Sync"
 image: "/images/placeholders/ambient-04.png"
 description: "Adjustable couples vibrator with flexible fit, app control, and travel-friendly charging."
 sku: "we-vibe-sync"
-draft: true
+draft: false
 recoveryVersion: "2026.07.09-Phase1"
 weight: 70
 badge: "Adjustable Fit"

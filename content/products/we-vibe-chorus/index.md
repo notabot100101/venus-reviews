@@ -2,7 +2,7 @@
 title: "We Vibe Chorus"
 description: "Synchronized dual-action stimulator for couples"
 sku: "we-vibe-chorus"
-draft: true
+draft: false
 recoveryVersion: "2026.07.09-Phase0"
 weight: 60
 badge: "Couples Pick"
