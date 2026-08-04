@@ -1,44 +1,29 @@
 ---
 title: "Shipping & Delivery"
-description: "Discreet shipping information for Venus Reviews orders."
+description: "How shipping, delivery, returns, and order support work when readers buy through retailer links."
 menu: "footer"
 ---
 
-## Discreet Shipping Guarantee
+## How Shipping Works
 
-**Your privacy is our priority.** Every order ships in plain, unmarked packaging with no indication of contents or sender.
+Venus Reviews is an editorial review and buying-guide site. We do not sell products, process payments, pack orders, ship packages, manage customer accounts, or handle returns.
 
-### What's on the Package?
+When you choose a product, any purchase happens on the retailer's own website. That retailer sets the shipping cost, delivery speed, packaging policy, tracking process, customs handling, return rules, warranty support, and customer-service route.
 
-- **Return Address**: Generic business name, no "Venus Reviews" branding
-- **Exterior**: Plain brown box or padded envelope
-- **Label**: Standard shipping label with your address only
-- **No Logos**: No product images, brand names, or descriptive text
+## Before You Buy
 
-### Shipping Options
+Before placing an order, check the retailer's current policy pages and checkout details for:
 
-| Method | Timeframe | Cost |
-|--------|-----------|------|
-| Standard US | 5-7 business days | FREE |
-| Expedited US | 2-3 business days | $9.99 |
-| Express US | 1-2 business days | $19.99 |
+- Shipping costs and delivery estimates for your location
+- Whether discreet packaging and discreet billing are offered
+- Tracking availability and carrier information
+- Customs, duties, import limits, or restricted destinations
+- Return eligibility, hygiene exclusions, warranty terms, and support contacts
 
-### International Shipping
+## Order Questions
 
-Select international destinations available. Customs fees and duties are the responsibility of the recipient.
+For questions about an existing order, payment, shipment, delivery issue, return, refund, or warranty claim, contact the retailer you bought from through its official support channel. Venus Reviews cannot look up, change, refund, or troubleshoot retailer orders.
 
-### Order Tracking
+For editorial questions, product suggestions, or corrections to a review, use our [contact page](/contact/).
 
-All orders include tracking information sent to your email upon shipment.
-
-### Packaging Inside
-
-Products are wrapped in plain tissue or bubble wrap. Any product packaging is the manufacturer's original — we do not open or repackage items.
-
-### Returns
-
-Due to the intimate nature of products, returns are accepted only for unopened items within 30 days. Contact support for return authorization.
-
----
-
-*Questions about shipping? Contact [support@reviews.ultramarine963.com](mailto:support@reviews.ultramarine963.com).*
+Retailer policies can change, so treat the retailer's own checkout and policy pages as the source of truth before you buy.
