@@ -1,246 +1,199 @@
-# Venus Affiliate Program — Unified Action Plan
-
-**Date:** 2026-08-03  
-**Status:** Framework ready, awaiting applications  
-**Document Purpose:** Complete, actionable affiliate implementation guide for Venus Reviews
+# Venus Unified Affiliate Plan
+**Date:** 2026-08-04 · **Status:** ready for Paul's action · **Reconciles:** AFFILIATE-RESEARCH.md (Jul 30) + VENUS-IMAGERY-AND-GROWTH-PLAN-20260803.md
 
 ---
 
-## 1. Executive Summary
+## 1. TL;DR for Paul
 
-### Current State
-- **Framework:** Technical implementation complete (Hugo partials + config)
-- **Disclosure:** FTC-compliant affiliate disclosure page already exists
-- **Links:** All affiliate links currently **DISABLED** (placeholders only)
-- **Priority:** Smaller/direct brand partners first, **Amazon LAST**
+**No links are live yet.** Every affiliate button on Venus is a placeholder (`url: ""`, `available: false`). To go live you must:
+1. Apply to each programme → get approved → receive a tracking ID.
+2. Drop that ID into `affiliate-config.json` + the product's `offers[].url`.
+3. Run `./deploy.sh` to rebuild and push.
 
-### Lovehoney Status — DECLINED ⚠️
-- **Rejection Date:** 2026-07-29
-- **Action:** Do NOT reapply immediately; wait for traffic/content growth
-- **Note:** Revisit in 2-3 months with improved metrics
-
-### Technical Framework (Already Built)
-| Component | Status | Location |
-|-----------|--------|----------|
-| Price comparison partial | ✅ Ready | `layouts/partials/comparison-block.html` |
-| Best offer display | ✅ Ready | `layouts/partials/best-offer-display.html` |
-| Affiliate config | ✅ Ready | `affiliate-config.json` |
-| FTC disclosure | ✅ Ready | `/affiliate-disclosure/index.html` |
-| Product offers array | ✅ Ready | Each product's front matter |
-
-### How Links Work
-Links render ONLY when both conditions are true:
-1. `url` field is non-empty in product front matter
-2. `available: true` flag is set
+**If a dashboard already shows `reviews.ultramarine963.com`** — that only means the site URL is registered in that network/account. It does **not** mean the programme is approved or that links are active. You still need to:
+- Complete the merchant-specific application inside that network.
+- Wait for merchant approval.
+- Grab the real tracking link/ID from the dashboard.
+- Insert it into the config and redeploy.
 
 ---
 
-## 2. Per-Partner Application Table
+## 2. Per-Partner Rollout Table (smaller partners first, Amazon LAST)
 
-Apply in this exact order (smaller partners first):
+| # | Partner | Network | Commission | Sign-up URL | Dashboard / Login | Approval Status | Next Action |
+|---|---------|---------|------------|-------------|-------------------|-----------------|-------------|
+| 1 | **LELO** | Direct (HasOffers) + alternates | **5–20%** (web-verified 2026-08-04) | <http://lip.hasoffers.com/signup> | <https://lip.hasoffers.com/> | Candidate — not applied | **Apply first.** Also provides affiliate product images → unblocks lelo-enigma, lelo-mona, hugo, sona-2 imagery. |
+| 2 | **Womanizer** | Impact | **Up to 22%** | [verify] Search "Womanizer" inside Impact after creating account | <https://app.impact.com> | Candidate — not applied | Apply via Impact. Unblocks womanizer-2-original imagery. |
+| 3 | **We-Vibe** | Impact | **Up to 22%** | [verify] Search "We-Vibe" inside Impact after creating account | <https://app.impact.com> | Candidate — not applied | Apply via Impact (same login as Womanizer). Unblocks we-vibe-chorus/sync. |
+| 4 | **SheVibe** | Impact | **10%** (web-verified) | <https://app.impact.com/campaign-promo-signup/The-Vibe-Tribe-SheVibes-Partner-Program.brand?execution=e1s1#/?viewkey=signUpPreStart> | <https://app.impact.com> | Candidate — not applied | Apply via Impact (same login as #2/#3). Broad catalog coverage. |
+| 5 | **Adam & Eve** | Pepperjam (eBay Enterprise) | **Up to 30%** (web-verified) | <https://www.pepperjamnetwork.com/affiliate/registration.php?refid=107783> | <http://www.pepperjamnetwork.com/> | Candidate — not applied | Apply via Pepperjam. US-only. Highest commission. |
+| 6 | **Bellesa / BBoutique** | Awin | unstated | <https://ui.awin.com/merchant-profile/15527> | <https://ui.awin.com> | Candidate — not applied | Optional / lower priority. |
+| — | **Lovehoney** | — | — | — | — | **DECLINED 2026-07-29** | Do not apply now. Reapply once traffic/content grows. |
+| 7 | **Amazon Associates** | Amazon | 1–3% | <https://affiliate-program.amazon.com/welcome> | <https://affiliate-program.amazon.com/> | Needs Paul's login + policy review | **LAST.** High policy risk — Amazon excludes "sexually explicit" sites. Only consider for non-adult accessories (chargers, cases, cleaners) after other programmes are live. |
 
-| Priority | Name | Network | Commission | Signup URL | Dashboard URL | Approval Status | Next Action |
-|----------|------|---------|------------|------------|---------------|-----------------|-------------|
-| 1 | **LELO** | Direct/HasOffers | 5–20% | [lip.hasoffers.com/signup](http://lip.hasoffers.com/signup) | HasOffers dashboard after signup | 🟡 Candidate — Not yet applied | **Apply first** — provides product images |
-| 2 | **Womanizer** | Impact | Up to 22% | [Impact signup](https://app.impact.com/campaign-promo-signup/Womanizer-North-America.brand) | app.impact.com after approval | 🟡 Candidate — Not yet applied | Apply after LELO |
-| 3 | **We-Vibe** | Impact | Up to 22% | [Impact signup](https://app.impact.com/campaign-promo-signup/We-Vibe-Europe.brand) | app.impact.com after approval | 🟡 Candidate — Not yet applied | Apply (same network as Womanizer) |
-| 4 | **SheVibe** | Impact | 10% | [Impact signup](https://app.impact.com/campaign-promo-signup/The-Vibe-Tribe-SheVibes-Partner-Program.brand) | app.impact.com after approval | 🟡 Candidate — Not yet applied | Apply (same Impact network) |
-| 5 | **Adam & Eve** | Pepperjam | Up to 30% | [Pepperjam signup](https://www.pepperjamnetwork.com/affiliate/registration.php?refid=107783) | Pepperjam dashboard after approval | 🟡 Candidate — Not yet applied | Apply (US market focus) |
-| 6 | **Bellesa/BBoutique** | Awin | Not specified | [Awin merchant page](https://ui.awin.com/merchant-profile/15527) | Awin dashboard after approval | 🟡 Candidate — Not yet applied | Optional — apply if Awin preferred |
-| 7 | **Amazon Associates** | Amazon | 1–3% | [Amazon Associates](https://affiliate-program.amazon.com/) | affiliate-program.amazon.com | 🟡 Needs policy review | **LAST** — high policy risk |
-
-### Alternative Networks for LELO (if direct fails)
-- Rakuten LinkShare: https://cli.linksynergy.com/
-- CJ Affiliate: https://members.cj.com/
-- TimeOne: https://www.timeone.io/
-
-### Lovehoney (Declined — Reapply Later)
-| Name | Status | Note |
-|------|--------|------|
-| Lovehoney | 🔴 Declined 2026-07-29 | Wait 2-3 months, grow traffic, then reapply |
+### Network consolidation tip
+Womanizer + We-Vibe + SheVibe all live on **Impact**. Create ONE Impact account and apply to all three merchants from inside it.
 
 ---
 
-## 3. Ordered Rollout Plan
+## 3. What "Dashboard Shows reviews.ultramarine963.com" Means
 
-### Phase 1: LELO Direct (Week 1)
-- [ ] Apply at http://lip.hasoffers.com/signup
-- [ ] Use application template (see Section 6)
-- [ ] Wait for approval email (typically 3-7 days)
-- [ ] Upon approval: obtain tracking ID from dashboard
+Paul asked: *"My affiliate-program dashboards show `reviews.ultramarine963.com` registered — is this correct, how do I proceed?"*
 
-### Phase 2: Impact Network Trio (Week 1-2)
-Apply to all three (same network = single dashboard):
-- [ ] Womanizer via Impact
-- [ ] We-Vibe via Impact  
-- [ ] SheVibe via Impact
-
-### Phase 3: Adam & Eve (Week 2-3)
-- [ ] Apply via Pepperjam
-- [ ] Note: US-market focus, highest commission (up to 30%)
-
-### Phase 4: Optional/Additional (Week 3-4)
-- [ ] Bellesa via Awin (if desired)
-- [ ] Research Spectrum Boutique (pending)
-
-### Phase 5: Amazon LAST (Week 6-8, if at all)
-- [ ] Review Amazon's "Unsuitable Sites" policy thoroughly
-- [ ] Adult content policy risk — may reject adult toy review sites
-- [ ] Consider only for non-adult accessories if approved
-- [ ] **Only apply after other programs established**
+**Answer:**
+- **Yes, the domain is correct** — that is Venus's live URL.
+- **"Registered" ≠ "Approved"**. It means the network knows about the site, but each merchant (LELO, Womanizer, etc.) must still individually approve your application.
+- **Exact next steps per programme:**
+  1. Log into the network dashboard (Impact / Pepperjam / HasOffers / Awin / Amazon).
+  2. Find the merchant's application page inside that network.
+  3. Submit / complete the application if not already done.
+  4. Wait for merchant approval email.
+  5. Once approved, the dashboard will show a **tracking ID** and/or **deep-link generator**.
+  6. Copy that tracking ID into `affiliate-config.json` under `trackingPrefixes.{partner}`.
+  7. Generate or construct the real product URLs and paste them into each product's front matter (`content/products/{product}/index.md`) inside the `offers[]` array.
+  8. Set `available: true` for that offer.
+  9. Rebuild + redeploy.
 
 ---
 
-## 4. Implementation Steps (Post-Approval)
+## 4. Where the IDs Go (Concrete Implementation)
 
-### Step 1: Obtain Tracking ID
-After each approval, login to the respective dashboard and locate your:
-- **Tracking ID** (sometimes called "Affiliate ID" or "Publisher ID")
-- **Base URL format** for creating product links
+### 4a. Global config: `affiliate-config.json` (root of repo)
 
-### Step 2: Update Configuration File
-Edit `affiliate-config.json` in site root:
+Replace the placeholder values under `trackingPrefixes` with real IDs as you receive them:
 
 ```json
 {
   "trackingPrefixes": {
-    "lelo": "YOUR_ACTUAL_LELO_ID",
-    "womanizer": "YOUR_ACTUAL_WOMANIZER_ID",
-    "wevibe": "YOUR_ACTUAL_WEVIBE_ID",
-    "shevibe": "YOUR_ACTUAL_SHEVIBE_ID",
-    "adameve": "YOUR_ACTUAL_ADAMEVE_ID",
-    "amazon": "YOUR_ACTUAL_AMAZON_TAG"
+    "lelo": "YOUR_LELO_TRACKING_ID",
+    "womanizer": "YOUR_IMPACT_ID",
+    "wevibe": "YOUR_IMPACT_ID",
+    "shevibe": "YOUR_IMPACT_ID",
+    "adameve": "YOUR_PEPPERJAM_ID",
+    "bellesa": "YOUR_AWIN_ID",
+    "amazon": "YOUR_AMAZON_TAG"
   }
 }
 ```
 
-Replace `AFFILIATE_ID_*` placeholders with real tracking IDs.
+Do **not** edit `data/affiliate-config.json` — that is legacy/outdated.
 
-### Step 3: Update Product Front Matter
-For each product, edit its `index.md` offers array:
+### 4b. Per-product front matter: `content/products/{product}/index.md`
+
+Example for `lelo-sona-2`:
 
 ```yaml
 offers:
   - retailer: "LELO"
-    url: "https://www.lelo.com/sona-2?aff=YOUR_LELO_ID"
+    url: "https://www.lelo.com/sona-2?aff=YOUR_LELO_TRACKING_ID"
     price: 179.99
     currency: "USD"
-    checked: "2026-08-03"
-    available: true          # ← Set to true to enable link
-  - retailer: "Amazon"
-    url: "https://amazon.com/dp/XXXX?tag=YOUR_AMAZON_TAG"
-    price: 179.99
-    currency: "USD"
-    checked: "2026-08-03"
+    checked: "2026-08-04"
     available: true
+  - retailer: "Amazon"
+    url: ""
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: false
 ```
 
-**Key fields:**
-- `url`: Full affiliate URL with tracking parameter
-- `available: true`: Enables the link button
-- `checked`: Date of price verification
+**Rules:**
+- Links render **only** when `url != ""` AND `available: true`.
+- If either is missing, the button shows "Coming soon" / "Affiliate link pending".
+- Keep `available: false` until you have a real, approved tracking URL.
 
-### Step 4: Redeploy
-After all changes:
+### 4c. Redeploy step (required)
+
+After any change to `affiliate-config.json` or product front matter:
+
 ```bash
 ./deploy.sh
 ```
 
-This rebuilds the Hugo site and syncs to hosting.
-
-### Step 5: Verify Live
-- Check product pages show affiliate buttons
-- Click-test links (use incognito to avoid cookie issues)
-- Verify disclosure banner appears
+This rebuilds the Hugo site and rsyncs it to the live host. **Links will not appear on the live site until you redeploy.**
 
 ---
 
-## 5. Dashboard Explanation
+## 5. Ordered Rollout Plan
 
-### What the Dashboard Shows You
+### Phase 1 — This Week (LELO + Impact account)
+- [ ] Apply to **LELO** direct: <http://lip.hasoffers.com/signup>
+- [ ] Create **Impact** account: <https://app.impact.com>
+- [ ] Apply to **Womanizer** inside Impact
+- [ ] Apply to **We-Vibe** inside Impact
+- [ ] Apply to **SheVibe** inside Impact
 
-After signing up for any program, you may see:
-- **Status:** "Pending Approval" or "Application Received"
-- **Site:** `reviews.ultramarine963.com` (Venus domain)
+### Phase 2 — Next 1–2 Weeks (Approval + IDs)
+- [ ] Receive approval emails + tracking IDs
+- [ ] Update `affiliate-config.json` with real IDs
+- [ ] Populate `offers[].url` + `available: true` for top 5 products
+- [ ] Run `./deploy.sh`
+- [ ] Test that buttons render and click-throughs work
 
-### What This Means
-If your dashboard shows `reviews.ultramarine963.com` as a registered site:
-1. ✅ Your site is **registered/approved** in the network
-2. 🔄 **Next steps:** Obtain your tracking ID
-3. 🔄 **Then:** Add ID to `affiliate-config.json`
-4. 🔄 **Then:** Update product URLs + `available: true`
-5. 🔄 **Then:** Run `deploy.sh` to go live
+### Phase 3 — Weeks 2–4 (Expand coverage)
+- [ ] Apply to **Adam & Eve** via Pepperjam
+- [ ] Fill affiliate links for all remaining products
+- [ ] Optional: apply to Bellesa/BBoutique via Awin
 
-### How to Find Your Tracking ID
-| Network | Where to Find Tracking ID |
-|---------|---------------------------|
-| HasOffers (LELO) | Dashboard → Account Settings → API/Tracking |
-| Impact | Dashboard → Account → Publisher ID |
-| Pepperjam | Dashboard → Account Info → PID |
-| Awin | Dashboard → Account → Publisher ID |
-| Amazon Associates | Account Settings → Tracking ID |
+### Phase 4 — Last (Amazon, only if you accept the risk)
+- [ ] Review Amazon Associates policy: <https://affiliate-program.amazon.com/help/operating/policies>
+- [ ] Decide whether adult toy review content is worth the risk
+- [ ] If yes, apply; if no, skip entirely
+- [ ] If approved, only use for accessories (chargers, cases, cleaners)
+
+### Phase 5 — Later (Lovehoney reapplication)
+- [ ] Once traffic/content has grown, reapply to Lovehoney
+- [ ] Previous decline was 2026-07-29 — wait for stronger metrics before reapplying
 
 ---
 
-## 6. Application Template
+## 6. Application Quick-Start Answers
 
-Use these answers when applying to affiliate programs:
+Use these answers when applying:
 
-| Field | Suggested Answer |
+| Field | Suggested answer |
 |-------|------------------|
-| **Website URL** | https://reviews.ultramarine963.com/ |
-| **Site Type** | Independent sexual wellness review and buying-guide site for adults |
+| **Website URL** | `https://reviews.ultramarine963.com/` |
+| **Site type** | Independent sexual wellness review and buying-guide site for adults |
 | **Audience** | Adults comparing premium pleasure products with privacy, materials, noise, cleaning, and warranty context |
-| **Promotion Methods** | SEO articles, product reviews, comparison pages, buying guides. No paid search bidding on brand terms. |
-| **Why This Merchant** | Venus publishes product-specific reviews with privacy-first editorial style and clear affiliate disclosure |
-| **Content Quality** | Original review copy and buying guides; no scraped retailer copy, no copied Amazon reviews, no misleading partnership claims |
-| **Compliance Statement** | Venus uses only approved links, discloses affiliate compensation clearly, follows network terms |
+| **Promotion methods** | SEO articles, product reviews, comparison pages, buying guides. No paid search bidding on brand terms. |
+| **Why this merchant** | Venus already publishes product-specific reviews with privacy-first editorial style and clear affiliate disclosure |
+| **Content quality** | Original review copy and buying guides; no scraped retailer copy, no copied Amazon reviews, no misleading partnership claims |
+| **Compliance** | Venus uses only approved links, discloses affiliate compensation clearly, follows network terms |
 
 ---
 
 ## 7. Risk Summary
 
-| Program | Risk Level | Notes |
-|---------|------------|-------|
-| Amazon Associates | 🔴 HIGH | "Unsuitable Sites" policy excludes adult content; apply LAST only |
-| Lovehoney | 🟡 MEDIUM | Already declined once; reapply later with more traffic |
-| All others | 🟢 LOW | Adult-native programs, well-established, no policy conflicts |
+| Risk | Level | Mitigation |
+|------|-------|------------|
+| Amazon Associates rejection/termination | **HIGH** | Apply last; only for non-adult accessories; have backups live first |
+| Lovehoney re-decline | MEDIUM | Wait for more traffic/content before reapplying |
+| Impact network (3 merchants) | LOW | Single dashboard makes management easy |
+| Commission rate drops | LOW | Adult affiliate rates are stable (5–30%) |
 
 ---
 
-## 8. Key Files Reference
+## 8. Files You Need to Touch
 
-| File | Purpose |
-|------|---------|
-| `affiliate-config.json` | Master affiliate registry + tracking IDs |
-| `layouts/partials/comparison-block.html` | Price comparison table template |
-| `layouts/partials/best-offer-display.html` | Best price display template |
-| `content/products/*/index.md` | Product pages with offers array |
-| `/affiliate-disclosure/index.html` | FTC disclosure page |
+| File | What to do |
+|------|------------|
+| `affiliate-config.json` | Replace `AFFILIATE_ID_*` placeholders with real tracking IDs |
+| `content/products/*/index.md` | Fill `offers[].url` and set `available: true` per approved partner |
+| `./deploy.sh` | Run after any change to make links live |
 
 ---
 
-## 9. Quick Checklist for Paul
+## 9. Evidence & Sources
 
-### Immediate (This Week)
-- [ ] Apply to LELO: http://lip.hasoffers.com/signup
-- [ ] Apply to Womanizer via Impact
-- [ ] Apply to We-Vibe via Impact
-
-### Short-term (Next 2 Weeks)
-- [ ] Receive approvals and tracking IDs
-- [ ] Update `affiliate-config.json`
-- [ ] Implement links on top 5 products
-- [ ] Run `deploy.sh` and verify
-
-### Medium-term (Next Month)
-- [ ] Apply to Adam & Eve (Pepperjam)
-- [ ] Apply to SheVibe (Impact)
-- [ ] Full product catalog coverage
-- [ ] Consider Amazon (policy review first)
+- LELO affiliate terms: web-verified 2026-08-04 at <https://www.lelo.com/affiliates> — 5–20% commission, banners/images provided.
+- SheVibe affiliate terms: web-verified 2026-08-04 at <https://shevibe.com/pages/affiliate-program> — 10% commission, Impact platform.
+- Adam & Eve affiliate terms: web-verified 2026-08-04 at <https://www.adameve.com/t-affiliate.aspx> — up to 30% commission, Pepperjam platform.
+- Womanizer / We-Vibe: existing research (AFFILIATE-RESEARCH.md, Jul 30) cites Impact, up to 22%; exact deep links inside Impact change — search merchant name after account creation.
+- Lovehoney decline: Paul-forwarded rejection email dated 2026-07-29.
+- Technical framework: Hugo `offers` array + `affiliate-config.json` + FTC-compliant disclosure page — already implemented, only data entry remains.
 
 ---
 
-*Document consolidated from: AFFILIATE-RESEARCH.md, VENUS-IMAGERY-AND-GROWTH-PLAN-20260803.md, affiliate-config.json*  
-*Priority order verified: LELO → Womanizer → We-Vibe → SheVibe → Adam & Eve → Bellesa → Amazon LAST*  
-*Lovehoney: DECLINED 2026-07-29 — reapply later*
+*Plan built by consolidating existing research. Do not overwrite this file without reading it first — it is the single source of truth for Venus affiliate rollout.*
