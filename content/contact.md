@@ -51,15 +51,9 @@ Fill out the form below and we'll get back to you within 24-48 hours.
 <div id="form-status" class="form-status" style="display: none;"></div>
 </form>
 
-### Email (Alternative)
+### Alternative Contact
 
-Prefer email? Reach us directly:
-
-**General Inquiries:** [support@reviews.ultramarine963.com](mailto:support@reviews.ultramarine963.com)
-
-**Review Requests:** [reviews@reviews.ultramarine963.com](mailto:reviews@reviews.ultramarine963.com)
-
-**Affiliate Partnerships:** [partners@reviews.ultramarine963.com](mailto:partners@reviews.ultramarine963.com)
+Prefer email? Use the form above — it reaches our team directly. We check messages regularly and typically respond within 24-48 hours.
 
 ### Response Time
 

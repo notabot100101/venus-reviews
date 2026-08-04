@@ -7,8 +7,8 @@ themePath = 'themes/hugo-theme-hello-friend'
 defaultContentLanguageInSubdir = false
 
 # Site metadata - US/GLOBAL FOCUS
-description = 'Expert reviews and discreet analysis of premium pleasure products for US and global customers. Honest, privacy-focused reviews with US shipping.'
-keywords = ['pleasure products', 'reviews', 'discreet shipping', 'US shipping', 'premium quality', 'buying guide']
+description = 'Expert reviews and discreet analysis of premium pleasure products for US and global customers. Honest, privacy-focused buying guidance.'
+keywords = ['pleasure products', 'reviews', 'discreet shipping', 'buying guide', 'premium quality', 'product comparison']
 
 # Author
 [author]

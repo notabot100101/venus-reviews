@@ -108,7 +108,7 @@ Venus Reviews may use approved affiliate links after a retailer or affiliate net
 ## Contact Us
 
 **Questions about a product?** Need buying advice? Have feedback?  
-**Reach out to our team:** support@reviews.ultramarine963.com
+**Reach out via our [contact form](/contact/):** We check messages regularly and typically respond within 24-48 hours.
 
 **Prefer direct contact:**  
 We respect your privacy and will never share your information with third parties.
@@ -116,14 +116,14 @@ We respect your privacy and will never share your information with third parties
 ## Get Personalized Advice
 
 **Stuck choosing?** Want help finding the right product?  
-[Schedule a Free Consultation](mailto:support@reviews.ultramarine963.com)
+[Contact us via our form](/contact/) for free, private buying guidance.
 
 ## Start With The Right Question
 
 Not sure where to begin? Tell us your priorities: quiet use, beginner comfort, materials, partner use, travel, or support expectations. We will point you to the most relevant review or buying guide without asking for personal details you do not want to share.
 
-[Ask For Buying Advice](mailto:support@reviews.ultramarine963.com)  
-[Suggest A Product To Review](mailto:reviews@reviews.ultramarine963.com)
+[Ask For Buying Advice](/contact/)  
+[Suggest A Product To Review](/contact/)
 
 **Join our community:**  
 Sign up for our newsletter for latest reviews, exclusive offers, and member discounts.

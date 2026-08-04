@@ -34,4 +34,4 @@ This disclosure complies with Federal Trade Commission (FTC) guidelines for affi
 
 ### Questions?
 
-Contact us at [support@reviews.ultramarine963.com](mailto:support@reviews.ultramarine963.com).
+See our [contact page](/contact/) to reach us.

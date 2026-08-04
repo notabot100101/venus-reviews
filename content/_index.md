@@ -1,13 +1,13 @@
 ---
 title: "Venus Reviews"
-description: "Expert reviews and discreet analysis of premium pleasure products for US and global customers. Honest, privacy-focused reviews with discreet US shipping."
+description: "Expert reviews and discreet analysis of premium pleasure products for US and global customers. Honest, privacy-focused buying guidance."
 ---
 
 <!-- Hero Section -->
 <section class="hero">
   <div class="hero-content">
     <h1>Discover Premium Pleasure Products</h1>
-    <p class="hero-subtitle">Expert reviews, honest ratings, and discreet buying guidance for discerning adults. Free US shipping on all orders.</p>
+    <p class="hero-subtitle">Expert reviews, honest ratings, and discreet buying guidance for discerning adults. Independent research you can trust.</p>
     <div class="hero-actions">
       <a href="/products/" class="btn btn-primary">Browse Reviews</a>
       <a href="/guides/how-to-choose/" class="btn btn-outline">Buying Guide</a>
@@ -162,8 +162,8 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
       </div>
       <div class="trust-item">
         <span class="trust-icon">📦</span>
-        <h3>Free US Shipping</h3>
-        <p>On all orders, no minimum purchase</p>
+        <h3>Retailer Guides</h3>
+        <p>Shipping and return policies explained</p>
       </div>
     </div>
   </div>
