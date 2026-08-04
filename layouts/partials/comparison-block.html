@@ -67,7 +67,7 @@
           </td>
           <td>
             {{ if and $hasUrl $offer.available }}
-              <a href="{{ $url }}" target="_blank" rel="noopener noreferrer sponsored" class="offer-action">Visit Retailer</a>
+              <a href="{{ $url }}" target="_blank" rel="noopener noreferrer sponsored" class="offer-action plausible-event-name=Outbound+Affiliate+Click" data-retailer="{{ $offer.retailer }}" data-product="{{ $.Title }}">Visit Retailer</a>
             {{ else if $hasUrl }}
               <span class="offer-action-disabled">Unavailable</span>
             {{ else }}
