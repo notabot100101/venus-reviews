@@ -1,6 +1,7 @@
 ---
 draft: false
 title: "Bvee Original Rabbit"
+seo_title: "Bvee Original Rabbit Review | Venus"
 image: "/images/placeholders/ambient-01.png"
 price: "119.99"
 rating: 4.6
