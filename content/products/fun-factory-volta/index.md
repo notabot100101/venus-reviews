@@ -1,5 +1,6 @@
 ---
 title: "Fun Factory Volta"
+seo_title: "Fun Factory Volta Review | Venus"
 image: "/images/placeholders/ambient-04.png"
 description: "Twin-tip stimulator for precise external contact and a more exploratory feel."
 sku: "fun-factory-volta"
