@@ -38,8 +38,6 @@ LELO Mona 2 is best understood as a classic premium G-spot vibrator, not a novel
 
 Venus has not physically tested this product. This review is based on LELO's published Mona 2 specifications, LELO's warranty and materials documentation, the current 12-product Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
 
-## Product Gallery
-
 ## Quick Verdict
 
 Mona 2 is a strong shortlist pick for shoppers who want a luxury-feeling insertable vibrator with a pronounced curve, a relatively firm body, waterproof construction, and a low-fuss rechargeable setup. It is easier to recommend to people who already like targeted G-spot toys than to absolute beginners, because the shape is purposeful rather than neutral. If you want broad external stimulation, app controls, wearable use, or partner-facing features, other products in the Venus catalogue make more sense.

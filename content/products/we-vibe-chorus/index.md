@@ -46,8 +46,6 @@ We-Vibe Chorus is the most app-and-remote-centered couples option in this Venus 
 
 Venus has not physically tested this product. This review is based on We-Vibe's live Chorus product page, visible manufacturer specification and feature tabs, the current Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, the review says so.
 
-## Product Gallery
-
 ## Quick Verdict
 
 Chorus is best for couples who actively want a wearable dual-stimulation vibrator with app and remote control. We-Vibe documents useful specifics: IPX7 waterproofing for the toy, a splashproof remote, USB rechargeable lithium-ion battery, 90-minute runtime, 120-minute charge time, ABS and body-safe silicone materials, phthalate/BPA/latex-free production language, and a two-year warranty. The main caution is that Chorus is not a low-friction solo pick. It is a setup product, and the value depends on fit and control preferences.

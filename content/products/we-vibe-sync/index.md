@@ -43,8 +43,6 @@ We-Vibe Sync is the simpler adjustable couples option next to Chorus. It is stil
 
 Venus has not physically tested this product. This review is based on We-Vibe's live Sync product page, visible manufacturer specification and feature tabs, the current Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, the review says so.
 
-## Product Gallery
-
 ## Quick Verdict
 
 Sync is best for couples who want an adjustable wearable vibrator with remote and app control but do not need Chorus's richer Squeeze Remote and Touch-sense system. We-Vibe documents the core practical specs: waterproof IPX7, eco-friendly USB rechargeable battery, up to 90 minutes runtime, 2-hour charge time, body-safe silicone exterior, 74.8 x 31.4 x 41.7 mm dimensions, and a two-year warranty. The caution is that Sync appears out of stock on the live manufacturer page during this review pass, so retailer availability should be checked carefully.

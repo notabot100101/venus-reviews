@@ -46,8 +46,6 @@ Lelo Enigma is the premium dual-stimulation pick in this Venus set: a luxury son
 
 Venus has not physically tested this product. This review is based on LELO's live Enigma product page, LELO's published warranty and ISO 3533 language, the current Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, the review says so.
 
-## Product Gallery
-
 ## Quick Verdict
 
 Enigma is best for experienced shoppers who want simultaneous external sonic stimulation and insertable G-spot vibration in a polished rechargeable body. The product is easier to justify when dual stimulation is already the goal and the buyer values a documented silicone/ABS build, waterproof construction, and LELO's warranty path. It is harder to recommend as a first toy, a value buy, or a casual experiment, because the shape, price tier, and sensation style all ask for confidence.

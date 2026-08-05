@@ -165,6 +165,15 @@
   </nav>
 </article>
 
+{{- with .Params.seo_description }}
+{{- $reviewRating := dict "@type" "Rating" "ratingValue" (printf "%v" $.Params.rating) "bestRating" "5" "worstRating" "1" }}
+{{- $review := dict "@type" "Review" "name" (printf "%s Review" $.Title) "author" (dict "@type" "Organization" "name" "Venus Reviews") "reviewRating" $reviewRating "reviewBody" (. | plainify) }}
+{{- $schema := dict "@context" "https://schema.org" "@type" "Product" "name" $.Title "image" ($.Params.image | absURL) "description" (. | plainify) "category" $.Params.category "review" $review }}
+<script type="application/ld+json">
+{{ $schema | jsonify (dict "indent" "  ") | safeJS }}
+</script>
+{{- end }}
+
 {{ if $images }}
 <script>
 let currentIndex = 0;
