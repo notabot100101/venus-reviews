@@ -58,91 +58,7 @@
 
   <section class="product-hero-detail" aria-label="Womanizer 2 Original product summary">
   
-  <div class="product-gallery">
-    <div class="main-image-container">
-      
-      <img 
-        id="mainImage"
-        src="/images/products/womanizer-2-original/front.png" 
-        alt="Womanizer 2 Original"
-      >
-      
-      
-    </div>
-
-    <div class="thumbnail-strip" aria-label="Product gallery thumbnails">
-      
-      <img 
-        src="/images/products/womanizer-2-original/front.png"
-        alt="Womanizer 2 Original view 1"
-        class="thumbnail"
-        data-index="0"
-        data-src="/images/products/womanizer-2-original/front.png"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/womanizer-2-original/angle-01.png"
-        alt="Womanizer 2 Original view 2"
-        class="thumbnail"
-        data-index="1"
-        data-src="/images/products/womanizer-2-original/angle-01.png"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/womanizer-2-original/angle-02.png"
-        alt="Womanizer 2 Original view 3"
-        class="thumbnail"
-        data-index="2"
-        data-src="/images/products/womanizer-2-original/angle-02.png"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/womanizer-2-original/angle-03.png"
-        alt="Womanizer 2 Original view 4"
-        class="thumbnail"
-        data-index="3"
-        data-src="/images/products/womanizer-2-original/angle-03.png"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/womanizer-2-original/scale.png"
-        alt="Womanizer 2 Original view 5"
-        class="thumbnail"
-        data-index="4"
-        data-src="/images/products/womanizer-2-original/scale.png"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/womanizer-2-original/lifestyle.png"
-        alt="Womanizer 2 Original view 6"
-        class="thumbnail"
-        data-index="5"
-        data-src="/images/products/womanizer-2-original/lifestyle.png"
-        onclick="setMainImage(this)"
-      >
-      
-      <img 
-        src="/images/products/womanizer-2-original/packaging.png"
-        alt="Womanizer 2 Original view 7"
-        class="thumbnail"
-        data-index="6"
-        data-src="/images/products/womanizer-2-original/packaging.png"
-        onclick="setMainImage(this)"
-      >
-      
-    </div>
-
-    <div class="image-nav">
-      <button type="button" onclick="prevImage()">← Previous</button>
-      <span id="imageCounter">1 / 7</span>
-      <button type="button" onclick="nextImage()">Next →</button>
-    </div>
-  </div>
+  
   
 
   <aside class="product-summary-panel">
@@ -151,11 +67,6 @@
       <h3>Best Verified Offer</h3>
       <p>
 
-
-
-
-
-
   
 
   
@@ -163,8 +74,6 @@
   
 
   
-
-
 
   <span class="offer-muted">No verified offer yet</span>
 
@@ -200,11 +109,6 @@
   
 
   
-
-
-
-
-
 
 <div class="offer-comparison-block">
   <h3>Compare Retailer Offers</h3>
@@ -349,24 +253,9 @@
   <p class="offer-integrity-note">Static prices are never shown without a checked date. Prices older than 7 days are hidden automatically.</p>
 </div>
 
-
-
   <div class="product-review-body">
     <p>Womanizer 2 Original is the premium air-stimulation pick in this Venus set: the product to consider when you want clitoral-focused Pleasure Air technology, quieter idle behavior, and a more polished ownership package than budget suction-style toys usually offer. The manufacturer page surfaced for this product identifies the model as Womanizer Premium 2, so this review treats the Venus entry as that premium second-generation Womanizer product.</p>
 <p>Venus has not physically tested this product. This review is based on Womanizer&rsquo;s published product page, Womanizer&rsquo;s user-manual page, visible manufacturer claims about warranty and packaging, the Venus catalogue, and broad patterns in published user feedback. Where the manufacturer page does not clearly document a spec, the review says so.</p>
-<h2 id="product-gallery">
-  Product Gallery
-  <a href="#product-gallery" class="h-anchor" aria-hidden="true">#</a>
-</h2>
-<ul>
-<li>Premium packaging presentation</li>
-<li>Front view - airpulse technology</li>
-<li>Side angle perspective</li>
-<li>Top angle view</li>
-<li>Three-quarter perspective</li>
-<li>Size reference with common objects</li>
-<li>Bedside table lifestyle scene</li>
-</ul>
 <h2 id="quick-verdict">
   Quick Verdict
   <a href="#quick-verdict" class="h-anchor" aria-hidden="true">#</a>
@@ -431,45 +320,6 @@
   </nav>
 </article>
 
-
-<script>
-let currentIndex = 0;
-const thumbnails = document.querySelectorAll('.thumbnail');
-const mainImage = document.getElementById('mainImage');
-const counter = document.getElementById('imageCounter');
-
-function updateGallery() {
-  const src = thumbnails[currentIndex].dataset.src;
-  mainImage.src = src;
-  
-  thumbnails.forEach((t, i) => {
-    t.classList.toggle('active', i === currentIndex);
-    t.style.opacity = i === currentIndex ? '1' : '0.6';
-  });
-  
-  counter.textContent = `${currentIndex + 1} / ${thumbnails.length}`;
-}
-
-function setMainImage(thumb) {
-  currentIndex = parseInt(thumb.dataset.index);
-  updateGallery();
-}
-
-function nextImage() {
-  currentIndex = (currentIndex + 1) % thumbnails.length;
-  updateGallery();
-}
-
-function prevImage() {
-  currentIndex = (currentIndex - 1 + thumbnails.length) % thumbnails.length;
-  updateGallery();
-}
-
-
-updateGallery();
-</script>
-
-
   
   </main>
   
@@ -516,8 +366,6 @@ updateGallery();
     </div>
   </div>
 </footer>
-
-
 
 <script src="/js/plausible-affiliate-tracker.js"></script>
 </body>

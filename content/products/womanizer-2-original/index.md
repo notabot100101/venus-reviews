@@ -1,15 +1,6 @@
 ---
 draft: false
 title: "Womanizer 2 Original"
-image: "/images/products/womanizer-2-original/front.png"
-images:
-  - "/images/products/womanizer-2-original/front.png"
-  - "/images/products/womanizer-2-original/angle-01.png"
-  - "/images/products/womanizer-2-original/angle-02.png"
-  - "/images/products/womanizer-2-original/angle-03.png"
-  - "/images/products/womanizer-2-original/scale.png"
-  - "/images/products/womanizer-2-original/lifestyle.png"
-  - "/images/products/womanizer-2-original/packaging.png"
 price: "149.99"
 rating: 4.7
 category: "quiet-pick"
@@ -46,15 +37,6 @@ Womanizer 2 Original is the premium air-stimulation pick in this Venus set: the 
 
 Venus has not physically tested this product. This review is based on Womanizer's published product page, Womanizer's user-manual page, visible manufacturer claims about warranty and packaging, the Venus catalogue, and broad patterns in published user feedback. Where the manufacturer page does not clearly document a spec, the review says so.
 
-## Product Gallery
-
-- Premium packaging presentation
-- Front view - airpulse technology
-- Side angle perspective
-- Top angle view
-- Three-quarter perspective
-- Size reference with common objects
-- Bedside table lifestyle scene
 
 ## Quick Verdict
 

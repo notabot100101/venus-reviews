@@ -38,9 +38,6 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
       
       <!-- Product 2: Womanizer 2 Original -->
       <article class="product-card">
-        <div class="product-image">
-          <img src="/images/products/womanizer-2-original/front.png" alt="Womanizer 2 Original" loading="lazy">
-        </div>
         <div class="product-info">
           <h3>Womanizer 2 Original</h3>
           <div class="product-rating">★★★★★ 4.7/5</div>
