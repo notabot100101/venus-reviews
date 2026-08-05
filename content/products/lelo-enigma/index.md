@@ -1,6 +1,7 @@
 ---
 title: "Lelo Enigma"
 seo_description: "Lelo Enigma review covering dual sonic and G-spot stimulation, fit sensitivity, materials, warranty notes, and how it compares with other premium vibrators."
+schema_product: true
 description: "Premium pleasure device with advanced sonic and G-spot technology"
 sku: "lelo-enigma"
 draft: false
