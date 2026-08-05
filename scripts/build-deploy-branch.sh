@@ -60,7 +60,11 @@ git add -A
 if git diff --cached --quiet; then
   echo "No changes to deploy (built output identical to current '$DEPLOY_BRANCH')."
 else
-  git commit -q -m "deploy($DEPLOY_BRANCH): rebuild from $SOURCE_BRANCH ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+  # Explicit author - see the same note in promote-version.sh. Without it this temporary
+  # worktree inherits the repo's shared fallback identity.
+  git -c user.name="Venus Deploy Automation" \
+      -c user.email="deploy-automation@openclaw.local" \
+      commit -q -m "deploy($DEPLOY_BRANCH): rebuild from $SOURCE_BRANCH ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
   echo "Committed to '$DEPLOY_BRANCH'. Review with: git -C $SOURCE_DIR log -1 $DEPLOY_BRANCH"
   echo "Push when ready: git -C $SOURCE_DIR push origin $DEPLOY_BRANCH"
 fi

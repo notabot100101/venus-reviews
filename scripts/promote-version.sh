@@ -151,7 +151,16 @@ git add -A
 if git diff --cached --quiet; then
   echo "No changes - '$BRANCH' already matches this build."
 else
-  git commit -q -m "deploy($BRANCH): $VERSION rebuild ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+  # Name the author explicitly. This temporary worktree has no identity of its own, so
+  # without this the commit inherits the repo's shared fallback and is authored
+  # "Unattributed Agent (shared config)" - which is what every agent worktree gets when
+  # someone skips the provisioning script, so the two become indistinguishable in the log.
+  # `git -c` rather than `git config --worktree`: it writes nothing. (If
+  # extensions.worktreeConfig were ever off, --worktree would silently write to the SHARED
+  # config and rename every commit in the repo at once.)
+  git -c user.name="Venus Deploy Automation" \
+      -c user.email="deploy-automation@openclaw.local" \
+      commit -q -m "deploy($BRANCH): $VERSION rebuild ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
   echo "Committed $VERSION to '$BRANCH'."
 fi
 cd "$REPO"
