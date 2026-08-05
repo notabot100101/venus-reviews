@@ -169,7 +169,17 @@
 {{- with .Params.seo_description }}
 {{- $reviewRating := dict "@type" "Rating" "ratingValue" (printf "%v" $.Params.rating) "bestRating" "5" "worstRating" "1" }}
 {{- $review := dict "@type" "Review" "name" (printf "%s Review" $.Title) "author" (dict "@type" "Organization" "name" "Venus Reviews") "reviewRating" $reviewRating "reviewBody" (. | plainify) }}
-{{- $schema := dict "@context" "https://schema.org" "@type" "Product" "name" $.Title "image" ($.Params.image | absURL) "description" (. | plainify) "category" $.Params.category "review" $review }}
+{{- $schema := dict "@context" "https://schema.org" "@type" "Product" "name" $.Title "description" (. | plainify) "category" $.Params.category "review" $review }}
+{{- /* schema.org Product.image means an image OF THE PRODUCT. Nine of the twelve
+       products carry an ambient placeholder (a spa still-life) because no genuine
+       photograph exists yet; emitting that as Product.image tells Google it is a
+       photo of the product, which is the same misrepresentation that was just
+       removed from the visible pages. Omit the field instead - it is optional, and
+       an absent image is honest where a borrowed one is not. This unblocks itself
+       automatically once a real product photo replaces the placeholder. */}}
+{{- if and $.Params.image (not (strings.Contains $.Params.image "/placeholders/")) }}
+{{- $schema = merge $schema (dict "image" ($.Params.image | absURL)) }}
+{{- end }}
 <script type="application/ld+json">
 {{ $schema | jsonify (dict "indent" "  ") | safeJS }}
 </script>

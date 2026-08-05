@@ -1,5 +1,6 @@
 ---
 title: "Fun Factory Manta"
+seo_title: "Fun Factory Manta Review | Venus"
 image: "/images/placeholders/ambient-03.png"
 description: "Flexible external stimulator with a distinctive wraparound shape and strong material quality."
 sku: "fun-factory-manta"
