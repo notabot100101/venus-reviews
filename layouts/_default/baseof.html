@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ with .Params.seo_title }}{{ . }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
-  {{- with .Params.seo_description }}
+  {{- with (.Params.seo_description | default .Description) }}
   <meta name="description" content="{{ . | plainify }}">
   {{- end }}
   {{ if .Params.noindex }}
