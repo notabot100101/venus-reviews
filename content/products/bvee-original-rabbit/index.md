@@ -38,15 +38,6 @@ Bvee Original Rabbit is the classic rabbit-style entry in this batch: a familiar
 
 Venus has not physically tested this product. This review is based on the copied Venus product entry, the current 12-product Venus catalogue, attempted manufacturer-site lookup, and patterns in published feedback for rabbit-style dual stimulators as a category. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
 
-## Product Gallery
-
-- Premium packaging unboxing
-- Front view - dual-action design
-- Top down perspective showing ear design
-- Side profile showing ergonomic curve
-- Three-quarter perspective
-- Size reference with smartphone and battery
-- Elegant bathroom vanity setting
 
 ## Quick Verdict
 
