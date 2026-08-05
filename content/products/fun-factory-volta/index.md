@@ -2,7 +2,12 @@
 title: "Fun Factory Volta"
 seo_title: "Fun Factory Volta Review | Venus"
 seo_description: "Fun Factory Volta review covering twin-tip external stimulation, precision fit, material notes, noise, and how it compares with other flexible vibrators."
-schema_product: true
+# schema_product disabled 2026-08-05: this review's own copy states the
+# manufacturer source could not be verified. Emitting a schema.org Review
+# ratingValue tells Google the rating is an attested product review, which
+# the prose explicitly declines to claim. Re-enable once the product is
+# verified against a manufacturer source.
+schema_product: false
 image: "/images/placeholders/ambient-04.png"
 description: "Twin-tip stimulator for precise external contact and a more exploratory feel."
 sku: "fun-factory-volta"
@@ -80,7 +85,7 @@ The negatives are also predictable. Some buyers do not want fluttering or split-
 
 Within Venus, Volta is the sharper counterpart to Fun Factory Manta. Manta is better for flexible wraparound contact; Volta is better for targeted external control. Dame Eva II is the wearable couples alternative, but it gives up handheld precision. Womanizer Premium 2 is the air-pulse alternative for shoppers who want focused clitoral stimulation without direct vibration.
 
-Compared with LELO Sona 2, Volta is more tactile and shape-driven. Compared with LELO Mona 2, it is external and exploratory rather than insertable and G-spot focused. Compared with Lovehoney Desire or Bvee Original Rabbit, it avoids rabbit-fit issues but does not provide simultaneous internal stimulation.
+Compared with LELO Sona 2, Volta is more tactile and shape-driven. Compared with LELO Mona 2, it is external and exploratory rather than insertable and G-spot focused. Compared with Lovehoney Desire, it avoids rabbit-fit issues but does not provide simultaneous internal stimulation.
 
 ## Who Should Buy It
 

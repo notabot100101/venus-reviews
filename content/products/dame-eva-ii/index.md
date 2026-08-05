@@ -2,7 +2,12 @@
 title: "Dame Eva II"
 description: "Sleek, powerful personal massager with whisper-quiet performance"
 seo_description: "Dame Eva II review covering hands-free fit, partner use, comfort tradeoffs, safety notes, and how it compares with other compact wearable vibrators."
-schema_product: true
+# schema_product disabled 2026-08-05: this review's own copy states the
+# manufacturer source could not be verified. Emitting a schema.org Review
+# ratingValue tells Google the rating is an attested product review, which
+# the prose explicitly declines to claim. Re-enable once the product is
+# verified against a manufacturer source.
+schema_product: false
 sku: "dame-eva-ii"
 draft: false
 recoveryVersion: "2026.07.09-Phase0"
@@ -78,7 +83,7 @@ The negatives are highly consistent. Fit varies. Some users need to adjust posit
 
 ## Catalogue Comparisons
 
-Eva is closest to We-Vibe Chorus and We-Vibe Sync in purpose, because all three are partner-aware products rather than simple solo vibrators. We-Vibe's products are more app-connected and internally wearable; Eva is simpler, smaller, and focused on external contact. Dame Eva II is also a better alternative to Bvee Original Rabbit for shoppers who want external stimulation during partnered sex without insertion.
+Eva is closest to We-Vibe Chorus and We-Vibe Sync in purpose, because all three are partner-aware products rather than simple solo vibrators. We-Vibe's products are more app-connected and internally wearable; Eva is simpler, smaller, and focused on external contact.
 
 Compared with LELO Mona 2, Eva gives up targeted internal pressure for hands-free external contact. Compared with Womanizer Premium 2, Eva is less focused and less premium-featured, but it fits a different use case: shared movement rather than solo air stimulation.
 

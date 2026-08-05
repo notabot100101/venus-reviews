@@ -2,7 +2,12 @@
 title: "Fun Factory Manta"
 seo_title: "Fun Factory Manta Review | Venus"
 seo_description: "Fun Factory Manta review covering flexible external stimulation, wraparound fit, material notes, noise, and how it compares with other premium vibrators."
-schema_product: true
+# schema_product disabled 2026-08-05: this review's own copy states the
+# manufacturer source could not be verified. Emitting a schema.org Review
+# ratingValue tells Google the rating is an attested product review, which
+# the prose explicitly declines to claim. Re-enable once the product is
+# verified against a manufacturer source.
+schema_product: false
 image: "/images/placeholders/ambient-03.png"
 description: "Flexible external stimulator with a distinctive wraparound shape and strong material quality."
 sku: "fun-factory-manta"
@@ -76,7 +81,7 @@ The negatives follow from that same shape. Some users want a simple direct stimu
 
 Within Venus, Manta is closest to Fun Factory Volta because both are distinctive external designs from the same brand family. Volta is the better precision pick with twin tips and documented silicone language; Manta is the better flexible-contact pick. Compared with Dame Eva II, Manta is handheld and more adjustable, while Eva is wearable and more couples-position dependent.
 
-Compared with Womanizer Premium 2, Manta is vibration-based rather than air-pulse. Compared with LELO Sona 2, Manta offers a larger, more flexible contact shape. Compared with Bvee Original Rabbit or Lovehoney Desire, it avoids internal rabbit fit issues but gives up dual-action stimulation.
+Compared with Womanizer Premium 2, Manta is vibration-based rather than air-pulse. Compared with LELO Sona 2, Manta offers a larger, more flexible contact shape. Compared with Lovehoney Desire, it avoids internal rabbit fit issues but gives up dual-action stimulation.
 
 ## Who Should Buy It
 

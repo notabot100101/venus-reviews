@@ -83,7 +83,7 @@ Because exact feedback for this SKU was not sourced from a reachable manufacture
 
 ## Catalogue Comparisons
 
-Within Venus, Lovehoney Desire is the practical rabbit alternative to Bvee Original Rabbit and the lower-price comparison against LELO Enigma. LELO Enigma is better for buyers who want premium documentation and a more advanced dual-stimulation concept. Bvee Original Rabbit is another traditional rabbit comparison, but it also lacks a strong manufacturer source in this pass.
+Within Venus, Lovehoney Desire is the lower-price comparison against LELO Enigma. LELO Enigma is better for buyers who want premium documentation and a more advanced dual-stimulation concept.
 
 Compared with LELO Mona 2, Desire is broader and more fit-dependent: Mona focuses on internal G-spot vibration, while Desire aims to combine internal and external stimulation. Compared with Dame Eva II, Desire is insertable and solo-friendly; Eva is wearable and partner-position focused. Compared with Fun Factory Volta, Desire is more familiar but less precise externally.
 
