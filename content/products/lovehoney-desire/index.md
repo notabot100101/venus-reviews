@@ -51,7 +51,7 @@ offers:
 
 Lovehoney Desire is the value-oriented rabbit comparison in the Venus catalogue: a mainstream dual-stimulation shape for shoppers who want the rabbit format without stepping up to the premium LELO tier. The problem for this pass is sourcing. Lovehoney's product URLs and search pages returned a technical-difficulty/blocked page, so this review cannot responsibly import exact manufacturer specs.
 
-Venus has not physically tested this product. This review is based on the copied Venus product entry, attempted Lovehoney product-page lookups, the current 12-product Venus catalogue, and patterns in published feedback for rechargeable rabbit vibrators as a category. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
+Venus has not physically tested this product. This review is based on the copied Venus product entry, attempted Lovehoney product-page lookups, the current 15-product Venus catalogue, and patterns in published feedback for rechargeable rabbit vibrators as a category. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
 
 ## Quick Verdict
 

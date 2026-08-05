@@ -24,11 +24,22 @@ Redirect 301 /category/dildos/ /products/
 # None were in the sitemap, but redirect rather than 404 in case of stray links.
 Redirect 301 /products/bvee-rabbit/ /products/bvee-original-rabbit/
 Redirect 301 /products/womanizer-2/ /products/womanizer-2-original/
-Redirect 301 /products/h2o-holo-vibe/ /products/
-Redirect 301 /products/lelo-gigi-2/ /products/
-Redirect 301 /products/satisfyer-pro-2/ /products/
-Redirect 301 /products/womanizer-premium-2/ /products/
 Redirect 301 /products/all/ /products/
+
+# "H2O Holo Vibe" was never a real product. The retired page described a
+# "holographic display" device that does not exist from any manufacturer, so
+# there is nothing to point a reader at beyond the catalogue index.
+Redirect 301 /products/h2o-holo-vibe/ /products/
+
+# Retired 2026-08-05: lelo-gigi-2, satisfyer-pro-2 and womanizer-premium-2 used to
+# redirect here because no review existed. Real sourced reviews now live at those
+# URLs, so the redirects are gone - a Redirect directive wins over the filesystem
+# and would have masked the new pages.
+
+# Superseded Best For pages (removed 2026-08-05). These were unlinked, absent from
+# the sitemap, and duplicated the indexed pages they now point to.
+Redirect 301 /best-for/couples/ /best-for/best-for-couples/
+Redirect 301 /best-for/travel/ /best-for/best-for-travel/
 Redirect 301 /products/compare/ /products/
 
 # --- Source & tooling exposure fix (2026-07-31) ---

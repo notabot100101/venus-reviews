@@ -44,7 +44,7 @@ offers:
 
 Fun Factory Volta is the precision external pick in this batch. Its defining feature is the twin-tip, fluttering shape: more targeted than Manta's flexible wings, more exploratory than a bullet, and less broad than a wand. It is best framed as a control-focused external vibrator for shoppers who want to vary pressure, angle, and contact style.
 
-Venus has not physically tested this product. This review is based on Fun Factory's published Volta product page and product JSON, the current 12-product Venus catalogue, and patterns in published user feedback for precision external vibrators. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
+Venus has not physically tested this product. This review is based on Fun Factory's published Volta product page and product JSON, the current 15-product Venus catalogue, and patterns in published user feedback for precision external vibrators. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
 
 ## Quick Verdict
 
