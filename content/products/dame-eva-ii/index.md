@@ -2,6 +2,7 @@
 title: "Dame Eva II"
 description: "Sleek, powerful personal massager with whisper-quiet performance"
 seo_description: "Dame Eva II review covering hands-free fit, partner use, comfort tradeoffs, safety notes, and how it compares with other compact wearable vibrators."
+schema_product: true
 sku: "dame-eva-ii"
 draft: false
 recoveryVersion: "2026.07.09-Phase0"
