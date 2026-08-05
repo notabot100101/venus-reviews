@@ -3,6 +3,7 @@ draft: false
 title: "Bvee Original Rabbit"
 seo_title: "Bvee Original Rabbit Review | Venus"
 seo_description: "Classic rabbit vibrator review covering fit, dual stimulation, safety notes, and when Bvee Original Rabbit makes sense versus better-documented alternatives."
+schema_product: true
 image: "/images/placeholders/ambient-01.png"
 price: "119.99"
 rating: 4.6

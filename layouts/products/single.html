@@ -165,6 +165,7 @@
   </nav>
 </article>
 
+{{- if and .Params.schema_product .Params.seo_description }}
 {{- with .Params.seo_description }}
 {{- $reviewRating := dict "@type" "Rating" "ratingValue" (printf "%v" $.Params.rating) "bestRating" "5" "worstRating" "1" }}
 {{- $review := dict "@type" "Review" "name" (printf "%s Review" $.Title) "author" (dict "@type" "Organization" "name" "Venus Reviews") "reviewRating" $reviewRating "reviewBody" (. | plainify) }}
@@ -172,6 +173,7 @@
 <script type="application/ld+json">
 {{ $schema | jsonify (dict "indent" "  ") | safeJS }}
 </script>
+{{- end }}
 {{- end }}
 
 {{ if $images }}
