@@ -282,4 +282,8 @@
 .product-card-price .offer-muted,
 .comparison-table .offer-muted {
   color: inherit;
+  /* .product-card-price span carries line-through so a struck-out RRP can sit
+     beside a sale price. .offer-muted is not a price - striking out "No verified
+     offer yet" reads as a cancelled offer rather than an absent one. */
+  text-decoration: none;
 }
