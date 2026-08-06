@@ -1,4 +1,5 @@
 ---
+image: "/images/headers/venus-bestfor-luxury.jpg"
 title: "Best for Luxury"
 description: "Premium picks where the price buys documented materials, longer warranties and better-engineered controls. What luxury actually gets you, and when it does not."
 date: 2026-08-05

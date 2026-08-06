@@ -1,4 +1,5 @@
 ---
+image: "/images/headers/venus-bestfor-value.jpg"
 title: "Best for Value"
 description: "Where spending less costs you least. Picks that hold up on materials and warranty, and an honest account of what the lower price actually gives up."
 date: 2026-08-05

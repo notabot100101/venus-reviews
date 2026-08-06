@@ -874,3 +874,15 @@ html {
     text-decoration: underline;
   }
 }
+
+
+/* Ambient header images (2026-08-06). Set via `image:` front matter; the
+   gradient in the inline style keeps hero text readable on any image. */
+.page-hero--image {
+  background-size: cover;
+  background-position: center;
+  min-height: 240px;
+  display: flex;
+  align-items: center;
+}
+.page-hero--image h1, .page-hero--image p { text-shadow: 0 1px 8px rgba(0,0,0,.6); }

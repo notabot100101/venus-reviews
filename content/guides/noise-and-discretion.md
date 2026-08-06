@@ -1,4 +1,5 @@
 ---
+image: "/images/headers/venus-guide-noise.jpg"
 title: "Noise Level & Discretion Guide"
 description: "Learn about noise levels, discreet use tips, and what makes toys quiet or noticeable. Perfect for thin walls, roommates, and travel."
 date: 2026-07-17

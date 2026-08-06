@@ -1,4 +1,5 @@
 ---
+image: "/images/headers/venus-guide-noise.jpg"
 title: "Best for Discreet Use"
 description: "Premium products designed for privacy and discretion"
 ---

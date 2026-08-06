@@ -1,4 +1,5 @@
 ---
+image: "/images/headers/venus-guide-cleaning.jpg"
 title: "Cleaning & Maintenance Guide"
 description: "Comprehensive guide to cleaning, maintaining, and caring for intimate products. Learn immediate cleaning vs deep cleaning, compatible cleaners, and when to replace toys."
 date: 2026-07-17
