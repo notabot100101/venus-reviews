@@ -18,7 +18,7 @@ price_checked: "2026-08-05"
 category: "external-stimulation"
 best_for: "Focused external stimulation"
 noise: "Low-medium noise"
-image: "/images/placeholders/ambient-02.png"
+image: "/images/placeholders/ambient-06.png"
 
 offers:
   - retailer: "Amazon"

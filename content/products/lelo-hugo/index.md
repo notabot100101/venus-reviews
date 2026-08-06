@@ -18,7 +18,7 @@ price_checked: "2026-08-05"
 category: "prostate"
 best_for: "Premium prostate wellness"
 noise: "Low noise"
-image: "/images/placeholders/ambient-01.png"
+image: "/images/placeholders/ambient-02.png"
 offers:
   - retailer: "Amazon"
     url: ""

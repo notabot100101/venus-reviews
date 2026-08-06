@@ -8,7 +8,7 @@ seo_description: "Fun Factory Volta review covering twin-tip external stimulatio
 # the prose explicitly declines to claim. Re-enable once the product is
 # verified against a manufacturer source.
 schema_product: false
-image: "/images/placeholders/ambient-04.png"
+image: "/images/placeholders/ambient-11.png"
 description: "Twin-tip stimulator for precise external contact and a more exploratory feel."
 sku: "fun-factory-volta"
 draft: false
