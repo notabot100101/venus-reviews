@@ -33,6 +33,21 @@ if [[ ! -s "$HOME/.git-credentials" ]] && [[ -z "${GITHUB_TOKEN:-}" ]] && [[ -z 
     exit 1
 fi
 
+# Theme submodule preflight. themes/hugo-theme-hello-friend is a git submodule, and
+# neither `git clone` nor `git worktree add` populates one by default. With it empty
+# hugo still exits 0 - it just silently drops 404.html and the two favicons, building
+# 70 pages instead of 71. Everything else comes from this repo's own layouts/, so the
+# degraded output looks normal right up until it is rsynced over the branch root.
+# Verified 2026-08-06 (this is also what made an empty theme dir get misreported as
+# "the theme was never committed" - it is tracked, just not initialized).
+if [[ ! -f themes/hugo-theme-hello-friend/layouts/404.html ]]; then
+    echo "ERROR: theme submodule not populated - the build would silently omit 404.html" >&2
+    echo "  and the favicons, then publish that as if it were complete." >&2
+    echo "  Fix (then re-run this script):" >&2
+    echo "    git submodule update --init" >&2
+    exit 1
+fi
+
 echo "==> Building site with Hugo..."
 hugo --quiet
 
