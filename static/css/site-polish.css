@@ -842,6 +842,13 @@
   padding: 0;
 }
 
+.product-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+
 /* Both the surface and the label stay theme-neutral, and --color-secondary is
    spent on the hover border instead. The picker swings that accent from cyan to
    emerald to amber to magenta, and as label text it drops under the 4.5:1 AA
@@ -885,11 +892,14 @@ a.tag-chip:focus-visible {
 }
 
 /* Compact variant for the tag row inside a product card. */
-.tag-cloud-inline {
-  margin-top: var(--space-md);
-}
-
-.tag-cloud-inline .tag-chip {
+.product-card-tags .tag-chip {
   font-size: 0.75rem;
   padding: 0.25rem 0.65rem;
+}
+
+.products-empty {
+  color: var(--color-text);
+  font-size: 1.05rem;
+  padding: var(--space-3xl) 0;
+  text-align: center;
 }
