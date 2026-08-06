@@ -11,7 +11,7 @@ price: "139.00"
 price_checked: "2026-08-05"
 rating: 4.6
 category: "premium-feel"
-tags: ["suction", "premium", "ergonomic", "quiet", "swiss-engineered"]
+tags: ["premium", "ergonomic", "quiet", "swedish-design"]
 affiliate_link: ""
 offers:
   - retailer: "Amazon"

@@ -11,7 +11,7 @@
    - Rating: 4.8/5 Stars
    - Features: Air pulse, waterproof, rechargeable
 
-2. **Lelo Mona** - Swiss Luxury, Wave Motion Technology
+2. **Lelo Mona** - Swedish Design, Curved G-Spot Vibration
    - Price: ~$149.99
    - Rating: 4.9/5 Stars
    - Features: Silent operation, waterproof, premium materials
