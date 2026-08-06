@@ -21,6 +21,15 @@ All images stored in `public/images/products/{product}/{type}/{image}.png`
 ### 4. Corrected Product Slug
 Fixed typo: `lovehoney-desire` → `lovethoney-desire`
 
+> **CORRECTION 2026-08-05.** This is backwards and the rest of this document
+> repeats it ("Product slug is correctly spelled: `lovethoney-desire`"). The
+> brand is **Lovehoney**; `lovehoney-desire` was already correct and was renamed
+> into a typo. The rename created a parallel `lovethoney-desire` tree that no
+> page ever referenced, in two places — `images/products/lovethoney-desire/` and,
+> wrongly, image files directly under the served pages tree at
+> `products/lovethoney-desire/`. Both were deleted on 2026-08-05; the live
+> product remains `lovehoney-desire`. Do not re-apply this "fix".
+
 ## Git Status
 
 **Staged Changes:**
