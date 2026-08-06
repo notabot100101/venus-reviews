@@ -4,11 +4,6 @@
 User-agent: *
 Allow: /
 
-# /lab/ is a design scratch area, reachable but not part of the site. It still
-# serves an old hero mock branded "ESSENCE REVIEWS" - a different brand name.
-# Not linked from any real page, but robots allowed everything, so it was
-# indexable. Added 2026-08-06.
-Disallow: /lab/
 Allow: /products/
 Allow: /guides/
 Allow: /best-for/
