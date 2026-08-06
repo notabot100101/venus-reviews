@@ -48,9 +48,19 @@ Redirect 301 /products/compare/ /products/
 # Retired tag pages (removed 2026-08-06). Orphaned build artifacts: the product pages
 # that carried these tags lost their `tags:` front matter in the 2026-07-30 best-of
 # rewrite, so `hugo` stopped emitting the listings, but the already-built directories
-# stayed committed. None were in the sitemap and nothing on the site linked to them,
-# but they were served for roughly two weeks in July, so redirect as above rather than
-# 404. The names are listed explicitly: the ten tags still in use must not match.
+# stayed committed. They were served for roughly two weeks in July, so redirect rather
+# than 404.
+#
+# Corrected 2026-08-06: an earlier version of this comment claimed none were in the
+# sitemap and nothing linked to them. Both were wrong - four (compact, external,
+# g-spot, waterproof) were in sitemap.xml, and nine dead tag links were still listed
+# in tags/index.html, 404.html and tags/index.xml. All were cleaned up in 8b8c7c1.
+# It also said "the ten tags still in use"; there are six.
+#
+# The names below are listed explicitly so the six live tags cannot match:
+#   air-pulse  ergonomic  premium  quiet  swedish-design  value
+# Before editing this rule, re-derive that list - it is the directories under tags/,
+# and it must equal the /tags/ entries in sitemap.xml.
 RedirectMatch 301 ^/tags/(adjustable|app-control|app-controlled|compact|couples|dual-action|dual-motors|exploratory|external|external-stimulator|g-spot|german-engineering|medical-grade|mens-health|personal-massager|precision|pressure-wave|prostate|rechargeable|sonic|specialized|synchronized|travel-friendly|twin-tip|waterproof|wellness|whisper-quiet|wraparound)/?$ /products/
 
 # --- Source & tooling exposure fix (2026-07-31) ---
