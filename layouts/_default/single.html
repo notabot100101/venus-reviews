@@ -1,5 +1,5 @@
 {{ define "main" }}
-<section class="hero page-hero">
+<section class="hero page-hero{{ if .Params.image }} page-hero--image{{ end }}"{{ with .Params.image }} style="background-image:linear-gradient(rgba(10,10,16,.55),rgba(10,10,16,.78)),url('{{ . }}')"{{ end }}>
   <div class="container">
     <div class="hero-content">
       <h1>{{ .Title }}</h1>

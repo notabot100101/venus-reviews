@@ -1,4 +1,5 @@
 ---
+image: "/images/headers/venus-bestfor-technology.jpg"
 title: "Best for Technology"
 description: "App control, remotes and connected features that earn their place. Which technology in intimate products is genuinely useful and which is a battery drain."
 date: 2026-08-05

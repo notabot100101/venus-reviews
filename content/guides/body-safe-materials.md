@@ -1,4 +1,5 @@
 ---
+image: "/images/headers/venus-guide-materials.jpg"
 title: "Body-Safe Materials Guide"
 description: "Learn about safe and unsafe materials for intimate products. Understand what makes a toy body-safe and how to verify material claims."
 date: 2026-07-17

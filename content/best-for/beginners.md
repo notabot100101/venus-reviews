@@ -1,4 +1,5 @@
 ---
+image: "/images/headers/venus-bestfor-beginners.jpg"
 title: "Best for Beginners"
 description: "Carefully selected entry-level recommendations for first-time buyers. Approachable, intuitive, and quality-focused."
 menu: "main"
