@@ -45,6 +45,14 @@ Redirect 301 /best-for/couples/ /best-for/best-for-couples/
 Redirect 301 /best-for/travel/ /best-for/best-for-travel/
 Redirect 301 /products/compare/ /products/
 
+# Retired tag pages (removed 2026-08-06). Orphaned build artifacts: the product pages
+# that carried these tags lost their `tags:` front matter in the 2026-07-30 best-of
+# rewrite, so `hugo` stopped emitting the listings, but the already-built directories
+# stayed committed. None were in the sitemap and nothing on the site linked to them,
+# but they were served for roughly two weeks in July, so redirect as above rather than
+# 404. The names are listed explicitly: the ten tags still in use must not match.
+RedirectMatch 301 ^/tags/(adjustable|app-control|app-controlled|compact|couples|dual-action|dual-motors|exploratory|external|external-stimulator|g-spot|german-engineering|medical-grade|mens-health|personal-massager|precision|pressure-wave|prostate|rechargeable|sonic|specialized|synchronized|travel-friendly|twin-tip|waterproof|wellness|whisper-quiet|wraparound)/?$ /products/
+
 # --- Source & tooling exposure fix (2026-07-31) ---
 # The hostinger-deploy branch holds the Hugo SOURCE alongside the served output, and
 # Hostinger serves the branch root, so everything was publicly fetchable: 134 .md
