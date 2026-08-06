@@ -22,8 +22,10 @@ Redirect 301 /category/dildos/ /products/
 
 # Retired duplicate/stale product pages (removed 2026-07-30 when best-of shipped).
 # None were in the sitemap, but redirect rather than 404 in case of stray links.
-Redirect 301 /products/bvee-rabbit/ /products/bvee-original-rabbit/
-Redirect 301 /products/womanizer-2/ /products/womanizer-2-original/
+Redirect 301 /products/bvee-rabbit/ /products/
+Redirect 301 /products/bvee-original-rabbit/ /products/
+Redirect 301 /products/womanizer-2-original/ /products/
+Redirect 301 /products/womanizer-2/ /products/
 Redirect 301 /products/h2o-holo-vibe/ /products/
 Redirect 301 /products/lelo-gigi-2/ /products/
 Redirect 301 /products/satisfyer-pro-2/ /products/
