@@ -117,11 +117,17 @@
   padding: 0.25rem 0.65rem;
 }
 
+/* The homepage rating row also carried .rating-row, whose only live rule lived in
+   testimonials-section.css. That file is gone, so the flex layout it contributed is
+   folded in here. gap and the bottom margin take the values .rating-row won on load
+   order, so the rendered result is unchanged. */
 .product-rating-row {
+  display: flex;
+  align-items: center;
   color: var(--color-secondary);
   font-size: 0.9rem;
-  gap: 0.45rem;
-  margin: -0.25rem 0 var(--space-sm);
+  gap: var(--space-sm);
+  margin: -0.25rem 0 var(--space-md);
 }
 
 .rating-display {
