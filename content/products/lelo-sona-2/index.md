@@ -18,17 +18,7 @@ price_checked: "2026-08-05"
 category: "external-stimulation"
 best_for: "Focused external stimulation"
 noise: "Low-medium noise"
-image: "/images/products/lelo-sona-2/hero/hero-01.png"
-gallery:
-  - src: "/images/products/lelo-sona-2/hero/hero-01.png"
-    alt: "Lelo Sona 2 hero view"
-    caption: "Product hero view"
-  - src: "/images/products/lelo-sona-2/lifestyle/lifestyle-01.png"
-    alt: "Lelo Sona 2 lifestyle view"
-    caption: "Lifestyle context"
-  - src: "/images/products/lelo-sona-2/lifestyle/lifestyle-02.png"
-    alt: "Lelo Sona 2 secondary lifestyle view"
-    caption: "Travel-friendly setup"
+image: "/images/placeholders/ambient-02.png"
 
 offers:
   - retailer: "Amazon"
@@ -61,13 +51,6 @@ Lelo Sona 2 is the compact LELO pick for shoppers who want focused external soni
 
 Venus has not physically tested this product. This review is based on LELO's live Sona 2 product page, LELO's published warranty and ISO 3533 language, the current Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, the review says so.
 
-## Product Gallery
-
-![Lelo Sona 2 hero view](/images/products/lelo-sona-2/hero/hero-01.png)
-
-![Lelo Sona 2 lifestyle view](/images/products/lelo-sona-2/lifestyle/lifestyle-01.png)
-
-![Lelo Sona 2 secondary lifestyle view](/images/products/lelo-sona-2/lifestyle/lifestyle-02.png)
 
 ## Quick Verdict
 

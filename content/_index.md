@@ -25,7 +25,7 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
       <!-- Product 1: Lelo Sona 2 -->
       <article class="product-card">
         <div class="product-image">
-          <img src="/images/products/lelo-sona-2/hero/hero-01.png" alt="Lelo Sona 2" loading="lazy">
+          <img src="/images/placeholders/ambient-02.png" alt="Lelo Sona 2" loading="lazy">
         </div>
         <div class="product-info">
           <h3>Lelo Sona 2</h3>
@@ -39,7 +39,7 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
       <!-- Product 3: Lelo Hugo -->
       <article class="product-card">
         <div class="product-image">
-          <img src="/images/products/lelo-hugo/hero/hero-01.png" alt="Lelo Hugo" loading="lazy">
+          <img src="/images/placeholders/ambient-01.png" alt="Lelo Hugo" loading="lazy">
         </div>
         <div class="product-info">
           <h3>Lelo Hugo</h3>
@@ -53,7 +53,7 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
       <!-- Product 4: Lovehoney Desire -->
       <article class="product-card">
         <div class="product-image">
-          <img src="/images/products/lovehoney-desire/hero/hero-01.png" alt="Lovehoney Desire" loading="lazy">
+          <img src="/images/placeholders/ambient-03.png" alt="Lovehoney Desire" loading="lazy">
         </div>
         <div class="product-info">
           <h3>Lovehoney Desire</h3>
