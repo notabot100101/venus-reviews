@@ -20,11 +20,19 @@ reviews_count: 24
 # price is an approximate US street price, not a quoted figure. Checked
 # 2026-08-05 against retailer listings. Re-check before any price is
 # displayed or an affiliate offer goes live.
-price: "130.00"
-price_checked: "2026-08-05"
+# Manufacturer price 48.95 EUR (JSON-LD, funfactory.com) 2026-08-06; was 130.00 - badly stale.
+price: "48.95"
+price_checked: "2026-08-06"
 best_for: "Flexible external use"
 noise: "Medium noise"
 offers:
+  # OUT OF STOCK per JSON-LD 2026-08-06; Fun Factory repriced the line far below our old figure
+  - retailer: "Fun Factory (manufacturer)"
+    url: "https://www.funfactory.com/products/manta"
+    price: 48.95
+    currency: "EUR"
+    checked: "2026-08-06"
+    available: false
   - retailer: "Amazon"
     url: ""
     price: null

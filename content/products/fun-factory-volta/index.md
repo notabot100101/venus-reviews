@@ -20,11 +20,18 @@ reviews_count: 21
 # price is an approximate US street price, not a quoted figure. Checked
 # 2026-08-05 against retailer listings. Re-check before any price is
 # displayed or an affiliate offer goes live.
-price: "139.00"
-price_checked: "2026-08-05"
+# Manufacturer price 51.95 EUR (JSON-LD, funfactory.com) 2026-08-06; was 139.00 - badly stale.
+price: "51.95"
+price_checked: "2026-08-06"
 best_for: "Precise external contact"
 noise: "Medium noise"
 offers:
+  - retailer: "Fun Factory (manufacturer)"
+    url: "https://www.funfactory.com/products/volta"
+    price: 51.95
+    currency: "EUR"
+    checked: "2026-08-06"
+    available: true
   - retailer: "Amazon"
     url: ""
     price: null

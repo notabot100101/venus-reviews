@@ -5,7 +5,10 @@
 {{ $best := dict }}
 
 {{ range $offer := $offers }}
-  {{ if and $offer.price $offer.checked }}
+  {{/* available is required: a price at a retailer that cannot sell right now
+       (e.g. Manta sold out at Fun Factory, 2026-08-06) must not be advertised
+       as the best offer. Unavailable offers still appear in the detail table. */}}
+  {{ if and $offer.price $offer.checked $offer.available }}
     {{ $checkedTime := time.AsTime $offer.checked }}
     {{ $isFresh := le (sub $nowUnix $checkedTime.Unix) $maxAgeSeconds }}
     {{ if $isFresh }}

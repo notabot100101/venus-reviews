@@ -9,6 +9,8 @@ badge: "Mid-Range Bestseller"
 rating: 4.7
 reviews_count: 31
 # UNVERIFIED price: no reliable retailer figure was found on 2026-08-05.
+# Re-attempted 2026-08-06: lovehoney.com and lovehoney.eu both block automated
+# access outright, manufacturer price remains unverifiable. Still do not display.
 # Do not display or publish this number until it is checked.
 price: "59.99"
 price_checked: ""

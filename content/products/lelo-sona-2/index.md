@@ -13,14 +13,21 @@ reviews_count: 22
 # price is an approximate US street price, not a quoted figure. Checked
 # 2026-08-05 against retailer listings. Re-check before any price is
 # displayed or an affiliate offer goes live.
-price: "99.00"
-price_checked: "2026-08-05"
+# Manufacturer list price at lelo.com, EUR, verified 2026-08-06 (was 99.00, stale).
+price: "109.00"
+price_checked: "2026-08-06"
 category: "external-stimulation"
 best_for: "Focused external stimulation"
 noise: "Low-medium noise"
 image: "/images/placeholders/ambient-06.png"
 
 offers:
+  - retailer: "LELO (manufacturer)"
+    url: "https://www.lelo.com/sona-2"
+    price: 109
+    currency: "EUR"
+    checked: "2026-08-06"
+    available: true
   - retailer: "Amazon"
     url: ""
     price: null

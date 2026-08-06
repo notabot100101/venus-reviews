@@ -9,6 +9,13 @@ category: "external-stimulation"
 tags: ["air-pulse", "premium", "quiet", "external", "waterproof"]
 affiliate_link: ""
 offers:
+  # SOLD OUT at manufacturer 2026-08-06; JSON-LD price 0 - no verifiable price
+  - retailer: "Womanizer (manufacturer)"
+    url: "https://www.womanizer.com/de/premium-2"
+    price: null
+    currency: "EUR"
+    checked: "2026-08-06"
+    available: false
   - retailer: "Amazon"
     url: ""
     price: null

@@ -13,13 +13,21 @@ reviews_count: 19
 # price is an approximate US street price, not a quoted figure. Checked
 # 2026-08-05 against retailer listings. Re-check before any price is
 # displayed or an affiliate offer goes live.
+# 189 EUR shown but SOLD OUT at manufacturer 2026-08-06; HUGO 2 is 179 EUR.
 price: "189.00"
-price_checked: "2026-08-05"
+price_checked: "2026-08-06"
 category: "prostate"
 best_for: "Premium prostate wellness"
 noise: "Low noise"
 image: "/images/placeholders/ambient-02.png"
 offers:
+  # SOLD OUT at lelo.com 2026-08-06; successor HUGO 2 sells at 179 EUR
+  - retailer: "LELO (manufacturer)"
+    url: "https://www.lelo.com/hugo"
+    price: 189
+    currency: "EUR"
+    checked: "2026-08-06"
+    available: false
   - retailer: "Amazon"
     url: ""
     price: null

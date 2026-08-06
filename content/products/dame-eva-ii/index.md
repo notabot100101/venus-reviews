@@ -18,8 +18,9 @@ reviews_count: 38
 # price is an approximate US street price, not a quoted figure. Checked
 # 2026-08-05 against retailer listings. Re-check before any price is
 # displayed or an affiliate offer goes live.
-price: "140.00"
-price_checked: "2026-08-05"
+# Dame now sells current-gen 'Eva' at 129 USD (OutOfStock 2026-08-06); Eva II no longer listed separately. Was 140.00.
+price: "129.00"
+price_checked: "2026-08-06"
 best_for: "Hands-free fit"
 noise: "Low noise"
 image: "/images/placeholders/ambient-04.png"
@@ -27,6 +28,13 @@ card_excerpt: "Best for shoppers who want a compact hands-free option with quiet
 trust_note: "Strong fit notes matter here because anatomy and use case affect comfort more than the headline rating."
 support_note: "Confirm return policy, charging cable compatibility, and cleaning instructions before gifting or traveling."
 offers:
+  # eva-ii URL now lands on current-gen 'Eva'; 129 USD, OutOfStock per JSON-LD 2026-08-06
+  - retailer: "Dame (manufacturer)"
+    url: "https://www.dame.com/products/eva-ii"
+    price: 129
+    currency: "USD"
+    checked: "2026-08-06"
+    available: false
   - retailer: "Amazon"
     url: ""
     price: null

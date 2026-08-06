@@ -55,20 +55,8 @@
 
   
   
-    
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  
 
   <section class="product-hero-detail" aria-label="Lelo Hugo product summary">
-  
   
 
   <aside class="product-summary-panel">
@@ -83,11 +71,18 @@
 
 
   
-
   
 
   
+  
 
+  
+  
+
+  
+  
+
+  
   
 
 
@@ -165,6 +160,40 @@
         </tr>
       </thead>
       <tbody>
+        
+        
+        
+        
+        
+        
+          
+          
+          
+        
+        
+        
+        
+        <tr>
+          <td>
+            <strong>LELO (manufacturer)</strong>
+          </td>
+          <td>
+            
+              <span class="offer-price">€189.00</span>
+              <span class="offer-checked">checked 6 Aug 2026</span>
+            
+          </td>
+          <td>
+            
+              <span class="offer-status offer-status-disabled">Unavailable</span>
+            
+          </td>
+          <td>
+            
+              <span class="offer-action-disabled">Unavailable</span>
+            
+          </td>
+        </tr>
         
         
         
@@ -384,43 +413,6 @@
 }
 </script>
 
-
-<script>
-let currentIndex = 0;
-const thumbnails = document.querySelectorAll('.thumbnail');
-const mainImage = document.getElementById('mainImage');
-const counter = document.getElementById('imageCounter');
-
-function updateGallery() {
-  const src = thumbnails[currentIndex].dataset.src;
-  mainImage.src = src;
-  
-  thumbnails.forEach((t, i) => {
-    t.classList.toggle('active', i === currentIndex);
-    t.style.opacity = i === currentIndex ? '1' : '0.6';
-  });
-  
-  counter.textContent = `${currentIndex + 1} / ${thumbnails.length}`;
-}
-
-function setMainImage(thumb) {
-  currentIndex = parseInt(thumb.dataset.index);
-  updateGallery();
-}
-
-function nextImage() {
-  currentIndex = (currentIndex + 1) % thumbnails.length;
-  updateGallery();
-}
-
-function prevImage() {
-  currentIndex = (currentIndex - 1 + thumbnails.length) % thumbnails.length;
-  updateGallery();
-}
-
-
-updateGallery();
-</script>
 
 
   

@@ -11,8 +11,9 @@ reviews_count: 31
 # price is an approximate US street price, not a quoted figure. Checked
 # 2026-08-05 against retailer listings. Re-check before any price is
 # displayed or an affiliate offer goes live.
-price: "219.00"
-price_checked: "2026-08-05"
+# Regular list 209 EUR at we-vibe.com/eu 2026-08-06 (on promo at 159); was 219.00.
+price: "209.00"
+price_checked: "2026-08-06"
 best_for: "Partnered use"
 noise: "Medium noise"
 card_excerpt: "Best for couples who want app-enabled control and flexible fit, with a little more setup than a simple solo device."
@@ -20,6 +21,13 @@ trust_note: "The review foregrounds app setup, fit, and cleaning so the couples 
 support_note: "Buy from a retailer with clear warranty handling because app-connected products can need firmware or support follow-up."
 image: "/images/placeholders/ambient-10.png"
 offers:
+  # current promo price; regular list 209 EUR
+  - retailer: "We-Vibe (manufacturer)"
+    url: "https://www.we-vibe.com/eu/chorus"
+    price: 159
+    currency: "EUR"
+    checked: "2026-08-06"
+    available: true
   - retailer: "Amazon"
     url: ""
     price: null

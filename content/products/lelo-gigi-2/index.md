@@ -8,7 +8,17 @@ rating: 4.4
 category: "premium-feel"
 tags: ["g-spot", "premium", "waterproof", "compact"]
 affiliate_link: ""
+# Manufacturer list price at lelo.com, EUR, verified 2026-08-06 via rendered page.
+price: "109.00"
+price_checked: "2026-08-06"
 offers:
+  # manufacturer list price, geo-served EUR
+  - retailer: "LELO (manufacturer)"
+    url: "https://www.lelo.com/gigi-2"
+    price: 109
+    currency: "EUR"
+    checked: "2026-08-06"
+    available: true
   - retailer: "Amazon"
     url: ""
     price: null

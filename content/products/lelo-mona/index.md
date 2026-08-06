@@ -7,13 +7,21 @@ image: "/images/placeholders/ambient-05.png"
 # price is an approximate US street price, not a quoted figure. Checked
 # 2026-08-05 against retailer listings. Re-check before any price is
 # displayed or an affiliate offer goes live.
+# Confirmed 139 EUR at lelo.com/mona-2 on 2026-08-06.
 price: "139.00"
-price_checked: "2026-08-05"
+price_checked: "2026-08-06"
 rating: 4.6
 category: "premium-feel"
 tags: ["premium", "ergonomic", "quiet", "swedish-design"]
 affiliate_link: ""
 offers:
+  # sold as MONA 2
+  - retailer: "LELO (manufacturer)"
+    url: "https://www.lelo.com/mona-2"
+    price: 139
+    currency: "EUR"
+    checked: "2026-08-06"
+    available: true
   - retailer: "Amazon"
     url: ""
     price: null

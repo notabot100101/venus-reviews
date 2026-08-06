@@ -12,11 +12,19 @@ reviews_count: 27
 # price is an approximate US street price, not a quoted figure. Checked
 # 2026-08-05 against retailer listings. Re-check before any price is
 # displayed or an affiliate offer goes live.
-price: "169.00"
-price_checked: "2026-08-05"
+# Regular list 159 EUR at we-vibe.com/eu 2026-08-06 (on promo at 119); was 169.00.
+price: "159.00"
+price_checked: "2026-08-06"
 best_for: "Adjustable couples fit"
 noise: "Low-medium noise"
 offers:
+  # current promo price; regular list 159 EUR
+  - retailer: "We-Vibe (manufacturer)"
+    url: "https://www.we-vibe.com/eu/sync"
+    price: 119
+    currency: "EUR"
+    checked: "2026-08-06"
+    available: true
   - retailer: "Amazon"
     url: ""
     price: null

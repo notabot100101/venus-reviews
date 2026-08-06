@@ -13,8 +13,9 @@ reviews_count: 42
 # price is an approximate US street price, not a quoted figure. Checked
 # 2026-08-05 against retailer listings. Re-check before any price is
 # displayed or an affiliate offer goes live.
+# Confirmed 199 EUR at lelo.com/enigma on 2026-08-06.
 price: "199.00"
-price_checked: "2026-08-05"
+price_checked: "2026-08-06"
 best_for: "Dual stimulation"
 noise: "Low noise"
 card_excerpt: "Best when you want a premium, quiet-feeling dual-stimulation design and are comfortable paying for a refined motor and finish."
@@ -22,6 +23,12 @@ trust_note: "Luxury silicone build, discreet shipping context, and clear cleanin
 support_note: "Check retailer warranty and return windows before purchase; premium electronics are worth buying from a traceable seller."
 image: "/images/placeholders/ambient-01.png"
 offers:
+  - retailer: "LELO (manufacturer)"
+    url: "https://www.lelo.com/enigma"
+    price: 199
+    currency: "EUR"
+    checked: "2026-08-06"
+    available: true
   - retailer: "Amazon"
     url: ""
     price: null
