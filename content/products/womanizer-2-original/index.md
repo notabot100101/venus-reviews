@@ -1,5 +1,6 @@
 ---
-draft: false
+# unpublished 2026-08-05: product could not be verified to exist
+draft: true
 title: "Womanizer 2 Original"
 price: "149.99"
 rating: 4.7

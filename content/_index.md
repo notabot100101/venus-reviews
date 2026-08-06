@@ -36,17 +36,6 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
         </div>
       </article>
       
-      <!-- Product 2: Womanizer 2 Original -->
-      <article class="product-card">
-        <div class="product-info">
-          <h3>Womanizer 2 Original</h3>
-          <div class="product-rating">★★★★★ 4.7/5</div>
-          <p class="product-price">$149.99</p>
-          <p class="product-category">Quiet Pick</p>
-          <a href="/products/womanizer-2-original/" class="btn btn-sm">Read Review</a>
-        </div>
-      </article>
-      
       <!-- Product 3: Lelo Hugo -->
       <article class="product-card">
         <div class="product-image">

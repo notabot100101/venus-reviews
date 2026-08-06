@@ -10,7 +10,11 @@ weight: 100
 badge: "Premium Wellness"
 rating: 4.7
 reviews_count: 19
-price: "199.99"
+# price is an approximate US street price, not a quoted figure. Checked
+# 2026-08-05 against retailer listings. Re-check before any price is
+# displayed or an affiliate offer goes live.
+price: "189.00"
+price_checked: "2026-08-05"
 category: "prostate"
 best_for: "Premium prostate wellness"
 noise: "Low noise"

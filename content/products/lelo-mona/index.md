@@ -4,10 +4,14 @@ title: "Lelo Mona"
 seo_description: "Lelo Mona 2 review covering G-spot vibrator fit, silicone and ABS materials, waterproof design, noise notes, and how it compares with other premium toys."
 schema_product: true
 image: "/images/placeholders/ambient-02.png"
-price: "399.00"
+# price is an approximate US street price, not a quoted figure. Checked
+# 2026-08-05 against retailer listings. Re-check before any price is
+# displayed or an affiliate offer goes live.
+price: "139.00"
+price_checked: "2026-08-05"
 rating: 4.6
 category: "premium-feel"
-tags: ["suction", "premium", "ergonomic", "quiet", "swiss-engineered"]
+tags: ["premium", "ergonomic", "quiet", "swedish-design"]
 affiliate_link: ""
 offers:
   - retailer: "Amazon"
