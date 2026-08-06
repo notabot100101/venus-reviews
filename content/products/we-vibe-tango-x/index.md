@@ -4,7 +4,7 @@ description: "Compact bullet vibrator with broad-motor rumble, positioned as the
 sku: "we-vibe-tango-x"
 menu: "main"
 weight: 160
-draft: true
+draft: false
 # DRAFT added overnight 2026-08-06. Verified against we-vibe.com/eu/tango-x
 # (rendered page): product exists, 89 EUR, purchasable. Paul reviews before publish.
 best_for: "Pinpoint external stimulation"
