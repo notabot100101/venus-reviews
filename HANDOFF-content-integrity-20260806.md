@@ -7,7 +7,7 @@ Claude Code session. Everything below was verified against the repo, not recalle
 
 ## 1. Status right now
 
-`hostinger-deploy` is **10 commits ahead of `origin/hostinger-deploy` and NOT pushed.**
+`hostinger-deploy` is **18 commits ahead of `origin/hostinger-deploy` and NOT pushed.**
 Production still serves the pre-cleanup content.
 
 **Pushing needs Paul's explicit per-instance authorisation.** He has not given it. Do
@@ -141,20 +141,38 @@ Traps that produced wrong answers in this session, all of them mine:
 
 ---
 
-## 6. Agent reliability, observed this session
+## 6. Agent capability, tested 2026-08-06
 
-Recorded because it bears directly on how much to delegate unsupervised.
+Superseding an earlier, wrong entry here. Both agents were given real bounded work and
+the **artifacts were checked on disk**, not the reports.
 
-- **Pixel / image-creator** — gave an honest, useful "no record" answer on provenance.
-  But asked to generate images it produced **zero files on two separate attempts**,
-  with ComfyUI confirmed up (`localhost:8188` → 200). The first run replied that it
-  understood the brief and stopped; the second returned no reply at all. Something is
-  wrong with its execution path. Verify a file exists on disk before believing a
-  success report.
-- **Architect / planner** — sound reasoning and it caught real problems, but asserted
-  `lelo.com/press` with a confidence mark and the URL is a 404. It also misidentified
-  which branch a commit was on.
+**Architect / planner — works. Trust it with repo work.**
+Given "cherry-pick `fix/remove-dead-testimonials-css` onto a branch off hostinger-deploy
+in your own worktree, verify, do not push", it produced branch
+`forge/remove-dead-testimonials-css` (`e278802`, `1d8ea59`) on top of `c986acf`.
+Verified independently: 56 references to the dead stylesheet → **0**, CSS file deleted,
+60 files changed, not pushed. It also caught something real — the original commit was
+based on `4798cdd` and missed 12 pages added in later merges, so it grepped the current
+tree and fixed them in a second commit. It reported its own limits honestly (no Hugo in
+PATH; could not read the shared tree path directly, worked around it with `git show`).
 
-Both failure reports *looked* fine. If a review gate is built, it must check artifacts
-— file exists, dimensions right, no text rendered, product actually exists — not another
-agent's summary.
+**Pixel / image-creator — generates fine; its REPLY does not come back.**
+Earlier entry said it "produced zero files on two attempts". That was true of those runs
+but the wrong diagnosis. On a third attempt it wrote
+`venus-images/ambient/ambient-05.png` — a valid 1024x1024 RGB PNG, 1.3 MB, ComfyUI
+`prompt` chunk present, and visually on-brief: abstract spa still-life, no text, no
+logos, no people, no product. It returned **no text response at all** through
+`openclaw agent`. So: give Pixel work, then go look for the file. Never wait for its
+report and never conclude from silence that nothing happened.
+
+**Sophia / assistant** — returned an empty response once on 2026-08-06.
+
+**The rule this produces: verify the artifact, never the summary.** That cuts both ways
+— a confident report can describe work that does not exist, and silence can hide work
+that does.
+
+**And check the right object.** Reviewing Architect I first inspected its worktree's
+current HEAD, found an old commit, and nearly recorded it as fabricating. It had simply
+switched the worktree back to `agent/planner` after committing. Check the branch it
+names, with `git log <branch>` / `git merge-base --is-ancestor`, not whatever the
+worktree happens to be pointing at.
