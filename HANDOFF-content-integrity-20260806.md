@@ -156,14 +156,27 @@ based on `4798cdd` and missed 12 pages added in later merges, so it grepped the 
 tree and fixed them in a second commit. It reported its own limits honestly (no Hugo in
 PATH; could not read the shared tree path directly, worked around it with `git show`).
 
-**Pixel / image-creator — generates fine; its REPLY does not come back.**
-Earlier entry said it "produced zero files on two attempts". That was true of those runs
-but the wrong diagnosis. On a third attempt it wrote
-`venus-images/ambient/ambient-05.png` — a valid 1024x1024 RGB PNG, 1.3 MB, ComfyUI
-`prompt` chunk present, and visually on-brief: abstract spa still-life, no text, no
-logos, no people, no product. It returned **no text response at all** through
-`openclaw agent`. So: give Pixel work, then go look for the file. Never wait for its
-report and never conclude from silence that nothing happened.
+**Pixel / image-creator — works. It is SLOW and SILENT. Do not call it broken.**
+Full note: `~/.openclaw/workspaces/image-creator/PIXEL-IS-SLOW-NOT-BROKEN.md`.
+It returns **no text reply at all** — only a plugin banner — and writes its files
+**minutes after the dispatch call returns**. Batches work: one request for eight
+placeholders produced all eight, correct size, visually distinct, nothing
+prohibited in them. Nine good images in total so far.
+
+I called it a failure three separate times, then built a theory that "single-image
+briefs succeed, multi-image briefs fail" and dispatched a retry loop around it.
+The theory was wrong — every one of those runs had already succeeded and I had
+looked at the directory too early.
+
+**Working pattern: dispatch, do not wait for a reply, come back up to an hour
+later, judge only by files on disk.** Paul, 2026-08-06: *"it is very okay when
+Pixel takes some time, it just has to produce good results."*
+
+**Do not swap its model on the strength of a quiet dispatch.** It runs
+`ollama/qwen3.5:9b` with thinking off and that has been sufficient. Changing a
+working agent's config because a call was quiet for five minutes is the specific
+mistake this paragraph exists to prevent — take artifact-backed evidence to Paul
+first.
 
 **Sophia / assistant** — returned an empty response once on 2026-08-06.
 
