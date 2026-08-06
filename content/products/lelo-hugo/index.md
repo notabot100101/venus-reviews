@@ -18,20 +18,7 @@ price_checked: "2026-08-05"
 category: "prostate"
 best_for: "Premium prostate wellness"
 noise: "Low noise"
-image: "/images/products/lelo-hugo/hero/hero-01.png"
-gallery:
-  - src: "/images/products/lelo-hugo/hero/hero-01.png"
-    alt: "Lelo Hugo hero view"
-    caption: "Product hero view"
-  - src: "/images/products/lelo-hugo/lifestyle/lifestyle-01.png"
-    alt: "Lelo Hugo lifestyle view"
-    caption: "Lifestyle context"
-  - src: "/images/products/lelo-hugo/lifestyle/lifestyle-02.png"
-    alt: "Lelo Hugo secondary lifestyle view"
-    caption: "Discreet storage and setup"
-  - src: "/images/products/lelo-hugo/lifestyle.jpg"
-    alt: "Lelo Hugo product setting"
-    caption: "Product setting"
+image: "/images/placeholders/ambient-01.png"
 offers:
   - retailer: "Amazon"
     url: ""
@@ -63,15 +50,6 @@ Lelo Hugo is the prostate-focused premium pick in this Venus batch. It is not a 
 
 Venus has not physically tested this product. This review is based on LELO's live Hugo product page, LELO's published warranty and ISO 3533 language, the current Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, the review says so.
 
-## Product Gallery
-
-![Lelo Hugo hero view](/images/products/lelo-hugo/hero/hero-01.png)
-
-![Lelo Hugo lifestyle view](/images/products/lelo-hugo/lifestyle/lifestyle-01.png)
-
-![Lelo Hugo secondary lifestyle view](/images/products/lelo-hugo/lifestyle/lifestyle-02.png)
-
-![Lelo Hugo product setting](/images/products/lelo-hugo/lifestyle.jpg)
 
 ## Quick Verdict
 
