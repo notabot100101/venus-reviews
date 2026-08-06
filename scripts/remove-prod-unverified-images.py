@@ -61,7 +61,7 @@ the branch and ship that work unreviewed. Same surgical pattern as commits 9f4c1
 (testimonials) and c41ab69 (testing claims).
 
 Usage:  remove-prod-unverified-images.py [--apply] [--all]
-        default: dry run over live (HTML-referenced) imagery
+        default: dry run over live imagery (referenced from served .html/.css/.js)
         --all:   classify every tracked image, not just what is live
         --apply: delete MATCHED_AI files and scrub their references. Never touches
                  UNKNOWN.
@@ -299,15 +299,26 @@ def classify(rel: str, arch: dict[str, list[str]], ai_slugs: set[str],
             "weak": weak, "size": size}
 
 
-def served_html() -> list[Path]:
-    return [p for p in REPO.rglob("*.html")
-            if not (set(p.relative_to(REPO).parts) & NOT_SERVED)]
+# Every served file type that can reference an image. CSS matters as much as HTML:
+# the site's most prominent image, the homepage hero, is set only as a
+# background-image in site-polish.css. Scanning HTML alone reported a clean live
+# set while never examining it - a confident pass over an unexamined surface,
+# which is the same failure this script exists to prevent.
+SERVED_GLOBS = ("*.html", "*.css", "*.js")
+
+
+def served_files() -> list[Path]:
+    out: list[Path] = []
+    for pattern in SERVED_GLOBS:
+        out += [p for p in REPO.rglob(pattern)
+                if not (set(p.relative_to(REPO).parts) & NOT_SERVED)]
+    return out
 
 
 def live_images() -> dict[str, set[str]]:
-    """Image path (repo-relative) -> pages that reference it."""
+    """Image path (repo-relative) -> served files that reference it."""
     refs: dict[str, set[str]] = defaultdict(set)
-    for page in served_html():
+    for page in served_files():
         try:
             text = page.read_text("utf8", errors="ignore")
         except OSError:
@@ -435,7 +446,7 @@ def main() -> int:
                for rel in targets if (REPO / rel).is_file()]
 
     print(f"mode:    {'APPLY' if APPLY else 'dry-run'}")
-    print(f"scope:   {'every tracked image' if SCAN_ALL else 'live (HTML-referenced) imagery'}")
+    print(f"scope:   {'every tracked image' if SCAN_ALL else 'live imagery (html/css/js)'}")
     print(f"archive: {sum(len(v) for v in arch.values())} hashes indexed")
     print(f"README:  products flagged AI -> {sorted(ai_slugs) or 'none'}")
     print(f"files:   {len(results)}")

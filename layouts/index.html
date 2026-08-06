@@ -6,7 +6,7 @@
       <h1>Venus Reviews</h1>
       <p>Discreet, practical buying guidance for premium pleasure products, with clear notes on feel, noise, cleaning, travel, shipping, and who each product fits best.</p>
       <div class="hero-trust" aria-label="Review coverage">
-        <span>12 in-depth reviews</span>
+        <span>{{ len (where (where .Site.RegularPages "Section" "products") "Params.draft" "!=" true) }} in-depth reviews</span>
         <span>Privacy-first guidance</span>
         <span>Beginner-friendly buying guides</span>
       </div>
