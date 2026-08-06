@@ -14,7 +14,7 @@ price: "59.99"
 price_checked: ""
 best_for: "Classic rabbit design"
 noise: "Medium noise"
-image: "/images/placeholders/ambient-03.png"
+image: "/images/placeholders/ambient-05.png"
 offers:
   - retailer: "Amazon"
     url: ""

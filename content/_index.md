@@ -53,7 +53,7 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
       <!-- Product 4: Lovehoney Desire -->
       <article class="product-card">
         <div class="product-image">
-          <img src="/images/placeholders/ambient-03.png" alt="Lovehoney Desire" loading="lazy">
+          <img src="/images/placeholders/ambient-05.png" alt="Lovehoney Desire" loading="lazy">
         </div>
         <div class="product-info">
           <h3>Lovehoney Desire</h3>
