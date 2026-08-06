@@ -42,7 +42,7 @@ offers:
 
 LELO Mona 2 is best understood as a classic premium G-spot vibrator, not a novelty device and not an air-pulse toy. It suits someone who already prefers firm, curved internal pressure with vibration, and who would rather pay for a polished rechargeable design than buy a cheaper experiment. The caveat is that its strengths are specific: Mona 2 is not the most versatile couples toy here, not the smallest travel option, and not the right pick for shoppers who mainly want external suction-style stimulation.
 
-Venus has not physically tested this product. This review is based on LELO's published Mona 2 specifications, LELO's warranty and materials documentation, the current 12-product Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
+Venus has not physically tested this product. This review is based on LELO's published Mona 2 specifications, LELO's warranty and materials documentation, the current 15-product Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
 
 ## Quick Verdict
 
@@ -74,7 +74,7 @@ Noise expectations should stay grounded. LELO documents a maximum noise level of
 
 ## Catalogue Comparisons
 
-Within the Venus 12-product catalogue, Mona 2 sits in the premium-feel, single-purpose internal category. LELO Enigma is the better LELO choice for shoppers who want dual stimulation and a more modern air-pulse/internal combination. LELO Sona 2 is a better fit for external sonic stimulation and shoppers who do not want an insertable toy. LELO Hugo is a separate prostate-focused category and should not be treated as an alternative unless the buyer specifically wants that use case.
+Within the Venus 15-product catalogue, Mona 2 sits in the premium-feel, single-purpose internal category. LELO Enigma is the better LELO choice for shoppers who want dual stimulation and a more modern air-pulse/internal combination. LELO Sona 2 is a better fit for external sonic stimulation and shoppers who do not want an insertable toy. LELO Hugo is a separate prostate-focused category and should not be treated as an alternative unless the buyer specifically wants that use case.
 
 Compared with Womanizer Premium 2, Mona 2 is more traditional and more physical: vibration plus shape, rather than contactless-style clitoral air technology. Compared with We-Vibe Chorus or We-Vibe Sync, Mona 2 is less couples-oriented and lacks app-controlled or wearable positioning as a core selling point. Compared with Lovehoney Desire, Mona 2 is positioned higher on materials polish and warranty documentation, but buyers who are price-sensitive may be happier starting lower.
 

@@ -55,7 +55,7 @@ offers:
 
 Dame Eva II, now presented by Dame as Eva Wearable Vibrator, is the catalogue's compact wearable option for partner-facing external stimulation. It is not a rabbit, not an insertable G-spot vibrator, and not a broad wand. Its core promise is narrower: a small clitoral vibrator intended to stay in place during partnered sex while leaving hands free.
 
-Venus has not physically tested this product. This review is based on Dame's published Eva product page and product JSON, the current 12-product Venus catalogue, and patterns in published user feedback for wearable couples vibrators. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
+Venus has not physically tested this product. This review is based on Dame's published Eva product page and product JSON, the current 15-product Venus catalogue, and patterns in published user feedback for wearable couples vibrators. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
 
 ## Quick Verdict
 

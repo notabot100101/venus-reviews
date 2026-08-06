@@ -53,7 +53,7 @@ offers:
 
 Fun Factory Manta is the most specialized external stimulator in this batch. It is built around a flexible wraparound shape rather than a bullet, palm vibrator, or wand head. Fun Factory's German product page positions Manta as a penis vibrator for solo or couples use, but the broader Venus value is the form factor: flexible wings, more contact area, and deep vibration for shoppers who want something less point-focused than a small tip.
 
-Venus has not physically tested this product. This review is based on Fun Factory's published Manta product page and product JSON, the current 12-product Venus catalogue, and patterns in published user feedback for flexible external stimulators. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
+Venus has not physically tested this product. This review is based on Fun Factory's published Manta product page and product JSON, the current 15-product Venus catalogue, and patterns in published user feedback for flexible external stimulators. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
 
 ## Quick Verdict
 

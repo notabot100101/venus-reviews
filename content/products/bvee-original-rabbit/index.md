@@ -40,7 +40,7 @@ offers:
 
 Bvee Original Rabbit is the classic rabbit-style entry in this batch: a familiar dual-stimulation shape for shoppers who want internal vibration and external contact in one device. It should be framed as a mainstream form-factor comparison, not as a product with a richly documented manufacturer spec sheet. The existing Venus entry positions it as ergonomic, beginner-friendly, and mid-range, but the live manufacturer source could not be identified with enough confidence during this pass.
 
-Venus has not physically tested this product. This review is based on the copied Venus product entry, the current 12-product Venus catalogue, attempted manufacturer-site lookup, and patterns in published feedback for rabbit-style dual stimulators as a category. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
+Venus has not physically tested this product. This review is based on the copied Venus product entry, the current 15-product Venus catalogue, attempted manufacturer-site lookup, and patterns in published feedback for rabbit-style dual stimulators as a category. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
 
 
 ## Quick Verdict

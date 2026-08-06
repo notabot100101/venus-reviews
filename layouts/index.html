@@ -82,7 +82,7 @@
           {{ partial "rating-display.html" (dict "rating" .) }}
         </div>
         {{ end }}
-        <p class="product-card-desc">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
+        <p class="product-card-desc">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | htmlUnescape }}{{ end }}</p>
         {{ with .Params.card_excerpt }}<p class="product-card-excerpt">{{ . }}</p>{{ end }}
         <div class="product-card-meta">
           {{ with .Params.best_for }}<span>{{ . }}</span>{{ end }}

@@ -18,6 +18,12 @@ SOURCE_DIR="${1:?usage: build-deploy-branch.sh <source-dir> <base-url> <deploy-b
 BASE_URL="${2:?missing base-url}"
 DEPLOY_BRANCH="${3:?missing deploy-branch}"
 
+# The only branch that serves the live site; everything else is non-production
+# and gets the indexing guard below. Deliberately an allowlist of exactly one:
+# an unrecognised or misspelled branch name must fail towards "do not index",
+# never towards publishing a second indexable copy of the site.
+PRODUCTION_BRANCH=hostinger-deploy
+
 if [ ! -d "$SOURCE_DIR/.git" ]; then
   echo "ERROR: $SOURCE_DIR is not a git repo (expected the Hugo source with a real git history)." >&2
   exit 1
@@ -38,6 +44,30 @@ if [ ! -f "$BUILD_DIR/index.html" ]; then
   echo "ERROR: Hugo build did not produce an index.html - aborting, not touching any branch." >&2
   rm -rf "$BUILD_DIR"
   exit 1
+fi
+
+# Non-production environments must never be indexed - they are full duplicates of
+# the live affiliate site and would compete with it for the same keywords
+# (playbook: "Non-production environments keep robots.txt Disallow: / and no
+# sitemap"). promote-version.sh has always done this; this script had not, so
+# staging/dev/preview builds shipped indexable. Two separate holes, both needed:
+#   - robots.txt is a TRACKED file at the source root, not Hugo output (there is
+#     no enableRobotsTXT in hugo.toml). The root wipe below deletes it and the
+#     build never replaces it, so the branch ends up with NO robots.txt at all -
+#     and a missing robots.txt means "crawl everything".
+#   - Hugo DOES emit sitemap.xml, so the non-prod copy actively invites indexing.
+# Production (hostinger-deploy) is skipped entirely: it keeps its own Allow: /
+# robots.txt and sitemap. Never invert this.
+if [ "$DEPLOY_BRANCH" != "$PRODUCTION_BRANCH" ]; then
+  cat > "$BUILD_DIR/robots.txt" <<'ROBOTS'
+# Non-production environment. Never index.
+User-agent: *
+Disallow: /
+ROBOTS
+  rm -f "$BUILD_DIR/sitemap.xml"
+  echo "Non-production branch '$DEPLOY_BRANCH': robots.txt set to Disallow, sitemap.xml removed."
+else
+  echo "Production branch '$DEPLOY_BRANCH': keeping the site's own robots.txt and sitemap."
 fi
 
 # Stage the flattened output onto the deploy branch without disturbing the
