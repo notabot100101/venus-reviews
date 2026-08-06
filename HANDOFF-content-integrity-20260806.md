@@ -216,3 +216,32 @@ current HEAD, found an old commit, and nearly recorded it as fabricating. It had
 switched the worktree back to `agent/planner` after committing. Check the branch it
 names, with `git log <branch>` / `git merge-base --is-ancestor`, not whatever the
 worktree happens to be pointing at.
+
+---
+
+## Overnight session addendum (2026-08-06 night)
+
+State of `hostinger-deploy` (LOCAL, none of this pushed — Paul decides):
+
+| commit | what |
+|---|---|
+| `d8d4590` | .htaccess comment corrections (comment-only) |
+| `7544292` | /best-for/value/ article body restored (was serving EMPTY live) |
+| `c095ded` | 12 products price-verified vs manufacturer pages; 8 render, 4+1 honestly hidden; best-offer requires available:true |
+| `d904940` | 3 draft product pages (Tango X, Sila, VIM) — draft:true, not served |
+
+Version branches stored for review (built, committed, NOT merged):
+- `venus-imagery-headers` — 12 ambient headers on all best-for/guide pages
+- `venus-tags-unretired` — compact/external/g-spot/waterproof live again
+- `venus-new-products` — the 3 new product pages published
+
+Other work: trade.ultramarine963.com source recovered to
+`~/.openclaw/workspaces/worker/trade-site/` (see its README — this is the
+trading-bots sales site, Formspree mlgwljjn, live since Feb). Trade-site hero
+image generated. Echo's fact sheet: `directives/VENUS-SITE-FACTS.md`.
+
+Still open, needs Paul: push authorization for the 4 local commits; pick/merge
+versions; tag-retirement direction (branch exists for option 2); lelo-hugo page
+should mention the original is sold out at LELO (successor Hugo 2, 179 EUR);
+`swedish-design` tag title + best-for price-disclaimer hand-fixes need
+backporting to source; GitHub workflow branch still needs web-UI landing.
