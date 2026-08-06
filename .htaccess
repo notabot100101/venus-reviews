@@ -52,4 +52,14 @@ Redirect 301 /products/compare/ /products/
 </FilesMatch>
 
 # Block source and tooling directories outright.
-RedirectMatch 404 ^/(content|layouts|archive|scripts|docs|data|\.bin|\.backup)(/|$)
+#
+# public/ is Hugo's build output directory. deploy.sh rsyncs it to the branch root
+# (what Hostinger serves), so every page under /public/ was a served duplicate of its
+# root twin - confirmed 2026-08-05, /public/products/lelo-mona/ and /public/index.html
+# both returned 200. Nothing links to /public/, and no page emits rel=canonical, so
+# Google had two equally-valid copies of the whole site and no tiebreak. The copies had
+# also drifted: /public/best-for/ was missing the five hand-written pages (couples,
+# luxury, technology, travel, value) while still serving four retired ones.
+# Also untracked from git in this same commit; this rule is the belt to that braces,
+# since a Hostinger sync that does not delete would otherwise leave the files served.
+RedirectMatch 404 ^/(content|layouts|archive|scripts|docs|data|public|\.bin|\.backup)(/|$)

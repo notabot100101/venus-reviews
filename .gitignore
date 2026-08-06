@@ -1,3 +1,10 @@
 screenshots/
 *.log
 .github/
+
+# Hugo build output. deploy.sh rsyncs public/ to the branch root, which is what
+# Hostinger serves - so tracking it published a stale duplicate of every page at
+# /public/*. It was removed once in a42d684 for exactly this reason and came back
+# accidentally in 49c7a25 via deploy.sh's `git add -A`. Ignoring it keeps that
+# sweep from re-adding it; the root sync deploy.sh performs is unaffected.
+public/
