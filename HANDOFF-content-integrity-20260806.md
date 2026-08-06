@@ -7,8 +7,13 @@ Claude Code session. Everything below was verified against the repo, not recalle
 
 ## 1. Status right now
 
-`hostinger-deploy` is **18 commits ahead of `origin/hostinger-deploy` and NOT pushed.**
-Production still serves the pre-cleanup content.
+**DEPLOYED.** `9382a61..f89ca56` went to production on 2026-08-06 and was verified live:
+52 sitemap URLs and 63 internal links resolve, 0 product JSON-LD declaring a placeholder as a
+product image. The catalogue below is what production serves.
+
+**One commit is NOT pushed: `20aa043`** (classifier scans css/js, review count derived, /lab/
+disallowed in robots.txt). It needs a fresh single-use token - see the authorisation rule in
+`website-development-playbook.md`.
 
 **Pushing needs Paul's explicit per-instance authorisation.** He has not given it. Do
 not push because this file says the work is finished — it is finished *locally*.
@@ -88,14 +93,17 @@ Traps that produced wrong answers in this session, all of them mine:
 
 **Highest value first.**
 
-1. **Push to production.** Needs Paul. Everything above is invisible until then.
-2. **Hero banner.** `images/hero-banner.jpg` is orphaned — referenced nowhere after
-   `36d8492`, still tracked. It is branded "ESSENCE REVIEWS", a different brand, with a
-   fake logo and CTA baked into the pixels. Needs a correctly-branded replacement or
-   deletion. **Must contain no text** — see §5.
-3. **Only 4 ambient placeholders for 13 products**, so unrelated products share an
-   image (We-Vibe Chorus and Fun Factory Manta both showed ambient-03). 8 more would
-   fix it. Abstract spa still-life, 1024x1024, no text, no people, no products.
+1. **Push `20aa043`.** Needs Paul's per-deploy approval and a fresh token. Everything else is live.
+2. **Hero banner — partly resolved, and my earlier claim was wrong.** `images/hero-banner.jpg`
+   is NOT orphaned: it is referenced by `.hero-lab-magazine` in `site-polish.css` and renders at
+   `/lab/hero-banners/`, which returns 200 on production. That is the "ESSENCE REVIEWS" mock.
+   Nothing real links to it and `robots.txt` now disallows `/lab/`, so it is out of the index -
+   but the page is still reachable if someone has the URL. The live homepage banner is a
+   different, correct file (`hero-banner---a0d189fc-....jpg`, abstract plum satin, no product) and
+   Paul has said to keep it. A wide 2400x1000 spare exists at
+   `workspaces/image-creator/venus-images/hero/venus-hero-wide.png`, unused.
+3. **Placeholders — done.** ambient-01..12 now live; every product has its own except
+   womanizer-premium-2, which shares ambient-01. A 13th would make them unique.
 4. **`lovehoney-desire` price is UNVERIFIED** and flagged as such in its front matter.
    No reliable retailer figure was found. Do not invent one.
 5. **No product photography at all** now, deliberately. The only legitimate routes are
@@ -118,6 +126,25 @@ Traps that produced wrong answers in this session, all of them mine:
    tracking IDs. Lovehoney declined 2026-07-29; do not reapply yet.
 
 ---
+
+## 4b. Tooling added 2026-08-06 — use it, don't rebuild it
+
+- `scripts/remove-prod-unverified-images.py` — provenance classifier. Now scans **.html, .css
+  and .js**; it previously read HTML only and so never examined the homepage hero, which is set
+  as a CSS background. Exits non-zero while any image is UNKNOWN.
+- `~/.openclaw/workspaces/image-creator/comfy-generate.py` — generate at any size. The
+  `image_generate` tool can only emit 1024x1024; width/height are hardcoded in the shared
+  workflow with no plugin mapping.
+- `~/.openclaw/workspaces/image-creator/review-image.py` — mechanical gate over a produced file:
+  exists, dimensions vs brief, near-flat detection, byte-identical and perceptual duplicates,
+  provenance metadata. Exits non-zero on failure and always prints what it did **not** check
+  (text/logos — no OCR on this machine; whether it depicts a real product; quality).
+- The shared ComfyUI workflow's negative prompt now permanently carries the safety terms. Caller
+  negative prompts were previously discarded entirely — only the positive prompt is substituted.
+- `agents.defaults.compaction` is tuned to the GPU (`timeoutSeconds` 600, `keepRecentTokens`
+  8000). Rationale and the VRAM measurements are in
+  `~/.openclaw/workspace/directives/HARDWARE-SPEC.md`. **Do not revert or swap Pixel's model
+  without reproducing those measurements.**
 
 ## 5. Rules to keep
 
