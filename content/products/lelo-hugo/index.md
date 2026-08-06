@@ -59,6 +59,13 @@ Lelo Hugo is the prostate-focused premium pick in this Venus batch. It is not a 
 Venus has not physically tested this product. This review is based on LELO's live Hugo product page, LELO's published warranty and ISO 3533 language, the current Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, the review says so.
 
 
+## Availability Note (checked 6 August 2026)
+
+The original HUGO showed 189 EUR but **SOLD OUT** on LELO's own product page
+when checked. LELO's successor, HUGO 2, sells at 179 EUR with app control
+(lelo.com/hugo-2). Until stock returns, buyers following this review should
+expect to land on the successor model, which this page does not yet cover.
+
 ## Quick Verdict
 
 Hugo belongs on the shortlist for shoppers who specifically want a premium prostate massager with a remote-control setup and a compact insertable length. LELO's documentation makes the core proposition easy to compare: body-safe silicone and ABS plastic, 100% waterproof construction, 2-hour runtime, 50 dB max noise, and a 1-button plus remote interface. The main caveat is category fit. Prostate toys require comfort, preparation, anatomy compatibility, and realistic expectations; a strong spec sheet does not make this a casual impulse purchase.
