@@ -8,7 +8,10 @@ weight: 120
 badge: "Mid-Range Bestseller"
 rating: 4.7
 reviews_count: 31
+# UNVERIFIED price: no reliable retailer figure was found on 2026-08-05.
+# Do not display or publish this number until it is checked.
 price: "59.99"
+price_checked: ""
 best_for: "Classic rabbit design"
 noise: "Medium noise"
 image: "/images/products/lovehoney-desire/hero/hero-01.png"

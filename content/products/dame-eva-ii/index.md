@@ -15,7 +15,11 @@ weight: 50
 badge: "Compact Pick"
 rating: 4.6
 reviews_count: 38
-price: "129.99"
+# price is an approximate US street price, not a quoted figure. Checked
+# 2026-08-05 against retailer listings. Re-check before any price is
+# displayed or an affiliate offer goes live.
+price: "140.00"
+price_checked: "2026-08-05"
 best_for: "Hands-free fit"
 noise: "Low noise"
 image: "/images/placeholders/ambient-02.png"

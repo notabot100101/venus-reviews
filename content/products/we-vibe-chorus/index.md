@@ -8,7 +8,11 @@ weight: 60
 badge: "Couples Pick"
 rating: 4.5
 reviews_count: 31
-price: "89.99"
+# price is an approximate US street price, not a quoted figure. Checked
+# 2026-08-05 against retailer listings. Re-check before any price is
+# displayed or an affiliate offer goes live.
+price: "219.00"
+price_checked: "2026-08-05"
 best_for: "Partnered use"
 noise: "Medium noise"
 card_excerpt: "Best for couples who want app-enabled control and flexible fit, with a little more setup than a simple solo device."

@@ -17,7 +17,11 @@ weight: 80
 badge: "Flexible Shape"
 rating: 4.4
 reviews_count: 24
-price: "119.99"
+# price is an approximate US street price, not a quoted figure. Checked
+# 2026-08-05 against retailer listings. Re-check before any price is
+# displayed or an affiliate offer goes live.
+price: "130.00"
+price_checked: "2026-08-05"
 best_for: "Flexible external use"
 noise: "Medium noise"
 offers:

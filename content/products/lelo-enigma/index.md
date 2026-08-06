@@ -10,7 +10,11 @@ weight: 40
 badge: "Advanced Pick"
 rating: 4.8
 reviews_count: 42
-price: "149.99"
+# price is an approximate US street price, not a quoted figure. Checked
+# 2026-08-05 against retailer listings. Re-check before any price is
+# displayed or an affiliate offer goes live.
+price: "199.00"
+price_checked: "2026-08-05"
 best_for: "Dual stimulation"
 noise: "Low noise"
 card_excerpt: "Best when you want a premium, quiet-feeling dual-stimulation design and are comfortable paying for a refined motor and finish."

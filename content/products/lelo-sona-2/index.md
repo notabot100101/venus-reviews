@@ -10,7 +10,11 @@ weight: 110
 badge: "Sonic Wave"
 rating: 4.8
 reviews_count: 22
-price: "179.99"
+# price is an approximate US street price, not a quoted figure. Checked
+# 2026-08-05 against retailer listings. Re-check before any price is
+# displayed or an affiliate offer goes live.
+price: "99.00"
+price_checked: "2026-08-05"
 category: "external-stimulation"
 best_for: "Focused external stimulation"
 noise: "Low-medium noise"

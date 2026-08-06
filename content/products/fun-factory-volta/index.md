@@ -17,7 +17,11 @@ weight: 90
 badge: "Precision Pick"
 rating: 4.3
 reviews_count: 21
-price: "109.99"
+# price is an approximate US street price, not a quoted figure. Checked
+# 2026-08-05 against retailer listings. Re-check before any price is
+# displayed or an affiliate offer goes live.
+price: "139.00"
+price_checked: "2026-08-05"
 best_for: "Precise external contact"
 noise: "Medium noise"
 offers:
