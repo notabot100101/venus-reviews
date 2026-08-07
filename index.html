@@ -1,410 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Trading Bot - Automate Your Crypto Trading</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: #fff;
-        }
-        
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 100px 20px;
-            text-align: center;
-        }
-        
-        header h1 {
-            font-size: 3em;
-            margin-bottom: 20px;
-            font-weight: 700;
-        }
-        
-        header p {
-            font-size: 1.3em;
-            margin-bottom: 40px;
-            opacity: 0.95;
-        }
-        
-        .cta-button {
-            display: inline-block;
-            background: white;
-            color: #667eea;
-            padding: 15px 40px;
-            border-radius: 50px;
-            font-size: 1.1em;
-            font-weight: 600;
-            text-decoration: none;
-            cursor: pointer;
-            border: none;
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        
-        .cta-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-        }
-        
-        section {
-            max-width: 1000px;
-            margin: 80px auto;
-            padding: 0 20px;
-        }
-        
-        h2 {
-            font-size: 2.2em;
-            margin-bottom: 30px;
-            color: #222;
-        }
-        
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
-        }
-        
-        .feature-card {
-            padding: 30px;
-            border: 1px solid #e0e0e0;
-            border-radius: 10px;
-            background: #f9f9f9;
-        }
-        
-        .feature-card h3 {
-            font-size: 1.3em;
-            margin-bottom: 15px;
-            color: #667eea;
-        }
-        
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
-            text-align: center;
-        }
-        
-        .stat-box {
-            padding: 30px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border-radius: 10px;
-        }
-        
-        .stat-box .number {
-            font-size: 2.5em;
-            font-weight: 700;
-            margin-bottom: 10px;
-        }
-        
-        .stat-box .label {
-            font-size: 1em;
-            opacity: 0.95;
-        }
-        
-        .faq {
-            margin-top: 60px;
-        }
-        
-        .faq-item {
-            margin-bottom: 30px;
-            padding-bottom: 30px;
-            border-bottom: 1px solid #e0e0e0;
-        }
-        
-        .faq-item:last-child {
-            border-bottom: none;
-        }
-        
-        .faq-item h3 {
-            color: #667eea;
-            margin-bottom: 10px;
-            font-size: 1.1em;
-        }
-        
-        .faq-item p {
-            color: #555;
-            line-height: 1.8;
-        }
-        
-        .pricing {
-            background: #f9f9f9;
-            padding: 60px 20px;
-            text-align: center;
-        }
-        
-        .pricing h2 {
-            margin-bottom: 50px;
-        }
-        
-        .pricing-note {
-            font-size: 1.1em;
-            color: #666;
-            margin-bottom: 40px;
-        }
-        
-        footer {
-            background: #222;
-            color: white;
-            text-align: center;
-            padding: 40px 20px;
-        }
-        
-        footer p {
-            opacity: 0.8;
-        }
-        
-        .email-form {
-            max-width: 500px;
-            margin: 40px auto;
-            display: flex;
-            gap: 10px;
-        }
-        
-        .email-form input {
-            flex: 1;
-            padding: 12px 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            font-size: 1em;
-        }
-        
-        .email-form button {
-            padding: 12px 30px;
-            background: #667eea;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 1em;
-            cursor: pointer;
-            font-weight: 600;
-            transition: background 0.3s;
-        }
-        
-        .email-form button:hover {
-            background: #764ba2;
-        }
-        
-        .highlight {
-            color: #667eea;
-            font-weight: 600;
-        }
-        
-        .risk-warning {
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
-            padding: 20px;
-            margin: 30px 0;
-            border-radius: 5px;
-        }
-        
-        .risk-warning strong {
-            color: #856404;
-        }
-        
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 2em;
-            }
-            
-            header p {
-                font-size: 1.1em;
-            }
-            
-            h2 {
-                font-size: 1.8em;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trading Testbed — OpenClaw</title>
+  <meta name="description" content="Experimental multi-agent trading research — open, honest, build-in-public.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <meta name="robots" content="noindex, nofollow">
 </head>
 <body>
-    <!-- HERO SECTION -->
-    <header>
-        <h1>Automate Your Crypto Trading</h1>
-        <p>Grid trading bots that work 24/7. Profit from volatility, not luck.</p>
-        <button class="cta-button" onclick="document.getElementById('signup').scrollIntoView({behavior: 'smooth'})">
-            Get Early Access
-        </button>
-    </header>
 
-    <!-- PROBLEM SECTION -->
-    <section>
-        <h2>Crypto Trading Is Hard. Emotions Are Harder.</h2>
-        <p style="font-size: 1.1em; color: #666; line-height: 1.9;">
-            You watch charts. You FOMO in. You panic sell. You lose money. 
-            <br><br>
-            Or you try to time the market perfectly. Nobody does that.
-            <br><br>
-            <span class="highlight">What if your trading could happen while you sleep?</span>
-        </p>
-    </section>
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="logo"><span>&#9670;</span> OpenClaw Trading Testbed</a>
+    <nav class="nav">
+      <a href="index.html" class="active">About</a>
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
+  </div>
+</header>
 
-    <!-- HOW IT WORKS SECTION -->
-    <section>
-        <h2>How Grid Trading Works</h2>
-        <div style="font-size: 1.05em; color: #666; line-height: 1.9;">
-            <p><strong>1. You set a price range</strong> (e.g., €1,900 - €2,100 for ETH)</p>
-            <p style="margin-top: 15px;"><strong>2. The bot automatically buys on dips, sells on bounces</strong></p>
-            <p style="margin-top: 15px;"><strong>3. It repeats this cycle continuously</strong></p>
-            <p style="margin-top: 15px;"><strong>4. You profit from the natural price swings — not direction</strong></p>
-        </div>
-        
-        <div style="margin-top: 40px; padding: 20px; background: #f0f4ff; border-radius: 10px;">
-            <p style="font-size: 1.05em;">
-                <strong>The Key Difference:</strong><br>
-                ❌ Traditional trading: Guess if price goes up or down<br>
-                ✅ Grid trading: Profit whether it goes up, down, or sideways
-            </p>
-        </div>
-    </section>
+<main>
+  <div class="container">
 
-    <!-- PROOF SECTION -->
-    <section>
-        <h2>Tested on Real Market Data</h2>
-        <p style="font-size: 1.05em; color: #666; margin-bottom: 30px;">
-            We backtested our grid bot on 5+ months of actual market data from Binance:
-        </p>
-        
-        <div class="stats">
-            <div class="stat-box">
-                <div class="number">+12.16%</div>
-                <div class="label">ETH/USDT Return</div>
-                <div style="font-size: 0.9em; margin-top: 5px; opacity: 0.8;">32 trades</div>
-            </div>
-            <div class="stat-box">
-                <div class="number">+13.15%</div>
-                <div class="label">SOL/USDT Return</div>
-                <div style="font-size: 0.9em; margin-top: 5px; opacity: 0.8;">38 trades</div>
-            </div>
-            <div class="stat-box">
-                <div class="number">&lt;9%</div>
-                <div class="label">Max Drawdown</div>
-                <div style="font-size: 0.9em; margin-top: 5px; opacity: 0.8;">Risk managed</div>
-            </div>
-        </div>
-        
-        <div class="risk-warning">
-            <strong>⚠️ Important:</strong> Past performance ≠ future results. But these are real backtests against actual price history. Not hypothetical.
-        </div>
-    </section>
+    <!-- DISCLAIMER — every page -->
+    <div class="disclaimer-banner">
+      <strong>&#9888; Not investment advice.</strong> This is an experimental research
+      project. Past performance (where it exists) means nothing. No profit promises are
+      made or implied. Real-money activity is capped at 150 EUR and self-expires after
+      28 days. <a href="#disclaimer-full">Read full disclaimer</a>.
+    </div>
 
-    <!-- FEATURES SECTION -->
-    <section>
-        <h2>Everything You Need</h2>
-        <div class="feature-grid">
-            <div class="feature-card">
-                <h3>🌍 Multi-Pair Support</h3>
-                <p>Start with ETH & SOL. Add more pairs as you scale.</p>
-            </div>
-            <div class="feature-card">
-                <h3>⚙️ Adjustable Grid</h3>
-                <p>Set your own price range, grid levels, and risk per trade. Full control.</p>
-            </div>
-            <div class="feature-card">
-                <h3>🤖 24/7 Automation</h3>
-                <p>Place orders, execute trades, collect profits — while you sleep.</p>
-            </div>
-            <div class="feature-card">
-                <h3>🛡️ Safety First</h3>
-                <p>Hard stop-loss limits. Circuit breakers. Your capital is protected.</p>
-            </div>
-            <div class="feature-card">
-                <h3>📊 Daily Reports</h3>
-                <p>Every morning: P&L, trades executed, positions. Full transparency.</p>
-            </div>
-            <div class="feature-card">
-                <h3>🔐 Your Exchange</h3>
-                <p>Direct Binance API. Your keys, your control. We never hold your funds.</p>
-            </div>
-        </div>
-    </section>
+    <h1>Multi-Agent Trading <span class="highlight">Research</span></h1>
 
-    <!-- FAQ SECTION -->
-    <section class="faq">
-        <h2>Common Questions</h2>
-        
-        <div class="faq-item">
-            <h3>How much money do I need to start?</h3>
-            <p>Minimum €50 to test, €500+ to see real results. The more capital, the bigger the profits (and bigger potential losses).</p>
-        </div>
-        
-        <div class="faq-item">
-            <h3>Can I lose my entire investment?</h3>
-            <p>Yes. Grid trading is not risk-free. We have stop-loss limits, but markets can move fast. Only invest what you can afford to lose.</p>
-        </div>
-        
-        <div class="faq-item">
-            <h3>How often does it trade?</h3>
-            <p>Depends on volatility. 10-40 trades per month is typical. You see every trade in your daily report.</p>
-        </div>
-        
-        <div class="faq-item">
-            <h3>What if the bot crashes?</h3>
-            <p>Our system has failsafes. If anything goes wrong, it auto-cancels all open orders. You stay safe.</p>
-        </div>
-        
-        <div class="faq-item">
-            <h3>Do you hold my funds?</h3>
-            <p>No. Ever. You connect via Binance API, we trade on your behalf, profits go back to your account. We can't access or move your money.</p>
-        </div>
-        
-        <div class="faq-item">
-            <h3>When does it launch?</h3>
-            <p>Q2 2026. We're stress-testing on real market conditions through April first.</p>
-        </div>
-    </section>
+    <p class="lead" style="font-size:1.1rem;color:#c9d1d9;margin-bottom:2rem;">
+      An open, honest, build-in-public experiment: can a team of autonomous AI agents
+      research, decide, and execute cryptocurrency trades without human intervention?
+      Probably not — and that failure is the data.
+    </p>
 
-    <!-- PRICING SECTION -->
-    <section class="pricing">
-        <h2>Simple Pricing</h2>
-        <p class="pricing-note">Final pricing coming soon. Early access members get 30% off lifetime.</p>
-        <p style="color: #888; font-size: 1em;">
-            We're considering:<br>
-            <strong>Starter</strong>: €29/month (1 pair)<br>
-            <strong>Pro</strong>: €79/month (unlimited pairs)<br>
-            <strong>Enterprise</strong>: Custom pricing
-        </p>
-    </section>
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-value">7</div>
+        <div class="stat-label">Active Trading Pairs</div>
+      </div>
+      <div class="stat-card stat-zero">
+        <div class="stat-value">0</div>
+        <div class="stat-label">Testnet Trades (post-reset)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">&euro;150</div>
+        <div class="stat-label">Real-Money Cap</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-value">28</div>
+        <div class="stat-label">Day Review Window</div>
+      </div>
+    </div>
 
-    <!-- EMAIL SIGNUP SECTION -->
-    <section id="signup" style="text-align: center;">
-        <h2>Ready to Automate?</h2>
-        <p style="font-size: 1.1em; color: #666; margin-bottom: 30px;">
-            Join the early access list. Get lifetime discount when we launch.
-        </p>
-        
-        <form class="email-form" action="https://formspree.io/f/mlgwljjn" method="POST">
-            <input type="email" name="email" placeholder="your@email.com" required>
-            <button type="submit">Get Early Access</button>
-        </form>
-        
-        <p style="color: #999; font-size: 0.9em; margin-top: 15px;">
-            No spam. We'll only email you when we launch. Unsubscribe anytime.
-        </p>
-    </section>
+    <h2>What This Is</h2>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2026 Grid Trading Bot. Built by traders, for traders.</p>
-        <p style="margin-top: 10px; font-size: 0.9em;">Not financial advice. Trade at your own risk.</p>
-    </footer>
+    <p>
+      The <strong>OpenClaw Trading Testbed</strong> is an experimental research system.
+      Multiple AI agents — each with distinct roles (research, signal generation, risk
+      management, execution) — collaborate to trade cryptocurrency pairs on the
+      <strong>Binance testnet</strong>, with a small, hard-capped real-money pilot
+      running in parallel.
+    </p>
 
-    <script>
-        // Optional: Simple form handling
-        // For now, this uses Formspree (free service that collects emails)
-        // Replace YOUR_FORM_ID with your Formspree form ID
-    </script>
+    <p>
+      This is <strong>not</strong> a trading bot you can buy, copy, or subscribe to.
+      It is not a signal service. It is not a hedge fund. It is a research project
+      conducted openly, with all public data published for anyone to inspect.
+    </p>
+
+    <h2>Build in Public</h2>
+
+    <p>
+      Every public-facing data point lives in the <a href="dashboard.html">live dashboard</a>,
+      refreshed from the actual system. The dashboard shows <strong>whatever the data
+      says</strong> — including the zeros. As of this writing the testnet was reset on
+      2026-08-05, so the evidence clock restarted from zero. That is not embarrassing;
+      that is honest. The whole point of building in public is showing the process,
+      not curating a highlight reel.
+    </p>
+
+    <p>
+      This approach is consistent with <strong>Echo's build-in-public campaign</strong>:
+      transparent, evidence-first, no fabricated screenshots, no cherry-picked winners.
+      What works is shared; what doesn't is shared too.
+    </p>
+
+    <h2>Architecture</h2>
+
+    <div class="card">
+      <h3>Agent Team</h3>
+      <ul>
+        <li><strong>Research agent</strong> — monitors market conditions, news sentiment, on-chain data</li>
+        <li><strong>Signal agent</strong> — generates trade signals from researched inputs</li>
+        <li><strong>Risk agent</strong> — evaluates position sizing, portfolio exposure, drawdown limits</li>
+        <li><strong>Execution agent</strong> — places orders on Binance testnet / pilot exchange</li>
+        <li><strong>Coordinator</strong> — routes decisions, maintains state, logs everything</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Environments</h3>
+      <p><strong>Testnet</strong> — 7 active pairs, zero fills post-reset, 14-day minimum evaluation gate.<br>
+      <strong>Real-money pilot</strong> — live since 2026-08-07, hard-capped at 150 EUR, 28-day self-expiring review window.</p>
+    </div>
+
+    <h2>What This Is Not</h2>
+
+    <ul>
+      <li>Not a recommendation to buy or sell any asset</li>
+      <li>Not financial or investment advice</li>
+      <li>Not a signal service or copy-trading platform</li>
+      <li>Not a commercial product — all results are research data</li>
+      <li>Not a guarantee of future performance (present or absent)</li>
+    </ul>
+
+    <h2 id="disclaimer-full">Full Disclaimer</h2>
+
+    <div class="card" style="font-size:0.85rem;color:#8b949e;">
+      <p><strong>Experimental System.</strong> The OpenClaw Trading Testbed is an
+      experimental research system. It is provided for informational and educational
+      purposes only.</p>
+
+      <p><strong>Not Investment Advice.</strong> Nothing on this site constitutes
+      investment advice, financial advice, trading advice, or any other type of advice.
+      You should not treat any content as a recommendation to buy, sell, or hold any
+      cryptocurrency or other asset.</p>
+
+      <p><strong>Past Performance.</strong> Any trading results shown (including zeros)
+      are purely informational. Past performance is not indicative of future results.
+      Trading cryptocurrencies involves substantial risk of loss.</p>
+
+      <p><strong>No Profit Promises.</strong> No claims are made about the profitability
+      of this system. The real-money pilot is capped at 150 EUR specifically to limit
+      financial exposure. The testnet uses simulated funds.</p>
+
+      <p><strong>No Warranty.</strong> This system is provided "as is" without warranty
+      of any kind, express or implied. The operators disclaim all liability for any
+      losses arising from use of this information.</p>
+
+      <p><strong>Last updated:</strong> 2026-08-07</p>
+    </div>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>OpenClaw Trading Testbed &mdash; Experimental Research &mdash; <a href="dashboard.html">Live Dashboard</a></p>
+  </div>
+</footer>
+
 </body>
 </html>

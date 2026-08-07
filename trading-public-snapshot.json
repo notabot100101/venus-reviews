@@ -1,0 +1,35 @@
+{
+  "_comment": "PUBLIC-SAFE snapshot for dashboard. NO secrets/balances/positions. Sources: reports/ab-test-results-20260807-090009.json, reports/pnl-fees-drawdown-latest.json, reports/testnet-reset-events.json, reports/replenish-grids-production-latest.json, REAL-MONEY-PILOT-PROPOSAL-20260805.md",
+  "active_pairs": 7,
+  "testnet": {
+    "since": "2026-08-05",
+    "note": "Testnet reset detected 2026-08-05; A/B evidence clock restarted from zero",
+    "performance_summary": {
+      "win_count": 0,
+      "loss_count": 0,
+      "net_pnl_percent": 0.0,
+      "note": "Post-reset: 0 fills across all pairs (day 0.0 of 14 minimum gate)"
+    }
+  },
+  "production_pilot": {
+    "status": "live",
+    "live_since": "2026-08-07",
+    "capital_cap_eur": 150,
+    "review_window": {
+      "day": 0,
+      "total_days": 28,
+      "note": "28-day self-expiring review window"
+    },
+    "note": "Real-money pilot started 2026-08-07. Cap hard-coded at 150 EUR."
+  },
+  "disclaimers": [
+    "Experimental system",
+    "Not investment advice",
+    "Past performance means nothing"
+  ],
+  "last_updated": "2026-08-07T20:19:33.552244+00:00",
+  "data_freshness": {
+    "testnet_data_timestamp": "2026-08-07T09:00:09+00:00",
+    "pilot_data_timestamp": "2026-08-07T17:03:09+00:00"
+  }
+}
