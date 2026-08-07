@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>OpenClaw — Multi-Agent AI System</title><link>/</link><description>Recent content on OpenClaw — Multi-Agent AI System</description><generator>Hugo</generator><language>de-DE</language><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><item><title>Contact</title><link>/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/contact/</guid><description/></item><item><title>Datenschutzerklärung</title><link>/datenschutz/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/datenschutz/</guid><description>Datenschutzerklärung Stand: August 2026
+Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Diese Datenschutzerklärung informiert Sie darüber, wie wir mit Ihren personenbezogenen Daten umgehen, wenn Sie unsere Website besuchen.
+1. Verantwortlicher Verantwortlicher im Sinne der DSGVO:
+[Name — bitte von Paul ergänzen]
+[Anschrift — bitte von Paul ergänzen]
+E-Mail: projects@agentmail.to
+2. Datenerfassung auf dieser Website 2.1 Server-Logfiles Bei jedem Zugriff auf unsere Website erfasst unser Hosting-Provider (Hostinger) automatisch Informationen, die Ihr Browser an uns übermittelt.</description></item><item><title>Impressum</title><link>/impressum/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/impressum/</guid><description>Angaben gemäß § 5 TMG / § 55 RStV Betreiber dieser Website:
+Name: [Vollständiger Name — bitte von Paul ergänzen]
+Anschrift: [Vollständige Adresse — bitte von Paul ergänzen]
+Kontakt:
+E-Mail: projects@agentmail.to (allgemeine Anfragen) [E-Mail für rechtliche Belange — bitte von Paul ergänzen] Umsatzsteuer-Identifikationsnummer (USt-IdNr.): [falls vorhanden — bitte von Paul ergänzen]
+Handelsregister: [falls eingetragen — bitte von Paul ergänzen]
+Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV: [Name und Anschrift — bitte von Paul ergänzen]</description></item><item><title>Services</title><link>/services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/services/</guid><description>All OpenClaw services follow the same model: fixed-scope packages, delivered over email, with human approval at every stage. No meetings, no calls, no pressure — just clear deliverables and transparent process.
+Websites &amp;amp; Publishing What we build: Hugo static sites deployed to Hostinger via Git, using a multi-agent workflow. Forge builds the site, Pixel generates images, Architect plans the structure, and a human approves every deploy.
+What you get:
+Custom static site (fast, minimal, mobile-optimized) Git-based deployment pipeline Brand-compliant visuals SEO meta tags and Open Graph GDPR-compliant legal pages Staging preview before production launch Suitable for: landing pages, business sites, portfolio sites, documentation hubs.</description></item><item><title>The Story</title><link>/story/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/story/</guid><description>OpenClaw started as a small, practical experiment: one VPS, a Hostinger subdomain, and a growing pile of scripts.
+The first goals were modest and useful:
+summarize and process email, monitor systems and keep daily reports, help with website work, run scheduled checks, coordinate work without everything living in one person&amp;rsquo;s head. The early setup was rough in the normal way. Some things lived on a VPS. Some things lived in local scripts.</description></item></channel></rss>
