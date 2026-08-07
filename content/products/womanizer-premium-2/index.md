@@ -8,6 +8,9 @@ rating: 4.7
 category: "external-stimulation"
 tags: ["air-pulse", "premium", "quiet", "external", "waterproof"]
 affiliate_link: ""
+# Sold out at womanizer.com; 179.00 EUR verified at Amazon.de (B09J1L3KLG) 2026-08-07.
+price: "179.00"
+price_checked: "2026-08-07"
 offers:
   # SOLD OUT at manufacturer 2026-08-06; JSON-LD price 0 - no verifiable price
   - retailer: "Womanizer (manufacturer)"
@@ -17,11 +20,11 @@ offers:
     checked: "2026-08-06"
     available: false
   - retailer: "Amazon"
-    url: ""
-    price: null
+    url: "https://www.amazon.de/dp/B09J1L3KLG"
+    price: 179.00
     currency: "EUR"
-    checked: ""
-    available: false
+    checked: "2026-08-07"
+    available: true
   - retailer: "Lovehoney"
     url: ""
     price: null

@@ -8,12 +8,11 @@ weight: 120
 badge: "Mid-Range Bestseller"
 rating: 4.7
 reviews_count: 31
-# UNVERIFIED price: no reliable retailer figure was found on 2026-08-05.
-# Re-attempted 2026-08-06: lovehoney.com and lovehoney.eu both block automated
-# access outright, manufacturer price remains unverifiable. Still do not display.
-# Do not display or publish this number until it is checked.
-price: "59.99"
-price_checked: ""
+# VERIFIED 2026-08-07 via lovehoney.com product page JSON-LD (rendered browser):
+# Desire Luxury Rechargeable Rabbit Vibrator, 69.99 USD, InStock, list 109.99.
+# Earlier blocks (08-05, 08-06) did not recur.
+price: "69.99"
+price_checked: "2026-08-07"
 best_for: "Classic rabbit design"
 noise: "Medium noise"
 image: "/images/placeholders/ambient-09.png"
@@ -25,11 +24,11 @@ offers:
     checked: ""
     available: false
   - retailer: "Lovehoney"
-    url: ""
-    price: null
-    currency: "EUR"
-    checked: ""
-    available: false
+    url: "https://www.lovehoney.com/sex-toys/vibrators/rabbit-vibrators/p/desire-luxury-rechargeable-rabbit-vibrator/a33302g59243.html"
+    price: 69.99
+    currency: "USD"
+    checked: "2026-08-07"
+    available: true
   - retailer: "SheVibe"
     url: ""
     price: null
