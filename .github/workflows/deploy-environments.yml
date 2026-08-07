@@ -1,0 +1,129 @@
+name: Deploy Venus Environments
+
+on:
+  push:
+    branches:
+      - dev
+      - staging
+  pull_request:
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: "Target environment"
+        required: true
+        default: "dev"
+        type: choice
+        options:
+          - dev
+          - staging
+          - preview
+
+concurrency:
+  group: venus-deploy-${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || github.ref_name }}
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    # Binds each run to a GitHub Environment so its protection rules apply.
+    # This mirrors the target resolved in the "Resolve target" step below, but
+    # must be computed from pre-job contexts (github, inputs) - `environment:`
+    # is evaluated before the job starts, so it cannot read a step output.
+    #
+    # `production` is deliberately NOT a target here. Production is deployed by
+    # pushing hostinger-deploy, which the .git/hooks/pre-push token guard covers.
+    # A production path in this workflow would be a second route that the hook
+    # cannot see, gated only by repo settings that are easy to leave unset.
+    environment: >-
+      ${{ github.event_name == 'pull_request' && 'preview'
+      || (github.event_name == 'workflow_dispatch' && inputs.environment
+      || github.ref_name) }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.129.0"
+          extended: true
+
+      - name: Resolve target
+        id: target
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            env_name="preview"
+            base_url="https://preview.reviews.ultramarine963.com/pr-${{ github.event.pull_request.number }}/"
+            remote_path="${{ secrets.HOSTINGER_PREVIEW_PATH }}/pr-${{ github.event.pull_request.number }}/"
+          elif [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            env_name="${{ inputs.environment }}"
+            case "$env_name" in
+              dev)
+                base_url="https://dev.reviews.ultramarine963.com/"
+                remote_path="${{ secrets.HOSTINGER_DEV_PATH }}"
+                ;;
+              staging)
+                base_url="https://staging.reviews.ultramarine963.com/"
+                remote_path="${{ secrets.HOSTINGER_STAGING_PATH }}"
+                ;;
+              preview)
+                base_url="https://preview.reviews.ultramarine963.com/"
+                remote_path="${{ secrets.HOSTINGER_PREVIEW_PATH }}"
+                ;;
+            esac
+          elif [[ "${{ github.ref_name }}" == "dev" ]]; then
+            env_name="dev"
+            base_url="https://dev.reviews.ultramarine963.com/"
+            remote_path="${{ secrets.HOSTINGER_DEV_PATH }}"
+          elif [[ "${{ github.ref_name }}" == "staging" ]]; then
+            env_name="staging"
+            base_url="https://staging.reviews.ultramarine963.com/"
+            remote_path="${{ secrets.HOSTINGER_STAGING_PATH }}"
+          else
+            echo "Unsupported automatic deploy target: ${{ github.ref_name }}" >&2
+            exit 1
+          fi
+
+          if [[ -z "$remote_path" ]]; then
+            echo "Missing Hostinger path secret for $env_name" >&2
+            exit 1
+          fi
+
+          echo "env_name=$env_name" >> "$GITHUB_OUTPUT"
+          echo "base_url=$base_url" >> "$GITHUB_OUTPUT"
+          echo "remote_path=$remote_path" >> "$GITHUB_OUTPUT"
+
+      - name: Build Hugo site
+        run: hugo --minify --baseURL "${{ steps.target.outputs.base_url }}"
+
+      - name: Configure SSH
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "${{ secrets.HOSTINGER_SSH_KEY }}" > ~/.ssh/venus_deploy_key
+          chmod 600 ~/.ssh/venus_deploy_key
+          ssh-keyscan -H "${{ secrets.HOSTINGER_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Deploy with rsync
+        shell: bash
+        run: |
+          set -euo pipefail
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/venus_deploy_key -o IdentitiesOnly=yes" \
+            public/ \
+            "${{ secrets.HOSTINGER_USERNAME }}@${{ secrets.HOSTINGER_HOST }}:${{ steps.target.outputs.remote_path }}"
+
+      - name: Summary
+        run: |
+          echo "Deployed Venus ${{ steps.target.outputs.env_name }}"
+          echo "URL: ${{ steps.target.outputs.base_url }}"
+          echo "Remote path: ${{ steps.target.outputs.remote_path }}"
