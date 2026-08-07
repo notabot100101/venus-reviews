@@ -16,9 +16,12 @@ together."
   (PIPELINE-ROADMAP.md, REAL-MONEY-PILOT-PROPOSAL-20260805.md, daily-reports/)
 
 ## Build order
-1. **v2 landing** as `v2/index.html` in this repo (never overwrite `index.html`):
-   keep the existing copy blocks (hero, problem, how-it-works, backtest, FAQ,
-   pricing, CTA), add the hero image, modernize layout. Static HTML, no build step.
+1. **v2 landing** — ✅ DONE 2026-08-07: `v2/index.html`, dark fintech theme
+   matching the hero, same copy and same Formspree form. Two deliberate copy
+   changes: the stale "launches Q2 2026 / testing through April" FAQ answer
+   became a truthful no-date version, and the backtest stats are now dated
+   ("tested early 2026") and labelled "backtest" inside each stat box.
+   Preview: serve `v2/` with any static server. NOT deployed.
 2. **"The Bots" documentation page** — one section per bot family (grid A/B
    variants, real-money pilot). EVERY number must cite a file in the
    trading-bots workspace. Backtests labelled as backtests. **Paul approves
