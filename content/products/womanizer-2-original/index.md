@@ -3,7 +3,6 @@
 draft: true
 title: "Womanizer 2 Original"
 price: "149.99"
-rating: 4.7
 category: "quiet-pick"
 tags: ["airpulse", "premium", "quiet", "intelligent-sensitivity"]
 affiliate_link: ""

@@ -10,7 +10,6 @@ image: "/images/placeholders/ambient-05.png"
 # Confirmed 139 EUR at lelo.com/mona-2 on 2026-08-06.
 price: "139.00"
 price_checked: "2026-08-06"
-rating: 4.6
 category: "premium-feel"
 tags: ["premium", "ergonomic", "quiet", "swedish-design"]
 affiliate_link: ""

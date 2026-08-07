@@ -8,8 +8,6 @@ menu: "main"
 recoveryVersion: "2026.07.11-Batch3"
 weight: 110
 badge: "Sonic Wave"
-rating: 4.8
-reviews_count: 22
 # price is an approximate US street price, not a quoted figure. Checked
 # 2026-08-05 against retailer listings. Re-check before any price is
 # displayed or an affiliate offer goes live.

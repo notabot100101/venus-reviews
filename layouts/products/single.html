@@ -73,16 +73,6 @@
       <p>{{ partial "best-offer-display.html" . }}</p>
     </div>
 
-    {{ if .Params.rating }}
-    <div>
-      <h3>Rating</h3>
-      {{ partial "rating-display.html" (dict "rating" .Params.rating) }}
-      <p class="score-methodology-link">
-        <a href="/methodology/">See scoring methodology and weights</a>
-      </p>
-    </div>
-    {{ end }}
-
     {{ if .Params.trialPeriod }}
     <div>
       <h3>Trial Period</h3>
@@ -167,9 +157,11 @@
 
 {{- if and .Params.schema_product .Params.seo_description }}
 {{- with .Params.seo_description }}
-{{- $reviewRating := dict "@type" "Rating" "ratingValue" (printf "%v" $.Params.rating) "bestRating" "5" "worstRating" "1" }}
-{{- $review := dict "@type" "Review" "name" (printf "%s Review" $.Title) "author" (dict "@type" "Organization" "name" "Venus Reviews") "reviewRating" $reviewRating "reviewBody" (. | plainify) }}
-{{- $schema := dict "@context" "https://schema.org" "@type" "Product" "name" $.Title "description" (. | plainify) "category" $.Params.category "review" $review }}
+{{- /* No Review/Rating in the schema (2026-08-07): the ratingValue was an
+       invented editorial score for products the site itself says were never
+       physically tested - the same misrepresentation as the Product.image
+       case below, removed for the same reason. */}}
+{{- $schema := dict "@context" "https://schema.org" "@type" "Product" "name" $.Title "description" (. | plainify) "category" $.Params.category }}
 {{- /* schema.org Product.image means an image OF THE PRODUCT. Nine of the twelve
        products carry an ambient placeholder (a spa still-life) because no genuine
        photograph exists yet; emitting that as Product.image tells Google it is a

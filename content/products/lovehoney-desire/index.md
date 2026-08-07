@@ -6,8 +6,6 @@ menu: "main"
 recoveryVersion: "2026.07.11-Batch3"
 weight: 120
 badge: "Mid-Range Bestseller"
-rating: 4.7
-reviews_count: 31
 # VERIFIED 2026-08-07 via lovehoney.com product page JSON-LD (rendered browser):
 # Desire Luxury Rechargeable Rabbit Vibrator, 69.99 USD, InStock, list 109.99.
 # Earlier blocks (08-05, 08-06) did not recur.

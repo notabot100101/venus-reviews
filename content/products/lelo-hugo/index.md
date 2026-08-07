@@ -8,8 +8,6 @@ menu: "main"
 recoveryVersion: "2026.07.11-Batch3"
 weight: 100
 badge: "Premium Wellness"
-rating: 4.7
-reviews_count: 19
 # price is an approximate US street price, not a quoted figure. Checked
 # 2026-08-05 against retailer listings. Re-check before any price is
 # displayed or an affiliate offer goes live.

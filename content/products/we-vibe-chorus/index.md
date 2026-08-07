@@ -6,8 +6,6 @@ draft: false
 recoveryVersion: "2026.07.09-Phase0"
 weight: 60
 badge: "Couples Pick"
-rating: 4.5
-reviews_count: 31
 # price is an approximate US street price, not a quoted figure. Checked
 # 2026-08-05 against retailer listings. Re-check before any price is
 # displayed or an affiliate offer goes live.

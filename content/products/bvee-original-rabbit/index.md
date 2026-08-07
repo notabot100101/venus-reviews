@@ -7,7 +7,6 @@ seo_description: "Classic rabbit vibrator review covering fit, dual stimulation,
 schema_product: true
 image: "/images/placeholders/ambient-01.png"
 price: "119.99"
-rating: 4.6
 category: "dual-action"
 tags: ["rabbit", "dual-stimulation", "ergonomic", "beginner-friendly"]
 affiliate_link: ""

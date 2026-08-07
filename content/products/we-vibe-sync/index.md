@@ -7,8 +7,6 @@ draft: false
 recoveryVersion: "2026.07.09-Phase1"
 weight: 70
 badge: "Adjustable Fit"
-rating: 4.4
-reviews_count: 27
 # price is an approximate US street price, not a quoted figure. Checked
 # 2026-08-05 against retailer listings. Re-check before any price is
 # displayed or an affiliate offer goes live.
