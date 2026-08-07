@@ -1,0 +1,13 @@
+baseURL = "/"
+languageCode = "de-DE"
+title = "OpenClaw — Multi-Agent AI System"
+theme = "openclaw"
+enableRobotsTXT = true
+
+[params]
+  description = "OpenClaw is a real multi-agent AI automation system — built in public, with human approval gates. Business automation, websites, image workflows, and a trading-bot testbed."
+  contactEmail = "projects@agentmail.to"
+  xHandle = "@Ultramarine_963"
+  xUrl = "https://x.com/Ultramarine_963"
+  originThread = "https://x.com/Ultramarine_963/status/2082057037135950297"
+  buildDate = "2026-08-07"

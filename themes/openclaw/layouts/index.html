@@ -1,0 +1,184 @@
+{{ define "title" }}{{ .Site.Title }}{{ end }}
+{{ define "main" }}
+<section class="hero">
+  <div class="container">
+    <div class="hero-badge">
+      <span>🐦</span>
+      <span>Built in public — follow <a href="{{ .Site.Params.xUrl }}" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">{{ .Site.Params.xHandle }}</a></span>
+    </div>
+    <h1>
+      A <span class="highlight">multi-agent AI system</span><br>
+      <span class="highlight-gold">built in public</span>
+    </h1>
+    <p>
+      OpenClaw is a real, operational AI automation system — a team of specialized agents 
+      building business workflows, websites, image pipelines, and a trading testbed. 
+      Every claim is evidence-backed, every build is public, and a human holds the approval gate.
+    </p>
+    <div class="hero-cta">
+      <a href="/story/" class="btn btn-primary">Read the Story →</a>
+      <a href="/services/" class="btn btn-secondary">What We Build</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>What OpenClaw Is</h2>
+      <div class="divider"></div>
+      <p>A Discord-native team of AI agents — one concierge, one planner, and specialists for mail, systems, images, trading research, and more.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <span class="card-icon">🤖</span>
+        <h3>Real, Not Demo</h3>
+        <p>This isn't a concept. Every agent, workflow, and deployment described here is running on actual infrastructure. Built and operated since mid-2026.</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">🔍</span>
+        <h3>Evidence-First</h3>
+        <p>No fabricated claims or invented metrics. Every public statement about the system is backed by live source files, logs, and verifiable output.</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">🧑‍⚖️</span>
+        <h3>Human-Approved</h3>
+        <p>Agents draft, research, and build — but publishing, financial actions, and external outreach always pass through a human approval gate.</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">🌐</span>
+        <h3>Hybrid Infrastructure</h3>
+        <p>Cloud models for coordination and reasoning. Local models for cheaper, slower worker tasks. Both routed through a shared Discord operating surface.</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">🏗️</span>
+        <h3>Built in Public</h3>
+        <p>Full story on X (<a href="{{ .Site.Params.xUrl }}" target="_blank" rel="noopener" style="color:var(--ultramarine);">{{ .Site.Params.xHandle }}</a>): builds, breakages, fixes, and lessons. The mess is the content.</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">📋</span>
+        <h3>Operating Discipline</h3>
+        <p>Session hygiene, evidence-based reporting, automated health checks, and a pre-commit guard against fabricated content. The boring safeguards are the product.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header">
+      <h2>What We Build</h2>
+      <div class="divider"></div>
+      <p>Practical automation workflows for real business problems — delivered async, with human oversight at every stage.</p>
+    </div>
+    <div class="grid-3">
+      <div class="card">
+        <span class="card-icon">🌐</span>
+        <h3>Websites</h3>
+        <p>Hugo static sites deployed to Hostinger via Git. Multi-agent workflow: Forge builds, Pixel generates images, Architect plans, humans approve.</p>
+        <span class="tag tag-experimental">Active</span>
+      </div>
+      <div class="card">
+        <span class="card-icon">📧</span>
+        <h3>Email Automation</h3>
+        <p>Classification, triage, draft replies, lead tracking, daily summaries. The agent prepares — the human decides what gets sent.</p>
+        <span class="tag tag-experimental">Active</span>
+      </div>
+      <div class="card">
+        <span class="card-icon">🎨</span>
+        <h3>Image Workflows</h3>
+        <p>ComfyUI-based generation pipeline (Pixel agent) for brand assets, product shots, and social visuals. Deterministic renders for text-bearing layouts.</p>
+        <span class="tag tag-experimental">Active</span>
+      </div>
+      <div class="card">
+        <span class="card-icon">📊</span>
+        <h3>Trading-Bot Testbed</h3>
+        <p>Nightly A/B testnet experiments on 10+ EUR pairs. Strict promotion gate: 14 days, 30+ fills, positive net PnL, drawdown cap — then a human decides.</p>
+        <span class="tag tag-experimental">Experimental</span>
+      </div>
+      <div class="card">
+        <span class="card-icon">🤝</span>
+        <h3>Agent Chat / Support</h3>
+        <p>Chatbot handoff flows, customer reply drafting, and escalation-aware support workflows. Designed for small businesses that need reliability, not hype.</p>
+        <span class="tag tag-experimental">Developing</span>
+      </div>
+      <div class="card">
+        <span class="card-icon">🔧</span>
+        <h3>Custom Automation</h3>
+        <p>Tailored agent workflows: business process automation, monitoring, content pipelines, and system integration. Contact us with your use case.</p>
+        <span class="tag tag-experimental">Inquire</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>From the Build Log</h2>
+      <div class="divider"></div>
+      <p>Honest chapters from building a multi-agent system that operates in the real world.</p>
+    </div>
+    <div class="grid-2">
+      <div class="card">
+        <span class="card-icon">⏰</span>
+        <h3>Cron Jobs That Ran 2 Hours Late</h3>
+        <p>Our timezone bug: <code>CRON_TZ</code> silently ignored, every job firing on the wrong clock for weeks. Fix: servers went full Europe/Berlin.</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">🧠</span>
+        <h3>Agents That "Went Senile"</h3>
+        <p>Session bloat, not model limits. Long-running agents accumulated context until they stalled. Session-hygiene redesign fixed it. (Sources: orchestration design doc.)</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">👻</span>
+        <h3>The Monitor That Deleted Itself</h3>
+        <p>A drift monitor removed itself during a rewrite — ran dark for 4 days. Now monitors check their own presence. Monitoring the monitors.</p>
+      </div>
+      <div class="card">
+        <span class="card-icon">🔗</span>
+        <h3>59 Hidden Failures</h3>
+        <p>The day we built a failure monitor and found 59 silently broken agent tasks. What "quietly failing" looks like in a multi-agent system.</p>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:2rem;">
+      <a href="{{ .Site.Params.xUrl }}" target="_blank" rel="noopener" class="btn btn-secondary">Follow the full story on X</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header">
+      <h2>The Operating Principle</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="story-content">
+      <p style="text-align:center;font-size:1.25rem;color:var(--gold);font-weight:500;">
+        Automate the preparation. Keep humans in the approval loop. Track what happened. Improve the workflow.
+      </p>
+      <ul class="principles">
+        <li><span class="check">✓</span> Agents draft, research, build, and monitor — using evidence from live source files, never memory</li>
+        <li><span class="check">✓</span> Human approval required before any public posting, financial action, or external outreach</li>
+        <li><span class="check">✓</span> Every claim traceable to a real log, file, URL, or event — no fabricated content, ever</li>
+        <li><span class="check">✓</span> When something breaks, the fix is documented and the process is improved — not swept under the rug</li>
+        <li><span class="check">✓</span> The boring safeguards (approval gates, health checks, pre-commit hooks) are the product, not the flashy demo</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Get in Touch</h2>
+      <div class="divider"></div>
+      <p>Interested in automation for your business? We work async, via email, with clear deliverables.</p>
+    </div>
+    <div style="text-align:center;">
+      <a href="mailto:{{ .Site.Params.contactEmail }}" class="btn btn-primary">✉ {{ .Site.Params.contactEmail }}</a>
+      <p style="margin-top:0.75rem;color:var(--text-muted);font-size:0.85rem;">No meetings — async/email-only by design. We'll respond within 24 hours.</p>
+    </div>
+  </div>
+</section>
+{{ end }}
