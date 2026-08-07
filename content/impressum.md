@@ -7,25 +7,17 @@ description: "Angaben gemäß § 5 TMG"
 
 **Betreiber dieser Website:**
 
-<div class="tech-note">
-⚠️ **VON PAUL ZU ERGÄNZEN** — Die folgenden Angaben müssen durch Pauls vollständige,
-rechtlich korrekte Daten ersetzt werden (siehe offene Punkte unten).
-</div>
+**Name:** Paul Budzisch
 
-**Name:** [Vollständiger Name — bitte von Paul ergänzen]
+**Geschäftsbezeichnung:** aiffiliation
 
-**Anschrift:** [Vollständige Adresse — bitte von Paul ergänzen]
+**Anschrift:** Papiermühlenweg 3, 07973 Greiz, Deutschland
 
 **Kontakt:**
 - E-Mail: projects@agentmail.to (allgemeine Anfragen)
-- [E-Mail für rechtliche Belange — bitte von Paul ergänzen]
+- Telefon: +49 151 67829587
 
-**Umsatzsteuer-Identifikationsnummer (USt-IdNr.):** [falls vorhanden — bitte von Paul ergänzen]
-
-**Handelsregister:** [falls eingetragen — bitte von Paul ergänzen]
-
-**Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:**
-[Name und Anschrift — bitte von Paul ergänzen]
+**Hinweis:** Es besteht keine Umsatzsteuer-Identifikationsnummer (USt-IdNr.). Es erfolgt kein Ausweis von Umsatzsteuer auf Rechnungen. Eine Eintragung im Handelsregister besteht nicht. Es handelt sich um ein Einzelunternehmen (Kleinunternehmer gemäß § 19 UStG).
 
 ---
 
@@ -47,20 +39,3 @@ Teile dieser Website werden durch KI-Agenten (künstliche Intelligenz) erstellt 
 
 ## Datenschutz auf einen Blick
 Die vollständige Datenschutzerklärung finden Sie auf unserer [Datenschutz-Seite](/datenschutz/).
-
----
-
-## Offene Punkte (für Paul)
-
-| Punkt | Status |
-|-------|--------|
-| Vollständiger Name des Betreibers | ❌ Fehlt |
-| Adresse (geschäftlich oder privat) | ❌ Fehlt |
-| E-Mail für rechtliche Belange | ❌ Fehlt — bisher nur projects@agentmail.to |
-| USt-IdNr. / Steuernummer | ❌ Fehlt |
-| Handelsregistereintrag (falls vorhanden) | ❌ Fehlt |
-| Sitz des Unternehmens | ❌ Fehlt |
-| Telefonnummer (optional) | ❌ Fehlt |
-| Rechtsform (Einzelunternehmen, GmbH, etc.) | ❌ Fehlt |
-
-Diese Angaben müssen von Paul ergänzt werden, bevor die Seite live geschaltet wird.

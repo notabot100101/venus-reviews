@@ -40,11 +40,11 @@
 - `openclaw-site` — source code (Hugo project)
 - `openclaw-deploy` — built output (ready to serve at root)
 
-### To Deploy Staging
-1. Paul goes to Hostinger hPanel → Subdomains → add `staging.openclaw.ultramarine963.com` pointing to a subdirectory
-2. Hostinger hPanel → Git → connect repo `notabot100101/venus-reviews`, branch `openclaw-deploy`
-3. Site appears at `https://staging.openclaw.ultramarine963.com`
-4. After Paul approves staging → set up production domain
+### Staging (Deployed by Mercer)
+Mercer handles Hostinger hPanel automation via logged-in agent browser.
+- **Staging domain:** `hub-staging.ultramarine963.com` (flat, not nested)
+- **Git repo:** `notabot100101/venus-reviews`, branch `openclaw-deploy`
+- **Status:** Awaiting Mercer setup — no Paul clicks needed
 
 ### Domain Recommendation
 - **Primary:** `openclaw.com` or `openclaw.ai` — register and point to Hostinger
@@ -55,13 +55,13 @@
 
 | # | Decision | Details |
 |---|----------|---------|
-| 1 | **Legal identity** | Paul's full name, address, USt-IdNr, phone, Handelsregister — needed for Impressum + Datenschutz. Currently marked as [NOCH OFFEN]. |
+| 1 | **Legal identity** | ✅ RESOLVED — Paul Budzisch, aiffiliation, Papiermühlenweg 3, 07973 Greiz, +49 151 67829587, kein USt-IdNr/Handelsregister. Applied to impressum.md + datenschutz.md. |
 | 2 | **Production domain** | Which domain to use for the production site? Recommend `openclaw.com` or `openclaw.ai` for credibility. |
-| 3 | **Staging domain** | `staging.openclaw.ultramarine963.com` proposed — requires Hostinger hPanel subdomain config. |
+| 3 | **Staging domain** | `hub-staging.ultramarine963.com` (flat) — Mercer handles via automated hPanel. No Paul clicks. |
 | 4 | **Legal review** | Impressum/Datenschutz need Paul's details filled in, then a final legal review before production. |
 | 5 | **GitHub repo** | Currently using `venus-reviews` repo branches. For production, a dedicated `openclaw-site` repo would be cleaner (needs PAT with `repo-create` scope). |
 | 6 | **Cookie banner** | Site has no tracking cookies. If Google Analytics/Matomo is added later, a cookie consent banner is needed. |
-| 7 | **Contact email** | Currently `projects@agentmail.to` (from client-acquisition charter). Paul can change. |
+| 7 | **Contact email** | Currently `projects@agentmail.to` — Paul should confirm if this is the hub's contact email or if he wants a different address. |
 
 ## Echo Alignment
 

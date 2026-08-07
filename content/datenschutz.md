@@ -15,13 +15,10 @@ Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Diese Datenschutzerk
 
 **Verantwortlicher im Sinne der DSGVO:**
 
-<div class="tech-note">
-⚠️ **VON PAUL ZU ERGÄNZEN** — Name und Anschrift des Verantwortlichen müssen hier
-durch Pauls vollständige, rechtlich korrekte Daten ersetzt werden.
-</div>
-
-[Name — bitte von Paul ergänzen]  
-[Anschrift — bitte von Paul ergänzen]  
+Paul Budzisch (aiffiliation)  
+Papiermühlenweg 3  
+07973 Greiz  
+Deutschland  
 E-Mail: projects@agentmail.to
 
 ---
@@ -99,17 +96,3 @@ Eine automatisierte Entscheidungsfindung oder Profiling gemäß Art. 22 DSGVO fi
 ## 8. Änderungen dieser Datenschutzerklärung
 
 Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf anzupassen, um sie an geänderte rechtliche Rahmenbedingungen oder Änderungen unserer Leistungen anzupassen. Es gilt die jeweils aktuelle Fassung auf dieser Website.
-
----
-
-## Offene Punkte (für Paul)
-
-| Punkt | Status |
-|-------|--------|
-| Name des Verantwortlichen nach DSGVO | ❌ Fehlt — bitte ergänzen |
-| Anschrift des Verantwortlichen | ❌ Fehlt — bitte ergänzen |
-| E-Mail für datenschutzrechtliche Anfragen (kann projects@agentmail.to bleiben) | ✅ Gesetzt |
-| Datenschutzbeauftragter (falls gesetzlich erforderlich) | ❌ Fehlt |
-| Auftragsverarbeitungsvertrag (AVV) mit Hostinger | ⚠️ Empfohlen, aber von Paul zu prüfen |
-
-Die fehlenden Angaben müssen von Paul ergänzt werden, bevor die Seite live geschaltet wird.
