@@ -4,7 +4,7 @@ description: "Weighted-motor wand massager — the first wand-format product in 
 sku: "fun-factory-vim"
 menu: "main"
 weight: 170
-draft: true
+draft: false
 # DRAFT added overnight 2026-08-06. Verified against funfactory.com/products/vim
 # JSON-LD: 66.95 EUR but OutOfStock at manufacturer on the check date. Paul
 # reviews before publish; re-check stock then.

@@ -4,7 +4,7 @@ description: "Gentle sonic clitoral massager — LELO's softer-paced counterpart
 sku: "lelo-sila"
 menu: "main"
 weight: 165
-draft: true
+draft: false
 # DRAFT added overnight 2026-08-06. Verified against lelo.com/sila (rendered
 # page): product exists, 169 EUR, purchasable. Paul reviews before publish.
 best_for: "Gentle, slower-build stimulation"
