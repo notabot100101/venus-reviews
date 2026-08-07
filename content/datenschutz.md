@@ -54,11 +54,11 @@ Diese Website verwendet **keine Cookies** für Tracking-, Analyse- oder Marketin
 
 ---
 
-## 3. Google Fonts / Externe Schriftarten
+## 3. Schriftarten
 
-Diese Website verwendet zur einheitlichen Darstellung von Schriftarten die **Google Fonts** des Anbieters Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Beim Aufruf einer Seite lädt Ihr Browser die benötigten Schriftarten in den Browsercache. Hierzu muss Ihr Browser eine Verbindung zu den Servern von Google aufnehmen. Hierdurch erlangt Google Kenntnis darüber, dass über Ihre IP-Adresse unsere Website aufgerufen wurde.
+Diese Website verwendet zur einheitlichen Darstellung von Schriftarten **lokal eingebettete Schriftarten** (Inter, JetBrains Mono). Die Schriftart-Dateien werden von unserem eigenen Server geladen. Es erfolgt keine Verbindung zu externen Schriftarten-Anbietern (wie Google Fonts) und keine Übermittlung Ihrer IP-Adresse an Dritte zu diesem Zweck.
 
-Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer einheitlichen und ansprechenden Darstellung unserer Website). Nähere Informationen zu Google Fonts: https://developers.google.com/fonts/faq/privacy?hl=de
+Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einer konsistenten und ansprechenden Darstellung unserer Website).
 
 ---
 
