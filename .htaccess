@@ -57,11 +57,13 @@ Redirect 301 /products/compare/ /products/
 # in tags/index.html, 404.html and tags/index.xml. All were cleaned up in 8b8c7c1.
 # It also said "the ten tags still in use"; there are six.
 #
-# The names below are listed explicitly so the six live tags cannot match:
+# VERSION BRANCH: compact, external, g-spot and waterproof are un-retired here -
+# they are real product facets still declared by 3 products. The names below are
+# listed explicitly so the live tags cannot match:
 #   air-pulse  ergonomic  premium  quiet  swedish-design  value
 # Before editing this rule, re-derive that list - it is the directories under tags/,
 # and it must equal the /tags/ entries in sitemap.xml.
-RedirectMatch 301 ^/tags/(adjustable|app-control|app-controlled|compact|couples|dual-action|dual-motors|exploratory|external|external-stimulator|g-spot|german-engineering|medical-grade|mens-health|personal-massager|precision|pressure-wave|prostate|rechargeable|sonic|specialized|synchronized|travel-friendly|twin-tip|waterproof|wellness|whisper-quiet|wraparound)/?$ /products/
+RedirectMatch 301 ^/tags/(adjustable|app-control|app-controlled|couples|dual-action|dual-motors|exploratory|external-stimulator|german-engineering|medical-grade|mens-health|personal-massager|precision|pressure-wave|prostate|rechargeable|sonic|specialized|synchronized|travel-friendly|twin-tip|wellness|whisper-quiet|wraparound)/?$ /products/
 
 # --- Source & tooling exposure fix (2026-07-31) ---
 # The hostinger-deploy branch holds the Hugo SOURCE alongside the served output, and
