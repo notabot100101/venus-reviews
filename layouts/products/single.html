@@ -1,0 +1,204 @@
+{{ define "main" }}
+<article class="product-detail">
+  <nav class="product-breadcrumb" aria-label="Product navigation">
+    <a href="/products/">← All Reviews</a>
+  </nav>
+
+  <header class="product-page-header">
+    <p class="eyebrow">Independent product review</p>
+    <h1>{{ .Title }} Review</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    {{ with .Params.subtitle }}<p>{{ . }}</p>{{ end }}
+    {{ if or .Params.author .Params.last_tested .Params.lastTested .Params.last_updated .Params.lastUpdated .Params.lastmod .Params.date }}
+    <div class="article-byline product-byline">
+      {{ with .Params.author }}<span>By {{ . }}</span>{{ end }}
+      {{ with or .Params.last_tested .Params.lastTested }}<span>Last tested {{ . }}</span>{{ end }}
+      {{ with or .Params.last_updated .Params.lastUpdated .Params.lastmod .Params.date }}<span>Last updated {{ . }}</span>{{ end }}
+      <a href="/how-we-test/">How we test</a>
+    </div>
+    {{ end }}
+  </header>
+
+  {{ $images := .Params.images }}
+  {{ if and (not $images) .Params.gallery }}
+    {{ $images = slice }}
+    {{ range .Params.gallery }}
+      {{ $images = $images | append .src }}
+    {{ end }}
+  {{ end }}
+
+  <section class="product-hero-detail" aria-label="{{ .Title }} product summary">
+  {{ if $images }}
+  <div class="product-gallery">
+    <div class="main-image-container">
+      {{ with index $images 0 }}
+      <img 
+        id="mainImage"
+        src="{{ . }}" 
+        alt="{{ $.Title }}"
+      >
+      {{ end }}
+      {{ if .Draft }}
+      <div class="product-draft-badge">
+        Draft
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="thumbnail-strip" aria-label="Product gallery thumbnails">
+      {{ range $i, $img := $images }}
+      <img 
+        src="{{ $img }}"
+        alt="{{ $.Title }} view {{ add $i 1 }}"
+        class="thumbnail"
+        data-index="{{ $i }}"
+        data-src="{{ $img }}"
+        onclick="setMainImage(this)"
+      >
+      {{ end }}
+    </div>
+
+    <div class="image-nav">
+      <button type="button" onclick="prevImage()">← Previous</button>
+      <span id="imageCounter">1 / {{ len $images }}</span>
+      <button type="button" onclick="nextImage()">Next →</button>
+    </div>
+  </div>
+  {{ end }}
+
+  <aside class="product-summary-panel">
+  <div class="product-info">
+    <div>
+      <h3>Best Verified Offer</h3>
+      <p>{{ partial "best-offer-display.html" . }}</p>
+    </div>
+
+    {{ if .Params.rating }}
+    <div>
+      <h3>Rating</h3>
+      {{ partial "rating-display.html" (dict "rating" .Params.rating) }}
+      <p class="score-methodology-link">
+        <a href="/methodology/">See scoring methodology and weights</a>
+      </p>
+    </div>
+    {{ end }}
+
+    {{ if .Params.trialPeriod }}
+    <div>
+      <h3>Trial Period</h3>
+      <p>{{ .Params.trialPeriod }}</p>
+    </div>
+    {{ end }}
+  </div>
+
+  {{ with .Params.badge }}<p class="product-badge">{{ . }}</p>{{ end }}
+  {{ with .Params.noise }}<p class="product-micro-note"><strong>Noise:</strong> {{ . }}</p>{{ end }}
+  </aside>
+  </section>
+
+  {{ if or .Params.best_for .Params.trust_note .Params.support_note }}
+  <section class="buyer-notes">
+    <h2>Best Fit & Buyer Notes</h2>
+    <div class="buyer-notes-grid">
+      {{ with .Params.best_for }}
+      <div>
+        <h3>Best For</h3>
+        <p>{{ . }}</p>
+      </div>
+      {{ end }}
+      {{ with .Params.trust_note }}
+      <div>
+        <h3>Trust Note</h3>
+        <p>{{ . }}</p>
+      </div>
+      {{ end }}
+      {{ with .Params.support_note }}
+      <div>
+        <h3>Support</h3>
+        <p>{{ . }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  <div class="product-review-body">
+    {{ .Content | replaceRE `(?s)^\s*<h1[^>]*>.*?</h1>\s*` "" | safeHTML }}
+  </div>
+
+  {{ if .Params.cons }}
+  <div class="pros-cons">
+    <div>
+      <h3>Pros</h3>
+      <ul>
+        {{ range .Params.pros }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    <div>
+      <h3>Cons</h3>
+      <ul>
+        {{ range .Params.cons }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+  {{ end }}
+
+  <nav class="product-next-prev">
+    <div>
+      {{ with .NextInSection }}
+      <a href="{{ .RelPermalink }}">
+        ← {{ .Title }} Review
+      </a>
+      {{ end }}
+      {{ with .PrevInSection }}
+      <a href="{{ .RelPermalink }}">
+        {{ .Title }} Review →
+      </a>
+      {{ end }}
+    </div>
+  </nav>
+</article>
+
+{{ if $images }}
+<script>
+let currentIndex = 0;
+const thumbnails = document.querySelectorAll('.thumbnail');
+const mainImage = document.getElementById('mainImage');
+const counter = document.getElementById('imageCounter');
+
+function updateGallery() {
+  const src = thumbnails[currentIndex].dataset.src;
+  mainImage.src = src;
+  
+  thumbnails.forEach((t, i) => {
+    t.classList.toggle('active', i === currentIndex);
+    t.style.opacity = i === currentIndex ? '1' : '0.6';
+  });
+  
+  counter.textContent = `${currentIndex + 1} / ${thumbnails.length}`;
+}
+
+function setMainImage(thumb) {
+  currentIndex = parseInt(thumb.dataset.index);
+  updateGallery();
+}
+
+function nextImage() {
+  currentIndex = (currentIndex + 1) % thumbnails.length;
+  updateGallery();
+}
+
+function prevImage() {
+  currentIndex = (currentIndex - 1 + thumbnails.length) % thumbnails.length;
+  updateGallery();
+}
+
+// Initialize
+updateGallery();
+</script>
+{{ end }}
+{{ end }}

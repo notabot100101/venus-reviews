@@ -1,0 +1,95 @@
+{{/* Multi-retailer offer table driven by product front matter.
+     Prices render only when an offer has both a price and a checked date,
+     and stale prices are hidden after the retailer-specific max age. */}}
+{{ $offers := .Params.offers }}
+{{ $defaultMaxAgeDays := .Site.Params.offerMaxAgeDays | default 7 }}
+{{ $retailerMaxAges := .Site.Params.offerMaxAgeDaysByRetailer | default dict }}
+{{ $nowUnix := now.Unix }}
+
+{{ if gt (len $offers) 0 }}
+<div class="offer-comparison-block">
+  <h3>Compare Retailer Offers</h3>
+  <p class="offer-comparison-intro">Retailer links and prices appear here only after Venus has a real affiliate URL and a verified price check.</p>
+  <p class="affiliate-disclosure-banner affiliate-disclosure-inline">
+    Venus Reviews is reader-supported. We may earn a commission if you buy through retailer links, at no extra cost to you. Our recommendations are editorially independent.
+    <a href="/affiliate-disclosure/">Full affiliate disclosure</a>.
+  </p>
+
+  <div class="offer-table-wrap">
+    <table class="offer-table">
+      <thead>
+        <tr>
+          <th>Retailer</th>
+          <th>Price</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range $offer := $offers }}
+        {{ $url := trim ($offer.url | default "") " " }}
+        {{ $hasUrl := ne $url "" }}
+        {{ $checkedLabel := "" }}
+        {{ $isFresh := false }}
+        {{ $retailerKey := $offer.retailer | default "" | lower }}
+        {{ $maxAgeDays := $defaultMaxAgeDays }}
+        {{ with index $retailerMaxAges $retailerKey }}
+          {{ $maxAgeDays = . }}
+        {{ end }}
+        {{ $maxAgeSeconds := mul $maxAgeDays 86400 }}
+        {{ $isAmazon := eq $retailerKey "amazon" }}
+        {{ with $offer.checked }}
+          {{ $checkedTime := time.AsTime . }}
+          {{ $checkedLabel = dateFormat "2 Jan 2006 15:04 MST" $checkedTime }}
+          {{ $isFresh = le (sub $nowUnix $checkedTime.Unix) $maxAgeSeconds }}
+        {{ end }}
+        {{ $currency := $offer.currency | default "EUR" }}
+        {{ $symbol := "" }}
+        {{ if eq $currency "EUR" }}{{ $symbol = "€" }}{{ else if eq $currency "USD" }}{{ $symbol = "$" }}{{ else }}{{ $symbol = printf "%s " $currency }}{{ end }}
+        <tr>
+          <td>
+            <strong>{{ $offer.retailer }}</strong>
+          </td>
+          <td>
+            {{ if and $offer.price $offer.checked $isFresh }}
+              <span class="offer-price">{{ $symbol }}{{ printf "%.2f" (float $offer.price) }}</span>
+              <span class="offer-checked">checked {{ $checkedLabel }}</span>
+              {{ if $isAmazon }}
+                <span class="amazon-price-disclaimer">Product prices and availability are accurate as of the date/time indicated and are subject to change. Any price and availability information displayed on Amazon at the time of purchase will apply to the purchase of this product.</span>
+              {{ end }}
+            {{ else if and $offer.price $offer.checked }}
+              <span class="offer-muted">Price hidden</span>
+              <span class="offer-checked">last checked {{ $checkedLabel }}; older than {{ $maxAgeDays }} days</span>
+            {{ else if $offer.price }}
+              <span class="offer-muted">Price hidden until a checked date is added</span>
+            {{ else }}
+              <span class="offer-muted">Price not available</span>
+            {{ end }}
+          </td>
+          <td>
+            {{ if and $hasUrl $offer.available }}
+              <span class="offer-status offer-status-active">Available</span>
+            {{ else if $hasUrl }}
+              <span class="offer-status offer-status-disabled">Unavailable</span>
+            {{ else }}
+              <span class="offer-status offer-status-disabled">Affiliate link pending</span>
+            {{ end }}
+          </td>
+          <td>
+            {{ if and $hasUrl $offer.available }}
+              <a href="{{ $url }}" target="_blank" rel="noopener noreferrer sponsored" class="offer-action">Visit Retailer</a>
+            {{ else if $hasUrl }}
+              <span class="offer-action-disabled">Unavailable</span>
+            {{ else }}
+              <span class="offer-action-disabled">Coming soon</span>
+            {{ end }}
+          </td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+
+  <p class="offer-integrity-note">Static prices are never shown without a checked date. Prices older than the retailer's configured freshness window are hidden automatically.</p>
+</div>
+{{ end }}

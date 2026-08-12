@@ -1,0 +1,57 @@
+---
+title: "Lelo Hugo"
+description: "Premium prostate massager with a wellness-focused shape, strong motor, and quiet waterproof design."
+sku: "lelo-hugo"
+menu: "main"
+recoveryVersion: "2026.07.11-Batch3"
+weight: 100
+badge: "Premium Wellness"
+rating: 4.7
+reviews_count: 19
+price: "199.99"
+best_for: "Premium prostate wellness"
+noise: "Low noise"
+image: "/images/products/lelo-hugo/hero/hero-01.png"
+gallery:
+  - src: "/images/products/lelo-hugo/hero/hero-01.png"
+    alt: "Lelo Hugo hero view"
+    caption: "Product hero view"
+  - src: "/images/products/lelo-hugo/lifestyle/lifestyle-01.png"
+    alt: "Lelo Hugo lifestyle view"
+    caption: "Lifestyle context"
+  - src: "/images/products/lelo-hugo/lifestyle/lifestyle-02.png"
+    alt: "Lelo Hugo secondary lifestyle view"
+    caption: "Discreet storage and setup"
+  - src: "/images/products/lelo-hugo/lifestyle.jpg"
+    alt: "Lelo Hugo product setting"
+    caption: "Product setting"
+offers:
+  - retailer: "Amazon"
+    url: ""
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: false
+  - retailer: "Lovehoney"
+    url: ""
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: false
+  - retailer: "SheVibe"
+    url: ""
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: false
+  - retailer: "Spectrum Boutique"
+    url: ""
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: false
+---
+
+<h1>Lelo Hugo</h1>
+<p>Lelo Hugo is the premium men's wellness pick in the current catalog. It is best suited to shoppers who want a shaped prostate massager with a strong motor, a more refined finish, and a calmer, less medical-feeling setup.</p>
+<p>The key buying note is comfort and preparation. Hugo is not the simplest first device for every beginner, but it earns its place because the shape is thoughtful, the controls are approachable, and the waterproof body makes cleaning straightforward.</p>

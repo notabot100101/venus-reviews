@@ -1,0 +1,36 @@
+{{ define "main" }}
+<section class="hero page-hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {{ with .Content }}
+    <div class="content intro-content">
+      {{ . }}
+    </div>
+    {{ end }}
+
+    {{ $type := .Type }}
+    {{ with .Data.Terms.Alphabetical }}
+    <ul class="tag-cloud">
+      {{ range . }}
+      {{ $count := .Count }}
+      {{ with $.Site.GetPage (printf "/%s/%s" $type .Name) }}
+      <li>
+        <a class="tag-chip" href="{{ .RelPermalink }}">#{{ .Name }}
+          <span class="tag-chip-count">{{ $count }}</span>
+        </a>
+      </li>
+      {{ end }}
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

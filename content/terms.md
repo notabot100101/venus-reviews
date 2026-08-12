@@ -1,0 +1,52 @@
+---
+title: "Terms"
+description: "Terms for using Venus Reviews, including editorial limits, affiliate links, third-party retailers, and contact."
+---
+
+<h1>Terms and Conditions</h1>
+
+<p>Last updated: August 8, 2026</p>
+
+<p>These terms explain the rules for using Venus Reviews. By reading or using this site, you agree to use it responsibly and understand the limits of what we provide. If you do not agree with these terms, please do not use the site.</p>
+
+<h2>Adult Audience</h2>
+
+<p>Venus Reviews publishes information about sexual wellness products and related buying considerations. The site is intended only for adults who are legally allowed to view this kind of content in their location. By using the site, you confirm that you are at least 18 years old, or the age of majority where you live if that age is higher. We do not knowingly direct this site to minors.</p>
+
+<h2>Editorial Information, Not Professional Advice</h2>
+
+<p>Venus Reviews is an independent editorial review and comparison site. Our pages are meant to help readers compare published product information, materials, features, warranty notes, retailer availability, and buyer-fit considerations. The information on the site is general information only. It is not medical, therapeutic, legal, financial, or professional advice.</p>
+
+<p>Product fit, comfort, safety, cleaning needs, and health considerations vary by person. If you have a medical condition, pain, sensitivity, allergy concern, pregnancy-related question, post-surgery concern, or any other health issue, ask a qualified healthcare professional before using a product. Always read and follow the manufacturer's instructions, warnings, cleaning directions, charging guidance, and age restrictions.</p>
+
+<h2>No Store, Checkout, Shipping, Or Retailer Support</h2>
+
+<p>Venus Reviews does not sell products directly. We do not process payments, collect payment card information, create retailer accounts, ship orders, manage delivery, handle returns, or provide retailer customer support. Any purchase you make happens on the retailer's website and is governed by that retailer's terms, privacy policy, shipping policy, return policy, payment process, and customer service procedures.</p>
+
+<p>Prices, availability, shipping options, warranty terms, coupon codes, and retailer policies can change without notice. We try to present information responsibly, but you should confirm final details on the retailer or manufacturer site before buying. If there is a difference between Venus Reviews and a retailer's checkout page, the retailer's current page controls the purchase.</p>
+
+<h2>Affiliate Links And Compensation</h2>
+
+<p>Some links on Venus Reviews may be affiliate links. If you click one of those links and make a purchase, Venus Reviews may earn a commission at no additional cost to you. Affiliate compensation helps support the site, but it does not give a retailer the right to control our editorial conclusions. We may also link to products or retailers where we do not currently have an affiliate relationship.</p>
+
+<p>Our affiliate disclosure gives more detail about how these relationships work. You should assume that outbound retailer links may be tracked by the retailer or affiliate network for attribution, subject to that third party's own terms and privacy practices.</p>
+
+<h2>Accuracy And Updates</h2>
+
+<p>We aim to keep pages useful, clear, and current, but we cannot guarantee that every specification, price, availability note, retailer policy, product image, or product detail is complete or current at all times. Manufacturers and retailers may revise products, discontinue items, change materials, alter packaging, update warranties, or change policies after our pages are published. Site content may be edited, removed, corrected, or reorganized without notice.</p>
+
+<h2>Acceptable Use</h2>
+
+<p>You may use Venus Reviews for personal research and ordinary reading. You may not misuse the site, interfere with its operation, attempt unauthorized access, scrape content at a disruptive scale, copy substantial portions of our original writing for republication, submit malicious code through forms, impersonate another person, or use the site in a way that violates applicable law.</p>
+
+<h2>Intellectual Property</h2>
+
+<p>Unless otherwise noted, the original text, page structure, scoring explanations, and editorial presentation on Venus Reviews belong to Venus Reviews or its operators. Product names, brand names, retailer names, trademarks, and logos belong to their respective owners and are used for identification and commentary. No endorsement by a manufacturer or retailer is implied unless we state it clearly.</p>
+
+<h2>Limitation Of Liability</h2>
+
+<p>Venus Reviews is provided as-is and as-available. To the fullest extent allowed by law, we are not responsible for losses, damages, injuries, purchase problems, delivery issues, retailer disputes, data practices of third-party sites, or decisions you make based on general information from this site. Your use of retailer websites and purchased products is between you and the relevant retailer, manufacturer, or service provider.</p>
+
+<h2>Contact</h2>
+
+<p>For questions about these terms, corrections, editorial concerns, or site contact, email <a href="mailto:support@reviews.ultramarine963.com">support@reviews.ultramarine963.com</a>. For order status, shipping, billing, returns, account access, or payment questions, contact the retailer directly because Venus Reviews does not handle those services.</p>

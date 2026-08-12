@@ -1,0 +1,27 @@
+# robots.txt for Venus Reviews
+# https://reviews.ultramarine963.com/
+
+User-agent: *
+Allow: /
+Allow: /products/
+Allow: /guides/
+Allow: /best-for/
+Allow: /about/
+Allow: /privacy/
+Allow: /contact/
+Allow: /images/
+Allow: /css/
+Allow: /static/css/
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# Disallow sensitive pages
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /wp-*/
+Disallow: /wp-content/
+Disallow: /wp-includes/
+
+# Sitemap location
+Sitemap: https://reviews.ultramarine963.com/sitemap.xml

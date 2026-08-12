@@ -1,0 +1,8 @@
+{{ $rating := float .rating }}
+{{ $percent := printf "%.1f%%" (mul $rating 20) }}
+<div class="rating-display" aria-label="{{ printf "%.1f out of 5 stars" $rating }}">
+  <span class="rating-stars" aria-hidden="true">
+    <span class="rating-stars-empty">★★★★★</span>
+    <span class="rating-stars-fill" style="width: {{ $percent }}">★★★★★</span>
+  </span>
+</div>

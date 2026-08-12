@@ -1,0 +1,31 @@
+{{ define "main" }}
+<section class="hero page-hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {{ with .Content }}
+    <div class="content intro-content">
+      {{ . }}
+    </div>
+    {{ end }}
+
+    {{ with .Data.Terms }}
+    <div class="recommendation-grid">
+      {{ range $term, $pages := . }}
+      <a class="recommendation-tile" href="{{ $.RelPermalink }}{{ $term | urlize }}/">
+        <strong>{{ $term | humanize }}</strong>
+        <span>{{ len $pages }} reviews</span>
+      </a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,37 @@
+{{ $offers := .Params.offers }}
+{{ $defaultMaxAgeDays := .Site.Params.offerMaxAgeDays | default 7 }}
+{{ $retailerMaxAges := .Site.Params.offerMaxAgeDaysByRetailer | default dict }}
+{{ $nowUnix := now.Unix }}
+{{ $best := dict }}
+
+{{ range $offer := $offers }}
+  {{ if and $offer.price $offer.checked }}
+    {{ $retailerKey := $offer.retailer | default "" | lower }}
+    {{ $maxAgeDays := $defaultMaxAgeDays }}
+    {{ with index $retailerMaxAges $retailerKey }}
+      {{ $maxAgeDays = . }}
+    {{ end }}
+    {{ $maxAgeSeconds := mul $maxAgeDays 86400 }}
+    {{ $checkedTime := time.AsTime $offer.checked }}
+    {{ $isFresh := le (sub $nowUnix $checkedTime.Unix) $maxAgeSeconds }}
+    {{ if $isFresh }}
+      {{ if or (not $best.price) (lt (float $offer.price) (float $best.price)) }}
+        {{ $best = $offer }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if $best.price }}
+  {{ $retailerKey := $best.retailer | default "" | lower }}
+  {{ $currency := $best.currency | default "EUR" }}
+  {{ $symbol := "" }}
+  {{ if eq $currency "EUR" }}{{ $symbol = "€" }}{{ else if eq $currency "USD" }}{{ $symbol = "$" }}{{ else }}{{ $symbol = printf "%s " $currency }}{{ end }}
+  <span class="best-offer-price">{{ $symbol }}{{ printf "%.2f" (float $best.price) }}</span>
+  <span class="best-offer-checked">checked {{ dateFormat "2 Jan 2006 15:04 MST" (time.AsTime $best.checked) }}</span>
+  {{ if eq $retailerKey "amazon" }}
+    <span class="amazon-price-disclaimer">Product prices and availability are accurate as of the date/time indicated and are subject to change. Any price and availability information displayed on Amazon at the time of purchase will apply to the purchase of this product.</span>
+  {{ end }}
+{{ else }}
+  <span class="offer-muted">No verified offer yet</span>
+{{ end }}

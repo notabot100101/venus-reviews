@@ -1,0 +1,58 @@
+{{ define "main" }}
+<section class="hero page-hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1>{{ .Title | default "Product Reviews" }}</h1>
+      <p>
+        Honest, independent research on premium intimate products.
+        Compare materials, features, buyer-fit notes, and published feedback.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {{ $products := where .Pages "Type" "products" }}
+
+    {{ if $products }}
+    <div class="products-grid compact-grid">
+      {{ range $products }}
+      {{ $page := . }}
+      <article class="product-card">
+        {{ with .Params.badge }}<div class="rating-pill">{{ . }}</div>{{ end }}
+
+        {{ with .Params.image }}
+        <a class="product-card-image-link" href="{{ $page.RelPermalink }}" aria-label="Read {{ $page.Title }} review">
+          <img class="product-card-image" src="{{ . }}" alt="{{ $page.Title }}">
+        </a>
+        {{ end }}
+
+        <h2 class="product-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+
+
+        <p class="product-card-desc">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
+
+        <div class="product-card-meta">
+          {{ with .Params.best_for }}<span>{{ . }}</span>{{ end }}
+          {{ with .Params.noise }}<span>{{ . }}</span>{{ end }}
+        </div>
+
+        <p class="product-card-price">{{ partial "best-offer-display.html" . }}</p>
+
+        {{ with .Params.tags }}
+        <div class="product-card-tags">
+          {{ range . }}<span class="tag-chip">#{{ . }}</span>{{ end }}
+        </div>
+        {{ end }}
+
+        <a class="btn btn-primary" href="{{ .RelPermalink }}">Read Review</a>
+      </article>
+      {{ end }}
+    </div>
+    {{ else }}
+    <p class="products-empty">No reviews published yet. Check back soon!</p>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,49 @@
+---
+title: "Privacy Policy"
+description: "How Venus Reviews handles privacy, site data, cookies, third-party links, and contact requests."
+menu: "main"
+---
+
+<h1>Privacy Policy</h1>
+
+<p>Last updated: August 8, 2026</p>
+
+<p>Venus Reviews is an independent editorial review site. We publish research, buying guidance, product comparisons, and affiliate disclosures for adult readers. We do not operate a store, process payments, ship products, manage retailer accounts, or provide retailer customer service. Because the site is primarily static, our own data collection is intentionally limited.</p>
+
+<h2>Information You Provide</h2>
+
+<p>You can browse Venus Reviews without creating an account and without giving us your name, address, phone number, payment details, or purchase history. The main time you may provide information directly is when you choose to contact us by email or through a contact or newsletter form. That information may include your email address, the text of your message, and any details you decide to include so we can respond. Please avoid sending sensitive medical, financial, or identity documents. We do not need those details to answer general editorial or buying-guide questions.</p>
+
+<p>If a newsletter form is available and you subscribe, we use the email address you provide to send the messages you requested. You can unsubscribe by using the unsubscribe option in the email or by contacting us at the address below. If you email us, we may keep the message for a reasonable period so we can track the conversation, respond consistently, and maintain records of affiliate, editorial, or compliance requests.</p>
+
+<h2>Automatically Collected Site Data</h2>
+
+<p>Like most websites, our hosting provider and basic web infrastructure may receive technical information when your browser requests a page. This can include your IP address, browser type, device information, referring page, requested URL, and the date and time of the request. We use this kind of information only to keep the site available, diagnose errors, protect against abuse, and understand broad site performance. We do not use it to identify individual readers by name.</p>
+
+<p>At the time of this update, Venus Reviews does not require account tracking, checkout tracking, or behavioral profiles to function. If we add analytics, advertising, or other optional measurement tools later, we will keep them limited to what is useful for operating an editorial site and will update this policy to describe the provider and purpose.</p>
+
+<h2>Cookies And Local Storage</h2>
+
+<p>Venus Reviews may use basic cookies or browser storage when needed for ordinary site features, such as remembering a display preference, preventing repeated form submissions, or supporting a third-party form provider. We do not use cookies to take orders or process payments because purchases happen on retailer websites, not on Venus Reviews.</p>
+
+<p>Your browser lets you block or delete cookies and local storage. The site should remain readable if you do so, although some preferences or form features may not work exactly as intended.</p>
+
+<h2>Third-Party Links And Retailers</h2>
+
+<p>Our pages link to retailers, affiliate networks, manufacturer sites, email providers, and other third-party services. When you follow one of those links, you leave Venus Reviews and the destination site controls its own privacy practices. Retailers may collect purchase details, shipping addresses, payment information, account information, cookies, or analytics data under their own policies. Venus Reviews does not receive or control your payment card number, shipping address, retailer login, or order fulfillment details.</p>
+
+<p>Some outbound links may be affiliate links. If you click an affiliate link and later make a purchase, the retailer or affiliate network may credit Venus Reviews with a commission. That tracking is handled by the retailer or network. Affiliate compensation does not change our editorial recommendations, and our affiliate disclosure explains that relationship in more detail.</p>
+
+<h2>How We Use And Share Information</h2>
+
+<p>We use information you provide to respond to your message, manage newsletter requests, improve editorial coverage, review affiliate or partnership inquiries, and maintain the security and reliability of the site. We do not sell personal information. We may share limited information with service providers that help us operate the site, such as hosting, email, form handling, or security providers, but only for the purpose of providing those services.</p>
+
+<p>We may also disclose information if required by law, to protect the site from abuse, to respond to valid legal requests, or to protect our rights and the rights of readers and partners.</p>
+
+<h2>Your Choices</h2>
+
+<p>You can choose not to contact us, unsubscribe from email, block cookies in your browser, and avoid clicking outbound retailer links. You may also ask us to review, correct, or delete personal information you previously sent directly to Venus Reviews, subject to reasonable recordkeeping, security, and legal limits.</p>
+
+<h2>Contact</h2>
+
+<p>For privacy questions, deletion requests, affiliate disclosure questions, or general site contact, email <a href="mailto:support@reviews.ultramarine963.com">support@reviews.ultramarine963.com</a>. This is the contact address for Venus Reviews. For order changes, shipping status, returns, billing, or payment questions, contact the retailer you purchased from, because Venus Reviews does not handle purchasing or fulfillment.</p>
