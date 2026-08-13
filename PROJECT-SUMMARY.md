@@ -12,6 +12,7 @@
 |------|-----|---------|
 | **Home** | `/` | Hero: "multi-agent AI system built in public". 6 cards (real, evidence-first, human-approved, hybrid infra, built in public, discipline). What We Build grid (6 services). Build log (4 stories). Operating principle. CTA to contact. |
 | **Story** | `/story/` | Full narrative: VPS → agent team → hybrid infra → honesty lesson → X threads. Links origin thread (OC-006). |
+| **Blog** | `/blog/` | Owned-channel build log with RSS + Atom feeds. Seed posts: OC-006 origin/owned channel, OC-008 routing, OC-012 session hygiene, OC-013 timezone cron. |
 | **Services** | `/services/` | 5 service areas (websites, email automation, image workflows, custom agent workflows, chatbot). No fabricated claims. No meetings. Async/email-only. |
 | **Contact** | `/contact/` | Email (projects@agentmail.to) + X. How We Work section. What to include in inquiry. |
 | **Impressum** | `/impressum/` | German §5 TMG compliant. **Placeholders for:** Paul's name, address, USt-IdNr, phone, Handelsregister. |
@@ -31,8 +32,8 @@
 - **Static site generator:** Hugo v0.129.0
 - **CSS:** Custom dark theme, CSS Grid, responsive breakpoints at 768px/480px
 - **JS:** Minimal (nav toggle, active link highlight)
-- **Total size:** 1.2MB (6 static pages, 4 brand images)
-- **Build time:** ~15ms (Hugo --minify)
+- **Total size:** ~1.6MB built output (blog + static pages + brand assets)
+- **Build time:** ~40ms (Hugo --minify)
 
 ## Deployment
 
@@ -75,8 +76,8 @@ Mercer handles Hostinger hPanel automation via logged-in agent browser.
 ```
 /home/paul/.openclaw/workspaces/planner/openclaw-website/
 ├── hugo.toml
-├── deploy.sh
 ├── content/
+│   ├── blog/             # Owned-channel build log posts + section index
 │   ├── story.md          # The Story
 │   ├── services.md       # Services
 │   ├── contact.md        # Contact

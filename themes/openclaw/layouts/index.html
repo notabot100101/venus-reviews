@@ -16,7 +16,7 @@
       Every claim is evidence-backed, every build is public, and a human holds the approval gate.
     </p>
     <div class="hero-cta">
-      <a href="/story/" class="btn btn-primary">Read the Story →</a>
+      <a href="/blog/" class="btn btn-primary">Read the Blog</a>
       <a href="/services/" class="btn btn-secondary">What We Build</a>
     </div>
   </div>
@@ -124,25 +124,29 @@
         <span class="card-icon">⏰</span>
         <h3>Cron Jobs That Ran 2 Hours Late</h3>
         <p>Our timezone bug: <code>CRON_TZ</code> silently ignored, every job firing on the wrong clock for weeks. Fix: servers went full Europe/Berlin.</p>
+        <a class="story-link" href="/blog/cron-timezone-bug/">Read the post</a>
       </div>
       <div class="card">
         <span class="card-icon">🧠</span>
         <h3>Agents That "Went Senile"</h3>
         <p>Session bloat, not model limits. Long-running agents accumulated context until they stalled. Session-hygiene redesign fixed it. (Sources: orchestration design doc.)</p>
+        <a class="story-link" href="/blog/session-hygiene-agents-going-silent/">Read the post</a>
       </div>
       <div class="card">
-        <span class="card-icon">👻</span>
-        <h3>The Monitor That Deleted Itself</h3>
-        <p>A drift monitor removed itself during a rewrite — ran dark for 4 days. Now monitors check their own presence. Monitoring the monitors.</p>
+        <span class="card-icon">🧭</span>
+        <h3>Routing Work Between Agents</h3>
+        <p>Sophia routes, Architect plans, specialists execute, Claw verifies. The useful part is not a swarm. It is the handoff discipline.</p>
+        <a class="story-link" href="/blog/how-openclaw-routes-agent-work/">Read the post</a>
       </div>
       <div class="card">
-        <span class="card-icon">🔗</span>
-        <h3>59 Hidden Failures</h3>
-        <p>The day we built a failure monitor and found 59 silently broken agent tasks. What "quietly failing" looks like in a multi-agent system.</p>
+        <span class="card-icon">📓</span>
+        <h3>Why the Blog Exists</h3>
+        <p>After the X suspension, the owned site became the spine: publish here first, then syndicate outward only through official APIs or by hand.</p>
+        <a class="story-link" href="/blog/openclaw-origin-owned-channel/">Read the post</a>
       </div>
     </div>
     <div style="text-align:center;margin-top:2rem;">
-      <a href="{{ .Site.Params.xUrl }}" target="_blank" rel="noopener" class="btn btn-secondary">Follow the full story on X</a>
+      <a href="/blog/" class="btn btn-secondary">Open the build log</a>
     </div>
   </div>
 </section>

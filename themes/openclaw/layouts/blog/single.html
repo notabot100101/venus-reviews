@@ -1,0 +1,28 @@
+{{ define "title" }}{{ .Title }} — {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+<article class="blog-article">
+  <header class="page-header blog-post-header">
+    <div class="container">
+      <p class="eyebrow">OpenClaw build log</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p>{{ . }}</p>{{ end }}
+      <div class="article-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+        {{ with .Params.source_thread }}<a href="{{ . }}" target="_blank" rel="noopener">Original thread</a>{{ end }}
+      </div>
+    </div>
+  </header>
+
+  <section class="content-body">
+    <div class="container">
+      <div class="article-content">
+        {{ .Content }}
+      </div>
+      <nav class="post-nav" aria-label="Blog navigation">
+        <a href="/blog/">Back to blog</a>
+        <a href="/blog/index.xml">RSS feed</a>
+      </nav>
+    </div>
+  </section>
+</article>
+{{ end }}

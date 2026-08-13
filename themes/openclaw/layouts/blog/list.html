@@ -1,0 +1,29 @@
+{{ define "title" }}Blog — {{ .Site.Title }}{{ end }}
+{{ define "main" }}
+<section class="page-header blog-header">
+  <div class="container">
+    <p class="eyebrow">Owned channel</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+    <div class="feed-links" aria-label="Blog feeds">
+      <a href="/blog/index.xml">RSS</a>
+      <a href="/blog/atom.xml">Atom</a>
+    </div>
+  </div>
+</section>
+
+<section class="content-body">
+  <div class="container">
+    <div class="blog-list">
+      {{ range .Pages.ByDate.Reverse }}
+      <article class="post-card">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        <a class="story-link" href="{{ .RelPermalink }}">Read article</a>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

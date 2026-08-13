@@ -3,15 +3,39 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
+    {{ $pageTitle := cond .IsHome .Site.Title (printf "%s — %s" .Title .Site.Title) }}
+    {{ $description := "" }}
+    {{ with .Description }}{{ $description = . }}{{ else }}{{ $description = .Site.Params.description }}{{ end }}
+    <title>{{ block "title" . }}{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{ if or (eq .Section "blog") (eq .RelPermalink "/blog/") }}
+    <link rel="alternate" type="application/rss+xml" title="OpenClaw Blog RSS" href="{{ "blog/index.xml" | absURL }}">
+    <link rel="alternate" type="application/atom+xml" title="OpenClaw Blog Atom" href="{{ "blog/atom.xml" | absURL }}">
+    {{ end }}
     <!-- Open Graph -->
-    <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}">
-    <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-    <meta property="og:type" content="{{ if .IsHome }}website{{ else }}website{{ end }}">
+    <meta property="og:title" content="{{ $pageTitle }}">
+    <meta property="og:description" content="{{ $description }}">
+    <meta property="og:type" content="{{ if and (eq .Section "blog") .IsPage }}article{{ else }}website{{ end }}">
     <meta property="og:url" content="{{ .Permalink }}">
     <meta property="og:image" content="{{ "/images/brand/avatar-echo-ripple.png" | absURL }}">
     <meta property="og:locale" content="de_DE">
+    {{ if and (eq .Section "blog") .IsPage }}
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">
+    {{ with .Lastmod }}<meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05-07:00" }}">{{ end }}
+    {{ $articleSchema := dict
+      "@context" "https://schema.org"
+      "@type" "Article"
+      "headline" .Title
+      "description" $description
+      "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+      "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")
+      "author" (dict "@type" "Organization" "name" "OpenClaw")
+      "publisher" (dict "@type" "Organization" "name" "OpenClaw" "logo" (dict "@type" "ImageObject" "url" ("/images/brand/avatar-echo-ripple.png" | absURL)))
+      "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+    }}
+    <script type="application/ld+json">{{ $articleSchema | jsonify | safeJS }}</script>
+    {{ end }}
     <meta name="theme-color" content="#0d1117">
     <link rel="icon" type="image/png" href="/images/brand/avatar-echo-ripple.png">
     <!-- Fonts are self-hosted — no external font requests (GDPR-safe) -->
@@ -29,6 +53,7 @@
                 <ul class="nav-list">
                     <li><a href="/">Home</a></li>
                     <li><a href="/story/">The Story</a></li>
+                    <li><a href="/blog/">Blog</a></li>
                     <li><a href="/services/">Services</a></li>
                     <li><a href="/contact/">Contact</a></li>
                 </ul>
@@ -49,6 +74,7 @@
                 </div>
                 <div class="footer-links">
                     <a href="/story/">The Story</a>
+                    <a href="/blog/">Blog</a>
                     <a href="/services/">Services</a>
                     <a href="/contact/">Contact</a>
                     <a href="/impressum/">Impressum</a>
