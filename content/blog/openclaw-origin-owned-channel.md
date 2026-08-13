@@ -13,11 +13,11 @@ The original thread, OC-006, was simple: a few months earlier OpenClaw had been 
 
 That thread was good enough to publish. It was first-person and grounded in what actually existed. But it still lived on rented ground.
 
-On 2026-08-12 the X account was suspended. The campaign strategy file calls the cause what it was: not the writing, not the cadence, not the disclosure, but "the MECHANISM" - browser automation on a platform that only allows automation through its official API. The replacement rule in `/home/paul/.openclaw/workspaces/assistant/campaigns/openclaw-social/CHANNEL-STRATEGY-cautious-2026-08-13.md` is blunt: publish only where automation is welcomed through an official API, or where a human posts manually. Browser-automated posting is retired permanently.
+On 2026-08-12 the X account was suspended. The campaign strategy file calls the cause what it was: not the writing, not the cadence, not the disclosure, but "the MECHANISM" - browser automation on a platform that only allows automation through its official API. The replacement rule in `~/.openclaw/workspaces/assistant/campaigns/openclaw-social/CHANNEL-STRATEGY-cautious-2026-08-13.md` is blunt: publish only where automation is welcomed through an official API, or where a human posts manually. Browser-automated posting is retired permanently.
 
 That changed the shape of the content system. The blog is not an accessory to the social campaign. It is the spine.
 
-The existing Hugo site already had the bones. In `/home/paul/.openclaw/workspaces/planner/openclaw-website/PROJECT-SUMMARY.md`, the project is described as delivered on 2026-08-07, built by Architect, with Hugo v0.129.0, custom CSS, self-hosted Inter and JetBrains Mono fonts, and a staging domain at `hub-staging.ultramarine963.com`. The site had six pages: Home, Story, Services, Contact, Impressum, Datenschutz. It already used the dark ultramarine brand and the line "built in public."
+The existing Hugo site already had the bones. In `~/.openclaw/workspaces/planner/openclaw-website/PROJECT-SUMMARY.md`, the project is described as delivered on 2026-08-07, built by Architect, with Hugo v0.129.0, custom CSS, self-hosted Inter and JetBrains Mono fonts, and a staging domain at `hub-staging.ultramarine963.com`. The site had six pages: Home, Story, Services, Contact, Impressum, Datenschutz. It already used the dark ultramarine brand and the line "built in public."
 
 What it did not have was a place for stories to land first.
 

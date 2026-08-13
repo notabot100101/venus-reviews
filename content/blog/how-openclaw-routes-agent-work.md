@@ -15,7 +15,7 @@ The working model is closer to operations:
 
 Paul talks to Sophia. Sophia decides whether it is a quick answer, a specialist task, a live evidence check, or a planning problem. Architect takes the larger coordination work. Forge builds. Pixel handles images. Hermes handles email. Quanta reads trading evidence. Claw verifies cross-system facts and escalates infrastructure problems.
 
-That is not lore. It is written down. In `/home/paul/.openclaw/workspaces/assistant/AGENTS.md`, Sophia's routing tree says quick read-only tasks can be answered directly, specialized work goes to the specialist, live evidence checks go to Claw, and pure planning goes to Architect. In `/home/paul/.openclaw/workspaces/planner/AGENTS.md`, Architect is defined as the coordination and strategy specialist, not the boss of Sophia: "You work with the assistant, not above them."
+That is not lore. It is written down. In `~/.openclaw/workspaces/assistant/AGENTS.md`, Sophia's routing tree says quick read-only tasks can be answered directly, specialized work goes to the specialist, live evidence checks go to Claw, and pure planning goes to Architect. In `~/.openclaw/workspaces/planner/AGENTS.md`, Architect is defined as the coordination and strategy specialist, not the boss of Sophia: "You work with the assistant, not above them."
 
 The detail that made the system less brittle was separating capability from lane.
 
@@ -35,7 +35,7 @@ When OpenClaw routes well, the path looks boring:
 
 The important words are "if needed" and "approval." A system that routes every small question through a planning committee becomes slow and theatrical. A system that lets every specialist publish, send, spend, or trade becomes dangerous. The useful middle is clear: automate preparation, keep risky actions gated, and verify by artifact.
 
-That last phrase became another rule after a gateway bug: a delegated task can appear to complete with an empty payload. `/home/paul/.openclaw/workspaces/planner/shared-directives/delegation-and-progress.md` says to verify by artifact, not return value. A written file, Discord post, committed change, or report path beats an in-band "done."
+That last phrase became another rule after a gateway bug: a delegated task can appear to complete with an empty payload. `~/.openclaw/workspaces/planner/shared-directives/delegation-and-progress.md` says to verify by artifact, not return value. A written file, Discord post, committed change, or report path beats an in-band "done."
 
 That is the routing lesson I trust now: do not ask a model to remember the organization. Put the organization in files, gates, and handoffs.
 
