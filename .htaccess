@@ -99,3 +99,5 @@ RedirectMatch 301 ^/tags/(adjustable|app-control|app-controlled|couples|dual-act
 # Also untracked from git in this same commit; this rule is the belt to that braces,
 # since a Hostinger sync that does not delete would otherwise leave the files served.
 RedirectMatch 404 ^/(content|layouts|archive|scripts|docs|data|public|\.bin|\.backup)(/|$)
+
+# Trigger redeploy 2026-08-17 16:32 CEST
