@@ -3,7 +3,7 @@ image: "/images/headers/venus-bestfor-quiet.jpg"
 title: "Best for Quiet Operation"
 description: "Discover the quietest intimate products for discreet use. Learn about noise levels, rumbly vs buzzy vibrations, and building confidence with quiet toys."
 date: 2026-07-17
-slug: "best-for-quiet"
+slug: "quiet"
 draft: false
 author: "Venus Editorial Team"
 ---

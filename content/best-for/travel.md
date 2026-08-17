@@ -3,7 +3,7 @@ image: "/images/headers/venus-bestfor-travel.jpg"
 title: "Best for Travel"
 description: "Travel-friendly intimate products and packing tips. Learn about TSA considerations, compact designs, discreet cases, and privacy tips for travel."
 date: 2026-07-17
-slug: "best-for-travel"
+slug: "travel"
 draft: false
 author: "Venus Editorial Team"
 ---

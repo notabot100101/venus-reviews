@@ -3,7 +3,7 @@ image: "/images/headers/venus-bestfor-couples.jpg"
 title: "Best for Couples"
 description: "Discover intimate products designed for partnered play. Learn what makes a toy great for couples use and explore featured products."
 date: 2026-07-17
-slug: "best-for-couples"
+slug: "couples"
 draft: false
 author: "Venus Editorial Team"
 ---
