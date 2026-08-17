@@ -320,8 +320,8 @@ Explore products designed for couples and discover new dimensions of shared inti
 *Last updated: July 2026*
 
 **Related Reading:**
-- [Body-Safe Materials Guide](../guides/body-safe-materials)
-- [Noise Level & Discretion Guide](../guides/noise-and-discretion)
-- [Cleaning & Maintenance Guide](../guides/cleaning-maintenance)
-- [Best For Travel](../best-for/travel)
-- [Best For Quiet Operation](../best-for/quiet)
+- [Body-Safe Materials Guide](/guides/body-safe-materials/)
+- [Noise Level & Discretion Guide](/guides/noise-and-discretion/)
+- [Cleaning & Maintenance Guide](/guides/cleaning-maintenance/)
+- [Best For Travel](/best-for/travel/)
+- [Best For Quiet Operation](/best-for/quiet/)

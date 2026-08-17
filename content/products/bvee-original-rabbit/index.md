@@ -1,6 +1,4 @@
 ---
-# unpublished 2026-08-05: product could not be verified to exist
-draft: true
 title: "Bvee Original Rabbit"
 seo_title: "Bvee Original Rabbit Review | Venus"
 seo_description: "Classic rabbit vibrator review covering fit, dual stimulation, safety notes, and when Bvee Original Rabbit makes sense versus better-documented alternatives."

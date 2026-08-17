@@ -305,8 +305,8 @@ With proper preparation and the right products, travel with confidence and priva
 *Last updated: July 2026*
 
 **Related Reading:**
-- [Body-Safe Materials Guide](../guides/body-safe-materials)
-- [Noise Level & Discretion Guide](../guides/noise-and-discretion)
-- [Cleaning & Maintenance Guide](../guides/cleaning-maintenance)
-- [Best For Couples](../best-for/couples)
-- [Best For Quiet Operation](../best-for/quiet)
+- [Body-Safe Materials Guide](/guides/body-safe-materials/)
+- [Noise Level & Discretion Guide](/guides/noise-and-discretion/)
+- [Cleaning & Maintenance Guide](/guides/cleaning-maintenance/)
+- [Best For Couples](/best-for/couples/)
+- [Best For Quiet Operation](/best-for/quiet/)

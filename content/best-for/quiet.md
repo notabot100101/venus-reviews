@@ -344,8 +344,8 @@ Your comfort and privacy matter. With quiet technology and proper strategies, in
 *Last updated: July 2026*
 
 **Related Reading:**
-- [Body-Safe Materials Guide](../guides/body-safe-materials)
-- [Noise Level & Discretion Guide](../guides/noise-and-discretion)
-- [Cleaning & Maintenance Guide](../guides/cleaning-maintenance)
-- [Best For Couples](../best-for/couples)
-- [Best For Travel](../best-for/travel)
+- [Body-Safe Materials Guide](/guides/body-safe-materials/)
+- [Noise Level & Discretion Guide](/guides/noise-and-discretion/)
+- [Cleaning & Maintenance Guide](/guides/cleaning-maintenance/)
+- [Best For Couples](/best-for/couples/)
+- [Best For Travel](/best-for/travel/)

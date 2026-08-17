@@ -16,7 +16,7 @@ Starting your journey doesn't mean settling for low quality. These products offe
 
 ### 1. Lovehoney Desire — Mid-Range Bestseller
 
-**Rating:** 4.7/5
+**Evidence note:** Research-based beginner fit pick
 
 The classic rabbit design most people picture — dual stimulation with rechargeable convenience. The familiar shape makes it approachable, while the mid-range price offers quality without luxury markup.
 
@@ -32,7 +32,7 @@ The classic rabbit design most people picture — dual stimulation with recharge
 
 ### 2. We Vibe Chorus — Couples Pick
 
-**Price:** Around $219 | **Rating:** 4.5/5
+**Price:** Around $219 | **Evidence note:** Research-based couples fit pick
 
 Designed for couples but approachable for beginners exploring partner play. The app controls add convenience without complexity.
 

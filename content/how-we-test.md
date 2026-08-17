@@ -39,23 +39,23 @@ Affiliate relationships do not change the editorial assessment. Product pages sh
 
 ## Evaluation Categories
 
-### 1. Build Quality & Materials (30% of overall score)
+### 1. Build Quality & Materials
 
 We look for documented materials, body-safety disclosures, construction notes, water-resistance ratings, charging design, and whether the manufacturer provides enough detail for a buyer to judge suitability.
 
-### 2. Performance & Features (30% of overall score)
+### 2. Performance & Features
 
 We compare published feature sets: modes, controls, charging and battery claims, app or remote functionality, shape, size, flexibility, and category-specific design choices. These are research-based comparisons, not measured performance results.
 
-### 3. Noise & Discretion (20% of overall score)
+### 3. Noise & Discretion
 
 We evaluate discretion from manufacturer claims, retailer descriptions, product design, and consistent patterns in published buyer feedback. We avoid presenting decibel numbers unless they are clearly sourced.
 
-### 4. Value & Pricing (15% of overall score)
+### 4. Value & Pricing
 
 We compare feature depth, materials, warranty, retailer availability, and category alternatives. Prices and offers can change, so value language should stay conservative unless the source data is current.
 
-### 5. Cleanability & Maintenance (5% of overall score)
+### 5. Cleanability & Maintenance
 
 We review surface texture, waterproof or splashproof claims, charging-port design, shape complexity, storage notes, and manufacturer cleaning guidance.
 
@@ -79,7 +79,7 @@ We do not claim to:
 - Run lab measurements
 - Publish timed product trials
 - Present first-person sensory experience as editorial fact
-- Alter ratings based on affiliate commission rates
+- Let affiliate commission rates determine editorial conclusions
 - Guarantee that published manufacturer or retailer information is complete
 
 ## Review Updates
@@ -92,11 +92,11 @@ We revisit pages when source information changes or when published buyer feedbac
 - New comparable products that change the recommendation context
 - Reader feedback that points to missing or unclear information
 
-Submit feedback: [feedback@reviews.ultramarine963.com](mailto:feedback@reviews.ultramarine963.com)
+Submit feedback through the [contact form](/contact/).
 
 ## Want to Know More?
 
-Read our detailed [Scoring Methodology](/methodology/) for category weights and scoring criteria.
+Read our detailed [evaluation methodology](/methodology/) for research criteria and source standards.
 
 ---
 

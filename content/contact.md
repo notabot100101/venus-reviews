@@ -65,10 +65,10 @@ We typically respond within 24-48 hours during business days.
 A: Yes, but our reviews remain independent. We disclose when products are provided for review.
 
 **Q: Can I request a specific product review?**  
-A: Absolutely! Email us your suggestion and we'll consider it for our review queue.
+A: Absolutely. Use the form above and we'll consider it for our review queue.
 
 **Q: How do I know your reviews are unbiased?**  
-A: Reviews are based on documented product information, retailer policies, and published buyer feedback. Potential affiliate commissions never influence our ratings — read our [Affiliate Disclosure](/affiliate-disclosure/).
+A: Reviews are based on documented product information, retailer policies, and published buyer feedback. Potential affiliate commissions never determine editorial conclusions — read our [Affiliate Disclosure](/affiliate-disclosure/).
 
 ---
 

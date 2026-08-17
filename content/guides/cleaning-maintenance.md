@@ -376,9 +376,9 @@ Your care for your products reflects your care for your health and well-being. E
 **Related Reading:**
 - [Body-Safe Materials Guide](../body-safe-materials)
 - [Noise Level & Discretion Guide](../noise-and-discretion)
-- [Best For Couples](../best-for/couples)
-- [Best For Travel](../best-for/travel)
-- [Best For Quiet Operation](../best-for/quiet)
+- [Best For Couples](/best-for/couples/)
+- [Best For Travel](/best-for/travel/)
+- [Best For Quiet Operation](/best-for/quiet/)
 
 ---
 *Last updated: {{ .Lastmod | default .Date | time.Format "January 2006" }}*

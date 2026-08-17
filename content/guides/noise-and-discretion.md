@@ -274,7 +274,7 @@ Your comfort and confidence matter. Choose products designed for discretion, lea
 **Related Reading:**
 - [Body-Safe Materials Guide](../body-safe-materials)
 - [Cleaning & Maintenance Guide](../cleaning-maintenance)
-- [Best For Quiet Operation](../best-for/quiet)
+- [Best For Quiet Operation](/best-for/quiet/)
 
 ---
 *Last updated: {{ .Lastmod | default .Date | time.Format "January 2006" }}*

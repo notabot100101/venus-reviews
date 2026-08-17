@@ -1,44 +1,23 @@
 ---
-title: "Scoring Methodology"
-description: "Detailed research methodology behind Venus Reviews. Understanding our scoring system, category weights, and review standards."
+title: "Evaluation Methodology"
+description: "Detailed research methodology behind Venus Reviews, including source checks, category criteria, and review standards."
 menu: "footer"
 weight: 10
 date: 2026-07-27
-lastmod: 2026-07-29
+lastmod: 2026-08-08
 ---
 
-## Scoring System Explained
+## Research Framework
 
-Our reviews use a **5-point scale** with quarter-point precision (4.0, 4.25, 4.5, 4.75, 5.0). The score is an editorial research score, not a lab result or direct-use measurement.
+Venus Reviews is a research and curation site. Our product pages are based on documented product information, manufacturer disclosures, retailer details, warranty and support context, and patterns in published buyer feedback.
 
-Scores are based on documented product information, manufacturer disclosures, retailer details, warranty/support context, and patterns in published buyer feedback.
-
-### Score Interpretation
-
-| Score | Rating | Meaning |
-|-------|--------|---------|
-| 4.75-5.0 | ★★★★★ | Exceptional - Best in class |
-| 4.25-4.5 | ★★★★☆ | Excellent - Highly recommended |
-| 3.75-4.0 | ★★★★☆ | Good - Solid choice with minor caveats |
-| 3.25-3.5 | ★★★☆☆ | Average - Works but has limitations |
-| Below 3.0 | ★★☆☆☆ | Below average - Consider alternatives |
-
-### Weighted Scoring Breakdown
-
-```
-Overall Score =
-  (Build Quality × 0.30) +
-  (Performance × 0.30) +
-  (Noise/Discretion × 0.20) +
-  (Value × 0.15) +
-  (Cleanability × 0.05)
-```
+We do not present numerical ratings, star ratings, lab measurements, timed ownership trials, or first-person sensory experience unless the underlying evidence supports that specific claim.
 
 ## Category-Specific Criteria
 
-### Build Quality & Materials (30%)
+### Build Quality & Materials
 
-This score reflects what can be verified from documentation and public product information:
+We look for information that can be verified from documentation and public product information:
 
 - Material disclosures, including silicone, ABS, metal, glass, or other stated materials
 - Body-safety claims and whether the manufacturer explains them clearly
@@ -49,9 +28,9 @@ This score reflects what can be verified from documentation and public product i
 
 Products lose confidence when material claims are vague, warranty terms are hard to find, or published feedback repeatedly mentions premature failure.
 
-### Performance & Features (30%)
+### Performance & Features
 
-This score compares published feature sets and buyer-relevant design choices:
+We compare published feature sets and buyer-relevant design choices:
 
 - Modes, controls, app or remote features, and adjustability
 - Battery and charging claims as published by the brand or retailer
@@ -61,9 +40,9 @@ This score compares published feature sets and buyer-relevant design choices:
 
 We do not present measured intensity, runtime, latency, or range unless a source is clearly stated.
 
-### Noise & Discretion (20%)
+### Noise & Discretion
 
-This score is based on documented claims and published feedback patterns:
+We evaluate discretion from documented claims and published feedback patterns:
 
 - Manufacturer or retailer language around quiet operation
 - Product type, motor design claims, and enclosure style where described
@@ -72,9 +51,9 @@ This score is based on documented claims and published feedback patterns:
 
 We avoid unsupported decibel claims. If a number is not sourced, it should not appear as a Venus measurement.
 
-### Value & Pricing (15%)
+### Value & Pricing
 
-This score weighs the product against alternatives in the same category:
+We compare products against alternatives in the same category:
 
 - Feature set relative to category peers
 - Materials and warranty at the stated price tier
@@ -84,9 +63,9 @@ This score weighs the product against alternatives in the same category:
 
 Because prices change, value notes should be phrased conservatively unless current offer data is available.
 
-### Cleanability & Maintenance (5%)
+### Cleanability & Maintenance
 
-This score reflects practical care information:
+We review practical care information:
 
 - Smoothness and complexity of the stated product shape
 - Documented waterproof or splashproof status
@@ -101,18 +80,17 @@ Products are compared against category expectations rather than a fixed universa
 | Metric | Budget Range | Mid-Range | Premium |
 |--------|--------------|-----------|---------|
 | Price | $25-50 | $75-120 | $150+ |
-| Typical Score Range | 3.5-4.0 | 4.0-4.5 | 4.5-5.0 |
 | Documentation Expectation | Basic materials and warranty | Clear specs and support terms | Detailed materials, features, and support |
 | Warranty | Often 1 year | Commonly 1-2 years | Often 2-5 years |
 
-The matrix is a guide, not an automatic formula. A premium product can score lower if documentation is weak or buyer feedback is inconsistent.
+The matrix is a guide, not an automatic formula. A premium product can still be a poor fit if documentation is weak, buyer feedback is inconsistent, or the design only suits a narrow use case.
 
 ## Review Integrity Measures
 
 ### Conflict of Interest Prevention
 
 - No manufacturer pre-publication control over editorial conclusions
-- Affiliate relationships disclosed but never allowed to determine scores
+- Affiliate relationships disclosed but never allowed to determine recommendations
 - Product pages can remain live even when no current affiliate offer is available
 - Recommendations should be explainable from documented criteria, not commission rates
 
@@ -141,7 +119,7 @@ The matrix is a guide, not an automatic formula. A premium product can score low
 
 **Annual:**
 - Review source links and manufacturer documentation
-- Reassess scoring if the category has materially changed
+- Reassess recommendations if the category has materially changed
 - Archive or mark discontinued products when appropriate
 
 ## Limitations & Transparency
@@ -176,23 +154,24 @@ Our confidence decreases when:
 
 **Confirmed Patterns:**
 - Added to the review as buyer-feedback context
-- Used to adjust score if the issue changes buyer fit
+- Used to update recommendations if the issue changes buyer fit
 - Monitored against retailer and manufacturer updates
 
 **Isolated Reports:**
 - Considered as signals, not proof
 - Monitored for pattern development
 
-Submit reports: [feedback@reviews.ultramarine963.com](mailto:feedback@reviews.ultramarine963.com)
+Submit reports through the [contact form](/contact/).
 
 ## Methodology Changelog
 
 | Date | Change | Rationale |
 |------|--------|-----------|
+| August 2026 | Removed unsupported public rating language | Align trust pages with current research-only editorial process |
 | July 2026 | Reframed methodology around research and curation | Align trust pages with actual editorial process |
 
 ---
 
-*Questions about our methodology? Contact: [methodology@reviews.ultramarine963.com](mailto:methodology@reviews.ultramarine963.com)*
+*Questions about our methodology? Use the [contact form](/contact/).*
 
-*Last updated: July 2026*
+*Last updated: August 2026*

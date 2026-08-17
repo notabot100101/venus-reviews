@@ -7,7 +7,7 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
 <section class="hero">
   <div class="hero-content">
     <h1>Discover Premium Pleasure Products</h1>
-    <p class="hero-subtitle">Expert reviews, honest ratings, and discreet buying guidance for discerning adults. Independent research you can trust.</p>
+    <p class="hero-subtitle">Evidence-based reviews and discreet buying guidance for discerning adults. Independent research you can trust.</p>
     <div class="hero-actions">
       <a href="/products/" class="btn btn-primary">Browse Reviews</a>
       <a href="/guides/how-to-choose/" class="btn btn-outline">Buying Guide</a>
@@ -19,7 +19,7 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
 <section class="section">
   <div class="container">
     <h2>Featured Reviews</h2>
-    <p class="section-subtitle">Our top-rated picks, tested and reviewed</p>
+    <p class="section-subtitle">Research-based picks with practical buyer-fit notes</p>
     
     <div class="product-grid">
       <!-- Product 1: Lelo Sona 2 -->
@@ -29,7 +29,7 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
         </div>
         <div class="product-info">
           <h3>Lelo Sona 2</h3>
-          <div class="product-rating">★★★★★ 4.8/5</div>
+          <div class="product-rating">Research-based review</div>
           <p class="product-price">$179.99</p>
           <p class="product-category">Sonic Wave</p>
           <a href="/products/lelo-sona-2/" class="btn btn-sm">Read Review</a>
@@ -43,7 +43,7 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
         </div>
         <div class="product-info">
           <h3>Lelo Hugo</h3>
-          <div class="product-rating">★★★★★ 4.7/5</div>
+          <div class="product-rating">Research-based review</div>
           <p class="product-price">$199.99</p>
           <p class="product-category">Premium Wellness</p>
           <a href="/products/lelo-hugo/" class="btn btn-sm">Read Review</a>
@@ -57,7 +57,7 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
         </div>
         <div class="product-info">
           <h3>Lovehoney Desire</h3>
-          <div class="product-rating">★★★★★ 4.7/5</div>
+          <div class="product-rating">Research-based review</div>
           <p class="product-price">$59.99</p>
           <p class="product-category">Mid-Range Bestseller</p>
           <a href="/products/lovehoney-desire/" class="btn btn-sm">Read Review</a>
@@ -70,7 +70,7 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
         </div>
         <div class="product-info">
           <h3>Fun Factory Manta</h3>
-          <div class="product-rating">★★★★☆ 4.4/5</div>
+          <div class="product-rating">Research-based review</div>
           <p class="product-price">$119.99</p>
           <p class="product-category">Flexible Shape</p>
           <a href="/products/fun-factory-manta/" class="btn btn-sm">Read Review</a>
@@ -83,7 +83,7 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
         </div>
         <div class="product-info">
           <h3>We Vibe Sync</h3>
-          <div class="product-rating">★★★★☆ 4.4/5</div>
+          <div class="product-rating">Research-based review</div>
           <p class="product-price">$99.99</p>
           <p class="product-category">Adjustable Fit</p>
           <a href="/products/we-vibe-sync/" class="btn btn-sm">Read Review</a>
