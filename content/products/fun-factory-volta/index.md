@@ -54,6 +54,12 @@ offers:
     currency: "EUR"
     checked: ""
     available: false
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DFun+Factory+Volta"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 Fun Factory Volta is the precision external pick in this batch. Its defining feature is the twin-tip, fluttering shape: more targeted than Manta's flexible wings, more exploratory than a bullet, and less broad than a wand. It is best framed as a control-focused external vibrator for shoppers who want to vary pressure, angle, and contact style.

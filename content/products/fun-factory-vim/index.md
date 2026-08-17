@@ -22,6 +22,12 @@ offers:
     currency: "EUR"
     checked: "2026-08-06"
     available: false
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DFun+Factory+VIM"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 Fun Factory VIM is the first wand in the Venus catalogue — the format is a fixture of the category and its absence here was a real gap. VIM's design argument is the weighted motor: two weights flank the motor to push its vibration into the low, rumbly register that wand users generally prefer over buzzy high frequencies.

@@ -39,6 +39,12 @@ offers:
     currency: "EUR"
     checked: ""
     available: false
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DSatisfyer+Pro+2"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 The Satisfyer Pro 2 is the product that made pressure-wave stimulation a mass-market category rather than a luxury one. The current version is the Pro 2 Generation 3, and it is best understood as the accessible entry point into air-pulse toys: it delivers the same basic contactless clitoral sensation as devices costing several times more, with a shorter feature list and a less refined interface. It suits someone curious about suction-style stimulation who does not want to spend premium money to find out whether they like it.

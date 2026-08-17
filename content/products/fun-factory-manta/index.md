@@ -55,6 +55,12 @@ offers:
     currency: "EUR"
     checked: ""
     available: false
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DFun+Factory+Manta"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 Fun Factory Manta is the most specialized external stimulator in this batch. It is built around a flexible wraparound shape rather than a bullet, palm vibrator, or wand head. Fun Factory's German product page positions Manta as a penis vibrator for solo or couples use, but the broader Venus value is the form factor: flexible wings, more contact area, and deep vibration for shoppers who want something less point-focused than a small tip.

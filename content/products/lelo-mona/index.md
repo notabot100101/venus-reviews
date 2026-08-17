@@ -45,6 +45,12 @@ offers:
     currency: "EUR"
     checked: ""
     available: false
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DLelo+Mona"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 LELO Mona 2 is best understood as a classic premium G-spot vibrator, not a novelty device and not an air-pulse toy. It suits someone who already prefers firm, curved internal pressure with vibration, and who would rather pay for a polished rechargeable design than buy a cheaper experiment. The caveat is that its strengths are specific: Mona 2 is not the most versatile couples toy here, not the smallest travel option, and not the right pick for shoppers who mainly want external suction-style stimulation.

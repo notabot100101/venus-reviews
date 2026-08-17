@@ -50,6 +50,12 @@ offers:
     currency: "EUR"
     checked: ""
     available: false
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DLelo+Hugo"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 Lelo Hugo is the prostate-focused premium pick in this Venus batch. It is not a general couples vibrator, a clitoral stimulator, or a beginner-neutral shape. Its place in the catalogue is clearer: a rechargeable, waterproof, remote-controlled prostate massager with documented dimensions, silicone/ABS materials, a motion-sensitive remote concept, and LELO's warranty language.

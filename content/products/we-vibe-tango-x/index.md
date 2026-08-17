@@ -18,6 +18,12 @@ offers:
     currency: "EUR"
     checked: "2026-08-06"
     available: true
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DWe-Vibe+Tango+X"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 We-Vibe Tango X is the catalogue's small-format entry: a bullet vibrator for shoppers who want precise external stimulation, either on its own or as the powered core of other toys. Within the Venus lineup it sits opposite the broad-contact air-pulse products — this is the pick when the requirement is a small, targeted point of contact rather than enveloping stimulation.

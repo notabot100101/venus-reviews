@@ -57,6 +57,12 @@ offers:
     currency: "EUR"
     checked: ""
     available: false
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DDame+Eva+II"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 Dame Eva II, now presented by Dame as Eva Wearable Vibrator, is the catalogue's compact wearable option for partner-facing external stimulation. It is not a rabbit, not an insertable G-spot vibrator, and not a broad wand. Its core promise is narrower: a small clitoral vibrator intended to stay in place during partnered sex while leaving hands free.

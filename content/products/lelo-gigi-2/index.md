@@ -42,6 +42,12 @@ offers:
     currency: "EUR"
     checked: ""
     available: false
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DLelo+Gigi+2"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 LELO GIGI 2 is a premium G-spot vibrator built around one distinguishing feature: a flattened, angled tip rather than the rounded bulb most insertable vibrators use. That flat face is the whole design argument. It spreads contact over a broader area of the front wall instead of concentrating it at a single point, which some people find more effective and others find less precise. GIGI 2 is also noticeably smaller and lighter than LELO's other G-spot toys, which makes it the more practical option for anyone who wants a premium insertable device that packs down.

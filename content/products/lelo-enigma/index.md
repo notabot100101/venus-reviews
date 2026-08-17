@@ -51,6 +51,12 @@ offers:
     currency: "EUR"
     checked: ""
     available: false
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DLelo+Enigma"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 Lelo Enigma is the premium dual-stimulation pick in this Venus set: a luxury sonic-and-internal vibrator for shoppers who already know they want a shaped, fit-sensitive device rather than a simple beginner toy. Its strongest case is not that it is universal. Its strongest case is that LELO documents the materials, dimensions, battery, charging, warranty, and sonic/internal design clearly enough for careful comparison.

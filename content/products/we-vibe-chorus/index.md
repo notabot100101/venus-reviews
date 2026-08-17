@@ -50,6 +50,12 @@ offers:
     currency: "EUR"
     checked: ""
     available: false
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DWe+Vibe+Chorus"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 We-Vibe Chorus is the most app-and-remote-centered couples option in this Venus batch. It is designed around partnered positioning, adjustable fit, a Squeeze Remote, Touch-sense modes, and We-Vibe app connectivity rather than simple solo use. That makes it more capable than a basic vibrator, but also more dependent on setup, fit, charging habits, and whether the app/remote layer is actually wanted.

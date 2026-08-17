@@ -39,6 +39,12 @@ offers:
     currency: "EUR"
     checked: ""
     available: false
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DLovehoney+Desire"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 Lovehoney Desire is the value-oriented rabbit comparison in the Venus catalogue: a mainstream dual-stimulation shape for shoppers who want the rabbit format without stepping up to the premium LELO tier. The problem for this pass is sourcing. Lovehoney's product URLs and search pages returned a technical-difficulty/blocked page, so this review cannot responsibly import exact manufacturer specs.

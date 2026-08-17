@@ -50,6 +50,12 @@ offers:
     currency: "EUR"
     checked: ""
     available: false
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DLelo+Sona+2"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 Lelo Sona 2 is the compact LELO pick for shoppers who want focused external sonic stimulation rather than a classic insertable vibrator. It is small, premium-positioned, and unusually well documented by the manufacturer: the live page gives materials, dimensions, battery, charge time, runtime, mouth width, modes, frequency, noise ceiling, and warranty language.

@@ -47,6 +47,12 @@ offers:
     currency: "EUR"
     checked: ""
     available: false
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DWe+Vibe+Sync"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 We-Vibe Sync is the simpler adjustable couples option next to Chorus. It is still a connected wearable vibrator, but the live manufacturer page presents it more plainly: adjustable fit, remote control, waterproof IPX7 construction, USB charging, app control, and a compact C-shaped body for shared stimulation.

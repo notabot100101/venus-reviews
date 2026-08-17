@@ -18,6 +18,12 @@ offers:
     currency: "EUR"
     checked: "2026-08-06"
     available: true
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DLELO+Sila"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 LELO Sila is the gentle entry in LELO's sonic range: the same non-contact sonic-wave category as Sona 2, tuned for a slower, softer build rather than maximum intensity. In the Venus catalogue it answers a request the existing pages do not: an air-pulse-family product specifically positioned for users who find the standard intensity curves too aggressive.

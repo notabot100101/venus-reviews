@@ -42,6 +42,12 @@ offers:
     currency: "EUR"
     checked: ""
     available: false
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DWomanizer+Premium+2"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 Womanizer Premium 2 is the reference product for pressure-wave clitoral stimulation, and it earns that position through two documented features rather than raw power. Smart Silence activates the device only when it is in contact with skin, and Autopilot 2.0 varies intensity automatically instead of holding a fixed level. Both address the practical complaints people actually have about air-pulse toys — that they are loud in the hand and monotonous at a constant setting — and neither is available on the budget alternatives.
