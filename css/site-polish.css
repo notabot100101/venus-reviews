@@ -142,17 +142,31 @@
 
 .rating-stars {
   position: relative;
-  display: inline-block;
-  color: rgba(250, 204, 21, 0.28);
-  letter-spacing: 0.04em;
+  display: inline-flex;
+  align-items: center;
+  line-height: 1;
+}
+
+.rating-stars .star-base {
+  display: block;
+  height: 1.1em;
+  width: auto;
 }
 
 .rating-stars-fill {
   position: absolute;
   inset: 0 auto 0 0;
   overflow: hidden;
-  color: #facc15;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.rating-stars-fill .star-fill {
+  display: block;
+  height: 1.1em;
+  width: auto;
+  flex-shrink: 0;
 }
 
 .rating-value {
@@ -648,7 +662,12 @@
   font-weight: 800;
 }
 
-.product-info .rating-stars {
+.product-info .rating-stars .star-base,
+.product-info .rating-stars .star-fill {
+  height: 1.6em;
+}
+
+.old-product-info-rating {
   font-size: 1.35rem;
 }
 
@@ -686,4 +705,77 @@
   .product-next-prev > div {
     flex-direction: column;
   }
+}
+
+/* Tags - one chip component shared by the /tags/ index and the tag rows on
+   product cards, so a tag looks the same everywhere it appears. */
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.product-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+
+/* Both the surface and the label stay theme-neutral, and --color-secondary is
+   spent on the hover border instead. The picker swings that accent from cyan to
+   emerald to amber to magenta, and as label text it drops under the 4.5:1 AA
+   floor on dark-rose (3.16), deep-violet (3.71) and light (3.64) at this size.
+   --color-text is >=11.9:1 on every theme, so the hierarchy comes from scale
+   and containment rather than from washed-out colour. */
+.tag-chip {
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  color: var(--color-text);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+  padding: 0.4rem 0.85rem;
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+a.tag-chip:hover,
+a.tag-chip:focus-visible {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: var(--color-secondary);
+  transform: translateY(-2px);
+}
+
+/* --color-text again rather than --color-text-light, which is a dark slate on
+   neon-cyber and lands at 3.60:1 there. */
+.tag-chip-count {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  color: var(--color-text);
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+  min-width: 1.5rem;
+  padding: 0.2rem 0.4rem;
+  text-align: center;
+}
+
+/* Compact variant for the tag row inside a product card. */
+.product-card-tags .tag-chip {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.65rem;
+}
+
+.products-empty {
+  color: var(--color-text);
+  font-size: 1.05rem;
+  padding: var(--space-3xl) 0;
+  text-align: center;
 }
