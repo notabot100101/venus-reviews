@@ -13,7 +13,7 @@ Venus Reviews was created to solve a simple problem: finding honest, detailed in
 
 We do things differently.
 
-We write for people who want a private, practical answer before they buy: what feels premium, what stays quiet, what cleans easily, what ships discreetly, and what might be a poor fit even when the rating looks strong.
+We write for people who want a private, practical answer before they buy: what feels premium, what stays quiet, what cleans easily, what ships discreetly, and what might be a poor fit even when reviews look positive.
 
 ## Who We Are
 
@@ -29,7 +29,7 @@ We write for people who want a private, practical answer before they buy: what f
 
 **Discretion Matters**: We understand privacy is paramount. We compare retailer shipping and billing claims so readers know what to verify before ordering.
 
-**Independent Voices**: We're a community-driven review site. Potential affiliate relationships never influence ratings or recommendations.
+**Independent Voices**: We're a community-driven review site. Editorial decisions remain independent of any potential affiliate relationships.
 
 ## How We Review
 
@@ -103,7 +103,7 @@ With over a dozen in-depth product reviews and comprehensive buying guides, we c
 
 ## Affiliate Disclosure
 
-Venus Reviews may use approved affiliate links after a retailer or affiliate network accepts the site. Until then, offer buttons stay disabled or point only to internal reviews, and we do not claim an active partnership. Our reviews remain independent; potential affiliate relationships never influence ratings or recommendations.
+Venus Reviews may use approved affiliate links after a retailer or affiliate network accepts the site. Until then, offer buttons stay disabled or point only to internal reviews, and we do not claim an active partnership. Our reviews remain independent; editorial decisions are not influenced by potential affiliate relationships.
 
 ## Contact Us
 

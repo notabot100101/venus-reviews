@@ -61,7 +61,7 @@
     <div class="section-header reviews-header">
       <div>
         <h2>Featured Reviews</h2>
-        <p>Quick-scan picks with ratings, plain-English fit notes, and the privacy details buyers usually check last.</p>
+        <p>Quick-scan picks with plain-English fit notes and the privacy details buyers usually check last.</p>
       </div>
       <a class="btn btn-outline" href="/products/">View All Reviews</a>
     </div>
@@ -116,7 +116,7 @@
             <th>Product</th>
             <th>Best For</th>
             <th>Noise</th>
-            <th>Rating</th>
+            <th>Review Status</th>
             <th>Best Current Offer</th>
             <th>Review</th>
           </tr>
@@ -128,7 +128,7 @@
             <td>{{ .Title }}</td>
             <td>{{ .Params.best_for | default "General comparison" }}</td>
             <td>{{ .Params.noise | default "See review" }}</td>
-            <td>{{ with .Params.rating }}{{ . }}/5{{ else }}Reviewed{{ end }}</td>
+            <td>{{ with .Params.rating }}Editorial Pick{{ else }}Reviewed{{ end }}</td>
             <td>{{ partial "best-offer-display.html" . }}</td>
             <td><a href="{{ .RelPermalink }}">Read</a></td>
           </tr>
