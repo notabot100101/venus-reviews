@@ -22,9 +22,10 @@ Redirect 301 /category/dildos/ /products/
 
 # Retired duplicate/stale product pages (removed 2026-07-30 when best-of shipped).
 # None were in the sitemap, but redirect rather than 404 in case of stray links.
+# 2026-08-17: bvee-original-rabbit and womanizer-2-original were published (undrafted)
+# and now have live content, so their redirects are removed. The retired pages below
+# genuinely have no content.
 Redirect 301 /products/bvee-rabbit/ /products/
-Redirect 301 /products/bvee-original-rabbit/ /products/
-Redirect 301 /products/womanizer-2-original/ /products/
 Redirect 301 /products/womanizer-2/ /products/
 Redirect 301 /products/h2o-holo-vibe/ /products/
 Redirect 301 /products/all/ /products/
@@ -41,8 +42,9 @@ Redirect 301 /products/h2o-holo-vibe/ /products/
 
 # Superseded Best For pages (removed 2026-08-05). These were unlinked, absent from
 # the sitemap, and duplicated the indexed pages they now point to.
-Redirect 301 /best-for/couples/ /best-for/best-for-couples/
-Redirect 301 /best-for/travel/ /best-for/best-for-travel/
+# 2026-08-17: slug changed from 'best-for-couples'/'best-for-travel' to 'couples'/'travel',
+# so the clean URLs now serve the real content. The redirects to the old slug-based URLs
+# are removed so filesystem content takes precedence.
 Redirect 301 /products/compare/ /products/
 
 # Retired tag pages (removed 2026-08-06). Orphaned build artifacts: the product pages
