@@ -1,5 +1,6 @@
 ---
 title: "Fun Factory VIM"
+seo_title: "Fun Factory VIM - Venus Reviews"
 description: "Weighted-motor wand massager."
 sku: "fun-factory-vim"
 menu: "main"
