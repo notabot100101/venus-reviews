@@ -1,6 +1,7 @@
 ---
 title: "Fun Factory VIM"
-description: "Weighted-motor wand massager."
+seo_title: "Fun Factory VIM - Venus Reviews"
+description: "Weighted-motor wand massager — the first wand-format product in the Venus catalogue."
 sku: "fun-factory-vim"
 menu: "main"
 weight: 170
