@@ -1,7 +1,10 @@
 ---
 title: "LELO Sila"
+seo_description: "LELO Sila review — gentle sonic clitoral massager with wide-mouth design for softer-paced stimulation. Compared with Sona 2. Body-safe silicone, waterproof."
+schema_product: true
 description: "Gentle sonic clitoral massager — LELO's softer-paced counterpart to its more intense sonic range."
 sku: "lelo-sila"
+category: "external-stimulation"
 menu: "main"
 weight: 165
 draft: false
