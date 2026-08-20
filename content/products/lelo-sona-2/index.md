@@ -1,6 +1,6 @@
 ---
 title: "Lelo Sona 2"
-seo_description: "Lelo Sona 2 review covering focused sonic-wave stimulation, silicone and ABS materials, waterproof design, noise notes, and how it compares with other compact external stimulators."
+seo_description: "Lelo Sona 2 review — focused sonic-wave stimulation, silicone/ABS build, waterproof, travel-friendly. Compare with Sila and other compact external stimulators."
 schema_product: true
 description: "Compact premium sonic-wave stimulator with a focused sensation profile and travel-friendly build."
 sku: "lelo-sona-2"
