@@ -1,8 +1,11 @@
 ---
 title: "Fun Factory VIM"
 seo_title: "Fun Factory VIM - Venus Reviews"
+seo_description: "Fun Factory VIM wand massager review — German-made, body-safe silicone, USB-C rechargeable, IPX7 waterproof. Deep weighted-motor rumble from a trusted brand."
+schema_product: true
 description: "Weighted-motor wand massager — the first wand-format product in the Venus catalogue."
 sku: "fun-factory-vim"
+category: "wand"
 menu: "main"
 weight: 170
 draft: false
