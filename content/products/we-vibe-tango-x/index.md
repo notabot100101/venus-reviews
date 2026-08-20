@@ -1,7 +1,11 @@
 ---
 title: "We-Vibe Tango X"
-description: "Compact bullet vibrator with broad-motor rumble."
+seo_title: "We-Vibe Tango X - Venus Reviews"
+seo_description: "We-Vibe Tango X review — compact bullet vibrator with broad-motor rumble and precision focus. Body-safe silicone, waterproof. Compare with other premium bullets."
+schema_product: true
+description: "Compact bullet vibrator with broad-motor rumble, positioned as the precision pick in the Venus catalogue."
 sku: "we-vibe-tango-x"
+category: "external-stimulation"
 menu: "main"
 weight: 160
 draft: false
