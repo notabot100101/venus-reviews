@@ -1,7 +1,8 @@
 ---
 draft: false
 title: "Womanizer Premium 2"
-seo_description: "Womanizer Premium 2 review covering Smart Silence contact activation, Autopilot 2.0, 14 intensity levels, documented silicone materials, IPX7 waterproofing, and the five-year warranty."
+seo_title: "Womanizer Premium 2 - Venus Reviews"
+seo_description: "Womanizer Premium 2 review — Smart Silence, Autopilot 2.0, 14 levels, silicone/ABS, IPX7 waterproof. Compare with other premium pressure-wave stimulators."
 schema_product: true
 image: "/images/editorial/ambient-01.png"
 category: "external-stimulation"
