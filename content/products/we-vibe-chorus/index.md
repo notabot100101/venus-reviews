@@ -1,7 +1,10 @@
 ---
 title: "We Vibe Chorus"
+seo_description: "We Vibe Chorus review — app-enabled dual-stimulation couples vibrator with adjustable fit and remote control. Compare with We Vibe Sync."
+schema_product: true
 description: "Synchronized dual-action stimulator for couples"
 sku: "we-vibe-chorus"
+category: "dual-action"
 draft: false
 recoveryVersion: "2026.07.09-Phase0"
 weight: 60
