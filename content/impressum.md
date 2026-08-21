@@ -1,67 +1,38 @@
 ---
-title: "Impressum"
-description: "Legal disclosure according to German TMG (Telemediengesetz)"
+title: "Legal Notice"
+description: "Legal and editorial contact information for Venus Reviews."
 menu: "footer"
+lastmod: 2026-08-21
 ---
 
-## Impressum
+## Legal Notice
 
-**Angaben gemäß § 5 TMG (Telemediengesetz):**
+**Last updated:** August 21, 2026
 
-### Betreiber der Website
+Venus Reviews is an independent editorial review and buying-guide website for adults. The site publishes research-based product reviews, comparisons, and privacy-focused shopping context. Venus Reviews does not operate a store, process payments, ship products, manage customer accounts, or handle retailer returns.
 
-**[VORNAME NACHNAME EINFÜGEN]**  
-[STRASSE UND HAUSNUMMER EINFÜGEN]  
-[PLZ ORT EINFÜGEN]  
-Deutschland
+## Publisher Contact
 
-### Kontakt
+Legal, editorial, privacy, correction, and rights-holder notices can be sent through the [contact page](/contact/). The contact form reaches the site operator directly.
 
-E-Mail: [EMAIL-ADRESSE EINFÜGEN]  
-Telefon: [OPTIONAL - TELEFONNUMMER EINFÜGEN]
+For affiliate networks, payment processors, regulators, or other parties that require non-public business, tax, or postal details, those details should be exchanged through the relevant secure application, account, or official request channel rather than posted on a public adult-category review site.
 
-### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
+## Editorial Responsibility
 
-[VORNAME NACHNAME EINFÜGEN]  
-[ADRESSE WIE OBEN]
+Venus Reviews is responsible for its own editorial content. Reviews are based on manufacturer documentation, retailer listings, warranty and support information, and patterns in published buyer feedback. Product details, prices, availability, and retailer policies can change; the retailer or manufacturer page at checkout remains the current source of truth.
 
-### Hinweis zur USt-IdNr.
+## External Links
 
-Die Website dient ausschließlich Informationszwecken (Affiliate-Content).  
-USt-IdNr.: [FALLS ZUTREFFEND EINFÜGEN, SONST "nicht vorhanden / keine Umsatzsteuerpflicht"]
+The site links to manufacturers, retailers, affiliate networks, and reference sources. Venus Reviews checks links for relevance when they are added, but does not control external websites and is not responsible for external content, tracking practices, checkout terms, shipping, returns, warranties, or customer support.
 
----
+## Intellectual Property
 
-## Haftungsausschluss (Disclaimer)
+Original Venus Reviews text, layout, and graphics are protected by copyright unless otherwise stated. Short excerpts may be quoted with attribution. Full-page republication, commercial scraping, or reuse that suggests endorsement is not permitted.
 
-### Haftung für Inhalte
+## Dispute Resolution
 
-Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
+The European Commission provides an online dispute-resolution platform at [https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr). Venus Reviews is an editorial site and is not willing or obligated to participate in consumer arbitration before a consumer arbitration board.
 
-### Haftung für Links
+## Privacy
 
-Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.
-
-### Urheberrecht
-
-Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
-
----
-
-## Datenschutzerklärung
-
-Die vollständige Datenschutzerklärung finden Sie unter: [Datenschutz](/privacy/)
-
----
-
-## Streitschlichtung
-
-Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: [https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr)
-
-Unsere E-Mail-Adresse finden Sie oben im Impressum.
-
-Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
-
----
-
-**Stand:** August 2026
+See the [Privacy Policy](/privacy/) for details on analytics, contact-form handling, and outbound retailer links.
