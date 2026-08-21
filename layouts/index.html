@@ -116,7 +116,7 @@
             <th>Product</th>
             <th>Best For</th>
             <th>Noise</th>
-            <th>Review Status</th>
+            <th>Review Type</th>
             <th>Best Current Offer</th>
             <th>Review</th>
           </tr>
@@ -128,7 +128,7 @@
             <td>{{ .Title }}</td>
             <td>{{ .Params.best_for | default "General comparison" }}</td>
             <td>{{ .Params.noise | default "See review" }}</td>
-            <td>{{ with .Params.rating }}Editorial Pick{{ else }}Reviewed{{ end }}</td>
+            <td>Research review</td>
             <td>{{ partial "best-offer-display.html" . }}</td>
             <td><a href="{{ .RelPermalink }}">Read</a></td>
           </tr>

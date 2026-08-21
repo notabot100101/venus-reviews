@@ -162,14 +162,14 @@
        physically tested - the same misrepresentation as the Product.image
        case below, removed for the same reason. */}}
 {{- $schema := dict "@context" "https://schema.org" "@type" "Product" "name" $.Title "description" (. | plainify) "category" $.Params.category }}
-{{- /* schema.org Product.image means an image OF THE PRODUCT. Nine of the twelve
-       products carry an ambient placeholder (a spa still-life) because no genuine
+{{- /* schema.org Product.image means an image OF THE PRODUCT. Some product pages
+       use ambient editorial still-life images because no genuine product
        photograph exists yet; emitting that as Product.image tells Google it is a
        photo of the product, which is the same misrepresentation that was just
        removed from the visible pages. Omit the field instead - it is optional, and
        an absent image is honest where a borrowed one is not. This unblocks itself
-       automatically once a real product photo replaces the placeholder. */}}
-{{- if and $.Params.image (not (strings.Contains $.Params.image "/placeholders/")) }}
+       automatically once a real product photo replaces the ambient image. */}}
+{{- if and $.Params.image (not (or (strings.Contains $.Params.image "/placeholders/") (strings.Contains $.Params.image "/editorial/"))) }}
 {{- $schema = merge $schema (dict "image" ($.Params.image | absURL)) }}
 {{- end }}
 <script type="application/ld+json">

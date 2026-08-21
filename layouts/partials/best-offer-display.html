@@ -26,5 +26,5 @@
   <span class="best-offer-price">{{ $symbol }}{{ printf "%.2f" (float $best.price) }}</span>
   <span class="best-offer-checked">checked {{ dateFormat "2 Jan 2006" (time.AsTime $best.checked) }}</span>
 {{ else }}
-  <span class="offer-muted">No verified offer yet</span>
+  <span class="offer-muted">Review-only guidance</span>
 {{ end }}

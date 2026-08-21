@@ -17,7 +17,7 @@ noise: "Medium noise"
 card_excerpt: "Best for couples who want app-enabled control and flexible fit, with a little more setup than a simple solo device."
 trust_note: "The review foregrounds app setup, fit, and cleaning so the couples features are easier to evaluate privately."
 support_note: "Buy from a retailer with clear warranty handling because app-connected products can need firmware or support follow-up."
-image: "/images/placeholders/ambient-10.png"
+image: "/images/editorial/ambient-10.png"
 offers:
   # current promo price; regular list 209 EUR
   - retailer: "We-Vibe (manufacturer)"

@@ -8,7 +8,7 @@ draft: false
 # DRAFT added overnight 2026-08-06. Verified against we-vibe.com/eu/tango-x
 # (rendered page): product exists, 89 EUR, purchasable. Paul reviews before publish.
 best_for: "Pinpoint external stimulation"
-image: "/images/placeholders/ambient-10.png"
+image: "/images/editorial/ambient-10.png"
 price: "89.00"
 price_checked: "2026-08-06"
 offers:

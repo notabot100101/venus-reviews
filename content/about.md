@@ -29,7 +29,7 @@ We write for people who want a private, practical answer before they buy: what f
 
 **Discretion Matters**: We understand privacy is paramount. We compare retailer shipping and billing claims so readers know what to verify before ordering.
 
-**Independent Voices**: We're a community-driven review site. Editorial decisions remain independent of any potential affiliate relationships.
+**Independent Research**: Editorial decisions remain independent of any potential affiliate relationships.
 
 ## How We Review
 
@@ -76,7 +76,7 @@ We write for people who want a private, practical answer before they buy: what f
 
 ## Our Review Coverage
 
-With over a dozen in-depth product reviews and comprehensive buying guides, we cover:
+Our current product reviews and buying guides cover:
 
 - Vibrators and massagers
 - External stimulators
@@ -89,8 +89,8 @@ With over a dozen in-depth product reviews and comprehensive buying guides, we c
 
 ## Trust & Credibility
 
-**12 In-Depth Reviews**: Each built from product research and buyer-fit analysis  
-**Real User Feedback**: We incorporate community feedback and reporting  
+**Research-Based Reviews**: Each built from product documentation, retailer context, and buyer-fit analysis  
+**Published Feedback Context**: We summarize recurring public feedback patterns without copying retailer reviews  
 **No Sponsored Rankings**: Our "Top Picks" are based on editorial criteria, not payment  
 **Independent Research**: We evaluate products on their own merits
 
@@ -125,17 +125,14 @@ Not sure where to begin? Tell us your priorities: quiet use, beginner comfort, m
 [Ask For Buying Advice](/contact/)  
 [Suggest A Product To Review](/contact/)
 
-**Join our community:**  
-Sign up for our newsletter for latest reviews, exclusive offers, and member discounts.
-
 ## Thank You for Trusting Us
 
-We appreciate your support. Your purchases help us continue providing honest, helpful reviews for the adult community. Every review matters, and every voice deserves to be heard.
+We appreciate your support. Reader attention and correction requests help us keep the catalogue more useful and more honest over time.
 
 ---
 
 *Venus Reviews — Honest guidance for discerning adults.*
 
-*Established 2024 | 12+ Products Reviewed | Independent Research & Curation*
+*Established 2024 | Independent Research & Curation*
 
 *Last updated: {{ .Lastmod | default .Date | time.Format "January 2006" }}*

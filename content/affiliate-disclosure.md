@@ -6,7 +6,7 @@ menu: "footer"
 
 ## Affiliate Disclosure
 
-**Last Updated:** August 3, 2026
+**Last Updated:** August 21, 2026
 
 ### Our Commitment to Transparency
 
@@ -15,7 +15,7 @@ Venus Reviews is reader-supported. Some outbound retailer links may become affil
 ### What This Means
 
 - We do not claim an active retailer partnership until approval is confirmed
-- Product offer buttons stay disabled when no approved URL and verified price are available
+- Product offer buttons show only review or retailer context when no approved URL and verified price are available
 - Approved affiliate links may generate a tracking cookie after a reader clicks through
 - Any future affiliate revenue helps maintain the site and continue detailed reviews
 
@@ -25,7 +25,7 @@ Venus Reviews is reader-supported. Some outbound retailer links may become affil
 
 - Products are reviewed based on merit, not commission rates
 - We publish product caveats even when a retailer relationship exists or may exist later
-- Ratings reflect product research and published user feedback
+- Recommendations reflect product research and published user-feedback patterns
 - We disclose when products are provided for review
 
 ### FTC Compliance

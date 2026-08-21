@@ -9,7 +9,7 @@
 {{ if gt (len $offers) 0 }}
 <div class="offer-comparison-block">
   <h3>Compare Retailer Offers</h3>
-  <p class="offer-comparison-intro">Retailer links and prices appear here only after Venus has a real affiliate URL and a verified price check.</p>
+  <p class="offer-comparison-intro">Retailer links and prices appear here only when Venus has a real destination URL and a fresh price check.</p>
   <p class="affiliate-disclosure-banner affiliate-disclosure-inline">
     Venus Reviews is reader-supported. We may earn a commission if you buy through retailer links, at no extra cost to you. Our recommendations are editorially independent.
     <a href="/affiliate-disclosure/">Full affiliate disclosure</a>.
@@ -62,7 +62,7 @@
             {{ else if $hasUrl }}
               <span class="offer-status offer-status-disabled">Unavailable</span>
             {{ else }}
-              <span class="offer-status offer-status-disabled">Affiliate link pending</span>
+              <span class="offer-status offer-status-disabled">Review-only</span>
             {{ end }}
           </td>
           <td>
@@ -71,7 +71,7 @@
             {{ else if $hasUrl }}
               <span class="offer-action-disabled">Unavailable</span>
             {{ else }}
-              <span class="offer-action-disabled">Coming soon</span>
+              <span class="offer-action-disabled">No outbound link</span>
             {{ end }}
           </td>
         </tr>

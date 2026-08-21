@@ -8,7 +8,7 @@ seo_description: "Fun Factory Manta review covering flexible external stimulatio
 # the prose explicitly declines to claim. Re-enable once the product is
 # verified against a manufacturer source.
 schema_product: false
-image: "/images/placeholders/ambient-07.png"
+image: "/images/editorial/ambient-07.png"
 description: "Flexible external stimulator with a distinctive wraparound shape and strong material quality."
 sku: "fun-factory-manta"
 draft: false

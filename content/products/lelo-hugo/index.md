@@ -17,7 +17,7 @@ price_checked: "2026-08-06"
 category: "prostate"
 best_for: "Premium prostate wellness"
 noise: "Low noise"
-image: "/images/placeholders/ambient-02.png"
+image: "/images/editorial/ambient-02.png"
 offers:
   # SOLD OUT at lelo.com 2026-08-06; successor HUGO 2 sells at 179 EUR
   - retailer: "LELO (manufacturer)"

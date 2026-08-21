@@ -1,6 +1,6 @@
 ---
 title: "We Vibe Sync"
-image: "/images/placeholders/ambient-12.png"
+image: "/images/editorial/ambient-12.png"
 description: "Adjustable couples vibrator with flexible fit, app control, and travel-friendly charging."
 sku: "we-vibe-sync"
 draft: false

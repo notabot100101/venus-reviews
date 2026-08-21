@@ -9,7 +9,7 @@ draft: false
 # JSON-LD: 66.95 EUR but OutOfStock at manufacturer on the check date. Paul
 # reviews before publish; re-check stock then.
 best_for: "Deep, rumbly external massage"
-image: "/images/placeholders/ambient-12.png"
+image: "/images/editorial/ambient-12.png"
 price: "66.95"
 price_checked: "2026-08-06"
 offers:

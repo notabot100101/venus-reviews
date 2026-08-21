@@ -3,7 +3,7 @@ draft: false
 title: "Satisfyer Pro 2"
 seo_description: "Satisfyer Pro 2 Generation 3 review covering Liquid Air pressure-wave technology, documented silicone and ABS materials, IPX7 waterproofing, warranty terms, and where it fits against pricier air-pulse toys."
 schema_product: true
-image: "/images/placeholders/ambient-03.png"
+image: "/images/editorial/ambient-03.png"
 category: "external-stimulation"
 tags: ["air-pulse", "value", "waterproof", "external"]
 affiliate_link: ""

@@ -8,7 +8,7 @@ draft: false
 # DRAFT added overnight 2026-08-06. Verified against lelo.com/sila (rendered
 # page): product exists, 169 EUR, purchasable. Paul reviews before publish.
 best_for: "Gentle, slower-build stimulation"
-image: "/images/placeholders/ambient-11.png"
+image: "/images/editorial/ambient-11.png"
 price: "169.00"
 price_checked: "2026-08-06"
 offers:

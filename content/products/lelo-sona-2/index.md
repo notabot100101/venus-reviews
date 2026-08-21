@@ -17,7 +17,7 @@ price_checked: "2026-08-06"
 category: "external-stimulation"
 best_for: "Focused external stimulation"
 noise: "Low-medium noise"
-image: "/images/placeholders/ambient-06.png"
+image: "/images/editorial/ambient-06.png"
 
 offers:
   - retailer: "LELO (manufacturer)"
