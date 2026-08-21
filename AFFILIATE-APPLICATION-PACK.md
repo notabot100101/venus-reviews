@@ -12,8 +12,8 @@ versions.
 | Website | https://reviews.ultramarine963.com/ |
 | Site name | Venus Reviews |
 | Category | Adult / sexual wellness — editorial product reviews |
-| Site description (short) | Independent editorial review site for premium pleasure products. Reviews are documentation-based and clearly disclose what has and has not been verified; prices shown are retailer-verified with visible check dates. |
-| Site description (long) | Venus Reviews publishes structured editorial reviews of premium pleasure products (LELO, We-Vibe, Fun Factory, Satisfyer, Womanizer, Dame, Lovehoney). Each review documents manufacturer-verified specifications, states explicitly what has not been independently verified, and links a scoring methodology. The site carries a full affiliate disclosure on every page, shows retailer-verified prices with check dates, and uses no fabricated ratings, review counts, or testimonials. 15 product reviews, buying guides, and category pages are live. |
+| Site description (short) | Independent editorial review site for premium pleasure products. Reviews are documentation-based and clearly disclose what has and has not been verified; outbound retailer offers appear only when a real destination URL and fresh price check are available. |
+| Site description (long) | Venus Reviews publishes structured editorial reviews of premium pleasure products (LELO, We-Vibe, Fun Factory, Satisfyer, Womanizer, Dame, Lovehoney). Each review documents manufacturer-verified specifications, states explicitly what has not been independently verified, and links an evaluation methodology. The site carries a full affiliate disclosure on every page, uses no fabricated ratings, user-review counts, or testimonials, and keeps unapproved affiliate programs out of active CTAs. 18 product reviews, buying guides, and category pages are live. |
 | Promotional methods | SEO / organic search; editorial buying guides and comparison pages. No paid ads, no email marketing yet, no coupon/deal positioning. |
 | Traffic | New site (relaunched July–August 2026). Traffic is currently minimal; applying early so links are compliant from the start. **Do not invent numbers.** |
 | Audience geo | EU/DE primary, US secondary (prices shown in EUR, some USD) |
@@ -40,7 +40,7 @@ involving money/identity.
 
 ## Pre-submission checklist (re-verify on the LIVE site the day of applying)
 
-- [ ] No visible star ratings or review counts anywhere (`bf10dbc` deployed)
+- [ ] No visible star ratings or user-review counts anywhere
 - [ ] Affiliate disclosure reachable from every page footer
 - [ ] /privacy/, /contact/, /about/, /methodology/ return 200
 - [ ] Contact form submits (Formspree xpqgkwaj)
