@@ -77,21 +77,21 @@ The documented strengths are flexible wings, ribbed texture for holding lubrican
 
 Per Fun Factory's published Manta product JSON at `https://www.funfactory.com/products/manta.js`, Manta is titled "MANTA" and typed as a premium penis vibrator. The page description says it has powerful vibrations for solo or couples moments, flexible wings that adapt to body shape, a ribbed structure intended to keep lubricant where desired, deep penetrating vibrations, IPX7 waterproofing, and rechargeable operation. Product media includes a USB-C image, but the visible text does not clearly document charge time or runtime.
 
-The product data lists color variants Petrol and Black, SKUs including `FF000976BT01` and `FF000976BK01`, and variant weight of 287 g. As with Shopify product feeds generally, that should be treated as shipping/listing weight unless the manufacturer separately labels it as toy weight. Exact dimensions, contact-material composition, battery capacity, runtime, charge time, number of speeds or patterns, sound level, and warranty term were not documented by the manufacturer in the visible data reviewed here.
+The product data lists color variants Petrol and Black, SKUs including `FF000976BT01` and `FF000976BK01`, and variant weight of 287 g. As with Shopify product feeds generally, that should be treated as shipping/listing weight unless the manufacturer separately labels it as toy weight. Exact dimensions, contact-material composition, battery capacity, runtime, charge time, number of speeds or patterns, sound level, and warranty term were not documented by the manufacturer in the available data.
 
 ## Materials and Body-Safety Notes
 
-Manta's material documentation is weaker than Volta's. The visible Manta product description does not name silicone or a specific body-contact material. That means Venus should not claim medical-grade silicone, phthalate-free construction, or ABS components for this page unless a current manual or tab content is integrated later.
+Manta's material documentation is weaker than Volta's. The visible Manta product description does not name silicone or a specific body-contact material. That means the available documentation does not support claims of medical-grade silicone, phthalate-free construction, or ABS components for this page unless a current manual or tab content confirms them.
 
 The shape still has practical cleaning implications. Flexible wings and ribbed texture increase surface area and can hold lubricant, which is part of the product concept but also means more careful cleaning. IPX7 waterproofing is useful here because it supports a more thorough rinse than a splashproof-only device, but the rating should not be overstated. Clean between the wings and texture, dry fully, and inspect flexible areas for wear over time.
 
-Water-based lubricant is the conservative default because the exact material is not documented in the reviewed manufacturer text. If a later source confirms silicone, Venus should still avoid blanket silicone-lube compatibility unless Fun Factory says it is safe.
+Water-based lubricant is the conservative default because the exact material is not documented in the available manufacturer text. If a later source confirms silicone, blanket silicone-lube compatibility should still be avoided unless Fun Factory says it is safe.
 
 ## Published Feedback Synthesis
 
 Published feedback on Manta-style external toys tends to focus on the shape first. Positive reviews often come from users who like broader contact and a toy that can cup, wrap, or press rather than buzz from one small point. The flexible wings can make it more adaptable than a rigid external vibrator, especially when used around different body parts or during partnered play.
 
-The negatives follow from that same shape. Some users want a simple direct stimulator and find wraparound toys awkward. Others need time to learn grip, angle, and lubricant amount. A ribbed surface can improve glide when lubricated, but it can also feel like extra cleaning work. Manta should be presented as exploratory rather than universally beginner-friendly.
+The negatives follow from that same shape. Some users want a simple direct stimulator and find wraparound toys awkward. Others need time to learn grip, angle, and lubricant amount. A ribbed surface can improve glide when lubricated, but it can also feel like extra cleaning work. Manta is best framed as exploratory rather than universally beginner-friendly.
 
 ## Catalogue Comparisons
 
@@ -107,4 +107,4 @@ Skip it if you want a conventional vibrator, a fully documented material spec, e
 
 ## Ownership Notes
 
-Because charge time and runtime were not documented by the manufacturer in the visible text, charge before planned use and keep the cable with the toy. Use enough water-based lubricant for glide, especially around the ribbed texture. Check retailer warranty terms at purchase; the manufacturer page reviewed here did not document a warranty term.
+Because charge time and runtime were not documented by the manufacturer in the visible text, charge before planned use and keep the cable with the toy. Use enough water-based lubricant for glide, especially around the ribbed texture. Check retailer warranty terms at purchase; the available manufacturer documentation did not include a warranty term.

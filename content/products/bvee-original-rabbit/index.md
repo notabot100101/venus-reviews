@@ -35,7 +35,7 @@ offers:
     available: false
 ---
 
-Bvee Original Rabbit is the classic rabbit-style entry in this batch: a familiar dual-stimulation shape for shoppers who want internal vibration and external contact in one device. It should be framed as a mainstream form-factor comparison, not as a product with a richly documented manufacturer spec sheet. The existing Venus entry positions it as ergonomic, beginner-friendly, and mid-range, but the live manufacturer source could not be identified with enough confidence during this pass.
+Bvee Original Rabbit is the classic rabbit-style entry in this batch: a familiar dual-stimulation shape for shoppers who want internal vibration and external contact in one device. It is a mainstream form-factor comparison, not a product with a richly documented manufacturer spec sheet. The existing catalogue entry positions it as ergonomic, beginner-friendly, and mid-range, but the live manufacturer source could not be identified with enough confidence at the time of review.
 
 Venus has not physically tested this product. This review is based on the copied Venus product entry, the current 15-product Venus catalogue, attempted manufacturer-site lookup, and patterns in published feedback for rabbit-style dual stimulators as a category. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
 
@@ -48,7 +48,7 @@ The honest recommendation is conditional. Choose it if you want a familiar dual-
 
 ## Documented Specifications
 
-The manufacturer source for this exact Bvee Original Rabbit entry was not documented by the manufacturer during this pass. A search of b-Vibe's current site led to anal-toy categories and a 404 for the guessed original-rabbit URL, not to a live rabbit-vibrator product page matching this Venus slug. Because of that, exact dimensions, weight, materials, battery capacity, runtime, charge time, waterproof rating, motor count, intensity count, warranty term, and included accessories are not documented by the manufacturer here.
+The manufacturer source for this exact Bvee Original Rabbit entry was not documented by the manufacturer at the time of review. A search of b-Vibe's current site led to anal-toy categories and a 404 for the guessed original-rabbit URL, not to a live rabbit-vibrator product page matching this Venus slug. Because of that, exact dimensions, weight, materials, battery capacity, runtime, charge time, waterproof rating, motor count, intensity count, warranty term, and included accessories are not documented by the manufacturer here.
 
 The existing Venus front matter lists a rabbit, dual-stimulation, ergonomic, beginner-friendly product at a mid-range price point. Those labels are useful for catalogue placement, but they are not a substitute for manufacturer specifications. They should not be expanded into claims such as body-safe silicone, medical-grade material, waterproof construction, USB charging, quiet operation, or a specific warranty unless Claw identifies a current manufacturer page or manual.
 
@@ -56,7 +56,7 @@ Retailer prices and availability should also be treated as live-check items. Thi
 
 ## Materials and Body-Safety Notes
 
-Because the exact material composition is not documented by the manufacturer in the source available here, the body-safety section has to stay conservative. For any rabbit vibrator, the buyer should verify the contact material before purchase. The best-case documentation would name non-porous silicone for body-contact surfaces and identify any ABS plastic or metal accents separately. Without that, Venus should avoid "premium materials" language except as an inherited catalogue label.
+Because the exact material composition is not documented by the manufacturer in the source available here, the body-safety section has to stay conservative. For any rabbit vibrator, the buyer should verify the contact material before purchase. The best-case documentation would name non-porous silicone for body-contact surfaces and identify any ABS plastic or metal accents separately. Without that, the safest approach is to avoid "premium materials" language except as an inherited catalogue label.
 
 Cleaning is more involved than with a smooth bullet or wand. Rabbit vibrators usually have a shaft, external arm, base controls, and seams around moving or flexible areas. Those transitions can collect lubricant and body fluids, so the cleaning process depends heavily on whether the product is fully waterproof, splashproof, or not water-safe. Because the waterproof rating is not documented by the manufacturer here, the conservative advice is to follow the seller's cleaning instructions and avoid submerging the product unless the current manual clearly permits it.
 

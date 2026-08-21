@@ -98,7 +98,7 @@ Published feedback for Hugo-type LELO products usually concentrates on three thi
 
 The negative feedback pattern is also predictable. Fit and insertion comfort vary sharply. Some users find the shape precise; others find it too specific, too firm, or less intuitive than expected. Remote controls can also split opinion. Motion-based controls sound elegant, but some buyers prefer simple buttons because they are easier to manage when attention is elsewhere.
 
-Noise should be presented with LELO's documented ceiling rather than vague claims. The page lists maximum noise at 50 dB, which supports the existing low-noise positioning, but "low noise" should not be inflated into silent. Bedding, room acoustics, and body contact can change real-world perception, and Venus should avoid adding unmeasured sound scenarios.
+Noise should be presented with LELO's documented ceiling rather than vague claims. The page lists maximum noise at 50 dB, which supports the existing low-noise positioning, but "low noise" should not be inflated into silent. Bedding, room acoustics, and body contact can change real-world perception, and it is best to avoid adding unmeasured sound scenarios.
 
 ## Catalogue Comparisons
 

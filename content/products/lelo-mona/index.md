@@ -67,7 +67,7 @@ Per LELO's published Mona 2 product specifications, Mona 2 uses body-safe silico
 
 The battery is documented as a 500 mAh, 3.7 V lithium-ion battery. LELO lists charging as 2 hours at 5.0 V / 500 mA, user time as up to 2 hours, and standby time as up to 90 days. The interface is a 4-button control layout with 6 modes. LELO also lists frequency at 100 Hz, automatic switch-off after 20 minutes, and maximum noise level at 50 dB. The product page presents Mona 2 as 100% waterproof and includes a USB charging cord, satin storage pouch, warranty registration card, and instruction manual in the box.
 
-Warranty coverage is also unusually clear. LELO describes a 2-year warranty from purchase date for defects, with a claim process that can lead to replacement, and says the receipt should be saved. LELO also describes a 10-year warranty period after the 2-year warranty expires. Exact current retailer pricing should be checked at purchase time; Venus should avoid treating static prices as live availability.
+Warranty coverage is also unusually clear. LELO describes a 2-year warranty from purchase date for defects, with a claim process that can lead to replacement, and says the receipt should be saved. LELO also describes a 10-year warranty period after the 2-year warranty expires. Exact current retailer pricing should be checked at purchase time; static prices should not be treated as live availability.
 
 ## Materials and Body-Safety Notes
 
@@ -75,7 +75,7 @@ The best part of Mona 2's documentation is that the material stack is explicit: 
 
 LELO also says Mona 2 meets ISO 3533, the international safety standard for sex toys. That is a stronger documentation signal than vague "body safe" marketing alone. It does not prove anything about one buyer's comfort or fit, but it does support the basic material-safety case for a premium purchase.
 
-Because Mona 2 is waterproof, cleaning should be simpler than with splashproof-only products: the user can rinse the body-contact surface and clean around the buttons more confidently. The practical caution is the same as with most rechargeable waterproof toys: keep the charging contacts or port area dry before storing or charging, and inspect the surface over time for cuts, tackiness, or damage. The manufacturer does not document phthalate content in the spec table we reviewed.
+Because Mona 2 is waterproof, cleaning should be simpler than with splashproof-only products: the user can rinse the body-contact surface and clean around the buttons more confidently. The practical caution is the same as with most rechargeable waterproof toys: keep the charging contacts or port area dry before storing or charging, and inspect the surface over time for cuts, tackiness, or damage. The manufacturer does not document phthalate content in the available spec table.
 
 ## Published Feedback Synthesis
 

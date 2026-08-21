@@ -61,7 +61,7 @@ Venus has not physically tested this product. This review is based on We-Vibe's 
 
 ## Quick Verdict
 
-Sync is best for couples who want an adjustable wearable vibrator with remote and app control but do not need Chorus's richer Squeeze Remote and Touch-sense system. We-Vibe documents the core practical specs: waterproof IPX7, eco-friendly USB rechargeable battery, up to 90 minutes runtime, 2-hour charge time, body-safe silicone exterior, 74.8 x 31.4 x 41.7 mm dimensions, and a two-year warranty. The caution is that Sync appears out of stock on the live manufacturer page during this review pass, so retailer availability should be checked carefully.
+Sync is best for couples who want an adjustable wearable vibrator with remote and app control but do not need Chorus's richer Squeeze Remote and Touch-sense system. We-Vibe documents the core practical specs: waterproof IPX7, eco-friendly USB rechargeable battery, up to 90 minutes runtime, 2-hour charge time, body-safe silicone exterior, 74.8 x 31.4 x 41.7 mm dimensions, and a two-year warranty. The caution is that Sync appears out of stock on the live manufacturer page at the time of review, so retailer availability should be checked carefully.
 
 ## Documented Specifications
 
@@ -75,7 +75,7 @@ Exact hard internal materials beyond the silicone exterior, battery chemistry, b
 
 ## Materials and Cleaning Analysis
 
-Sync's manufacturer materials statement is narrower than Chorus's. We-Vibe documents a body-safe silicone exterior, but the visible Sync spec table does not clearly identify the internal hard plastic or whether it is produced without phthalates, BPA, or latex. That does not mean the product lacks those qualities; it means Venus should not claim them for Sync unless a current manufacturer source states them.
+Sync's manufacturer materials statement is narrower than Chorus's. We-Vibe documents a body-safe silicone exterior, but the visible Sync spec table does not clearly identify the internal hard plastic or whether it is produced without phthalates, BPA, or latex. That does not mean the product lacks those qualities; it means those qualities should not be claimed for Sync unless a current manufacturer source states them.
 
 The waterproof IPX7 claim is useful for care. A wearable C-shaped couples vibrator has two contact arms and a bend area, so cleaning should be careful around transitions and any seams. The remote should be treated separately unless its own water-resistance rating is documented. For Sync, the live product feature text documents the toy as waterproof, not a remote waterproof rating.
 

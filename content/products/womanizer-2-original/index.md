@@ -48,11 +48,11 @@ Water resistance is clearer: Womanizer lists Premium 2 as IPX7 waterproof. In pr
 
 The visible product page listed $149 during the page fetch, with regular variant pricing also appearing as $189 in embedded product data. Treat price as premium and check the retailer page at purchase time.
 
-Several basics were not documented by the manufacturer in the visible product-page text: exact dimensions, weight, contact-material composition, battery capacity, runtime, and charge time. A Premium 2 manual link exists on Womanizer's user-manual page, but text extraction was not available during this pass, so those specs should remain "not documented by the manufacturer" until the manual text is verified directly.
+Several basics were not documented by the manufacturer in the visible product-page text: exact dimensions, weight, contact-material composition, battery capacity, runtime, and charge time. A Premium 2 manual link exists on Womanizer's user-manual page, but text extraction was not available at the time of review, so those specs remain undocumented by the manufacturer until verified directly.
 
 ## Materials and Body-Safety Notes
 
-The body-safety case for Womanizer Premium 2 is less complete than LELO Mona 2's visible documentation because the manufacturer page we reviewed did not expose a clean material table. Most buyers will reasonably expect a premium Womanizer product to use body-safe contact materials, but Venus should not turn that expectation into a specific silicone, ABS, phthalate-free, or medical-grade claim without a current manufacturer source.
+The body-safety case for Womanizer Premium 2 is less complete than LELO Mona 2's visible documentation because the available manufacturer page did not expose a clean material table. Most buyers will reasonably expect a premium Womanizer product to use body-safe contact materials, but a specific silicone, ABS, phthalate-free, or medical-grade claim should not be made without a current manufacturer source.
 
 What can be said safely is practical. Air-pulse toys usually rely on a soft contact rim around the nozzle, and that area needs careful cleaning because it can collect residue around edges. IPX7 waterproofing makes cleaning easier than with splashproof-only toys, but the nozzle, removable head if present, and any seams still deserve attention. Follow the manufacturer's cleaning instructions and let the head and body dry fully before storage.
 

@@ -76,13 +76,13 @@ This is a good shortlist pick for shoppers who want precise external contact and
 
 Per Fun Factory's published Volta product JSON at `https://www.funfactory.com/products/volta.js`, Volta is titled "VOLTA" and typed as an external vibrator. The description documents 6 vibration patterns and 6 speeds. It also says Volta provides fluttering stimulation for the clitoris or vagina, is rechargeable via USB-C, is waterproof to IPX7, has an ergonomic LOOP handle with ribbed structure for grip, and uses body-friendly hygienic silicone.
 
-The product data lists Aquamarine, Black, and Pink variants, with SKUs including `FF001001AM01`, `FF001001BK01`, and `FF001001MG01`. It lists a variant weight of 190 g, which should be treated as product-feed or shipping weight unless a manufacturer spec table labels it more precisely. Exact dimensions, battery capacity, runtime, charge time, sound level, and warranty term were not documented by the manufacturer in the visible data reviewed here.
+The product data lists Aquamarine, Black, and Pink variants, with SKUs including `FF001001AM01`, `FF001001BK01`, and `FF001001MG01`. It lists a variant weight of 190 g, which should be treated as product-feed or shipping weight unless a manufacturer spec table labels it more precisely. Exact dimensions, battery capacity, runtime, charge time, sound level, and warranty term were not documented by the manufacturer in the available data.
 
 The documented USB-C detail is worth separating from generic "rechargeable" language. USB-C is easier to replace than proprietary magnetic pins and is a practical advantage for travel or shared charging setups, but it does not tell buyers how long Volta runs between charges. The IPX7 rating is also meaningful but bounded: it supports water-safe cleaning and bath/shower confidence within the rating, not indefinite soaking or storage while wet.
 
 ## Materials and Body-Safety Notes
 
-Volta's visible material documentation is stronger than Manta's because the manufacturer description specifically names body-friendly hygienic silicone. For a buyer, that supports the basic non-porous contact-material case, though Venus should still avoid extra claims such as medical-grade silicone or phthalate-free construction unless a current Fun Factory source says so.
+Volta's visible material documentation is stronger than Manta's because the manufacturer description specifically names body-friendly hygienic silicone. For a buyer, that supports the basic non-porous contact-material case, though extra claims such as medical-grade silicone or phthalate-free construction should be avoided unless a current Fun Factory source says so.
 
 The twin tips and loop handle affect cleaning. The tips create edges where lubricant can collect, and the ribbed handle can hold residue if cleaned quickly. IPX7 waterproofing makes a careful rinse more practical than with splashproof-only toys. Dry the space between the tips and around the handle texture before storing.
 
@@ -110,4 +110,4 @@ Skip it if you want a broad wand, a simple bullet, insertable stimulation, docum
 
 ## Ownership Notes
 
-Because runtime and charge time were not documented by the manufacturer in the visible data, charge before planned use and keep the USB-C cable accessible. Clean carefully between the tips and around the ribbed handle. Check the retailer page for warranty handling, because the reviewed manufacturer data did not document a warranty term.
+Because runtime and charge time were not documented by the manufacturer in the visible data, charge before planned use and keep the USB-C cable accessible. Clean carefully between the tips and around the ribbed handle. Check the retailer page for warranty handling, because the available manufacturer data did not document a warranty term.

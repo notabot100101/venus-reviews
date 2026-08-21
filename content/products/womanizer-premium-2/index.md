@@ -64,7 +64,7 @@ Per Womanizer's published Premium 2 specifications, the device measures 155 x 50
 
 Womanizer documents 14 intensity levels, which is a longer ladder than most air-pulse devices offer and matters because pressure-wave stimulation can go from imperceptible to overwhelming across a small range. Autopilot 2.0 alternates between intensity levels automatically. Smart Silence is documented as activating the device only on skin contact and returning it to standby when lifted away, which both quiets it and conserves battery.
 
-Battery figures are documented as a 240-minute run time against a 120-minute charge time. Womanizer does not publish a milliamp-hour capacity in the specifications we reviewed, so the runtime figure cannot be independently sanity-checked against cell size; treat it as a manufacturer claim. The device is documented as IPX7 waterproof.
+Battery figures are documented as a 240-minute run time against a 120-minute charge time. Womanizer does not publish a milliamp-hour capacity in the available specifications, so the runtime figure cannot be independently sanity-checked against cell size; treat it as a manufacturer claim. The device is documented as IPX7 waterproof.
 
 The box is listed as containing the Premium 2, a USB charging cable with no AC adaptor included, two stimulation heads in different sizes, a quick start guide, safety instructions, and a cotton storage pouch. Warranty coverage is documented as five years. The absence of a mains adaptor is a small but real omission at this price point, and the two head sizes matter more than they sound — head fit is the main variable in whether an air-pulse device works for a given person.
 

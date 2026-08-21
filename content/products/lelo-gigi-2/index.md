@@ -64,7 +64,7 @@ Per LELO's published GIGI 2 specifications, the device measures 163 x 35 x 42 mm
 
 Materials are documented as body-safe silicone with ABS plastic. LELO lists the battery as a Li-ion 520 mAh 3.7 V cell, with a charge time of 2 hours at 5.0 V 500 mA, user time of up to 4 hours, and standby time of up to 90 days. The interface offers 8 vibration settings, and the product is documented as 100% waterproof. The box is listed as containing the GIGI 2, a USB charging cord, a satin storage pouch, a warranty registration card, and an instruction manual.
 
-Two gaps are worth naming. LELO does not publish a decibel figure for GIGI 2 in the specification table we reviewed, unlike Mona 2, where a 50 dB maximum is documented. Anyone buying primarily for quiet operation is therefore buying without a manufacturer number to hold LELO to. LELO also does not document a travel lock in that table, which matters for a toy whose size invites packing.
+Two gaps are worth naming. LELO does not publish a decibel figure for GIGI 2 in the available specification table, unlike Mona 2, where a 50 dB maximum is documented. Anyone buying primarily for quiet operation is therefore buying without a manufacturer number to hold LELO to. LELO also does not document a travel lock in that table, which matters for a toy whose size invites packing.
 
 Warranty follows LELO's standard structure: a two-year replacement warranty from the purchase date for defects, followed by a ten-year quality guarantee period. Keep the receipt, because the claim process depends on it. Retailer pricing should be checked at purchase time rather than taken from any static figure.
 
@@ -74,7 +74,7 @@ The silicone-over-ABS construction is the same stack LELO documents across its p
 
 The 100% waterproof rating does real work on an insertable toy. It means the device can be washed properly rather than wiped, and that water around the button area is not a failure risk. Dry the charging contacts before storing or charging, and inspect the silicone periodically for cuts or tackiness; damage to the surface is what turns a non-porous material into a porous one.
 
-GIGI 2's insertable length of 95 mm is modest, and the flattened tip means the widest dimension is not circular. Buyers who are used to judging fit by diameter alone should read the 37.8 mm figure alongside the 35 x 42 mm cross-section rather than assuming a round profile. LELO does not document phthalate content explicitly in the specification table we reviewed, though the body-safe silicone claim is the material assurance the company leads with.
+GIGI 2's insertable length of 95 mm is modest, and the flattened tip means the widest dimension is not circular. Buyers who are used to judging fit by diameter alone should read the 37.8 mm figure alongside the 35 x 42 mm cross-section rather than assuming a round profile. LELO does not document phthalate content explicitly in the available specification table, though the body-safe silicone claim is the material assurance the company leads with.
 
 ## Published Feedback Synthesis
 

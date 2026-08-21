@@ -77,17 +77,17 @@ The main advantage is format. Dame's page describes Eva as a hands-free wearable
 
 ## Documented Specifications
 
-Per Dame's published Eva page, the product is titled "Eva Wearable Vibrator" and is described as a hands-free wearable vibrator for partnered sex. Dame's product data classifies it as a wearable vibrator, lists the vendor as Dame Products, and tags it with clitoral, couples, external, high-intensity, travel mode, and waterproof. The live page offered Ice and Papaya color variants during this pass.
+Per Dame's published Eva page, the product is titled "Eva Wearable Vibrator" and is described as a hands-free wearable vibrator for partnered sex. Dame's product data classifies it as a wearable vibrator, lists the vendor as Dame Products, and tags it with clitoral, couples, external, high-intensity, travel mode, and waterproof. The live page offered Ice and Papaya color variants at the time of review.
 
-Dame's product JSON listed a price of $129.00 and a variant shipping weight of 397 g. That shipping weight should not be presented as the product's physical weight; the actual toy weight is not documented by the manufacturer in the visible page text. Exact dimensions, battery capacity, runtime, charge time, number of speeds or patterns, sound level, material composition, and warranty term were not documented by the manufacturer in the visible product data reviewed here.
+Dame's product JSON listed a price of $129.00 and a variant shipping weight of 397 g. That shipping weight is not the product's physical weight; the actual toy weight is not documented by the manufacturer in the visible page text. Exact dimensions, battery capacity, runtime, charge time, number of speeds or patterns, sound level, material composition, and warranty term were not documented by the manufacturer in the available product data.
 
 The charging setup has one useful documentation clue: Dame's spare charging cable page says Eva cables are only usable with 2nd-generation Evas, previously called Eva II, and that those 2nd-generation Evas have a top button and no hole for a charger. That supports the identity link between the old Eva II wording and the current Eva product, but it does not document runtime or charge time.
 
 ## Materials and Body-Safety Notes
 
-The existing Venus placeholder described medical-grade materials, but the manufacturer page reviewed here did not expose a clear material table. Venus should not repeat medical-grade, silicone, phthalate-free, or body-safe material claims unless a current Dame manual or page is added as evidence. The safer language is that Eva is a wearable external vibrator with waterproof listed in Dame's product tags.
+Earlier Venus content described medical-grade materials, but the manufacturer page did not expose a clear material table. The available documentation does not support claims of medical-grade silicone, phthalate-free, or body-safe materials beyond what Dame's product tags state. The safer language is that Eva is a wearable external vibrator with waterproof listed in Dame's product tags.
 
-Cleaning should be simpler than for a rabbit because Eva is small and external, but the winged shape still creates edges that need attention. If the product is waterproof as tagged, rinsing may be permitted by Dame's instructions, but the final review should follow the current manual rather than assume submersion rules. Let the toy dry fully before charging or storage.
+Cleaning should be simpler than for a rabbit because Eva is small and external, but the winged shape still creates edges that need attention. If the product is waterproof as tagged, rinsing may be permitted by Dame's instructions, but the buyer should follow the current manual rather than assume submersion rules. Let the toy dry fully before charging or storage.
 
 Because the material is not documented in the visible page text, water-based lubricant is the conservative compatibility recommendation. Avoid claiming compatibility with silicone lubricant until the exact contact material is confirmed.
 
