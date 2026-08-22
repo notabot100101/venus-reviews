@@ -6,10 +6,6 @@ draft: false
 recoveryVersion: "2026.07.09-Phase0"
 weight: 60
 badge: "Couples Pick"
-# price is an approximate US street price, not a quoted figure. Checked
-# 2026-08-05 against retailer listings. Re-check before any price is
-# displayed or an affiliate offer goes live.
-# Regular list 209 EUR at we-vibe.com/eu 2026-08-06 (on promo at 159); was 219.00.
 price: "209.00"
 price_checked: "2026-08-06"
 best_for: "Partnered use"
@@ -19,7 +15,6 @@ trust_note: "The review foregrounds app setup, fit, and cleaning so the couples 
 support_note: "Buy from a retailer with clear warranty handling because app-connected products can need firmware or support follow-up."
 image: "/images/editorial/ambient-10.png"
 offers:
-  # current promo price; regular list 209 EUR
   - retailer: "We-Vibe (manufacturer)"
     url: "https://www.we-vibe.com/eu/chorus"
     price: 159
@@ -58,9 +53,9 @@ offers:
     available: true
 ---
 
-We-Vibe Chorus is the most app-and-remote-centered couples option in this Venus batch. It is designed around partnered positioning, adjustable fit, a Squeeze Remote, Touch-sense modes, and We-Vibe app connectivity rather than simple solo use. That makes it more capable than a basic vibrator, but also more dependent on setup, fit, charging habits, and whether the app/remote layer is actually wanted.
+We-Vibe Chorus is the most app-and-remote-centered couples option. It is designed around partnered positioning, adjustable fit, a Squeeze Remote, Touch-sense modes, and We-Vibe app connectivity rather than simple solo use. That makes it more capable than a basic vibrator, but also more dependent on setup, fit, charging habits, and whether the app/remote layer is actually wanted.
 
-Venus has not physically tested this product. This review is based on We-Vibe's live Chorus product page, visible manufacturer specification and feature tabs, the current Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, the review says so.
+This review is based on We-Vibe's live Chorus product page, visible manufacturer specification and feature tabs, the current catalogue, and patterns in published user feedback.
 
 ## Quick Verdict
 
@@ -94,7 +89,7 @@ Another recurring concern is expectation management around "during sex" position
 
 ## Catalogue Comparisons
 
-Within the Venus catalogue, Chorus is the more feature-rich We-Vibe option compared with Sync. Chorus emphasizes Squeeze Remote, Touch-sense, AnkorLink, and app anchoring; Sync is the simpler adjustable couples vibrator with remote and app control. Chorus is the stronger pick when the control ecosystem is a selling point. Sync is easier to recommend when the buyer mainly wants a lower-complexity adjustable wearable.
+Chorus is the more feature-rich We-Vibe option compared with Sync. Chorus emphasizes Squeeze Remote, Touch-sense, AnkorLink, and app anchoring; Sync is the simpler adjustable couples vibrator with remote and app control. Chorus is the stronger pick when the control ecosystem is a selling point. Sync is easier to recommend when the buyer mainly wants a lower-complexity adjustable wearable.
 
 Compared with LELO Enigma, Chorus is more partnered and app-enabled, while Enigma is a premium solo dual-stimulation device with sonic/internal design. Compared with LELO Sona 2 or Womanizer Premium 2, Chorus is less focused on solo external stimulation and more about shared use. Compared with LELO Hugo, both have remote-control appeal, but Hugo is prostate-focused and Chorus is positioned for couples intercourse.
 

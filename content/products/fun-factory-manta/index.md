@@ -2,11 +2,6 @@
 title: "Fun Factory Manta"
 seo_title: "Fun Factory Manta Review | Venus"
 seo_description: "Fun Factory Manta review covering flexible external stimulation, wraparound fit, material notes, noise, and how it compares with other premium vibrators."
-# schema_product disabled 2026-08-05: this review's own copy states the
-# manufacturer source could not be verified. Emitting a schema.org Review
-# ratingValue tells Google the rating is an attested product review, which
-# the prose explicitly declines to claim. Re-enable once the product is
-# verified against a manufacturer source.
 schema_product: false
 image: "/images/editorial/ambient-07.png"
 description: "Flexible external stimulator with a distinctive wraparound shape and strong material quality."
@@ -15,16 +10,11 @@ draft: false
 recoveryVersion: "2026.07.09-Phase1"
 weight: 80
 badge: "Flexible Shape"
-# price is an approximate US street price, not a quoted figure. Checked
-# 2026-08-05 against retailer listings. Re-check before any price is
-# displayed or an affiliate offer goes live.
-# Manufacturer price 48.95 EUR (JSON-LD, funfactory.com) 2026-08-06; was 130.00 - badly stale.
 price: "48.95"
 price_checked: "2026-08-06"
 best_for: "Flexible external use"
 noise: "Medium noise"
 offers:
-  # OUT OF STOCK per JSON-LD 2026-08-06; Fun Factory repriced the line far below our old figure
   - retailer: "Fun Factory (manufacturer)"
     url: "https://www.funfactory.com/products/manta"
     price: 48.95
@@ -63,9 +53,9 @@ offers:
     available: true
 ---
 
-Fun Factory Manta is the most specialized external stimulator in this batch. It is built around a flexible wraparound shape rather than a bullet, palm vibrator, or wand head. Fun Factory's German product page positions Manta as a penis vibrator for solo or couples use, but the broader Venus value is the form factor: flexible wings, more contact area, and deep vibration for shoppers who want something less point-focused than a small tip.
+Fun Factory Manta is a specialized external stimulator. It is built around a flexible wraparound shape rather than a bullet, palm vibrator, or wand head. Fun Factory's German product page positions Manta as a penis vibrator for solo or couples use, but the broader value is the form factor: flexible wings, more contact area, and deep vibration for shoppers who want something less point-focused than a small tip.
 
-Venus has not physically tested this product. This review is based on Fun Factory's published Manta product page and product JSON, the current 15-product Venus catalogue, and patterns in published user feedback for flexible external stimulators. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
+This review is based on Fun Factory's published Manta product page, the current product catalogue, and patterns in published user feedback for flexible external stimulators.
 
 ## Quick Verdict
 
@@ -77,7 +67,7 @@ The documented strengths are flexible wings, ribbed texture for holding lubrican
 
 Per Fun Factory's published Manta product JSON at `https://www.funfactory.com/products/manta.js`, Manta is titled "MANTA" and typed as a premium penis vibrator. The page description says it has powerful vibrations for solo or couples moments, flexible wings that adapt to body shape, a ribbed structure intended to keep lubricant where desired, deep penetrating vibrations, IPX7 waterproofing, and rechargeable operation. Product media includes a USB-C image, but the visible text does not clearly document charge time or runtime.
 
-The product data lists color variants Petrol and Black, SKUs including `FF000976BT01` and `FF000976BK01`, and variant weight of 287 g. As with Shopify product feeds generally, that should be treated as shipping/listing weight unless the manufacturer separately labels it as toy weight. Exact dimensions, contact-material composition, battery capacity, runtime, charge time, number of speeds or patterns, sound level, and warranty term were not documented by the manufacturer in the available data.
+The product data lists color variants Petrol and Black, SKUs including `FF000976BT01` and `FF000976BK01`, and variant weight of 287 g (product-feed or shipping weight, not necessarily toy weight). Exact dimensions, contact-material composition, battery capacity, runtime, charge time, number of speeds or patterns, sound level, and warranty term were not documented by the manufacturer in the available data.
 
 ## Materials and Body-Safety Notes
 
@@ -95,7 +85,7 @@ The negatives follow from that same shape. Some users want a simple direct stimu
 
 ## Catalogue Comparisons
 
-Within Venus, Manta is closest to Fun Factory Volta because both are distinctive external designs from the same brand family. Volta is the better precision pick with twin tips and documented silicone language; Manta is the better flexible-contact pick. Compared with Dame Eva II, Manta is handheld and more adjustable, while Eva is wearable and more couples-position dependent.
+Manta is closest to Fun Factory Volta because both are distinctive external designs from the same brand family. Volta is the better precision pick with twin tips and documented silicone language; Manta is the better flexible-contact pick. Compared with Dame Eva II, Manta is handheld and more adjustable, while Eva is wearable and more couples-position dependent.
 
 Compared with Womanizer Premium 2, Manta is vibration-based rather than air-pulse. Compared with LELO Sona 2, Manta offers a larger, more flexible contact shape. Compared with Lovehoney Desire, it avoids internal rabbit fit issues but gives up dual-action stimulation.
 

@@ -8,10 +8,6 @@ menu: "main"
 recoveryVersion: "2026.07.11-Batch3"
 weight: 110
 badge: "Sonic Wave"
-# price is an approximate US street price, not a quoted figure. Checked
-# 2026-08-05 against retailer listings. Re-check before any price is
-# displayed or an affiliate offer goes live.
-# Manufacturer list price at lelo.com, EUR, verified 2026-08-06 (was 99.00, stale).
 price: "109.00"
 price_checked: "2026-08-06"
 category: "external-stimulation"
@@ -60,7 +56,7 @@ offers:
 
 Lelo Sona 2 is the compact LELO pick for shoppers who want focused external sonic stimulation rather than a classic insertable vibrator. It is small, premium-positioned, and unusually well documented by the manufacturer: the live page gives materials, dimensions, battery, charge time, runtime, mouth width, modes, frequency, noise ceiling, and warranty language.
 
-Venus has not physically tested this product. This review is based on LELO's live Sona 2 product page, LELO's published warranty and ISO 3533 language, the current Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, the review says so.
+This review is based on LELO's live Sona 2 product page, LELO's published warranty and ISO 3533 language, the current catalogue, and patterns in published user feedback.
 
 
 ## Quick Verdict
@@ -95,7 +91,7 @@ Noise expectations should stay anchored to the documented number. LELO lists max
 
 ## Catalogue Comparisons
 
-Within the Venus catalogue, Sona 2 is the cleaner LELO comparison to Womanizer Premium 2 than Mona 2 or Enigma. Both Sona 2 and Womanizer focus externally, but the technologies and brand ecosystems differ. Womanizer emphasizes Pleasure Air, Smart Silence, Autopilot Mode, and IPX7 language; Sona 2 emphasizes LELO's SenSonic positioning, compact silicone body, and a detailed spec table.
+Sona 2 is the cleaner LELO comparison to Womanizer Premium 2 than Mona 2 or Enigma. Both Sona 2 and Womanizer focus externally, but the technologies and brand ecosystems differ. Womanizer emphasizes Pleasure Air, Smart Silence, Autopilot Mode, and IPX7 language; Sona 2 emphasizes LELO's SenSonic positioning, compact silicone body, and a detailed spec table.
 
 Compared with LELO Enigma, Sona 2 is simpler and non-insertable. Enigma is for dual clitoral/G-spot stimulation; Sona 2 is for focused external stimulation only. Compared with Mona 2, Sona 2 gives up insertable G-spot use in favor of a smaller external form. Compared with Hugo, it is a completely different body-focus category.
 

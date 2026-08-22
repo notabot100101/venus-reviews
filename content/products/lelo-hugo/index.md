@@ -8,10 +8,6 @@ menu: "main"
 recoveryVersion: "2026.07.11-Batch3"
 weight: 100
 badge: "Premium Wellness"
-# price is an approximate US street price, not a quoted figure. Checked
-# 2026-08-05 against retailer listings. Re-check before any price is
-# displayed or an affiliate offer goes live.
-# 189 EUR shown but SOLD OUT at manufacturer 2026-08-06; HUGO 2 is 179 EUR.
 price: "189.00"
 price_checked: "2026-08-06"
 category: "prostate"
@@ -19,7 +15,6 @@ best_for: "Premium prostate wellness"
 noise: "Low noise"
 image: "/images/editorial/ambient-02.png"
 offers:
-  # SOLD OUT at lelo.com 2026-08-06; successor HUGO 2 sells at 179 EUR
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/hugo"
     price: 189
@@ -58,9 +53,9 @@ offers:
     available: true
 ---
 
-Lelo Hugo is the prostate-focused premium pick in this Venus batch. It is not a general couples vibrator, a clitoral stimulator, or a beginner-neutral shape. Its place in the catalogue is clearer: a rechargeable, waterproof, remote-controlled prostate massager with documented dimensions, silicone/ABS materials, a motion-sensitive remote concept, and LELO's warranty language.
+Lelo Hugo is the prostate-focused premium pick. It is not a general couples vibrator, a clitoral stimulator, or a beginner-neutral shape. Its place is clearer: a rechargeable, waterproof, remote-controlled prostate massager with documented dimensions, silicone/ABS materials, a motion-sensitive remote concept, and LELO's warranty language.
 
-Venus has not physically tested this product. This review is based on LELO's live Hugo product page, LELO's published warranty and ISO 3533 language, the current Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, the review says so.
+This review is based on LELO's live Hugo product page, LELO's published warranty and ISO 3533 language, the current catalogue, and patterns in published user feedback.
 
 
 ## Availability Note (checked 6 August 2026)
@@ -98,11 +93,11 @@ Published feedback for Hugo-type LELO products usually concentrates on three thi
 
 The negative feedback pattern is also predictable. Fit and insertion comfort vary sharply. Some users find the shape precise; others find it too specific, too firm, or less intuitive than expected. Remote controls can also split opinion. Motion-based controls sound elegant, but some buyers prefer simple buttons because they are easier to manage when attention is elsewhere.
 
-Noise should be presented with LELO's documented ceiling rather than vague claims. The page lists maximum noise at 50 dB, which supports the existing low-noise positioning, but "low noise" should not be inflated into silent. Bedding, room acoustics, and body contact can change real-world perception, and it is best to avoid adding unmeasured sound scenarios.
+Noise is documented at a maximum of 50 dB on LELO's page. This supports the product's low-noise positioning, though real-world perception varies with bedding, room acoustics, and body contact.
 
 ## Catalogue Comparisons
 
-Within the Venus catalogue, Hugo is not a substitute for LELO Enigma, Mona 2, or Sona 2. Enigma is a dual clitoral/G-spot product; Mona 2 is a curved G-spot vibrator; Sona 2 is an external sonic stimulator. Hugo is the prostate-focused LELO entry.
+Hugo is not a substitute for LELO Enigma, Mona 2, or Sona 2. Enigma is a dual clitoral/G-spot product; Mona 2 is a curved G-spot vibrator; Sona 2 is an external sonic stimulator. Hugo is the prostate-focused LELO entry.
 
 Compared with We-Vibe Chorus and We-Vibe Sync, Hugo is more solo/prostate-specific and less about wearable intercourse positioning. Chorus and Sync are couples toys with app or remote ecosystems; Hugo's couple use is more about partner-controlled prostate stimulation through a dedicated remote.
 

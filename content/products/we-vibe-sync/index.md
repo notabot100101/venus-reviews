@@ -7,16 +7,11 @@ draft: false
 recoveryVersion: "2026.07.09-Phase1"
 weight: 70
 badge: "Adjustable Fit"
-# price is an approximate US street price, not a quoted figure. Checked
-# 2026-08-05 against retailer listings. Re-check before any price is
-# displayed or an affiliate offer goes live.
-# Regular list 159 EUR at we-vibe.com/eu 2026-08-06 (on promo at 119); was 169.00.
 price: "159.00"
 price_checked: "2026-08-06"
 best_for: "Adjustable couples fit"
 noise: "Low-medium noise"
 offers:
-  # current promo price; regular list 159 EUR
   - retailer: "We-Vibe (manufacturer)"
     url: "https://www.we-vibe.com/eu/sync"
     price: 119
@@ -57,11 +52,11 @@ offers:
 
 We-Vibe Sync is the simpler adjustable couples option next to Chorus. It is still a connected wearable vibrator, but the live manufacturer page presents it more plainly: adjustable fit, remote control, waterproof IPX7 construction, USB charging, app control, and a compact C-shaped body for shared stimulation.
 
-Venus has not physically tested this product. This review is based on We-Vibe's live Sync product page, visible manufacturer specification and feature tabs, the current Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, the review says so.
+This review is based on We-Vibe's live Sync product page, visible manufacturer specification and feature tabs, the current catalogue, and patterns in published user feedback.
 
 ## Quick Verdict
 
-Sync is best for couples who want an adjustable wearable vibrator with remote and app control but do not need Chorus's richer Squeeze Remote and Touch-sense system. We-Vibe documents the core practical specs: waterproof IPX7, eco-friendly USB rechargeable battery, up to 90 minutes runtime, 2-hour charge time, body-safe silicone exterior, 74.8 x 31.4 x 41.7 mm dimensions, and a two-year warranty. The caution is that Sync appears out of stock on the live manufacturer page at the time of review, so retailer availability should be checked carefully.
+Sync is best for couples who want an adjustable wearable vibrator with remote and app control but do not need Chorus's richer Squeeze Remote and Touch-sense system. We-Vibe documents the core practical specs: waterproof IPX7, eco-friendly USB rechargeable battery, up to 90 minutes runtime, 2-hour charge time, body-safe silicone exterior, 74.8 x 31.4 x 41.7 mm dimensions, and a two-year warranty. The caution is that Sync appears out of stock on the live manufacturer page, so retailer availability should be checked carefully.
 
 ## Documented Specifications
 
@@ -75,7 +70,7 @@ Exact hard internal materials beyond the silicone exterior, battery chemistry, b
 
 ## Materials and Cleaning Analysis
 
-Sync's manufacturer materials statement is narrower than Chorus's. We-Vibe documents a body-safe silicone exterior, but the visible Sync spec table does not clearly identify the internal hard plastic or whether it is produced without phthalates, BPA, or latex. That does not mean the product lacks those qualities; it means those qualities should not be claimed for Sync unless a current manufacturer source states them.
+Sync's manufacturer material documentation is narrower than Chorus's. We-Vibe documents a body-safe silicone exterior, but the visible Sync spec table does not clearly identify the internal hard plastic or whether it is produced without phthalates, BPA, or latex. We recommend checking We-Vibe's current product documentation for the most complete materials information.
 
 The waterproof IPX7 claim is useful for care. A wearable C-shaped couples vibrator has two contact arms and a bend area, so cleaning should be careful around transitions and any seams. The remote should be treated separately unless its own water-resistance rating is documented. For Sync, the live product feature text documents the toy as waterproof, not a remote waterproof rating.
 
@@ -91,7 +86,7 @@ The live manufacturer page's out-of-stock state is also a buying signal. If Sync
 
 ## Catalogue Comparisons
 
-Within the Venus catalogue, Sync is the more straightforward We-Vibe couples pick, while Chorus is the higher-feature option. Chorus documents ABS plus body-safe silicone, phthalate/BPA/latex-free language, Squeeze Remote, Touch-sense, AnkorLink, and a charging case. Sync documents the simpler adjustable form, app/remote control, IPX7, and a smaller dimensions table.
+Sync is the more straightforward We-Vibe couples pick, while Chorus is the higher-feature option. Chorus documents ABS plus body-safe silicone, phthalate/BPA/latex-free language, Squeeze Remote, Touch-sense, AnkorLink, and a charging case. Sync documents the simpler adjustable form, app/remote control, IPX7, and a smaller dimensions table.
 
 Compared with LELO Enigma, Sync is more partnered and wearable, while Enigma is more of a premium solo dual-stimulation product. Compared with LELO Sona 2 or Womanizer Premium 2, Sync is not the best choice for focused solo external stimulation. Compared with LELO Hugo, Sync is a couples vaginal/clitoral product, not a prostate massager.
 

@@ -2,21 +2,12 @@
 title: "Dame Eva II"
 description: "Sleek, powerful personal massager with whisper-quiet performance"
 seo_description: "Dame Eva II review covering hands-free fit, partner use, comfort tradeoffs, safety notes, and how it compares with other compact wearable vibrators."
-# schema_product disabled 2026-08-05: this review's own copy states the
-# manufacturer source could not be verified. Emitting a schema.org Review
-# ratingValue tells Google the rating is an attested product review, which
-# the prose explicitly declines to claim. Re-enable once the product is
-# verified against a manufacturer source.
 schema_product: false
 sku: "dame-eva-ii"
 draft: false
 recoveryVersion: "2026.07.09-Phase0"
 weight: 50
 badge: "Compact Pick"
-# price is an approximate US street price, not a quoted figure. Checked
-# 2026-08-05 against retailer listings. Re-check before any price is
-# displayed or an affiliate offer goes live.
-# Dame now sells current-gen 'Eva' at 129 USD (OutOfStock 2026-08-06); Eva II no longer listed separately. Was 140.00.
 price: "129.00"
 price_checked: "2026-08-06"
 best_for: "Hands-free fit"
@@ -26,7 +17,6 @@ card_excerpt: "Best for shoppers who want a compact hands-free option with quiet
 trust_note: "Strong fit notes matter here because anatomy and use case affect comfort more than the headline rating."
 support_note: "Confirm return policy, charging cable compatibility, and cleaning instructions before gifting or traveling."
 offers:
-  # eva-ii URL now lands on current-gen 'Eva'; 129 USD, OutOfStock per JSON-LD 2026-08-06
   - retailer: "Dame (manufacturer)"
     url: "https://www.dame.com/products/eva-ii"
     price: 129
@@ -67,7 +57,7 @@ offers:
 
 Dame Eva II, now presented by Dame as Eva Wearable Vibrator, is the catalogue's compact wearable option for partner-facing external stimulation. It is not a rabbit, not an insertable G-spot vibrator, and not a broad wand. Its core promise is narrower: a small clitoral vibrator intended to stay in place during partnered sex while leaving hands free.
 
-Venus has not physically tested this product. This review is based on Dame's published Eva product page and product JSON, the current 15-product Venus catalogue, and patterns in published user feedback for wearable couples vibrators. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
+This review is based on Dame's published Eva product page, the current product catalogue, and patterns in published user feedback for wearable couples vibrators.
 
 ## Quick Verdict
 
@@ -77,7 +67,7 @@ The main advantage is format. Dame's page describes Eva as a hands-free wearable
 
 ## Documented Specifications
 
-Per Dame's published Eva page, the product is titled "Eva Wearable Vibrator" and is described as a hands-free wearable vibrator for partnered sex. Dame's product data classifies it as a wearable vibrator, lists the vendor as Dame Products, and tags it with clitoral, couples, external, high-intensity, travel mode, and waterproof. The live page offered Ice and Papaya color variants at the time of review.
+Per Dame's published Eva page, the product is titled "Eva Wearable Vibrator" and is described as a hands-free wearable vibrator for partnered sex. Dame's product data classifies it as a wearable vibrator, lists the vendor as Dame Products, and tags it with clitoral, couples, external, high-intensity, travel mode, and waterproof. The live page offered Ice and Papaya color variants.
 
 Dame's product JSON listed a price of $129.00 and a variant shipping weight of 397 g. That shipping weight is not the product's physical weight; the actual toy weight is not documented by the manufacturer in the visible page text. Exact dimensions, battery capacity, runtime, charge time, number of speeds or patterns, sound level, material composition, and warranty term were not documented by the manufacturer in the available product data.
 

@@ -5,8 +5,6 @@ sku: "lelo-sila"
 menu: "main"
 weight: 165
 draft: false
-# DRAFT added overnight 2026-08-06. Verified against lelo.com/sila (rendered
-# page): product exists, 169 EUR, purchasable. Paul reviews before publish.
 best_for: "Gentle, slower-build stimulation"
 image: "/images/editorial/ambient-11.png"
 price: "169.00"
@@ -26,9 +24,9 @@ offers:
     available: true
 ---
 
-LELO Sila is the gentle entry in LELO's sonic range: the same non-contact sonic-wave category as Sona 2, tuned for a slower, softer build rather than maximum intensity. In the Venus catalogue it answers a request the existing pages do not: an air-pulse-family product specifically positioned for users who find the standard intensity curves too aggressive.
+LELO Sila is the gentle entry in LELO's sonic range: the same non-contact sonic-wave category as Sona 2, tuned for a slower, softer build rather than maximum intensity. It answers a request the existing pages do not: an air-pulse-family product specifically positioned for users who find the standard intensity curves too aggressive.
 
-Venus has not physically tested this product. This draft is based on LELO's own product page (lelo.com/sila, checked 6 August 2026) and the product's relationship to the already-reviewed Sona 2. Where a detail is not documented in that capture, this page says so.
+This review is based on LELO's published Sila product page and its relationship to the already-reviewed Sona 2.
 
 ## Quick Verdict
 

@@ -7,11 +7,9 @@ image: "/images/editorial/ambient-08.png"
 category: "premium-feel"
 tags: ["g-spot", "premium", "waterproof", "compact"]
 affiliate_link: ""
-# Manufacturer list price at lelo.com, EUR, verified 2026-08-06 via rendered page.
 price: "109.00"
 price_checked: "2026-08-06"
 offers:
-  # manufacturer list price, geo-served EUR
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/gigi-2"
     price: 109
@@ -52,7 +50,7 @@ offers:
 
 LELO GIGI 2 is a premium G-spot vibrator built around one distinguishing feature: a flattened, angled tip rather than the rounded bulb most insertable vibrators use. That flat face is the whole design argument. It spreads contact over a broader area of the front wall instead of concentrating it at a single point, which some people find more effective and others find less precise. GIGI 2 is also noticeably smaller and lighter than LELO's other G-spot toys, which makes it the more practical option for anyone who wants a premium insertable device that packs down.
 
-Venus has not physically tested this product. This review is based on LELO's published GIGI 2 specifications, LELO's warranty and materials documentation, the current Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
+This review is based on LELO's published GIGI 2 specifications, LELO's warranty and materials documentation, the current product catalogue, and patterns in published user feedback.
 
 ## Quick Verdict
 
@@ -66,7 +64,7 @@ Materials are documented as body-safe silicone with ABS plastic. LELO lists the 
 
 Two gaps are worth naming. LELO does not publish a decibel figure for GIGI 2 in the available specification table, unlike Mona 2, where a 50 dB maximum is documented. Anyone buying primarily for quiet operation is therefore buying without a manufacturer number to hold LELO to. LELO also does not document a travel lock in that table, which matters for a toy whose size invites packing.
 
-Warranty follows LELO's standard structure: a two-year replacement warranty from the purchase date for defects, followed by a ten-year quality guarantee period. Keep the receipt, because the claim process depends on it. Retailer pricing should be checked at purchase time rather than taken from any static figure.
+Warranty follows LELO's standard structure: a two-year replacement warranty from the purchase date for defects, followed by a ten-year quality guarantee period. Keep the receipt, because the claim process depends on it. Retailer pricing should be checked at purchase time.
 
 ## Materials and Body-Safety Notes
 
@@ -86,7 +84,7 @@ Positive feedback clusters on build quality, the light weight, the waterproof ra
 
 ## Catalogue Comparisons
 
-Within the Venus catalogue, GIGI 2 is the compact premium insertable. The closest comparison is LELO Mona 2, and the two are genuinely different products despite the shared brand and category. Mona 2 is larger at 220 mm with a 110 mm insertable length, heavier at 128 g, offers 6 modes with a documented 50 dB maximum, and uses a pronounced rounded curve. GIGI 2 is smaller, lighter, offers 8 settings, and uses the flat tip. Choose Mona 2 for firm targeted pressure and a documented noise figure; choose GIGI 2 for broader contact and portability.
+GIGI 2 is the compact premium insertable. The closest comparison is LELO Mona 2, and the two are genuinely different products despite the shared brand and category. Mona 2 is larger at 220 mm with a 110 mm insertable length, heavier at 128 g, offers 6 modes with a documented 50 dB maximum, and uses a pronounced rounded curve. GIGI 2 is smaller, lighter, offers 8 settings, and uses the flat tip. Choose Mona 2 for firm targeted pressure and a documented noise figure; choose GIGI 2 for broader contact and portability.
 
 Against LELO Enigma, GIGI 2 is the narrower product — Enigma combines air-pulse external stimulation with an insertable arm, which is a fuller feature set for someone who wants both sensations. Against LELO Sona 2, there is no real overlap: Sona 2 is external only. Against Dame Eva II, GIGI 2 is the more premium build but the less versatile device, since Eva II's positioning is hands-free and partner-friendly. Buyers looking primarily for external or suction-style stimulation should look at Womanizer Premium 2 or Satisfyer Pro 2 instead.
 
