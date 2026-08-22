@@ -10,25 +10,33 @@ menu: "footer"
 
 ### Betreiber der Website
 
-**[VORNAME NACHNAME EINFÜGEN]**  
-[STRASSE UND HAUSNUMMER EINFÜGEN]  
-[PLZ ORT EINFÜGEN]  
+**Paul Budzisch**  
+Papiermühlenweg 3  
+07973 Greiz  
 Deutschland
 
 ### Kontakt
 
-E-Mail: [EMAIL-ADRESSE EINFÜGEN]  
+E-Mail: paulpawprints@agentmail.to  
 Telefon: [OPTIONAL - TELEFONNUMMER EINFÜGEN]
 
 ### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
-[VORNAME NACHNAME EINFÜGEN]  
-[ADRESSE WIE OBEN]
+Paul Budzisch  
+Papiermühlenweg 3  
+07973 Greiz  
+Deutschland
 
 ### Hinweis zur USt-IdNr.
 
 Die Website dient ausschließlich Informationszwecken (Affiliate-Content).  
-USt-IdNr.: [FALLS ZUTREFFEND EINFÜGEN, SONST "nicht vorhanden / keine Umsatzsteuerpflicht"]
+USt-IdNr.: 72043651863
+
+### Bankverbindung
+
+Bank: Postbank  
+IBAN: DE85 1001 0010 0546 0541 20  
+BIC: PBNKDEFF
 
 ---
 
