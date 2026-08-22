@@ -15,7 +15,24 @@ Venus Reviews is an independent editorial review and buying-guide website for ad
 
 Legal, editorial, privacy, correction, and rights-holder notices can be sent through the [contact page](/contact/). The contact form reaches the site operator directly.
 
-For affiliate networks, payment processors, regulators, or other parties that require non-public business, tax, or postal details, those details should be exchanged through the relevant secure application, account, or official request channel rather than posted on a public adult-category review site.
+### Site Operator
+
+**Paul Budzisch**  
+Papiermühlenweg 3  
+07973 Greiz  
+Deutschland
+
+### Tax Information
+
+**VAT ID (USt-IdNr.):** 72043651863
+
+### Bank Details
+
+**Bank:** Postbank  
+**IBAN:** DE85100100100546054120  
+**BIC:** PBNKDEFF
+
+For affiliate networks, payment processors, regulators, or other parties that require additional non-public business details, those details should be exchanged through the relevant secure application, account, or official request channel.
 
 ## Editorial Responsibility
 
