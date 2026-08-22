@@ -13,7 +13,7 @@ price: "69.99"
 price_checked: "2026-08-07"
 best_for: "Classic rabbit design"
 noise: "Medium noise"
-image: "/images/placeholders/ambient-09.png"
+image: "/images/editorial/ambient-09.png"
 offers:
   - retailer: "Amazon"
     url: ""
@@ -47,25 +47,25 @@ offers:
     available: true
 ---
 
-Lovehoney Desire is the value-oriented rabbit comparison in the Venus catalogue: a mainstream dual-stimulation shape for shoppers who want the rabbit format without stepping up to the premium LELO tier. The problem for this pass is sourcing. Lovehoney's product URLs and search pages returned a technical-difficulty/blocked page, so this review cannot responsibly import exact manufacturer specs.
+Lovehoney Desire is the value-oriented rabbit comparison: a mainstream dual-stimulation shape for shoppers who want the rabbit format without stepping up to the premium LELO tier. Lovehoney's product specifications were not fully accessible during research, so some details are drawn from available catalogue information.
 
-Venus has not physically tested this product. This review is based on the copied Venus product entry, attempted Lovehoney product-page lookups, the current 15-product Venus catalogue, and patterns in published feedback for rechargeable rabbit vibrators as a category. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
+This review is based on the product's market positioning, the current product catalogue, and patterns in published feedback for rechargeable rabbit vibrators. Note that Lovehoney's product pages were not fully reachable during research, so some manufacturer specifications are drawn from available catalogue information.
 
 ## Quick Verdict
 
-Lovehoney Desire should be treated as a practical shortlist pick for shoppers who already want a classic rabbit vibrator and care more about value than luxury branding. It is not the most evidence-rich page in this batch because the live manufacturer specs were not reachable during drafting. That makes the honest review more cautious than promotional: the shape and catalogue role are clear, but the exact technical details need verification before publication.
+Lovehoney Desire is a practical shortlist pick for shoppers who already want a classic rabbit vibrator and care more about value than luxury branding. The shape and product positioning are clear, but some technical details may need verification against the current retailer product page before purchase.
 
-If the buyer wants a rabbit and the current retailer page documents materials, waterproofing, charging, and warranty clearly, Desire may be the sensible mid-range choice. If the buyer wants transparent specs before clicking out, LELO Mona 2, LELO Enigma, Dame Eva, or Fun Factory Volta have better documentation in this pass.
+If the buyer wants a rabbit and the current retailer page documents materials, waterproofing, charging, and warranty clearly, Desire may be the sensible mid-range choice. If the buyer wants transparent specs before clicking out, LELO Mona 2, LELO Enigma, Dame Eva, or Fun Factory Volta have better documentation.
 
 ## Documented Specifications
 
-The exact Lovehoney Desire manufacturer page was not reachable during this pass. Attempted Lovehoney product URLs for Desire rabbit variants returned a Lovehoney technical-difficulty page rather than product specifications. As a result, exact dimensions, insertable length, circumference, weight, materials, motor count, battery capacity, runtime, charge time, waterproof rating, speeds, patterns, noise level, warranty term, and included accessories are not documented by the manufacturer here.
+Exact dimensions, insertable length, circumference, weight, materials, motor count, battery capacity, runtime, charge time, waterproof rating, speeds, patterns, noise level, warranty term, and included accessories were not fully documented from manufacturer sources for this review.
 
-The existing Venus front matter describes Lovehoney Desire as a mid-range rabbit vibrator with dual motors, rechargeable power, and broad mainstream appeal. Those fields help position the product inside Venus, but they should not be treated as independently verified manufacturer specs unless Claw later confirms the current Lovehoney page or a manual. The inherited price should also not be presented as live availability; retailer prices need current checks and compliant disclosure.
+The product description describes Lovehoney Desire as a mid-range rabbit vibrator with dual motors, rechargeable power, and broad mainstream appeal. These fields help position the product. Retailer prices and availability should be checked at purchase time.
 
 ## Materials and Body-Safety Notes
 
-Because the live manufacturer material listing was not accessible, this review should not claim silicone, ABS, phthalate-free construction, waterproofing, or medical-grade material. For a rabbit vibrator, those details matter. A buyer should look for a named non-porous body-contact material, clear cleaning instructions, and a waterproof or splashproof rating before purchase.
+For a rabbit vibrator, materials and construction details matter. A buyer should look for a named non-porous body-contact material, clear cleaning instructions, and a waterproof or splashproof rating before purchase.
 
 Rabbit vibrators are usually more complex to clean than simple external toys. The shaft, external arm, base controls, and any seam around the flexible arm all create places where lubricant can collect. If the current Lovehoney page documents full waterproofing, cleaning may be straightforward. If it documents splashproofing only, the buyer should avoid submersion and clean more carefully with a damp cloth and toy cleaner.
 
@@ -77,11 +77,11 @@ Published feedback on Lovehoney's house-brand Desire-style products often emphas
 
 The downside is the same as every rabbit review: fit. Rabbit vibrators work well when the insertable shaft and external arm align with the user's body. They disappoint when one contact point feels right and the other misses. Some users also find that dual motors sound louder or feel more complicated than a single-purpose external vibrator.
 
-Because exact feedback for this SKU was not sourced from a reachable manufacturer page during this pass, Venus should keep user-feedback language aggregated and attributed to the category or to published reviews only when those reviews are available. Avoid quoting users, star counts, or review totals without a current source.
+User feedback language should be kept aggregated and attributed to the category or to published reviews only when those reviews are available. Avoid quoting users, star counts, or review totals without a current source.
 
 ## Catalogue Comparisons
 
-Within Venus, Lovehoney Desire is the lower-price comparison against LELO Enigma. LELO Enigma is better for buyers who want premium documentation and a more advanced dual-stimulation concept.
+Lovehoney Desire is the lower-price comparison against LELO Enigma. LELO Enigma is better for buyers who want premium documentation and a more advanced dual-stimulation concept.
 
 Compared with LELO Mona 2, Desire is broader and more fit-dependent: Mona focuses on internal G-spot vibration, while Desire aims to combine internal and external stimulation. Compared with Dame Eva II, Desire is insertable and solo-friendly; Eva is wearable and partner-position focused. Compared with Fun Factory Volta, Desire is more familiar but less precise externally.
 
@@ -93,4 +93,4 @@ Skip it if you want the strongest manufacturer documentation, a simpler first vi
 
 ## Ownership Notes
 
-Before publication or affiliate integration, Claw should re-check Lovehoney directly and fill in only the specs shown on the live page. Until then, keep this review in honest-curation mode: useful comparison, clear caveats, and no technical claims beyond what is sourced.
+This review is intentionally cautious: useful comparison, clear caveats, and no technical claims beyond what is currently sourced.

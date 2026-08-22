@@ -1,6 +1,7 @@
 ---
 title: "PRODUCT_NAME"
 description: "TBD"
+draft: true
 categories: []
 commission: "pending"
 affiliateProgram: ""

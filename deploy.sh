@@ -49,7 +49,7 @@ if [[ ! -f themes/hugo-theme-hello-friend/layouts/404.html ]]; then
 fi
 
 echo "==> Building site with Hugo..."
-hugo --quiet
+hugo --quiet --cleanDestinationDir
 
 echo "==> Syncing build output (public/) to branch root (what Hostinger serves)..."
 rsync -a public/ . --exclude='.git'
@@ -74,7 +74,7 @@ git rebase origin/hostinger-deploy || {
     exit 1
 }
 # Rebuild after rebase so public/ reflects any source changes pulled in from origin.
-hugo --quiet
+hugo --quiet --cleanDestinationDir
 rsync -a public/ . --exclude='.git'
 git add -A
 git diff --cached --quiet || git commit --amend --no-edit

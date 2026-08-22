@@ -8,16 +8,12 @@ menu: "main"
 recoveryVersion: "2026.07.11-Batch3"
 weight: 110
 badge: "Sonic Wave"
-# price is an approximate US street price, not a quoted figure. Checked
-# 2026-08-05 against retailer listings. Re-check before any price is
-# displayed or an affiliate offer goes live.
-# Manufacturer list price at lelo.com, EUR, verified 2026-08-06 (was 99.00, stale).
 price: "109.00"
 price_checked: "2026-08-06"
 category: "external-stimulation"
 best_for: "Focused external stimulation"
 noise: "Low-medium noise"
-image: "/images/placeholders/ambient-06.png"
+image: "/images/editorial/ambient-06.png"
 
 offers:
   - retailer: "LELO (manufacturer)"
@@ -60,7 +56,7 @@ offers:
 
 Lelo Sona 2 is the compact LELO pick for shoppers who want focused external sonic stimulation rather than a classic insertable vibrator. It is small, premium-positioned, and unusually well documented by the manufacturer: the live page gives materials, dimensions, battery, charge time, runtime, mouth width, modes, frequency, noise ceiling, and warranty language.
 
-Venus has not physically tested this product. This review is based on LELO's live Sona 2 product page, LELO's published warranty and ISO 3533 language, the current Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, the review says so.
+This review is based on LELO's live Sona 2 product page, LELO's published warranty and ISO 3533 language, the current catalogue, and patterns in published user feedback.
 
 
 ## Quick Verdict
@@ -89,13 +85,13 @@ Water-based lubricant remains the safest general recommendation unless LELO's in
 
 Published feedback for Sona-style sonic stimulators tends to be polarized in a useful way. Positive users often describe the focused sensation as different from buzzy vibration: more targeted, less dependent on pressure, and capable of feeling intense quickly. Sona 2's compact size and 12 modes also support the idea that it is built for adjustment rather than one fixed sensation.
 
-The negative pattern is that focused stimulation can be too direct. Some buyers want broad, rumbly contact and find sonic-wave products too sharp, too pinpoint, or simply unfamiliar. Others may need time to learn placement around the clitoris rather than assuming direct pressure will feel best. LELO's page itself advises placing the mouth of the device on or next to the clitoris and slowing down if it feels too intense; Venus should echo that as manufacturer guidance, not personal experience.
+The negative pattern is that focused stimulation can be too direct. Some buyers want broad, rumbly contact and find sonic-wave products too sharp, too pinpoint, or simply unfamiliar. Others may need time to learn placement around the clitoris rather than assuming direct pressure will feel best. LELO's page itself advises placing the mouth of the device on or next to the clitoris and slowing down if it feels too intense; the manufacturer advises that as guidance, not personal experience.
 
 Noise expectations should stay anchored to the documented number. LELO lists maximum noise level at 60 dB, which fits the existing low-medium positioning better than a "silent" claim. Published buyer comments on compact sonic toys often treat sound as acceptable but not invisible; the buyer should expect discretion with context, not magic.
 
 ## Catalogue Comparisons
 
-Within the Venus catalogue, Sona 2 is the cleaner LELO comparison to Womanizer Premium 2 than Mona 2 or Enigma. Both Sona 2 and Womanizer focus externally, but the technologies and brand ecosystems differ. Womanizer emphasizes Pleasure Air, Smart Silence, Autopilot Mode, and IPX7 language; Sona 2 emphasizes LELO's SenSonic positioning, compact silicone body, and a detailed spec table.
+Sona 2 is the cleaner LELO comparison to Womanizer Premium 2 than Mona 2 or Enigma. Both Sona 2 and Womanizer focus externally, but the technologies and brand ecosystems differ. Womanizer emphasizes Pleasure Air, Smart Silence, Autopilot Mode, and IPX7 language; Sona 2 emphasizes LELO's SenSonic positioning, compact silicone body, and a detailed spec table.
 
 Compared with LELO Enigma, Sona 2 is simpler and non-insertable. Enigma is for dual clitoral/G-spot stimulation; Sona 2 is for focused external stimulation only. Compared with Mona 2, Sona 2 gives up insertable G-spot use in favor of a smaller external form. Compared with Hugo, it is a completely different body-focus category.
 

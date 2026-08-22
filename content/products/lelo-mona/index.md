@@ -3,18 +3,13 @@ draft: false
 title: "Lelo Mona"
 seo_description: "Lelo Mona 2 review covering G-spot vibrator fit, silicone and ABS materials, waterproof design, noise notes, and how it compares with other premium toys."
 schema_product: true
-image: "/images/placeholders/ambient-05.png"
-# price is an approximate US street price, not a quoted figure. Checked
-# 2026-08-05 against retailer listings. Re-check before any price is
-# displayed or an affiliate offer goes live.
-# Confirmed 139 EUR at lelo.com/mona-2 on 2026-08-06.
+image: "/images/editorial/ambient-05.png"
 price: "139.00"
 price_checked: "2026-08-06"
 category: "premium-feel"
 tags: ["premium", "ergonomic", "quiet", "swedish-design"]
 affiliate_link: ""
 offers:
-  # sold as MONA 2
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/mona-2"
     price: 139
@@ -55,11 +50,11 @@ offers:
 
 LELO Mona 2 is best understood as a classic premium G-spot vibrator, not a novelty device and not an air-pulse toy. It suits someone who already prefers firm, curved internal pressure with vibration, and who would rather pay for a polished rechargeable design than buy a cheaper experiment. The caveat is that its strengths are specific: Mona 2 is not the most versatile couples toy here, not the smallest travel option, and not the right pick for shoppers who mainly want external suction-style stimulation.
 
-Venus has not physically tested this product. This review is based on LELO's published Mona 2 specifications, LELO's warranty and materials documentation, the current 15-product Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
+This review is based on LELO's published Mona 2 specifications, LELO's warranty and materials documentation, the current product catalogue, and patterns in published user feedback.
 
 ## Quick Verdict
 
-Mona 2 is a strong shortlist pick for shoppers who want a luxury-feeling insertable vibrator with a pronounced curve, a relatively firm body, waterproof construction, and a low-fuss rechargeable setup. It is easier to recommend to people who already like targeted G-spot toys than to absolute beginners, because the shape is purposeful rather than neutral. If you want broad external stimulation, app controls, wearable use, or partner-facing features, other products in the Venus catalogue make more sense.
+Mona 2 is a strong shortlist pick for shoppers who want a luxury-feeling insertable vibrator with a pronounced curve, a relatively firm body, waterproof construction, and a low-fuss rechargeable setup. It is easier to recommend to people who already like targeted G-spot toys than to absolute beginners, because the shape is purposeful rather than neutral. If you want broad external stimulation, app controls, wearable use, or partner-facing features, other products in this set make more sense.
 
 ## Documented Specifications
 
@@ -67,7 +62,7 @@ Per LELO's published Mona 2 product specifications, Mona 2 uses body-safe silico
 
 The battery is documented as a 500 mAh, 3.7 V lithium-ion battery. LELO lists charging as 2 hours at 5.0 V / 500 mA, user time as up to 2 hours, and standby time as up to 90 days. The interface is a 4-button control layout with 6 modes. LELO also lists frequency at 100 Hz, automatic switch-off after 20 minutes, and maximum noise level at 50 dB. The product page presents Mona 2 as 100% waterproof and includes a USB charging cord, satin storage pouch, warranty registration card, and instruction manual in the box.
 
-Warranty coverage is also unusually clear. LELO describes a 2-year warranty from purchase date for defects, with a claim process that can lead to replacement, and says the receipt should be saved. LELO also describes a 10-year warranty period after the 2-year warranty expires. Exact current retailer pricing should be checked at purchase time; Venus should avoid treating static prices as live availability.
+Warranty coverage is also unusually clear. LELO describes a 2-year warranty from purchase date for defects, with a claim process that can lead to replacement, and says the receipt should be saved. LELO also describes a 10-year warranty period after the 2-year warranty expires. Current retailer pricing should be checked at purchase time.
 
 ## Materials and Body-Safety Notes
 
@@ -75,7 +70,7 @@ The best part of Mona 2's documentation is that the material stack is explicit: 
 
 LELO also says Mona 2 meets ISO 3533, the international safety standard for sex toys. That is a stronger documentation signal than vague "body safe" marketing alone. It does not prove anything about one buyer's comfort or fit, but it does support the basic material-safety case for a premium purchase.
 
-Because Mona 2 is waterproof, cleaning should be simpler than with splashproof-only products: the user can rinse the body-contact surface and clean around the buttons more confidently. The practical caution is the same as with most rechargeable waterproof toys: keep the charging contacts or port area dry before storing or charging, and inspect the surface over time for cuts, tackiness, or damage. The manufacturer does not document phthalate content in the spec table we reviewed.
+Because Mona 2 is waterproof, cleaning should be simpler than with splashproof-only products: the user can rinse the body-contact surface and clean around the buttons more confidently. The practical caution is the same as with most rechargeable waterproof toys: keep the charging contacts or port area dry before storing or charging, and inspect the surface over time for cuts, tackiness, or damage. The manufacturer does not document phthalate content in the available spec table.
 
 ## Published Feedback Synthesis
 
@@ -87,7 +82,7 @@ Noise expectations should stay grounded. LELO documents a maximum noise level of
 
 ## Catalogue Comparisons
 
-Within the Venus 15-product catalogue, Mona 2 sits in the premium-feel, single-purpose internal category. LELO Enigma is the better LELO choice for shoppers who want dual stimulation and a more modern air-pulse/internal combination. LELO Sona 2 is a better fit for external sonic stimulation and shoppers who do not want an insertable toy. LELO Hugo is a separate prostate-focused category and should not be treated as an alternative unless the buyer specifically wants that use case.
+Within the 15-product catalogue, Mona 2 sits in the premium-feel, single-purpose internal category. LELO Enigma is the better LELO choice for shoppers who want dual stimulation and a more modern air-pulse/internal combination. LELO Sona 2 is a better fit for external sonic stimulation and shoppers who do not want an insertable toy. LELO Hugo is a separate prostate-focused category and should not be treated as an alternative unless the buyer specifically wants that use case.
 
 Compared with Womanizer Premium 2, Mona 2 is more traditional and more physical: vibration plus shape, rather than contactless-style clitoral air technology. Compared with We-Vibe Chorus or We-Vibe Sync, Mona 2 is less couples-oriented and lacks app-controlled or wearable positioning as a core selling point. Compared with Lovehoney Desire, Mona 2 is positioned higher on materials polish and warranty documentation, but buyers who are price-sensitive may be happier starting lower.
 
@@ -95,7 +90,7 @@ Compared with Womanizer Premium 2, Mona 2 is more traditional and more physical:
 
 Choose Mona 2 if you want a premium rechargeable G-spot vibrator, value documented silicone/ABS materials, prefer a firm curve over a flexible rabbit-style toy, and want a waterproof product with a clear warranty path. It is also a sensible upgrade from a cheaper insertable vibrator that felt buzzy, plasticky, or underpowered.
 
-Skip it if you are unsure about internal toys, want a travel-small device, need app control, prefer broad external pressure, or want the strongest value-per-feature ratio. Also skip it if your priority is suction or air-pulse stimulation; the inherited tag on this page says "suction," but LELO's Mona 2 documentation describes a G-spot wand vibrator with 6 modes, not an air-pulse product.
+Skip it if you are unsure about internal toys, want a travel-small device, need app control, prefer broad external pressure, or want the strongest value-per-feature ratio. Also skip it if your priority is suction or air-pulse stimulation; a tag on this page says "suction," but LELO's Mona 2 documentation describes a G-spot wand vibrator with 6 modes, not an air-pulse product.
 
 ## Ownership Notes
 

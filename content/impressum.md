@@ -2,6 +2,7 @@
 title: "Impressum"
 description: "Legal disclosure according to German TMG (Telemediengesetz)"
 menu: "footer"
+lastmod: 2026-08-22
 ---
 
 ## Impressum
@@ -17,8 +18,7 @@ Deutschland
 
 ### Kontakt
 
-E-Mail: paulpawprints@agentmail.to  
-Telefon: [OPTIONAL - TELEFONNUMMER EINFÜGEN]
+E-Mail: paulpawprints@agentmail.to
 
 ### Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
@@ -27,16 +27,15 @@ Papiermühlenweg 3
 07973 Greiz  
 Deutschland
 
-### Hinweis zur USt-IdNr.
+### Steuerinformationen
 
-Die Website dient ausschließlich Informationszwecken (Affiliate-Content).  
-USt-IdNr.: 72043651863
+**USt-IdNr.:** 72043651863
 
 ### Bankverbindung
 
-Bank: Postbank  
-IBAN: DE85 1001 0010 0546 0541 20  
-BIC: PBNKDEFF
+**Bank:** Postbank  
+**IBAN:** DE85 1001 0010 0546 0541 20  
+**BIC:** PBNKDEFF
 
 ---
 

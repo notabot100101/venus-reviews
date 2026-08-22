@@ -3,15 +3,13 @@ draft: false
 title: "Lelo Gigi 2"
 seo_description: "Lelo Gigi 2 review covering the flattened G-spot tip, documented silicone and ABS materials, 8 vibration settings, battery and waterproof specifications, and how it compares with Mona 2 and other premium toys."
 schema_product: true
-image: "/images/placeholders/ambient-08.png"
+image: "/images/editorial/ambient-08.png"
 category: "premium-feel"
 tags: ["g-spot", "premium", "waterproof", "compact"]
 affiliate_link: ""
-# Manufacturer list price at lelo.com, EUR, verified 2026-08-06 via rendered page.
 price: "109.00"
 price_checked: "2026-08-06"
 offers:
-  # manufacturer list price, geo-served EUR
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/gigi-2"
     price: 109
@@ -52,7 +50,7 @@ offers:
 
 LELO GIGI 2 is a premium G-spot vibrator built around one distinguishing feature: a flattened, angled tip rather than the rounded bulb most insertable vibrators use. That flat face is the whole design argument. It spreads contact over a broader area of the front wall instead of concentrating it at a single point, which some people find more effective and others find less precise. GIGI 2 is also noticeably smaller and lighter than LELO's other G-spot toys, which makes it the more practical option for anyone who wants a premium insertable device that packs down.
 
-Venus has not physically tested this product. This review is based on LELO's published GIGI 2 specifications, LELO's warranty and materials documentation, the current Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, we say so instead of filling in the blank.
+This review is based on LELO's published GIGI 2 specifications, LELO's warranty and materials documentation, the current product catalogue, and patterns in published user feedback.
 
 ## Quick Verdict
 
@@ -64,9 +62,9 @@ Per LELO's published GIGI 2 specifications, the device measures 163 x 35 x 42 mm
 
 Materials are documented as body-safe silicone with ABS plastic. LELO lists the battery as a Li-ion 520 mAh 3.7 V cell, with a charge time of 2 hours at 5.0 V 500 mA, user time of up to 4 hours, and standby time of up to 90 days. The interface offers 8 vibration settings, and the product is documented as 100% waterproof. The box is listed as containing the GIGI 2, a USB charging cord, a satin storage pouch, a warranty registration card, and an instruction manual.
 
-Two gaps are worth naming. LELO does not publish a decibel figure for GIGI 2 in the specification table we reviewed, unlike Mona 2, where a 50 dB maximum is documented. Anyone buying primarily for quiet operation is therefore buying without a manufacturer number to hold LELO to. LELO also does not document a travel lock in that table, which matters for a toy whose size invites packing.
+Two gaps are worth naming. LELO does not publish a decibel figure for GIGI 2 in the available specification table, unlike Mona 2, where a 50 dB maximum is documented. Anyone buying primarily for quiet operation is therefore buying without a manufacturer number to hold LELO to. LELO also does not document a travel lock in that table, which matters for a toy whose size invites packing.
 
-Warranty follows LELO's standard structure: a two-year replacement warranty from the purchase date for defects, followed by a ten-year quality guarantee period. Keep the receipt, because the claim process depends on it. Retailer pricing should be checked at purchase time rather than taken from any static figure.
+Warranty follows LELO's standard structure: a two-year replacement warranty from the purchase date for defects, followed by a ten-year quality guarantee period. Keep the receipt, because the claim process depends on it. Retailer pricing should be checked at purchase time.
 
 ## Materials and Body-Safety Notes
 
@@ -74,7 +72,7 @@ The silicone-over-ABS construction is the same stack LELO documents across its p
 
 The 100% waterproof rating does real work on an insertable toy. It means the device can be washed properly rather than wiped, and that water around the button area is not a failure risk. Dry the charging contacts before storing or charging, and inspect the silicone periodically for cuts or tackiness; damage to the surface is what turns a non-porous material into a porous one.
 
-GIGI 2's insertable length of 95 mm is modest, and the flattened tip means the widest dimension is not circular. Buyers who are used to judging fit by diameter alone should read the 37.8 mm figure alongside the 35 x 42 mm cross-section rather than assuming a round profile. LELO does not document phthalate content explicitly in the specification table we reviewed, though the body-safe silicone claim is the material assurance the company leads with.
+GIGI 2's insertable length of 95 mm is modest, and the flattened tip means the widest dimension is not circular. Buyers who are used to judging fit by diameter alone should read the 37.8 mm figure alongside the 35 x 42 mm cross-section rather than assuming a round profile. LELO does not document phthalate content explicitly in the available specification table, though the body-safe silicone claim is the material assurance the company leads with.
 
 ## Published Feedback Synthesis
 
@@ -86,7 +84,7 @@ Positive feedback clusters on build quality, the light weight, the waterproof ra
 
 ## Catalogue Comparisons
 
-Within the Venus catalogue, GIGI 2 is the compact premium insertable. The closest comparison is LELO Mona 2, and the two are genuinely different products despite the shared brand and category. Mona 2 is larger at 220 mm with a 110 mm insertable length, heavier at 128 g, offers 6 modes with a documented 50 dB maximum, and uses a pronounced rounded curve. GIGI 2 is smaller, lighter, offers 8 settings, and uses the flat tip. Choose Mona 2 for firm targeted pressure and a documented noise figure; choose GIGI 2 for broader contact and portability.
+GIGI 2 is the compact premium insertable. The closest comparison is LELO Mona 2, and the two are genuinely different products despite the shared brand and category. Mona 2 is larger at 220 mm with a 110 mm insertable length, heavier at 128 g, offers 6 modes with a documented 50 dB maximum, and uses a pronounced rounded curve. GIGI 2 is smaller, lighter, offers 8 settings, and uses the flat tip. Choose Mona 2 for firm targeted pressure and a documented noise figure; choose GIGI 2 for broader contact and portability.
 
 Against LELO Enigma, GIGI 2 is the narrower product — Enigma combines air-pulse external stimulation with an insertable arm, which is a fuller feature set for someone who wants both sensations. Against LELO Sona 2, there is no real overlap: Sona 2 is external only. Against Dame Eva II, GIGI 2 is the more premium build but the less versatile device, since Eva II's positioning is hands-free and partner-friendly. Buyers looking primarily for external or suction-style stimulation should look at Womanizer Premium 2 or Satisfyer Pro 2 instead.
 

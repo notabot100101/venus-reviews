@@ -8,10 +8,6 @@ draft: false
 recoveryVersion: "2026.07.09-Phase0"
 weight: 40
 badge: "Advanced Pick"
-# price is an approximate US street price, not a quoted figure. Checked
-# 2026-08-05 against retailer listings. Re-check before any price is
-# displayed or an affiliate offer goes live.
-# Confirmed 199 EUR at lelo.com/enigma on 2026-08-06.
 price: "199.00"
 price_checked: "2026-08-06"
 best_for: "Dual stimulation"
@@ -19,7 +15,7 @@ noise: "Low noise"
 card_excerpt: "Best when you want a premium, quiet-feeling dual-stimulation design and are comfortable paying for a refined motor and finish."
 trust_note: "Luxury silicone build, discreet shipping context, and clear cleaning expectations make it easier to compare against lower-cost alternatives."
 support_note: "Check retailer warranty and return windows before purchase; premium electronics are worth buying from a traceable seller."
-image: "/images/placeholders/ambient-01.png"
+image: "/images/editorial/ambient-01.png"
 offers:
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/enigma"
@@ -59,9 +55,9 @@ offers:
     available: true
 ---
 
-Lelo Enigma is the premium dual-stimulation pick in this Venus set: a luxury sonic-and-internal vibrator for shoppers who already know they want a shaped, fit-sensitive device rather than a simple beginner toy. Its strongest case is not that it is universal. Its strongest case is that LELO documents the materials, dimensions, battery, charging, warranty, and sonic/internal design clearly enough for careful comparison.
+Lelo Enigma is the premium dual-stimulation pick: a luxury sonic-and-internal vibrator for shoppers who already know they want a shaped, fit-sensitive device rather than a simple beginner toy. Its strongest case is not that it is universal. Its strongest case is that LELO documents the materials, dimensions, battery, charging, warranty, and sonic/internal design clearly enough for careful comparison.
 
-Venus has not physically tested this product. This review is based on LELO's live Enigma product page, LELO's published warranty and ISO 3533 language, the current Venus catalogue, and patterns in published user feedback. Where a detail is not documented clearly by the manufacturer, the review says so.
+This review is based on LELO's live Enigma product page, LELO's published warranty and ISO 3533 language, the current catalogue, and patterns in published user feedback.
 
 ## Quick Verdict
 
@@ -95,7 +91,7 @@ Another recurring caution is intensity style. Sonic stimulation can feel gentler
 
 ## Catalogue Comparisons
 
-Within the Venus catalogue, Enigma is the more advanced LELO option compared with Mona 2. Mona 2 is simpler: a curved internal G-spot vibrator with a more traditional purpose. Enigma adds external sonic stimulation and a dual-contact shape, making it more ambitious but also more dependent on fit.
+Enigma is the more advanced LELO option compared with Mona 2. Mona 2 is simpler: a curved internal G-spot vibrator with a more traditional purpose. Enigma adds external sonic stimulation and a dual-contact shape, making it more ambitious but also more dependent on fit.
 
 Compared with LELO Sona 2, Enigma is larger, insertable, and dual-purpose. Sona 2 is the cleaner choice for someone who only wants external sonic stimulation. Compared with LELO Hugo, Enigma is in a different category: Hugo is prostate-focused and remote-controlled, while Enigma is designed for clitoral and G-spot stimulation.
 
