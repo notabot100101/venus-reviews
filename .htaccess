@@ -86,7 +86,13 @@ RedirectMatch 301 ^/tags/(adjustable|airpulse|app-control|app-controlled|beginne
 # business.
 
 # Block source, tooling and planning file types at the root level.
-<FilesMatch "\.(md|sh|py|toml|yaml|yml|lock|bak|log|txt)$">
+# json added 2026-08-25: affiliate-config.json and affiliate-credentials-template.json
+# (internal affiliate-program planning, incl. program statuses) plus badge-prompts.json
+# and comfy-prompts.json (image-gen tooling) were publicly readable. The site serves no
+# legitimate JSON - no search index, no manifest, no JS fetch of .json anywhere in the
+# built output (verified 2026-08-25). If a manifest or /index.json is ever added, grant
+# it explicitly like the convention .txt files below.
+<FilesMatch "\.(md|sh|py|toml|yaml|yml|lock|bak|log|txt|json)$">
   Require all denied
 </FilesMatch>
 
