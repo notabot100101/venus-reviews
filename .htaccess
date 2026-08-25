@@ -22,9 +22,13 @@ Redirect 301 /category/dildos/ /products/
 
 # Retired duplicate/stale product pages (removed 2026-07-30 when best-of shipped).
 # None were in the sitemap, but redirect rather than 404 in case of stray links.
-# 2026-08-17: bvee-original-rabbit and womanizer-2-original were published (undrafted)
-# and now have live content, so their redirects are removed. The retired pages below
-# genuinely have no content.
+# 2026-08-25: bvee-original-rabbit and womanizer-2-original removed AGAIN. Both are
+# fabricated products (no such manufacturer / no such SKU) retired by the 2026-08-06
+# content-integrity pass; the 2026-08-08 best-of promotion (324591c) reintroduced
+# them and they were undrafted 2026-08-17. Their URLs were live and in the sitemap,
+# so 301 rather than 404. Do not re-add these pages without a manufacturer source.
+Redirect 301 /products/bvee-original-rabbit/ /products/
+Redirect 301 /products/womanizer-2-original/ /products/
 Redirect 301 /products/bvee-rabbit/ /products/
 Redirect 301 /products/womanizer-2/ /products/
 Redirect 301 /products/h2o-holo-vibe/ /products/
@@ -65,7 +69,13 @@ Redirect 301 /products/compare/ /products/
 #   air-pulse  ergonomic  premium  quiet  swedish-design  value
 # Before editing this rule, re-derive that list - it is the directories under tags/,
 # and it must equal the /tags/ entries in sitemap.xml.
-RedirectMatch 301 ^/tags/(adjustable|app-control|app-controlled|couples|dual-action|dual-motors|exploratory|external-stimulator|german-engineering|medical-grade|mens-health|personal-massager|precision|pressure-wave|prostate|rechargeable|sonic|specialized|synchronized|travel-friendly|twin-tip|wellness|whisper-quiet|wraparound)/?$ /products/
+#
+# 2026-08-25: added airpulse, beginner-friendly, dual-stimulation,
+# intelligent-sensitivity and rabbit - orphaned when the fabricated
+# bvee-original-rabbit and womanizer-2-original products (their only members)
+# were removed again. They were live and in the sitemap, so redirect rather
+# than 404.
+RedirectMatch 301 ^/tags/(adjustable|airpulse|app-control|app-controlled|beginner-friendly|couples|dual-action|dual-motors|dual-stimulation|exploratory|external-stimulator|german-engineering|intelligent-sensitivity|medical-grade|mens-health|personal-massager|precision|pressure-wave|prostate|rabbit|rechargeable|sonic|specialized|synchronized|travel-friendly|twin-tip|wellness|whisper-quiet|wraparound)/?$ /products/
 
 # --- Source & tooling exposure fix (2026-07-31) ---
 # The hostinger-deploy branch holds the Hugo SOURCE alongside the served output, and
