@@ -1,7 +1,11 @@
-# Venus Affiliate Credentials — Drop Tracking IDs Here
+# Venus Affiliate Credentials — Tracking IDs & Status
 
-**Date created:** 2026-08-06
-**Target:** Paul drops real tracking IDs here as approvals land.
+**Date created:** 2026-08-06 · **Updated:** 2026-08-25
+**Source of truth:** `workspace/main/impact-onboarding-report.md` (2026-08-24)
+
+> ⚠️ **Previous version was stale.** BBoutique was listed as "Not applied" — it has been LIVE since 2026-08-17. Impact partners were listed as "Not applied" — the real blocker is incomplete Impact onboarding, not lack of applications.
+>
+> **Security note:** This doc lives in the deploy branch root, masked only by `.htaccess`. Consider moving planning docs out of the deployed tree (follow-up from 2026-08-25 JSON-exposure fix).
 
 ---
 
@@ -9,9 +13,9 @@
 
 | Partner | Status | Tracking ID / Deep Link | Notes |
 |---------|--------|------------------------|-------|
-| Womanizer | ❌ Not applied | `_________________` | App via Impact — URL: http://app.impact.com/campaign-campaign-info-v2/Womanizer-North-America.brand |
-| We-Vibe | ❌ Not applied | `_________________` | App via Impact — URL: http://app.impact.com/campaign-campaign-info-v2/We-Vibe-Europe.brand |
-| SheVibe | ❌ Not applied | `_________________` | App via Impact — URL: https://app.impact.com/campaign-promo-signup/The-Vibe-Tribe-SheVibes-Partner-Program.brand?execution=e1s1#/?viewkey=signUpPreStart |
+| Womanizer | ⏳ Not applied | `_________________` | App via Impact — BLOCKED by incomplete onboarding |
+| We-Vibe | ⏳ Not applied | `_________________` | App via Impact — BLOCKED by incomplete onboarding |
+| SheVibe | ⏳ Not applied | `_________________` | App via Impact — BLOCKED by incomplete onboarding |
 
 ### Impact Account Credentials
 > **Login:** `https://app.impact.com`
@@ -24,9 +28,9 @@
 
 | Partner | Status | Tracking ID | URL |
 |---------|--------|-------------|-----|
-| LELO | ❌ Not applied | `_________________` | http://lip.hasoffers.com/signup |
-| Adam & Eve | ❌ Not applied | `_________________` | https://www.pepperjamnetwork.com/affiliate/registration.php?refid=107783 |
-| Bellesa/BBoutique | ❌ Not applied | `_________________` | https://ui.awin.com/merchant-profile/15527 (Awin) |
+| LELO | ❌ Rejected (Aug 20) | `_________________` | http://lip.hasoffers.com/signup — "missing information or misalignment with our brand" |
+| Adam & Eve | ⏳ Pending | `_________________` | https://www.pepperjamnetwork.com/affiliate/registration.php?refid=107783 — Submitted Aug 5, awaiting review |
+| Bellesa/BBoutique | ✅ LIVE | `3022209` | https://ui.awin.com/merchant-profile/15527 (Awin) — Active on all product pages since 2026-08-17 |
 
 ---
 

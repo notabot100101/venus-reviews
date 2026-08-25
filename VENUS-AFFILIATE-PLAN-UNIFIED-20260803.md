@@ -1,14 +1,19 @@
 # Venus Unified Affiliate Plan
-**Date:** 2026-08-04 · **Status:** ready for Paul's action · **Reconciles:** AFFILIATE-RESEARCH.md (Jul 30) + VENUS-IMAGERY-AND-GROWTH-PLAN-20260803.md
+**Date:** 2026-08-04 · **Status:** updated 2026-08-25 · **Source of truth:** `workspace/main/impact-onboarding-report.md` (2026-08-24)
+
+> ⚠️ **This document was stale.** Previous versions listed LELO and Lovehoney as not-applied candidates and BBoutique as not applied. The real state is below. Always check the dated report in `workspace/main/` for current truth.
+> 
+> **Security note:** These planning docs live in the deploy branch root, currently masked from the public only by `.htaccess`. Consider moving them out of the deployed tree entirely (follow-up from 2026-08-25 JSON-exposure fix).
 
 ---
 
 ## 1. TL;DR for Paul
 
-**No links are live yet.** Every affiliate button on Venus is a placeholder (`url: ""`, `available: false`). To go live you must:
-1. Apply to each programme → get approved → receive a tracking ID.
-2. Drop that ID into `affiliate-config.json` + the product's `offers[].url`.
-3. Run `./deploy.sh` to rebuild and push.
+**Some links ARE live.** BBoutique/Awin links (publisher 3022209) have been active on all product pages since 2026-08-17. Impact partners are blocked by incomplete onboarding. To activate remaining partners:
+1. Complete Impact onboarding (Partner Program Agreement + verification).
+2. Apply to each programme → get approved → receive a tracking ID.
+3. Drop that ID into `affiliate-config.json` + the product's `offers[].url`.
+4. Run `./deploy.sh` to rebuild and push.
 
 **If a dashboard already shows `reviews.ultramarine963.com`** — that only means the site URL is registered in that network/account. It does **not** mean the programme is approved or that links are active. You still need to:
 - Complete the merchant-specific application inside that network.
@@ -22,14 +27,14 @@
 
 | # | Partner | Network | Commission | Sign-up URL | Dashboard / Login | Approval Status | Next Action |
 |---|---------|---------|------------|-------------|-------------------|-----------------|-------------|
-| 1 | **LELO** | Direct (HasOffers) + alternates | **5–20%** (web-verified 2026-08-04) | <http://lip.hasoffers.com/signup> | <https://lip.hasoffers.com/> | Candidate — not applied | **Apply first.** Also provides affiliate product images → unblocks lelo-enigma, lelo-mona, hugo, sona-2 imagery. |
-| 2 | **Womanizer** | Impact | **Up to 22%** | [verify] Search "Womanizer" inside Impact after creating account | <https://app.impact.com> | Candidate — not applied | Apply via Impact. Unblocks womanizer-2-original imagery. |
-| 3 | **We-Vibe** | Impact | **Up to 22%** | [verify] Search "We-Vibe" inside Impact after creating account | <https://app.impact.com> | Candidate — not applied | Apply via Impact (same login as Womanizer). Unblocks we-vibe-chorus/sync. |
-| 4 | **SheVibe** | Impact | **10%** (web-verified) | <https://app.impact.com/campaign-promo-signup/The-Vibe-Tribe-SheVibes-Partner-Program.brand?execution=e1s1#/?viewkey=signUpPreStart> | <https://app.impact.com> | Candidate — not applied | Apply via Impact (same login as #2/#3). Broad catalog coverage. |
-| 5 | **Adam & Eve** | Pepperjam (eBay Enterprise) | **Up to 30%** (web-verified) | <https://www.pepperjamnetwork.com/affiliate/registration.php?refid=107783> | <http://www.pepperjamnetwork.com/> | Candidate — not applied | Apply via Pepperjam. US-only. Highest commission. |
-| 6 | **Bellesa / BBoutique** | Awin | unstated | <https://ui.awin.com/merchant-profile/15527> | <https://ui.awin.com> | Candidate — not applied | Optional / lower priority. |
-| — | **Lovehoney** | — | — | — | — | **DECLINED 2026-07-29** | Do not apply now. Reapply once traffic/content grows. |
-| 7 | **Amazon Associates** | Amazon | 1–3% | <https://affiliate-program.amazon.com/welcome> | <https://affiliate-program.amazon.com/> | Needs Paul's login + policy review | **LAST.** High policy risk — Amazon excludes "sexually explicit" sites. Only consider for non-adult accessories (chargers, cases, cleaners) after other programmes are live. |
+| 1 | **BBoutique / Bellesa** | Awin | unstated | <https://ui.awin.com/merchant-profile/15527> | <https://ui.awin.com> | ✅ **LIVE** — Publisher 3022209 since 2026-08-17 | Links active on all product pages. |
+| 2 | **Adam & Eve** | Pepperjam | **Up to 30%** | <https://www.pepperjamnetwork.com/affiliate/registration.php?refid=107783> | <http://www.pepperjamnetwork.com/> | ⏳ **PENDING** — Submitted Aug 5, awaiting review | Awaiting Pepperjam review. |
+| 3 | **Womanizer** | Impact | **Up to 22%** | Search inside Impact dashboard | <https://app.impact.com> | ⏳ **NOT APPLIED** — Onboarding incomplete | Complete Impact onboarding first. |
+| 4 | **We-Vibe** | Impact | **Up to 22%** | Search inside Impact dashboard | <https://app.impact.com> | ⏳ **NOT APPLIED** — Onboarding incomplete | Complete Impact onboarding first. |
+| 5 | **SheVibe** | Impact | **10%** | <https://app.impact.com/campaign-promo-signup/The-Vibe-Tribe-SheVibes-Partner-Program.brand?execution=e1s1#/?viewkey=signUpPreStart> | <https://app.impact.com> | ⏳ **NOT APPLIED** — Onboarding incomplete | Complete Impact onboarding first. |
+| — | **LELO** | LIP/HasOffers | 5–20% | <http://lip.hasoffers.com/signup> | <https://lip.hasoffers.com/> | ❌ **REJECTED** (Aug 20) — "missing information or misalignment with our brand" | Email `affiliates@lelo.com` for specifics, or reapply later with stronger site metrics. |
+| — | **Lovehoney** | — | — | — | — | ❌ **DECLINED** (Jul 29) — "Brand alignment mismatch" | Do not apply now. Reapply once traffic/content grows. |
+| — | **Amazon Associates** | Amazon | 1–3% | <https://affiliate-program.amazon.com/welcome> | <https://affiliate-program.amazon.com/> | Needs Paul's login + policy review | **LAST.** High policy risk. Only for non-adult accessories after other programmes are live. |
 
 ### Network consolidation tip
 Womanizer + We-Vibe + SheVibe all live on **Impact**. Create ONE Impact account and apply to all three merchants from inside it.
@@ -117,34 +122,41 @@ This rebuilds the Hugo site and rsyncs it to the live host. **Links will not app
 
 ## 5. Ordered Rollout Plan
 
-### Phase 1 — This Week (LELO + Impact account)
-- [ ] Apply to **LELO** direct: <http://lip.hasoffers.com/signup>
-- [ ] Create **Impact** account: <https://app.impact.com>
+### Phase 1 — Complete Impact Onboarding (Blocks Everything)
+- [ ] Log into **Impact**: <https://app.impact.com> (credentials: `paulpawprints`)
+- [ ] Check the **Partner Program Agreement** checkbox
+- [ ] Click **Continue** to complete onboarding wizard
+- [ ] Handle any Cloudflare verification challenge manually
+- [ ] Once onboarding is complete, notify agent to proceed with applications
+
+### Phase 1b — LELO Reapplication (Optional)
+- [ ] Email `affiliates@lelo.com` for specific rejection feedback, OR
+- [ ] Wait until site has stronger metrics, then reapply via <http://lip.hasoffers.com/signup>
+
+### Phase 2 — Apply Inside Impact (After Onboarding)
 - [ ] Apply to **Womanizer** inside Impact
 - [ ] Apply to **We-Vibe** inside Impact
 - [ ] Apply to **SheVibe** inside Impact
-
-### Phase 2 — Next 1–2 Weeks (Approval + IDs)
-- [ ] Receive approval emails + tracking IDs
+- [ ] Await approval emails + tracking IDs
 - [ ] Update `affiliate-config.json` with real IDs
-- [ ] Populate `offers[].url` + `available: true` for top 5 products
+- [ ] Populate `offers[].url` + `available: true` for relevant products
 - [ ] Run `./deploy.sh`
 - [ ] Test that buttons render and click-throughs work
 
-### Phase 3 — Weeks 2–4 (Expand coverage)
-- [ ] Apply to **Adam & Eve** via Pepperjam
+### Phase 3 — Expand Coverage
+- [ ] Confirm **Adam & Eve** Pepperjam status (submitted Aug 5, awaiting review)
 - [ ] Fill affiliate links for all remaining products
-- [ ] Optional: apply to Bellesa/BBoutique via Awin
+- [ ] Optional: apply to additional Awin merchants beyond BBoutique
 
-### Phase 4 — Last (Amazon, only if you accept the risk)
+### Phase 4 — Amazon (Last Resort, High Risk)
 - [ ] Review Amazon Associates policy: <https://affiliate-program.amazon.com/help/operating/policies>
 - [ ] Decide whether adult toy review content is worth the risk
 - [ ] If yes, apply; if no, skip entirely
 - [ ] If approved, only use for accessories (chargers, cases, cleaners)
 
-### Phase 5 — Later (Lovehoney reapplication)
-- [ ] Once traffic/content has grown, reapply to Lovehoney
-- [ ] Previous decline was 2026-07-29 — wait for stronger metrics before reapplying
+### Phase 5 — Later (Lovehoney + LELO Reapplication)
+- [ ] Once traffic/content has grown, reapply to **Lovehoney** (declined 2026-07-29)
+- [ ] Reapply to **LELO** with stronger site metrics and specific feedback addressed
 
 ---
 
