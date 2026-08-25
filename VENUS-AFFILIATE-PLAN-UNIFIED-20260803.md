@@ -1,11 +1,15 @@
 # Venus Unified Affiliate Plan
-**Date:** 2026-08-04 · **Status:** ready for Paul's action · **Reconciles:** AFFILIATE-RESEARCH.md (Jul 30) + VENUS-IMAGERY-AND-GROWTH-PLAN-20260803.md
+**Date:** 2026-08-04 · **Updated:** 2026-08-25 · **Status:** REFRESHED — see `impact-onboarding-report.md` (2026-08-24) for dated source of truth
+
+> ⚠️ **IMPORTANT:** This planning doc lives in the deploy branch root (masked by .htaccess). Post-2026-08-25 JSON-exposure fix, these planning docs should be moved OUT of the deployed tree.
+
+**Reconciles:** AFFILIATE-RESEARCH.md (Jul 30) + VENUS-IMAGERY-AND-GROWTH-PLAN-20260803.md
 
 ---
 
 ## 1. TL;DR for Paul
 
-**No links are live yet.** Every affiliate button on Venus is a placeholder (`url: ""`, `available: false`). To go live you must:
+**BBoutique/Awin links ARE live since 2026-08-17** (Publisher ID: 3022209). Impact partners remain blocked by incomplete onboarding.
 1. Apply to each programme → get approved → receive a tracking ID.
 2. Drop that ID into `affiliate-config.json` + the product's `offers[].url`.
 3. Run `./deploy.sh` to rebuild and push.
@@ -22,12 +26,12 @@
 
 | # | Partner | Network | Commission | Sign-up URL | Dashboard / Login | Approval Status | Next Action |
 |---|---------|---------|------------|-------------|-------------------|-----------------|-------------|
-| 1 | **LELO** | Direct (HasOffers) + alternates | **5–20%** (web-verified 2026-08-04) | <http://lip.hasoffers.com/signup> | <https://lip.hasoffers.com/> | Candidate — not applied | **Apply first.** Also provides affiliate product images → unblocks lelo-enigma, lelo-mona, hugo, sona-2 imagery. |
-| 2 | **Womanizer** | Impact | **Up to 22%** | [verify] Search "Womanizer" inside Impact after creating account | <https://app.impact.com> | Candidate — not applied | Apply via Impact. Unblocks womanizer-2-original imagery. |
-| 3 | **We-Vibe** | Impact | **Up to 22%** | [verify] Search "We-Vibe" inside Impact after creating account | <https://app.impact.com> | Candidate — not applied | Apply via Impact (same login as Womanizer). Unblocks we-vibe-chorus/sync. |
-| 4 | **SheVibe** | Impact | **10%** (web-verified) | <https://app.impact.com/campaign-promo-signup/The-Vibe-Tribe-SheVibes-Partner-Program.brand?execution=e1s1#/?viewkey=signUpPreStart> | <https://app.impact.com> | Candidate — not applied | Apply via Impact (same login as #2/#3). Broad catalog coverage. |
-| 5 | **Adam & Eve** | Pepperjam (eBay Enterprise) | **Up to 30%** (web-verified) | <https://www.pepperjamnetwork.com/affiliate/registration.php?refid=107783> | <http://www.pepperjamnetwork.com/> | Candidate — not applied | Apply via Pepperjam. US-only. Highest commission. |
-| 6 | **Bellesa / BBoutique** | Awin | unstated | <https://ui.awin.com/merchant-profile/15527> | <https://ui.awin.com> | Candidate — not applied | Optional / lower priority. |
+| 1 | **LELO** | Direct (HasOffers) + alternates | **5–20%** (web-verified 2026-08-04) | <http://lip.hasoffers.com/signup> | <https://lip.hasoffers.com/> | ❌ **REJECTED** Aug 20, 2026 | Account rejected. Reapply once site has stronger traffic/content. See AFFILIATE-CREDENTIALS.md for reapplication strategy. |
+| 2 | **Womanizer** | Impact | **Up to 22%** | <http://app.impact.com/campaign-campaign-info-v2/Womanizer-North-America.brand> | <https://app.impact.com> | ⏳ **Not applied** — onboarding blocked | Account exists (paulpawprints, ID: 7454049). Partner Program Agreement checkbox must be checked to proceed. |
+| 3 | **We-Vibe** | Impact | **Up to 22%** | <http://app.impact.com/campaign-campaign-info-v2/We-Vibe-Europe.brand> | <https://app.impact.com> | ⏳ **Not applied** — onboarding blocked | Same Impact account. Application blocked until onboarding complete. |
+| 4 | **SheVibe** | Impact | **10%** (web-verified) | <https://app.impact.com/campaign-promo-signup/The-Vibe-Tribe-SheVibes-Partner-Program.brand> | <https://app.impact.com> | ⏳ **Not applied** — onboarding blocked | Same Impact account. Application blocked until onboarding complete. |
+| 5 | **Adam & Eve** | Pepperjam (eBay Enterprise) | **Up to 30%** (web-verified) | <https://www.pepperjamnetwork.com/affiliate/registration.php?refid=107783> | <http://www.pepperjamnetwork.com/> | ⏳ **Pending** — submitted Aug 5 | 24-48h review period. US-only. Highest commission. |
+| 6 | **Bellesa / BBoutique** | Awin | unstated | <https://ui.awin.com/merchant-profile/15527> | <https://ui.awin.com> | ✅ **LIVE since 2026-08-17** | Publisher ID: 3022209. Links active on all product pages. Awin links are the ONLY live affiliate revenue source currently. |
 | — | **Lovehoney** | — | — | — | — | **DECLINED 2026-07-29** | Do not apply now. Reapply once traffic/content grows. |
 | 7 | **Amazon Associates** | Amazon | 1–3% | <https://affiliate-program.amazon.com/welcome> | <https://affiliate-program.amazon.com/> | Needs Paul's login + policy review | **LAST.** High policy risk — Amazon excludes "sexually explicit" sites. Only consider for non-adult accessories (chargers, cases, cleaners) after other programmes are live. |
 

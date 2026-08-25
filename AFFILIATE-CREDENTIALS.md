@@ -1,6 +1,10 @@
 # Venus Affiliate Credentials — Drop Tracking IDs Here
 
-**Date created:** 2026-08-06
+**Date created:** 2026-08-06 · **Updated:** 2026-08-25
+**Source of truth:** `impact-onboarding-report.md` (2026-08-24)
+
+> ⚠️ **DEPLOYMENT NOTE:** This planning doc lives in the deploy branch root. Post-2026-08-25 JSON-exposure fix, planning docs should be moved OUT of the deployed tree.
+
 **Target:** Paul drops real tracking IDs here as approvals land.
 
 ---
@@ -9,14 +13,16 @@
 
 | Partner | Status | Tracking ID / Deep Link | Notes |
 |---------|--------|------------------------|-------|
-| Womanizer | ❌ Not applied | `_________________` | App via Impact — URL: http://app.impact.com/campaign-campaign-info-v2/Womanizer-North-America.brand |
-| We-Vibe | ❌ Not applied | `_________________` | App via Impact — URL: http://app.impact.com/campaign-campaign-info-v2/We-Vibe-Europe.brand |
-| SheVibe | ❌ Not applied | `_________________` | App via Impact — URL: https://app.impact.com/campaign-promo-signup/The-Vibe-Tribe-SheVibes-Partner-Program.brand?execution=e1s1#/?viewkey=signUpPreStart |
+| Womanizer | ⏳ Not applied — onboarding blocked | `_________________` | URL: http://app.impact.com/campaign-campaign-info-v2/Womanizer-North-America.brand |
+| We-Vibe | ⏳ Not applied — onboarding blocked | `_________________` | URL: http://app.impact.com/campaign-campaign-info-v2/We-Vibe-Europe.brand |
+| SheVibe | ⏳ Not applied — onboarding blocked | `_________________` | URL: https://app.impact.com/campaign-promo-signup/The-Vibe-Tribe-SheVibes-Partner-Program.brand |
 
 ### Impact Account Credentials
 > **Login:** `https://app.impact.com`
-> **Email used:** _________________
+> **Username:** `paulpawprints`
+> **Account ID:** `7454049`
 > **Password (manager):** Stored securely per policy
+> **Blocker:** Partner Program Agreement checkbox must be checked manually to complete onboarding
 
 ---
 
@@ -24,19 +30,33 @@
 
 | Partner | Status | Tracking ID | URL |
 |---------|--------|-------------|-----|
-| LELO | ❌ Not applied | `_________________` | http://lip.hasoffers.com/signup |
-| Adam & Eve | ❌ Not applied | `_________________` | https://www.pepperjamnetwork.com/affiliate/registration.php?refid=107783 |
-| Bellesa/BBoutique | ❌ Not applied | `_________________` | https://ui.awin.com/merchant-profile/15527 (Awin) |
+| LELO | ❌ **REJECTED** Aug 20, 2026 | N/A — account rejected | http://lip.hasoffers.com/signup |
+| Adam & Eve | ⏳ **Pending** — submitted Aug 5 | `_________________` | https://www.pepperjamnetwork.com/affiliate/registration.php?refid=107783 |
+| Bellesa/BBoutique | ✅ **LIVE since 2026-08-17** | **Awin Publisher ID: 3022209** | https://ui.awin.com/merchant-profile/15527 (Awin) |
 
 ---
 
-## Blocked / Future
+## Blocked / Future / Rejected
 
 | Partner | Status | Notes |
 |---------|--------|-------|
-| Lovehoney | ❌ Declined 2026-07-29 | Reapply once traffic grows |
+| Lovehoney | ❌ Declined 2026-07-29 | Reason: "Brand alignment mismatch". Reapply once traffic/content grows. |
+| LELO | ❌ Rejected Aug 20, 2026 | LIP/HasOffers account rejected. Email `affiliates@lelo.com` for specifics before reapplying. |
 | Amazon Associates | ⚠️ High policy risk | Only for non-adult accessories, last resort |
 | Spectrum Boutique | ❓ Needs research | Affiliate program not verified |
+
+## LELO Reapplication Strategy
+
+**Option A: Reapply with improved positioning**
+1. Wait until Venus site has 10+ product reviews with substantial content
+2. Ensure BBoutique/Awin links showing live traffic
+3. Reapply via LIP with updated positioning
+
+**Option B: Contact LELO directly**
+1. Email `affiliates@lelo.com` for specific feedback on rejection
+2. Ask what "missing information" or "brand alignment" issues existed
+
+**Recommendation:** Start with Option B (email for specifics).
 
 ---
 
