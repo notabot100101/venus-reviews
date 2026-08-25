@@ -2,6 +2,11 @@ screenshots/
 *.log
 .github/
 
+# Hugo's build lock and any real affiliate env file must never sit on the
+# deployed branch (the branch root is served by Hostinger).
+.hugo_build.lock
+.env.affiliate*
+
 # Hugo build output. deploy.sh rsyncs public/ to the branch root, which is what
 # Hostinger serves - so tracking it published a stale duplicate of every page at
 # /public/*. It was removed once in a42d684 for exactly this reason and came back

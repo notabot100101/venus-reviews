@@ -114,6 +114,18 @@ RedirectMatch 301 ^/tags/(adjustable|airpulse|app-control|app-controlled|beginne
 # luxury, technology, travel, value) while still serving four retired ones.
 # Also untracked from git in this same commit; this rule is the belt to that braces,
 # since a Hostinger sync that does not delete would otherwise leave the files served.
-RedirectMatch 404 ^/(content|layouts|archive|scripts|docs|data|public|\.bin|\.backup)(/|$)
+RedirectMatch 404 ^/(content|layouts|archive|scripts|docs|data|public|credentials|\.claude|\.bin|\.backup)(/|$)
+
+# 2026-08-25: the root-level planning .md files, internal .json configs, legacy
+# tooling scripts, archive/, credentials/, affiliate-research/, docs/, .claude/
+# and .backup/ were REMOVED from this branch entirely (archived to
+# ~/.openclaw/workspaces/worker/venus-internal; the active ops scripts deploy.sh
+# and visual-monitor-cronjob.sh moved to ~/.openclaw/scripts/venus/). The
+# FilesMatch and directory rules above STAY: they still cover the Hugo source
+# that must remain on this branch (content/*.md, hugo.toml, config/), and they
+# keep any stale copies unreachable if Hostinger's sync ever fails to delete
+# removed files (see the public/ note above - sync-without-delete is a known
+# risk). credentials/ and .claude/ are in the blocked list for the same
+# stale-copy reason even though they no longer exist on the branch.
 
 # Trigger redeploy 2026-08-17 17:38 CEST
