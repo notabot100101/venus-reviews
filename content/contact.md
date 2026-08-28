@@ -13,10 +13,9 @@ Have a question about a product? Need buying advice? Want to suggest a review? W
 Fill out the form below and we'll get back to you within 24-48 hours.
 
 <!-- FORMSPREE CONFIG: Endpoint configured 2026-08-03 -->
-<!-- Format: https://formspree.io/f/XXXXXXXX -->
 <form id="contact-form" class="venus-contact-form" action="https://formspree.io/f/xpqgkwaj" method="POST">
 <!-- Formspree honeypot field for spam protection -->
-<input type="text" name="_gotcha" style="display:none">
+<input type="text" name="_gotcha" tabindex="-1" autocomplete="off" style="display:none">
 <!-- Redirect after submission (optional - update when endpoint is live) -->
 <!-- <input type="hidden" name="_next" value="https://reviews.ultramarine963.com/contact/thank-you/"> -->
 <!-- Subject prefix for Linear integration -->
