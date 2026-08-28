@@ -1,7 +1,11 @@
 ---
 title: "We Vibe Sync"
+seo_title: "We-Vibe Sync - Venus Reviews"
+seo_description: "We-Vibe Sync review — adjustable couples vibrator with app control, IPX7 waterproofing and USB charging. Compare with We-Vibe Chorus."
+schema_product: true
 image: "/images/editorial/ambient-12.png"
 description: "Adjustable couples vibrator with flexible fit, app control, and travel-friendly charging."
+category: "dual-action"
 sku: "we-vibe-sync"
 draft: false
 recoveryVersion: "2026.07.09-Phase1"
