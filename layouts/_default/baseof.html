@@ -4,7 +4,7 @@
 	<meta name="generator" content="Hugo">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ with .Params.seo_title }}{{ . }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+  <title>{{- if .IsHome -}}{{ .Site.Title }}{{- else if .Params.seo_title -}}{{ .Params.seo_title }}{{- else if and (eq .Type "products") (eq .Kind "page") -}}{{ .Title }} Review | Venus{{- else -}}{{ .Title }} - {{ .Site.Title }}{{- end -}}</title>
   {{- with (.Params.seo_description | default .Description) }}
   <meta name="description" content="{{ . | plainify }}">
   {{- end }}
