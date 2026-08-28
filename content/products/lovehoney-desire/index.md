@@ -1,6 +1,10 @@
 ---
 title: "Lovehoney Desire"
+seo_title: "Lovehoney Desire - Venus Reviews"
+seo_description: "Lovehoney Desire review — classic dual-motor rabbit vibrator at a mid-range price (verified 69.99 USD). Rechargeable design with broad mainstream appeal."
+schema_product: true
 description: "Mid-range rabbit vibrator with dual motors, rechargeable power, and broad mainstream appeal."
+category: "dual-action"
 sku: "lovehoney-desire"
 menu: "main"
 recoveryVersion: "2026.07.11-Batch3"
