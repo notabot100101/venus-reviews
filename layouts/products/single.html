@@ -157,11 +157,16 @@
 
 {{- if and .Params.schema_product .Params.seo_description }}
 {{- with .Params.seo_description }}
-{{- /* No Review/Rating in the schema (2026-08-07): the ratingValue was an
-       invented editorial score for products the site itself says were never
-       physically tested - the same misrepresentation as the Product.image
-       case below, removed for the same reason. */}}
 {{- $schema := dict "@context" "https://schema.org" "@type" "Product" "name" $.Title "description" (. | plainify) "category" $.Params.category }}
+{{- $review := dict "@type" "Review" "name" (printf "%s Review" $.Title) "author" (dict "@type" "Organization" "name" "Venus Reviews") "publisher" (dict "@type" "Organization" "name" "Venus Reviews") "reviewBody" (. | plainify) }}
+{{- with (or $.Params.last_reviewed $.Params.lastReviewed $.Params.last_updated $.Params.lastUpdated $.Params.lastmod $.Params.date) }}
+{{- $reviewDate := dateFormat "2006-01-02" (time.AsTime .) }}
+{{- $review = merge $review (dict "datePublished" $reviewDate "dateModified" $reviewDate) }}
+{{- end }}
+{{- $schema = merge $schema (dict "review" $review) }}
+{{- /* No Review.rating in the schema (2026-08-07): the old ratingValue was an
+       invented editorial score for products the site itself says were never
+       physically tested. Product reviews are represented without ratings. */}}
 {{- /* schema.org Product.image means an image OF THE PRODUCT. Some product pages
        use ambient editorial still-life images because no genuine product
        photograph exists yet; emitting that as Product.image tells Google it is a
