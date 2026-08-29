@@ -90,7 +90,7 @@ Verified on the manufacturer page on 6 August 2026:
 
 ## What Is Not Documented Here
 
-The capture did not include verified figures for runtime, charge time, noise in dB, weight, or dimensions. Fun Factory publishes these on its product page; they should be confirmed before publication.
+The capture did not include verified figures for runtime, charge time, noise in dB, weight, or dimensions. Fun Factory publishes these on its product page; buyers should confirm them there before purchase.
 
 ## Who It Is For
 

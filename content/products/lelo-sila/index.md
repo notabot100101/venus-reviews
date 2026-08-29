@@ -127,7 +127,7 @@ Verified on the manufacturer page on 6 August 2026 (re-verified 20 August 2026):
 
 ## What Is Not Documented Here
 
-The capture did not confirm the exact IP rating (LELO says "100% waterproof" without an IPX number), the exact connector type (proprietary pin charger or USB standard), or independent noise measurements for Sila. LELO's product page also omits the specific phthalate-free claim for Sila in the visible copy. These should be confirmed before publication.
+The capture did not confirm the exact IP rating (LELO says "100% waterproof" without an IPX number), the exact connector type (proprietary pin charger or USB standard), or independent noise measurements for Sila. LELO's product page also omits the specific phthalate-free claim for Sila in the visible copy; these details should be confirmed from LELO's materials.
 
 ## Who It Is For
 
