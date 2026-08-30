@@ -14,6 +14,18 @@ price: "51.95"
 price_checked: "2026-08-06"
 best_for: "Precise external contact"
 noise: "Medium noise"
+rating: 4.0
+rating_note: "Well-documented precision twin-tip design (6 speeds, 6 patterns, IPX7, named silicone), but runtime, charge time and warranty were not documented, and the shape needs a learning curve."
+pros:
+  - "Twin-tip fluttering design offers genuinely different contact styles"
+  - "Documented 6 speeds, 6 patterns, USB-C, IPX7 and hygienic silicone"
+  - "LOOP handle with ribbed grip helps hold a steady angle"
+  - "Narrower, more targeted profile than Manta's flexible wings"
+cons:
+  - "Runtime, charge time and warranty term are not documented by the manufacturer"
+  - "Unusual shape with a real learning curve"
+  - "Split-tip contact is not what everyone wants - no broad wand coverage"
+  - "Handled toy is less pocketable than a mini vibrator"
 offers:
   - retailer: "Fun Factory (manufacturer)"
     url: "https://www.funfactory.com/products/volta"

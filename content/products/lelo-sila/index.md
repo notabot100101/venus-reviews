@@ -9,6 +9,18 @@ menu: "main"
 weight: 165
 draft: false
 best_for: "Gentle, slower-build stimulation"
+rating: 4.0
+rating_note: "The only gentleness-tuned sonic device in the catalogue, well documented overall - but it costs 60 EUR more than Sona 2 for less intensity range, and its noise figure is unconfirmed."
+pros:
+  - "The only product in the catalogue tuned specifically for gentler sonic stimulation"
+  - "Wide mouth spreads stimulation over a larger area than Sona 2"
+  - "Documented 2-hour runtime, 520 mAh battery, 100% waterproof claim"
+  - "Lightweight 105 g with a simple 3-button interface"
+cons:
+  - "Costs 60 EUR more than Sona 2 while offering a lower intensity ceiling"
+  - "Noise figure not documented - only inferred from Sona 2's 60 dB"
+  - "Only 8 intensity levels versus Sona 2's 12"
+  - "Not for buyers chasing intensity; the upper range is deliberately lower"
 image: "/images/editorial/ambient-11.png"
 price: "169.00"
 price_checked: "2026-08-06"

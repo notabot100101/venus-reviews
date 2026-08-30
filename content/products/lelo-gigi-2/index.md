@@ -7,6 +7,18 @@ image: "/images/editorial/ambient-08.png"
 category: "premium-feel"
 tags: ["g-spot", "premium", "waterproof", "compact"]
 affiliate_link: ""
+rating: 4.0
+rating_note: "Compact, light and well documented with a genuinely different flat-tip design; published feedback flags moderate power and LELO publishes no noise figure for it."
+pros:
+  - "Distinctive flattened tip spreads contact over a broader area"
+  - "Very light (79 g) and compact - easy to pack"
+  - "Documented silicone/ABS build, 100% waterproof, up to 4-hour runtime"
+  - "8 settings plus LELO's 2+10-year warranty structure"
+cons:
+  - "Motor is described in published feedback as moderate rather than strong"
+  - "No documented noise figure and no travel lock in LELO's spec table"
+  - "8 settings read as a short feature list at the price"
+  - "Flat tip divides opinion - some users find it vague rather than targeted"
 price: "109.00"
 price_checked: "2026-08-06"
 offers:

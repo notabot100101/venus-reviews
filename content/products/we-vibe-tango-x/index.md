@@ -10,6 +10,18 @@ menu: "main"
 weight: 160
 draft: false
 best_for: "Pinpoint external stimulation"
+rating: 4.5
+rating_note: "Flagship bullet with documented broad-motor rumble and a strong price-to-spec ratio at 89 EUR; runtime, charge time and noise figures remain unverified by us."
+pros:
+  - "Broad-motor rumble instead of the buzzy character of cheaper bullets"
+  - "8 vibration types across 8 intensity levels"
+  - "IPX7 waterproof with a body-safe silicone contact surface"
+  - "Strong price-to-spec at 89 EUR for a premium brand"
+cons:
+  - "Runtime, charge time and noise in dB not verified from the available capture"
+  - "Bullet format inherently limits power-to-size"
+  - "No app connectivity or remote control"
+  - "Exact material grade and phthalate-free status unconfirmed from capture"
 image: "/images/editorial/ambient-10.png"
 price: "89.00"
 price_checked: "2026-08-06"

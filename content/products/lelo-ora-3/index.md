@@ -12,6 +12,18 @@ draft: false
 # Verified against lelo.com/ora-3 on 2026-08-28: product exists, official
 # structured data lists 179.00 EUR and InStock.
 best_for: "Rotating external stimulation"
+badge: "Specialist Pick"
+rating: 3.5
+rating_note: "Unique rotating format with strong official specs (silicone/ABS, waterproof, 50 dB), but it is position-sensitive, documents only ~1 hour of runtime, and costs a premium 179 EUR for a narrow use case."
+pros:
+  - "Unique rotating stimulation - the only product of its kind in the catalogue"
+  - "Strong official specs: body-safe silicone/ABS, 100% waterproof, 50 dB max noise"
+  - "Verified 179 EUR manufacturer price and 2+10-year warranty structure"
+cons:
+  - "Position-sensitive: rotating contact depends heavily on anatomy and placement"
+  - "Documented ~1-hour runtime is shorter than many simple vibrators"
+  - "179 EUR premium for a narrow, specialist use case"
+  - "Not a value-first recommendation and not a safe first toy"
 image: "/images/placeholders/ambient-07.png"
 price: "179.00"
 price_checked: "2026-08-28"

@@ -12,6 +12,18 @@ price: "199.00"
 price_checked: "2026-08-06"
 best_for: "Dual stimulation"
 noise: "Low noise"
+rating: 4.5
+rating_note: "Strongest dual-stimulation documentation in the catalogue (materials, dimensions, ISO 3533, 2+10-year warranty). Fit-sensitivity and the premium price keep it from a perfect score."
+pros:
+  - "Simultaneous external sonic and internal G-spot stimulation in one device"
+  - "Documented body-safe silicone/ABS materials and ISO 3533 alignment"
+  - "100% waterproof with a documented 2-hour runtime and clear 2+10-year warranty language"
+  - "Extra-soft silicone with a full spec table (dimensions, battery, charging)"
+cons:
+  - "Fit-sensitive: dual stimulation must line up with two target areas at once"
+  - "Premium price tier (199 EUR manufacturer price)"
+  - "Not a first toy - shaped, insertable and intensity-specific"
+  - "No documented noise figure, exact motor count or app compatibility"
 card_excerpt: "Best when you want a premium, quiet-feeling dual-stimulation design and are comfortable paying for a refined motor and finish."
 trust_note: "Luxury silicone build, discreet shipping context, and clear cleaning expectations make it easier to compare against lower-cost alternatives."
 support_note: "Check retailer warranty and return windows before purchase; premium electronics are worth buying from a traceable seller."

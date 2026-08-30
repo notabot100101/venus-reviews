@@ -13,6 +13,18 @@ price: "209.00"
 price_checked: "2026-08-06"
 best_for: "Partnered use"
 noise: "Medium noise"
+rating: 4.5
+rating_note: "The most feature-rich couples option with clear specs (IPX7, 90-min runtime, 2-year warranty, explicit materials); setup effort and fit sensitivity keep it from a perfect score."
+pros:
+  - "Rich app/remote ecosystem: Squeeze Remote, Touch-sense and AnkorLink"
+  - "Materials explicitly produced without phthalates, BPA or latex"
+  - "IPX7 toy body; documented 90-minute runtime and two-year warranty"
+  - "Adjustable fit for partnered positioning"
+cons:
+  - "A setup product: app pairing and remote anchoring add friction"
+  - "Wearable couples toys are fit-sensitive - comfort varies by anatomy and position"
+  - "Remote is only splashproof, not fully waterproof"
+  - "Motor count, decibel level and Bluetooth range are not documented"
 card_excerpt: "Best for couples who want app-enabled control and flexible fit, with a little more setup than a simple solo device."
 trust_note: "The review foregrounds app setup, fit, and cleaning so the couples features are easier to evaluate privately."
 support_note: "Buy from a retailer with clear warranty handling because app-connected products can need firmware or support follow-up."

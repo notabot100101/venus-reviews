@@ -11,7 +11,27 @@ lastmod: 2026-08-08
 
 Venus Reviews is a research and curation site. Our product pages are based on documented product information, manufacturer disclosures, retailer details, warranty and support context, and patterns in published buyer feedback.
 
-We do not present numerical ratings, star ratings, lab measurements, timed ownership trials, or first-person sensory experience unless the underlying evidence supports that specific claim.
+We do not present lab measurements, timed ownership trials, or first-person sensory experience unless the underlying evidence supports that specific claim. Star ratings shown on product pages are Venus's own editorial ratings, labeled as such and described below; we do not present customer-review aggregates or review counts unless a source is cited.
+
+## The Venus Editorial Rating
+
+Product pages display a star rating between 1 and 5 in half-point steps. It is an editorial judgment by Venus Reviews, not a customer-review average:
+
+- It synthesises the documented criteria in this methodology: completeness of manufacturer documentation, feature depth, fit risk, noise and discretion evidence, value, and patterns in published buyer feedback.
+- It is derived from documentation and published feedback only. Venus does not physically test products, and the rating never implies hands-on experience.
+- The visible stars and the schema.org `reviewRating` on the page always carry the same value, so the two can never disagree.
+- No customer-review aggregate is published because Venus does not collect or license customer review data. Where a manufacturer publishes its own aggregate figure, it is attributed on the page as the manufacturer's figure and is not the star display.
+
+What the scores mean:
+
+| Score | Meaning |
+|-------|---------|
+| 4.5 | Outstanding documentation and a strong match for its intended use case, with minor caveats |
+| 4.0 | A good product with material trade-offs (fit sensitivity, documentation gaps, or price) |
+| 3.5 | A clear specialist or value compromise: notable downsides that are real for many buyers |
+| 3.0 or below | Significant unverified claims or fit risk; the review says exactly what is missing |
+
+A score is only assigned where the review can name what it is based on. Where documentation is too thin to judge, the page says so explicitly and the score reflects that.
 
 ## Category-Specific Criteria
 
@@ -167,6 +187,7 @@ Submit reports through the [contact form](/contact/).
 
 | Date | Change | Rationale |
 |------|--------|-----------|
+| August 2026 | Introduced labeled Venus Editorial Ratings on product pages | Paul requested visible star ratings that vary between products; ratings are editorial, documented per product, and never customer aggregates |
 | August 2026 | Removed unsupported public rating language | Align trust pages with current research-only editorial process |
 | July 2026 | Reframed methodology around research and curation | Align trust pages with actual editorial process |
 

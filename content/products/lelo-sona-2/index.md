@@ -13,6 +13,18 @@ price_checked: "2026-08-06"
 category: "external-stimulation"
 best_for: "Focused external stimulation"
 noise: "Low-medium noise"
+rating: 4.5
+rating_note: "Exceptionally well documented compact sonic pick (materials, battery, modes, 60 dB ceiling, warranty); focused stimulation and the audible ceiling are real caveats for some buyers."
+pros:
+  - "Strong manufacturer documentation: materials, dimensions, battery, modes, noise"
+  - "Compact 125 g body - easy to travel with"
+  - "12-mode interface on a premium external sonic device"
+  - "100% waterproof with single-piece silicone construction"
+cons:
+  - "Highly focused stimulation can be too direct or intense for some"
+  - "Documented 60 dB maximum is audible in a quiet room"
+  - "External-only - no insertable, dual or app features"
+  - "Precision format needs learned placement rather than obvious positioning"
 image: "/images/editorial/ambient-06.png"
 
 offers:

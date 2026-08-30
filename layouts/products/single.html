@@ -79,6 +79,15 @@
       <p>{{ .Params.trialPeriod }}</p>
     </div>
     {{ end }}
+
+    {{ with .Params.rating }}
+    <div class="product-editorial-rating">
+      <h3>Venus Editorial Rating</h3>
+      {{ partial "rating-display.html" (dict "rating" .) }}
+      <p class="rating-methodology-note">Venus&rsquo;s own editorial score from documented specifications, manufacturer claims, pricing and published buyer feedback &mdash; not a customer-review average, and not from hands-on testing. <a href="/how-we-evaluate/">How ratings work</a>.</p>
+      {{ with $.Params.rating_note }}<p class="rating-reason"><strong>Why this score:</strong> {{ . }}</p>{{ end }}
+    </div>
+    {{ end }}
   </div>
 
   {{ with .Params.badge }}<p class="product-badge">{{ . }}</p>{{ end }}
@@ -118,24 +127,28 @@
     {{ .Content | replaceRE `(?s)^\s*<h1[^>]*>.*?</h1>\s*` "" | safeHTML }}
   </div>
 
-  {{ if .Params.cons }}
+  {{ if or .Params.cons .Params.pros }}
   <div class="pros-cons">
+    {{ with .Params.pros }}
     <div>
       <h3>Pros</h3>
       <ul>
-        {{ range .Params.pros }}
+        {{ range . }}
         <li>{{ . }}</li>
         {{ end }}
       </ul>
     </div>
+    {{ end }}
+    {{ with .Params.cons }}
     <div>
       <h3>Cons</h3>
       <ul>
-        {{ range .Params.cons }}
+        {{ range . }}
         <li>{{ . }}</li>
         {{ end }}
       </ul>
     </div>
+    {{ end }}
   </div>
   {{ end }}
 
@@ -159,14 +172,20 @@
 {{- with .Params.seo_description }}
 {{- $schema := dict "@context" "https://schema.org" "@type" "Product" "name" $.Title "description" (. | plainify) "category" $.Params.category }}
 {{- $review := dict "@type" "Review" "name" (printf "%s Review" $.Title) "author" (dict "@type" "Organization" "name" "Venus Reviews") "publisher" (dict "@type" "Organization" "name" "Venus Reviews") "reviewBody" (. | plainify) }}
+{{- with $.Params.rating }}
+{{- $review = merge $review (dict "reviewRating" (dict "@type" "Rating" "ratingValue" (printf "%.1f" (float .)) "bestRating" "5" "worstRating" "1")) }}
+{{- end }}
 {{- with (or $.Params.last_reviewed $.Params.lastReviewed $.Params.last_updated $.Params.lastUpdated $.Params.lastmod $.Params.date) }}
 {{- $reviewDate := dateFormat "2006-01-02" (time.AsTime .) }}
 {{- $review = merge $review (dict "datePublished" $reviewDate "dateModified" $reviewDate) }}
 {{- end }}
 {{- $schema = merge $schema (dict "review" $review) }}
-{{- /* No Review.rating in the schema (2026-08-07): the old ratingValue was an
-       invented editorial score for products the site itself says were never
-       physically tested. Product reviews are represented without ratings. */}}
+{{- /* Editorial ratings (2026-08-30, Paul-approved direction): product pages now
+       carry a Venus Editorial Rating in half-point steps. The rating is Venus's
+       own transparent editorial score from documented manufacturer specifications,
+       pricing and published buyer feedback - never a customer-review aggregate.
+       The visible stars and this Review.reviewRating always agree. aggregateRating
+       stays absent (no customer review data exists to aggregate). */}}
 {{- /* schema.org Product.image means an image OF THE PRODUCT. Some product pages
        use ambient editorial still-life images because no genuine product
        photograph exists yet; emitting that as Product.image tells Google it is a
