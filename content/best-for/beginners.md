@@ -14,17 +14,19 @@ Starting your journey doesn't mean settling for low quality. These products offe
 
 ## Our Top Beginner Picks
 
-### 1. Lovehoney Desire — Mid-Range Bestseller
+### 1. Lovehoney Desire — Value Rabbit (verify before buying)
 
 **Evidence note:** Research-based beginner fit pick
 
-The classic rabbit design most people picture — dual stimulation with rechargeable convenience. The familiar shape makes it approachable, while the mid-range price offers quality without luxury markup.
+The classic rabbit format at a mid-range price, with dual motors and rechargeable power. The familiar shape makes it approachable — but Lovehoney's product page was not fully reachable during our research, so materials, waterproofing, runtime and warranty could not be verified from manufacturer sources. Our current review rates it 3.0/5 and tells buyers to verify the specification on the retailer page before purchasing.
 
 **Why it's beginner-friendly:**
-- Familiar dual-stimulation design
+- Familiar dual-stimulation rabbit design
 - Straightforward controls
-- Quality materials at reasonable price
-- Easy to clean and maintain
+- Rechargeable convenience at a value price
+- Wide retailer availability
+
+**The catch:** key specifications could not be verified from manufacturer documentation when reviewed — check materials, waterproofing and warranty on the current retailer page before buying.
 
 [Read Full Review](/products/lovehoney-desire/)
 
