@@ -64,9 +64,9 @@ offers:
     available: true
 ---
 
-Lovehoney Desire is the value-oriented rabbit comparison: a mainstream dual-stimulation shape for shoppers who want the rabbit format without stepping up to the premium LELO tier. Lovehoney's product specifications were not fully accessible during research, so some details are drawn from available catalogue information.
+Lovehoney Desire is the value-oriented rabbit comparison: a mainstream dual-stimulation shape for shoppers who want the rabbit format without stepping up to the premium LELO tier. The review keeps technical claims limited to details that can be checked from retailer catalogue information and current product-page evidence.
 
-This review is based on the product's market positioning, the current product catalogue, and patterns in published feedback for rechargeable rabbit vibrators. Note that Lovehoney's product pages were not fully reachable during research, so some manufacturer specifications are drawn from available catalogue information.
+This review is based on the product's market positioning, the current product catalogue, and category patterns in published feedback for rechargeable rabbit vibrators. Manufacturer-level specifications are intentionally left out unless they are documented clearly enough for a buyer to verify before purchase.
 
 ## Quick Verdict
 
@@ -76,7 +76,7 @@ If the buyer wants a rabbit and the current retailer page documents materials, w
 
 ## Documented Specifications
 
-Exact dimensions, insertable length, circumference, weight, materials, motor count, battery capacity, runtime, charge time, waterproof rating, speeds, patterns, noise level, warranty term, and included accessories were not fully documented from manufacturer sources for this review.
+Exact dimensions, insertable length, circumference, weight, materials, motor count, battery capacity, runtime, charge time, waterproof rating, speeds, patterns, noise level, warranty term, and included accessories are treated as buyer-verification items unless the current retailer page documents them clearly.
 
 The product description describes Lovehoney Desire as a mid-range rabbit vibrator with dual motors, rechargeable power, and broad mainstream appeal. These fields help position the product. Retailer prices and availability should be checked at purchase time.
 

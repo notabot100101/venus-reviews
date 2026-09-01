@@ -12,7 +12,7 @@
     var link = event.currentTarget;
     var href = link.getAttribute('href') || '';
     var product = link.getAttribute('data-product') || 'unknown';
-    var merchant = link.getAttribute('data-merchant') || extractMerchant(href);
+    var merchant = link.getAttribute('data-merchant') || link.getAttribute('data-retailer') || extractMerchant(href);
     var location = link.getAttribute('data-location') || 'body';
 
     // Track with Plausible if available
@@ -44,6 +44,8 @@
         'spectrumboutique.com': 'Spectrum Boutique',
         'unboundbabes.com': 'Unbound',
         'goodvibes.com': 'Good Vibes',
+        'enjox.com': 'Enjox',
+        'awin1.com': 'Awin',
         'amazon.com': 'Amazon',
         'amzn.to': 'Amazon'
       };
@@ -77,7 +79,7 @@
     var merchants = [
       'lelo.com', 'dameproducts.com', 'we-vibe.com', 'lovehoney.com',
       'funfactory.com', 'womanizer.com', 'shevibe.com', 'amazon.com',
-      'amzn.to', 'prf.hn', 'click.linksynergy.com', 'partnershop.link'
+      'amzn.to', 'enjox.com', 'awin1.com', 'prf.hn', 'click.linksynergy.com', 'partnershop.link'
     ];
     return merchants.some(function(m) { return url.indexOf(m) !== -1; });
   }
