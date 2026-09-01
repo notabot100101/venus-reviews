@@ -15,6 +15,18 @@ price: "159.00"
 price_checked: "2026-08-06"
 best_for: "Adjustable couples fit"
 noise: "Low-medium noise"
+rating: 3.5
+rating_note: "Solid adjustable couples vibrator with documented core specs, but it was out of stock on the manufacturer page when checked (possible phase-out) and its material disclosure is narrower than Chorus's."
+pros:
+  - "Adjustable C-shape for couples with remote and app control"
+  - "Documented IPX7, up to 90-minute runtime and 2-hour charge time"
+  - "Smaller, simpler, less expensive alternative to Chorus"
+  - "Body-safe silicone exterior"
+cons:
+  - "Out of stock on the manufacturer page when checked - possible phase-out signal"
+  - "Material disclosure narrower than Chorus: internal materials not clearly identified"
+  - "Fit and stability vary with anatomy and position"
+  - "App layer adds complexity without always improving the experience"
 offers:
   - retailer: "We-Vibe (manufacturer)"
     url: "https://www.we-vibe.com/eu/sync"

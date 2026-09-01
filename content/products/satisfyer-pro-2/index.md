@@ -4,6 +4,19 @@ title: "Satisfyer Pro 2"
 seo_title: "Satisfyer Pro 2 - Venus Reviews"
 seo_description: "Satisfyer Pro 2 Generation 3 review — Liquid Air pressure-wave tech, silicone/ABS, IPX7 waterproof. Compare with Womanizer Premium 2 and other air-pulse toys."
 schema_product: true
+badge: "Value Pick"
+rating: 3.5
+rating_note: "Best value entry into air-pulse with a standout 15-year warranty; runtime is modest, charging is slow, and build/interface refinement trails Womanizer's premium line."
+pros:
+  - "Best value entry into pressure-wave stimulation at 69.95 EUR"
+  - "Documented 15-year warranty - the standout claim in the catalogue"
+  - "IPX7 waterproof, seamless silicone body and two Liquid Air attachments"
+  - "11 pressure-wave and 12 vibration programs with separate motors"
+cons:
+  - "Modest runtime (~60 minutes at medium) with a slow charge (up to ~3h, 8h initial)"
+  - "Louder in published reports than Womanizer's Smart Silence products"
+  - "Interface is fiddly compared with direct intensity stepping on premium devices"
+  - "Fit-dependent: the cup must seal correctly for the device to work"
 image: "/images/editorial/ambient-03.png"
 category: "external-stimulation"
 tags: ["air-pulse", "value", "waterproof", "external"]

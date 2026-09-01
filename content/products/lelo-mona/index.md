@@ -9,6 +9,18 @@ price_checked: "2026-08-06"
 category: "premium-feel"
 tags: ["premium", "ergonomic", "quiet", "swedish-design"]
 affiliate_link: ""
+rating: 4.0
+rating_note: "A classic, well-documented G-spot vibrator (materials, 50 dB, waterproof, 2+10-year warranty); the firm curved shape is fit-dependent and the 6-mode feature set is modest for the price."
+pros:
+  - "Pronounced, firm curve - the classic G-spot design"
+  - "Documented body-safe silicone/ABS materials and ISO 3533 alignment"
+  - "100% waterproof; documented 50 dB max noise; up to 2-hour runtime"
+  - "Clear 2+10-year LELO warranty structure"
+cons:
+  - "Fit-dependent: the firm curve suits some anatomies far better than others"
+  - "Feature set is modest (6 modes) for the 139 EUR price tier"
+  - "Internal-only - no external or dual stimulation"
+  - "Not the smallest or most portable option in the catalogue"
 offers:
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/mona-2"

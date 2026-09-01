@@ -13,6 +13,18 @@ price_checked: "2026-08-06"
 category: "prostate"
 best_for: "Premium prostate wellness"
 noise: "Low noise"
+rating: 4.0
+rating_note: "Strongly documented premium prostate massager (materials, 50 dB ceiling, 2+10-year warranty), but the original HUGO was sold out at LELO when checked and buyers now land on the un-reviewed HUGO 2."
+pros:
+  - "Documented premium prostate design: 72 mm insertable length, 32.5 mm diameter"
+  - "Body-safe silicone/ABS with ISO 3533 alignment"
+  - "Remote control with SenseMotion; 100% waterproof body; 50 dB max noise"
+  - "2-hour runtime and clear LELO 2+10-year warranty language"
+cons:
+  - "Original HUGO was sold out at LELO when checked - buyers land on the un-reviewed HUGO 2 successor"
+  - "Prostate toys are hygiene-, preparation- and anatomy-sensitive"
+  - "Motion-based remote splits opinion; some users prefer plain buttons"
+  - "The remote's own water-resistance is not documented"
 image: "/images/editorial/ambient-02.png"
 offers:
   - retailer: "LELO (manufacturer)"

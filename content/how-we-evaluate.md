@@ -39,6 +39,10 @@ Affiliate relationships do not change the editorial assessment. Product pages sh
 
 ## Evaluation Categories
 
+## Star Ratings
+
+Product pages carry a **Venus Editorial Rating** from 1 to 5 in half-point steps — our own assessment, not a customer-review average. It follows the evaluation categories below: documentation quality, feature depth, fit risk, value, and patterns in published feedback. Stars appear only where the review can name what they are based on; where documentation is too thin to judge, the page says so explicitly and the score reflects that. The visible stars and the page's structured data carry the same value, and the rating never implies hands-on testing — see the [full methodology](/methodology/) for the scale.
+
 ### 1. Build Quality & Materials
 
 We look for documented materials, body-safety disclosures, construction notes, water-resistance ratings, charging design, and whether the manufacturer provides enough detail for a buyer to judge suitability.
@@ -79,6 +83,7 @@ We do not claim to:
 - Run lab measurements
 - Publish timed product trials
 - Present first-person sensory experience as editorial fact
+- Present star ratings as customer reviews or as the result of hands-on testing
 - Let affiliate commission rates determine editorial conclusions
 - Guarantee that published manufacturer or retailer information is complete
 
@@ -100,4 +105,4 @@ Read our detailed [evaluation methodology](/methodology/) for research criteria 
 
 ---
 
-*Last updated: July 2026 | Evaluation standards reviewed as source information changes*
+*Last updated: August 2026 | Evaluation standards reviewed as source information changes*

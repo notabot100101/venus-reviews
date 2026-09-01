@@ -10,6 +10,18 @@ menu: "main"
 weight: 170
 draft: false
 best_for: "Deep, rumbly external massage"
+rating: 4.0
+rating_note: "Best value wand on documentation - German-made, body-safe silicone, IPX7, USB-C at 66.95 EUR - but it was out of stock at the manufacturer and runtime/charge figures were unverified."
+pros:
+  - "Weighted-motor design tuned for deep rumble rather than buzz"
+  - "Body-safe, phthalate-free silicone; German-made by Fun Factory"
+  - "IPX7 waterproof and USB-C rechargeable"
+  - "Best value in the catalogue: 66.95 EUR manufacturer price"
+cons:
+  - "Out of stock at the manufacturer at the time of review"
+  - "Runtime, charge time, noise, dimensions and weight not verified in available data"
+  - "Wand format is larger and less travel-friendly than compact toys"
+  - "No app and no remote - a deliberately simple, no-frills design"
 image: "/images/editorial/ambient-12.png"
 price: "66.95"
 price_checked: "2026-08-06"

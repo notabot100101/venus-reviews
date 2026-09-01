@@ -9,7 +9,7 @@ sku: "lovehoney-desire"
 menu: "main"
 recoveryVersion: "2026.07.11-Batch3"
 weight: 120
-badge: "Mid-Range Bestseller"
+badge: "Verify Before Buying"
 # VERIFIED 2026-08-07 via lovehoney.com product page JSON-LD (rendered browser):
 # Desire Luxury Rechargeable Rabbit Vibrator, 69.99 USD, InStock, list 109.99.
 # Earlier blocks (08-05, 08-06) did not recur.
@@ -17,6 +17,19 @@ price: "69.99"
 price_checked: "2026-08-07"
 best_for: "Classic rabbit design"
 noise: "Medium noise"
+rating: 3.0
+rating_note: "Classic rabbit format at a value price, but the manufacturer page was not fully reachable and key specs - materials, waterproofing, runtime, warranty - could not be verified from manufacturer sources. Verify before buying."
+pros:
+  - "Classic rabbit format at a mid-range price (verified 69.99 USD offer)"
+  - "Dual motors and rechargeable design per the product description"
+  - "A useful value comparison point below LELO and Womanizer"
+  - "Broad mainstream positioning with wide retailer availability"
+cons:
+  - "Key specs not verifiable: dimensions, materials, waterproofing, runtime, warranty"
+  - "Manufacturer page was not fully reachable during research"
+  - "Rabbit fit is the most anatomy-dependent format in the catalogue"
+  - "Dual motors can sound louder or feel more complicated than a simple toy"
+  - "No manufacturer documentation to hold spec claims against"
 image: "/images/editorial/ambient-09.png"
 offers:
   - retailer: "Amazon"

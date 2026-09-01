@@ -30,6 +30,12 @@
 
         <h2 class="product-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
 
+        {{ with .Params.rating }}
+        <div class="rating-row product-rating-row">
+          {{ partial "rating-display.html" (dict "rating" .) }}
+          <span class="rating-editorial-tag">Editorial</span>
+        </div>
+        {{ end }}
 
         <p class="product-card-desc">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify }}{{ end }}</p>
 

@@ -1,6 +1,7 @@
 {{- $rating := float .rating -}}
 {{- $percent := printf "%.1f%%" (mul $rating 20) -}}
-<div class="rating-display" aria-label="{{ printf "%.1f out of 5 stars" $rating }}">
+{{- $label := default "Editorial rating" .label -}}
+<div class="rating-display" aria-label="{{ printf "%.1f out of 5 stars (%s)" $rating $label }}">
   <span class="rating-stars" aria-hidden="true">
     <svg class="star-base" width="110" height="20" viewBox="0 0 110 20" xmlns="http://www.w3.org/2000/svg">
       <path d="M10 1.5l2.4 5.1 5.6.8-4 4.1.9 5.6L10 14.2l-5 2.9.9-5.6-4-4.1 5.6-.8z" fill="rgba(250,204,21,0.28)" stroke="rgba(250,204,21,0.28)" stroke-width="0.5"/>

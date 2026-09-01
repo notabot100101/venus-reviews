@@ -14,6 +14,18 @@ price: "48.95"
 price_checked: "2026-08-06"
 best_for: "Flexible external use"
 noise: "Medium noise"
+rating: 3.5
+rating_note: "Distinctive flexible wraparound shape with strong vibration, but the contact material is not named, runtime/charge time/speeds/warranty are not documented, and the manufacturer page was out of stock."
+pros:
+  - "Flexible wings wrap around the body for broader contact"
+  - "Ribbed structure holds lubricant where wanted"
+  - "Powerful vibration, IPX7 waterproofing and USB-C charging"
+  - "More versatile than the product's male-focused manufacturer framing suggests"
+cons:
+  - "Contact material is not named in the visible manufacturer description"
+  - "Runtime, charge time, speeds, sound level and warranty term are not documented"
+  - "Wraparound shape feels awkward to users who want simple direct stimulation"
+  - "Out of stock at the manufacturer at the time of review"
 offers:
   - retailer: "Fun Factory (manufacturer)"
     url: "https://www.funfactory.com/products/manta"

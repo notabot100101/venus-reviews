@@ -8,6 +8,20 @@ image: "/images/editorial/ambient-01.png"
 category: "external-stimulation"
 tags: ["air-pulse", "premium", "quiet", "external", "waterproof"]
 affiliate_link: ""
+rating: 4.5
+rating_note: "Best-in-class documentation: 14 levels, Smart Silence, 240-minute runtime and a five-year warranty. Not a full 5: premium price, no mains adaptor included, and Autopilot divides opinion."
+pros:
+  - "14 intensity levels with a long, gradual ladder"
+  - "Smart Silence activates only on skin contact - a real discretion advantage"
+  - "240-minute runtime against a 120-minute charge, best ratio in the category"
+  - "Explicit phthalate-free, BPA-free and latex-free material statement"
+  - "Five-year warranty, well above the two-year norm"
+cons:
+  - "Expensive - substantially more than similar air-pulse devices"
+  - "Does one thing only: no internal stimulation, app control or partner features"
+  - "No mains adaptor included - a USB power source is assumed"
+  - "Autopilot 2.0 divides opinion and can feel like it removes control"
+  - "Only works if the stimulation head seals against the anatomy"
 price: "179.00"
 price_checked: "2026-08-07"
 offers:
