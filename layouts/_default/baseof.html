@@ -10,6 +10,22 @@
   {{- end }}
   {{ if .Params.noindex }}
   <meta name="robots" content="noindex, nofollow">
+  {{ else }}
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ end }}
+  <meta property="og:site_name" content="{{ .Site.Title | plainify }}">
+  <meta property="og:type" content="{{ if (eq .Kind "home") }}website{{ else if (eq .Type "products") }}article{{ else }}website{{ end }}">
+  <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title | plainify }}{{ else if .Params.seo_title }}{{ .Params.seo_title | plainify }}{{ else }}{{ .Title }} - {{ .Site.Title | plainify }}{{ end }}">
+  {{- with (.Params.seo_description | default .Description) }}
+  <meta property="og:description" content="{{ . | plainify }}">
+  {{- end }}
+  <meta property="og:url" content="{{ .Permalink }}">
+  {{ if .IsHome }}
+  <script type="application/ld+json">
+  {{- $site := dict "@context" "https://schema.org" "@type" "WebSite" "name" "Venus Reviews" "url" (.Site.BaseURL) }}
+  {{- $org := dict "@context" "https://schema.org" "@type" "Organization" "name" "Venus Reviews" "url" (.Site.BaseURL) }}
+  {{- jsonify (dict "@graph" (slice $site $org)) | safeJS }}
+  </script>
   {{ end }}
   
   <link rel="stylesheet" href="/css/main.css">
