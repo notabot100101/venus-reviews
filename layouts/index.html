@@ -73,7 +73,7 @@
         {{ with .Params.badge }}<div class="rating-pill">{{ . }}</div>{{ end }}
         {{ with .Params.image }}
         <a class="product-card-image-link" href="{{ $page.RelPermalink }}" aria-label="Read {{ $page.Title }} review">
-          <img class="product-card-image" src="{{ . }}" alt="{{ $page.Title }}">
+          <img class="product-card-image" src="{{ . }}" alt="{{ $page.Title }}" loading="lazy" decoding="async" width="600" height="600">
         </a>
         {{ end }}
         <h3 class="product-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>

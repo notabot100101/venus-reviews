@@ -26,6 +26,10 @@
       {{ $images = $images | append .src }}
     {{ end }}
   {{ end }}
+  {{ $verifiedImage := and .Params.image (not (or (strings.Contains .Params.image "/placeholders/") (strings.Contains .Params.image "/editorial/"))) }}
+  {{ if and (not $images) $verifiedImage }}
+    {{ $images = slice .Params.image }}
+  {{ end }}
 
   <section class="product-hero-detail" aria-label="{{ .Title }} product summary">
   {{ if $images }}
@@ -36,6 +40,7 @@
         id="mainImage"
         src="{{ . }}" 
         alt="{{ $.Title }}"
+        fetchpriority="high"
       >
       {{ end }}
       {{ if .Draft }}
@@ -53,6 +58,8 @@
         class="thumbnail"
         data-index="{{ $i }}"
         data-src="{{ $img }}"
+        loading="lazy"
+        decoding="async"
         onclick="setMainImage(this)"
       >
       {{ end }}
