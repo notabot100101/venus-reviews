@@ -37,6 +37,22 @@
       "productCoverage": "Limited select items only",
       "restrictions": "Must include disclosure, adult content restrictions apply"
     },
+    "bboutique": {
+      "baseUrl": "https://www.bboutique.co",
+      "trackingParam": "awinmid=15527&awinaffid=3022209",
+      "trackingUrlTemplate": "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued={url}",
+      "status": "live",
+      "products": ["dame-eva-ii", "fun-factory-manta", "fun-factory-vim", "fun-factory-volta", "lelo-enigma", "lelo-gigi-2", "lelo-hugo", "lelo-mona", "lelo-sila", "lelo-sona-2", "lovehoney-desire", "satisfyer-pro-2", "we-vibe-chorus", "we-vibe-sync", "we-vibe-tango-x", "womanizer-premium-2"],
+      "commissionRate": "varies by brand",
+      "cookieDuration": "30 days",
+      "paymentTerms": "Awin standard (net monthly)",
+      "approvalRequired": false,
+      "regions": ["EU", "UK", "US"],
+      "productCoverage": "17 published product reviews (BBoutique search deep links)",
+      "publisherId": "3022209",
+      "merchantId": "15527",
+      "verified": "2026-09-02"
+    },
     "shevibe": {
       "baseUrl": "https://www.shevibe.com",
       "trackingParam": "",
@@ -70,10 +86,12 @@
     ],
     "networks": [
       "adameve",
-      "amazon"
+      "amazon",
+      "bboutique"
     ]
   },
   "priority": [
+    "bboutique",
     "lovehoney",
     "shevibe",
     "spectrum",
@@ -85,7 +103,8 @@
     "adameve": "AFFILIATE_ID_ADAMEVE",
     "amazon": "AFFILIATE_ID_AMAZON",
     "shevibe": "AFFILIATE_ID_SHEVIBE",
-    "spectrum": "AFFILIATE_ID_SPECTRUM"
+    "spectrum": "AFFILIATE_ID_SPECTRUM",
+    "bboutique": "AWIN_ID_BBOUTIQUE"
   },
   "fallbackStrategy": "Disabled until approved retailer URLs, tracking IDs, and compliant price checks are added."
 }
