@@ -22,6 +22,12 @@ offers:
     currency: "EUR"
     checked: "2026-08-28"
     available: true
+  - retailer: "BBoutique"
+    url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DLELO+ORA+3"
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: true
 ---
 
 LELO ORA 3 fills a clear gap in the Venus catalogue: a premium external stimulator built around rotating contact rather than pressure-wave suction, broad wand vibration, or a pinpoint bullet motor. LELO describes it as an intelligent oral sex simulator, but the practical shopping distinction is simpler: ORA 3 combines a rotating nub with vibration patterns in a compact body designed for clitoral stimulation.
