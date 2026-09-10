@@ -20,6 +20,10 @@
   <meta property="og:description" content="{{ . | plainify }}">
   {{- end }}
   <meta property="og:url" content="{{ .Permalink }}">
+  {{ $ogimg := .Params.image | default "/images/editorial/ambient-01.png" }}
+  <meta property="og:image" content="{{ $ogimg | absURL }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ $ogimg | absURL }}">
   {{ if .IsHome }}
   <script type="application/ld+json">
   {{- $site := dict "@context" "https://schema.org" "@type" "WebSite" "name" "Venus Reviews" "url" (.Site.BaseURL) }}

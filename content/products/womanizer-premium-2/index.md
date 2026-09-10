@@ -34,11 +34,11 @@ offers:
     checked: "2026-08-06"
     available: false
   - retailer: "Amazon"
-    url: "https://www.amazon.de/dp/B09J1L3KLG"
+    url: ""
     price: 179.00
     currency: "EUR"
     checked: "2026-08-07"
-    available: true
+    available: false
   - retailer: "Lovehoney"
     url: ""
     price: null
