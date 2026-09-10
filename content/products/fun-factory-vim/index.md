@@ -22,7 +22,9 @@ cons:
   - "Runtime, charge time, noise, dimensions and weight not verified in available data"
   - "Wand format is larger and less travel-friendly than compact toys"
   - "No app and no remote - a deliberately simple, no-frills design"
-image: "/images/editorial/ambient-12.png"
+image: "/images/products/fun-factory-vim/front.webp"
+images:
+  - "/images/products/fun-factory-vim/front.webp"
 price: "66.95"
 price_checked: "2026-08-06"
 offers:

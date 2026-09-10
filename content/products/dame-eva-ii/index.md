@@ -24,7 +24,9 @@ cons:
   - "Warranty term is not documented by the manufacturer"
   - "Fit is highly individual - the wings must sit right or the toy shifts"
   - "Manufacturer page showed out of stock at the time of review"
-image: "/images/editorial/ambient-04.png"
+image: "/images/products/dame-eva-ii/front.webp"
+images:
+  - "/images/products/dame-eva-ii/front.webp"
 card_excerpt: "Best for shoppers who want a compact hands-free option with quiet operation and a less intimidating size profile."
 trust_note: "Strong fit notes matter here because anatomy and use case affect comfort more than the headline rating."
 support_note: "Confirm return policy, charging cable compatibility, and cleaning instructions before gifting or traveling."

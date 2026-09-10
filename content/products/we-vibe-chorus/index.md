@@ -28,7 +28,9 @@ cons:
 card_excerpt: "Best for couples who want app-enabled control and flexible fit, with a little more setup than a simple solo device."
 trust_note: "The review foregrounds app setup, fit, and cleaning so the couples features are easier to evaluate privately."
 support_note: "Buy from a retailer with clear warranty handling because app-connected products can need firmware or support follow-up."
-image: "/images/editorial/ambient-10.png"
+image: "/images/products/we-vibe-chorus/front.webp"
+images:
+  - "/images/products/we-vibe-chorus/front.webp"
 offers:
   - retailer: "We-Vibe (manufacturer)"
     url: "https://www.we-vibe.com/eu/chorus"

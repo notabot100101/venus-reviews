@@ -22,7 +22,9 @@ cons:
   - "Bullet format inherently limits power-to-size"
   - "No app connectivity or remote control"
   - "Exact material grade and phthalate-free status unconfirmed from capture"
-image: "/images/editorial/ambient-10.png"
+image: "/images/products/we-vibe-tango-x/front.webp"
+images:
+  - "/images/products/we-vibe-tango-x/front.webp"
 price: "89.00"
 price_checked: "2026-08-06"
 offers:

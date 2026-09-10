@@ -67,6 +67,38 @@
 
   <section class="product-hero-detail" aria-label="Lelo Mona product summary">
   
+  <div class="product-gallery">
+    <div class="main-image-container">
+      
+      <img 
+        id="mainImage"
+        src="/images/products/lelo-mona/front.webp" 
+        alt="Lelo Mona"
+      >
+      
+      
+    </div>
+
+    <div class="thumbnail-strip" aria-label="Product gallery thumbnails">
+      
+      <img 
+        src="/images/products/lelo-mona/front.webp"
+        alt="Lelo Mona view 1"
+        class="thumbnail"
+        data-index="0"
+        data-src="/images/products/lelo-mona/front.webp"
+        onclick="setMainImage(this)"
+      >
+      
+    </div>
+
+    <div class="image-nav">
+      <button type="button" onclick="prevImage()">← Previous</button>
+      <span id="imageCounter">1 / 1</span>
+      <button type="button" onclick="nextImage()">Next →</button>
+    </div>
+  </div>
+  
 
   <aside class="product-summary-panel">
   <div class="product-info">
@@ -471,6 +503,7 @@
   "@type": "Product",
   "category": "premium-feel",
   "description": "Lelo Mona 2 review covering G-spot vibrator fit, silicone and ABS materials, waterproof design, noise notes, and how it compares with other premium toys.",
+  "image": "https://reviews.ultramarine963.com/images/products/lelo-mona/front.webp",
   "name": "Lelo Mona",
   "review": {
     "@type": "Review",
@@ -494,6 +527,43 @@
 }
 </script>
 
+
+<script>
+let currentIndex = 0;
+const thumbnails = document.querySelectorAll('.thumbnail');
+const mainImage = document.getElementById('mainImage');
+const counter = document.getElementById('imageCounter');
+
+function updateGallery() {
+  const src = thumbnails[currentIndex].dataset.src;
+  mainImage.src = src;
+  
+  thumbnails.forEach((t, i) => {
+    t.classList.toggle('active', i === currentIndex);
+    t.style.opacity = i === currentIndex ? '1' : '0.6';
+  });
+  
+  counter.textContent = `${currentIndex + 1} / ${thumbnails.length}`;
+}
+
+function setMainImage(thumb) {
+  currentIndex = parseInt(thumb.dataset.index);
+  updateGallery();
+}
+
+function nextImage() {
+  currentIndex = (currentIndex + 1) % thumbnails.length;
+  updateGallery();
+}
+
+function prevImage() {
+  currentIndex = (currentIndex - 1 + thumbnails.length) % thumbnails.length;
+  updateGallery();
+}
+
+
+updateGallery();
+</script>
 
 
   

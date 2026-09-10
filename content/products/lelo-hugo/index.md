@@ -25,7 +25,9 @@ cons:
   - "Prostate toys are hygiene-, preparation- and anatomy-sensitive"
   - "Motion-based remote splits opinion; some users prefer plain buttons"
   - "The remote's own water-resistance is not documented"
-image: "/images/editorial/ambient-02.png"
+image: "/images/products/lelo-hugo/front.webp"
+images:
+  - "/images/products/lelo-hugo/front.webp"
 offers:
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/hugo"

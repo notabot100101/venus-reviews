@@ -24,7 +24,9 @@ cons:
   - "Documented ~1-hour runtime is shorter than many simple vibrators"
   - "179 EUR premium for a narrow, specialist use case"
   - "Not a value-first recommendation and not a safe first toy"
-image: "/images/placeholders/ambient-07.png"
+image: "/images/products/lelo-ora-3/front.webp"
+images:
+  - "/images/products/lelo-ora-3/front.webp"
 price: "179.00"
 price_checked: "2026-08-28"
 offers:

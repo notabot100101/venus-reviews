@@ -3,7 +3,9 @@ title: "Fun Factory Volta"
 seo_title: "Fun Factory Volta Review | Venus"
 seo_description: "Fun Factory Volta review covering twin-tip external stimulation, precision fit, material notes, noise, and how it compares with other flexible vibrators."
 schema_product: false
-image: "/images/editorial/ambient-11.png"
+image: "/images/products/fun-factory-volta/front.webp"
+images:
+  - "/images/products/fun-factory-volta/front.webp"
 description: "Twin-tip stimulator for precise external contact and a more exploratory feel."
 sku: "fun-factory-volta"
 draft: false

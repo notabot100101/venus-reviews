@@ -17,7 +17,9 @@ cons:
   - "Louder in published reports than Womanizer's Smart Silence products"
   - "Interface is fiddly compared with direct intensity stepping on premium devices"
   - "Fit-dependent: the cup must seal correctly for the device to work"
-image: "/images/editorial/ambient-03.png"
+image: "/images/products/satisfyer-pro-2/front.webp"
+images:
+  - "/images/products/satisfyer-pro-2/front.webp"
 category: "external-stimulation"
 tags: ["air-pulse", "value", "waterproof", "external"]
 affiliate_link: ""

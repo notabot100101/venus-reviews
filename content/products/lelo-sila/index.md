@@ -21,7 +21,9 @@ cons:
   - "Noise figure not documented - only inferred from Sona 2's 60 dB"
   - "Only 8 intensity levels versus Sona 2's 12"
   - "Not for buyers chasing intensity; the upper range is deliberately lower"
-image: "/images/editorial/ambient-11.png"
+image: "/images/products/lelo-sila/front.webp"
+images:
+  - "/images/products/lelo-sila/front.webp"
 price: "169.00"
 price_checked: "2026-08-06"
 offers:

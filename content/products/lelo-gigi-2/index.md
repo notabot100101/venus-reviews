@@ -3,7 +3,9 @@ draft: false
 title: "Lelo Gigi 2"
 seo_description: "Lelo Gigi 2 review — flattened G-spot tip, silicone/ABS build, 8 vibration modes, waterproof, rechargeable. Compare with Mona 2 and other premium G-spot vibrators."
 schema_product: true
-image: "/images/editorial/ambient-08.png"
+image: "/images/products/lelo-gigi-2/front.webp"
+images:
+  - "/images/products/lelo-gigi-2/front.webp"
 category: "premium-feel"
 tags: ["g-spot", "premium", "waterproof", "compact"]
 affiliate_link: ""

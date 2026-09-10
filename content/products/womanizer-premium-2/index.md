@@ -4,7 +4,9 @@ title: "Womanizer Premium 2"
 seo_title: "Womanizer Premium 2 - Venus Reviews"
 seo_description: "Womanizer Premium 2 review — Smart Silence, Autopilot 2.0, 14 levels, silicone/ABS, IPX7 waterproof. Compare with other premium pressure-wave stimulators."
 schema_product: true
-image: "/images/editorial/ambient-01.png"
+image: "/images/products/womanizer-premium-2/front.webp"
+images:
+  - "/images/products/womanizer-premium-2/front.webp"
 category: "external-stimulation"
 tags: ["air-pulse", "premium", "quiet", "external", "waterproof"]
 affiliate_link: ""

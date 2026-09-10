@@ -67,6 +67,38 @@
 
   <section class="product-hero-detail" aria-label="Dame Eva II product summary">
   
+  <div class="product-gallery">
+    <div class="main-image-container">
+      
+      <img 
+        id="mainImage"
+        src="/images/products/dame-eva-ii/front.webp" 
+        alt="Dame Eva II"
+      >
+      
+      
+    </div>
+
+    <div class="thumbnail-strip" aria-label="Product gallery thumbnails">
+      
+      <img 
+        src="/images/products/dame-eva-ii/front.webp"
+        alt="Dame Eva II view 1"
+        class="thumbnail"
+        data-index="0"
+        data-src="/images/products/dame-eva-ii/front.webp"
+        onclick="setMainImage(this)"
+      >
+      
+    </div>
+
+    <div class="image-nav">
+      <button type="button" onclick="prevImage()">← Previous</button>
+      <span id="imageCounter">1 / 1</span>
+      <button type="button" onclick="nextImage()">Next →</button>
+    </div>
+  </div>
+  
 
   <aside class="product-summary-panel">
   <div class="product-info">
@@ -485,6 +517,43 @@
   </nav>
 </article>
 
+
+<script>
+let currentIndex = 0;
+const thumbnails = document.querySelectorAll('.thumbnail');
+const mainImage = document.getElementById('mainImage');
+const counter = document.getElementById('imageCounter');
+
+function updateGallery() {
+  const src = thumbnails[currentIndex].dataset.src;
+  mainImage.src = src;
+  
+  thumbnails.forEach((t, i) => {
+    t.classList.toggle('active', i === currentIndex);
+    t.style.opacity = i === currentIndex ? '1' : '0.6';
+  });
+  
+  counter.textContent = `${currentIndex + 1} / ${thumbnails.length}`;
+}
+
+function setMainImage(thumb) {
+  currentIndex = parseInt(thumb.dataset.index);
+  updateGallery();
+}
+
+function nextImage() {
+  currentIndex = (currentIndex + 1) % thumbnails.length;
+  updateGallery();
+}
+
+function prevImage() {
+  currentIndex = (currentIndex - 1 + thumbnails.length) % thumbnails.length;
+  updateGallery();
+}
+
+
+updateGallery();
+</script>
 
 
   

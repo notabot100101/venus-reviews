@@ -25,7 +25,9 @@ cons:
   - "Documented 60 dB maximum is audible in a quiet room"
   - "External-only - no insertable, dual or app features"
   - "Precision format needs learned placement rather than obvious positioning"
-image: "/images/editorial/ambient-06.png"
+image: "/images/products/lelo-sona-2/front.webp"
+images:
+  - "/images/products/lelo-sona-2/front.webp"
 
 offers:
   - retailer: "LELO (manufacturer)"
