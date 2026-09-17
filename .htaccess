@@ -1,5 +1,9 @@
 # Venus Reviews - Hostinger .htaccess
 RewriteEngine On
+
+# Domain migration 301: old subdomain -> new brand domain (preserves path/slugs)
+RewriteCond %{HTTP_HOST} ^(www\.)?reviews.ultramarine963.com$ [NC]
+RewriteRule ^(.*)$ https://venusreviews.net/$1 [R=301,L]
 DirectoryIndex index.html
 Options -Indexes
 

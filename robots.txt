@@ -1,5 +1,5 @@
 # robots.txt for Venus Reviews
-# https://reviews.ultramarine963.com/
+# https://venusreviews.net/
 
 User-agent: *
 Allow: /
@@ -25,4 +25,4 @@ Disallow: /wp-content/
 Disallow: /wp-includes/
 
 # Sitemap location
-Sitemap: https://reviews.ultramarine963.com/sitemap.xml
+Sitemap: https://venusreviews.net/sitemap.xml
