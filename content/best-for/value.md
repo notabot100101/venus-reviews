@@ -62,7 +62,7 @@ The same applies to noise. If discretion is your main requirement, no budget air
 
 ## Related Reading
 
-- [How We Evaluate](/how-we-test/) — what our reviews are and are not based on
+- [How We Evaluate](/how-we-evaluate/) — what our reviews are and are not based on
 - [Scoring Methodology](/methodology/) — the weights behind every rating
 - [Body-Safe Materials Guide](/guides/body-safe-materials/)
 - [How to Choose](/guides/how-to-choose/)

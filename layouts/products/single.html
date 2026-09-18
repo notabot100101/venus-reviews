@@ -14,7 +14,7 @@
       {{ with .Params.author }}<span>By {{ . }}</span>{{ end }}
       {{ with or .Params.last_reviewed .Params.lastReviewed }}<span>Last reviewed {{ . }}</span>{{ end }}
       {{ with or .Params.last_updated .Params.lastUpdated .Params.lastmod .Params.date }}<span>Last updated {{ . }}</span>{{ end }}
-      <a href="/how-we-test/">How we evaluate</a>
+      <a href="/how-we-evaluate/">How we evaluate</a>
     </div>
     {{ end }}
   </header>

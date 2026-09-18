@@ -75,7 +75,7 @@ The same logic applies to shape. An expensive insertable toy with the wrong curv
 
 ## Related Reading
 
-- [How We Evaluate](/how-we-test/) — what our reviews are and are not based on
+- [How We Evaluate](/how-we-evaluate/) — what our reviews are and are not based on
 - [Scoring Methodology](/methodology/) — the weights behind every rating
 - [Body-Safe Materials Guide](/guides/body-safe-materials/) — what material claims mean
 - [View All Reviews](/products/)

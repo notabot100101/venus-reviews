@@ -4,6 +4,9 @@ RewriteEngine On
 # Domain migration 301: old subdomain -> new brand domain (preserves path/slugs)
 RewriteCond %{HTTP_HOST} ^(www\.)?reviews.ultramarine963.com$ [NC]
 RewriteRule ^(.*)$ https://venusreviews.net/$1 [R=301,L]
+# www -> apex (added 2026-09-18: www served a duplicate 200 copy of the site)
+RewriteCond %{HTTP_HOST} ^www\.venusreviews\.net$ [NC]
+RewriteRule ^(.*)$ https://venusreviews.net/$1 [R=301,L]
 DirectoryIndex index.html
 Options -Indexes
 
@@ -21,6 +24,17 @@ ErrorDocument 500 /500.html
 Redirect 301 /privacy-policy/ /privacy/
 Redirect 301 /reviews/ /products/
 Redirect 301 /blog/ /guides/
+
+# Orphan cleanup 2026-09-18: pages no longer produced by the build but still served
+# (deploy.sh rsync never deletes). Redirect to the current canonical pages.
+Redirect 301 /best-for/best-for-couples/ /best-for/couples/
+Redirect 301 /best-for/best-for-quiet/ /best-for/quiet/
+Redirect 301 /best-for/best-for-travel/ /best-for/travel/
+Redirect 301 /how-we-test/ /how-we-evaluate/
+Redirect 301 /guides/materials/ /guides/body-safe-materials/
+Redirect 301 /tags/suction/ /tags/
+Redirect 301 /tags/swiss-engineered/ /tags/
+RedirectMatch 404 ^/(build-all|footer)\.html$
 Redirect 301 /category/vibrators/ /products/
 Redirect 301 /category/dildos/ /products/
 

@@ -83,7 +83,7 @@ Buy connectivity because you want the specific thing it enables — partnered co
 
 ## Related Reading
 
-- [How We Evaluate](/how-we-test/) — what our reviews are and are not based on
+- [How We Evaluate](/how-we-evaluate/) — what our reviews are and are not based on
 - [Scoring Methodology](/methodology/) — the weights behind every rating
 - [Noise and Discretion Guide](/guides/noise-and-discretion/)
 - [View All Reviews](/products/)

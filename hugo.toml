@@ -111,3 +111,10 @@ name = 'Venus Reviews Team'
     weight = 60
     url = '/contact/'
     pre = '<i class="fas fa-headset"></i>'
+
+# Plausible analytics — PREPARED BUT NOT USED (Paul 2026-09-18: no paid Plausible for now;
+# measurement = Hostinger analytics + Google Search Console + Awin). Flip to true only after
+# registering venusreviews.net at plausible.io.
+[params.plausible]
+  enabled = false
+  domain = 'venusreviews.net'
