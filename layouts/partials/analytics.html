@@ -1,0 +1,23 @@
+{{- /* Analytics partial — loads on every page. Configured via hugo.toml [params.plausible] or [params.ga4]. */ -}}
+
+{{- /* Plausible Analytics — privacy-friendly, lightweight, bot traffic excluded by default. Recommended for Venus Reviews. */ -}}
+{{- with .Site.Params.plausible }}
+{{- if .enabled }}
+<!-- Plausible Analytics — no cookies, GDPR-friendly, bot-free counts -->
+<script defer data-domain="{{ .domain | default "venusreviews.net" }}" src="{{ .script_url | default "https://plausible.io/js/script.outbound-links.js" }}"></script>
+{{- end }}
+{{- end }}
+
+{{- /* Google Analytics 4 — free alternative; set measurement_id in hugo.toml */ -}}
+{{- with .Site.Params.ga4 }}
+{{- if .enabled }}
+<!-- Google Analytics 4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ .measurement_id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ .measurement_id }}');
+</script>
+{{- end }}
+{{- end }}

@@ -44,12 +44,9 @@
   <link rel="stylesheet" href="/css/conversion-optimized.css?v=20260727">
   <link rel="stylesheet" href="/css/theme-switcher-ui.css">
   
-  <meta name='impact-site-verification' value='2e3f574f-69bd-45e4-8e7f-ea8a050e73bf'><script async src="https://www.googletagmanager.com/gtag/js?id=G-PLACEHOLDER-REPLACE-ME"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date);gtag("config","G-PLACEHOLDER-REPLACE-ME");</script>
+  <meta name='impact-site-verification' value='2e3f574f-69bd-45e4-8e7f-ea8a050e73bf'>
   
-  {{- with .Site.Params.plausible }}{{ if .enabled }}
-  <!-- Plausible Analytics - privacy-friendly, no cookies required -->
-  <script defer data-domain="{{ .domain }}" src="https://plausible.io/js/script.outbound-links.js"></script>
-  {{- end }}{{ end }}
+  {{ partial "analytics.html" . }}
 </head>
 <body>
   <nav class="nav">

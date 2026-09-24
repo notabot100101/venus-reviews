@@ -67,9 +67,18 @@ name = 'Venus Reviews Team'
   images = ['static/images/hero-banner.png']
   robotsTXT = 'Allow: /'
 
-# Analytics - optional
-[params.analytics]
-  enabled = false # Set true for Google Analytics
+# Analytics — choose ONE active provider and set enabled = true, then rebuild & deploy.
+# Plausible is recommended: privacy-friendly, lightweight, excludes bot traffic by default.
+# GA4 is free but requires cookie consent in many jurisdictions.
+
+[params.plausible]
+  enabled = false          # SET TRUE after registering at https://plausible.io
+  domain = 'venusreviews.net'
+  # script_url = 'https://plausible.io/js/script.outbound-links.js'  # self-hosted override
+
+[params.ga4]
+  enabled = false          # SET TRUE after creating property at https://analytics.google.com
+  measurement_id = ''      # GA4 Measurement ID (format: G-XXXXXXXXXX)
 
 # Performance
 [build]
@@ -112,9 +121,4 @@ name = 'Venus Reviews Team'
     url = '/contact/'
     pre = '<i class="fas fa-headset"></i>'
 
-# Plausible analytics — PREPARED BUT NOT USED (Paul 2026-09-18: no paid Plausible for now;
-# measurement = Hostinger analytics + Google Search Console + Awin). Flip to true only after
-# registering venusreviews.net at plausible.io.
-[params.plausible]
-  enabled = false
-  domain = 'venusreviews.net'
+
