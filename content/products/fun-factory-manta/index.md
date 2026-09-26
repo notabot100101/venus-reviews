@@ -2,7 +2,7 @@
 title: "Fun Factory Manta"
 seo_title: "Fun Factory Manta Review | Venus"
 seo_description: "Fun Factory Manta review covering flexible external stimulation, wraparound fit, material notes, noise, and how it compares with other premium vibrators."
-schema_product: false
+schema_product: true
 image: "/images/products/fun-factory-manta/front.webp"
 images:
   - "/images/products/fun-factory-manta/front.webp"

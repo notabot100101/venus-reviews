@@ -6,12 +6,16 @@
 	<meta name="google-site-verification" content="AEG70dyjQ6vtprDIlSBBbxUaTljTx16fp6mpinpw-Dw" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{- if .IsHome -}}{{ .Site.Title }}{{- else if .Params.seo_title -}}{{ .Params.seo_title }}{{- else if and (eq .Type "products") (eq .Kind "page") -}}{{ .Title }} Review | Venus{{- else -}}{{ .Title }} - {{ .Site.Title }}{{- end -}}</title>
+  <title>{{- if .IsHome -}}{{ .Site.Title }}{{- else if .Params.seo_title -}}{{ .Params.seo_title }}{{- else if and (eq .Type "products") (eq .Kind "page") -}}{{ .Title }} Review | Venus{{- else -}}{{ .Title }} | Venus Reviews{{- end -}}</title>
   {{- with (.Params.seo_description | default .Description) }}
   <meta name="description" content="{{ . | plainify }}">
   {{- end }}
   {{ if .Params.noindex }}
   <meta name="robots" content="noindex, nofollow">
+  {{ else if or (eq .Kind "taxonomy") (eq .Kind "term") }}
+  {{/* 2026-09-26: thin taxonomy lists (/tags/*, /categories/) stay navigable but out of the index */}}
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="{{ .Permalink }}">
   {{ else }}
   <link rel="canonical" href="{{ .Permalink }}">
   {{ end }}
