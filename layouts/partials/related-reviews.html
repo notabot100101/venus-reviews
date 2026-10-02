@@ -1,0 +1,52 @@
+{{/* Related reviews — internal-link hub (2026-10-02).
+     Distributes link equity across all product reviews and shortens crawl depth,
+     which matters while the domain is new and still being discovered.
+     Relevance ladder, best first, self excluded, max 4:
+       1. same `category`   2. shares a `tag`   3. same brand (first word of title)
+       4. any other review  <- guarantees no review is left without internal links
+     (4 of 17 reviews currently carry no category and only 4 carry tags, so the
+      lower rungs do real work; they can be removed once taxonomy is filled in.) */}}
+{{- $cur := . -}}
+{{- $cat := .Params.category -}}
+{{- $tags := .Params.tags -}}
+{{- $brand := lower (index (split $cur.Title " ") 0) -}}
+{{- $pool := where .Site.RegularPages "Type" "products" -}}
+{{/* seed each bucket as a TYPED empty page collection: `slice` would make them
+     []interface{} and `.RelPermalink` then fails to resolve (hit 2026-10-02). */}}
+{{- $empty := first 0 $pool -}}
+{{- $byCat := $empty -}}
+{{- $byTag := $empty -}}
+{{- $byBrand := $empty -}}
+{{- $other := $empty -}}
+{{- range $pool -}}
+  {{- if ne .RelPermalink $cur.RelPermalink -}}
+    {{- if and $cat .Params.category (eq .Params.category $cat) -}}
+      {{- $byCat = $byCat | append . -}}
+    {{- else if and $tags .Params.tags (gt (len (intersect .Params.tags $tags)) 0) -}}
+      {{- $byTag = $byTag | append . -}}
+    {{- else if eq (lower (index (split .Title " ") 0)) $brand -}}
+      {{- $byBrand = $byBrand | append . -}}
+    {{- else -}}
+      {{- $other = $other | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- $related := first 4 ($byCat | append $byTag | append $byBrand | append $other) -}}
+{{- with $related }}
+<section class="related-reviews" aria-labelledby="related-reviews-heading">
+  <h2 id="related-reviews-heading">Related reviews</h2>
+  <div class="related-grid">
+    {{- range . }}
+    <a class="related-card" href="{{ .RelPermalink }}">
+      {{- with .Params.image }}
+      <img class="related-thumb" src="{{ . }}" alt="" loading="lazy" decoding="async" width="96" height="96">
+      {{- end }}
+      <span class="related-text">
+        <span class="related-title">{{ .Title }}</span>
+        {{- with .Params.best_for }}<span class="related-note">{{ . }}</span>{{ end }}
+      </span>
+    </a>
+    {{- end }}
+  </div>
+</section>
+{{- end }}

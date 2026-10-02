@@ -166,6 +166,8 @@
       {{ end }}
     </div>
   </nav>
+
+  {{ partial "related-reviews.html" . }}
 </article>
 
 {{- if and .Params.schema_product .Params.seo_description }}

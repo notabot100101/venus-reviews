@@ -815,3 +815,34 @@ a.tag-chip:focus-visible {
   padding: var(--space-3xl) 0;
   text-align: center;
 }
+
+/* Related reviews — internal-link hub (2026-10-02) */
+.related-reviews {
+  margin: var(--space-3xl) 0 var(--space-xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--color-border, rgba(255, 255, 255, 0.12));
+}
+.related-reviews h2 { margin: 0 0 var(--space-lg); font-size: 1.35rem; }
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--space-md, 1rem);
+}
+.related-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border: 1px solid var(--color-border, rgba(255, 255, 255, 0.12));
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.related-card:hover,
+.related-card:focus-visible { border-color: var(--color-accent, #7aa2f7); transform: translateY(-2px); }
+.related-thumb { width: 64px; height: 64px; object-fit: cover; border-radius: 8px; flex: 0 0 auto; }
+.related-text { display: flex; flex-direction: column; gap: 0.15rem; min-width: 0; }
+.related-title { font-weight: 600; line-height: 1.25; }
+.related-note { font-size: 0.85rem; opacity: 0.75; }
+@media (max-width: 600px) { .related-grid { grid-template-columns: 1fr; } }
