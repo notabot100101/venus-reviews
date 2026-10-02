@@ -39,13 +39,20 @@
   </script>
   {{ end }}
   
-  <link rel="stylesheet" href="/css/main.css">
+  {{/* Cache-busting is derived from each file's CONTENT, not hand-maintained.
+       Hand-written ?v= strings failed twice on 2026-10-02: once because the CSS changed
+       and the param didn't, once because the changed file was one nobody had edited.
+       partialCached+readFile+md5 means the URL changes exactly when the bytes change,
+       and cssbust.html hard-fails the build if a path is wrong (md5("") would freeze it). Do NOT add a
+       manual ?v= here. If a file is missing, Hugo errors loudly - which is the correct
+       failure, versus silently serving a stale stylesheet. */}}
+  <link rel="stylesheet" href="/css/main.css?v={{ partialCached "cssbust.html" "static/css/main.css" "static/css/main.css" }}">
 
   <!-- Public site uses a fixed, polished dark theme. Theme preview controls stay out of production. -->
-  <link id="venus-theme-css" rel="stylesheet" href="/css/theme-deep-violet.css?v=20261002-theme-vars">
-  <link rel="stylesheet" href="/css/hero-overlay.css">
-  <link rel="stylesheet" href="/css/site-polish.css?v=20261002-theme-vars">
-  <link rel="stylesheet" href="/css/conversion-optimized.css?v=20261002b-dark-panels">
+  <link id="venus-theme-css" rel="stylesheet" href="/css/theme-deep-violet.css?v={{ partialCached "cssbust.html" "static/css/theme-deep-violet.css" "static/css/theme-deep-violet.css" }}">
+  <link rel="stylesheet" href="/css/hero-overlay.css?v={{ partialCached "cssbust.html" "static/css/hero-overlay.css" "static/css/hero-overlay.css" }}">
+  <link rel="stylesheet" href="/css/site-polish.css?v={{ partialCached "cssbust.html" "static/css/site-polish.css" "static/css/site-polish.css" }}">
+  <link rel="stylesheet" href="/css/conversion-optimized.css?v={{ partialCached "cssbust.html" "static/css/conversion-optimized.css" "static/css/conversion-optimized.css" }}">
   
   <meta name='impact-site-verification' value='2e3f574f-69bd-45e4-8e7f-ea8a050e73bf'>
   

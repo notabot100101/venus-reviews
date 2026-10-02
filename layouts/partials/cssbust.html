@@ -1,0 +1,17 @@
+{{- /* Cache-busting token derived from a stylesheet's CONTENT.
+       Call: {{ partialCached "cssbust.html" "static/css/x.css" "static/css/x.css" }}
+       partialCached keys on the path, so each file is read and hashed ONCE per build
+       rather than once per page (57 pages x 5 sheets = 285 reads otherwise).
+
+       The guard matters more than the hash. readFile on a wrong or missing path does
+       NOT fail the build - it returns "", and md5("") is the CONSTANT d41d8cd9. That
+       would emit a parameter that never changes again, silently reintroducing exactly
+       the stale-CSS deploys this replaced. Verified 2026-10-02: a deliberately broken
+       path built with exit 0 and emitted ?v=d41d8cd9.
+       So: assert on the OUTCOME (did we get real bytes), not the action (did we call readFile). */ -}}
+{{- $path := . -}}
+{{- $content := readFile $path -}}
+{{- if not $content -}}
+  {{- errorf "cssbust: %q is missing or empty. readFile returns \"\" silently, so the cache-busting token would be frozen at md5(\"\") and every future CSS change would ship stale to returning visitors. Fix the path." $path -}}
+{{- end -}}
+{{- return (substr (md5 $content) 0 8) -}}
