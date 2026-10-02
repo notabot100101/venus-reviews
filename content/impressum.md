@@ -1,9 +1,9 @@
 ---
 title: "Impressum"
-description: "Angaben gemäß § 5 TMG"
+description: "Angaben gemäß § 5 DDG und § 18 Abs. 2 MStV"
 ---
 
-## Angaben gemäß § 5 TMG / § 55 RStV
+## Angaben gemäß § 5 DDG
 
 **Betreiber dieser Website:**
 
@@ -21,10 +21,16 @@ description: "Angaben gemäß § 5 TMG"
 
 ---
 
+## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
+
+Paul Budzisch, Papiermühlenweg 3, 07973 Greiz, Deutschland
+
+---
+
 ## Haftungsausschluss
 
 ### Haftung für Inhalte
-Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
+Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs. 1 DDG (Digitale-Dienste-Gesetz) für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 DDG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
 
 ### Haftung für Links
 Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar.
