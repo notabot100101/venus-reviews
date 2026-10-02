@@ -23,13 +23,17 @@ images:
 category: "external-stimulation"
 tags: ["air-pulse", "value", "waterproof", "external"]
 affiliate_link: ""
+price: "69.95"
+price_checked: "2026-10-02"
 offers:
   - retailer: "Satisfyer (manufacturer)"
     url: "https://www.satisfyer.com/de/satisfyer-pro-2-generation-2?number=SW10001"
     price: 69.95
     currency: "EUR"
-    checked: "2026-08-06"
-    available: true
+    checked: "2026-10-02"
+    # 2026-10-02: satisfyer.com lists this as "zurzeit leider nicht lieferbar"
+    # (in-store order only), so it is not a buyable online offer today.
+    available: false
   - retailer: "Amazon"
     url: ""
     price: null

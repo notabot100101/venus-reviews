@@ -34,6 +34,30 @@ offers:
     currency: "EUR"
     checked: "2026-08-06"
     available: true
+  - retailer: "Amazon"
+    url: ""
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: false
+  - retailer: "Lovehoney"
+    url: ""
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: false
+  - retailer: "SheVibe"
+    url: ""
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: false
+  - retailer: "Spectrum Boutique"
+    url: ""
+    price: null
+    currency: "EUR"
+    checked: ""
+    available: false
   - retailer: "BBoutique"
     url: "https://www.awin1.com/cread.php?awinmid=15527&awinaffid=3022209&ued=https%3A%2F%2Fwww.bboutique.co%2Fsearch%3Fq%3DWe-Vibe+Tango+X"
     price: null
