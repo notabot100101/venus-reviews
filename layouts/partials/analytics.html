@@ -10,7 +10,10 @@
 
 {{- /* Google Analytics 4 — free alternative; set measurement_id in hugo.toml */ -}}
 {{- with .Site.Params.ga4 }}
-{{- if .enabled }}
+{{/* 2026-10-02: require a NON-EMPTY measurement_id as well as enabled. With only the
+     enabled check, a missing id emitted `gtag/js?id=` and `gtag('config','')` — Google's
+     script loads, the page LOOKS instrumented, and nothing is ever recorded. */}}
+{{- if and .enabled .measurement_id }}
 <!-- Google Analytics 4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ .measurement_id }}"></script>
 <script>
