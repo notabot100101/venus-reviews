@@ -846,3 +846,82 @@ a.tag-chip:focus-visible {
 .related-title { font-weight: 600; line-height: 1.25; }
 .related-note { font-size: 0.85rem; opacity: 0.75; }
 @media (max-width: 600px) { .related-grid { grid-template-columns: 1fr; } }
+
+/* Mobile navigation — hamburger (2026-10-02)
+   WHY: there was no menu toggle anywhere in the theme, so at 375px the 7-item nav
+   rendered as a 304px sticky block = 37% of the viewport at every scroll position.
+   Root cause of the "sticky" part: theme-dark-blue.css loads AFTER main.css and
+   redeclares `.nav { position: sticky }` without repeating main.css's
+   `@media (max-width:768px) { .nav { position: static } }`. This file loads after the
+   theme, so the rules below win. */
+.nav-toggle {
+  display: none;
+  flex: 0 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 44px;
+  height: 44px;
+  padding: 0 10px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+  cursor: pointer;
+}
+.nav-toggle-bar {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--color-light, #fff);
+  border-radius: 2px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+.nav-toggle:focus-visible { outline: 2px solid var(--color-accent, #F5F5DC); outline-offset: 2px; }
+.nav-toggle.open .nav-toggle-bar:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-toggle.open .nav-toggle-bar:nth-child(2) { opacity: 0; }
+.nav-toggle.open .nav-toggle-bar:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* The 7-item nav needs ~1337px to fit on one line, so it wrapped on most laptops,
+   not just tablets. Between 1100px and 1360px we tighten it to keep one line;
+   below 1100px it becomes the hamburger. */
+@media (max-width: 1360px) and (min-width: 1101px) {
+  .nav-links { gap: 0.4rem; }
+  .nav-links a {
+    font-size: 0.8125rem;
+    padding: var(--space-sm) 0.5rem;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 1100px) {
+  .nav { position: sticky; top: 0; }
+  .nav-content {
+    flex-direction: row;
+    flex-wrap: wrap;            /* lets .nav-links (flex-basis:100%) drop to its own row */
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+  .nav-toggle { display: flex; }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    width: 100%;
+    flex-basis: 100%;
+    margin-top: var(--space-sm);
+  }
+  .nav-links.open { display: flex; }
+  .nav-links a {
+    display: block;
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0.8rem 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+  }
+}
+
+/* No-JS safety: without the toggle script the menu must not be unreachable. */
+.no-js .nav-links { display: flex; }
