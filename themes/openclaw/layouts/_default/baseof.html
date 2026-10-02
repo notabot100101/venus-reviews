@@ -9,6 +9,9 @@
     <title>{{ block "title" . }}{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}{{ end }}</title>
     <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <link rel="canonical" href="{{ .Permalink }}">
+    {{/* Staging host: keep this site OUT of the index until it has a real domain.
+         Flip by setting `indexable = true` in hugo.toml (and the robots.txt below). */}}
+    {{ if not .Site.Params.indexable }}<meta name="robots" content="noindex,nofollow">{{ end }}
     {{ if or (eq .Section "blog") (eq .RelPermalink "/blog/") }}
     <link rel="alternate" type="application/rss+xml" title="OpenClaw Blog RSS" href="{{ "blog/index.xml" | absURL }}">
     <link rel="alternate" type="application/atom+xml" title="OpenClaw Blog Atom" href="{{ "blog/atom.xml" | absURL }}">

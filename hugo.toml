@@ -2,10 +2,12 @@ baseURL = "https://hub-staging.ultramarine963.com/"
 languageCode = "de-DE"
 title = "OpenClaw — Multi-Agent AI System"
 theme = "openclaw"
-enableRobotsTXT = true
+enableRobotsTXT = false
 disableKinds = ["taxonomy", "term"]
 
 [params]
+  # staging host - no real domain yet; see baseof.html
+  indexable = false
   description = "OpenClaw is a real multi-agent AI automation system — built in public, with human approval gates. Business automation, websites, image workflows, and a trading-bot testbed."
   contactEmail = "projects@agentmail.to"
   xHandle = "@Ultramarine_963"
