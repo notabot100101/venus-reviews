@@ -17,6 +17,7 @@
   --color-white: #ffffff;
   --color-surface: #252542;        /* Lighter dark for cards */
   --color-surface-hover: #30304d;  /* Hover state */
+  --color-border: rgba(255,255,255,0.12);  /* 2026-10-02: was undefined; var(--color-border,#e8e5f0) painted a LIGHT border on .product-card */
   
   /* Gradients */
   --gradient-primary: linear-gradient(135deg, #0066ff 0%, #00bcd4 100%);

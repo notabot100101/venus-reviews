@@ -13,7 +13,7 @@
   background: rgba(255, 247, 251, 0.07);
   border: 1px solid rgba(255, 107, 157, 0.28);
   border-radius: 999px;
-  color: #f7edf4;
+  color: var(--color-text);
   display: inline-flex;
   font-size: 0.8125rem;
   font-weight: 700;
@@ -42,7 +42,7 @@
 .footer-trust-pill:hover {
   background: rgba(255, 247, 251, 0.11);
   border-color: rgba(255, 107, 157, 0.46);
-  color: #ffffff;
+  color: var(--color-white);
   transform: translateY(-1px);
 }
 
