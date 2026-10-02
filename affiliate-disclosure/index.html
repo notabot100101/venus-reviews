@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
+	<script>document.documentElement.classList.remove('no-js');</script>
 	<meta name="generator" content="Hugo">
 	<meta name="google-site-verification" content="Ll5gENwPWwFubLwZEGbPUhKWxXtpDWdVleWzr4w4y0c" />
 	<meta name="google-site-verification" content="AEG70dyjQ6vtprDIlSBBbxUaTljTx16fp6mpinpw-Dw" />
@@ -30,7 +31,6 @@
   <link rel="stylesheet" href="/css/hero-overlay.css">
   <link rel="stylesheet" href="/css/site-polish.css?v=20260723-product-pages">
   <link rel="stylesheet" href="/css/conversion-optimized.css?v=20260727">
-  <link rel="stylesheet" href="/css/theme-switcher-ui.css">
   
   <meta name='impact-site-verification' value='2e3f574f-69bd-45e4-8e7f-ea8a050e73bf'>
   
@@ -41,7 +41,13 @@
   <nav class="nav">
   <div class="nav-content">
     <a href="/" class="nav-brand">Venus<span>Reviews</span></a>
-    <ul class="nav-links">
+    <button class="nav-toggle" id="nav-toggle" type="button"
+            aria-controls="nav-links" aria-expanded="false" aria-label="Open menu">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
       <li><a href="/">Home</a></li>
       <li><a href="/products/">Reviews</a></li>
       <li><a href="/guides/">Buying Guides</a></li>
@@ -163,7 +169,7 @@
     </div>
     
     <div class="footer-bottom">
-      <p>&copy; 2026 Venus Reviews. All rights reserved. | 18&#43;+ Content | Privacy Compliant</p>
+      <p>&copy; 2026 Venus Reviews. All rights reserved. | 18&#43; Content | Privacy Compliant</p>
       <p style="font-size: 0.8rem; margin-top: var(--space-xs);">Editorial reviews only • Purchases, shipping, and returns are handled by each retailer</p>
     </div>
   </div>
@@ -172,6 +178,21 @@
 
 
 
-<script src="/css/theme-switcher.js"></script>
+<script>
+(function () {
+  var btn = document.getElementById('nav-toggle');
+  var list = document.getElementById('nav-links');
+  if (!btn || !list) return;
+  function setOpen(open) {
+    list.classList.toggle('open', open);
+    btn.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  }
+  btn.addEventListener('click', function (e) { e.stopPropagation(); setOpen(!list.classList.contains('open')); });
+  list.addEventListener('click', function (e) { if (e.target.tagName === 'A') setOpen(false); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+})();
+</script>
 </body>
 </html>

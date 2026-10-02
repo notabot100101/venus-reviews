@@ -104,16 +104,32 @@
 }
 
 .faq-list details {
-  border: 1px solid rgba(107,44,145,.14);
+  border: 1px solid rgba(255, 255, 255, .14);
   border-radius: 6px;
   padding: 1rem 1.1rem;
-  background: #fff;
+  background: rgba(255, 255, 255, .04);
+  color: rgba(255, 255, 255, .82);
+}
+
+.faq-list details[open] {
+  background: rgba(255, 255, 255, .06);
+  border-color: rgba(255, 255, 255, .22);
 }
 
 .faq-list summary {
   cursor: pointer;
   font-weight: 700;
-  color: #1a1a1a;
+  color: #F5F5DC;
+}
+
+.faq-list summary:focus-visible {
+  outline: 2px solid #F5F5DC;
+  outline-offset: 3px;
+}
+
+.faq-list details p {
+  margin: .6rem 0 0;
+  color: rgba(255, 255, 255, .78);
 }
 
 @media (max-width: 720px) {
