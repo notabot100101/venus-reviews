@@ -1,0 +1,1 @@
+$(cat "/home/paul/.openclaw/media/tool-image-generation/secure-checkout-badge---92d92958-a9cc-4039-8bbe-dd062c3fcf30.png" | base64)

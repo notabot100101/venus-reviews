@@ -1,0 +1,152 @@
+/* Venus Theme: Blue/Purple/Gold (Default) */
+[data-theme="blue-purple"] {
+  /* Primary Colors - Deep Sapphire, Royal Purple, Champagne Gold */
+  --primary-blue: #0d47a1;      /* Deep sapphire */
+  --primary-purple: #7b1fa2;    /* Royal purple */
+  --primary-gold: #ffd700;      /* Champagne gold */
+  
+  /* Accent Colors */
+  --accent-blue: #1565c0;
+  --accent-purple: #9c27b0;
+  --accent-gold: #ffca28;
+  
+  /* Neutral Colors */
+  --bg-dark: #0a1628;           /* Very dark blue */
+  --bg-medium: #112d4e;         /* Deep blue */
+  --bg-light: #e3f2fd;          /* Very light blue */
+  --text-primary: #1a237e;      /* Dark blue-gray */
+  --text-secondary: #546e7a;    /* Muted blue-gray */
+  --text-light: #f5f5f5;        /* Off-white */
+  
+  /* Hero Section */
+  --hero-gradient: linear-gradient(135deg, #0d47a1 0%, #7b1fa2 100%);
+  
+  /* Product Cards */
+  --card-shadow: 0 4px 12px rgba(13, 71, 161, 0.15);
+  --card-hover-shadow: 0 8px 24px rgba(13, 71, 161, 0.25);
+  
+  /* Buttons */
+  --btn-primary: #0d47a1;
+  --btn-primary-hover: #1565c0;
+  --btn-text: white;
+  
+  /* Footer */
+  --footer-bg: #0a1628;
+  --footer-text: #e3f2fd;
+}
+
+[data-theme="blue-purple"] header {
+  background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+  border-bottom: 3px solid var(--primary-purple);
+}
+
+[data-theme="blue-purple"] .logo {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-purple) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+[data-theme="blue-purple"] .hero {
+  --hero-bg: var(--hero-gradient);
+  background: var(--hero-gradient);
+}
+
+[data-theme="blue-purple"] .hero h1 {
+  color: var(--text-light);
+}
+
+[data-theme="blue-purple"] .hero p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme="blue-purple"] .hero-btn {
+  background: var(--primary-gold);
+  color: var(--primary-blue);
+}
+
+[data-theme="blue-purple"] .hero-btn:hover {
+  background: #ffeb3b;
+}
+
+[data-theme="blue-purple"] nav a {
+  color: var(--text-secondary);
+}
+
+[data-theme="blue-purple"] nav a:hover {
+  color: var(--primary-purple);
+}
+
+[data-theme="blue-purple"] .product-name {
+  background: linear-gradient(135deg, var(--primary-purple) 0%, var(--primary-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+[data-theme="blue-purple"] .product-price {
+  color: var(--accent-gold);
+}
+
+[data-theme="blue-purple"] .product-btn {
+  background: linear-gradient(135deg, var(--primary-purple) 0%, var(--primary-blue) 100%);
+}
+
+[data-theme="blue-purple"] .product-btn:hover {
+  background: linear-gradient(135deg, var(--accent-purple) 0%, var(--accent-blue) 100%);
+}
+
+[data-theme="blue-purple"] footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
+}
+
+[data-theme="blue-purple"] footer a {
+  color: var(--accent-gold);
+}
+
+[data-theme="blue-purple"] .product-card {
+  box-shadow: var(--card-shadow);
+}
+
+[data-theme="blue-purple"] .product-card:hover {
+  box-shadow: var(--card-hover-shadow);
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background: linear-gradient(135deg, var(--primary-purple), var(--accent-purple));
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(123, 31, 162, 0.4);
+}
+
+/* Ensure toggle is on right side of nav */
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
