@@ -6,6 +6,15 @@ menu: "main"
 weight: 40
 date: 2026-07-17
 lastmod: 2026-07-22
+faq:
+  - question: "How should a first-time buyer choose?"
+    answer: "Start with approachable, intuitive designs. External stimulators are a good entry point: they are less intimidating, usually compact, and easy to incorporate into partner play."
+  - question: "How much should I expect to spend?"
+    answer: "Entry-level products run about $50-$80 with basic features, mid-range $80-$150 with better motors and body-safe silicone, premium $150-$250, and luxury $250 and up."
+  - question: "How quiet is a 'quiet' product?"
+    answer: "Whisper-quiet means under 40 dB, barely audible from a few feet away. Quiet is 40-50 dB, similar to a quiet conversation. Moderate is 50-60 dB, and anything over 60 dB is comparable to a vacuum cleaner."
+  - question: "Rechargeable or battery-powered?"
+    answer: "Rechargeable models are convenient and often have stronger motors. Battery models are travel-friendly with no charging downtime. Plug-in devices offer unlimited power but limited mobility."
 ---
 
 ## How to Choose the Right Product

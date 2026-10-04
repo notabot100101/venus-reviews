@@ -7,6 +7,15 @@ lastmod: 2026-07-22
 slug: "noise-and-discretion"
 draft: false
 author: "Venus Editorial Team"
+faq:
+  - question: "What counts as an ultra-quiet product?"
+    answer: "20-40 dB, comparable to a whisper or a quiet library, and often felt rather than heard. In this catalogue, LELO Enigma, Dame Eva II and LELO Hugo fall in that range, which suits thin walls and shared housing."
+  - question: "How can I judge noise levels at home?"
+    answer: "Use a decibel meter app on your phone to understand relative quiet. Most products marketed as quiet fall under 60 dB."
+  - question: "What makes discreet use easier?"
+    answer: "Steady, non-pitched white noise sources work best. Avoid rhythmic patterns, which can synchronise audibly with product vibration."
+  - question: "What matters when travelling with one?"
+    answer: "A travel lock is essential so the device cannot activate in a bag, and lithium batteries and power banks belong in carry-on luggage rather than checked baggage."
 ---
 
 # Noise Level & Discretion Guide

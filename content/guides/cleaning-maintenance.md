@@ -7,6 +7,15 @@ lastmod: 2026-07-22
 slug: "cleaning-maintenance"
 draft: false
 author: "Venus Editorial Team"
+faq:
+  - question: "How often should an intimate product be cleaned?"
+    answer: "After every use, promptly rather than days later. Non-porous materials like silicone also need a deep clean every one to two months, and after illness, before and after travel, or whenever the surface feels sticky or tacky."
+  - question: "What should I clean it with?"
+    answer: "Warm (not hot) water with a mild, unscented soap, or a pH-balanced specialised toy cleaner. On silicone, ABS plastic, glass and stainless steel, a cloth dampened with 70% isopropyl alcohol works for weekly maintenance."
+  - question: "Which cleaners should I avoid?"
+    answer: "Bleach, undiluted vinegar, harsh or scented soaps, essential-oil cleaners and hot water, all of which degrade materials or leave harmful residue. Avoid abrasive sponges as well, since they scratch surfaces."
+  - question: "How should products be stored after cleaning?"
+    answer: "Dry them completely first, then store them clean, dry and separate from each other. Trapped moisture is what allows mold and bacteria to grow."
 ---
 
 # Cleaning & Maintenance Guide

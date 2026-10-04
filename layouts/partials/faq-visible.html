@@ -1,0 +1,14 @@
+{{- /* The VISIBLE counterpart of faq-schema.html. Google treats FAQ schema without
+       matching on-page content as a structured-data violation, so these two partials
+       ship as a pair: frontmatter `faq:` feeds both. */ -}}
+{{- with .Params.faq }}
+<section class="faq-section" aria-label="Frequently asked questions">
+  <h2>Frequently Asked Questions</h2>
+  {{ range . }}
+  <details class="faq-item">
+    <summary>{{ .question }}</summary>
+    <p>{{ .answer }}</p>
+  </details>
+  {{ end }}
+</section>
+{{- end }}

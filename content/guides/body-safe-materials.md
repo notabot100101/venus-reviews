@@ -7,6 +7,15 @@ lastmod: 2026-07-22
 slug: "body-safe-materials"
 draft: false
 author: "Venus Editorial Team"
+faq:
+  - question: "Which materials are safest for intimate products?"
+    answer: "Medical-grade silicone, body-safe ABS plastic, borosilicate glass and food-grade stainless steel. All four are non-porous, so they do not harbor bacteria and are easy to clean properly."
+  - question: "Which materials should I avoid?"
+    answer: "Porous materials such as jelly, rubber, TPE and some PVC: their pores trap bacteria and cannot be fully cleaned, and they can leach phthalates over time. Also avoid any product that does not disclose what it is made of."
+  - question: "How can I verify a body-safe silicone claim?"
+    answer: "Look for 'medical-grade silicone' or '100% body-safe silicone' in the product listing, certification marks such as ISO 10993, full material disclosure, and a brand with a reputation for safety commitments."
+  - question: "Why do phthalates matter?"
+    answer: "Phthalates are plasticizers added to make plastics flexible. They can migrate during use and exposure, potentially causing hormonal disruptions, which is why medically tested materials are the safer choice."
 ---
 
 # Body-Safe Materials Guide

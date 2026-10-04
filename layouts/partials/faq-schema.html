@@ -1,0 +1,14 @@
+{{- /* FAQPage JSON-LD from .Params.faq. Emits NOTHING when faq is absent, so it is safe
+       to include unconditionally from baseof.html.
+       Google requires the Q&A to ALSO be visible on the page: faq-visible.html renders the
+       matching accordion, and any page given `faq:` frontmatter must render that partial.
+       Built with jsonify (handles escaping); the `slice` seed is fine here because we only
+       append dicts and serialise - no page-collection member lookups (the 2026-10-02
+       typing trap applies to page collections, not plain data). */ -}}
+{{- with .Params.faq -}}
+{{- $items := slice -}}
+{{- range . -}}
+{{- $items = $items | append (dict "@type" "Question" "name" .question "acceptedAnswer" (dict "@type" "Answer" "text" .answer)) -}}
+{{- end -}}
+<script type="application/ld+json">{{ jsonify (dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $items) | safeJS }}</script>
+{{- end -}}
