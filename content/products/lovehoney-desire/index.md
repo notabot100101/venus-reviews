@@ -30,7 +30,18 @@ cons:
   - "Rabbit fit is the most anatomy-dependent format in the catalogue"
   - "Dual motors can sound louder or feel more complicated than a simple toy"
   - "No manufacturer documentation to hold spec claims against"
-image: "/images/editorial/ambient-09.png"
+# front.webp provenance (2026-10-05): official product photo from the manufacturer's own
+# asset CDN (media.lovehoneyassets.com/i/lovehoney/59243_a33302_purple_000) - the exact image
+# the product page's JSON-LD declares for this SKU. Fetched full-size (3144x4192),
+# vision-verified by the image pipeline, background whitened by an edge-flood over bright
+# unsaturated pixels only, with an asserted result of 0 product pixels changed.
+# NOT AI-generated. This page previously showed ambient editorial art because the earlier
+# front.webp could not be traced to a source; that file is preserved in
+# workspaces/worker/venus-image-originals-20261002/. Spec-verification caveats in the review
+# body are unchanged - a verified PHOTO does not verify materials or warranty.
+image: "/images/products/lovehoney-desire/front.webp"
+images:
+  - "/images/products/lovehoney-desire/front.webp"
 offers:
   - retailer: "Amazon"
     url: ""
