@@ -925,3 +925,13 @@ a.tag-chip:focus-visible {
 
 /* No-JS safety: without the toggle script the menu must not be unreachable. */
 .no-js .nav-links { display: flex; }
+
+/* === FAQ accordion (guides) — pairs with partials/faq-visible.html, 2026-10-05 === */
+.faq-section { margin-top: 2.5rem; border-top: 1px solid var(--color-border, rgba(255,255,255,0.12)); padding-top: 1.5rem; }
+.faq-section h2 { margin-bottom: 1rem; }
+.faq-item { border: 1px solid var(--color-border, rgba(255,255,255,0.12)); border-radius: 10px; margin-bottom: 0.75rem; background: rgba(255,255,255,0.03); }
+.faq-item summary { cursor: pointer; padding: 0.9rem 1.1rem; font-weight: 600; color: var(--color-text); list-style: none; position: relative; padding-right: 2.2rem; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after { content: "+"; position: absolute; right: 1.1rem; top: 50%; transform: translateY(-50%); color: var(--color-text-light); font-weight: 700; }
+.faq-item[open] summary::after { content: "\2212"; }
+.faq-item p { padding: 0 1.1rem 1rem; margin: 0; color: var(--color-text-light); line-height: 1.65; }
