@@ -1,9 +1,6 @@
-# hub-staging.ultramarine963.com is a STAGING host, not the intended public home
-# of this site. It is kept out of the index deliberately: if it were indexed, this
-# hostname would become the canonical public OpenClaw result and any later move to
-# a real domain would mean 301s and lost equity.
-# To publish for real: give the site a proper domain, then set
-#   indexable = true   in hugo.toml [params]
-# and replace this file with an Allow rule + sitemap.
+# openclaw.ultramarine963.com - the OpenClaw hub's public home (since 2026-10-05).
+# The old hub-staging host still serves the same branch; its pages canonical to
+# this host, which is how the duplicate resolves.
 User-agent: *
-Disallow: /
+Allow: /
+Sitemap: https://openclaw.ultramarine963.com/sitemap.xml
