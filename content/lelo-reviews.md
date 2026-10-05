@@ -1,7 +1,7 @@
 ---
 title: "LELO Reviews"
-seo_title: "LELO Reviews: All 7 Models Rated & Compared | Venus"
-seo_description: "Every LELO product we have reviewed, rated and ranked: Enigma, Sona 2, Sila, Gigi 2, Mona, Hugo and Ora 3, with verified EUR prices and who each one is for."
+seo_title: "LELO Reviews: All 9 Models Rated & Compared | Venus"
+seo_description: "Every LELO product we have reviewed, rated and ranked: Enigma, Sona 2, Sila, Gigi 2, Mona, Hugo, Ora 3, Tor 3 and F1S V2, with verified EUR prices and who each one is for."
 description: "All seven LELO models we have reviewed, ranked, with who each one suits."
 slug: "lelo-reviews"
 date: 2026-10-04
@@ -18,7 +18,7 @@ faq:
 
 ## LELO Reviews
 
-LELO is the most-reviewed brand on Venus: seven models across external, internal, dual and prostate stimulation. Every review is built from LELO's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
+LELO is the most-reviewed brand on Venus: nine models across external, internal, dual and prostate stimulation. Every review is built from LELO's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
 
 | Model | Rating | Price | Best for |
 |---|---|---|---|
@@ -29,6 +29,8 @@ LELO is the most-reviewed brand on Venus: seven models across external, internal
 | [LELO Mona](/products/lelo-mona/) | 4.0 | 139.00 EUR | Premium-feel internal |
 | [LELO Hugo](/products/lelo-hugo/) | 4.0 | 189.00 EUR | Premium prostate wellness |
 | [LELO Ora 3](/products/lelo-ora-3/) | 3.5 | 179.00 EUR | Rotating external stimulation |
+| [LELO Tor 3](/products/lelo-tor-3/) | 4.0 | 159.00 EUR | Partnered couples' play (vibrating ring) |
+| [LELO F1S V2](/products/lelo-f1s-v2/) | 4.0 | 199.00 EUR | App-connected male stimulation |
 
 ### How to choose a LELO
 
@@ -39,6 +41,8 @@ LELO is the most-reviewed brand on Venus: seven models across external, internal
 **For internal or premium-feel**, the [Gigi 2](/products/lelo-gigi-2/) and [Mona](/products/lelo-mona/) cover G-spot and firmer internal use at 109 and 139 EUR.
 
 **For prostate**, the [Hugo](/products/lelo-hugo/) is the dedicated pick.
+
+**For couples**, the [Tor 3](/products/lelo-tor-3/) is a vibrating ring worn during partnered sex. **For men**, the [F1S V2](/products/lelo-f1s-v2/) is an app-connected automatic masturbator with sonic-wave stimulation.
 
 **For something different**, the [Ora 3](/products/lelo-ora-3/) is the only rotating stimulator in the catalogue; a specialist choice rather than a first toy.
 
