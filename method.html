@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Method — Grid Trading Bot</title>
+<meta name="description" content="How the Grid Trading Bot is tested: grid design, A/B experiments, the five-criteria promotion gate, PnL accounting, walk-forward, testnet limits.">
+<link rel="canonical" href="https://trade.ultramarine963.com/method.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header><div class="wrap"><a class="mark" href="/">GRID<span>BOT</span></a>
+<nav><a href="/results/">Results</a><a href="/method.html">Method</a><a href="/offer.html">Offer</a><a href="/faq.html">FAQ</a></nav></div></header>
+<main>
+<section class="sect"><div class="wrap">
+<h2>Method</h2>
+<h3>The grid</h3>
+<p>A grid bot places a ladder of buy orders below the current price and sell orders above it. Each filled buy is paired with a sell one tier up. It earns the spacing when price oscillates inside the range and loses when price leaves the range in one direction. Our baseline is 12 tiers at 2.5% spacing with a fixed order size.</p>
+<h3>A/B design</h3>
+<p>Every pair runs two bots side by side on Binance testnet: the control grid and one variant that changes a single parameter (currently spacing 3.25%). Both see the same market. We compare net PnL, fills and drawdown over the same window.</p>
+<h3>The promotion gate</h3>
+<ol>
+<li>At least 14 days of two-sided trading (buys and sells).</li>
+<li>At least 30 fills.</li>
+<li>Net PnL above zero.</li>
+<li>Maximum drawdown below 10%.</li>
+<li>Won its A/B comparison.</li>
+</ol>
+<p>Clearing the gate makes a pair a candidate. Promotion to real money is a separate, human decision that also depends on walk-forward flags, the accounting review and available capital.</p>
+<h3>PnL accounting</h3>
+<p>Realised PnL is FIFO. Where a pair holds inventory with no recorded buy, we need an assumed cost basis for the seed lot. Any number that depends on such an assumption is marked "assumed seed" on this site, never "verified".</p>
+<h3>Walk-forward</h3>
+<p>Nightly, the last 14 days of hourly candles are split 7/7. A grid simulation on each half must be positive for the pair to be "robust". Positive on the first half and negative on the second is "overfit". This is a short out-of-sample window and is a backtest, not live evidence.</p>
+<h3>Testnet versus live</h3>
+<p>Testnet proves mechanics: orders place, fill, and the accounting closes. It has no slippage model and no real liquidity. We discount absolute testnet PnL and trust only the relative A-versus-B comparison. Until we have production-validated returns, we do not publish any projected live return.</p>
+<h3>Capital policy</h3>
+<p>Real-money exposure is capped in total and per bot, at amounts we keep private. The cap is raised only after the account is actually funded, never in advance. Each real-money bot has a review window after which it is renewed, re-ranged or paused.</p>
+</div></section>
+</main>
+<footer><div class="wrap">
+<p class="risk">This site documents software we build and test. It is not investment advice, we do not manage anyone's money, and testnet results do not predict live performance. Crypto trading can lose your whole stake.</p>
+<p><a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz / Privacy</a> · <a href="https://ultramarine963.com/">ultramarine963.com</a></p>
+<p>&copy; 2026 Paul Budzisch. No cookies, no tracking.</p>
+</div></footer>
+</body></html>

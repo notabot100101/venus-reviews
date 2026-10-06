@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-W40 — Grid Trading Bot</title>
+<meta name="description" content="Grid Trading Bot evaluation for week 40, 2026: testnet A/B results, gate table, real-money fills.">
+<link rel="canonical" href="https://trade.ultramarine963.com/results/2026-W40.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header><div class="wrap"><a class="mark" href="/">GRID<span>BOT</span></a>
+<nav><a href="/results/">Results</a><a href="/method.html">Method</a><a href="/offer.html">Offer</a><a href="/faq.html">FAQ</a></nav></div></header>
+<main>
+<section class="sect"><div class="wrap">
+<h2>2026-W40 · regular run 2026-10-04</h2>
+<p class="note">Testnet since the 2026-09-09 reset. Test windows 22 to 27 days, 44 to 192 fills per pair. Control arm: 12 tiers, 2.5% spacing, fixed order size. Test arm: 3.25% spacing. There is no buy-and-hold comparison.</p>
+
+<h3>Gate result</h3>
+<p>16 experiments meet all five criteria (14+ days two-sided, 30+ fills, net &gt; 0, drawdown &lt; 10%, won its A/B). The control arm won all 13 new-pair experiments. DOTEUR's 8.87% drawdown is the only one near the limit.</p>
+
+<h3>Walk-forward flags (7-day train / 7-day test, simulated)</h3>
+<table>
+<tr><th>Pair</th><th>Control arm</th><th>Test arm</th><th>Note</th></tr>
+<tr><td>SUIEUR</td><td><span class="flag ok">robust</span></td><td><span class="flag ok">robust</span></td><td>101 fills, robust two weeks running</td></tr>
+<tr><td>WLDEUR</td><td><span class="flag ok">robust</span></td><td><span class="flag ok">robust</span></td><td>192 fills, robust two weeks running</td></tr>
+<tr><td>ICPEUR</td><td><span class="flag ok">robust</span></td><td><span class="flag ok">robust</span></td><td></td></tr>
+<tr><td>BCHEUR, DOTEUR, LTCEUR, POLEUR, SOLEUR, ADAEUR</td><td><span class="flag ok">robust</span></td><td><span class="flag ok">robust</span></td><td></td></tr>
+<tr><td>AVAXEUR, XRPEUR</td><td><span class="flag ok">robust</span></td><td><span class="flag warn">not robust</span></td><td></td></tr>
+<tr><td>LINKEUR, XLMEUR</td><td><span class="flag no">overfit</span></td><td><span class="flag no">overfit</span></td><td>Positive on old data, negative on new. Not promotable.</td></tr>
+</table>
+<p class="note">Walk-forward is a backtest on 14 days of hourly candles. "Robust" means both simulated halves were positive. It is weak evidence and independent of the testnet trades.</p>
+
+<h3>Real money</h3>
+<table>
+<tr><th>Bot</th><th>Since</th><th>Fills this week</th><th>Note</th></tr>
+<tr><td>ADAEUR</td><td>earlier</td><td>0</td><td>No fills since 2026-09-21.</td></tr>
+<tr><td>ETHEUR</td><td>earlier</td><td>0</td><td>No fills since 2026-09-21.</td></tr>
+<tr><td>SHIBEUR</td><td>2026-10-01</td><td>0</td><td>Price 2.6% above the grid's top. Re-range or pause pending.</td></tr>
+</table>
+<p>The real-money capital cap is fully committed; no new pilot can start without new funding. Account value moved with the ETH price this week, which is not bot PnL.</p>
+
+<h3>Decision</h3>
+<p>Nothing promoted. A proposed cost-basis file installed on 2026-10-06 raised reported PnL on several pairs 3 to 6x; it is an accounting assumption under review, so no ranking from that re-run is used here.</p>
+</div></section>
+</main>
+<footer><div class="wrap">
+<p class="risk">This site documents software we build and test. It is not investment advice, we do not manage anyone's money, and testnet results do not predict live performance. Crypto trading can lose your whole stake.</p>
+<p><a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz / Privacy</a> · <a href="https://ultramarine963.com/">ultramarine963.com</a></p>
+<p>&copy; 2026 Paul Budzisch. No cookies, no tracking.</p>
+</div></footer>
+</body></html>
