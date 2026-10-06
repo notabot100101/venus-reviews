@@ -35,11 +35,11 @@ LELO is the most-reviewed brand on Venus: ten models across external, internal, 
 
 ### How to choose a LELO
 
-**For external stimulation**, the [Sona 2](/products/lelo-sona-2/) is the focused sonic pick and the [Sila](/products/lelo-sila/) is its gentler, wider-mouth sibling at a higher price. The two are compared directly in our [Sona 2 vs Womanizer Premium 2](/lelo-sona-2-vs-womanizer-premium-2/) piece if you are also weighing air-pulse.
+**For external stimulation**, the [Sona 2](/products/lelo-sona-2/) is the focused sonic pick and the [Sila](/products/lelo-sila/) is its gentler, wider-mouth sibling at a higher price; the two are compared head-to-head in [Sona 2 vs Sila](/lelo-sona-2-vs-lelo-sila/), and against air-pulse in [Sona 2 vs Womanizer Premium 2](/lelo-sona-2-vs-womanizer-premium-2/).
 
-**For dual stimulation**, the [Enigma](/products/lelo-enigma/) combines external sonic waves with internal G-spot stimulation in one body, which is what earns it the top LELO rating.
+**For dual stimulation**, the [Enigma](/products/lelo-enigma/) combines external sonic waves with internal G-spot stimulation in one body, which is what earns it the top LELO rating; [Enigma vs Sona 2](/lelo-enigma-vs-lelo-sona-2/) weighs it against the focused external-only pick.
 
-**For internal or premium-feel**, the [Gigi 2](/products/lelo-gigi-2/) and [Mona](/products/lelo-mona/) cover G-spot and firmer internal use at 109 and 139 EUR.
+**For internal or premium-feel**, the [Gigi 2](/products/lelo-gigi-2/) and [Mona](/products/lelo-mona/) cover G-spot and firmer internal use at 109 and 139 EUR; both are ranked in the [best G-spot vibrators](/best-g-spot-vibrators/) guide.
 
 **For prostate**, the [Hugo](/products/lelo-hugo/) is the dedicated pick.
 

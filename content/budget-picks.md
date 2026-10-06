@@ -9,7 +9,7 @@ draft: false
 author: "Venus Editorial Team"
 faq:
   - question: "What is the best product under 90 EUR?"
-    answer: "We-Vibe Tango X at 89.00 EUR. Its 4.5 rating matches the most expensive products in the catalogue, which makes it the strongest value in all 17 reviews."
+    answer: "We-Vibe Tango X at 89.00 EUR. Its 4.5 rating matches the most expensive products in the catalogue, which makes it the strongest value in all 20 reviews."
   - question: "What is the cheapest reviewed product worth buying?"
     answer: "Fun Factory Manta at 48.95 EUR, rated 3.5 for flexible external use. The step up to Fun Factory Volta at 51.95 EUR buys a 4.0-rated product for three euros more."
   - question: "Is cheap safe?"
@@ -18,7 +18,7 @@ faq:
 
 ## Budget Picks Under 90 EUR
 
-Six of our 17 reviewed products cost less than 90 EUR. This page ranks all six by review rating. Prices are manufacturer EUR prices with the date we verified them; each pick links to its full review, including what we could not verify.
+Six of our 20 reviewed products cost less than 90 EUR. This page ranks all six by review rating. Prices are manufacturer EUR prices with the date we verified them; each pick links to its full review, including what we could not verify.
 
 ### Ranked
 
@@ -42,4 +42,4 @@ A classic rabbit design at a value price, but key specifications could not be ve
 
 ### How to Spend Less Without Regret
 
-The pattern across these six: the 48–70 EUR band already buys documented body-safe materials from real manufacturers. What the extra money buys above 90 EUR is quieter motors, app features and premium formats, not safety. If this is a first purchase, start at the [first-time buyer page](/first-time-buyer/); for the full field, see the [ranked 2026 picks](/best-vibrators-2026/).
+The pattern across these six: the 48–70 EUR band already buys documented body-safe materials from real manufacturers. What the extra money buys above 90 EUR is quieter motors, app features and premium formats, not safety, which is exactly what the [premium picks](/premium-picks/) page lays out. If this is a first purchase, start at the [first-time buyer page](/first-time-buyer/); for the full field, see the [ranked 2026 picks](/best-vibrators-2026/).
