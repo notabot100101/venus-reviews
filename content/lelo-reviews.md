@@ -1,8 +1,8 @@
 ---
 title: "LELO Reviews"
-seo_title: "LELO Reviews: All 9 Models Rated & Compared | Venus"
-seo_description: "Every LELO product we have reviewed, rated and ranked: Enigma, Sona 2, Sila, Gigi 2, Mona, Hugo, Ora 3, Tor 3 and F1S V2, with verified EUR prices and who each one is for."
-description: "All seven LELO models we have reviewed, ranked, with who each one suits."
+seo_title: "LELO Reviews: All 10 Models Rated & Compared | Venus"
+seo_description: "Every LELO product we have reviewed, rated and ranked: Enigma, Sona 2, Sila, Gigi 2, Mona, Hugo, Ora 3, Tor 3, Tiani 3 and F1S V2, with verified EUR prices and who each one is for."
+description: "All 10 LELO models we have reviewed, ranked, with who each one suits."
 slug: "lelo-reviews"
 date: 2026-10-04
 draft: false
@@ -18,7 +18,7 @@ faq:
 
 ## LELO Reviews
 
-LELO is the most-reviewed brand on Venus: nine models across external, internal, dual and prostate stimulation. Every review is built from LELO's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
+LELO is the most-reviewed brand on Venus: ten models across external, internal, dual, couples and prostate stimulation. Every review is built from LELO's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
 
 | Model | Rating | Price | Best for |
 |---|---|---|---|
@@ -30,6 +30,7 @@ LELO is the most-reviewed brand on Venus: nine models across external, internal,
 | [LELO Hugo](/products/lelo-hugo/) | 4.0 | 189.00 EUR | Premium prostate wellness |
 | [LELO Ora 3](/products/lelo-ora-3/) | 3.5 | 179.00 EUR | Rotating external stimulation |
 | [LELO Tor 3](/products/lelo-tor-3/) | 4.0 | 159.00 EUR | Partnered couples' play (vibrating ring) |
+| [LELO Tiani 3](/products/lelo-tiani-3/) | 4.0 | 151.99 EUR | Worn couples' massager with motion remote |
 | [LELO F1S V2](/products/lelo-f1s-v2/) | 4.0 | 199.00 EUR | App-connected male stimulation |
 
 ### How to choose a LELO
@@ -42,7 +43,7 @@ LELO is the most-reviewed brand on Venus: nine models across external, internal,
 
 **For prostate**, the [Hugo](/products/lelo-hugo/) is the dedicated pick.
 
-**For couples**, the [Tor 3](/products/lelo-tor-3/) is a vibrating ring worn during partnered sex. **For men**, the [F1S V2](/products/lelo-f1s-v2/) is an app-connected automatic masturbator with sonic-wave stimulation.
+**For couples**, there are two picks: the [Tor 3](/products/lelo-tor-3/) is a simpler vibrating ring worn during partnered sex, while the [Tiani 3](/products/lelo-tiani-3/) is a worn internal-external massager with a motion-sensitive remote and a 12 m range. **For men**, the [F1S V2](/products/lelo-f1s-v2/) is an app-connected automatic masturbator with sonic-wave stimulation.
 
 **For something different**, the [Ora 3](/products/lelo-ora-3/) is the only rotating stimulator in the catalogue; a specialist choice rather than a first toy.
 
