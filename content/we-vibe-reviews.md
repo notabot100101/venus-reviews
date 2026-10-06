@@ -1,8 +1,8 @@
 ---
 title: "We-Vibe Reviews"
-seo_title: "We-Vibe Reviews: All 5 Models Rated & Compared | Venus"
-seo_description: "Every We-Vibe product we have reviewed, rated and ranked: Chorus, Tango X, Nova 2, Melt and Sync, with verified EUR prices and who each one is for."
-description: "All five We-Vibe models we have reviewed, ranked, with who each one suits."
+seo_title: "We-Vibe Reviews: All 6 Models Rated & Compared | Venus"
+seo_description: "Every We-Vibe product we have reviewed, rated and ranked: Chorus, Tango X, Nova 2, Melt, Vector+ and Sync, with verified EUR prices and who each one is for."
+description: "All six We-Vibe models we have reviewed, ranked, with who each one suits."
 slug: "we-vibe-reviews"
 date: 2026-10-06
 draft: false
@@ -18,7 +18,7 @@ faq:
 
 ## We-Vibe Reviews
 
-We-Vibe is best known for couples wearables, but the range we have reviewed also covers rabbit, compact external and contactless stimulation. All five reviews are built from We-Vibe's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
+We-Vibe is best known for couples wearables, but the range we have reviewed also covers rabbit, compact external, contactless and prostate stimulation. All six reviews are built from We-Vibe's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
 
 | Model | Rating | Price | Best for |
 |---|---|---|---|
@@ -26,6 +26,7 @@ We-Vibe is best known for couples wearables, but the range we have reviewed also
 | [We-Vibe Tango X](/products/we-vibe-tango-x/) | 4.5 | 89.00 EUR | Pinpoint external stimulation |
 | [We-Vibe Nova 2](/products/we-vibe-nova-2/) | 4.0 | 149.00 EUR | App-controlled rabbit (dual) |
 | [We-Vibe Melt](/products/we-vibe-melt/) | 4.0 | 149.00 EUR | App-controlled Pleasure Air |
+| [We-Vibe Vector+](/products/we-vibe-vector/) | 3.5 | 139.00 EUR | App/remote prostate massager |
 | [We-Vibe Sync](/products/we-vibe-sync/) | 3.5 | 159.00 EUR | Adjustable couples fit |
 
 ### How to choose a We-Vibe
@@ -37,5 +38,7 @@ We-Vibe is best known for couples wearables, but the range we have reviewed also
 **For contactless stimulation**, the [Melt](/products/we-vibe-melt/) is We-Vibe's Pleasure Air device: pulsing air and gentle suction rather than vibration, with app and partner control built in. It is ranked against the rest of the category in [best air-pulse & sonic stimulators](/best-air-pulse-stimulators/).
 
 **For internal and dual stimulation**, the [Nova 2](/products/we-vibe-nova-2/) is We-Vibe's rabbit: an internal G-spot shaft plus a flexible external arm built to keep clitoral contact as it moves, with app control. It is ranked among the insertables on the [best G-spot & internal vibrators](/best-g-spot-vibrators/) page.
+
+**For prostate stimulation**, the [Vector+](/products/we-vibe-vector/) is We-Vibe's dual prostate-and-perineum massager, controlled by button, remote or app. It is the catalogue's lower-priced prostate option against the fully documented [LELO Hugo](/products/lelo-hugo/).
 
 Every model links to its full review with the complete specification and the retailers we list. For couples options across brands, see the [best couples' toys](/best-couples-toys/) ranking, and for the whole catalogue, the [best-of 2026 ranking](/best-vibrators-2026/).
