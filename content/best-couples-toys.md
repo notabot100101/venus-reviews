@@ -40,4 +40,6 @@ These are the devices built for two people at once: worn by one partner during s
 
 **If you want hands-free rather than worn-internally:** the [Dame Eva II](/products/dame-eva-ii/). It tucks its flexible wings under the labia to sit against the clitoris, so nothing is inserted, which suits couples who find worn wearables uncomfortable.
 
+**If you want partner control at a distance:** the [We-Vibe Melt](/products/we-vibe-melt/). It is a contactless air-pulse clitoral stimulator rather than a worn device, but its We-Connect app lets a partner take over control remotely or long-distance, which is the couples angle. It is reviewed in full against the air-pulse field on the [best air-pulse & sonic stimulators](/best-air-pulse-stimulators/) page.
+
 The head-to-heads worth reading: [We-Vibe Chorus vs We-Vibe Sync](/we-vibe-chorus-vs-we-vibe-sync/) for the two We-Vibe wearables, and [LELO Tor 3 vs LELO Tiani 3](/lelo-tor-3-vs-lelo-tiani-3/) for LELO's ring against its worn massager. If this is a first purchase, start with the [first-time buyer guide](/first-time-buyer/); for the whole catalogue, see the [best-of 2026 ranking](/best-vibrators-2026/).
