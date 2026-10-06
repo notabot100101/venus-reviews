@@ -108,7 +108,7 @@ The [We-Vibe Chorus](/products/we-vibe-chorus/) and [We-Vibe Sync](/products/we-
 
 ### Tor 3 among the LELO range
 
-Within LELO, Tor 3 is the dedicated couples product. The [Enigma](/products/lelo-enigma/) is the dual solo device, the [Sona 2](/products/lelo-sona-2/) and [Sila](/products/lelo-sila/) are external stimulators, and the [Hugo](/products/lelo-hugo/) is the prostate pick. The full line-up is on the [LELO reviews hub](/lelo-reviews/).
+Within LELO, Tor 3 is one of two couples products: the [Tiani 3](/products/lelo-tiani-3/) is the worn internal-external massager with a motion remote, compared directly in [LELO Tor 3 vs LELO Tiani 3](/lelo-tor-3-vs-lelo-tiani-3/). The [Enigma](/products/lelo-enigma/) is the dual solo device, the [Sona 2](/products/lelo-sona-2/) and [Sila](/products/lelo-sila/) are external stimulators, and the [Hugo](/products/lelo-hugo/) is the prostate pick. The full line-up is on the [LELO reviews hub](/lelo-reviews/), and the couples options across brands are in the [best couples' toys](/best-couples-toys/) ranking.
 
 ## Value Position
 

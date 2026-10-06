@@ -113,7 +113,7 @@ The [We-Vibe Chorus](/products/we-vibe-chorus/) and [We-Vibe Sync](/products/we-
 
 ### Tiani 3 vs. the Tor 3
 
-Within LELO, the [Tor 3](/products/lelo-tor-3/) is the simpler couples option: a vibrating ring worn at the base, mechanically simpler and cheaper to position, but with fewer features and no motion remote. Tiani 3 is the worn internal-external device with the richer control layer. The Tor 3 is also documented as 100% waterproof where the Tiani 3 is not, which is a point in the ring's favour for shower use.
+Within LELO, the [Tor 3](/products/lelo-tor-3/) is the simpler couples option: a vibrating ring worn at the base, mechanically simpler and cheaper to position, but with fewer features and no motion remote. Tiani 3 is the worn internal-external device with the richer control layer. The Tor 3 is also documented as 100% waterproof where the Tiani 3 is not, which is a point in the ring's favour for shower use. The full head-to-head is in [LELO Tor 3 vs LELO Tiani 3](/lelo-tor-3-vs-lelo-tiani-3/), and both sit in the [best couples' toys](/best-couples-toys/) ranking.
 
 ### Tiani 3 among the LELO range
 

@@ -43,7 +43,7 @@ LELO is the most-reviewed brand on Venus: ten models across external, internal, 
 
 **For prostate**, the [Hugo](/products/lelo-hugo/) is the dedicated pick.
 
-**For couples**, there are two picks: the [Tor 3](/products/lelo-tor-3/) is a simpler vibrating ring worn during partnered sex, while the [Tiani 3](/products/lelo-tiani-3/) is a worn internal-external massager with a motion-sensitive remote and a 12 m range. **For men**, the [F1S V2](/products/lelo-f1s-v2/) is an app-connected automatic masturbator with sonic-wave stimulation.
+**For couples**, there are two picks: the [Tor 3](/products/lelo-tor-3/) is a simpler vibrating ring worn during partnered sex, while the [Tiani 3](/products/lelo-tiani-3/) is a worn internal-external massager with a motion-sensitive remote and a 12 m range; they are compared directly in [Tor 3 vs Tiani 3](/lelo-tor-3-vs-lelo-tiani-3/), and both appear in the [best couples' toys](/best-couples-toys/) ranking. **For men**, the [F1S V2](/products/lelo-f1s-v2/) is an app-connected automatic masturbator with sonic-wave stimulation.
 
 **For something different**, the [Ora 3](/products/lelo-ora-3/) is the only rotating stimulator in the catalogue; a specialist choice rather than a first toy.
 
