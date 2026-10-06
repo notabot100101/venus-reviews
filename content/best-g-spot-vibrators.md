@@ -18,13 +18,14 @@ faq:
 
 ## Best G-Spot & Internal Vibrators
 
-This is the insertable category: devices designed for internal stimulation, usually with a firm curve or angled tip to hold pressure against the G-spot. It is where shape and firmness matter more than raw power, so the right pick depends on how targeted you want the sensation. Here are the four we have reviewed, ranked by our rating with the verified manufacturer price.
+This is the insertable category: devices designed for internal stimulation, usually with a firm curve or angled tip to hold pressure against the G-spot. It is where shape and firmness matter more than raw power, so the right pick depends on how targeted you want the sensation. Here are the five we have reviewed, ranked by our rating with the verified manufacturer price.
 
 | Vibrator | Type | Rating | Price |
 |---|---|---|---|
 | [LELO Enigma](/products/lelo-enigma/) | Dual (external + internal G-spot) | 4.5 | 199.00 EUR |
 | [LELO Gigi 2](/products/lelo-gigi-2/) | Dedicated G-spot | 4.0 | 109.00 EUR |
 | [LELO Mona](/products/lelo-mona/) | Firm curved internal | 4.0 | 139.00 EUR |
+| [We-Vibe Nova 2](/products/we-vibe-nova-2/) | Rabbit (dual, app) | 4.0 | 149.00 EUR |
 | [Lovehoney Desire](/products/lovehoney-desire/) | Rabbit (internal + clitoral) | 3.0 | 69.99 EUR |
 
 ### How to pick within the category
@@ -34,6 +35,8 @@ This is the insertable category: devices designed for internal stimulation, usua
 **If you want a dedicated, travel-friendly G-spot device:** the [LELO Gigi 2](/products/lelo-gigi-2/). Its flattened tip is a genuine design difference for broad front-wall contact, it is light at 79 g with a documented insertable 95 mm and 100% waterproofing, and it runs up to 4 hours per charge. LELO does not publish a noise figure for it.
 
 **If you want a firmer, more pronounced curve:** the [LELO Mona](/products/lelo-mona/). A longer, firmer body with a purposeful curve for targeted internal pressure, 100% waterproof with a documented 50 dB maximum. It is aimed at people who already like targeted G-spot toys rather than absolute beginners.
+
+**If you want a well-documented, app-controlled rabbit:** the [We-Vibe Nova 2](/products/we-vibe-nova-2/). Its flexible external arm is built to keep clitoral contact as the device moves, it is 100% waterproof with a clear body-safe materials statement, and the We-Connect app adds remote control. It is the rabbit to pick when documentation and features matter.
 
 **If you want a value rabbit:** the [Lovehoney Desire](/products/lovehoney-desire/). A mainstream dual-motor rabbit at the lowest price here, but several specifications were not documented by the manufacturer when we reviewed it, so treat materials, waterproofing and warranty as items to confirm on the retailer page before buying.
 
