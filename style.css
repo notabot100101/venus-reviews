@@ -1,0 +1,74 @@
+/* Ultramarine963 — personal portfolio. The name is a colour; use it.
+   One small file, system fonts, no JS, mobile-first. */
+:root{
+  --ink:#16181d; --muted:#5a6170; --bg:#fafbfd; --card:#ffffff;
+  --ultra:#1f2fa6; --ultra-deep:#121a6e; --line:#e4e7ee;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+.draft-ribbon{background:#fff3cd;color:#7a5d00;text-align:center;font-size:13px;
+  padding:6px 16px;border-bottom:1px solid #eadfa5}
+header{padding:20px 0;border-bottom:1px solid var(--line);background:var(--card)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px}
+.mark{font-weight:800;letter-spacing:.04em;text-decoration:none;color:var(--ink);font-size:18px}
+.mark span{color:var(--ultra)}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:15px}
+nav a:hover{color:var(--ultra)}
+.hero{padding:72px 0 56px}
+.hero h1{font-size:clamp(28px,5vw,42px);line-height:1.15;margin:0 0 14px;letter-spacing:-.02em}
+.hero h1 em{font-style:normal;color:var(--ultra)}
+.hero p{max-width:600px;color:var(--muted);margin:0 0 8px;font-size:18px}
+.sect{padding:40px 0;border-top:1px solid var(--line)}
+.sect h2{font-size:22px;margin:0 0 20px;letter-spacing:-.01em}
+.cards{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;
+  display:flex;flex-direction:column}
+.card h3{margin:0 0 6px;font-size:17px}
+.card p{margin:0 0 14px;color:var(--muted);font-size:15px;flex:1}
+.card .go{color:var(--ultra);font-weight:600;text-decoration:none;font-size:15px}
+.card .go:hover{text-decoration:underline}
+.tag{display:inline-block;font-size:11px;text-transform:uppercase;letter-spacing:.09em;
+  color:var(--ultra);font-weight:700;margin-bottom:8px}
+.contact-grid{display:grid;gap:28px;grid-template-columns:1fr;align-items:start}
+@media(min-width:720px){.contact-grid{grid-template-columns:1fr 1fr}}
+.contact-list{list-style:none;padding:0;margin:0;font-size:16px}
+.contact-list li{margin:0 0 10px}
+.contact-list a{color:var(--ultra);text-decoration:none}
+.contact-list a:hover{text-decoration:underline}
+form{display:flex;flex-direction:column;gap:12px}
+label{font-size:14px;color:var(--muted)}
+input,textarea{font:inherit;padding:10px 12px;border:1px solid var(--line);border-radius:8px;
+  background:var(--card);width:100%}
+input:focus,textarea:focus{outline:2px solid var(--ultra);outline-offset:1px;border-color:var(--ultra)}
+button{font:inherit;font-weight:700;color:#fff;background:var(--ultra);border:0;border-radius:8px;
+  padding:12px 20px;cursor:pointer;align-self:flex-start}
+button:hover{background:var(--ultra-deep)}
+footer{border-top:1px solid var(--line);margin-top:48px;padding:28px 0;color:var(--muted);font-size:14px}
+footer a{color:var(--muted)}
+footer a:hover{color:var(--ultra)}
+.legal{padding:48px 20px;max-width:760px}
+.legal h1{font-size:28px}
+.legal h2{font-size:19px;margin-top:28px}
+.placeholder{background:#eef1fb;border:1px dashed var(--ultra);border-radius:8px;padding:14px 16px;
+  color:var(--ultra-deep);font-size:15px}
+
+/* trade.ultramarine963.com additions */
+.status{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin:24px 0 0}
+.status div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.status b{display:block;font-size:22px;letter-spacing:-.01em}
+.status small{color:var(--muted);font-size:13px}
+table{width:100%;border-collapse:collapse;font-size:15px;margin:12px 0 20px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+.risk{background:#fff6f5;border:1px solid #f1c9c4;border-radius:10px;padding:14px 16px;color:#7a2a20;font-size:15px}
+.flag{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;letter-spacing:.05em}
+.flag.ok{background:#e6f4ea;color:#1d6b35}.flag.warn{background:#fff3cd;color:#7a5d00}.flag.no{background:#fdecea;color:#9a2a1f}
+.signup{display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end}
+.signup input{flex:1;min-width:220px}
+.signup label{width:100%}
+.note{color:var(--muted);font-size:14px}
+.price{font-size:26px;font-weight:800;letter-spacing:-.02em;margin:4px 0 10px}
+.price small{font-size:14px;font-weight:500;color:var(--muted)}

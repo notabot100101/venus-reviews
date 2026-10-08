@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://trade.ultramarine963.com/</loc>
-    <lastmod>2026-10-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://trade.ultramarine963.com/impressum.html</loc>
-    <lastmod>2026-10-06</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://trade.ultramarine963.com/datenschutz.html</loc>
-    <lastmod>2026-10-06</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
+<url><loc>https://trade.ultramarine963.com/</loc></url>
+<url><loc>https://trade.ultramarine963.com/results/</loc></url>
+<url><loc>https://trade.ultramarine963.com/results/2026-W40.html</loc></url>
+<url><loc>https://trade.ultramarine963.com/method.html</loc></url>
+<url><loc>https://trade.ultramarine963.com/offer.html</loc></url>
+<url><loc>https://trade.ultramarine963.com/faq.html</loc></url>
+<url><loc>https://trade.ultramarine963.com/impressum.html</loc></url>
+<url><loc>https://trade.ultramarine963.com/datenschutz.html</loc></url>
 </urlset>
