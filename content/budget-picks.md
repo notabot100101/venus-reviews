@@ -9,7 +9,7 @@ draft: false
 author: "Venus Editorial Team"
 faq:
   - question: "What is the best product under 90 EUR?"
-    answer: "We-Vibe Tango X at 89.00 EUR. Its 4.5 rating matches the most expensive products in the catalogue, which makes it the strongest value in all 20 reviews."
+    answer: "We-Vibe Tango X at 89.00 EUR. Its 4.5 rating matches the most expensive products in the catalogue, which makes it the strongest value in all 25 reviews."
   - question: "What is the cheapest reviewed product worth buying?"
     answer: "Fun Factory Manta at 48.95 EUR, rated 3.5 for flexible external use. The step up to Fun Factory Volta at 51.95 EUR buys a 4.0-rated product for three euros more."
   - question: "Is cheap safe?"
@@ -18,7 +18,7 @@ faq:
 
 ## Budget Picks Under 90 EUR
 
-Six of our 20 reviewed products cost less than 90 EUR. This page ranks all six by review rating. Prices are manufacturer EUR prices with the date we verified them; each pick links to its full review, including what we could not verify.
+Eight of our 25 reviewed products cost less than 90 EUR. This page ranks all eight by review rating. Prices are manufacturer EUR prices with the date we verified them; each pick links to its full review, including what we could not verify.
 
 ### Ranked
 
@@ -34,12 +34,18 @@ A full-size wand with deep, rumbly massage at a budget price.
 **4. [Fun Factory Manta](/products/fun-factory-manta/) — 3.5 — 48.95 EUR** (verified August 2026)
 The cheapest product in the catalogue, built for flexible external use.
 
-**5. [Satisfyer Pro 2](/products/satisfyer-pro-2/) — 3.5 — 69.95 EUR** (verified October 2026)
+**5. [Satisfyer Curvy Trinity 3](/products/satisfyer-curvy/) — 3.5 — 59.95 EUR** (verified October 2026)
+The cheapest 3-in-1, combining air-pulse and insertable G-spot vibration, with a 15-year warranty. Thin published specs, and out of stock at the manufacturer when checked, so buy through the retailers listed.
+
+**6. [Satisfyer Pro 2](/products/satisfyer-pro-2/) — 3.5 — 69.95 EUR** (verified October 2026)
 The inexpensive entry into air-pulse stimulation. Note: the manufacturer listed it as out of stock on its own store when last checked, so buy through the retailers listed in the review.
 
-**6. [Lovehoney Desire](/products/lovehoney-desire/) — 3.0 — 69.99 EUR** (verified August 2026)
+**7. [Fun Factory Stronic G](/products/fun-factory-stronic/) — 3.5 — 69.95 EUR** (verified October 2026)
+The only thrusting device in the catalogue, and the cheapest place to try a pulsator. Well-documented on size and materials, but no published runtime, charge time or warranty.
+
+**8. [Lovehoney Desire](/products/lovehoney-desire/) — 3.0 — 69.99 EUR** (verified August 2026)
 A classic rabbit design at a value price, but key specifications could not be verified from manufacturer sources when reviewed. Check materials, waterproofing and warranty on the retailer page before buying.
 
 ### How to Spend Less Without Regret
 
-The pattern across these six: the 48–70 EUR band already buys documented body-safe materials from real manufacturers. What the extra money buys above 90 EUR is quieter motors, app features and premium formats, not safety, which is exactly what the [premium picks](/premium-picks/) page lays out. If this is a first purchase, start at the [first-time buyer page](/first-time-buyer/); for the full field, see the [ranked 2026 picks](/best-vibrators-2026/).
+The pattern across these eight: the 48–70 EUR band already buys documented body-safe materials from real manufacturers. What the extra money buys above 90 EUR is quieter motors, app features and premium formats, not safety, which is exactly what the [premium picks](/premium-picks/) page lays out. If this is a first purchase, start at the [first-time buyer page](/first-time-buyer/); for the full field, see the [ranked 2026 picks](/best-vibrators-2026/).
