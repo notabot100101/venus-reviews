@@ -18,7 +18,7 @@ faq:
 
 ## Best Air-Pulse & Sonic Clitoral Stimulators
 
-This is the "contactless" category: devices that stimulate the clitoris without vibrating against it, either by pulsing air (air-pulse) or by resonating sound waves (sonic). It is the fastest-growing style of clitoral stimulator, and it is the one people most often ask about by brand name. Here are the six we have reviewed, ranked by our rating with the verified manufacturer price.
+This is the "contactless" category: devices that stimulate the clitoris without vibrating against it, either by pulsing air (air-pulse) or by resonating sound waves (sonic). It is the fastest-growing style of clitoral stimulator, and it is the one people most often ask about by brand name. Here are the seven we have reviewed, ranked by our rating with the verified manufacturer price.
 
 | Stimulator | Method | Rating | Price |
 |---|---|---|---|
@@ -26,6 +26,7 @@ This is the "contactless" category: devices that stimulate the clitoris without 
 | [Womanizer Premium 2](/products/womanizer-premium-2/) | Air-pulse | 4.5 | 179.00 EUR |
 | [LELO Sila](/products/lelo-sila/) | Sonic (gentle) | 4.0 | 169.00 EUR |
 | [We-Vibe Melt](/products/we-vibe-melt/) | Air-pulse (app) | 4.0 | 149.00 EUR |
+| [Womanizer Duo 2](/products/womanizer-duo-2/) | Air-pulse (3-in-1) | 4.0 | 209.00 EUR |
 | [Satisfyer Pro 2](/products/satisfyer-pro-2/) | Air-pulse | 3.5 | 69.95 EUR |
 | [Satisfyer Curvy Trinity 3](/products/satisfyer-curvy/) | Air-pulse (3-in-1) | 3.5 | 59.95 EUR |
 
@@ -36,6 +37,8 @@ This is the "contactless" category: devices that stimulate the clitoris without 
 **If you want focused sonic at the best price:** the [LELO Sona 2](/products/lelo-sona-2/). It is our top sonic pick, compact at 125 g and fully waterproof, with a documented 60 dB maximum that is honest but audible.
 
 **If you want concentrated air-pulse and the quietest operation:** the [Womanizer Premium 2](/products/womanizer-premium-2/). Its Smart Silence only runs the motor on skin contact, the runtime is the longest in the category, and it carries a five-year warranty, which is why it holds 4.5 despite the 179 EUR price.
+
+**If you want air-pulse and a premium G-spot vibrator in one:** the [Womanizer Duo 2](/products/womanizer-duo-2/). It pairs Womanizer's Pleasure Air clitoral head with an insertable G-spot motor, each independently controlled, plus Smart Silence and a 5-year warranty. It is the priciest here at 209 EUR, which is why it rates 4.0 rather than higher against the cheaper single-purpose leaders.
 
 **If you want air-pulse with app and partner control:** the [We-Vibe Melt](/products/we-vibe-melt/). It is the only device here built for remote and long-distance control through an app, in a compact, fully waterproof body, which makes it the pick for couples who want the air-pulse sensation. Its shorter two-year warranty and unstated noise figure are the trade-offs against the Womanizer.
 
