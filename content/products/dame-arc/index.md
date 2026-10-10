@@ -113,3 +113,5 @@ Within Dame, the [Eva II](/products/dame-eva-ii/) is the hands-free external sti
 ## Value Position
 
 At 119 USD, Arc sits in the mid tier for a G-spot vibrator, with the important caveat that the price is in dollars, not euros, so European buyers should budget for conversion and check whether a local retailer stocks it before ordering from Dame directly. The reason to choose it is specific: an ergonomic, well-documented, medical-grade G-spot vibrator with a long warranty from a reputable brand. Buyers who want a fully specified, euro-priced, waterproof-rated insertable may prefer the [LELO Gigi 2](/products/lelo-gigi-2/); those who want this exact ergonomic curve have a strong option here. For the whole catalogue, see the [best-of 2026 ranking](/best-vibrators-2026/).
+
+The full Dame line-up, with the Aer and the Eva II, is on the [Dame reviews hub](/dame-reviews/).

@@ -116,3 +116,5 @@ Skip it if you want internal stimulation, app control, a broad wand-like feel, o
 ## Ownership Notes
 
 Confirm whether the seller is offering the current Eva or older Eva II packaging, because Dame's cable notes distinguish 2nd-generation Eva charging. Keep the charging base or cable clearly labeled. If buying as a gift, check the return policy carefully: wearable fit is personal, and hygiene rules can limit returns once opened.
+
+The full Dame line-up, with the Arc and the Aer, is on the [Dame reviews hub](/dame-reviews/).
