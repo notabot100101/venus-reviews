@@ -42,4 +42,6 @@ These are the devices built for two people at once: worn by one partner during s
 
 **If you want partner control at a distance:** the [We-Vibe Melt](/products/we-vibe-melt/). It is a contactless air-pulse clitoral stimulator rather than a worn device, but its We-Connect app lets a partner take over control remotely or long-distance, which is the couples angle. It is reviewed in full against the air-pulse field on the [best air-pulse & sonic stimulators](/best-air-pulse-stimulators/) page.
 
+**If you want a wearable your partner controls:** the [We-Vibe Jive](/products/we-vibe-jive/). A worn egg vibrator with a remote in the box and We-Connect app control, so a partner can steer it in the room or long-distance, built for discreet play rather than penetrative sex. IPX7 and a documented 4-hour runtime; We-Vibe publishes no dimensions or noise figure for it.
+
 The head-to-heads worth reading: [We-Vibe Chorus vs We-Vibe Sync](/we-vibe-chorus-vs-we-vibe-sync/) for the two We-Vibe wearables, and [LELO Tor 3 vs LELO Tiani 3](/lelo-tor-3-vs-lelo-tiani-3/) for LELO's ring against its worn massager. If this is a first purchase, start with the [first-time buyer guide](/first-time-buyer/); for the whole catalogue, see the [best-of 2026 ranking](/best-vibrators-2026/).
