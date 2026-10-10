@@ -24,7 +24,7 @@ This is the counterpart to our [budget picks](/budget-picks/): the best premium 
 |---|---|---|---|
 | Dual (external + internal) | [LELO Enigma](/products/lelo-enigma/) | 4.5 | 199.00 EUR |
 | Couples | [We-Vibe Chorus](/products/we-vibe-chorus/) | 4.5 | 209.00 EUR |
-| Air-pulse | [Womanizer Premium 2](/products/womanizer-premium-2/) | 4.5 | 179.00 EUR |
+| Air-pulse | [Womanizer Next](/products/womanizer-next/) | 4.5 | 209.00 EUR |
 | Gentle sonic | [LELO Sila](/products/lelo-sila/) | 4.0 | 169.00 EUR |
 | G-spot / internal | [LELO Mona](/products/lelo-mona/) | 4.0 | 139.00 EUR |
 | Prostate | [LELO Hugo](/products/lelo-hugo/) | 4.0 | 189.00 EUR |
@@ -36,7 +36,7 @@ This is the counterpart to our [budget picks](/budget-picks/): the best premium 
 
 **Couples — [We-Vibe Chorus](/products/we-vibe-chorus/).** The flagship couples wearable, with a grip-sensitive Squeeze Remote, touch-sense control and an explicit phthalate-, BPA- and latex-free statement. The couples alternatives are ranked on the [best couples' toys](/best-couples-toys/) page.
 
-**Air-pulse — [Womanizer Premium 2](/products/womanizer-premium-2/).** The quietest, longest-running air-pulse device we have reviewed, with Smart Silence that only runs the motor on skin contact and a 5-year warranty. See the [air-pulse category](/best-air-pulse-stimulators/) for the full field.
+**Air-pulse — [Womanizer Next](/products/womanizer-next/).** The flagship: 3D Pleasure Air with Climax Control, a documented 240-minute runtime, the longest in the catalogue, Smart Silence and a 5-year warranty. The [Womanizer Premium 2](/products/womanizer-premium-2/) is the quieter, cheaper alternative with the same warranty. See the [air-pulse category](/best-air-pulse-stimulators/) for the full field and the [Womanizer reviews hub](/womanizer-reviews/) for the brand.
 
 **Gentle sonic — [LELO Sila](/products/lelo-sila/).** The wide-mouth sonic stimulator for people who find pinpoint devices too intense: the same core technology as the Sona 2, re-tuned softer over a larger contact area, 100% waterproof.
 

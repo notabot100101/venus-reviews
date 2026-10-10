@@ -127,3 +127,5 @@ Against the [LELO Enigma](/products/lelo-enigma/), both are dual air-pulse-plus-
 ## Value Position
 
 At a 209 EUR manufacturer list price - shown at a 169 EUR flash-sale price (-20%) when we checked - Duo 2 sits at the premium end of the catalogue, priced above the Premium 2's external-only 179 EUR. The case for it is specific: a buyer who wants Womanizer's Pleasure Air technology and independently adjustable G-spot vibration in one device, and who can accept that Womanizer has not published battery, noise or app specifications for this model. Buyers who only want external stimulation should look at the Premium 2 first; buyers who are not sure dual stimulation suits them should start with a lower-cost single-purpose toy from the [catalogue](/best-vibrators-2026/).
+
+The full Womanizer line-up, with the Next and the Premium 2, is on the [Womanizer reviews hub](/womanizer-reviews/).

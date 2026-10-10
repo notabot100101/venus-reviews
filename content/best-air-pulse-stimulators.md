@@ -18,11 +18,12 @@ faq:
 
 ## Best Air-Pulse & Sonic Clitoral Stimulators
 
-This is the "contactless" category: devices that stimulate the clitoris without vibrating against it, either by pulsing air (air-pulse) or by resonating sound waves (sonic). It is the fastest-growing style of clitoral stimulator, and it is the one people most often ask about by brand name. Here are the seven we have reviewed, ranked by our rating with the verified manufacturer price.
+This is the "contactless" category: devices that stimulate the clitoris without vibrating against it, either by pulsing air (air-pulse) or by resonating sound waves (sonic). It is the fastest-growing style of clitoral stimulator, and it is the one people most often ask about by brand name. Here are the eight we have reviewed, ranked by our rating with the verified manufacturer price.
 
 | Stimulator | Method | Rating | Price |
 |---|---|---|---|
 | [LELO Sona 2](/products/lelo-sona-2/) | Sonic | 4.5 | 109.00 EUR |
+| [Womanizer Next](/products/womanizer-next/) | Air-pulse (3D) | 4.5 | 209.00 EUR |
 | [Womanizer Premium 2](/products/womanizer-premium-2/) | Air-pulse | 4.5 | 179.00 EUR |
 | [LELO Sila](/products/lelo-sila/) | Sonic (gentle) | 4.0 | 169.00 EUR |
 | [We-Vibe Melt](/products/we-vibe-melt/) | Air-pulse (app) | 4.0 | 149.00 EUR |
@@ -36,7 +37,9 @@ This is the "contactless" category: devices that stimulate the clitoris without 
 
 **If you want focused sonic at the best price:** the [LELO Sona 2](/products/lelo-sona-2/). It is our top sonic pick, compact at 125 g and fully waterproof, with a documented 60 dB maximum that is honest but audible.
 
-**If you want concentrated air-pulse and the quietest operation:** the [Womanizer Premium 2](/products/womanizer-premium-2/). Its Smart Silence only runs the motor on skin contact, the runtime is the longest in the category, and it carries a five-year warranty, which is why it holds 4.5 despite the 179 EUR price.
+**If you want the flagship air-pulse and the longest runtime:** the [Womanizer Next](/products/womanizer-next/). 3D Pleasure Air with Climax Control, 14 levels, Smart Silence, Afterglow and Autopilot, with a documented 240-minute runtime, the longest of any device we have reviewed, and a 5-year warranty. It is the priciest here at 209 EUR.
+
+**If you want concentrated air-pulse and the quietest operation:** the [Womanizer Premium 2](/products/womanizer-premium-2/). Its Smart Silence only runs the motor on skin contact, its runtime is among the longest in the category, and it carries a five-year warranty, which is why it holds 4.5 despite the 179 EUR price.
 
 **If you want air-pulse and a premium G-spot vibrator in one:** the [Womanizer Duo 2](/products/womanizer-duo-2/). It pairs Womanizer's Pleasure Air clitoral head with an insertable G-spot motor, each independently controlled, plus Smart Silence and a 5-year warranty. It is the priciest here at 209 EUR, which is why it rates 4.0 rather than higher against the cheaper single-purpose leaders.
 

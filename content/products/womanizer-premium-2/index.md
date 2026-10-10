@@ -118,3 +118,5 @@ Skip it if you have not yet established that air-pulse suits you — start with 
 Try both stimulation heads before concluding anything about the device. Head fit is the single biggest determinant of whether a pressure-wave toy works, and the smaller and larger cups produce meaningfully different results for different anatomies.
 
 Clean both heads separately after use and let them dry fully before refitting. Keep the USB cable with the device given that no adaptor is supplied. Save proof of purchase and register the product: five years is long enough that the retailer record will be hard to reconstruct if you need to claim, and the warranty is one of the clearer reasons to buy this rather than a cheaper alternative.
+
+The full Womanizer line-up, with the Next and the Duo 2, is on the [Womanizer reviews hub](/womanizer-reviews/).
