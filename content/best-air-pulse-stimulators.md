@@ -18,7 +18,7 @@ faq:
 
 ## Best Air-Pulse & Sonic Clitoral Stimulators
 
-This is the "contactless" category: devices that stimulate the clitoris without vibrating against it, either by pulsing air (air-pulse) or by resonating sound waves (sonic). It is the fastest-growing style of clitoral stimulator, and it is the one people most often ask about by brand name. Here are the nine we have reviewed, ranked by our rating with the verified manufacturer price.
+This is the "contactless" category: devices that stimulate the clitoris without vibrating against it, either by pulsing air (air-pulse) or by resonating sound waves (sonic). It is the fastest-growing style of clitoral stimulator, and it is the one people most often ask about by brand name. Here are the ten we have reviewed, ranked by our rating with the verified manufacturer price.
 
 | Stimulator | Method | Rating | Price |
 |---|---|---|---|
@@ -31,6 +31,7 @@ This is the "contactless" category: devices that stimulate the clitoris without 
 | [Dame Aer](/products/dame-aer/) | Air-pulse (compact) | 4.0 | 125.00 USD |
 | [Satisfyer Pro 2](/products/satisfyer-pro-2/) | Air-pulse | 3.5 | 69.95 EUR |
 | [Satisfyer Curvy Trinity 3](/products/satisfyer-curvy/) | Air-pulse (3-in-1) | 3.5 | 59.95 EUR |
+| [Womanizer Starlet 3](/products/womanizer-starlet-3/) | Air-pulse (entry) | 3.5 | 69.00 EUR |
 
 ### How to pick within the category
 
@@ -51,5 +52,7 @@ This is the "contactless" category: devices that stimulate the clitoris without 
 **If you just want to try air-pulse cheaply:** the [Satisfyer Pro 2](/products/satisfyer-pro-2/). Louder and with a shorter runtime, but at 69.95 EUR with a 15-year warranty it is the low-risk way to find out whether the sensation works for you.
 
 **If you want air-pulse and an insertable in one budget device:** the [Satisfyer Curvy Trinity 3](/products/satisfyer-curvy/). It is a 3-in-1 that adds G-spot vibration to the air-pulse at a 59.95 EUR list price with the same 15-year warranty, the cheapest way to get both sensations, though its spec sheet is thin and it was out of stock at the manufacturer when checked.
+
+**If you want the genuine Womanizer mechanism at the lowest price:** the [Womanizer Starlet 3](/products/womanizer-starlet-3/). At 69 EUR it is the best-documented budget air-pulse device here, with 6 levels, IPX7, exact dimensions and the same 5-year warranty as the flagships, held back only by a 30-minute runtime, the shortest in the catalogue.
 
 The head-to-heads worth reading if you are deciding: [Womanizer Premium 2 vs Satisfyer Pro 2](/womanizer-premium-2-vs-satisfyer-pro-2/) for air-pulse at both price points, [LELO Sona 2 vs Womanizer Premium 2](/lelo-sona-2-vs-womanizer-premium-2/) for sonic against air-pulse, [LELO Sona 2 vs LELO Sila](/lelo-sona-2-vs-lelo-sila/) for focused against gentle sonic, and [LELO Enigma vs LELO Sona 2](/lelo-enigma-vs-lelo-sona-2/) if you are weighing adding internal stimulation. For the whole catalogue, see the [best-of 2026 ranking](/best-vibrators-2026/).

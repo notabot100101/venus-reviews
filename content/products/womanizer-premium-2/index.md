@@ -1,4 +1,5 @@
 ---
+sku: "womanizer-premium-2"
 draft: false
 title: "Womanizer Premium 2"
 seo_title: "Womanizer Premium 2 - Venus Reviews"

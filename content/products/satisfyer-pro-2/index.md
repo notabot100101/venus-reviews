@@ -1,4 +1,5 @@
 ---
+sku: "satisfyer-pro-2"
 draft: false
 title: "Satisfyer Pro 2"
 seo_title: "Satisfyer Pro 2 - Venus Reviews"

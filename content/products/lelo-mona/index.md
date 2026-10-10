@@ -1,4 +1,5 @@
 ---
+sku: "lelo-mona"
 draft: false
 title: "Lelo Mona"
 seo_description: "Lelo Mona 2 review covering G-spot vibrator fit, silicone and ABS materials, waterproof design, noise notes, and how it compares with other premium toys."

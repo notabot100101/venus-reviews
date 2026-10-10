@@ -168,6 +168,7 @@
   </nav>
 
   {{ partial "related-reviews.html" . }}
+  {{ partial "listed-in.html" . }}
 </article>
 
 {{- if and .Params.schema_product .Params.seo_description }}
@@ -182,6 +183,31 @@
 {{- $review = merge $review (dict "datePublished" $reviewDate "dateModified" $reviewDate) }}
 {{- end }}
 {{- $schema = merge $schema (dict "review" $review) }}
+{{- /* 2026-10-10: sku, brand and offers added so Product rich results (price snippets) become
+       eligible. brand is inferred from the sku prefix; offers are emitted ONLY for front-matter
+       offer rows that carry a documented numeric price (the manufacturer row), never for
+       retailer rows with price null. availability mirrors the row's `available` flag. */}}
+{{- $sku := $.Params.sku | default "" }}
+{{- with $sku }}{{ $schema = merge $schema (dict "sku" .) }}{{ end }}
+{{- $brand := "" }}
+{{- if hasPrefix $sku "we-vibe-" }}{{ $brand = "We-Vibe" }}
+{{- else if hasPrefix $sku "fun-factory-" }}{{ $brand = "Fun Factory" }}
+{{- else if hasPrefix $sku "lelo-" }}{{ $brand = "LELO" }}
+{{- else if hasPrefix $sku "womanizer-" }}{{ $brand = "Womanizer" }}
+{{- else if hasPrefix $sku "satisfyer-" }}{{ $brand = "Satisfyer" }}
+{{- else if hasPrefix $sku "dame-" }}{{ $brand = "Dame" }}
+{{- else if hasPrefix $sku "lovehoney-" }}{{ $brand = "Lovehoney" }}
+{{- end }}
+{{- with $brand }}{{ $schema = merge $schema (dict "brand" (dict "@type" "Brand" "name" .)) }}{{ end }}
+{{- $offers := slice }}
+{{- range $.Params.offers }}
+  {{- if and .price (ne .price "") }}
+    {{- $o := dict "@type" "Offer" "price" (printf "%.2f" (float .price)) "priceCurrency" (.currency | default "EUR") "availability" (cond (eq .available true) "https://schema.org/InStock" "https://schema.org/OutOfStock") "seller" (dict "@type" "Organization" "name" .retailer) }}
+    {{- with .url }}{{ $o = merge $o (dict "url" .) }}{{ end }}
+    {{- $offers = $offers | append $o }}
+  {{- end }}
+{{- end }}
+{{- if gt (len $offers) 0 }}{{ $schema = merge $schema (dict "offers" $offers) }}{{ end }}
 {{- /* Editorial ratings (2026-08-30, Paul-approved direction): product pages now
        carry a Venus Editorial Rating in half-point steps. The rating is Venus's
        own transparent editorial score from documented manufacturer specifications,

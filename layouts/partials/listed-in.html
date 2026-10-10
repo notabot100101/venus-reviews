@@ -1,0 +1,29 @@
+{{- /* "Featured in" — automatic product→hub back-links.
+       Lists every non-product page (hubs, category guides, comparisons) whose markdown links
+       to this product, so the back-link graph maintains itself. Added 2026-10-10 after Claw's
+       read-only link audit found 78 hub→product listings with no link back. Nothing to hand-edit:
+       add a product to a hub and the hub appears here on the next build. */ -}}
+{{- $me := .RelPermalink -}}
+{{- $hits := slice -}}
+{{- range where site.RegularPages "Section" "ne" "products" -}}
+  {{- if in .RawContent $me -}}
+    {{- $hits = $hits | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- with $hits -}}
+<nav class="listed-in" aria-label="Guides and comparisons featuring this product">
+  <h3>Featured in</h3>
+  <ul>
+  {{- range sort . "Title" }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{- end }}
+  </ul>
+</nav>
+<style>
+  .listed-in { margin: 2rem 0 1rem; padding: 1rem 1.25rem; border: 1px solid var(--color-border, rgba(255,255,255,0.12)); border-radius: 10px; }
+  .listed-in h3 { margin: 0 0 .5rem; font-size: 1rem; }
+  .listed-in ul { margin: 0; padding-left: 1.1rem; columns: 2; column-gap: 1.5rem; }
+  .listed-in li { break-inside: avoid; margin: .2rem 0; }
+  @media (max-width: 640px) { .listed-in ul { columns: 1; } }
+</style>
+{{- end -}}
