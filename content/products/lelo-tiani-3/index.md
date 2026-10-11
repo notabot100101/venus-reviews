@@ -5,6 +5,18 @@ seo_description: "LELO Tiani 3 review: a wearable couples' massager in body-safe
 schema_product: true
 description: "Wearable couples' massager in body-safe silicone, worn internally and externally during partnered sex, with a motion-sensitive SenseMotion remote."
 sku: "lelo-tiani-3"
+specs:
+  material: "body-safe silicone + ABS, ISO 3533 certified, 78 x 44"
+  waterproof: "100% waterproof"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: null
+  warranty_years: 2
+  weight_g: 42
+  dims_mm: "78 x 44.5 x 32 mm"
+  app: null
+  noise_db: 50
 menu: "main"
 weight: 170
 draft: false

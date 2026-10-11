@@ -5,6 +5,18 @@ seo_description: "Fun Factory Stronic G review: a hands-free G-spot pulsator tha
 schema_product: true
 description: "Hands-free G-spot pulsator that thrusts back and forth rather than vibrating, with 10 thrust programmes, IPX7 waterproofing and USB-C charging."
 sku: "fun-factory-stronic"
+specs:
+  material: "ABS Kunststoff"
+  waterproof: "IPX7"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: null
+  warranty_years: null
+  weight_g: 295
+  dims_mm: null
+  app: null
+  noise_db: null
 category: "g-spot"
 menu: "main"
 weight: 173

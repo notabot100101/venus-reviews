@@ -1,5 +1,17 @@
 ---
 sku: "lelo-mona"
+specs:
+  material: "body-safe silicone and ABS plastic with a matte finish"
+  waterproof: "100% waterproof"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: 6
+  warranty_years: 2
+  weight_g: 128
+  dims_mm: null
+  app: null
+  noise_db: 50
 draft: false
 title: "Lelo Mona"
 seo_description: "Lelo Mona 2 review covering G-spot vibrator fit, silicone and ABS materials, waterproof design, noise notes, and how it compares with other premium toys."

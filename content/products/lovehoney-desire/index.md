@@ -6,6 +6,18 @@ schema_product: true
 description: "Mid-range rabbit vibrator with dual motors, rechargeable power, and broad mainstream appeal."
 category: "dual-action"
 sku: "lovehoney-desire"
+specs:
+  material: null
+  waterproof: "waterproof"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: null
+  warranty_years: null
+  weight_g: null
+  dims_mm: null
+  app: null
+  noise_db: null
 menu: "main"
 recoveryVersion: "2026.07.11-Batch3"
 weight: 120

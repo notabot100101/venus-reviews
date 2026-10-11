@@ -5,6 +5,18 @@ seo_description: "LELO ORA 3 review covering rotating oral-stimulation design, s
 schema_product: true
 description: "Rotating oral-stimulation simulator with vibration support, waterproof build, and a compact premium format."
 sku: "lelo-ora-3"
+specs:
+  material: "body-safe silicone and ABS plastic, with a matte and glossy finish"
+  waterproof: null
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: null
+  warranty_years: null
+  weight_g: 130
+  dims_mm: "83.5 x 88 x 43.5 mm"
+  app: null
+  noise_db: 50
 category: "external-stimulation"
 menu: "main"
 weight: 162

@@ -4,6 +4,18 @@ seo_description: "We Vibe Chorus review — app-enabled dual-stimulation couples
 schema_product: true
 description: "Synchronized dual-action stimulator for couples"
 sku: "we-vibe-chorus"
+specs:
+  material: "body-safe silicone, produced without phthalates, BPA, or latex"
+  waterproof: "IPX7"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: null
+  warranty_years: null
+  weight_g: null
+  dims_mm: null
+  app: null
+  noise_db: null
 category: "dual-action"
 draft: false
 recoveryVersion: "2026.07.09-Phase0"

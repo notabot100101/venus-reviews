@@ -4,6 +4,18 @@ seo_description: "Lelo Enigma review covering dual sonic and G-spot stimulation,
 schema_product: true
 description: "Premium pleasure device with advanced sonic and G-spot technology"
 sku: "lelo-enigma"
+specs:
+  material: "body-safe silicone and ABS plastic, with listed colors of Deep Rose and Black"
+  waterproof: "100% waterproof"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: null
+  warranty_years: 2
+  weight_g: 196
+  dims_mm: null
+  app: null
+  noise_db: null
 draft: false
 recoveryVersion: "2026.07.09-Phase0"
 weight: 40

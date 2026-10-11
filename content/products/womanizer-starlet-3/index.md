@@ -5,6 +5,18 @@ seo_description: "Womanizer Starlet 3 review: the entry-level Pleasure Air clito
 schema_product: true
 description: "Entry-level Pleasure Air clitoral stimulator with 6 intensity levels, IPX7 waterproofing and a 5-year warranty, at Womanizer's lowest price."
 sku: "womanizer-starlet-3"
+specs:
+  material: "body-safe silicone"
+  waterproof: "IPX7"
+  runtime_min: 30
+  charge_min: 30
+  levels: 6
+  patterns: null
+  warranty_years: 5
+  weight_g: 80
+  dims_mm: "117 x 46 x 47 mm"
+  app: null
+  noise_db: null
 menu: "main"
 weight: 180
 draft: false

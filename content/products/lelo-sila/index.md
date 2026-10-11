@@ -4,6 +4,18 @@ seo_description: "LELO Sila review — gentle sonic clitoral massager with wide-
 schema_product: true
 description: "Gentle sonic clitoral massager — LELO's softer-paced counterpart to its more intense sonic range."
 sku: "lelo-sila"
+specs:
+  material: "body-safe silicone, ABS plastic\n- Colors: Pink, Lilac, Aqua\n- Sonic wave inten"
+  waterproof: "Waterproof"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: 8
+  warranty_years: null
+  weight_g: 105
+  dims_mm: null
+  app: null
+  noise_db: null
 category: "external-stimulation"
 menu: "main"
 weight: 165

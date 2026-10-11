@@ -5,6 +5,18 @@ seo_description: "LELO F1S V2 review: an app-connected automatic male masturbato
 schema_product: true
 description: "App-connected automatic male masturbator using SENSONIC sonic waves and dual motors, with sensor-based real-time feedback."
 sku: "lelo-f1s-v2"
+specs:
+  material: "body-safe\nsilicone + ABS + aluminum alloy"
+  waterproof: "100% waterproof"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: null
+  warranty_years: 2
+  weight_g: 285
+  dims_mm: null
+  app: null
+  noise_db: null
 menu: "main"
 weight: 169
 draft: false

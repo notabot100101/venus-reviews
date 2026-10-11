@@ -5,6 +5,18 @@ seo_description: "Dame Aer review: a compact air-pulse clitoral stimulator in me
 schema_product: true
 description: "Compact air-pulse clitoral stimulator in medical-grade silicone, with a flexible mouth, 5 intensity levels, 5 patterns and USB-C charging."
 sku: "dame-aer"
+specs:
+  material: "medical-grade\n100% body-safe silicone"
+  waterproof: "waterproof"
+  runtime_min: null
+  charge_min: null
+  levels: 5
+  patterns: null
+  warranty_years: 3
+  weight_g: null
+  dims_mm: null
+  app: null
+  noise_db: null
 menu: "main"
 weight: 179
 draft: false

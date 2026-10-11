@@ -5,6 +5,18 @@ seo_description: "We-Vibe Tango X review — compact bullet vibrator with broad-
 schema_product: true
 description: "Compact bullet vibrator with broad-motor rumble."
 sku: "we-vibe-tango-x"
+specs:
+  material: "Body-safe silicone with grip texture\n- Tapered tip for precision contact\n- USB"
+  waterproof: "IPX7"
+  runtime_min: null
+  charge_min: null
+  levels: 8
+  patterns: null
+  warranty_years: 2
+  weight_g: null
+  dims_mm: null
+  app: null
+  noise_db: null
 category: "external-stimulation"
 menu: "main"
 weight: 160

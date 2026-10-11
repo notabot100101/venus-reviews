@@ -5,6 +5,18 @@ seo_description: "Womanizer Next review: the flagship 3D Pleasure Air clitoral s
 schema_product: true
 description: "Flagship external air-pulse stimulator using 3D Pleasure Air with Climax Control, Smart Silence and Autopilot, in body-safe silicone with a 240-minute runtime."
 sku: "womanizer-next"
+specs:
+  material: "body-safe soft-touch silicone, phthalate-, BPA- and latex-free"
+  waterproof: "IPX7"
+  runtime_min: 240
+  charge_min: 120
+  levels: 14
+  patterns: null
+  warranty_years: 5
+  weight_g: 480
+  dims_mm: "17.1 x 5.4 x 5.7 cm"
+  app: null
+  noise_db: null
 menu: "main"
 weight: 177
 draft: false

@@ -5,6 +5,18 @@ seo_description: "We-Vibe Jive review: an app-controlled, wearable egg vibrator 
 schema_product: true
 description: "App-controlled, wearable egg vibrator with a bundled remote control, worn internally for hands-free, partner-directed play at home or in public."
 sku: "we-vibe-jive"
+specs:
+  material: "body-safe silicone, explicitly phthalate- and BPA-free and made without latex"
+  waterproof: "IPX7"
+  runtime_min: null
+  charge_min: 90
+  levels: 10
+  patterns: null
+  warranty_years: 2
+  weight_g: null
+  dims_mm: null
+  app: null
+  noise_db: null
 menu: "main"
 weight: 178
 draft: false

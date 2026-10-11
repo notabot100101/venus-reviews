@@ -1,5 +1,17 @@
 ---
 sku: "womanizer-premium-2"
+specs:
+  material: "body-safe silicone made without phthalates, BPA or latex — a more explicit exc"
+  waterproof: "IPX7"
+  runtime_min: null
+  charge_min: 120
+  levels: 14
+  patterns: null
+  warranty_years: null
+  weight_g: 141.4
+  dims_mm: "155 x 50 x 35 mm"
+  app: null
+  noise_db: null
 draft: false
 title: "Womanizer Premium 2"
 seo_title: "Womanizer Premium 2 - Venus Reviews"

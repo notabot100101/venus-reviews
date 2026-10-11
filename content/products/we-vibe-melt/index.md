@@ -5,6 +5,18 @@ seo_description: "We-Vibe Melt review: an app-controlled Pleasure Air clitoral s
 schema_product: true
 description: "App-controlled Pleasure Air clitoral stimulator in body-safe silicone, with gentle suction and pulsing waves, usable solo or partner-controlled."
 sku: "we-vibe-melt"
+specs:
+  material: "body-safe\nsilicone (phthalate/BPA/latex-free), 100% waterproof IPX7, 126 x 24"
+  waterproof: "IPX7"
+  runtime_min: null
+  charge_min: 90
+  levels: 12
+  patterns: null
+  warranty_years: 2
+  weight_g: null
+  dims_mm: "126 x 24 x 10 mm"
+  app: true
+  noise_db: null
 menu: "main"
 weight: 166
 draft: false

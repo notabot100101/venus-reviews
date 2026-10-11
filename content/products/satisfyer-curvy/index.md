@@ -5,6 +5,18 @@ seo_description: "Satisfyer Curvy Trinity 3 review: a budget 3-in-1 that combine
 schema_product: true
 description: "Budget 3-in-1 combining an insertable G-spot vibrator with an air-pulse clitoral stimulator, in body-safe silicone with a documented 15-year warranty."
 sku: "satisfyer-curvy"
+specs:
+  material: "body-safe silicone + ABS"
+  waterproof: "IPX7"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: null
+  warranty_years: 15
+  weight_g: 138.55
+  dims_mm: null
+  app: null
+  noise_db: null
 menu: "main"
 weight: 174
 draft: false

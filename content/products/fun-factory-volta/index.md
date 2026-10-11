@@ -8,6 +8,18 @@ images:
   - "/images/products/fun-factory-volta/front.webp"
 description: "Twin-tip stimulator for precise external contact and a more exploratory feel."
 sku: "fun-factory-volta"
+specs:
+  material: null
+  waterproof: "IPX7"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: 6
+  warranty_years: null
+  weight_g: 190
+  dims_mm: null
+  app: null
+  noise_db: null
 draft: false
 recoveryVersion: "2026.07.09-Phase1"
 weight: 90

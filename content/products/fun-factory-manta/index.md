@@ -8,6 +8,18 @@ images:
   - "/images/products/fun-factory-manta/front.webp"
 description: "Flexible external stimulator with a distinctive wraparound shape and strong material quality."
 sku: "fun-factory-manta"
+specs:
+  material: null
+  waterproof: "IPX7"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: null
+  warranty_years: null
+  weight_g: 287
+  dims_mm: null
+  app: null
+  noise_db: null
 draft: false
 recoveryVersion: "2026.07.09-Phase1"
 weight: 80

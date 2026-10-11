@@ -5,6 +5,18 @@ seo_description: "LELO Tor 3 review: a vibrating couples' ring in body-safe sili
 schema_product: true
 description: "App-controlled vibrating couples' ring in body-safe silicone, worn during partnered sex to stimulate both partners."
 sku: "lelo-tor-3"
+specs:
+  material: "body-safe silicone + ABS, 46"
+  waterproof: "100% waterproof"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: null
+  warranty_years: 2
+  weight_g: null
+  dims_mm: "46.7 x 22.2 x 60 mm"
+  app: null
+  noise_db: 60
 menu: "main"
 weight: 168
 draft: false

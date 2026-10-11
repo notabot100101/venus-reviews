@@ -4,6 +4,18 @@ description: "Sleek, powerful personal massager with whisper-quiet performance"
 seo_description: "Dame Eva II review covering hands-free fit, partner use, comfort tradeoffs, safety notes, and how it compares with other compact wearable vibrators."
 schema_product: true
 sku: "dame-eva-ii"
+specs:
+  material: null
+  waterproof: "waterproof"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: null
+  warranty_years: null
+  weight_g: 397
+  dims_mm: null
+  app: null
+  noise_db: null
 draft: false
 recoveryVersion: "2026.07.09-Phase0"
 weight: 50

@@ -5,6 +5,18 @@ seo_description: "We-Vibe Nova 2 review: an app-controlled rabbit vibrator with 
 schema_product: true
 description: "App-controlled dual-stimulation rabbit in body-safe silicone, with a flexible external arm that keeps clitoral contact and an internal G-spot shaft."
 sku: "we-vibe-nova-2"
+specs:
+  material: "body-safe silicone (phthalate/BPA/latex-free), 2-year warranty, colour Fuchsia"
+  waterproof: "IPX7"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: null
+  warranty_years: 2
+  weight_g: null
+  dims_mm: "217 x 85 x 39 mm"
+  app: true
+  noise_db: null
 menu: "main"
 weight: 171
 draft: false

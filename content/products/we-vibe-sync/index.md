@@ -9,6 +9,18 @@ images:
 description: "Adjustable couples vibrator with flexible fit, app control, and travel-friendly charging."
 category: "dual-action"
 sku: "we-vibe-sync"
+specs:
+  material: "body-safe silicone exterior, dimensions as 74"
+  waterproof: "IPX7"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: null
+  warranty_years: null
+  weight_g: null
+  dims_mm: null
+  app: null
+  noise_db: null
 draft: false
 recoveryVersion: "2026.07.09-Phase1"
 weight: 70

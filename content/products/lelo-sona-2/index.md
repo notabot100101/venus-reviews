@@ -4,6 +4,18 @@ seo_description: "Lelo Sona 2 review — focused sonic-wave stimulation, silicon
 schema_product: true
 description: "Compact premium sonic-wave stimulator with a focused sensation profile and travel-friendly build."
 sku: "lelo-sona-2"
+specs:
+  material: "body-safe silicone and ABS plastic"
+  waterproof: "100% waterproof"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: 12
+  warranty_years: 2
+  weight_g: 125
+  dims_mm: null
+  app: null
+  noise_db: 60
 menu: "main"
 recoveryVersion: "2026.07.11-Batch3"
 weight: 110

@@ -5,6 +5,18 @@ seo_description: "Womanizer Liberty 2 review: the compact travel Pleasure Air st
 schema_product: true
 description: "Compact travel Pleasure Air clitoral stimulator with a magnetic hygienic cover and lock function, 8 intensity levels and a 120-minute runtime."
 sku: "womanizer-liberty"
+specs:
+  material: "body-safe silicone"
+  waterproof: "IPX7"
+  runtime_min: 120
+  charge_min: 60
+  levels: 8
+  patterns: null
+  warranty_years: 5
+  weight_g: 90
+  dims_mm: "105 x 50 x 40 mm"
+  app: null
+  noise_db: null
 menu: "main"
 weight: 182
 draft: false

@@ -5,6 +5,18 @@ seo_description: "We-Vibe Match review: a remote-controlled worn couples' vibrat
 schema_product: true
 description: "Remote-controlled worn couples' vibrator in body-safe silicone, held internally against the G-spot and externally against the clitoris, with 11 named vibration modes."
 sku: "we-vibe-match"
+specs:
+  material: "body-safe silicone,\nphthalate- and BPA-free, latex-free"
+  waterproof: "100% waterproof"
+  runtime_min: null
+  charge_min: 90
+  levels: null
+  patterns: 11
+  warranty_years: 2
+  weight_g: null
+  dims_mm: "76.5 x 29.7 x 46.4 mm"
+  app: null
+  noise_db: null
 menu: "main"
 weight: 181
 draft: false

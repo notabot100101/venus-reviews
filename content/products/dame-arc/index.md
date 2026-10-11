@@ -5,6 +5,18 @@ seo_description: "Dame Arc review: a curved G-spot and clitoral vibrator in medi
 schema_product: true
 description: "Curved G-spot and clitoral vibrator in medical-grade silicone, with an ergonomic handle, 5 intensity levels and 5 patterns."
 sku: "dame-arc"
+specs:
+  material: "medical-grade (100% body-safe) silicone"
+  waterproof: "waterproof"
+  runtime_min: null
+  charge_min: null
+  levels: 5
+  patterns: null
+  warranty_years: 3
+  weight_g: null
+  dims_mm: null
+  app: null
+  noise_db: null
 menu: "main"
 weight: 176
 draft: false

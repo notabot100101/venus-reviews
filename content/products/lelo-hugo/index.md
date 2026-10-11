@@ -4,6 +4,18 @@ seo_description: "Lelo Hugo review covering prostate-massager fit, remote contro
 schema_product: true
 description: "Premium prostate massager with a wellness-focused shape, strong motor, and quiet waterproof design."
 sku: "lelo-hugo"
+specs:
+  material: "body-safe silicone and ABS plastic"
+  waterproof: "100% waterproof"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: null
+  warranty_years: 2
+  weight_g: 116
+  dims_mm: null
+  app: null
+  noise_db: 50
 menu: "main"
 recoveryVersion: "2026.07.11-Batch3"
 weight: 100

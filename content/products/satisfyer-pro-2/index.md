@@ -1,5 +1,18 @@
 ---
 sku: "satisfyer-pro-2"
+specs:
+  material: "medical-grade silicone with a seamless soft-touch finish over ABS plastic componen"
+  waterproof: "IPX7"
+  runtime_min: null
+  charge_min: null
+  levels: null
+  patterns: null
+  warranty_years: null
+  weight_g: 203
+  dims_mm: null
+  app: null
+  noise_db: null
+specs_note: "App control is variant-dependent: the Pro 2 Generation 3 ships in a Bluetooth app-controlled version and a non-Bluetooth version."
 draft: false
 title: "Satisfyer Pro 2"
 seo_title: "Satisfyer Pro 2 - Venus Reviews"
