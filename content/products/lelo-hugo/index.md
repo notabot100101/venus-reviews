@@ -1,5 +1,5 @@
 ---
-title: "Lelo Hugo"
+title: "LELO Hugo"
 seo_description: "Lelo Hugo review covering prostate-massager fit, remote control, materials, noise, waterproof design, and how it compares with other premium wellness devices."
 schema_product: true
 description: "Premium prostate massager with a wellness-focused shape, strong motor, and quiet waterproof design."

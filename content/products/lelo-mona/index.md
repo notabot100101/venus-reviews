@@ -13,7 +13,7 @@ specs:
   app: null
   noise_db: 50
 draft: false
-title: "Lelo Mona"
+title: "LELO Mona"
 seo_description: "Lelo Mona 2 review covering G-spot vibrator fit, silicone and ABS materials, waterproof design, noise notes, and how it compares with other premium toys."
 schema_product: true
 image: "/images/products/lelo-mona/front.webp"

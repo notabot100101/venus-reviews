@@ -1,5 +1,5 @@
 ---
-title: "Lelo Sona 2"
+title: "LELO Sona 2"
 seo_description: "Lelo Sona 2 review — focused sonic-wave stimulation, silicone/ABS build, waterproof, travel-friendly. Compare with Sila and other compact external stimulators."
 schema_product: true
 description: "Compact premium sonic-wave stimulator with a focused sensation profile and travel-friendly build."

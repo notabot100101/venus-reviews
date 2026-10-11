@@ -1,5 +1,5 @@
 ---
-title: "We Vibe Sync"
+title: "We-Vibe Sync"
 seo_title: "We-Vibe Sync - Venus Reviews"
 seo_description: "We-Vibe Sync review — adjustable couples vibrator with app control, IPX7 waterproofing and USB charging. Compare with We-Vibe Chorus."
 schema_product: true

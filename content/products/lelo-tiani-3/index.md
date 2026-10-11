@@ -6,7 +6,7 @@ schema_product: true
 description: "Wearable couples' massager in body-safe silicone, worn internally and externally during partnered sex, with a motion-sensitive SenseMotion remote."
 sku: "lelo-tiani-3"
 specs:
-  material: "body-safe silicone + ABS, ISO 3533 certified, 78 x 44"
+  material: "FDA-approved body-safe silicone + ABS, ISO 3533 certified"
   waterproof: "100% waterproof"
   runtime_min: null
   charge_min: null

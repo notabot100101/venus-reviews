@@ -6,7 +6,7 @@ schema_product: true
 description: "App-controlled vibrating couples' ring in body-safe silicone, worn during partnered sex to stimulate both partners."
 sku: "lelo-tor-3"
 specs:
-  material: "body-safe silicone + ABS, 46"
+  material: "body-safe silicone + ABS"
   waterproof: "100% waterproof"
   runtime_min: null
   charge_min: null

@@ -1,11 +1,11 @@
 ---
-title: "Lelo Enigma"
+title: "LELO Enigma"
 seo_description: "Lelo Enigma review covering dual sonic and G-spot stimulation, fit sensitivity, materials, warranty notes, and how it compares with other premium vibrators."
 schema_product: true
 description: "Premium pleasure device with advanced sonic and G-spot technology"
 sku: "lelo-enigma"
 specs:
-  material: "body-safe silicone and ABS plastic, with listed colors of Deep Rose and Black"
+  material: "body-safe silicone and ABS plastic, extra-soft"
   waterproof: "100% waterproof"
   runtime_min: null
   charge_min: null
