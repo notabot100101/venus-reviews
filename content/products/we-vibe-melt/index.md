@@ -6,7 +6,7 @@ schema_product: true
 description: "App-controlled Pleasure Air clitoral stimulator in body-safe silicone, with gentle suction and pulsing waves, usable solo or partner-controlled."
 sku: "we-vibe-melt"
 specs:
-  material: "body-safe\nsilicone (phthalate/BPA/latex-free), 100% waterproof IPX7, 126 x 24"
+  material: "body-safe silicone, explicitly free of phthalates, BPA and latex"
   waterproof: "IPX7"
   runtime_min: null
   charge_min: 90

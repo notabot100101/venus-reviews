@@ -6,7 +6,7 @@ schema_product: true
 description: "Remote-controlled worn couples' vibrator in body-safe silicone, held internally against the G-spot and externally against the clitoris, with 11 named vibration modes."
 sku: "we-vibe-match"
 specs:
-  material: "body-safe silicone,\nphthalate- and BPA-free, latex-free"
+  material: "body-safe silicone"
   waterproof: "100% waterproof"
   runtime_min: null
   charge_min: 90

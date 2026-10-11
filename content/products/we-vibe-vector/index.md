@@ -6,7 +6,7 @@ schema_product: true
 description: "App- and remote-controlled dual prostate and perineum massager in body-safe silicone, sold by We-Vibe as the current Vector+ revision."
 sku: "we-vibe-vector"
 specs:
-  material: "body-safe silicone free of\nphthalates and BPA, latex-free"
+  material: "body-safe silicone"
   waterproof: null
   runtime_min: null
   charge_min: null

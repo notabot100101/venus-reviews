@@ -6,7 +6,7 @@ schema_product: true
 description: "Compact bullet vibrator with broad-motor rumble."
 sku: "we-vibe-tango-x"
 specs:
-  material: "Body-safe silicone with grip texture\n- Tapered tip for precision contact\n- USB"
+  material: "Body-safe silicone with grip texture"
   waterproof: "IPX7"
   runtime_min: null
   charge_min: null

@@ -5,7 +5,7 @@ schema_product: true
 description: "Gentle sonic clitoral massager — LELO's softer-paced counterpart to its more intense sonic range."
 sku: "lelo-sila"
 specs:
-  material: "body-safe silicone, ABS plastic\n- Colors: Pink, Lilac, Aqua\n- Sonic wave inten"
+  material: "body-safe silicone, ABS plastic"
   waterproof: "Waterproof"
   runtime_min: null
   charge_min: null

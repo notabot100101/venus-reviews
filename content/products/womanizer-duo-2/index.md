@@ -6,7 +6,7 @@ schema_product: true
 description: "Dual-motor rabbit toy combining contactless Pleasure Air clitoral stimulation with an insertable G-spot vibrator, controlled independently, with Smart Silence skin-contact activation."
 sku: "womanizer-duo-2"
 specs:
-  material: "body-safe\nsilicone (phthalate-free, BPA-free, latex-free), stimulation head bo"
+  material: "body-safe silicone (phthalate-free, BPA-free, latex-free)"
   waterproof: "IPX7"
   runtime_min: 120
   charge_min: 120

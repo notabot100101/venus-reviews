@@ -6,7 +6,7 @@ schema_product: true
 description: "App-connected automatic male masturbator using SENSONIC sonic waves and dual motors, with sensor-based real-time feedback."
 sku: "lelo-f1s-v2"
 specs:
-  material: "body-safe\nsilicone + ABS + aluminum alloy"
+  material: "body-safe silicone with ABS plastic and an aluminium alloy, in a mat"
   waterproof: "100% waterproof"
   runtime_min: null
   charge_min: null
