@@ -18,7 +18,7 @@ faq:
 
 ## Best Air-Pulse & Sonic Clitoral Stimulators
 
-This is the "contactless" category: devices that stimulate the clitoris without vibrating against it, either by pulsing air (air-pulse) or by resonating sound waves (sonic). It is the fastest-growing style of clitoral stimulator, and it is the one people most often ask about by brand name. Here are the ten we have reviewed, ranked by our rating with the verified manufacturer price.
+This is the "contactless" category: devices that stimulate the clitoris without vibrating against it, either by pulsing air (air-pulse) or by resonating sound waves (sonic). It is the fastest-growing style of clitoral stimulator, and it is the one people most often ask about by brand name. Here are the eleven we have reviewed, ranked by our rating with the verified manufacturer price.
 
 | Stimulator | Method | Rating | Price |
 |---|---|---|---|
@@ -29,6 +29,7 @@ This is the "contactless" category: devices that stimulate the clitoris without 
 | [We-Vibe Melt](/products/we-vibe-melt/) | Air-pulse (app) | 4.0 | 149.00 EUR |
 | [Womanizer Duo 2](/products/womanizer-duo-2/) | Air-pulse (3-in-1) | 4.0 | 209.00 EUR |
 | [Dame Aer](/products/dame-aer/) | Air-pulse (compact) | 4.0 | 125.00 USD |
+| [Womanizer Liberty 2](/products/womanizer-liberty/) | Air-pulse (travel) | 4.0 | 99.00 EUR |
 | [Satisfyer Pro 2](/products/satisfyer-pro-2/) | Air-pulse | 3.5 | 69.95 EUR |
 | [Satisfyer Curvy Trinity 3](/products/satisfyer-curvy/) | Air-pulse (3-in-1) | 3.5 | 59.95 EUR |
 | [Womanizer Starlet 3](/products/womanizer-starlet-3/) | Air-pulse (entry) | 3.5 | 69.00 EUR |
@@ -48,6 +49,8 @@ This is the "contactless" category: devices that stimulate the clitoris without 
 **If you want air-pulse with app and partner control:** the [We-Vibe Melt](/products/we-vibe-melt/). It is the only device here built for remote and long-distance control through an app, in a compact, fully waterproof body, which makes it the pick for couples who want the air-pulse sensation. Its shorter two-year warranty and unstated noise figure are the trade-offs against the Womanizer.
 
 **If you want compact air-pulse from a body-safe brand:** the [Dame Aer](/products/dame-aer/). Medical-grade silicone, a flexible mouth built to seal across anatomies, 5 levels and 5 patterns, USB-C and a 3-year warranty in a body about 118 mm tall. Note that Dame prices in US dollars (125 USD) and publishes no decibel figure behind its "whisper quiet" claim.
+
+**If you want air-pulse that travels:** the [Womanizer Liberty 2](/products/womanizer-liberty/). A magnetic hygienic cover and a lock function on the Pleasure Air mechanism, with 8 levels, IPX7, a documented 120-minute runtime, a published 160 mAh battery and the 5-year warranty, at 99 EUR.
 
 **If you just want to try air-pulse cheaply:** the [Satisfyer Pro 2](/products/satisfyer-pro-2/). Louder and with a shorter runtime, but at 69.95 EUR with a 15-year warranty it is the low-risk way to find out whether the sensation works for you.
 

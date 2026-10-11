@@ -1,8 +1,8 @@
 ---
 title: "We-Vibe Reviews"
-seo_title: "We-Vibe Reviews: All 7 Models Rated & Compared | Venus"
-seo_description: "Every We-Vibe product we have reviewed, rated and ranked: Chorus, Tango X, Nova 2, Melt, Jive, Vector+ and Sync, with verified EUR prices and who each one is for."
-description: "All seven We-Vibe models we have reviewed, ranked, with who each one suits."
+seo_title: "We-Vibe Reviews: All 8 Models Rated & Compared | Venus"
+seo_description: "Every We-Vibe product we have reviewed, rated and ranked: Chorus, Tango X, Nova 2, Melt, Jive, Match, Vector+ and Sync, with verified EUR prices and who each one is for."
+description: "All eight We-Vibe models we have reviewed, ranked, with who each one suits."
 slug: "we-vibe-reviews"
 date: 2026-10-06
 draft: false
@@ -18,7 +18,7 @@ faq:
 
 ## We-Vibe Reviews
 
-We-Vibe is best known for couples wearables, but the range we have reviewed also covers rabbit, compact external, contactless, prostate and wearable remote-controlled stimulation. All seven reviews are built from We-Vibe's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
+We-Vibe is best known for couples wearables, but the range we have reviewed also covers rabbit, compact external, contactless, prostate and wearable remote-controlled stimulation. All eight reviews are built from We-Vibe's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
 
 | Model | Rating | Price | Best for |
 |---|---|---|---|
@@ -27,6 +27,7 @@ We-Vibe is best known for couples wearables, but the range we have reviewed also
 | [We-Vibe Nova 2](/products/we-vibe-nova-2/) | 4.0 | 149.00 EUR | App-controlled rabbit (dual) |
 | [We-Vibe Melt](/products/we-vibe-melt/) | 4.0 | 149.00 EUR | App-controlled Pleasure Air |
 | [We-Vibe Jive](/products/we-vibe-jive/) | 4.0 | 129.00 EUR | Wearable egg, remote and app controlled |
+| [We-Vibe Match](/products/we-vibe-match/) | 4.0 | 139.00 EUR | Worn couples' vibrator, remote only |
 | [We-Vibe Vector+](/products/we-vibe-vector/) | 3.5 | 139.00 EUR | App/remote prostate massager |
 | [We-Vibe Sync](/products/we-vibe-sync/) | 3.5 | 159.00 EUR | Adjustable couples fit |
 
@@ -43,5 +44,7 @@ We-Vibe is best known for couples wearables, but the range we have reviewed also
 **For prostate stimulation**, the [Vector+](/products/we-vibe-vector/) is We-Vibe's dual prostate-and-perineum massager, controlled by button, remote or app. It is the catalogue's lower-priced prostate option against the fully documented [LELO Hugo](/products/lelo-hugo/).
 
 **For discreet wearable play**, the [Jive](/products/we-vibe-jive/) is We-Vibe's app- and remote-controlled egg: worn internally and controlled by a partner, in the room or at a distance, with a documented 4-hour runtime and IPX7 waterproofing. It sits alongside the worn couples devices on the [best couples' toys](/best-couples-toys/) page.
+
+**For a worn couples' vibrator without an app**, the [Match](/products/we-vibe-match/) is the remote-only C-shape: fully documented, 11 named modes, 100% waterproof and 139 EUR, the cheapest of the We-Vibe wearables, though it was out of stock on the manufacturer store when checked.
 
 Every model links to its full review with the complete specification and the retailers we list. For couples options across brands, see the [best couples' toys](/best-couples-toys/) ranking, and for the whole catalogue, the [best-of 2026 ranking](/best-vibrators-2026/).

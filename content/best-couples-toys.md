@@ -18,13 +18,14 @@ faq:
 
 ## Best Couples' Toys
 
-These are the devices built for two people at once: worn by one partner during sex so both feel the stimulation, or held in place to free up hands. It is a format where fit and anatomy matter more than with a solo toy, so the right pick depends as much on how it is worn as on the spec sheet. Here are the five we have reviewed, ranked by our rating with the verified manufacturer price.
+These are the devices built for two people at once: worn by one partner during sex so both feel the stimulation, or held in place to free up hands. It is a format where fit and anatomy matter more than with a solo toy, so the right pick depends as much on how it is worn as on the spec sheet. Here are the six we have reviewed, ranked by our rating with the verified manufacturer price.
 
 | Toy | Format | Rating | Price |
 |---|---|---|---|
 | [We-Vibe Chorus](/products/we-vibe-chorus/) | Worn wearable | 4.5 | 209.00 EUR |
 | [LELO Tor 3](/products/lelo-tor-3/) | Vibrating ring | 4.0 | 159.00 EUR |
 | [LELO Tiani 3](/products/lelo-tiani-3/) | Worn wearable + motion remote | 4.0 | 151.99 EUR |
+| [We-Vibe Match](/products/we-vibe-match/) | Worn wearable (remote only) | 4.0 | 139.00 EUR |
 | [We-Vibe Sync](/products/we-vibe-sync/) | Worn wearable (adjustable) | 3.5 | 159.00 EUR |
 | [Dame Eva II](/products/dame-eva-ii/) | Hands-free external | 3.5 | 129.00 EUR |
 
@@ -35,6 +36,8 @@ These are the devices built for two people at once: worn by one partner during s
 **If you want the simplest shared-vibration format:** the [LELO Tor 3](/products/lelo-tor-3/). A vibrating ring worn at the base is mechanically simpler than a worn internal-external device and easier to position, and the Tor 3 is documented as 100% waterproof with app control on top of its two buttons.
 
 **If you want a worn device with control at range:** the [LELO Tiani 3](/products/lelo-tiani-3/). Its SenseMotion remote is motion-sensitive with a documented 12 m wireless range, and at a documented 50 dB it is the quietest here. Note LELO does not document a waterproof rating for it.
+
+**If you want a worn wearable with a plain remote and no app:** the [We-Vibe Match](/products/we-vibe-match/). It is the cheapest We-Vibe wearable at 139 EUR, fully documented with 11 named modes and 100% waterproofing, controlled by a handheld remote only. It was out of stock on the manufacturer store when checked, so buy through a retailer.
 
 **If you want the same wearable format for less:** the [We-Vibe Sync](/products/we-vibe-sync/). It does the core couples job for 50 EUR under the Chorus, with a narrower materials disclosure, and it was out of stock on the manufacturer page when we checked, so confirm availability first.
 
