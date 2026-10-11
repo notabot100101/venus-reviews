@@ -8,8 +8,8 @@ sku: "we-vibe-vector"
 specs:
   material: "body-safe silicone"
   waterproof: null
-  runtime_min: null
-  charge_min: null
+  runtime_min: 120
+  charge_min: 90
   levels: null
   patterns: null
   warranty_years: 2

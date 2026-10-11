@@ -8,8 +8,8 @@ sku: "we-vibe-nova-2"
 specs:
   material: "body-safe silicone (phthalate/BPA/latex-free)"
   waterproof: "IPX7"
-  runtime_min: null
-  charge_min: null
+  runtime_min: 90
+  charge_min: 120
   levels: null
   patterns: null
   warranty_years: 2

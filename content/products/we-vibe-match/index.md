@@ -8,7 +8,7 @@ sku: "we-vibe-match"
 specs:
   material: "body-safe silicone"
   waterproof: "100% waterproof"
-  runtime_min: null
+  runtime_min: 120
   charge_min: 90
   levels: null
   patterns: 11

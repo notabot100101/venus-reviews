@@ -3,8 +3,8 @@ sku: "lelo-mona"
 specs:
   material: "body-safe silicone and ABS plastic with a matte finish"
   waterproof: "100% waterproof"
-  runtime_min: null
-  charge_min: null
+  runtime_min: 120
+  charge_min: 120
   levels: null
   patterns: 6
   warranty_years: 2

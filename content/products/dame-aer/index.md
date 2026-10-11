@@ -8,10 +8,10 @@ sku: "dame-aer"
 specs:
   material: "body-safe silicone"
   waterproof: "waterproof"
-  runtime_min: null
-  charge_min: null
+  runtime_min: 90
+  charge_min: 120
   levels: 5
-  patterns: null
+  patterns: 5
   warranty_years: 3
   weight_g: null
   dims_mm: null

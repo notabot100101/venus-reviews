@@ -8,8 +8,8 @@ sku: "lelo-f1s-v2"
 specs:
   material: "body-safe silicone + ABS + aluminium alloy"
   waterproof: "100% waterproof"
-  runtime_min: null
-  charge_min: null
+  runtime_min: 120
+  charge_min: 120
   levels: null
   patterns: null
   warranty_years: 2

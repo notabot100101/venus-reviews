@@ -8,7 +8,7 @@ sku: "we-vibe-melt"
 specs:
   material: "body-safe silicone, explicitly free of phthalates, BPA and latex"
   waterproof: "IPX7"
-  runtime_min: null
+  runtime_min: 120
   charge_min: 90
   levels: 12
   patterns: null

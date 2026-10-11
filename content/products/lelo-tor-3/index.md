@@ -8,14 +8,14 @@ sku: "lelo-tor-3"
 specs:
   material: "body-safe silicone + ABS"
   waterproof: "100% waterproof"
-  runtime_min: null
-  charge_min: null
+  runtime_min: 120
+  charge_min: 120
   levels: null
   patterns: null
   warranty_years: 2
   weight_g: null
   dims_mm: "46.7 x 22.2 x 60 mm"
-  app: null
+  app: true
   noise_db: 60
 menu: "main"
 weight: 168

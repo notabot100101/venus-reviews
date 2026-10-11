@@ -7,8 +7,8 @@ sku: "lelo-sila"
 specs:
   material: "body-safe silicone, ABS plastic"
   waterproof: "100% waterproof"
-  runtime_min: null
-  charge_min: null
+  runtime_min: 120
+  charge_min: 120
   levels: null
   patterns: 8
   warranty_years: null

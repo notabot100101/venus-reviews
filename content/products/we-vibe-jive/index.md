@@ -8,14 +8,14 @@ sku: "we-vibe-jive"
 specs:
   material: "body-safe silicone, explicitly phthalate- and BPA-free and made without latex"
   waterproof: "IPX7"
-  runtime_min: null
+  runtime_min: 240
   charge_min: 90
   levels: 10
   patterns: null
   warranty_years: 2
   weight_g: null
   dims_mm: null
-  app: null
+  app: true
   noise_db: null
 menu: "main"
 weight: 178

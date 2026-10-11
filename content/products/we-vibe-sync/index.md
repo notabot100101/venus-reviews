@@ -12,8 +12,8 @@ sku: "we-vibe-sync"
 specs:
   material: "body-safe silicone exterior"
   waterproof: "IPX7"
-  runtime_min: null
-  charge_min: null
+  runtime_min: 90
+  charge_min: 90
   levels: null
   patterns: null
   warranty_years: null

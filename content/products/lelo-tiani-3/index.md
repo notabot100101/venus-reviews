@@ -8,8 +8,8 @@ sku: "lelo-tiani-3"
 specs:
   material: "FDA-approved body-safe silicone + ABS, ISO 3533 certified"
   waterproof: "100% waterproof"
-  runtime_min: null
-  charge_min: null
+  runtime_min: 120
+  charge_min: 120
   levels: null
   patterns: null
   warranty_years: 2

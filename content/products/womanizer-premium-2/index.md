@@ -3,7 +3,7 @@ sku: "womanizer-premium-2"
 specs:
   material: "body-safe silicone made without phthalates, BPA or latex"
   waterproof: "IPX7"
-  runtime_min: null
+  runtime_min: 120
   charge_min: 120
   levels: 14
   patterns: null

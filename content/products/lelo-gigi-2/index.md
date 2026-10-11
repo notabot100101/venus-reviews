@@ -3,8 +3,8 @@ sku: "lelo-gigi-2"
 specs:
   material: "body-safe silicone with ABS plastic"
   waterproof: "100% waterproof"
-  runtime_min: null
-  charge_min: null
+  runtime_min: 240
+  charge_min: 120
   levels: null
   patterns: null
   warranty_years: null

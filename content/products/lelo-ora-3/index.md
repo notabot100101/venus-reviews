@@ -8,8 +8,8 @@ sku: "lelo-ora-3"
 specs:
   material: "body-safe silicone and ABS plastic, with a matte and glossy finish"
   waterproof: null
-  runtime_min: null
-  charge_min: null
+  runtime_min: 60
+  charge_min: 120
   levels: null
   patterns: null
   warranty_years: null
