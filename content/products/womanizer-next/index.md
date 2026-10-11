@@ -14,7 +14,7 @@ specs:
   patterns: null
   warranty_years: 5
   weight_g: 480
-  dims_mm: "17.1 x 5.4 x 5.7 cm"
+  dims_mm: "171 x 54 x 57 mm"
   app: null
   noise_db: null
 menu: "main"
