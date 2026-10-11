@@ -6,7 +6,7 @@ schema_product: true
 description: "Hands-free G-spot pulsator that thrusts back and forth rather than vibrating, with 10 thrust programmes, IPX7 waterproofing and USB-C charging."
 sku: "fun-factory-stronic"
 specs:
-  material: "ABS Kunststoff"
+  material: "silicone and ABS plastic"
   waterproof: "IPX7"
   runtime_min: null
   charge_min: null

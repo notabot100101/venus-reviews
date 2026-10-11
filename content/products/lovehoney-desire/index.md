@@ -7,7 +7,7 @@ description: "Mid-range rabbit vibrator with dual motors, rechargeable power, an
 category: "dual-action"
 sku: "lovehoney-desire"
 specs:
-  material: null
+  material: "silicone"
   waterproof: "waterproof"
   runtime_min: null
   charge_min: null

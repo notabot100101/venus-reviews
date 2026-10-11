@@ -10,7 +10,7 @@ description: "Adjustable couples vibrator with flexible fit, app control, and tr
 category: "dual-action"
 sku: "we-vibe-sync"
 specs:
-  material: "body-safe silicone exterior, dimensions as 74"
+  material: "body-safe silicone exterior"
   waterproof: "IPX7"
   runtime_min: null
   charge_min: null

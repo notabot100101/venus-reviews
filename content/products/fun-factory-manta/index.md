@@ -9,7 +9,7 @@ images:
 description: "Flexible external stimulator with a distinctive wraparound shape and strong material quality."
 sku: "fun-factory-manta"
 specs:
-  material: null
+  material: "medical-grade silicone"
   waterproof: "IPX7"
   runtime_min: null
   charge_min: null

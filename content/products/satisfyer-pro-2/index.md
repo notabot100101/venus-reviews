@@ -1,7 +1,7 @@
 ---
 sku: "satisfyer-pro-2"
 specs:
-  material: "medical-grade silicone with a seamless soft-touch finish over ABS plastic componen"
+  material: "medical-grade silicone with a seamless soft-touch finish over ABS plastic components"
   waterproof: "IPX7"
   runtime_min: null
   charge_min: null

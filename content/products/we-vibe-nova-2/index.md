@@ -6,7 +6,7 @@ schema_product: true
 description: "App-controlled dual-stimulation rabbit in body-safe silicone, with a flexible external arm that keeps clitoral contact and an internal G-spot shaft."
 sku: "we-vibe-nova-2"
 specs:
-  material: "body-safe silicone (phthalate/BPA/latex-free), 2-year warranty, colour Fuchsia"
+  material: "body-safe silicone (phthalate/BPA/latex-free)"
   waterproof: "IPX7"
   runtime_min: null
   charge_min: null

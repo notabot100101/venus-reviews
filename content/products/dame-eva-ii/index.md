@@ -5,7 +5,7 @@ seo_description: "Dame Eva II review covering hands-free fit, partner use, comfo
 schema_product: true
 sku: "dame-eva-ii"
 specs:
-  material: null
+  material: "medical-grade silicone"
   waterproof: "waterproof"
   runtime_min: null
   charge_min: null

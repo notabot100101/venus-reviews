@@ -6,7 +6,7 @@ schema_product: true
 description: "Weighted-motor wand massager."
 sku: "fun-factory-vim"
 specs:
-  material: "Body-safe silicone (\\\"Körperfreundliches Silikon\\\")"
+  material: "body-safe silicone"
   waterproof: "IPX7"
   runtime_min: null
   charge_min: null
