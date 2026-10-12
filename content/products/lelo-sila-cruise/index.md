@@ -64,7 +64,7 @@ draft: false
 # replaces or discontinues the Sila (none present; LELO's category feed
 # https://www.lelo.com/jsonapi/single-category/2 listed /sila and /sila-cruise side by side on
 # the day checked).
-# Image: NONE - no LELO asset could be confirmed as a clean photograph of this product, so no
+# Image: LELO category feed /jsonapi/single-category/2 card bound to SKU 2635 (the Sila Cruise, per this page's JSON-LD sku), Lilac, 500x500, product only on white; LELO's file is named LELO_SILA_ProductShot_Angle_Lilac_2000 and is pixel-identical to the Sila's card, i.e. LELO uses one photograph for both; accepted by the orchestrator on LELO's own SKU binding, with that caveat. Rejected: the product page's own
 # image is set and no substitute is used. Checked and rejected: the product page's own
 # Specification_image_desktop_730x730px_SILA.webp (730 x 730; a hand holding the device against
 # a person's legs); Tehnologies_image (excluded by rule); og:image SILA_Cruise_OG_660x330px.webp
@@ -92,8 +92,9 @@ cons:
   - "No maximum noise level, standby time, IP rating or app control is stated on the Sila Cruise page"
   - "Eight settings, up to 2 hours of use and the 520 mAh battery are unchanged from the Sila"
   - "LELO's beginner positioning and gentle tuning mean buyers chasing intensity should look at the Sona 2 or Sona 3"
-image: ""
-images: []
+image: "/images/products/lelo-sila-cruise/front.webp"
+images:
+  - "/images/products/lelo-sila-cruise/front.webp"
 price: "139.00"
 price_checked: "2026-10-12"
 offers:

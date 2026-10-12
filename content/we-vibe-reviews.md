@@ -1,8 +1,8 @@
 ---
 title: "We-Vibe Reviews"
-seo_title: "We-Vibe Reviews: All 13 Models Rated & Compared | Venus"
-seo_description: "Every We-Vibe product we have reviewed, rated and ranked: Chorus, Tango X, Nova 2, Melt, Wand 2, Rave 2, Moxie+, Ditto+, Touch X, Pivot 2, Jive, Match and Vector+, with verified EUR prices and who each one is for."
-description: "All thirteen We-Vibe models we have reviewed, ranked, with who each one suits."
+seo_title: "We-Vibe Reviews: All 14 Models Rated & Compared | Venus"
+seo_description: "Every We-Vibe product we have reviewed, rated and ranked: Chorus, Tango X, Nova 2, Melt, Wand 2, Rave 2, Moxie+, Ditto+, Touch X, Pivot 2, Verge 2, Jive, Match and Vector+, with verified EUR prices and who each one is for."
+description: "All fourteen We-Vibe models we have reviewed, ranked, with who each one suits."
 slug: "we-vibe-reviews"
 date: 2026-10-06
 draft: false
@@ -18,7 +18,7 @@ faq:
 
 ## We-Vibe Reviews
 
-We-Vibe is best known for couples wearables, but the range we have reviewed also covers rabbit, G-spot, compact external, contactless, wand, prostate and wearable remote-controlled stimulation. All thirteen reviews are built from We-Vibe's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
+We-Vibe is best known for couples wearables, but the range we have reviewed also covers rabbit, G-spot, compact external, contactless, wand, prostate and wearable remote-controlled stimulation. All fourteen reviews are built from We-Vibe's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
 
 | Model | Rating | Price | Best for |
 |---|---|---|---|
@@ -32,6 +32,7 @@ We-Vibe is best known for couples wearables, but the range we have reviewed also
 | [We-Vibe Ditto+](/products/we-vibe-ditto-plus/) | 4.0 | 129.00 EUR | Vibrating anal plug, remote and app |
 | [We-Vibe Touch X](/products/we-vibe-touch-x/) | 4.0 | 99.00 EUR | Compact lay-on clitoral vibrator |
 | [We-Vibe Pivot 2](/products/we-vibe-pivot-2/) | 3.5 | 89.00 EUR | App-controlled vibrating couples' ring |
+| [We-Vibe Verge 2](/products/we-vibe-verge-2/) | 3.5 | 99.00 EUR | Vibrating ring with perineum stimulator |
 | [We-Vibe Jive](/products/we-vibe-jive/) | 4.0 | 129.00 EUR | Wearable egg, remote and app controlled |
 | [We-Vibe Match](/products/we-vibe-match/) | 4.0 | 139.00 EUR | Worn couples' vibrator, remote only |
 | [We-Vibe Vector+](/products/we-vibe-vector/) | 3.5 | 139.00 EUR | App/remote prostate massager |
@@ -40,7 +41,7 @@ We-Vibe is best known for couples wearables, but the range we have reviewed also
 
 **For couples**, the [Chorus](/products/we-vibe-chorus/) is the flagship: a worn C-shape with a Squeeze Remote, touch-sense control and a full app ecosystem. The [Match](/products/we-vibe-match/) is the simpler, cheaper worn alternative at 139 EUR, remote-only rather than app-connected.
 
-**For a couples' ring**, the [Pivot 2](/products/we-vibe-pivot-2/) is the stretchy vibrating ring with app control, IPX7 and a 120-minute runtime at 89 EUR, the cheapest couples' device in the catalogue; We-Vibe publishes no dimensions or level count for it, so the LELO Tor 3 remains the better-documented ring.
+**For a couples' ring**, the [Pivot 2](/products/we-vibe-pivot-2/) is the stretchy vibrating ring with app control, IPX7 and a 120-minute runtime at 89 EUR, the cheapest couples' device in the catalogue; We-Vibe publishes no dimensions or level count for it, so the LELO Tor 3 remains the better-documented ring. The [Verge 2](/products/we-vibe-verge-2/) is the same ring with an extension that reaches the perineum, at 99 EUR.
 
 **For solo external stimulation**, the [Tango X](/products/we-vibe-tango-x/) is the compact bullet: pinpoint, waterproof and surprisingly rumbly for its size, which is why it shares the top We-Vibe rating at the lowest price. The [Touch X](/products/we-vibe-touch-x/) is the lay-on alternative at 99 EUR: a wider body with a flexible tip, the same 8 levels and 7 patterns, exact 102 x 43 x 34 mm dimensions and a lock function, with no app. Both are ranked on the [best mini and bullet vibrators](/best-mini-vibrators/) page. It is also weighed against air-pulse in [We-Vibe Tango X vs Satisfyer Pro 2](/we-vibe-tango-x-vs-satisfyer-pro-2/).
 
