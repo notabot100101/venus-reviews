@@ -93,7 +93,7 @@ Venus has not physically tested this product. This review is based on Womanizer'
 
 ## Quick Verdict
 
-Next is the pick for someone who wants the most advanced air-pulse device available and is willing to pay for it. The documentation is unusually complete: 3D Pleasure Air with Climax Control, 14 intensity levels, Smart Silence that only runs on skin contact, Afterglow and Autopilot, body-safe silicone that is explicitly phthalate-, BPA- and latex-free, IPX7 waterproofing, a 240-minute runtime from a 120-minute charge, and a 5-year warranty. That runtime is the longest of any device we have reviewed. The caveats are price, at 209 EUR the most expensive air-pulse device here, an unstated noise figure, and a published weight of 480 g that is hard to interpret for a handheld and may be packaged weight.
+Next is the pick for someone who wants the most advanced air-pulse device available and is willing to pay for it. The documentation is unusually complete: 3D Pleasure Air with Climax Control, 14 intensity levels, Smart Silence that only runs on skin contact, Afterglow and Autopilot, body-safe silicone that is explicitly phthalate-, BPA- and latex-free, IPX7 waterproofing, a 240-minute runtime from a 120-minute charge, and a 5-year warranty. That runtime is the longest in the catalogue, shared with the Premium 2. The caveats are price, at 209 EUR the most expensive air-pulse device here, an unstated noise figure, and a published weight of 480 g that is hard to interpret for a handheld and may be packaged weight.
 
 ## Format and Who It Is For
 

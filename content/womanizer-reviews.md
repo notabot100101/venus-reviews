@@ -30,7 +30,7 @@ Womanizer is the brand that defined air-pulse stimulation, and its range is the 
 
 ### How to choose a Womanizer
 
-**For the most advanced air-pulse**, the [Next](/products/womanizer-next/) is the flagship: 3D Pleasure Air with Climax Control, 14 intensity levels, Smart Silence, Afterglow, Autopilot and a documented 240-minute runtime, the longest of any device we have reviewed.
+**For the most advanced air-pulse**, the [Next](/products/womanizer-next/) is the flagship: 3D Pleasure Air with Climax Control, 14 intensity levels, Smart Silence, Afterglow, Autopilot and a documented 240-minute runtime, the longest in the catalogue, shared with the Premium 2.
 
 **For the proven experience at a lower price**, the [Premium 2](/products/womanizer-premium-2/) keeps Smart Silence, Autopilot and the 5-year warranty for 30 EUR less, and it is the quieter, more compact choice. The two are the natural head-to-head within the brand.
 

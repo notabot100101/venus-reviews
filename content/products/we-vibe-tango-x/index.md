@@ -11,7 +11,7 @@ specs:
   runtime_min: null
   charge_min: null
   levels: 8
-  patterns: null
+  patterns: 7
   warranty_years: 2
   weight_g: null
   dims_mm: null
@@ -26,7 +26,7 @@ rating: 4.5
 rating_note: "Flagship bullet with documented broad-motor rumble and a strong price-to-spec ratio at 89 EUR; runtime, charge time and noise figures remain unverified by us."
 pros:
   - "Broad-motor rumble instead of the buzzy character of cheaper bullets"
-  - "8 vibration types across 8 intensity levels"
+  - "7 vibration modes across 8 intensity levels"
   - "IPX7 waterproof with a body-safe silicone contact surface"
   - "Strong price-to-spec at 89 EUR for a premium brand"
 cons:
@@ -104,9 +104,9 @@ The device is IPX7 waterproof, meaning it can be submerged to 1 metre for 30 min
 
 ## Vibration and Controls
 
-Tango X offers 8 vibration types across 8 intensity levels, for a total of 64 possible combinations. The controls are two-button: mode selection and intensity, standard for the bullet format. The broad-motor design is the engineering differentiator: where a standard bullet uses a long, narrow motor that produces higher-frequency oscillation, Tango X uses a wider vibrating element that shifts the output toward lower frequencies. The result is described by the manufacturer as "body-shaking vibrations" — a step up from the buzzy character of the original Tango (still a respected reference in the category).
+Tango X offers 7 vibration modes across 8 intensity levels, as documented on We-Vibe's product page. The controls are two-button: mode selection and intensity, standard for the bullet format. The broad-motor design is the engineering differentiator: where a standard bullet uses a long, narrow motor that produces higher-frequency oscillation, Tango X uses a wider vibrating element that shifts the output toward lower frequencies. The result is described by the manufacturer as "body-shaking vibrations" — a step up from the buzzy character of the original Tango (still a respected reference in the category).
 
-The 8 pattern types alternate between steady vibration, escalation, pulsing, wave, and staccato patterns. Most users in the bullet category gravitate toward steady vibration for direct stimulation, but the variety supports experimentation and partner teasing scenarios.
+The 7 modes alternate between steady vibration, escalation, pulsing, wave, and staccato patterns. Most users in the bullet category gravitate toward steady vibration for direct stimulation, but the variety supports experimentation and partner teasing scenarios.
 
 ## Charging and Battery
 
@@ -138,7 +138,7 @@ Dame Eva II (89 EUR) is an unconventional hands-free external vibrator that sits
 
 ## Value Position
 
-At 89 EUR, Tango X is one of the most affordable products in the Venus catalogue. Only Satisfyer Pro 2 (69.95 EUR) undercuts it. For a premium-brand bullet from We-Vibe that delivers 8 vibration types and IPX7 waterproofing, the price-to-spec ratio is strong.
+At 89 EUR, Tango X is one of the most affordable products in the Venus catalogue. Only Satisfyer Pro 2 (69.95 EUR) undercuts it. For a premium-brand bullet from We-Vibe that delivers 7 vibration modes, 8 intensity levels and IPX7 waterproofing, the price-to-spec ratio is strong.
 
 The value case rests on the broad-motor rumble being real and noticeable against cheaper bullets. If the vibration character justifies the premium over a generic 30 EUR bullet, then 89 EUR is reasonable. For a buyer who is indifferent to vibration depth and simply wants the smallest, cheapest external option, the catalogue's format is right but the specific product choice should be driven by budget and noise tolerance.
 
@@ -151,7 +151,7 @@ The noise level in dB is not documented in the available capture. Bullet vibrato
 Verified on the manufacturer page on 6 August 2026 (re-verified 20 August 2026):
 
 - Category: bullet vibrator (We-Vibe's own classification)
-- 8 vibration types across 8 intensity levels (64 combinations)
+- 7 vibration modes across 8 intensity levels
 - IPX7 waterproof
 - Body-safe silicone with grip texture
 - Tapered tip for precision contact

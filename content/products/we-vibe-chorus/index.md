@@ -7,8 +7,8 @@ sku: "we-vibe-chorus"
 specs:
   material: "body-safe silicone, produced without phthalates, BPA, or latex"
   waterproof: "IPX7"
-  runtime_min: 120
-  charge_min: 90
+  runtime_min: 90
+  charge_min: 120
   levels: null
   patterns: null
   warranty_years: null

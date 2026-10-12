@@ -40,7 +40,7 @@ This is the "contactless" category: devices that stimulate the clitoris without 
 
 **If you want focused sonic at the best price:** the [LELO Sona 2](/products/lelo-sona-2/). It is our top sonic pick, compact at 125 g and fully waterproof, with a documented 60 dB maximum that is honest but audible.
 
-**If you want the flagship air-pulse and the longest runtime:** the [Womanizer Next](/products/womanizer-next/). 3D Pleasure Air with Climax Control, 14 levels, Smart Silence, Afterglow and Autopilot, with a documented 240-minute runtime, the longest of any device we have reviewed, and a 5-year warranty. It is the priciest here at 209 EUR.
+**If you want the flagship air-pulse and the longest runtime:** the [Womanizer Next](/products/womanizer-next/). 3D Pleasure Air with Climax Control, 14 levels, Smart Silence, Afterglow and Autopilot, with a documented 240-minute runtime, the longest in the catalogue and shared with the Premium 2, and a 5-year warranty. It is the priciest here at 209 EUR.
 
 **If you want concentrated air-pulse and the quietest operation:** the [Womanizer Premium 2](/products/womanizer-premium-2/). Its Smart Silence only runs the motor on skin contact, its runtime is among the longest in the category, and it carries a five-year warranty, which is why it holds 4.5 despite the 179 EUR price.
 

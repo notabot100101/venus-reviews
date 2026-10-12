@@ -9,7 +9,7 @@ images:
 description: "Twin-tip stimulator for precise external contact and a more exploratory feel."
 sku: "fun-factory-volta"
 specs:
-  material: "medical-grade silicone"
+  material: "body-friendly hygienic silicone"
   waterproof: "IPX7"
   runtime_min: null
   charge_min: null

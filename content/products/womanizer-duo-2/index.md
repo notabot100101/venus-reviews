@@ -130,7 +130,7 @@ The device is USB rechargeable, with Womanizer's own table listing both the runt
 
 ### Duo 2 vs. the Premium 2
 
-The [Womanizer Premium 2](/products/womanizer-premium-2/) is the brand's external-only Pleasure Air flagship, with a documented 240-minute runtime against a 120-minute charge - a notably better ratio than Duo 2's matched 120/120 figures. Premium 2 is the better choice for someone who only wants clitoral stimulation and the longest runtime in the lineup; Duo 2 is the pick for anyone who also wants G-spot stimulation from the same device, at the cost of a shorter charge-to-runtime ratio and a higher list price.
+The [Womanizer Premium 2](/products/womanizer-premium-2/) is the brand's external-only Pleasure Air flagship, with a documented 240-minute runtime against a 120-minute charge - a notably better ratio than Duo 2's matched 120/120 figures. Premium 2 is the better choice for someone who only wants clitoral stimulation and the longest runtime in the line-up, shared with the Next; Duo 2 is the pick for anyone who also wants G-spot stimulation from the same device, at the cost of a shorter charge-to-runtime ratio and a higher list price.
 
 ### Duo 2 among the insertable and dual options
 
