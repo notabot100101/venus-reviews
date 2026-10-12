@@ -10,8 +10,8 @@ specs:
   waterproof: "100% waterproof"
   runtime_min: 120
   charge_min: 120
-  levels: 12
-  patterns: null
+  levels: null
+  patterns: 12
   warranty_years: 2
   weight_g: 196
   dims_mm: "91 x 42 x 196 mm"
@@ -38,6 +38,8 @@ draft: false
 # options beyond the dataLayer variant "Violet Dusk". Price: JSON-LD offers price 219.00 EUR,
 # availability InStock; dataLayer local_price 219 with discount 0 / 0%, so no discounted
 # figure was shown when checked (the 244.93 in the dataLayer is a USD conversion).
+# Image swapped by orchestrator 2026-10-12 to the square LELO "Specification" shot (730x730, product on moss, clean);
+# "12 settings" recorded as patterns (LELO publishes modes, not separate intensity levels).
 best_for: "Prostate massage with a moving tip rather than vibration alone"
 badge: "Prostate Pick"
 rating: 4.0
