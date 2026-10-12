@@ -14,15 +14,15 @@ specs:
   noise_db: null
 specs_note: "App control is variant-dependent: the Pro 2 Generation 3 ships in a Bluetooth app-controlled version and a non-Bluetooth version."
 draft: false
-title: "Satisfyer Pro 2"
-seo_title: "Satisfyer Pro 2 - Venus Reviews"
+title: "Satisfyer Pro 2 Generation 3"
+seo_title: "Satisfyer Pro 2 Generation 3 - Venus Reviews"
 seo_description: "Satisfyer Pro 2 Generation 3 review — Liquid Air pressure-wave tech, silicone/ABS, IPX7 waterproof. Compare with Womanizer Premium 2 and other air-pulse toys."
 schema_product: true
 badge: "Value Pick"
 rating: 3.5
 rating_note: "Best value entry into air-pulse with a standout 15-year warranty; runtime is modest, charging is slow, and build/interface refinement trails Womanizer's premium line."
 pros:
-  - "Best value entry into pressure-wave stimulation at 69.95 EUR"
+  - "Best value entry into pressure-wave stimulation, 79.95 EUR list and often discounted"
   - "Documented 15-year warranty - the standout claim in the catalogue"
   - "IPX7 waterproof, seamless silicone body and two Liquid Air attachments"
   - "11 pressure-wave and 12 vibration programs with separate motors"
@@ -37,17 +37,23 @@ images:
 category: "external-stimulation"
 tags: ["air-pulse", "value", "waterproof", "external"]
 affiliate_link: ""
-price: "69.95"
-price_checked: "2026-10-02"
+price: "79.95"
+price_checked: "2026-10-12"
 offers:
   - retailer: "Satisfyer (manufacturer)"
-    url: "https://www.satisfyer.com/de/satisfyer-pro-2-generation-2?number=SW10001"
-    price: 69.95
+    url: "https://www.satisfyer.com/de/satisfyer-pro-2-generation-3"
+    price: 79.95
     currency: "EUR"
-    checked: "2026-10-02"
-    # 2026-10-02: satisfyer.com lists this as "zurzeit leider nicht lieferbar"
-    # (in-store order only), so it is not a buyable online offer today.
-    available: false
+    checked: "2026-10-12"
+    # 2026-10-12: re-pointed from the Generation 2 page (SW10001.2) to Generation 3
+    # (SW10247.1), which is the model this review actually describes. Satisfyer sells
+    # FOUR Pro 2 generations concurrently - Gen 2 at 69.95 list, Gen 3 at 79.95, and a
+    # Gen 4 Connect App at 89.95 - so the generation has to be named, not implied.
+    # Price is the STRUCK-THROUGH list figure in the rendered price block; the 55.97 in
+    # the page's structured data is a live 30% promotion (79.95 x 0.70 = 55.96).
+    # Stock: InStock, "Versandfertig nach 1-2 Tagen" - the previous 2026-10-02 note
+    # saying "zurzeit leider nicht lieferbar" no longer holds.
+    available: true
   - retailer: "Amazon"
     url: ""
     price: null
@@ -80,7 +86,7 @@ offers:
     available: true
 ---
 
-The Satisfyer Pro 2 is the product that made pressure-wave stimulation a mass-market category rather than a luxury one. The current version is the Pro 2 Generation 3, and it is best understood as the accessible entry point into air-pulse toys: it delivers the same basic contactless clitoral sensation as devices costing several times more, with a shorter feature list and a less refined interface. It suits someone curious about suction-style stimulation who does not want to spend premium money to find out whether they like it.
+The Satisfyer Pro 2 is the product that made pressure-wave stimulation a mass-market category rather than a luxury one. This review covers the Pro 2 Generation 3, verified 2026-10-12; Satisfyer also sells Generation 2 and a Generation 4 Connect App alongside it. It is best understood as the accessible entry point into air-pulse toys: it delivers the same basic contactless clitoral sensation as devices costing several times more, with a shorter feature list and a less refined interface. It suits someone curious about suction-style stimulation who does not want to spend premium money to find out whether they like it.
 
 This review is based on Satisfyer's published Pro 2 Generation 3 specifications as carried by major retail listings, the documented warranty terms, the current catalogue, and patterns in published user feedback. Satisfyer's official product page was not accessible during research, so product figures are drawn from retailer listings that carry manufacturer data.
 
