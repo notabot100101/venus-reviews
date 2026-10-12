@@ -18,7 +18,7 @@ faq:
 
 ## Best G-Spot & Internal Vibrators
 
-This is the insertable category: devices designed for internal stimulation, usually with a firm curve or angled tip to hold pressure against the G-spot. It is where shape and firmness matter more than raw power, so the right pick depends on how targeted you want the sensation. Here are the thirteen we have reviewed, ranked by our rating with the verified manufacturer price.
+This is the insertable category: devices designed for internal stimulation, usually with a firm curve or angled tip to hold pressure against the G-spot. It is where shape and firmness matter more than raw power, so the right pick depends on how targeted you want the sensation. Here are the fourteen we have reviewed, ranked by our rating with the verified manufacturer price.
 
 | Vibrator | Type | Rating | Price |
 |---|---|---|---|
@@ -33,6 +33,7 @@ This is the insertable category: devices designed for internal stimulation, usua
 | [We-Vibe Rave 2](/products/we-vibe-rave-2/) | Adjustable G-spot (app) | 4.0 | 139.00 EUR |
 | [Fun Factory Stronic G](/products/fun-factory-stronic/) | Thrusting pulsator (no vibration) | 3.5 | 69.95 EUR |
 | [Fun Factory Stronic Real](/products/fun-factory-stronic-real/) | Thrusting pulsator, realistic shape | 3.5 | 67.95 EUR |
+| [Fun Factory Big Boss](/products/fun-factory-big-boss/) | Large, girthy G-spot vibrator | 3.5 | 49.95 EUR |
 | [Fun Factory Miss Bi](/products/fun-factory-miss-bi/) | Rabbit (dual, value) | 3.5 | 53.95 EUR |
 | [Lovehoney Desire](/products/lovehoney-desire/) | Rabbit (internal + clitoral) | 3.0 | 69.99 EUR |
 
@@ -54,8 +55,10 @@ This is the insertable category: devices designed for internal stimulation, usua
 
 **If vibration is not what your G-spot responds to:** the [Fun Factory Stronic G](/products/fun-factory-stronic/). It is a pulsator, not a vibrator: it thrusts by itself, hands-free, for people whose G-spot wants pressure and motion rather than buzz. It is one of two thrusting devices in the catalogue; the [Fun Factory Stronic Real](/products/fun-factory-stronic-real/) is the realistic-shaped sibling with 7 strengths and 3 rhythms, a documented 202 x 40 x 35 mm body and a 2-hour runtime at 67.95 EUR. Both are sensation choices rather than spec comparisons.
 
+**If you want size and girth at the lowest price:** the [Fun Factory Big Boss](/products/fun-factory-big-boss/). A 230 x 76 x 45 mm, 350 g silicone vibrator with 6 speeds and 6 patterns, IPX7 and USB-C at 49.95 EUR, the cheapest insertable here; Fun Factory publishes no runtime, charge time or warranty term for it.
+
 **If you want dual stimulation at the lowest price:** the [Fun Factory Miss Bi](/products/fun-factory-miss-bi/). A silicone rabbit with a documented 173 x 76 x 38 mm body, 230 g, IPX7, USB-C charging and 12 programmes at 53.95 EUR, though Fun Factory publishes no runtime, charge time or warranty term for it.
 
 **If you want a value rabbit:** the [Lovehoney Desire](/products/lovehoney-desire/). A mainstream dual-motor rabbit at the lowest price here, but several specifications were not documented by the manufacturer when we reviewed it, so treat materials, waterproofing and warranty as items to confirm on the retailer page before buying.
 
-For premium internal options against the rest of the top tier, see the [premium picks](/premium-picks/); if this is a first purchase, the [first-time buyer guide](/first-time-buyer/) covers what matters, and the [best-of 2026 ranking](/best-vibrators-2026/) places all thirteen against the full catalogue. The rabbit-format devices are compared on their own [best rabbit vibrators](/best-rabbit-vibrators/) page.
+For premium internal options against the rest of the top tier, see the [premium picks](/premium-picks/); if this is a first purchase, the [first-time buyer guide](/first-time-buyer/) covers what matters, and the [best-of 2026 ranking](/best-vibrators-2026/) places all fourteen against the full catalogue. The rabbit-format devices are compared on their own [best rabbit vibrators](/best-rabbit-vibrators/) page.
