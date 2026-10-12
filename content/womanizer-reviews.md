@@ -1,8 +1,8 @@
 ---
 title: "Womanizer Reviews"
-seo_title: "Womanizer Reviews: All 6 Models Rated & Compared | Venus"
-seo_description: "Every Womanizer product we have reviewed, rated and ranked: Next, Premium 2, Duo 2, Classic 2, Liberty 2 and Starlet 3, with verified EUR prices and who each one is for."
-description: "All six Womanizer models we have reviewed, ranked, with who each one suits."
+seo_title: "Womanizer Reviews: All 7 Models Rated & Compared | Venus"
+seo_description: "Every Womanizer product we have reviewed, rated and ranked: Next, Premium 2, Duo 2, Classic 2, Vibe, Liberty 2 and Starlet 3, with verified EUR prices and who each one is for."
+description: "All seven Womanizer models we have reviewed, ranked, with who each one suits."
 slug: "womanizer-reviews"
 date: 2026-10-10
 draft: false
@@ -18,7 +18,7 @@ faq:
 
 ## Womanizer Reviews
 
-Womanizer is the brand that defined air-pulse stimulation, and its range is the most completely documented in the contactless category: every model we have reviewed publishes materials, waterproofing, runtime, charge time and a 5-year warranty. All six reviews are built from Womanizer's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
+Womanizer is the brand that defined air-pulse stimulation, and its range is the most completely documented in the contactless category: every model we have reviewed publishes materials, waterproofing, runtime, charge time and a 5-year warranty. All seven reviews are built from Womanizer's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
 
 | Model | Rating | Price | Best for |
 |---|---|---|---|
@@ -26,6 +26,7 @@ Womanizer is the brand that defined air-pulse stimulation, and its range is the 
 | [Womanizer Premium 2](/products/womanizer-premium-2/) | 4.5 | 179.00 EUR | Quiet air-pulse, the value flagship |
 | [Womanizer Duo 2](/products/womanizer-duo-2/) | 4.0 | 209.00 EUR | Dual air-pulse plus G-spot vibration |
 | [Womanizer Classic 2](/products/womanizer-classic-2/) | 4.0 | 119.00 EUR | Mid-range Pleasure Air, 180-minute runtime |
+| [Womanizer Vibe](/products/womanizer-vibe/) | 4.0 | 129.00 EUR | UltraWave clitoral vibrator, not air-pulse |
 | [Womanizer Liberty 2](/products/womanizer-liberty/) | 4.0 | 99.00 EUR | Travel Pleasure Air with a magnetic cover |
 | [Womanizer Starlet 3](/products/womanizer-starlet-3/) | 3.5 | 69.00 EUR | Entry-level Pleasure Air at the lowest price |
 
@@ -36,6 +37,8 @@ Womanizer is the brand that defined air-pulse stimulation, and its range is the 
 **For the proven experience at a lower price**, the [Premium 2](/products/womanizer-premium-2/) keeps Smart Silence, Autopilot and the 5-year warranty for 30 EUR less, and it is the quieter, more compact choice. The two are the natural head-to-head within the brand.
 
 **For the middle of the range**, the [Classic 2](/products/womanizer-classic-2/) keeps the original Pleasure Air mechanism with 10 levels, IPX7, a documented 180-minute runtime, two head sizes in the box and the same 5-year warranty at 119 EUR, without Smart Silence or Autopilot. It is the step up from the Starlet 3 for people who do not need the flagship features.
+
+**For direct vibration rather than air-pulse**, the [Vibe](/products/womanizer-vibe/) is the brand's only vibrator: an ergonomic UltraWave clitoral vibrator in ABS and body-safe silicone with 10 levels, 3 Autopilot modes, IPX7, exact 142 x 47 x 52 mm and 143 g figures, a 90-minute runtime and the 5-year warranty at 129 EUR, with no published noise figure behind its hum-free claim and no app.
 
 **For external and internal stimulation together**, the [Duo 2](/products/womanizer-duo-2/) is the only dual model: a Pleasure Air clitoral head plus an insertable G-spot vibrator with independent controls. It is compared against the other insertables on the [best G-spot & internal vibrators](/best-g-spot-vibrators/) page.
 

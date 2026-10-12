@@ -18,7 +18,7 @@ faq:
 
 ## Best Couples' Toys
 
-These are the devices built for two people at once: worn by one partner during sex so both feel the stimulation, or held in place to free up hands. It is a format where fit and anatomy matter more than with a solo toy, so the right pick depends as much on how it is worn as on the spec sheet. Here are the seven we have reviewed, ranked by our rating with the verified manufacturer price.
+These are the devices built for two people at once: worn by one partner during sex so both feel the stimulation, or held in place to free up hands. It is a format where fit and anatomy matter more than with a solo toy, so the right pick depends as much on how it is worn as on the spec sheet. Here are the eight we have reviewed, ranked by our rating with the verified manufacturer price.
 
 | Toy | Format | Rating | Price |
 |---|---|---|---|
@@ -27,11 +27,14 @@ These are the devices built for two people at once: worn by one partner during s
 | [LELO Tiani 3](/products/lelo-tiani-3/) | Worn wearable + motion remote | 4.0 | 151.99 EUR |
 | [We-Vibe Match](/products/we-vibe-match/) | Worn wearable (remote only) | 4.0 | 139.00 EUR |
 | [We-Vibe Moxie+](/products/we-vibe-moxie-plus/) | Panty vibrator (remote and app) | 4.0 | 129.00 EUR |
+| [We-Vibe Pivot 2](/products/we-vibe-pivot-2/) | Vibrating ring (app) | 3.5 | 89.00 EUR |
 | [Dame Eva II](/products/dame-eva-ii/) | Hands-free external | 3.5 | 129.00 EUR |
 
 ### How to pick within the category
 
 **If you want the most complete, best-controlled wearable:** the [We-Vibe Chorus](/products/we-vibe-chorus/). Its Squeeze Remote responds to grip pressure, the touch-sense feature adjusts to movement, and it carries an explicit phthalate-, BPA- and latex-free statement. It earns the top couples rating despite being the priciest at 209 EUR.
+
+**If you want the simplest shared-vibration format at the lowest price:** the [We-Vibe Pivot 2](/products/we-vibe-pivot-2/). A stretchy silicone ring with We-Vibe app control, IPX7 and a 120-minute runtime at 89 EUR, the cheapest couples' device here; We-Vibe publishes no dimensions, inner diameter or level count for it, so fit cannot be judged from the page.
 
 **If you want the simplest shared-vibration format:** the [LELO Tor 3](/products/lelo-tor-3/). A vibrating ring worn at the base is mechanically simpler than a worn internal-external device and easier to position, and the Tor 3 is documented as 100% waterproof with app control on top of its two buttons.
 
