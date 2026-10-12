@@ -125,7 +125,7 @@ For internal stimulation without the external arm, the [LELO Gigi 2](/products/l
 
 ### Nova 2 among the We-Vibe range
 
-Within We-Vibe, Nova 2 is the rabbit, where the [Chorus](/products/we-vibe-chorus/) and [Sync](/products/we-vibe-sync/) are worn couples wearables, the [Melt](/products/we-vibe-melt/) is the contactless air-pulse device and the [Tango X](/products/we-vibe-tango-x/) is a compact bullet. The full line-up is on the [We-Vibe reviews hub](/we-vibe-reviews/).
+Within We-Vibe, Nova 2 is the rabbit, where the [Chorus](/products/we-vibe-chorus/) and [Match](/products/we-vibe-match/) are worn couples wearables, the [Melt](/products/we-vibe-melt/) is the contactless air-pulse device and the [Tango X](/products/we-vibe-tango-x/) is a compact bullet. The full line-up is on the [We-Vibe reviews hub](/we-vibe-reviews/).
 
 ## Value Position
 

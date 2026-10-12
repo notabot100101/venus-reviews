@@ -133,7 +133,7 @@ The [LELO Hugo](/products/lelo-hugo/) is the catalogue's other prostate massager
 
 ### Vector+ among the We-Vibe range
 
-Within We-Vibe, Vector+ is the only prostate product. The [Chorus](/products/we-vibe-chorus/) and [Sync](/products/we-vibe-sync/) are the worn couples' vibrators, the [Melt](/products/we-vibe-melt/) is the app-controlled air-pulse stimulator, and the [Tango X](/products/we-vibe-tango-x/) is the bullet. The whole line-up is on the [We-Vibe reviews hub](/we-vibe-reviews/). Vector+ shares the brand's app ecosystem with the Chorus and Melt, so a couple already using the We-Vibe app can add it without learning a second control system.
+Within We-Vibe, Vector+ is the only prostate product. The [Chorus](/products/we-vibe-chorus/) and [Match](/products/we-vibe-match/) are the worn couples' vibrators, the [Melt](/products/we-vibe-melt/) is the app-controlled air-pulse stimulator, and the [Tango X](/products/we-vibe-tango-x/) is the bullet. The whole line-up is on the [We-Vibe reviews hub](/we-vibe-reviews/). Vector+ shares the brand's app ecosystem with the Chorus and Melt, so a couple already using the We-Vibe app can add it without learning a second control system.
 
 ## Value Position
 

@@ -154,7 +154,7 @@ Sila's advantage is the specific gentleness tuning. Womanizer Premium 2 is a cap
 
 ## Value Position
 
-At 169 EUR, Sila sits in the upper-middle of the Venus catalogue price range. It is more expensive than Sona 2 (109 EUR) and Satisfyer Pro 2 (69.95 EUR), comparable to the We-Vibe Sync (179 EUR promo), and cheaper than LELO's own Hugo (189 EUR) and Womanizer Premium 2 (179 EUR).
+At 169 EUR, Sila sits in the upper-middle of the Venus catalogue price range. It is more expensive than Sona 2 (109 EUR) and Satisfyer Pro 2 (69.95 EUR), and cheaper than LELO's own Hugo (189 EUR) and Womanizer Premium 2 (179 EUR).
 
 The value question depends entirely on the buyer's sensitivity profile. For someone who knows they want gentle external sonic stimulation, Sila is the only product in the catalogue that specifically addresses that need — it cannot be replaced by a cheaper alternative without changing the experience. For a buyer who is merely curious about sonic stimulation, Sona 2 or Satisfyer Pro 2 offer better value because the core format is the same even if the tuning differs.
 

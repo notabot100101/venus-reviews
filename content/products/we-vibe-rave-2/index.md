@@ -130,7 +130,7 @@ Within We-Vibe, the [Nova 2](/products/we-vibe-nova-2/) is the rabbit: an intern
 
 ### Rave 2 among the We-Vibe range
 
-Rave 2 is the brand's dedicated internal device. The [Jive](/products/we-vibe-jive/) is the wearable egg, the [Chorus](/products/we-vibe-chorus/) and [Sync](/products/we-vibe-sync/) are the worn couples toys, the [Wand 2](/products/we-vibe-wand-2/) is the wand and the [Melt](/products/we-vibe-melt/) is the air-pulse device, all on the same We-Vibe app. The full line-up is on the [We-Vibe reviews hub](/we-vibe-reviews/).
+Rave 2 is the brand's dedicated internal device. The [Jive](/products/we-vibe-jive/) is the wearable egg, the [Chorus](/products/we-vibe-chorus/) and [Match](/products/we-vibe-match/) are the worn couples toys, the [Wand 2](/products/we-vibe-wand-2/) is the wand and the [Melt](/products/we-vibe-melt/) is the air-pulse device, all on the same We-Vibe app. The full line-up is on the [We-Vibe reviews hub](/we-vibe-reviews/).
 
 ## Value Position
 

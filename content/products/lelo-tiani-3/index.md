@@ -95,7 +95,7 @@ Tiani 3 is the pick for couples who want a worn, remote-controlled massager rath
 
 ## Format and Who It Is For
 
-Tiani 3 is a worn couples' device. One partner wears the C-shaped body during penetrative sex: the shorter arm sits internally toward the G-spot while the flatter external arm rests against the clitoris, so vibration reaches both partners at once. This is the same wearable category as the [We-Vibe Chorus](/products/we-vibe-chorus/) and [We-Vibe Sync](/products/we-vibe-sync/), rather than the simpler base-worn ring format of the [Tor 3](/products/lelo-tor-3/).
+Tiani 3 is a worn couples' device. One partner wears the C-shaped body during penetrative sex: the shorter arm sits internally toward the G-spot while the flatter external arm rests against the clitoris, so vibration reaches both partners at once. This is the same wearable category as the [We-Vibe Chorus](/products/we-vibe-chorus/) and [We-Vibe Match](/products/we-vibe-match/), rather than the simpler base-worn ring format of the [Tor 3](/products/lelo-tor-3/).
 
 That design makes it squarely a partnered-use product, and a fit-sensitive one: the internal arm has to sit comfortably for the wearer while the external arm stays in contact during movement. It is not the device to buy as a first solo toy.
 
@@ -121,7 +121,7 @@ The Tiani 3 body is rechargeable, with the two-hour charge matching its two-hour
 
 ### Tiani 3 vs. the We-Vibe wearables
 
-The [We-Vibe Chorus](/products/we-vibe-chorus/) and [We-Vibe Sync](/products/we-vibe-sync/) are the direct rivals: worn C-shaped couples toys with app and remote control. Tiani 3's advantage is the SenseMotion motion remote and its long 12 m range; the We-Vibe wearables lead on app ecosystem depth and, on the Chorus, a squeeze-sensitive remote. If you want the richest app control, the Chorus leads; if you want motion-driven control at range from a brand with a fully documented body-safe spec, Tiani 3 is the alternative.
+The [We-Vibe Chorus](/products/we-vibe-chorus/) and [We-Vibe Match](/products/we-vibe-match/) are the direct rivals: worn C-shaped couples toys with app and remote control. Tiani 3's advantage is the SenseMotion motion remote and its long 12 m range; the We-Vibe wearables lead on app ecosystem depth and, on the Chorus, a squeeze-sensitive remote. If you want the richest app control, the Chorus leads; if you want motion-driven control at range from a brand with a fully documented body-safe spec, Tiani 3 is the alternative.
 
 ### Tiani 3 vs. the Tor 3
 

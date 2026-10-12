@@ -43,19 +43,7 @@ The Squeeze Remote is the detail worth highlighting: squeezing it harder increas
 
 ---
 
-### 2. We-Vibe Sync — Simpler Connected Wearable
-
-Sync is the more restrained sibling. We-Vibe's documentation presents it plainly: adjustable fit, remote control, IPX7 waterproof construction, USB charging, app control, and a compact C-shaped body for shared stimulation.
-
-If Chorus sounds like more system than you want, Sync delivers the core connected wearable proposition — remote and app control on an adjustable body — without the additional control layers.
-
-**The caveat:** it is still a wearable whose value depends almost entirely on fit, and adjustability is not the same as fitting everyone.
-
-[Read Full Review](/products/we-vibe-sync/)
-
----
-
-### 3. Lelo Hugo — Best Motion-Controlled Remote
+### 2. Lelo Hugo — Best Motion-Controlled Remote
 
 Hugo is a rechargeable, waterproof, remote-controlled prostate massager with documented dimensions, silicone and ABS materials, and LELO's motion-sensitive remote concept — tilting the remote changes intensity rather than pressing through levels.
 

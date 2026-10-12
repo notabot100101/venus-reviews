@@ -74,25 +74,6 @@ Products that encourage interaction:
 
 **Consider:** Requires clitoral stimulation, penetration not necessary. Great for all orientations.
 
-### We-Vibe Sync
-
-**Type:** External vibrator with app integration
-
-**Why it excels for couples:**
-- **App control** - Schedule sessions, coordinate settings
-- **Multiple users** - Different settings for different partners
-- **External design** - No penetration, versatile options
-- **Powerful motors** - Intense but discreet noise level
-- **Hands-free mounting** - Frees both partners naturally
-
-**Best uses:**
-- Planned sessions with app scheduling
-- Different partners, different preferences
-- Foreplay with hands-free positioning
-- External stimulation focus
-
-**Consider:** Requires app for full features. Excellent for tech-comfortable couples.
-
 ### Fun Factory Manta
 
 **Type:** Dual motor wand

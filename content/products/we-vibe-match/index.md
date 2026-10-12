@@ -88,7 +88,7 @@ offers:
     available: true
 ---
 
-We-Vibe Match is the remote-controlled member of We-Vibe's worn couples' family: a C-shaped silicone device held internally against the G-spot and externally against the clitoris during sex, steered by a handheld remote rather than an app. It sits below the [Chorus](/products/we-vibe-chorus/) and alongside the [Sync](/products/we-vibe-sync/) in the range, and it is the better-documented of the two cheaper options.
+We-Vibe Match is the remote-controlled member of We-Vibe's worn couples' family: a C-shaped silicone device held internally against the G-spot and externally against the clitoris during sex, steered by a handheld remote rather than an app. It sits below the [Chorus](/products/we-vibe-chorus/) in the range, and We-Vibe documents it fully.
 
 Venus has not physically tested this product. This review is based on We-Vibe's official Match product page, checked on 10 and 11 October 2026. Its specification table is loaded by script and invisible to a plain page fetch, so the values here were read from the rendered page and then independently re-opened and confirmed. Where We-Vibe does not document something, this page says so rather than filling the gap.
 
@@ -120,7 +120,7 @@ A two-hour runtime from a 90-minute charge is solid for a worn device, in line w
 
 ### Match vs. the Chorus and Sync
 
-The [Chorus](/products/we-vibe-chorus/) at 209 EUR is the flagship, with a Squeeze Remote, touch-sense control and the We-Connect app; the [Sync](/products/we-vibe-sync/) at 159 EUR is the older adjustable model, also app-capable but with a narrower materials disclosure, and likewise out of stock when we checked. Match is cheaper than both and fully specified, but remote-only. If you want app or long-distance control, the Chorus leads; if you want the simplest worn couples' device at the lowest We-Vibe price, Match is the pick, stock permitting. The Chorus and Sync are compared directly in [We-Vibe Chorus vs We-Vibe Sync](/we-vibe-chorus-vs-we-vibe-sync/).
+The [Chorus](/products/we-vibe-chorus/) at 209 EUR is the flagship, with a Squeeze Remote, touch-sense control and the We-Connect app. Match is cheaper and fully specified, but remote-only. If you want app or long-distance control, the Chorus leads; if you want the simplest worn couples' device at the lowest We-Vibe price, Match is the pick, stock permitting.
 
 ### Match among the worn couples' devices
 

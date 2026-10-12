@@ -120,7 +120,7 @@ The [Womanizer Premium 2](/products/womanizer-premium-2/) is the category leader
 
 ### Melt among the We-Vibe range
 
-Within We-Vibe, Melt is the contactless clitoral device, where the [Chorus](/products/we-vibe-chorus/) and [Sync](/products/we-vibe-sync/) are worn couples wearables and the [Tango X](/products/we-vibe-tango-x/) is a compact bullet. The full line-up is on the [We-Vibe reviews hub](/we-vibe-reviews/).
+Within We-Vibe, Melt is the contactless clitoral device, where the [Chorus](/products/we-vibe-chorus/) and [Match](/products/we-vibe-match/) are worn couples wearables and the [Tango X](/products/we-vibe-tango-x/) is a compact bullet. The full line-up is on the [We-Vibe reviews hub](/we-vibe-reviews/).
 
 ## Value Position
 

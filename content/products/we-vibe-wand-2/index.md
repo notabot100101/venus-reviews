@@ -133,7 +133,7 @@ Against the [Tango X](/products/we-vibe-tango-x/), the Wand 2 is the opposite an
 
 ### Wand 2 among the We-Vibe range
 
-Within We-Vibe, the Wand 2 is the solo external flagship. The [Chorus](/products/we-vibe-chorus/) and [Sync](/products/we-vibe-sync/) are the worn couples toys, the [Nova 2](/products/we-vibe-nova-2/) is the rabbit, the [Vector+](/products/we-vibe-vector/) is the prostate massager and the [Jive](/products/we-vibe-jive/) is the wearable egg. All of them share the We-Vibe app, so a Wand 2 owner who adds another We-Vibe device controls both from the same place. The full line-up is on the [We-Vibe reviews hub](/we-vibe-reviews/), and the Wand 2 sits among the top-tier devices on the [premium picks](/premium-picks/) page.
+Within We-Vibe, the Wand 2 is the solo external flagship. The [Chorus](/products/we-vibe-chorus/) and [Match](/products/we-vibe-match/) are the worn couples toys, the [Nova 2](/products/we-vibe-nova-2/) is the rabbit, the [Vector+](/products/we-vibe-vector/) is the prostate massager and the [Jive](/products/we-vibe-jive/) is the wearable egg. All of them share the We-Vibe app, so a Wand 2 owner who adds another We-Vibe device controls both from the same place. The full line-up is on the [We-Vibe reviews hub](/we-vibe-reviews/), and the Wand 2 sits among the top-tier devices on the [premium picks](/premium-picks/) page.
 
 ## Value Position
 

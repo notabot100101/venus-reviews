@@ -77,18 +77,6 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
         </div>
       </article>
       
-      <!-- Product 6: We Vibe Sync -->
-      <article class="product-card">
-        <div class="product-image">
-        </div>
-        <div class="product-info">
-          <h3>We Vibe Sync</h3>
-          <div class="product-rating">Research-based review</div>
-          <p class="product-price">$99.99</p>
-          <p class="product-category">Adjustable Fit</p>
-          <a href="/products/we-vibe-sync/" class="btn btn-sm">Read Review</a>
-        </div>
-      </article>
     </div>
     
     <div class="section-actions">

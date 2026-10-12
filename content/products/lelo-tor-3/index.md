@@ -116,7 +116,7 @@ Tor 3 is rechargeable over USB, with the two-hour charge matching its two-hour r
 
 ### Tor 3 vs. the We-Vibe wearables
 
-The [We-Vibe Chorus](/products/we-vibe-chorus/) and [We-Vibe Sync](/products/we-vibe-sync/) are worn couples toys with a C-shape and a heavier app-and-remote layer. Tor 3 is the simpler alternative: a ring rather than a worn internal-external device, with fewer moving parts to position. If you want the richest control ecosystem, the Chorus leads; if you want the simplest shared-vibration format, Tor 3 is the cleaner choice.
+The [We-Vibe Chorus](/products/we-vibe-chorus/) and [We-Vibe Match](/products/we-vibe-match/) are worn couples toys with a C-shape and a heavier app-and-remote layer. Tor 3 is the simpler alternative: a ring rather than a worn internal-external device, with fewer moving parts to position. If you want the richest control ecosystem, the Chorus leads; if you want the simplest shared-vibration format, Tor 3 is the cleaner choice.
 
 ### Tor 3 among the LELO range
 

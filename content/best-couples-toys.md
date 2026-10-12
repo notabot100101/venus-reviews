@@ -27,7 +27,6 @@ These are the devices built for two people at once: worn by one partner during s
 | [LELO Tiani 3](/products/lelo-tiani-3/) | Worn wearable + motion remote | 4.0 | 151.99 EUR |
 | [We-Vibe Match](/products/we-vibe-match/) | Worn wearable (remote only) | 4.0 | 139.00 EUR |
 | [We-Vibe Moxie+](/products/we-vibe-moxie-plus/) | Panty vibrator (remote and app) | 4.0 | 129.00 EUR |
-| [We-Vibe Sync](/products/we-vibe-sync/) | Worn wearable (adjustable) | 3.5 | 159.00 EUR |
 | [Dame Eva II](/products/dame-eva-ii/) | Hands-free external | 3.5 | 129.00 EUR |
 
 ### How to pick within the category
@@ -40,8 +39,6 @@ These are the devices built for two people at once: worn by one partner during s
 
 **If you want a worn wearable with a plain remote and no app:** the [We-Vibe Match](/products/we-vibe-match/). It is the cheapest We-Vibe wearable at 139 EUR, fully documented with 11 named modes and 100% waterproofing, controlled by a handheld remote only. It was out of stock on the manufacturer store when checked, so buy through a retailer.
 
-**If you want the same wearable format for less:** the [We-Vibe Sync](/products/we-vibe-sync/). It does the core couples job for 50 EUR under the Chorus, with a narrower materials disclosure, and it was out of stock on the manufacturer page when we checked, so confirm availability first.
-
 **If you want hands-free rather than worn-internally:** the [Dame Eva II](/products/dame-eva-ii/). It tucks its flexible wings under the labia to sit against the clitoris, so nothing is inserted, which suits couples who find worn wearables uncomfortable.
 
 **If you want partner control at a distance:** the [We-Vibe Melt](/products/we-vibe-melt/). It is a contactless air-pulse clitoral stimulator rather than a worn device, but its We-Connect app lets a partner take over control remotely or long-distance, which is the couples angle. It is reviewed in full against the air-pulse field on the [best air-pulse & sonic stimulators](/best-air-pulse-stimulators/) page.
@@ -50,4 +47,4 @@ These are the devices built for two people at once: worn by one partner during s
 
 **If you want a wearable worn under clothes rather than internally:** the [We-Vibe Moxie+](/products/we-vibe-moxie-plus/). A flat 85 x 23 x 27 mm panty vibrator held by a magnetic clip, IPX7, ten modes, a 2-hour runtime from a 90-minute charge, a splash-proof remote in the box and app control, at 129 EUR. It is external-only, the counterpart to the internally worn Jive, and the partner holds the remote or the phone.
 
-The head-to-heads worth reading: [We-Vibe Chorus vs We-Vibe Sync](/we-vibe-chorus-vs-we-vibe-sync/) for the two We-Vibe wearables, and [LELO Tor 3 vs LELO Tiani 3](/lelo-tor-3-vs-lelo-tiani-3/) for LELO's ring against its worn massager. If this is a first purchase, start with the [first-time buyer guide](/first-time-buyer/); for the whole catalogue, see the [best-of 2026 ranking](/best-vibrators-2026/).
+The head-to-head worth reading: [LELO Tor 3 vs LELO Tiani 3](/lelo-tor-3-vs-lelo-tiani-3/) for LELO's ring against its worn massager. If this is a first purchase, start with the [first-time buyer guide](/first-time-buyer/); for the whole catalogue, see the [best-of 2026 ranking](/best-vibrators-2026/).

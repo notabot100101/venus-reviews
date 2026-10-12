@@ -69,6 +69,19 @@ Redirect 301 /products/h2o-holo-vibe/ /products/
 # are removed so filesystem content takes precedence.
 Redirect 301 /products/compare/ /products/
 
+# Retired 2026-10-12: We-Vibe DELISTED the plain Sync. we-vibe.com/de/sync and /eu/sync
+# both redirect to a catalog-search page now, and the model survives on We-Vibe's site
+# only in accessory-compatibility lists, so no spec or price can be re-verified. Paul
+# retired the review rather than keep an unverifiable page. There is no single successor
+# to point at - Sync 2, Sync Lite, Sync Go and Sync O all exist - so the product URL goes
+# to the couples ranking, where a reader looking for a worn couples toy finds the ones we
+# can still verify. The head-to-head page went with it: half its subject no longer exists
+# and we review none of the four successors, so there was nothing honest to rewrite it into.
+# Both URLs were live and indexed, hence 301 rather than 404. A Redirect directive wins
+# over the filesystem, so these hold even though the deploy rsync never deletes.
+Redirect 301 /products/we-vibe-sync/ /best-couples-toys/
+Redirect 301 /we-vibe-chorus-vs-we-vibe-sync/ /products/we-vibe-chorus/
+
 # Retired tag pages (removed 2026-08-06). Orphaned build artifacts: the product pages
 # that carried these tags lost their `tags:` front matter in the 2026-07-30 best-of
 # rewrite, so `hugo` stopped emitting the listings, but the already-built directories
