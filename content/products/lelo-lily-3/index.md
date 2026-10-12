@@ -51,31 +51,11 @@ draft: false
 # separate from the 10 settings, colour options beyond the single product shown, and any
 # insertable dimension (Lily 3 is external-only, so none applies).
 # Image: https://assets.lelo.com/dx/styles/commerce_card_style/s3/product-images/2026-09/LELO_LILY3_ProductShot_PolarGreen_Front_2000.webp
-# (LELO category feed /jsonapi/single-category/2, official "ProductShot ... Front" card, 500x500, product only on white; the
-# full-size s3 original returns 403; the product page itself exposes no clean Lily 3 asset - its Specification/Overlay files are MIA 2 leftovers).
-# "Specification_image" (730x730) and "Overlay_block" (1920x840) assets - normally the
-# preferred source per sourcing instructions - are template leftovers for an unrelated
-# product (filenames contain "MIA_2_0"), reproduced on a second fetch, so they are not
-# Lily 3 and were rejected. The only Lily-3-tagged assets on the page are: Heretige_block
-# (730x730 and 355x355, https://assets.lelo.com/dx/2023-01/Heretige_block_desktop_1_730x730px_Lily_3.webp)
-# - a lifestyle shot with a visible model's face, hair and hand holding the product,
-# rejected for hands/people; Tehnologies_image (730x730,
-# https://assets.lelo.com/dx/2023-01/Tehnologies_image_desktop_730x730px_Lily_3.webp) -
-# rejected for white callout dots and dashed leader lines; and the og:image
-# (Lily_3_OG_660x330px.webp) - rejected per instructions (LELO text overlay). The
-# "YOU MAY LIKE" teaser-image pattern that supplied a clean product-only shot for other
-# LELO reviews in this catalogue (e.g. SORAYA_Wave_1.webp, 468x610) was checked on the
-# lily-3 page itself and on nine other LELO product/category pages (lelo-sona-2,
-# sila-cruise, lelo-dot, soraya-wave, enigma-cruise, bullet-vibrators,
-# best-selling-sex-toys, mia-2, nea-2/nea-3, clitoral-vibrators, lelo-originals, plus a
-# sitemap scan and several jsonapi/search-endpoint probes); no Lily 3 teaser image exists
-# on any of them. Per the hard rule against using hands/people/callout-dot/text-overlay
-# images or a different product's photo, this review uses the site's existing ambient
-# editorial placeholder (/images/editorial/ambient-05.png, 1024x1024, an abstract
-# navy-toned still life with no product and no people) instead of a non-compliant real
-# photo. layouts/products/single.html already excludes any /editorial/ or /placeholders/
-# path from schema.org Product.image for exactly this situation. Flagged for Paul/the
-# orchestrator: swap in a verified product-only Lily 3 photo if one becomes available.
+# (official "ProductShot ... Front" card from LELO's category feed /jsonapi/single-category/2; 500x500, product only on white;
+# the full-size s3 original returns 403). The product page itself exposes no clean Lily 3 asset: its Specification_image and
+# Overlay_block files are MIA 2 template leftovers, the Heretige block shows a model holding the product, Tehnologies_image
+# carries callout dots and the og:image has LELO text baked in. Found by the orchestrator after the subagent had fallen back
+# to an ambient placeholder; the placeholder is NOT used.
 best_for: "Simple, documented lay-on external vibration in a compact travel shape"
 badge: "Travel Pick"
 rating: 4.0
