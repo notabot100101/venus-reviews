@@ -52,7 +52,9 @@ draft: false
 # control (only the 5-button interface is listed, so app: null), a levels-vs-patterns split,
 # colour options in the product copy (the dataLayer variant reads "Plum"; images show blue and
 # pink units), the baseline for the "30% more power" claim, and external-arm length alone.
-# Image: https://assets.lelo.com/dx/2025-10/Hero_block_mobile_375x529px_INA_Wave-compressed-optimized.webp
+# Image: https://assets.lelo.com/dx/2025-10/Hero_block_desktop_1920x840px_INA_Wave_2-optimized%20%281%29.webp, cropped by the orchestrator
+# to its right-hand product-only panel (the plate composition LELO also ships as the 375x529 mobile hero); no other edits.
+# Rejected: the full hero (model on the left), Specification 730 (hand), overlays (people), og:image (text), Tehnologies (callouts).
 # (375x529, blue Ina Wave 2 lying alone on a floral-rimmed plate on a yellow cloth, saucer edge
 # at top-left; no hands, people, text or callout dots; it is the mobile crop of the page's hero
 # block whose desktop file is named ..._INA_Wave_2-optimized; copied byte-for-byte, no re-encode.
