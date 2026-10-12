@@ -1,8 +1,8 @@
 ---
 title: "Dame Reviews"
-seo_title: "Dame Reviews: All 5 Models Rated & Compared | Venus"
-seo_description: "Every Dame product we have reviewed, rated and ranked: Arc, Aer, Pom, Com and Eva II, with verified USD prices and who each one is for."
-description: "All five Dame models we have reviewed, ranked, with who each one suits."
+seo_title: "Dame Reviews: All 6 Models Rated & Compared | Venus"
+seo_description: "Every Dame product we have reviewed, rated and ranked: Arc, Aer, Pom, Com, Dip and Eva II, with verified USD prices and who each one is for."
+description: "All six Dame models we have reviewed, ranked, with who each one suits."
 slug: "dame-reviews"
 date: 2026-10-10
 draft: false
@@ -18,7 +18,7 @@ faq:
 
 ## Dame Reviews
 
-Dame is a US brand with a strong reputation for body-safe materials and clear documentation: every model we have reviewed publishes medical-grade silicone, a 3-year warranty and its intensity and pattern counts. The one consistent caveat is currency, Dame prices in US dollars, so the figures below are the documented USD prices, not conversions. All five reviews are built from Dame's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating.
+Dame is a US brand with a strong reputation for body-safe materials and clear documentation: every model we have reviewed publishes medical-grade silicone, a 3-year warranty and its intensity and pattern counts. The one consistent caveat is currency, Dame prices in US dollars, so the figures below are the documented USD prices, not conversions. All six reviews are built from Dame's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating.
 
 | Model | Rating | Price | Best for |
 |---|---|---|---|
@@ -27,6 +27,7 @@ Dame is a US brand with a strong reputation for body-safe materials and clear do
 | [Dame Pom](/products/dame-pom/) | 4.0 | 103.00 USD | Flexible palm-held external vibration |
 | [Dame Eva II](/products/dame-eva-ii/) | 3.5 | 129.00 USD | Hands-free external stimulation |
 | [Dame Com](/products/dame-com/) | 3.5 | 119.00 USD | Flexible wand-style external vibration |
+| [Dame Dip](/products/dame-dip/) | 3.5 | 44.00 USD | Entry-level internal and external vibrator |
 
 ### How to choose a Dame
 
@@ -37,6 +38,8 @@ Dame is a US brand with a strong reputation for body-safe materials and clear do
 **For a simple, flexible external vibrator**, the [Pom](/products/dame-pom/) is the palm-held pick: a soft 83 x 56 x 30 mm body in medical-grade silicone with 5 intensity levels and 5 patterns, USB-C charging, a 1-hour runtime from a 2-hour charge and the 3-year warranty, at 103 USD. Dame states it is waterproof without an IP rating and publishes no weight or noise figure.
 
 **For a wand-style vibrator**, the [Com](/products/dame-com/) is Dame's flexible-neck wand: medical-grade silicone, 5 intensity levels and 5 patterns, a travel lock, USB-C, a 1-hour runtime from a 2.5-hour charge and the 3-year warranty at 119 USD. Dame states it is waterproof without an IP rating, publishes no weight or noise figure, and gives two different dimension figures on the same page, which the review spells out. It is compared with the other wands on the [best wand vibrators](/best-wand-vibrators/) page.
+
+**For a first vibrator**, the [Dip](/products/dame-dip/) is the entry model: a 147 x 33 mm medical-grade silicone body for internal or external use, 5 intensity levels on a single steady pattern, USB-C, a 1.5-hour runtime from a 2-hour charge and the 3-year warranty at 44 USD, the cheapest Dame we review. Dame states it is waterproof without an IP rating and publishes no weight or noise figure.
 
 **For hands-free use during sex**, the [Eva II](/products/dame-eva-ii/) tucks its flexible wings under the labia so nothing is inserted and nothing needs holding, which is why it appears among the [best couples' toys](/best-couples-toys/).
 
