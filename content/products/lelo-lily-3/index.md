@@ -50,7 +50,9 @@ draft: false
 # NOT documented on this page: app/Bluetooth control, a distinct intensity-"levels" count
 # separate from the 10 settings, colour options beyond the single product shown, and any
 # insertable dimension (Lily 3 is external-only, so none applies).
-# Image: no compliant product-only LELO photo of Lily 3 was found. The live page's own
+# Image: https://assets.lelo.com/dx/styles/commerce_card_style/s3/product-images/2026-09/LELO_LILY3_ProductShot_PolarGreen_Front_2000.webp
+# (LELO category feed /jsonapi/single-category/2, official "ProductShot ... Front" card, 500x500, product only on white; the
+# full-size s3 original returns 403; the product page itself exposes no clean Lily 3 asset - its Specification/Overlay files are MIA 2 leftovers).
 # "Specification_image" (730x730) and "Overlay_block" (1920x840) assets - normally the
 # preferred source per sourcing instructions - are template leftovers for an unrelated
 # product (filenames contain "MIA_2_0"), reproduced on a second fetch, so they are not
@@ -88,9 +90,9 @@ cons:
   - "No app or Bluetooth control is stated anywhere on the manufacturer page"
   - "99 EUR list price sits above the We-Vibe Tango X without a stated noise or runtime advantage over it"
   - "Single flat lay-on shape offers less positioning flexibility than a shaped, insertable or dual-stimulation design"
-image: "/images/editorial/ambient-05.png"
+image: "/images/products/lelo-lily-3/front.webp"
 images:
-  - "/images/editorial/ambient-05.png"
+  - "/images/products/lelo-lily-3/front.webp"
 price: "99.00"
 price_checked: "2026-10-12"
 offers:
