@@ -152,6 +152,10 @@ The [We-Vibe Tango X](/products/we-vibe-tango-x/) is the catalogue's other small
 
 The [We-Vibe Touch X](/products/we-vibe-touch-x/) is the closest rival in format and price: a lay-on vibrator at the same 99 EUR with 8 intensity levels and 7 patterns, exact 102 x 43 x 34 mm dimensions, IPX7 and a lock function, but no published weight or noise figure. The Lily 3 answers with a documented 45 g and a 60 dB maximum; the Touch X with the level-and-pattern split and the travel lock.
 
+### Lily 3 vs. the Mia 3
+
+The [LELO Mia 3](/products/lelo-mia-3/) is LELO's other 99 EUR mini: a 22 x 22 x 111 mm lipstick-shaped vibrator at 36 g with 8 settings, a transport lock, 100% waterproofing, a documented under-60 dB ceiling and a 90-minute runtime. The Lily 3 is the lay-on shape with 10 settings and a two-hour runtime; the Mia 3 is the pocketable pinpoint shape. Both carry LELO's 2-year warranty.
+
 ### Lily 3 vs. the sonic LELOs
 
 Lily 3 vibrates conventionally; it does not use LELO's sonic-wave technology. The [LELO Sona 2](/products/lelo-sona-2/) and [LELO Sila](/products/lelo-sila/) are LELO's sonic clitoral stimulators, pulsing air and surface contact rather than vibrating a motor against the body. Sona 2 matches Lily 3's 60 dB noise ceiling but costs 109 EUR, weighs 125 g, and offers 12 patterns against Lily 3's 10. Sila is gentler by design, costs 169 EUR, and does not document a noise figure. Buyers who want sonic-wave stimulation should look to Sona 2 or Sila; buyers who want conventional vibration in the smallest, lightest body should stay with Lily 3.

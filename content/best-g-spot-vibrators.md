@@ -18,11 +18,12 @@ faq:
 
 ## Best G-Spot & Internal Vibrators
 
-This is the insertable category: devices designed for internal stimulation, usually with a firm curve or angled tip to hold pressure against the G-spot. It is where shape and firmness matter more than raw power, so the right pick depends on how targeted you want the sensation. Here are the twelve we have reviewed, ranked by our rating with the verified manufacturer price.
+This is the insertable category: devices designed for internal stimulation, usually with a firm curve or angled tip to hold pressure against the G-spot. It is where shape and firmness matter more than raw power, so the right pick depends on how targeted you want the sensation. Here are the thirteen we have reviewed, ranked by our rating with the verified manufacturer price.
 
 | Vibrator | Type | Rating | Price |
 |---|---|---|---|
 | [LELO Enigma](/products/lelo-enigma/) | Dual (external + internal G-spot) | 4.5 | 199.00 EUR |
+| [LELO Enigma Cruise](/products/lelo-enigma-cruise/) | Dual with Cruise Control | 4.0 | 219.00 EUR |
 | [LELO Gigi 2](/products/lelo-gigi-2/) | Dedicated G-spot | 4.0 | 109.00 EUR |
 | [LELO Mona](/products/lelo-mona/) | Firm curved internal | 4.0 | 139.00 EUR |
 | [We-Vibe Nova 2](/products/we-vibe-nova-2/) | Rabbit (dual, app) | 4.0 | 149.00 EUR |
@@ -37,7 +38,7 @@ This is the insertable category: devices designed for internal stimulation, usua
 
 ### How to pick within the category
 
-**If you want external and internal stimulation at once:** the [LELO Enigma](/products/lelo-enigma/). It pairs SenSonic external stimulation with internal G-spot vibration in one 100% waterproof body, which is what earns it the top rating. It is a dual device rather than a pure G-spot toy, so it is the pick when you want both.
+**If you want external and internal stimulation at once:** the [LELO Enigma](/products/lelo-enigma/). It pairs SenSonic external stimulation with internal G-spot vibration in one 100% waterproof body, which is what earns it the top rating. It is a dual device rather than a pure G-spot toy, so it is the pick when you want both. The [LELO Enigma Cruise](/products/lelo-enigma-cruise/) is the same format with Cruise Control at 219 EUR: 100 x 50 x 185 mm, 196 g, a 140 mm insertable length, 8 settings and 100% waterproof, though its page publishes no charge time or noise figure.
 
 **If you want a dedicated, travel-friendly G-spot device:** the [LELO Gigi 2](/products/lelo-gigi-2/). Its flattened tip is a genuine design difference for broad front-wall contact, it is light at 79 g with a documented insertable 95 mm and 100% waterproofing, and it runs up to 4 hours per charge. LELO does not publish a noise figure for it.
 
@@ -57,4 +58,4 @@ This is the insertable category: devices designed for internal stimulation, usua
 
 **If you want a value rabbit:** the [Lovehoney Desire](/products/lovehoney-desire/). A mainstream dual-motor rabbit at the lowest price here, but several specifications were not documented by the manufacturer when we reviewed it, so treat materials, waterproofing and warranty as items to confirm on the retailer page before buying.
 
-For premium internal options against the rest of the top tier, see the [premium picks](/premium-picks/); if this is a first purchase, the [first-time buyer guide](/first-time-buyer/) covers what matters, and the [best-of 2026 ranking](/best-vibrators-2026/) places all twelve against the full catalogue. The rabbit-format devices are compared on their own [best rabbit vibrators](/best-rabbit-vibrators/) page.
+For premium internal options against the rest of the top tier, see the [premium picks](/premium-picks/); if this is a first purchase, the [first-time buyer guide](/first-time-buyer/) covers what matters, and the [best-of 2026 ranking](/best-vibrators-2026/) places all thirteen against the full catalogue. The rabbit-format devices are compared on their own [best rabbit vibrators](/best-rabbit-vibrators/) page.
