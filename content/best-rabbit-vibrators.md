@@ -25,7 +25,7 @@ A rabbit is a dual-stimulation vibrator: an insertable shaft curved toward the G
 | [We-Vibe Nova 2](/products/we-vibe-nova-2/) | Rabbit, flexible arm, app | 4.0 | 149.00 EUR |
 | [LELO Soraya Wave](/products/lelo-soraya-wave/) | Rabbit, moving WaveMotion tip | 4.0 | 199.00 EUR |
 | [Fun Factory Miss Bi](/products/fun-factory-miss-bi/) | Rabbit, value, LOOP handle | 3.5 | 53.95 EUR |
-| [Lovehoney Desire](/products/lovehoney-desire/) | Rabbit, value | 3.0 | 69.99 USD |
+| [Lovehoney Desire](/products/lovehoney-desire/) | Rabbit, value | 3.0 | 69.99 EUR |
 
 ### Documented specifications side by side
 
@@ -44,7 +44,7 @@ Every value below comes from the manufacturer's own product page as recorded in 
 | Dimensions | 217 x 85 x 39 mm | 218 x 72 x 46 mm | 173 x 76 x 38 mm | not documented |
 | Warranty | 2 years | 2 years | not documented | not documented |
 | Control | buttons and We-Vibe app | buttons on the device | buttons on the LOOP handle | buttons |
-| Price | 149.00 EUR | 199.00 EUR | 53.95 EUR | 69.99 USD |
+| Price | 149.00 EUR | 199.00 EUR | 53.95 EUR | 69.99 EUR |
 | Manufacturer stock | in stock when checked | in stock when checked | in stock when checked | not checked at the manufacturer |
 
 ### How to pick within the category
