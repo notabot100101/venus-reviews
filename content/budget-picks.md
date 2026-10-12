@@ -9,7 +9,7 @@ draft: false
 author: "Venus Editorial Team"
 faq:
   - question: "What is the best product under 90 EUR?"
-    answer: "We-Vibe Tango X at 89.00 EUR. Its 4.5 rating matches the most expensive products in the catalogue, which makes it the strongest value in all 56 reviews."
+    answer: "We-Vibe Tango X at 89.00 EUR. Its 4.5 rating matches the most expensive products in the catalogue, which makes it the strongest value in all 62 reviews."
   - question: "What is the cheapest reviewed product worth buying?"
     answer: "Fun Factory Manta at 48.95 EUR, rated 3.5 for flexible external use. The step up to Fun Factory Volta at 51.95 EUR buys a 4.0-rated product for three euros more."
   - question: "Is cheap safe?"
@@ -18,7 +18,7 @@ faq:
 
 ## Budget Picks Under 90 EUR
 
-Fourteen of our 56 reviewed products cost less than 90 EUR. This page ranks all fourteen by review rating. Prices are manufacturer EUR prices with the date we verified them; each pick links to its full review, including what we could not verify.
+Sixteen of our 62 reviewed products cost less than 90 EUR. This page ranks all sixteen by review rating. Prices are manufacturer EUR prices with the date we verified them; each pick links to its full review, including what we could not verify.
 
 ### Ranked
 
@@ -29,7 +29,7 @@ The strongest value in the catalogue: a rating matching products at twice the pr
 Precise external contact, and the cheapest 4.0-rated product we have reviewed.
 
 **3. [Fun Factory VIM](/products/fun-factory-vim/) — 4.0 — 66.95 EUR** (verified August 2026)
-A full-size wand with deep, rumbly massage at a budget price.
+A full-size wand with deep, rumbly massage at a budget price, in stock at the manufacturer when checked in October 2026.
 
 **4. [Fun Factory Manta](/products/fun-factory-manta/) — 3.5 — 48.95 EUR** (verified August 2026)
 The cheapest product in the catalogue, built for flexible external use.
@@ -61,9 +61,15 @@ The largest insertable here: a documented 230 x 76 x 45 mm, 350 g silicone body 
 **13. [We-Vibe Pivot 2](/products/we-vibe-pivot-2/) — 3.5 — 89.00 EUR** (verified October 2026)
 The cheapest couples' device in the catalogue: a stretchy, app-controlled vibrating ring, IPX7, with a 120-minute runtime from a 90-minute charge and a 2-year warranty, but no published dimensions, inner diameter or level count.
 
-**14. [Lovehoney Desire](/products/lovehoney-desire/) — 3.0 — 69.99 EUR** (verified August 2026)
+**14. [Fun Factory Laya III](/products/fun-factory-laya-iii/) — 3.5 — 32.95 EUR** (verified October 2026)
+The cheapest lay-on external here: a documented 107 x 50 x 41 mm, 85 g body that vibrates and taps at once, 7 levels and 3 patterns, IPX7 and USB-C, with no runtime, charge time or warranty published and only Black in stock when checked.
+
+**15. [Fun Factory Be One](/products/fun-factory-be-one/) — 3.5 — 33.95 EUR** (verified October 2026)
+The cheapest powered device in the catalogue: a 28 g finger-worn couples' vibrator with two motors, 4 speeds and a random rhythm, a button lock, IPX7 and USB-C, with a 60-minute runtime and no warranty term or named material published.
+
+**16. [Lovehoney Desire](/products/lovehoney-desire/) — 3.0 — 69.99 EUR** (verified August 2026)
 A classic rabbit design at a value price, but key specifications could not be verified from manufacturer sources when reviewed. Check materials, waterproofing and warranty on the retailer page before buying.
 
 ### How to Spend Less Without Regret
 
-The pattern across these fourteen: the 48–70 EUR band already buys documented body-safe materials from real manufacturers. What the extra money buys above 90 EUR is quieter motors, app features and premium formats, not safety, which is exactly what the [premium picks](/premium-picks/) page lays out. If this is a first purchase, start at the [first-time buyer page](/first-time-buyer/); for the full field, see the [ranked 2026 picks](/best-vibrators-2026/).
+The pattern across these sixteen: the 48–70 EUR band already buys documented body-safe materials from real manufacturers. What the extra money buys above 90 EUR is quieter motors, app features and premium formats, not safety, which is exactly what the [premium picks](/premium-picks/) page lays out. If this is a first purchase, start at the [first-time buyer page](/first-time-buyer/); for the full field, see the [ranked 2026 picks](/best-vibrators-2026/).

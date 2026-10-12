@@ -47,8 +47,8 @@ offers:
     url: "https://www.womanizer.com/de/premium-2"
     price: null
     currency: "EUR"
-    checked: "2026-08-06"
-    available: false
+    checked: "2026-10-12"
+    available: true
   - retailer: "Amazon"
     url: ""
     price: 179.00

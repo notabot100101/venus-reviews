@@ -18,12 +18,13 @@ faq:
 
 ## Best G-Spot & Internal Vibrators
 
-This is the insertable category: devices designed for internal stimulation, usually with a firm curve or angled tip to hold pressure against the G-spot. It is where shape and firmness matter more than raw power, so the right pick depends on how targeted you want the sensation. Here are the fourteen we have reviewed, ranked by our rating with the verified manufacturer price.
+This is the insertable category: devices designed for internal stimulation, usually with a firm curve or angled tip to hold pressure against the G-spot. It is where shape and firmness matter more than raw power, so the right pick depends on how targeted you want the sensation. Here are the fifteen we have reviewed, ranked by our rating with the verified manufacturer price.
 
 | Vibrator | Type | Rating | Price |
 |---|---|---|---|
 | [LELO Enigma](/products/lelo-enigma/) | Dual (external + internal G-spot) | 4.5 | 199.00 EUR |
 | [LELO Enigma Cruise](/products/lelo-enigma-cruise/) | Dual with Cruise Control | 4.0 | 219.00 EUR |
+| [LELO Ida Wave](/products/lelo-ida-wave/) | Dual, rotating internal arm (app) | 4.0 | 189.00 EUR |
 | [LELO Gigi 2](/products/lelo-gigi-2/) | Dedicated G-spot | 4.0 | 109.00 EUR |
 | [LELO Mona](/products/lelo-mona/) | Firm curved internal | 4.0 | 139.00 EUR |
 | [We-Vibe Nova 2](/products/we-vibe-nova-2/) | Rabbit (dual, app) | 4.0 | 149.00 EUR |
@@ -47,6 +48,8 @@ This is the insertable category: devices designed for internal stimulation, usua
 
 **If you want a well-documented, app-controlled rabbit:** the [We-Vibe Nova 2](/products/we-vibe-nova-2/). Its flexible external arm is built to keep clitoral contact as the device moves, it is rated IPX7 with a clear body-safe materials statement, and the We-Vibe app adds remote control. It is the rabbit to pick when documentation and features matter.
 
+**If you want an internal arm that rotates, with app control:** the [LELO Ida Wave](/products/lelo-ida-wave/). A compact 63 x 56 x 93 mm, 102 g dual whose internal arm rotates in a finger-like motion while the external part vibrates, with 10 settings, 100% waterproofing, a two-hour runtime and LELO app control at 189 EUR; LELO publishes no insertable length or noise figure for it.
+
 **If you want a rabbit whose tip moves rather than only vibrates:** the [LELO Soraya Wave](/products/lelo-soraya-wave/). Its WaveMotion shaft rises and falls in a finger-like motion against the front wall while the external arm vibrates, with a fully documented spec sheet: 218 x 72 x 46 mm, 185 g, a 110 mm insertable length, a 50 dB maximum, 100% waterproof and a 2-year warranty, at 199 EUR. The [LELO Ina Wave 2](/products/lelo-ina-wave-2/) is the smaller, lighter WaveMotion rabbit at the same price: 200 x 65 x 45 mm, 176 g, 12 settings and two synchronised motors, with no noise figure published.
 
 **If you want an ergonomic curve from a reputable brand:** the [Dame Arc](/products/dame-arc/). Its angled handle keeps the wrist comfortable while the bulbed tip presses the front wall, it uses medical-grade silicone with a 3-year warranty, and it works internally or externally. The catch is that Dame prices in US dollars, so European buyers face conversion and import.
@@ -61,4 +64,4 @@ This is the insertable category: devices designed for internal stimulation, usua
 
 **If you want a value rabbit:** the [Lovehoney Desire](/products/lovehoney-desire/). A mainstream dual-motor rabbit at the lowest price here, but several specifications were not documented by the manufacturer when we reviewed it, so treat materials, waterproofing and warranty as items to confirm on the retailer page before buying.
 
-For premium internal options against the rest of the top tier, see the [premium picks](/premium-picks/); if this is a first purchase, the [first-time buyer guide](/first-time-buyer/) covers what matters, and the [best-of 2026 ranking](/best-vibrators-2026/) places all fourteen against the full catalogue. The rabbit-format devices are compared on their own [best rabbit vibrators](/best-rabbit-vibrators/) page.
+For premium internal options against the rest of the top tier, see the [premium picks](/premium-picks/); if this is a first purchase, the [first-time buyer guide](/first-time-buyer/) covers what matters, and the [best-of 2026 ranking](/best-vibrators-2026/) places all fifteen against the full catalogue. The rabbit-format devices are compared on their own [best rabbit vibrators](/best-rabbit-vibrators/) page.

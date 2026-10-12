@@ -27,17 +27,17 @@ weight: 170
 draft: false
 best_for: "Deep, rumbly external massage"
 rating: 4.0
-rating_note: "Best value wand on documentation - German-made, body-safe silicone, IPX7, USB-C at 66.95 EUR - but it was out of stock at the manufacturer and runtime/charge figures were unverified."
+rating_note: "Best value wand on documentation - German-made, body-safe silicone, IPX7, USB-C at 66.95 EUR - held to 4.0 because runtime, charge time, dimensions, weight and warranty are not documented by the manufacturer."
 pros:
   - "Weighted-motor design tuned for deep rumble rather than buzz"
   - "Body-safe, phthalate-free silicone; German-made by Fun Factory"
   - "IPX7 waterproof and USB-C rechargeable"
   - "Best value in the catalogue: 66.95 EUR manufacturer price"
 cons:
-  - "Out of stock at the manufacturer at the time of review"
   - "Runtime, charge time, noise, dimensions and weight not verified in available data"
   - "Wand format is larger and less travel-friendly than compact toys"
   - "No app and no remote - a deliberately simple, no-frills design"
+  - "Warranty term is not documented on the product page"
 image: "/images/products/fun-factory-vim/front.webp"
 images:
   - "/images/products/fun-factory-vim/front.webp"
@@ -48,8 +48,8 @@ offers:
     url: "https://www.funfactory.com/products/vim"
     price: 66.95
     currency: "EUR"
-    checked: "2026-08-06"
-    available: false
+    checked: "2026-10-12"
+    available: true
   - retailer: "Amazon"
     url: ""
     price: null
@@ -118,7 +118,7 @@ VIM's manufacturer describes the device as very quiet for its power class. Indep
 
 Both products come from the same German manufacturer and share Fun Factory's material quality and build standards. They serve different use cases: Manta is a flexible, wraparound external stimulator designed for versatility across different body areas, while VIM is a dedicated wand built for deep, broad-surface massage. Manta's format is more compact and travel-friendly; VIM's format delivers the wand-specific advantage of broad-surface rumble that Manta's flexible shape cannot match.
 
-Manta is priced at 48.95 EUR at the manufacturer (also out of stock at time of check), making it the cheaper option by roughly 18 EUR. For buyers choosing between the two, the decision is format-first: whether the wand's broad-surface rumble or Manta's flexible wraparound better matches their intended use.
+Manta is priced at 48.95 EUR at the manufacturer (out of stock there when checked), making it the cheaper option by roughly 18 EUR. For buyers choosing between the two, the decision is format-first: whether the wand's broad-surface rumble or Manta's flexible wraparound better matches their intended use.
 
 ### VIM vs. We-Vibe Chorus
 
@@ -126,9 +126,9 @@ The price gap is striking. Chorus lists at 209 EUR (on promotion to 159 EUR) —
 
 ## Value Position
 
-At 66.95 EUR, VIM is the lowest-priced product in the Venus catalogue by a significant margin. For context, the next-cheapest device with a verified manufacturer price is the Fun Factory Manta at 48.95 EUR (also a Fun Factory product, also currently out of stock at the manufacturer), and the average price across all twelve products is well over 100 EUR.
+At 66.95 EUR, VIM is the cheapest wand in the Venus catalogue and sits in the budget tier. Cheaper Fun Factory devices exist, the Laya III at 32.95 EUR and the Manta at 48.95 EUR, but none of them is a wand, and the premium wands from LELO and We-Vibe cost more than twice as much.
 
-This makes VIM noteworthy even beyond its merits as a wand: it demonstrates that a body-safe, German-made, fully featured device can exist at a price point that undercuts products in every other category. The main barrier is availability — the manufacturer was out of stock at the time of review, and while an affiliate link to BBoutique is configured, the price there is not documented on this page.
+This makes VIM noteworthy even beyond its merits as a wand: it demonstrates that a body-safe, German-made, fully featured device can exist at a price point that undercuts products in every other category. It was in stock at the manufacturer when checked on 12 October 2026.
 
 ## Documented Specifications
 
@@ -140,7 +140,7 @@ Verified on the manufacturer page on 6 August 2026:
 - Waterproof, IPX7 rated
 - USB-C rechargeable
 - Described by the manufacturer as very quiet for its power class
-- Price: 66.95 EUR — out of stock at time of check
+- Price: 66.95 EUR — in stock at the manufacturer when checked on 12 October 2026
 
 ## What Is Not Documented Here
 

@@ -121,7 +121,7 @@ The documented figures are up to two hours of use from a 90-minute charge, charg
 
 ### Moxie+ vs. the Jive
 
-The [We-Vibe Jive](/products/we-vibe-jive/) is the other wearable in the range, at the same 129 EUR: an egg worn internally with the same app and remote control and a documented 4-hour runtime. Moxie+ is the external-only alternative with half the documented runtime but exact dimensions, a bundled remote and a magnetic clip that needs no insertion. The choice is internal versus external, not features.
+The [We-Vibe Jive 2](/products/we-vibe-jive/) is the other wearable in the range, at the same 129 EUR: an egg worn internally with the same app and remote control and a documented 4-hour runtime. Moxie+ is the external-only alternative with half the documented runtime but exact dimensions, a bundled remote and a magnetic clip that needs no insertion. The choice is internal versus external, not features.
 
 ### Moxie+ vs. the worn couples toys
 

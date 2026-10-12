@@ -18,7 +18,7 @@ faq:
 
 ## Best Vibrators 2026
 
-These rankings come from our 56 published in-depth reviews. The score behind each pick weighs documented specifications, materials, noise, cleaning effort, warranty and value — the full method is on our [methodology page](/methodology/). We have not physically tested these products, and no entry below claims otherwise. All prices are manufacturer EUR prices with the date we last verified them.
+These rankings come from our 62 published in-depth reviews. The score behind each pick weighs documented specifications, materials, noise, cleaning effort, warranty and value — the full method is on our [methodology page](/methodology/). We have not physically tested these products, and no entry below claims otherwise. All prices are manufacturer EUR prices with the date we last verified them.
 
 ### The Top Five
 

@@ -33,7 +33,7 @@ We-Vibe is best known for couples wearables, but the range we have reviewed also
 | [We-Vibe Touch X](/products/we-vibe-touch-x/) | 4.0 | 99.00 EUR | Compact lay-on clitoral vibrator |
 | [We-Vibe Pivot 2](/products/we-vibe-pivot-2/) | 3.5 | 89.00 EUR | App-controlled vibrating couples' ring |
 | [We-Vibe Verge 2](/products/we-vibe-verge-2/) | 3.5 | 99.00 EUR | Vibrating ring with perineum stimulator |
-| [We-Vibe Jive](/products/we-vibe-jive/) | 4.0 | 129.00 EUR | Wearable egg, remote and app controlled |
+| [We-Vibe Jive 2](/products/we-vibe-jive/) | 4.0 | 129.00 EUR | Wearable egg, remote and app controlled |
 | [We-Vibe Match](/products/we-vibe-match/) | 4.0 | 139.00 EUR | Worn couples' vibrator, remote only |
 | [We-Vibe Vector+](/products/we-vibe-vector/) | 3.5 | 139.00 EUR | App/remote prostate massager |
 

@@ -39,7 +39,7 @@ cons:
   - "Dimensions, runtime, charge time and contact material are not documented in the visible page text"
   - "Warranty term is not documented by the manufacturer"
   - "Fit is highly individual - the wings must sit right or the toy shifts"
-  - "Manufacturer page showed out of stock at the time of review"
+  - "Dame prices in US dollars, so European buyers face conversion and possible import costs"
 image: "/images/products/dame-eva-ii/front.webp"
 images:
   - "/images/products/dame-eva-ii/front.webp"
@@ -51,8 +51,8 @@ offers:
     url: "https://www.dame.com/products/eva-ii"
     price: 129
     currency: "USD"
-    checked: "2026-08-06"
-    available: false
+    checked: "2026-10-12"
+    available: true
   - retailer: "Amazon"
     url: ""
     price: null

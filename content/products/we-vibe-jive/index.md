@@ -1,6 +1,6 @@
 ---
-title: "We-Vibe Jive"
-seo_title: "We-Vibe Jive Review - Venus Reviews"
+title: "We-Vibe Jive 2"
+seo_title: "We-Vibe Jive 2 Review - Venus Reviews"
 seo_description: "We-Vibe Jive review: an app-controlled, wearable egg vibrator with a free remote control, body-safe silicone, IPX7 waterproofing and a 4-hour runtime. Specs, fit and catalogue fit."
 schema_product: true
 description: "App-controlled, wearable egg vibrator with a bundled remote control, worn internally for hands-free, partner-directed play at home or in public."

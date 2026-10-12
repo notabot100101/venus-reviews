@@ -53,7 +53,7 @@ Every value below comes from the manufacturer's own product page as recorded in 
 
 **If you want app and partner control:** the [We-Vibe Wand 2](/products/we-vibe-wand-2/). A flexible, ridged head, more than ten intensity levels, Smart Silence that only runs the motor on skin contact, IPX7, a documented 120-minute runtime from a 150-minute charge, a remote in the box and the We-Vibe app. We-Vibe publishes no dimensions, weight or noise figure for it.
 
-**If you want the wand format for the least money:** the [Fun Factory VIM](/products/fun-factory-vim/). A German-made weighted-motor wand in body-safe silicone, IPX7 and USB-C rechargeable at 66.95 EUR, less than half the price of the other two. Fun Factory does not publish its runtime, charge time, weight, dimensions or warranty term, and it was out of stock at the manufacturer when its page was last checked.
+**If you want the wand format for the least money:** the [Fun Factory VIM](/products/fun-factory-vim/). A German-made weighted-motor wand in body-safe silicone, IPX7 and USB-C rechargeable at 66.95 EUR, less than half the price of the other two. Fun Factory does not publish its runtime, charge time, weight, dimensions or warranty term.
 
 **If you want a flexible neck and a smaller head:** the [Dame Com](/products/dame-com/). Dame calls it a wand: medical-grade silicone, a bendable neck, 5 levels and 5 patterns, a travel lock, USB-C, a 1-hour runtime from a 2.5-hour charge and a 3-year warranty, at 119 USD rather than euros. Dame states it is waterproof without an IP rating, publishes no weight or noise figure, and its page carries two different dimension figures, which the review discloses.
 

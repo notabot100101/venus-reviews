@@ -1,8 +1,8 @@
 ---
 title: "LELO Reviews"
-seo_title: "LELO Reviews: All 19 Models Rated & Compared | Venus"
-seo_description: "Every LELO product we have reviewed, rated and ranked: Enigma, Enigma Cruise, Sona 2, Sona 3, Sila, Gigi 2, Mona, Soraya Wave, Ina Wave 2, Lily 3, Mia 3, Hugo, Hugo 2, Loki Wave 2, Smart Wand 2, Ora 3, Tor 3, Tiani 3 and F1S V2, with verified EUR prices and who each one is for."
-description: "All 19 LELO models we have reviewed, ranked, with who each one suits."
+seo_title: "LELO Reviews: All 21 Models Rated & Compared | Venus"
+seo_description: "Every LELO product we have reviewed, rated and ranked: Enigma, Enigma Cruise, Sona 2, Sona 3, Sila, Sila Cruise, Gigi 2, Mona, Soraya Wave, Ina Wave 2, Ida Wave, Lily 3, Mia 3, Hugo, Hugo 2, Loki Wave 2, Smart Wand 2, Ora 3, Tor 3, Tiani 3 and F1S V2, with verified EUR prices and who each one is for."
+description: "All 21 LELO models we have reviewed, ranked, with who each one suits."
 slug: "lelo-reviews"
 date: 2026-10-04
 draft: false
@@ -18,7 +18,7 @@ faq:
 
 ## LELO Reviews
 
-LELO is the most-reviewed brand on Venus: nineteen models across external, internal, dual, wand, couples and prostate stimulation. Every review is built from LELO's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
+LELO is the most-reviewed brand on Venus: twenty-one models across external, internal, dual, wand, couples and prostate stimulation. Every review is built from LELO's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
 
 | Model | Rating | Price | Best for |
 |---|---|---|---|
@@ -27,10 +27,12 @@ LELO is the most-reviewed brand on Venus: nineteen models across external, inter
 | [LELO Sona 2](/products/lelo-sona-2/) | 4.5 | 109.00 EUR | Focused external sonic stimulation |
 | [LELO Sona 3](/products/lelo-sona-3/) | 4.0 | 149.00 EUR | App-connected sonic stimulation, 12 settings |
 | [LELO Sila](/products/lelo-sila/) | 4.0 | 169.00 EUR | Gentler, slower-build sonic stimulation |
+| [LELO Sila Cruise](/products/lelo-sila-cruise/) | 4.0 | 139.00 EUR | Gentle sonic with Cruise Control (promotional price) |
 | [LELO Gigi 2](/products/lelo-gigi-2/) | 4.0 | 109.00 EUR | Premium-feel G-spot |
 | [LELO Mona](/products/lelo-mona/) | 4.0 | 139.00 EUR | Premium-feel internal |
 | [LELO Soraya Wave](/products/lelo-soraya-wave/) | 4.0 | 199.00 EUR | Dual rabbit with a moving WaveMotion tip |
 | [LELO Ina Wave 2](/products/lelo-ina-wave-2/) | 4.0 | 199.00 EUR | Compact WaveMotion rabbit, 12 settings |
+| [LELO Ida Wave](/products/lelo-ida-wave/) | 4.0 | 189.00 EUR | App-connected dual that rotates and vibrates |
 | [LELO Lily 3](/products/lelo-lily-3/) | 4.0 | 99.00 EUR | Compact lay-on external vibrator |
 | [LELO Mia 3](/products/lelo-mia-3/) | 4.0 | 99.00 EUR | Lipstick-sized travel vibrator |
 | [LELO Hugo](/products/lelo-hugo/) | 4.0 | 189.00 EUR | Premium prostate wellness |
@@ -46,9 +48,9 @@ LELO is the most-reviewed brand on Venus: nineteen models across external, inter
 
 **For simple external vibration**, the [Lily 3](/products/lelo-lily-3/) is the compact lay-on vibrator: 39 x 34 x 74 mm, 45 g, 10 settings, 100% waterproof, a two-hour runtime and a documented 60 dB maximum at 99 EUR, the cheapest LELO in the catalogue, shared with the [Mia 3](/products/lelo-mia-3/), a 36 g lipstick-sized travel vibrator with 8 settings, a transport lock, 100% waterproofing and a documented under-60 dB ceiling at the same 99 EUR. Both minis are ranked on the [best mini and bullet vibrators](/best-mini-vibrators/) page.
 
-**For external stimulation**, the [Sona 2](/products/lelo-sona-2/) is the focused sonic pick and the [Sila](/products/lelo-sila/) is its gentler, wider-mouth sibling at a higher price; the two are compared head-to-head in [Sona 2 vs Sila](/lelo-sona-2-vs-lelo-sila/), and against air-pulse in [Sona 2 vs Womanizer Premium 2](/lelo-sona-2-vs-womanizer-premium-2/). The [Sona 3](/products/lelo-sona-3/) is the app-connected sonic successor at 149 EUR: twelve settings, two of them unlocked by the LELO app, with the same under-60 dB ceiling and two-hour runtime.
+**For external stimulation**, the [Sona 2](/products/lelo-sona-2/) is the focused sonic pick and the [Sila](/products/lelo-sila/) is its gentler, wider-mouth sibling at a higher price; the two are compared head-to-head in [Sona 2 vs Sila](/lelo-sona-2-vs-lelo-sila/); the [Sila Cruise](/products/lelo-sila-cruise/) is the Sila with Cruise Control at a 139 EUR price LELO flags as promotional; and against air-pulse in [Sona 2 vs Womanizer Premium 2](/lelo-sona-2-vs-womanizer-premium-2/). The [Sona 3](/products/lelo-sona-3/) is the app-connected sonic successor at 149 EUR: twelve settings, two of them unlocked by the LELO app, with the same under-60 dB ceiling and two-hour runtime.
 
-**For dual stimulation**, the [Enigma](/products/lelo-enigma/) combines external sonic waves with internal G-spot stimulation in one body, which is what earns it the top LELO rating; [Enigma vs Sona 2](/lelo-enigma-vs-lelo-sona-2/) weighs it against the focused external-only pick. The [Enigma Cruise](/products/lelo-enigma-cruise/) is the same dual format with Cruise Control, which holds power in reserve and releases it under pressure, at 219 EUR; LELO calls the Enigma its predecessor without saying it is replaced; the two are compared in [Enigma vs Enigma Cruise](/lelo-enigma-vs-lelo-enigma-cruise/). The [Soraya Wave](/products/lelo-soraya-wave/) is the rabbit alternative: an insertable WaveMotion shaft whose tip rises and falls in a finger-like motion, plus a clitoral arm, fully documented at 199 EUR; the [Ina Wave 2](/products/lelo-ina-wave-2/) is the smaller, lighter WaveMotion rabbit at the same price with 12 settings. Both are ranked on the [best rabbit vibrators](/best-rabbit-vibrators/) page and compared in [Soraya Wave vs Ina Wave 2](/lelo-soraya-wave-vs-lelo-ina-wave-2/).
+**For dual stimulation**, the [Enigma](/products/lelo-enigma/) combines external sonic waves with internal G-spot stimulation in one body, which is what earns it the top LELO rating; [Enigma vs Sona 2](/lelo-enigma-vs-lelo-sona-2/) weighs it against the focused external-only pick. The [Enigma Cruise](/products/lelo-enigma-cruise/) is the same dual format with Cruise Control, which holds power in reserve and releases it under pressure, at 219 EUR; LELO calls the Enigma its predecessor without saying it is replaced; the two are compared in [Enigma vs Enigma Cruise](/lelo-enigma-vs-lelo-enigma-cruise/). The [Soraya Wave](/products/lelo-soraya-wave/) is the rabbit alternative: an insertable WaveMotion shaft whose tip rises and falls in a finger-like motion, plus a clitoral arm, fully documented at 199 EUR; the [Ina Wave 2](/products/lelo-ina-wave-2/) is the smaller, lighter WaveMotion rabbit at the same price with 12 settings. The [Ida Wave](/products/lelo-ida-wave/) is the app-connected dual whose internal arm rotates as well as vibrates, 63 x 56 x 93 mm and 102 g with 10 settings at 189 EUR. All three are ranked on the [best rabbit vibrators](/best-rabbit-vibrators/) page, and the two rabbits are compared in [Soraya Wave vs Ina Wave 2](/lelo-soraya-wave-vs-lelo-ina-wave-2/).
 
 **For internal or premium-feel**, the [Gigi 2](/products/lelo-gigi-2/) and [Mona](/products/lelo-mona/) cover G-spot and firmer internal use at 109 and 139 EUR; both are ranked in the [best G-spot vibrators](/best-g-spot-vibrators/) guide.
 

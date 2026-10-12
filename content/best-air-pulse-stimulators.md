@@ -18,7 +18,7 @@ faq:
 
 ## Best Air-Pulse & Sonic Clitoral Stimulators
 
-This is the "contactless" category: devices that stimulate the clitoris without vibrating against it, either by pulsing air (air-pulse) or by resonating sound waves (sonic). It is the fastest-growing style of clitoral stimulator, and it is the one people most often ask about by brand name. Here are the fourteen we have reviewed, ranked by our rating with the verified manufacturer price.
+This is the "contactless" category: devices that stimulate the clitoris without vibrating against it, either by pulsing air (air-pulse) or by resonating sound waves (sonic). It is the fastest-growing style of clitoral stimulator, and it is the one people most often ask about by brand name. Here are the fifteen we have reviewed, ranked by our rating with the verified manufacturer price.
 
 | Stimulator | Method | Rating | Price |
 |---|---|---|---|
@@ -27,6 +27,7 @@ This is the "contactless" category: devices that stimulate the clitoris without 
 | [Womanizer Premium 2](/products/womanizer-premium-2/) | Air-pulse | 4.5 | 179.00 EUR |
 | [LELO Sila](/products/lelo-sila/) | Sonic (gentle) | 4.0 | 169.00 EUR |
 | [LELO Sona 3](/products/lelo-sona-3/) | Sonic (app-connected) | 4.0 | 149.00 EUR |
+| [LELO Sila Cruise](/products/lelo-sila-cruise/) | Sonic (gentle, Cruise Control) | 4.0 | 139.00 EUR |
 | [We-Vibe Melt](/products/we-vibe-melt/) | Air-pulse (app) | 4.0 | 149.00 EUR |
 | [Womanizer Duo 2](/products/womanizer-duo-2/) | Air-pulse (3-in-1) | 4.0 | 209.00 EUR |
 | [Dame Aer](/products/dame-aer/) | Air-pulse (compact) | 4.0 | 125.00 USD |
@@ -42,6 +43,8 @@ This is the "contactless" category: devices that stimulate the clitoris without 
 **If you want the broadest, most forgiving sensation:** the [LELO Sila](/products/lelo-sila/). Its wide mouth spreads sonic stimulation over a larger area at a deliberately lower intensity ceiling, which suits people who find pinpoint devices too intense.
 
 **If you want focused sonic at the best price:** the [LELO Sona 2](/products/lelo-sona-2/). It is our top sonic pick, compact at 125 g and fully waterproof, with a documented 60 dB maximum that is honest but audible.
+
+**If you want the gentle sonic mouth with power held in reserve:** the [LELO Sila Cruise](/products/lelo-sila-cruise/). The Sila's wide mouth with Cruise Control, 8 settings, 105 g, 80 x 75 x 35 mm, 100% waterproof and a two-hour runtime; its 139 EUR price is flagged by LELO as a promotion with no list price published, and the page gives no noise figure.
 
 **If you want sonic stimulation with app control:** the [LELO Sona 3](/products/lelo-sona-3/). The Sona 2's successor with twelve settings, two of them unlocked by the LELO app, 128 g, 100% waterproof, a two-hour runtime and the same under-60 dB ceiling, at 149 EUR; LELO still lists the Sona 2 alongside it.
 

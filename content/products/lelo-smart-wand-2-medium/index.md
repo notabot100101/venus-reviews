@@ -129,7 +129,7 @@ The wand is cordless and rechargeable over USB, with the two-hour charge matchin
 
 ### Smart Wand 2 Medium vs. the Fun Factory VIM
 
-The [Fun Factory VIM](/products/fun-factory-vim/) is the catalogue's other wand: a German-made, weighted-motor wand in body-safe silicone, rated IPX7, USB-C rechargeable, at a 66.95 EUR manufacturer price, though it was out of stock at the manufacturer when that page was checked. On the values both pages document: silicone contact surfaces on both, with LELO also specifying ABS plastic; a 100% waterproof statement from LELO against an IPX7 rating from Fun Factory, two different ways of describing a device that can go in water; and a price gap of roughly 100 EUR. The VIM review does not document runtime, charge time, noise, weight, dimensions or warranty, so none of those can be contrasted; LELO documents all of them except noise. The VIM leads on price; the Smart Wand 2 Medium is the better-documented buy.
+The [Fun Factory VIM](/products/fun-factory-vim/) is the catalogue's other wand: a German-made, weighted-motor wand in body-safe silicone, rated IPX7, USB-C rechargeable, at a 66.95 EUR manufacturer price. On the values both pages document: silicone contact surfaces on both, with LELO also specifying ABS plastic; a 100% waterproof statement from LELO against an IPX7 rating from Fun Factory, two different ways of describing a device that can go in water; and a price gap of roughly 100 EUR. The VIM review does not document runtime, charge time, noise, weight, dimensions or warranty, so none of those can be contrasted; LELO documents all of them except noise. The VIM leads on price; the Smart Wand 2 Medium is the better-documented buy.
 
 ### Smart Wand 2 Medium vs. the small external vibrators
 
