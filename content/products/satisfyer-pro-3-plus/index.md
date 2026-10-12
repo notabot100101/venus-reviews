@@ -50,6 +50,7 @@ draft: false
 # view); package_* (shows retail packaging); produkt-highlights_* (icon/text overlay graphic);
 # awards-french_* (award-badge graphic); satisyfer-pro3-plus-...-mint-first-view (a different
 # cross-sell product/colour not offered for this SKU).
+# Orchestrator 2026-10-12: price recorded as the 69.95 EUR list price per catalogue convention; 48.97 EUR is the live 30% promotion.
 best_for: "Combined air-pulse and vibration from Satisfyer without stepping up to a premium brand"
 badge: "2-in-1 Pick"
 rating: 3.5
@@ -67,12 +68,12 @@ cons:
 image: "/images/products/satisfyer-pro-3-plus/front.webp"
 images:
   - "/images/products/satisfyer-pro-3-plus/front.webp"
-price: "48.97"
+price: "69.95"
 price_checked: "2026-10-12"
 offers:
   - retailer: "Satisfyer (manufacturer)"
     url: "https://www.satisfyer.com/de/satisfyer-pro-3-plus"
-    price: 48.97
+    price: 69.95
     currency: "EUR"
     checked: "2026-10-12"
     available: false
