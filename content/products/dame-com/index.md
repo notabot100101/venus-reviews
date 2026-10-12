@@ -49,7 +49,7 @@ draft: false
 # (1867x2434, product-only on a plain off-white background, no hand, no text, no packaging;
 # matches Dame's own primary og:image for this page).
 best_for: "Powerful, broad clitoral wand stimulation from a flexible, bulbed head"
-badge: "New"
+badge: "Flexible Wand"
 rating: 3.5
 rating_note: "A well-documented wand vibrator - Dame's own category label for it - with medical-grade, 100% body-safe silicone, 5 intensity levels, 5 patterns, a travel lock and a 3-year warranty; it sits at the lower end of the range because Dame's own page states two different, conflicting sets of dimensions for the same product, prices in USD rather than EUR, gives no decibel figure behind its 'low hum' claim, and does not publish a product weight."
 pros:
