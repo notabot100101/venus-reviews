@@ -17,7 +17,7 @@ specs:
   patterns: 8
   warranty_years: 2
   weight_g: 196
-  dims_mm: null
+  dims_mm: "100 x 50 x 185 mm"
   app: null
   noise_db: null
 draft: false

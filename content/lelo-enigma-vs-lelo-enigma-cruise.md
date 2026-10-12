@@ -9,7 +9,7 @@ draft: false
 author: "Venus Editorial Team"
 faq:
   - question: "What is the difference between the Enigma and the Enigma Cruise?"
-    answer: "Both pair SenSonic sonic external stimulation with an internal G-spot arm, with 8 settings, 196 g, a two-hour runtime and 100% waterproofing. The Enigma Cruise adds Cruise Control, which holds power in reserve and releases it when the device is pressed hard against the body, and LELO publishes its dimensions and insertable length. It costs 20 EUR more, and its page omits the charge time the Enigma page states."
+    answer: "Both pair SenSonic sonic external stimulation with an internal G-spot arm, with 8 settings, 196 g, a two-hour runtime and 100% waterproofing. The Enigma Cruise adds Cruise Control, which holds power in reserve and releases it when the device is pressed hard against the body, and its page publishes the motor frequencies. Both pages give the same 100 x 50 x 185 mm size and 140 mm insertable length. The Cruise costs 20 EUR more, and its page omits the charge time the Enigma page states."
   - question: "Does the Enigma Cruise replace the Enigma?"
     answer: "LELO calls the Enigma the Cruise's predecessor but does not say it is discontinued; both were listed for sale when checked. The Enigma holds the higher rating in our catalogue, 4.5 against 4.0."
   - question: "Which is better value?"
@@ -28,9 +28,9 @@ Both reviews are built from the manufacturers' official specifications, not phys
 | Manufacturer price | 199.00 EUR | 219.00 EUR |
 | Format | Dual: sonic external + internal G-spot arm | Dual: sonic external + internal G-spot arm |
 | Signature feature | SenSonic | SenSonic + Cruise Control |
-| Insertable length | not documented in the review | 140 mm |
-| Motor frequency | not documented in the review | 60 Hz / 100 Hz |
-| Control | buttons | 3 buttons and 2 LEDs |
+| Insertable length | 140 mm | 140 mm |
+| Motor frequency | not documented | 60 Hz / 100 Hz |
+| Control | 3-button interface | 3 buttons and 2 LEDs |
 | Settings / modes | 8 | 8 |
 | Intensity levels | not documented | not documented |
 | Max noise | not documented | not documented |
@@ -39,7 +39,7 @@ Both reviews are built from the manufacturers' official specifications, not phys
 | Runtime | 120 min | 120 min |
 | Charge time | 120 min | not documented |
 | Weight | 196 g | 196 g |
-| Dimensions | not documented | 100 x 50 x 185 mm |
+| Dimensions | 100 x 50 x 185 mm | 100 x 50 x 185 mm |
 | App control | not documented | not documented |
 | Warranty | 2 years | 2 years |
 | Manufacturer stock | in stock when checked | in stock when checked |
@@ -48,10 +48,10 @@ Both reviews are built from the manufacturers' official specifications, not phys
 
 The **Enigma** is the cheaper and higher-rated of the two, at 199 EUR and 4.5, and its page documents the two-hour charge time that the Cruise page leaves out. On the figures both pages publish, 8 settings, 196 g, a two-hour runtime, 100% waterproofing and a two-year warranty, they are the same device.
 
-The **Enigma Cruise** adds Cruise Control, the one functional difference, and a more complete physical sheet: 100 x 50 x 185 mm, a 140 mm insertable length and the motor frequencies. It costs 219 EUR, publishes no charge time and, like the Enigma, no noise figure.
+The **Enigma Cruise** adds Cruise Control, the one functional difference, and publishes its motor frequencies, 60 Hz and 100 Hz, which the Enigma page does not. Everything else on its sheet, the 100 x 50 x 185 mm size, the 140 mm insertable length, the 196 g weight, the 8 settings, the two-hour runtime, is the same as the Enigma's. It costs 219 EUR, publishes no charge time and, like the Enigma, no noise figure.
 
 ### Which to buy
 
-Choose the **Enigma** unless Cruise Control is specifically what you want: it is 20 EUR cheaper, rated higher, and documents its charge time. Choose the **Enigma Cruise** if you press hard during use and want the power held in reserve for that, or if the published dimensions matter to you.
+Choose the **Enigma** unless Cruise Control is specifically what you want: it is 20 EUR cheaper, rated higher, and documents its charge time. Choose the **Enigma Cruise** only if you press hard during use and want the power held in reserve for that.
 
 The Enigma is compared with LELO's focused external pick in [Enigma vs Sona 2](/lelo-enigma-vs-lelo-sona-2/); both duals sit among the insertables on the [best G-spot and internal vibrators](/best-g-spot-vibrators/) page and against the rabbits on the [best rabbit vibrators](/best-rabbit-vibrators/) page. The full LELO line is on the [LELO reviews hub](/lelo-reviews/).
