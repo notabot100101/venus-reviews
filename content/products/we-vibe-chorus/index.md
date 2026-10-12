@@ -4,6 +4,9 @@ seo_description: "We Vibe Chorus review — app-enabled dual-stimulation couples
 schema_product: true
 description: "Synchronized dual-action stimulator for couples"
 sku: "we-vibe-chorus"
+# VERIFIED 2026-10-12 via https://www.we-vibe.com/de/chorus (rendered): IPX7; run time 90 min;
+# charge time 120 min; 2-year warranty; 78 x 33 x 43.5 mm. NOT documented: levels, patterns,
+# weight_g, noise_db. Price 209.00 EUR list (159.00 EUR live promotion)
 specs:
   material: "body-safe silicone, produced without phthalates, BPA, or latex"
   waterproof: "IPX7"

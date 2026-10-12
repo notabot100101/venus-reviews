@@ -8,13 +8,17 @@ images:
   - "/images/products/fun-factory-manta/front.webp"
 description: "Flexible external stimulator with a distinctive wraparound shape and strong material quality."
 sku: "fun-factory-manta"
+# VERIFIED 2026-10-12 via https://www.funfactory.com/products/manta (raw HTML spec block):
+# IPX7; 6 intensity levels; 6 pattern modes; weight 287 g; runtime 40-120 min (manufacturer
+# gives a RANGE); charge 360-480 min (manufacturer gives a RANGE). NOT documented:
+# warranty_years, dims_mm, app, noise_db. Price 48.95 EUR unchanged from the last check
 specs:
   material: "medical-grade silicone"
   waterproof: "IPX7"
   runtime_min: null
   charge_min: null
-  levels: null
-  patterns: null
+  levels: 6
+  patterns: 6
   warranty_years: null
   weight_g: 287
   dims_mm: null

@@ -1,12 +1,16 @@
 ---
 sku: "lelo-gigi-2"
+# VERIFIED 2026-10-12 via https://www.lelo.com/gigi-2 (raw HTML spec/feature block): run time
+# 240 min; charge time 120 min; 8 pattern/settings modes; 2-year warranty; weight 79 g;
+# 163 x 35 x 42 mm; 100% waterproof per LELO prose, NO IP rating published. NOT documented:
+# levels, app, noise_db. Price 109.00 EUR unchanged from the last check
 specs:
   material: "body-safe silicone with ABS plastic"
   waterproof: "100% waterproof"
   runtime_min: 240
   charge_min: 120
   levels: null
-  patterns: null
+  patterns: 8
   warranty_years: null
   weight_g: 79
   dims_mm: "163 x 35 x 42 mm"

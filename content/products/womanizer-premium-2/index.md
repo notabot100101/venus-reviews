@@ -1,5 +1,8 @@
 ---
 sku: "womanizer-premium-2"
+# VERIFIED 2026-10-12 via https://www.womanizer.com/de/premium-2 (raw HTML spec block): IPX7;
+# run time 240 min; charge time 120 min; 5-year warranty; weight 141.4 g; 155 x 50 x 35 mm.
+# NOT documented: patterns, app, noise_db. Price 179.00 EUR unchanged from the last check
 specs:
   material: "body-safe silicone made without phthalates, BPA or latex"
   waterproof: "IPX7"

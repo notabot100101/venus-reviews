@@ -4,12 +4,16 @@ description: "Sleek, powerful personal massager with whisper-quiet performance"
 seo_description: "Dame Eva II review covering hands-free fit, partner use, comfort tradeoffs, safety notes, and how it compares with other compact wearable vibrators."
 schema_product: true
 sku: "dame-eva-ii"
+# VERIFIED 2026-10-12 via https://www.dame.com/products/eva-ii (raw HTML spec block): run time
+# 60 min; charge time 240 min; 3 intensity levels; 3-year warranty. NOT documented:
+# waterproof, patterns, weight_g, dims_mm, app, noise_db. Price 129.00 EUR unchanged from the
+# last check
 specs:
   material: "medical-grade silicone"
   waterproof: "waterproof"
   runtime_min: null
   charge_min: null
-  levels: null
+  levels: 3
   patterns: null
   warranty_years: null
   weight_g: 397

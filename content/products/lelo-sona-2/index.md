@@ -4,6 +4,10 @@ seo_description: "Lelo Sona 2 review — focused sonic-wave stimulation, silicon
 schema_product: true
 description: "Compact premium sonic-wave stimulator with a focused sensation profile and travel-friendly build."
 sku: "lelo-sona-2"
+# VERIFIED 2026-10-12 via https://www.lelo.com/sona-2 (raw HTML spec block): run time 120 min;
+# charge time 120 min; 12 pattern modes; 2-year warranty; weight 125 g; 112 x 55 x 51 mm; max
+# noise 60 dB; 100% waterproof per LELO prose, NO IP rating published. NOT documented: levels,
+# app. Price 109.00 EUR unchanged from the last check
 specs:
   material: "body-safe silicone and ABS plastic"
   waterproof: "100% waterproof"

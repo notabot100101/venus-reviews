@@ -5,6 +5,9 @@ seo_description: "We-Vibe Tango X review — compact bullet vibrator with broad-
 schema_product: true
 description: "Compact bullet vibrator with broad-motor rumble."
 sku: "we-vibe-tango-x"
+# VERIFIED 2026-10-12 via https://www.we-vibe.com/de/tango-x (rendered): IPX7; run time 120
+# min; charge time 90 min; 8 intensity levels; 7 pattern modes; 2-year warranty;
+# 99.8 x 22.9 x 24.3 mm. NOT documented: weight_g, noise_db, app. Price 89.00 EUR list
 specs:
   material: "Body-safe silicone with grip texture"
   waterproof: "IPX7"

@@ -4,13 +4,17 @@ seo_description: "Lelo Hugo review covering prostate-massager fit, remote contro
 schema_product: true
 description: "Premium prostate massager with a wellness-focused shape, strong motor, and quiet waterproof design."
 sku: "lelo-hugo"
+# VERIFIED 2026-10-12 via https://www.lelo.com/hugo (raw HTML spec/feature block): run time
+# 120 min; charge time 120 min; 6 pattern/settings modes; 2-year warranty; weight 116 g;
+# 104 x 107 x 41 mm; max noise 50 dB; 100% waterproof per LELO prose, NO IP rating published.
+# NOT documented: levels, app. Price 189.00 EUR unchanged from the last check
 specs:
   material: "body-safe silicone and ABS plastic"
   waterproof: "100% waterproof"
   runtime_min: 120
   charge_min: 120
   levels: null
-  patterns: null
+  patterns: 6
   warranty_years: 2
   weight_g: 116
   dims_mm: null

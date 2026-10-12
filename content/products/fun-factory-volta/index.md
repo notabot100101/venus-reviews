@@ -8,12 +8,16 @@ images:
   - "/images/products/fun-factory-volta/front.webp"
 description: "Twin-tip stimulator for precise external contact and a more exploratory feel."
 sku: "fun-factory-volta"
+# VERIFIED 2026-10-12 via https://www.funfactory.com/products/volta (raw HTML spec block):
+# IPX7; 6 intensity levels; 6 pattern modes; weight 190 g; 63 x 47 x 191 mm. NOT documented:
+# runtime_min, charge_min, warranty_years, app, noise_db. Price 51.95 EUR unchanged from the
+# last check
 specs:
   material: "body-friendly hygienic silicone"
   waterproof: "IPX7"
   runtime_min: null
   charge_min: null
-  levels: null
+  levels: 6
   patterns: 6
   warranty_years: null
   weight_g: 190

@@ -4,13 +4,17 @@ seo_description: "Lelo Enigma review covering dual sonic and G-spot stimulation,
 schema_product: true
 description: "Premium pleasure device with advanced sonic and G-spot technology"
 sku: "lelo-enigma"
+# VERIFIED 2026-10-12 via https://www.lelo.com/enigma (raw HTML spec/feature block): run time
+# 120 min; charge time 120 min; 8 pattern/settings modes; 2-year warranty; weight 196 g;
+# 100 x 50 x 185 mm; 100% waterproof per LELO prose, NO IP rating published. NOT documented:
+# levels, app, noise_db. Price 199.00 EUR unchanged from the last check
 specs:
   material: "body-safe silicone and ABS plastic, extra-soft"
   waterproof: "100% waterproof"
   runtime_min: 120
   charge_min: 120
   levels: null
-  patterns: null
+  patterns: 8
   warranty_years: 2
   weight_g: 196
   dims_mm: null

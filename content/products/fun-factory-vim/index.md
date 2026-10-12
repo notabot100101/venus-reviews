@@ -5,13 +5,17 @@ seo_description: "Fun Factory VIM wand massager review — German-made, body-saf
 schema_product: true
 description: "Weighted-motor wand massager."
 sku: "fun-factory-vim"
+# VERIFIED 2026-10-12 via https://www.funfactory.com/products/vim (raw HTML spec block): IPX7;
+# 5 intensity levels; 3 pattern modes; weight 437 g; 315 x 61 x 61 mm. NOT documented:
+# runtime_min, charge_min, warranty_years, app, noise_db. Price 66.95 EUR unchanged from the
+# last check
 specs:
   material: "body-safe silicone"
   waterproof: "IPX7"
   runtime_min: null
   charge_min: null
-  levels: null
-  patterns: null
+  levels: 5
+  patterns: 3
   warranty_years: null
   weight_g: null
   dims_mm: null

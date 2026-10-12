@@ -4,6 +4,10 @@ seo_description: "LELO Sila review — gentle sonic clitoral massager with wide-
 schema_product: true
 description: "Gentle sonic clitoral massager — LELO's softer-paced counterpart to its more intense sonic range."
 sku: "lelo-sila"
+# VERIFIED 2026-10-12 via https://www.lelo.com/sila (raw HTML spec block): run time 120 min;
+# charge time 120 min; 8 pattern modes; 2-year warranty; weight 105 g; 80 x 75 x 35 mm; 100%
+# waterproof per LELO prose, NO IP rating published. NOT documented: levels, app, noise_db.
+# Price 169.00 EUR unchanged from the last check
 specs:
   material: "body-safe silicone, ABS plastic"
   waterproof: "100% waterproof"

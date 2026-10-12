@@ -1,5 +1,9 @@
 ---
 sku: "lelo-mona"
+# VERIFIED 2026-10-12 via https://www.lelo.com/mona-2 (raw HTML spec block): run time 120 min;
+# charge time 120 min; 6 pattern modes; 2-year warranty; weight 128 g; 196.2 x 53.1 x 42 mm;
+# max noise 50 dB; 100% waterproof per LELO prose, NO IP rating published. NOT documented:
+# levels, app. Price 139.00 EUR unchanged from the last check
 specs:
   material: "body-safe silicone and ABS plastic with a matte finish"
   waterproof: "100% waterproof"

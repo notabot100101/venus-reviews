@@ -9,6 +9,11 @@ images:
 description: "Adjustable couples vibrator with flexible fit, app control, and travel-friendly charging."
 category: "dual-action"
 sku: "we-vibe-sync"
+# CHECKED 2026-10-12: We-Vibe has DELISTED the plain Sync. Both we-vibe.com/de/sync and
+# /eu/sync now redirect to a catalog-search page, and the model survives on the site only in
+# accessory-compatibility lists. No spec or price can be re-verified. Successor candidates are
+# Sync 2, Sync Lite, Sync Go and Sync O - four of them, so there is no single landed model to
+# re-title to. NEEDS A DECISION: retire the review, or re-scope it to one named successor.
 specs:
   material: "body-safe silicone exterior"
   waterproof: "IPX7"
