@@ -148,6 +148,10 @@ Lily 3 is USB-rechargeable, with a documented charge time of up to 2 hours produ
 
 The [We-Vibe Tango X](/products/we-vibe-tango-x/) is the catalogue's other small external vibrator: an 89 EUR bullet rather than Lily 3's flat lay-on body. Tango X states 8 intensity levels across 7 patterns, but We-Vibe's page leaves runtime, charge time, weight and noise undocumented, so a direct battery or noise comparison is not possible. Lily 3 costs 10 EUR more but documents considerably more: a 45 g weight, full dimensions, a 60 dB noise ceiling, and both runtime and charge time. The [Fun Factory Volta](/products/fun-factory-volta/) is a third small external option at 51.95 EUR with 6 patterns and IPX7, but likewise no stated runtime, charge time or noise figure - making Lily 3 the most fully documented of the three on power and acoustic specifications, if not the cheapest.
 
+### Lily 3 vs. the We-Vibe Touch X
+
+The [We-Vibe Touch X](/products/we-vibe-touch-x/) is the closest rival in format and price: a lay-on vibrator at the same 99 EUR with 8 intensity levels and 7 patterns, exact 102 x 43 x 34 mm dimensions, IPX7 and a lock function, but no published weight or noise figure. The Lily 3 answers with a documented 45 g and a 60 dB maximum; the Touch X with the level-and-pattern split and the travel lock.
+
 ### Lily 3 vs. the sonic LELOs
 
 Lily 3 vibrates conventionally; it does not use LELO's sonic-wave technology. The [LELO Sona 2](/products/lelo-sona-2/) and [LELO Sila](/products/lelo-sila/) are LELO's sonic clitoral stimulators, pulsing air and surface contact rather than vibrating a motor against the body. Sona 2 matches Lily 3's 60 dB noise ceiling but costs 109 EUR, weighs 125 g, and offers 12 patterns against Lily 3's 10. Sila is gentler by design, costs 169 EUR, and does not document a noise figure. Buyers who want sonic-wave stimulation should look to Sona 2 or Sila; buyers who want conventional vibration in the smallest, lightest body should stay with Lily 3.

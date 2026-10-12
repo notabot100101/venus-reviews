@@ -18,7 +18,7 @@ faq:
 
 ## Best Air-Pulse & Sonic Clitoral Stimulators
 
-This is the "contactless" category: devices that stimulate the clitoris without vibrating against it, either by pulsing air (air-pulse) or by resonating sound waves (sonic). It is the fastest-growing style of clitoral stimulator, and it is the one people most often ask about by brand name. Here are the twelve we have reviewed, ranked by our rating with the verified manufacturer price.
+This is the "contactless" category: devices that stimulate the clitoris without vibrating against it, either by pulsing air (air-pulse) or by resonating sound waves (sonic). It is the fastest-growing style of clitoral stimulator, and it is the one people most often ask about by brand name. Here are the fourteen we have reviewed, ranked by our rating with the verified manufacturer price.
 
 | Stimulator | Method | Rating | Price |
 |---|---|---|---|
@@ -26,12 +26,14 @@ This is the "contactless" category: devices that stimulate the clitoris without 
 | [Womanizer Next](/products/womanizer-next/) | Air-pulse (3D) | 4.5 | 209.00 EUR |
 | [Womanizer Premium 2](/products/womanizer-premium-2/) | Air-pulse | 4.5 | 179.00 EUR |
 | [LELO Sila](/products/lelo-sila/) | Sonic (gentle) | 4.0 | 169.00 EUR |
+| [LELO Sona 3](/products/lelo-sona-3/) | Sonic (app-connected) | 4.0 | 149.00 EUR |
 | [We-Vibe Melt](/products/we-vibe-melt/) | Air-pulse (app) | 4.0 | 149.00 EUR |
 | [Womanizer Duo 2](/products/womanizer-duo-2/) | Air-pulse (3-in-1) | 4.0 | 209.00 EUR |
 | [Dame Aer](/products/dame-aer/) | Air-pulse (compact) | 4.0 | 125.00 USD |
 | [Womanizer Classic 2](/products/womanizer-classic-2/) | Air-pulse (mid-range) | 4.0 | 119.00 EUR |
 | [Womanizer Liberty 2](/products/womanizer-liberty/) | Air-pulse (travel) | 4.0 | 99.00 EUR |
 | [Satisfyer Pro 2](/products/satisfyer-pro-2/) | Air-pulse | 3.5 | 69.95 EUR |
+| [Satisfyer Pro 3+](/products/satisfyer-pro-3-plus/) | Air-pulse + vibration (2-in-1) | 3.5 | 69.95 EUR |
 | [Satisfyer Curvy Trinity 3](/products/satisfyer-curvy/) | Air-pulse (3-in-1) | 3.5 | 59.95 EUR |
 | [Womanizer Starlet 3](/products/womanizer-starlet-3/) | Air-pulse (entry) | 3.5 | 69.00 EUR |
 
@@ -40,6 +42,8 @@ This is the "contactless" category: devices that stimulate the clitoris without 
 **If you want the broadest, most forgiving sensation:** the [LELO Sila](/products/lelo-sila/). Its wide mouth spreads sonic stimulation over a larger area at a deliberately lower intensity ceiling, which suits people who find pinpoint devices too intense.
 
 **If you want focused sonic at the best price:** the [LELO Sona 2](/products/lelo-sona-2/). It is our top sonic pick, compact at 125 g and fully waterproof, with a documented 60 dB maximum that is honest but audible.
+
+**If you want sonic stimulation with app control:** the [LELO Sona 3](/products/lelo-sona-3/). The Sona 2's successor with twelve settings, two of them unlocked by the LELO app, 128 g, 100% waterproof, a two-hour runtime and the same under-60 dB ceiling, at 149 EUR; LELO still lists the Sona 2 alongside it.
 
 **If you want the flagship air-pulse and the longest runtime:** the [Womanizer Next](/products/womanizer-next/). 3D Pleasure Air with Climax Control, 14 levels, Smart Silence, Afterglow and Autopilot, with a documented 240-minute runtime, the longest in the catalogue and shared with the Premium 2, and a 5-year warranty. It is the priciest here at 209 EUR.
 
@@ -56,6 +60,8 @@ This is the "contactless" category: devices that stimulate the clitoris without 
 **If you want air-pulse that travels:** the [Womanizer Liberty 2](/products/womanizer-liberty/). A magnetic hygienic cover and a lock function on the Pleasure Air mechanism, with 8 levels, IPX7, a documented 120-minute runtime, a published 160 mAh battery and the 5-year warranty, at 99 EUR.
 
 **If you just want to try air-pulse cheaply:** the [Satisfyer Pro 2](/products/satisfyer-pro-2/). Louder and with a shorter runtime, but at 69.95 EUR with a 15-year warranty it is the low-risk way to find out whether the sensation works for you.
+
+**If you want air-pulse and vibration in one budget device:** the [Satisfyer Pro 3+](/products/satisfyer-pro-3-plus/). Two separately controlled motors, 11 air-pulse intensities and 10 vibration programmes, IPX7, a documented 113 g and 145 x 48 x 43 mm, and Satisfyer's 15-year warranty at a 69.95 EUR list price (shown discounted to 48.97 EUR), though it was unavailable on Satisfyer's own store when checked and publishes no runtime or charge time.
 
 **If you want air-pulse and an insertable in one budget device:** the [Satisfyer Curvy Trinity 3](/products/satisfyer-curvy/). It is a 3-in-1 that adds G-spot vibration to the air-pulse at a 59.95 EUR list price with the same 15-year warranty, the cheapest way to get both sensations, though its spec sheet is thin and it was out of stock at the manufacturer when checked.
 

@@ -36,8 +36,8 @@ Every value below comes from the manufacturer's own product page as recorded in 
 | Waterproof | IPX7 | 100% waterproof | IPX7 |
 | Runtime | not documented | 120 min | 120 min |
 | Charge time | not documented | 120 min | 150 min |
-| Intensity levels | not documented | not documented | not documented |
-| Modes / patterns | not documented | 10 | not documented |
+| Intensity levels | 5 | not documented | not documented |
+| Modes / patterns | 3 | 10 | not documented |
 | Noise | not documented | not documented | not documented |
 | Weight | not documented | 155 g | not documented |
 | Dimensions | not documented | 210 x 85 x 45 mm | not documented |

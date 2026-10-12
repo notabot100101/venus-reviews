@@ -46,13 +46,16 @@ The inexpensive entry into air-pulse stimulation. Note: the manufacturer listed 
 **8. [Fun Factory Stronic G](/products/fun-factory-stronic/) — 3.5 — 69.95 EUR** (verified October 2026)
 The only thrusting device in the catalogue, and the cheapest place to try a pulsator. Well-documented on size and materials, but no published runtime, charge time or warranty.
 
-**9. [Fun Factory Stronic Real](/products/fun-factory-stronic-real/) — 3.5 — 67.95 EUR** (verified October 2026)
+**9. [Satisfyer Pro 3+](/products/satisfyer-pro-3-plus/) — 3.5 — 69.95 EUR** (verified October 2026)
+Air-pulse plus vibration from two motors, 11 intensities and 10 programmes, IPX7, a documented 113 g and a 15-year warranty, at a 69.95 EUR list price shown discounted to 48.97 EUR; unavailable on Satisfyer's own store when checked, so buy through the retailers listed.
+
+**10. [Fun Factory Stronic Real](/products/fun-factory-stronic-real/) — 3.5 — 67.95 EUR** (verified October 2026)
 The realistic-shaped thrusting pulsator: a documented 202 x 40 x 35 mm, 275 g silicone body, IPX7, USB-C, 7 strengths and 3 rhythms and a 2-hour runtime, with no charge time or warranty published.
 
-**10. [Fun Factory Miss Bi](/products/fun-factory-miss-bi/) — 3.5 — 53.95 EUR** (verified October 2026)
+**11. [Fun Factory Miss Bi](/products/fun-factory-miss-bi/) — 3.5 — 53.95 EUR** (verified October 2026)
 The cheapest dual-stimulation device in the catalogue: a silicone rabbit with documented size, weight, IPX7 and USB-C charging, but no published runtime, charge time or warranty term.
 
-**11. [Lovehoney Desire](/products/lovehoney-desire/) — 3.0 — 69.99 EUR** (verified August 2026)
+**12. [Lovehoney Desire](/products/lovehoney-desire/) — 3.0 — 69.99 EUR** (verified August 2026)
 A classic rabbit design at a value price, but key specifications could not be verified from manufacturer sources when reviewed. Check materials, waterproofing and warranty on the retailer page before buying.
 
 ### How to Spend Less Without Regret
