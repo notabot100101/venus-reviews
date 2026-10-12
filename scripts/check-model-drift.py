@@ -133,8 +133,17 @@ def main():
         try:
             status, final, body = fetch(url)
         except urllib.error.HTTPError as e:
-            findings.append((slug, "DEAD_URL", f"{url} -> HTTP {e.code}",
-                             "Offer row points at a page that errors. Retire, re-point, or mark unavailable."))
+            # A 3xx is NOT a dead page. lelo.com/enigma-cruise handed urllib a 302 that it
+            # declined while curl followed it to a healthy 200 and the right product, and
+            # reporting that as DEAD_URL sends someone chasing a page that is fine.
+            if e.code in (301, 302, 303, 307, 308):
+                findings.append((slug, "REDIRECT_NOT_FOLLOWED", f"{url} -> HTTP {e.code}",
+                                 "Could not follow automatically - verify by hand. NOT evidence "
+                                 "the page is dead."))
+            else:
+                findings.append((slug, "DEAD_URL", f"{url} -> HTTP {e.code}",
+                                 "Offer row points at a page that errors. Retire, re-point, or "
+                                 "mark unavailable."))
             time.sleep(a.delay); continue
         except Exception as e:
             findings.append((slug, "FETCH_FAILED", f"{url} -> {type(e).__name__}",
@@ -209,7 +218,7 @@ def main():
     if not findings:
         print("clean: no model drift found"); return 0
     order = {"LANDS_ON_SEARCH":0,"DEAD_URL":1,"NAME_MISMATCH":2,"MODEL_QUALIFIER_DRIFT":3,
-             "PAGE_IS_NEWER_MODEL":4,"PRICE_IS_PROMO_NOT_LIST":5,"PRICE_MATCHES_NEITHER":6,"STOCK_DRIFT":7,"TIMEBOMB_PROSE":6,"REDIRECTED_TO_OTHER_SLUG":7,"FETCH_FAILED":7,
+             "PAGE_IS_NEWER_MODEL":4,"PRICE_IS_PROMO_NOT_LIST":5,"PRICE_MATCHES_NEITHER":6,"STOCK_DRIFT":7,"TIMEBOMB_PROSE":6,"REDIRECTED_TO_OTHER_SLUG":7,"REDIRECT_NOT_FOLLOWED":8,"FETCH_FAILED":9,
              "NO_MANUFACTURER_URL":8}
     findings.sort(key=lambda f: (order.get(f[1], 9), f[0]))
     print(f"{len(findings)} finding(s):\n")
