@@ -165,6 +165,8 @@ The [We-Vibe Tango X](/products/we-vibe-tango-x/) is the catalogue's other focus
 
 The [LELO Lily 3](/products/lelo-lily-3/) and [We-Vibe Touch X](/products/we-vibe-touch-x/) are both 99 EUR lay-on externals, the same price as the Mia 3 but a flat body pressed against the clitoris rather than a tip. Lily 3 documents 10 settings, 45 g, 2 hours of user time and an exact 60 dB noise level; Mia 3 answers with 8 settings, 36 g, 1.5 hours and an under-60 dB ceiling, plus a transport lock the Lily 3 review does not record. Touch X documents 8 levels and 7 patterns, 102 x 43 x 34 mm, 2 hours from a 90-minute charge, IPX7 and a lock function, but no weight or noise figure. Mia 3 is the lightest and the only stick format; Lily 3 has the most settings; Touch X has the fastest documented charge.
 
+All six compact vibrators, including the Tango X, Lily 3 and Touch X, are ranked on the [best mini and bullet vibrators](/best-mini-vibrators/) page.
+
 ### Mia 3 among the LELO range
 
 Within LELO, Mia 3 is the smallest device and the brand's travel entry, beside the Lily 3 as the two conventional-vibration minis. It does not use LELO's sonic-wave technology: the [LELO Sona 2](/products/lelo-sona-2/), at 109 EUR with 12 patterns, 125 g and a 60 dB noise figure, is the step across to sonic clitoral stimulation. The full line-up is on the [LELO reviews hub](/lelo-reviews/).

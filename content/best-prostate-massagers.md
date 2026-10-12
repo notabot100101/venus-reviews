@@ -60,4 +60,6 @@ Every value below comes from the manufacturer's own product page as recorded in 
 
 **If you want a worn plug rather than an aimed massager:** the [We-Vibe Ditto+](/products/we-vibe-ditto-plus/). A vibrating silicone plug with a broad base, IPX7, 120 minutes from a 90-minute charge, a remote in the box and app control at 129 EUR; We-Vibe publishes no level count, weight or noise figure for it.
 
+The two current LELO massagers are compared head-to-head in [Hugo 2 vs Loki Wave 2](/lelo-hugo-2-vs-lelo-loki-wave-2/).
+
 Whichever you choose: use water-based lubricant generously with a silicone device, never force insertion, clean the device thoroughly after each use and dry it fully before storage. The couples alternatives that do not involve insertion are on the [best couples' toys](/best-couples-toys/) page, the premium prostate pick is on the [premium picks](/premium-picks/) page, and the whole catalogue is ranked on the [best-of 2026](/best-vibrators-2026/) page.

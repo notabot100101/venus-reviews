@@ -143,7 +143,7 @@ The [We-Vibe Nova 2](/products/we-vibe-nova-2/) is the catalogue's other dual-st
 
 ### Soraya Wave vs. the Ina Wave 2
 
-The [LELO Ina Wave 2](/products/lelo-ina-wave-2/) is the other WaveMotion rabbit, at the same 199 EUR: a smaller, lighter body (200 x 65 x 45 mm, 176 g against 218 x 72 x 46 mm, 185 g), the same 110 mm insertable length, 12 settings against 8, and two synchronised motors. The Soraya Wave documents a 50 dB maximum where the Ina Wave 2 page publishes no noise figure. Size and settings favour the Ina Wave 2; the documented noise ceiling favours the Soraya Wave.
+The [LELO Ina Wave 2](/products/lelo-ina-wave-2/) is the other WaveMotion rabbit, at the same 199 EUR: a smaller, lighter body (200 x 65 x 45 mm, 176 g against 218 x 72 x 46 mm, 185 g), the same 110 mm insertable length, 12 settings against 8, and two synchronised motors. The Soraya Wave documents a 50 dB maximum where the Ina Wave 2 page publishes no noise figure. Size and settings favour the Ina Wave 2; the documented noise ceiling favours the Soraya Wave. The full head-to-head is [Soraya Wave vs Ina Wave 2](/lelo-soraya-wave-vs-lelo-ina-wave-2/).
 
 ### Soraya Wave vs. the value rabbit
 

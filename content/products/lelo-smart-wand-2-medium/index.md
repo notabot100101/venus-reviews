@@ -137,7 +137,7 @@ The [We-Vibe Tango X](/products/we-vibe-tango-x/) is the format contrast: a bull
 
 ### Smart Wand 2 Medium vs. the We-Vibe Wand 2
 
-The [We-Vibe Wand 2](/products/we-vibe-wand-2/) is the catalogue's other premium wand, at 159 EUR. We-Vibe documents body-safe silicone, IPX7, a 120-minute runtime from a 150-minute charge, more than ten intensity levels, a 2-year warranty, Smart Silence, a bundled remote and app control, but publishes no dimensions, weight or noise figure. The Smart Wand 2 Medium is the better-documented physical object; the Wand 2 is the better-connected one. All three wands are compared on the [best wand vibrators](/best-wand-vibrators/) page.
+The [We-Vibe Wand 2](/products/we-vibe-wand-2/) is the catalogue's other premium wand, at 159 EUR. We-Vibe documents body-safe silicone, IPX7, a 120-minute runtime from a 150-minute charge, more than ten intensity levels, a 2-year warranty, Smart Silence, a bundled remote and app control, but publishes no dimensions, weight or noise figure. The Smart Wand 2 Medium is the better-documented physical object; the Wand 2 is the better-connected one. All three wands are compared on the [best wand vibrators](/best-wand-vibrators/) page, and the two premium wands head-to-head in [Smart Wand 2 Medium vs We-Vibe Wand 2](/lelo-smart-wand-2-medium-vs-we-vibe-wand-2/).
 
 ### Smart Wand 2 Medium among the LELO range
 

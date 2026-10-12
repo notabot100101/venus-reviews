@@ -57,4 +57,6 @@ Every value below comes from the manufacturer's own product page as recorded in 
 
 **If you want a flexible neck and a smaller head:** the [Dame Com](/products/dame-com/). Dame calls it a wand: medical-grade silicone, a bendable neck, 5 levels and 5 patterns, a travel lock, USB-C, a 1-hour runtime from a 2.5-hour charge and a 3-year warranty, at 119 USD rather than euros. Dame states it is waterproof without an IP rating, publishes no weight or noise figure, and its page carries two different dimension figures, which the review discloses.
 
+The two premium wands are compared head-to-head in [Smart Wand 2 Medium vs We-Vibe Wand 2](/lelo-smart-wand-2-medium-vs-we-vibe-wand-2/).
+
 A wand is external-only and not a discreet or travel toy. If you want pinpoint stimulation instead, the [We-Vibe Tango X](/products/we-vibe-tango-x/) is the compact bullet; for contactless stimulation, see the [best air-pulse & sonic stimulators](/best-air-pulse-stimulators/). The premium wand sits with the other top-tier devices on the [premium picks](/premium-picks/) page, the VIM on the [budget picks](/budget-picks/) page, and the whole catalogue is ranked on the [best-of 2026](/best-vibrators-2026/) page.

@@ -154,7 +154,7 @@ The [We-Vibe Touch X](/products/we-vibe-touch-x/) is the closest rival in format
 
 ### Lily 3 vs. the Mia 3
 
-The [LELO Mia 3](/products/lelo-mia-3/) is LELO's other 99 EUR mini: a 22 x 22 x 111 mm lipstick-shaped vibrator at 36 g with 8 settings, a transport lock, 100% waterproofing, a documented under-60 dB ceiling and a 90-minute runtime. The Lily 3 is the lay-on shape with 10 settings and a two-hour runtime; the Mia 3 is the pocketable pinpoint shape. Both carry LELO's 2-year warranty.
+The [LELO Mia 3](/products/lelo-mia-3/) is LELO's other 99 EUR mini: a 22 x 22 x 111 mm lipstick-shaped vibrator at 36 g with 8 settings, a transport lock, 100% waterproofing, a documented under-60 dB ceiling and a 90-minute runtime. The Lily 3 is the lay-on shape with 10 settings and a two-hour runtime; the Mia 3 is the pocketable pinpoint shape. Both carry LELO's 2-year warranty, and both are ranked with the other compact vibrators on the [best mini and bullet vibrators](/best-mini-vibrators/) page.
 
 ### Lily 3 vs. the sonic LELOs
 

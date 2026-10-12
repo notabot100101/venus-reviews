@@ -126,6 +126,8 @@ The [We-Vibe Tango X](/products/we-vibe-tango-x/) is the brand's bullet at 89 EU
 
 The [LELO Lily 3](/products/lelo-lily-3/) is the closest rival in format and price: a 45 g lay-on vibrator with 10 settings, a documented 60 dB maximum and 100% waterproofing at 99 EUR. LELO publishes a weight and a noise figure where We-Vibe does not; We-Vibe publishes a lock function and a split of levels and patterns where LELO does not. The [Fun Factory Volta](/products/fun-factory-volta/) and [Dame Pom](/products/dame-pom/) are the other handheld externals, with different shapes rather than different specs.
 
+All six compact vibrators are ranked on the [best mini and bullet vibrators](/best-mini-vibrators/) page.
+
 ### Touch X among the We-Vibe range
 
 Touch X is the entry to We-Vibe's solo external line. The [Tango X](/products/we-vibe-tango-x/) is the bullet, the [Melt](/products/we-vibe-melt/) the air-pulse device, the [Wand 2](/products/we-vibe-wand-2/) the wand and the [Moxie+](/products/we-vibe-moxie-plus/) the wearable; unlike those, the Touch X has no app. The full line-up is on the [We-Vibe reviews hub](/we-vibe-reviews/).

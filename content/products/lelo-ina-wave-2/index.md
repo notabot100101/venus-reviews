@@ -158,6 +158,8 @@ The [LELO Soraya Wave](/products/lelo-soraya-wave/) is the obvious comparison: s
 
 The [We-Vibe Nova 2](/products/we-vibe-nova-2/) costs 149 EUR and adds We-Connect app control and a flexible external arm built to keep clitoral contact, with IPX7 waterproofing and 90 minutes of runtime, but its tip vibrates rather than moves. The [Fun Factory Miss Bi](/products/fun-factory-miss-bi/) is the value rabbit at 53.95 EUR with 12 programmes, 173 x 76 x 38 mm, 230 g and IPX7, but no published runtime, charge time, noise figure or warranty. The [Lovehoney Desire](/products/lovehoney-desire/) publishes almost no specifications and carries the catalogue's verify-before-buying badge. All four are ranked on the [best rabbit vibrators](/best-rabbit-vibrators/) page.
 
+The full head-to-head with the Soraya Wave is [Soraya Wave vs Ina Wave 2](/lelo-soraya-wave-vs-lelo-ina-wave-2/).
+
 ### Ina Wave 2 among the LELO range
 
 Within LELO, Ina Wave 2 and the Soraya Wave are the two WaveMotion rabbits. The [LELO Enigma](/products/lelo-enigma/), also 199 EUR, is the brand's other dual-stimulation option, pairing sonic clitoral stimulation with a G-spot arm instead of a rabbit shape. The full line-up is on the [LELO reviews hub](/lelo-reviews/), internal devices across brands are ranked on the [best G-spot vibrators](/best-g-spot-vibrators/) page, and at this price the device also sits in the [premium picks](/premium-picks/) tier.

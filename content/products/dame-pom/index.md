@@ -128,6 +128,8 @@ Pom charges over USB-C, which is convenient since a standard phone-style cable w
 
 Against other external-only vibrators in the catalogue, the [Fun Factory Manta](/products/fun-factory-manta/) (48.95 EUR) and [Fun Factory Volta](/products/fun-factory-volta/) (51.95 EUR) are both cheaper flexible or twin-tip external stimulators, and the [We-Vibe Tango X](/products/we-vibe-tango-x/) (89.00 EUR) is a compact bullet with a broader motor rumble. Pom is the most expensive of the four at 103 USD, and its case is Dame's specific published dimensions, a two-mode (level plus pattern) control layout, USB-C charging and a 3-year warranty rather than a lower price. Buyers focused on value should weigh the Manta or Volta first.
 
+The Pom is ranked with the other compact vibrators on the [best mini and bullet vibrators](/best-mini-vibrators/) page.
+
 ### Pom among the Dame range
 
 Within Dame, Pom is the flexible, no-insertable-part external device, the [Arc](/products/dame-arc/) is the insertable G-spot and clitoral vibrator, and the [Aer](/products/dame-aer/) is the contactless air-pulse stimulator, with the [Eva II](/products/dame-eva-ii/) as the brand's hands-free wearable external toy. The four cover different formats within the same materials and warranty standard, so choosing between them is a question of format rather than quality. The full line-up is on the [Dame reviews hub](/dame-reviews/).

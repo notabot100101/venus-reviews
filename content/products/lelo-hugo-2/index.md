@@ -147,6 +147,8 @@ The [LELO Hugo](/products/lelo-hugo/) shares Hugo 2's 104 x 107 x 41 mm footprin
 
 The [LELO Loki Wave 2](/products/lelo-loki-wave-2/) is the larger device: 91 x 42 x 196 mm, a 100 mm insertable length and 196 g against Hugo 2's 72 mm and 121 g. Its WaveMotion tip moves in a finger-like motion on top of vibration from two motors, it has twelve settings on a five-button handle, its 850 mAh battery gives two hours of use, and it documents no app or remote. Hugo 2 answers with app control, a shorter insertable arm, the same under-60 dB ceiling and a 40 EUR lower list price. Choose the Loki Wave 2 for a moving tip and a longer insertion, Hugo 2 for a compact, app-controlled vibrating massager.
 
+The full head-to-head with the Loki Wave 2 is [Hugo 2 vs Loki Wave 2](/lelo-hugo-2-vs-lelo-loki-wave-2/).
+
 ### Hugo 2 among the LELO range
 
 Within LELO, Hugo 2 joins the Hugo and the Loki Wave 2 as the prostate options; the [Tor 3](/products/lelo-tor-3/) is the couples' ring, and the full line-up is on the [LELO reviews hub](/lelo-reviews/). Outside LELO, the [We-Vibe Vector+](/products/we-vibe-vector/) is the catalogue's only other prostate massager and the only one with button, remote and app control together, at 139 EUR, though its published spec sheet is thinner. The category is compared on the [best prostate massagers](/best-prostate-massagers/) page. At its price Hugo 2 also sits in the [premium picks](/premium-picks/) tier, and the catalogue-wide ranking is in [best vibrators 2026](/best-vibrators-2026/).

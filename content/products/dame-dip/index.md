@@ -145,6 +145,8 @@ Both Dip and the [Arc](/products/dame-arc/) are insertable, medical-grade silico
 
 Against other lower-priced, beginner-oriented vibrators in the catalogue, the [LELO Gigi 2](/products/lelo-gigi-2/) (109.00 EUR) documents a flattened G-spot tip, a 4-hour runtime and a published 79 g weight, while the [We-Vibe Tango X](/products/we-vibe-tango-x/) (89.00 EUR) is a compact external bullet with IPX7 waterproofing and 8 levels across 7 patterns. Dip undercuts both on price at 44.00 USD, but is the least feature-dense of the three, with a single steady pattern and no published weight or noise figure. Dip's case is affordability and Dame's 3-year warranty, not a feature count.
 
+The Dip is ranked with the other compact vibrators on the [best mini and bullet vibrators](/best-mini-vibrators/) page.
+
 ### Dip among the Dame range
 
 Within Dame, Dip is the simplest, most affordable internal-and-external vibrator; [Pom](/products/dame-pom/) is the flexible, palm-held external device; [Arc](/products/dame-arc/) is the curved, insertable G-spot vibrator; [Com](/products/dame-com/) is the flexible-head wand; and [Aer](/products/dame-aer/) is the contactless air-pulse stimulator, with [Eva II](/products/dame-eva-ii/) the brand's hands-free wearable. Choosing between them is a question of format and budget, since all five share Dame's medical-grade silicone and multi-year warranty. The full line-up is on the [Dame reviews hub](/dame-reviews/).

@@ -39,7 +39,7 @@ Dame is a US brand with a strong reputation for body-safe materials and clear do
 
 **For a wand-style vibrator**, the [Com](/products/dame-com/) is Dame's flexible-neck wand: medical-grade silicone, 5 intensity levels and 5 patterns, a travel lock, USB-C, a 1-hour runtime from a 2.5-hour charge and the 3-year warranty at 119 USD. Dame states it is waterproof without an IP rating, publishes no weight or noise figure, and gives two different dimension figures on the same page, which the review spells out. It is compared with the other wands on the [best wand vibrators](/best-wand-vibrators/) page.
 
-**For a first vibrator**, the [Dip](/products/dame-dip/) is the entry model: a 147 x 33 mm medical-grade silicone body for internal or external use, 5 intensity levels on a single steady pattern, USB-C, a 1.5-hour runtime from a 2-hour charge and the 3-year warranty at 44 USD, the cheapest Dame we review. Dame states it is waterproof without an IP rating and publishes no weight or noise figure.
+**For a first vibrator**, the [Dip](/products/dame-dip/) is the entry model: a 147 x 33 mm medical-grade silicone body for internal or external use, 5 intensity levels on a single steady pattern, USB-C, a 1.5-hour runtime from a 2-hour charge and the 3-year warranty at 44 USD, the cheapest Dame we review. Dame states it is waterproof without an IP rating and publishes no weight or noise figure. The Dip and the Pom are ranked with the other compact vibrators on the [best mini and bullet vibrators](/best-mini-vibrators/) page.
 
 **For hands-free use during sex**, the [Eva II](/products/dame-eva-ii/) tucks its flexible wings under the labia so nothing is inserted and nothing needs holding, which is why it appears among the [best couples' toys](/best-couples-toys/).
 

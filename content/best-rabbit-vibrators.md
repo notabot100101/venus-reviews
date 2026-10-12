@@ -60,4 +60,6 @@ Every value below comes from the manufacturer's own product page as recorded in 
 
 **If price is everything:** the [Lovehoney Desire](/products/lovehoney-desire/). The cheapest-rated rabbit here, but several of its specifications were not documented by the manufacturer when reviewed, so confirm materials, waterproofing and warranty on the retailer page before buying.
 
+The two LELO WaveMotion rabbits are compared head-to-head in [Soraya Wave vs Ina Wave 2](/lelo-soraya-wave-vs-lelo-ina-wave-2/).
+
 Dual stimulation does not have to mean a rabbit: the [LELO Enigma](/products/lelo-enigma/) and [Enigma Cruise](/products/lelo-enigma-cruise/) pair sonic external stimulation with a G-spot arm, and the [Womanizer Duo 2](/products/womanizer-duo-2/) pairs air-pulse with a G-spot vibrator. All the insertables, rabbit or not, are ranked on the [best G-spot & internal vibrators](/best-g-spot-vibrators/) page, the premium rabbit is on the [premium picks](/premium-picks/) page, and the whole catalogue is ranked on the [best-of 2026](/best-vibrators-2026/) page.

@@ -125,7 +125,7 @@ The [Fun Factory VIM](/products/fun-factory-vim/) is the catalogue's other wand,
 
 ### Wand 2 vs. the LELO Smart Wand 2 Medium
 
-The [LELO Smart Wand 2 Medium](/products/lelo-smart-wand-2-medium/) is the catalogue's third wand, at 169 EUR. On documented values, LELO publishes what We-Vibe does not: 210 x 85 x 45 mm, 155 g and 10 settings, with a 100% waterproof statement and a two-hour runtime from a two-hour charge. The Wand 2 answers with app control, a bundled remote and Smart Silence, which LELO does not list. All three wands are compared on the [best wand vibrators](/best-wand-vibrators/) page.
+The [LELO Smart Wand 2 Medium](/products/lelo-smart-wand-2-medium/) is the catalogue's third wand, at 169 EUR. On documented values, LELO publishes what We-Vibe does not: 210 x 85 x 45 mm, 155 g and 10 settings, with a 100% waterproof statement and a two-hour runtime from a two-hour charge. The Wand 2 answers with app control, a bundled remote and Smart Silence, which LELO does not list. All three wands are compared on the [best wand vibrators](/best-wand-vibrators/) page, and the two premium wands head-to-head in [Smart Wand 2 Medium vs We-Vibe Wand 2](/lelo-smart-wand-2-medium-vs-we-vibe-wand-2/).
 
 ### Wand 2 vs. the small external vibrators
 

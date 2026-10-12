@@ -39,7 +39,7 @@ This is the insertable category: devices designed for internal stimulation, usua
 
 ### How to pick within the category
 
-**If you want external and internal stimulation at once:** the [LELO Enigma](/products/lelo-enigma/). It pairs SenSonic external stimulation with internal G-spot vibration in one 100% waterproof body, which is what earns it the top rating. It is a dual device rather than a pure G-spot toy, so it is the pick when you want both. The [LELO Enigma Cruise](/products/lelo-enigma-cruise/) is the same format with Cruise Control at 219 EUR: 100 x 50 x 185 mm, 196 g, a 140 mm insertable length, 8 settings and 100% waterproof, though its page publishes no charge time or noise figure.
+**If you want external and internal stimulation at once:** the [LELO Enigma](/products/lelo-enigma/). It pairs SenSonic external stimulation with internal G-spot vibration in one 100% waterproof body, which is what earns it the top rating. It is a dual device rather than a pure G-spot toy, so it is the pick when you want both. The [LELO Enigma Cruise](/products/lelo-enigma-cruise/) is the same format with Cruise Control at 219 EUR: 100 x 50 x 185 mm, 196 g, a 140 mm insertable length, 8 settings and 100% waterproof, though its page publishes no charge time or noise figure. The two are compared in [Enigma vs Enigma Cruise](/lelo-enigma-vs-lelo-enigma-cruise/).
 
 **If you want a dedicated, travel-friendly G-spot device:** the [LELO Gigi 2](/products/lelo-gigi-2/). Its flattened tip is a genuine design difference for broad front-wall contact, it is light at 79 g with a documented insertable 95 mm and 100% waterproofing, and it runs up to 4 hours per charge. LELO does not publish a noise figure for it.
 
