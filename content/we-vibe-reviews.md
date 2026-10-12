@@ -1,8 +1,8 @@
 ---
 title: "We-Vibe Reviews"
-seo_title: "We-Vibe Reviews: All 8 Models Rated & Compared | Venus"
-seo_description: "Every We-Vibe product we have reviewed, rated and ranked: Chorus, Tango X, Nova 2, Melt, Jive, Match, Vector+ and Sync, with verified EUR prices and who each one is for."
-description: "All eight We-Vibe models we have reviewed, ranked, with who each one suits."
+seo_title: "We-Vibe Reviews: All 9 Models Rated & Compared | Venus"
+seo_description: "Every We-Vibe product we have reviewed, rated and ranked: Chorus, Tango X, Nova 2, Melt, Wand 2, Jive, Match, Vector+ and Sync, with verified EUR prices and who each one is for."
+description: "All nine We-Vibe models we have reviewed, ranked, with who each one suits."
 slug: "we-vibe-reviews"
 date: 2026-10-06
 draft: false
@@ -18,7 +18,7 @@ faq:
 
 ## We-Vibe Reviews
 
-We-Vibe is best known for couples wearables, but the range we have reviewed also covers rabbit, compact external, contactless, prostate and wearable remote-controlled stimulation. All eight reviews are built from We-Vibe's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
+We-Vibe is best known for couples wearables, but the range we have reviewed also covers rabbit, compact external, contactless, wand, prostate and wearable remote-controlled stimulation. All nine reviews are built from We-Vibe's own official specifications, not physical testing, and each states the date we verified it. Ranked by our rating, with the verified manufacturer price.
 
 | Model | Rating | Price | Best for |
 |---|---|---|---|
@@ -26,6 +26,7 @@ We-Vibe is best known for couples wearables, but the range we have reviewed also
 | [We-Vibe Tango X](/products/we-vibe-tango-x/) | 4.5 | 89.00 EUR | Pinpoint external stimulation |
 | [We-Vibe Nova 2](/products/we-vibe-nova-2/) | 4.0 | 149.00 EUR | App-controlled rabbit (dual) |
 | [We-Vibe Melt](/products/we-vibe-melt/) | 4.0 | 149.00 EUR | App-controlled Pleasure Air |
+| [We-Vibe Wand 2](/products/we-vibe-wand-2/) | 4.0 | 159.00 EUR | Cordless wand with remote and app |
 | [We-Vibe Jive](/products/we-vibe-jive/) | 4.0 | 129.00 EUR | Wearable egg, remote and app controlled |
 | [We-Vibe Match](/products/we-vibe-match/) | 4.0 | 139.00 EUR | Worn couples' vibrator, remote only |
 | [We-Vibe Vector+](/products/we-vibe-vector/) | 3.5 | 139.00 EUR | App/remote prostate massager |
@@ -36,6 +37,8 @@ We-Vibe is best known for couples wearables, but the range we have reviewed also
 **For couples**, the [Chorus](/products/we-vibe-chorus/) is the flagship: a worn C-shape with a Squeeze Remote, touch-sense control and a full app ecosystem. The [Sync](/products/we-vibe-sync/) is the simpler, cheaper wearable that does the same core job for 50 EUR less, though its materials disclosure is narrower and it was out of stock when we checked. The two are compared directly in [We-Vibe Chorus vs We-Vibe Sync](/we-vibe-chorus-vs-we-vibe-sync/).
 
 **For solo external stimulation**, the [Tango X](/products/we-vibe-tango-x/) is the compact bullet: pinpoint, waterproof and surprisingly rumbly for its size, which is why it shares the top We-Vibe rating at the lowest price. It is also weighed against air-pulse in [We-Vibe Tango X vs Satisfyer Pro 2](/we-vibe-tango-x-vs-satisfyer-pro-2/).
+
+**For broad, deep external vibration**, the [Wand 2](/products/we-vibe-wand-2/) is the cordless wand: a flexible, ridged head, more than ten intensity levels, Smart Silence, IPX7, a documented 120-minute runtime and both a remote and app control at 159 EUR. It is the opposite answer to the Tango X, broad contact rather than a pinpoint, and is compared with the other wands on the [best wand vibrators](/best-wand-vibrators/) page.
 
 **For contactless stimulation**, the [Melt](/products/we-vibe-melt/) is We-Vibe's Pleasure Air device: pulsing air and gentle suction rather than vibration, with app and partner control built in. It is ranked against the rest of the category in [best air-pulse & sonic stimulators](/best-air-pulse-stimulators/).
 

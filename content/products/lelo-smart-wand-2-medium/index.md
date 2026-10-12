@@ -135,6 +135,10 @@ The [Fun Factory VIM](/products/fun-factory-vim/) is the catalogue's other wand:
 
 The [We-Vibe Tango X](/products/we-vibe-tango-x/) is the format contrast: a bullet with 8 documented intensity levels, IPX7 waterproofing and an 89 EUR price, for pinpoint stimulation. The Smart Wand 2 Medium is the broad-surface alternative at 169 EUR, with a documented runtime and weight that the Tango X page does not state. Which to choose is a question of sensation first: precise versus diffuse.
 
+### Smart Wand 2 Medium vs. the We-Vibe Wand 2
+
+The [We-Vibe Wand 2](/products/we-vibe-wand-2/) is the catalogue's other premium wand, at 159 EUR. We-Vibe documents body-safe silicone, IPX7, a 120-minute runtime from a 150-minute charge, more than ten intensity levels, a 2-year warranty, Smart Silence, a bundled remote and app control, but publishes no dimensions, weight or noise figure. The Smart Wand 2 Medium is the better-documented physical object; the Wand 2 is the better-connected one. All three wands are compared on the [best wand vibrators](/best-wand-vibrators/) page.
+
 ### Smart Wand 2 Medium among the LELO range
 
 Within LELO, the Smart Wand 2 Medium is the only wand reviewed here. The [Sona 2](/products/lelo-sona-2/) at 109 EUR is the focused external sonic pick, with a documented 60 dB noise figure, 12 patterns and a 125 g weight; the [Mona](/products/lelo-mona/) at 139 EUR is the insertable curved vibrator with a documented 50 dB figure; and the [Enigma](/products/lelo-enigma/) at 199 EUR is the dual sonic-and-internal device. All three share the same 100% waterproof statement and two-year warranty, and the Sona 2 and Mona match the wand's two-hour runtime. The full line-up is on the [LELO reviews hub](/lelo-reviews/), the top-tier devices are on the [premium picks](/premium-picks/) page, and the overall ranking is the [best vibrators 2026](/best-vibrators-2026/) page.

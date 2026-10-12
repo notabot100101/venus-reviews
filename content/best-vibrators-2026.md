@@ -18,7 +18,7 @@ faq:
 
 ## Best Vibrators 2026
 
-These rankings come from our 17 published in-depth reviews. The score behind each pick weighs documented specifications, materials, noise, cleaning effort, warranty and value — the full method is on our [methodology page](/methodology/). We have not physically tested these products, and no entry below claims otherwise. All prices are manufacturer EUR prices with the date we last verified them.
+These rankings come from our 39 published in-depth reviews. The score behind each pick weighs documented specifications, materials, noise, cleaning effort, warranty and value — the full method is on our [methodology page](/methodology/). We have not physically tested these products, and no entry below claims otherwise. All prices are manufacturer EUR prices with the date we last verified them.
 
 ### The Top Five
 
@@ -39,9 +39,10 @@ The established pressure-wave pick. 179.00 EUR, verified August 2026.
 
 ### Category Winners
 
-- **Best wand:** [Fun Factory VIM](/products/fun-factory-vim/) — 4.0. Deep, rumbly external massage. 66.95 EUR, verified August 2026.
+- **Best wand:** [Fun Factory VIM](/products/fun-factory-vim/) — 4.0. Deep, rumbly external massage. 66.95 EUR, verified August 2026. The [LELO Smart Wand 2 Medium](/products/lelo-smart-wand-2-medium/) and [We-Vibe Wand 2](/products/we-vibe-wand-2/), both 4.0, are the better-documented premium wands; all three are compared on the [best wand vibrators](/best-wand-vibrators/) page.
 - **Best under 55 EUR:** [Fun Factory Volta](/products/fun-factory-volta/) — 4.0. Precise external contact. 51.95 EUR, verified August 2026.
-- **Best prostate pick:** [LELO Hugo](/products/lelo-hugo/) — 4.0. Premium prostate wellness. 189.00 EUR, verified August 2026.
+- **Best prostate pick:** [LELO Loki Wave 2](/products/lelo-loki-wave-2/) — 4.0. The most completely documented prostate massager in the catalogue, with a moving WaveMotion tip. 219.00 EUR, verified October 2026. The [LELO Hugo](/products/lelo-hugo/) (4.0) was out of stock at the manufacturer when last checked; see the [best prostate massagers](/best-prostate-massagers/) page.
+- **Best rabbit:** [LELO Soraya Wave](/products/lelo-soraya-wave/) — 4.0. Dual stimulation with a finger-like WaveMotion tip. 199.00 EUR, verified October 2026. The [Fun Factory Miss Bi](/products/fun-factory-miss-bi/) is the value rabbit at 53.95 EUR; see the [best rabbit vibrators](/best-rabbit-vibrators/) page.
 - **Quietest picks:** [LELO Enigma](/products/lelo-enigma/), [Dame Eva II](/products/dame-eva-ii/) and [LELO Hugo](/products/lelo-hugo/) sit in the 20–40 dB ultra-quiet band in our [noise guide](/guides/noise-and-discretion/).
 - **Best rotating format:** [LELO ORA 3](/products/lelo-ora-3/) — 3.5. The only rotating stimulator in the catalogue. 179.00 EUR, verified August 2026.
 

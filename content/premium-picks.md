@@ -1,7 +1,7 @@
 ---
 title: "Premium Picks"
 seo_title: "Best Premium Vibrators & Stimulators 2026 | Venus Reviews"
-seo_description: "The best premium pick for each use case: dual, couples, air-pulse, G-spot, prostate, male and gentle sonic, ranked with verified EUR prices and what the extra money actually buys."
+seo_description: "The best premium pick for each use case: dual, couples, air-pulse, G-spot, rabbit, wand, prostate, male and gentle sonic, ranked with verified EUR prices and what the extra money actually buys."
 description: "The best premium device for each use case, and what spending above the budget tier actually buys."
 slug: "premium-picks"
 date: 2026-10-06
@@ -27,7 +27,9 @@ This is the counterpart to our [budget picks](/budget-picks/): the best premium 
 | Air-pulse | [Womanizer Next](/products/womanizer-next/) | 4.5 | 209.00 EUR |
 | Gentle sonic | [LELO Sila](/products/lelo-sila/) | 4.0 | 169.00 EUR |
 | G-spot / internal | [LELO Mona](/products/lelo-mona/) | 4.0 | 139.00 EUR |
-| Prostate | [LELO Hugo](/products/lelo-hugo/) | 4.0 | 189.00 EUR |
+| Rabbit | [LELO Soraya Wave](/products/lelo-soraya-wave/) | 4.0 | 199.00 EUR |
+| Wand | [LELO Smart Wand 2 Medium](/products/lelo-smart-wand-2-medium/) | 4.0 | 169.00 EUR |
+| Prostate | [LELO Loki Wave 2](/products/lelo-loki-wave-2/) | 4.0 | 219.00 EUR |
 | Male | [LELO F1S V2](/products/lelo-f1s-v2/) | 4.0 | 199.00 EUR |
 
 ### What each premium pick buys
@@ -36,13 +38,17 @@ This is the counterpart to our [budget picks](/budget-picks/): the best premium 
 
 **Couples — [We-Vibe Chorus](/products/we-vibe-chorus/).** The flagship couples wearable, with a grip-sensitive Squeeze Remote, touch-sense control and an explicit phthalate-, BPA- and latex-free statement. The couples alternatives are ranked on the [best couples' toys](/best-couples-toys/) page.
 
-**Air-pulse — [Womanizer Next](/products/womanizer-next/).** The flagship: 3D Pleasure Air with Climax Control, a documented 240-minute runtime, the longest in the catalogue, Smart Silence and a 5-year warranty. The [Womanizer Premium 2](/products/womanizer-premium-2/) is the quieter, cheaper alternative with the same warranty. See the [air-pulse category](/best-air-pulse-stimulators/) for the full field and the [Womanizer reviews hub](/womanizer-reviews/) for the brand.
+**Air-pulse — [Womanizer Next](/products/womanizer-next/).** The flagship: 3D Pleasure Air with Climax Control, a documented 240-minute runtime, the longest in the catalogue and shared with the Premium 2, Smart Silence and a 5-year warranty. The [Womanizer Premium 2](/products/womanizer-premium-2/) is the quieter, cheaper alternative with the same warranty. See the [air-pulse category](/best-air-pulse-stimulators/) for the full field and the [Womanizer reviews hub](/womanizer-reviews/) for the brand.
 
 **Gentle sonic — [LELO Sila](/products/lelo-sila/).** The wide-mouth sonic stimulator for people who find pinpoint devices too intense: the same core technology as the Sona 2, re-tuned softer over a larger contact area, 100% waterproof.
 
 **G-spot / internal — [LELO Mona](/products/lelo-mona/).** A firm, pronounced curve for targeted internal use, 100% waterproof with a documented 50 dB maximum. The dedicated internal options are ranked on the [best G-spot vibrators](/best-g-spot-vibrators/) page.
 
-**Prostate — [LELO Hugo](/products/lelo-hugo/).** LELO's dedicated prostate device and the premium pick for that use.
+**Rabbit — [LELO Soraya Wave](/products/lelo-soraya-wave/).** The dual-stimulation rabbit whose WaveMotion tip rises and falls in a finger-like motion rather than only vibrating, with a complete spec sheet: 218 x 72 x 46 mm, 185 g, a 50 dB maximum, 100% waterproof and a 2-year warranty. The rabbits across brands are ranked on the [best rabbit vibrators](/best-rabbit-vibrators/) page.
+
+**Wand — [LELO Smart Wand 2 Medium](/products/lelo-smart-wand-2-medium/).** The cordless wand with the fullest spec sheet: 210 x 85 x 45 mm, 155 g, 10 settings, 100% waterproof, a two-hour runtime and a 2-year warranty plus LELO's 10-year quality guarantee. The [We-Vibe Wand 2](/products/we-vibe-wand-2/) is the app-controlled alternative with a bundled remote and Smart Silence at 159 EUR; both are compared on the [best wand vibrators](/best-wand-vibrators/) page.
+
+**Prostate — [LELO Loki Wave 2](/products/lelo-loki-wave-2/).** The most completely documented prostate massager in the catalogue: a WaveMotion tip that moves in a finger-like motion, two motors, a noise ceiling under 60 dB, 100% waterproof and a 2-year warranty. The [LELO Hugo](/products/lelo-hugo/) is the established vibrating alternative, out of stock at the manufacturer when last checked; both are ranked on the [best prostate massagers](/best-prostate-massagers/) page.
 
 **Male — [LELO F1S V2](/products/lelo-f1s-v2/).** An app-connected automatic masturbator with dual-motor sonic-wave and vibration stimulation, the premium male pick in the catalogue.
 

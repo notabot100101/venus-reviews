@@ -123,6 +123,10 @@ The documented figures are up to 120 minutes of use from a charge of up to 150 m
 
 The [Fun Factory VIM](/products/fun-factory-vim/) is the catalogue's other wand, at 66.95 EUR against the Wand 2's 159 EUR. Both document body-safe silicone and an IPX7 rating. The Wand 2 adds what the VIM review does not list: a documented runtime and charge time, a stated 2-year warranty, Smart Silence, a bundled remote and app control. If the budget is the deciding factor, the VIM is the way into the wand format; if cordless convenience with remote and app control matters, the Wand 2 is the better-documented choice.
 
+### Wand 2 vs. the LELO Smart Wand 2 Medium
+
+The [LELO Smart Wand 2 Medium](/products/lelo-smart-wand-2-medium/) is the catalogue's third wand, at 169 EUR. On documented values, LELO publishes what We-Vibe does not: 210 x 85 x 45 mm, 155 g and 10 settings, with a 100% waterproof statement and a two-hour runtime from a two-hour charge. The Wand 2 answers with app control, a bundled remote and Smart Silence, which LELO does not list. All three wands are compared on the [best wand vibrators](/best-wand-vibrators/) page.
+
 ### Wand 2 vs. the small external vibrators
 
 Against the [Tango X](/products/we-vibe-tango-x/), the Wand 2 is the opposite answer to the same question: broad, deep contact from a large head rather than pinpoint intensity from a bullet. Against the [Melt](/products/we-vibe-melt/), it is direct vibration rather than contactless air-pulse. Someone who has found small vibrators too focused is the natural Wand 2 buyer; someone who wants a travel toy is not.

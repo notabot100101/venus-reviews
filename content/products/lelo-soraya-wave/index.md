@@ -10,8 +10,8 @@ specs:
   waterproof: "100% waterproof"
   runtime_min: 120
   charge_min: 120
-  levels: 8
-  patterns: null
+  levels: null
+  patterns: 8
   warranty_years: 2
   weight_g: 185
   dims_mm: "218 x 72 x 46 mm"
@@ -48,6 +48,7 @@ draft: false
 # banner is a general promotion, and a "222.56" / "local_price 199" pair found in the page's
 # analytics tracking data is in USD, not a verifiable EUR discount figure, so it is not used
 # here. Treat 199.00 EUR as the only confirmed price for this page at the time checked.
+# Orchestrator 2026-10-12: "8 pleasure settings" recorded as patterns (LELO publishes modes, not separate intensity levels).
 best_for: "Dual G-spot and clitoral stimulation with a documented WaveMotion mechanism"
 badge: "WaveMotion Pick"
 rating: 4.0
@@ -139,6 +140,10 @@ Soraya Wave is USB-rechargeable, with a 2-hour charge giving a documented 2-hour
 ### Soraya Wave vs. the We-Vibe Nova 2
 
 The [We-Vibe Nova 2](/products/we-vibe-nova-2/) is the catalogue's other dual-stimulation rabbit, at a 149 EUR list price with We-Connect app control and a flexible external arm built to maintain clitoral contact as the body moves. Soraya Wave costs more at 199 EUR and LELO does not document app control for it, but its point of difference is mechanical: a moving WaveMotion tip at the G-spot rather than a flexible external arm. Buyers who want app control should lean toward the Nova 2; buyers who want a come-hither internal motion should lean toward Soraya Wave.
+
+### Soraya Wave vs. the value rabbit
+
+The [Fun Factory Miss Bi](/products/fun-factory-miss-bi/) is the catalogue's budget rabbit at 53.95 EUR: a documented 173 x 76 x 38 mm silicone body, 230 g, IPX7 and 12 programmes, but no published runtime, charge time, noise figure or warranty, and a tip that vibrates rather than moves. The Soraya Wave costs almost four times as much and documents all of those. The rabbits across brands are ranked on the [best rabbit vibrators](/best-rabbit-vibrators/) page.
 
 ### Soraya Wave among the LELO range
 

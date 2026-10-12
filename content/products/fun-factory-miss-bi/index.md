@@ -121,7 +121,7 @@ Miss Bi charges over USB-C, which is a practical advantage over proprietary magn
 
 ### Miss Bi vs. the other rabbits
 
-The [We-Vibe Nova 2](/products/we-vibe-nova-2/) is the catalogue's app-controlled rabbit, with an arm designed to flex and stay in contact during use, and the [Lovehoney Desire](/products/lovehoney-desire/) is the other budget-tier rabbit. Miss Bi's case against both is price and documentation: it is the cheapest dual device here, with a measured size and weight and an IPX7 rating on the page. If app control or an adaptive arm matters, the Nova 2 is the richer choice; if the budget is the deciding factor, Miss Bi is the one to shortlist.
+The [We-Vibe Nova 2](/products/we-vibe-nova-2/) is the catalogue's app-controlled rabbit, with an arm designed to flex and stay in contact during use, and the [Lovehoney Desire](/products/lovehoney-desire/) is the other budget-tier rabbit. Miss Bi's case against both is price and documentation: it is the cheapest dual device here, with a measured size and weight and an IPX7 rating on the page. The [LELO Soraya Wave](/products/lelo-soraya-wave/) is the premium rabbit, with a WaveMotion tip that moves rather than only vibrates and a fully documented spec sheet at 199 EUR. If app control or an adaptive arm matters, the Nova 2 is the richer choice; if a moving tip and complete documentation matter, the Soraya Wave; if the budget is the deciding factor, Miss Bi is the one to shortlist. All of them are compared on the [best rabbit vibrators](/best-rabbit-vibrators/) page.
 
 ### Miss Bi vs. the dual devices that are not rabbits
 
