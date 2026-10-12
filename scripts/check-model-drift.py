@@ -40,6 +40,25 @@ def qualifiers(words):
 UMLAUT = {"\u00e4": "ae", "\u00f6": "oe", "\u00fc": "ue", "\u00df": "ss",
           "\u00e9": "e", "\u00e8": "e", "\u00e1": "a", "\u00f3": "o"}
 
+
+OFFER_BLOCK = re.compile(r"^offers:\n((?:(?:  - |    |  #).*\n|\s*\n)+)", re.M)
+
+def offer_rows(src):
+    m = OFFER_BLOCK.search(src)
+    if not m:
+        return []
+    rows = []
+    for chunk in re.split(r"\n(?=  - )", m.group(1).strip("\n")):
+        rm = re.search(r'retailer:\s*"([^"]*)"', chunk)
+        if not rm:
+            continue
+        um = re.search(r'url:\s*"([^"]*)"', chunk)
+        pm = re.search(r"price:\s*(null|[\d.]+)", chunk)
+        rows.append({"retailer": rm.group(1),
+                     "url": um.group(1) if um else "",
+                     "price": pm.group(1) if pm else None})
+    return rows
+
 def norm(s):
     s = html.unescape(s or "").lower()
     s = re.sub(r"[\u2122\u00ae\u00a9]", " ", s)
@@ -77,6 +96,28 @@ def fetch(url, timeout=40):
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.status, r.geturl(), r.read(600_000).decode("utf-8", "replace")
 
+
+# SHOPIFY VARIANT TRAP (2026-10-12, caught by the Venus session before my false positive
+# reached the repo). On a Shopify product page the JSON-LD availability describes the
+# DEFAULT variant. Fun Factory's be-one defaults to Purple (sold out) while Black and
+# Magenta are purchasable, so the page reports OutOfStock while the product is on sale.
+# The /products/<slug>.js endpoint carries every variant plus a top-level `available`
+# that is true when ANY variant can be bought - that is the honest signal.
+def shopify_availability(url):
+    """True/False if a Shopify variants endpoint answers, else None."""
+    m = re.match(r"(https?://[^?#]*/products/[^/?#]+)", url)
+    if not m:
+        return None
+    try:
+        _, _, body = fetch(m.group(1) + ".js", timeout=25)
+        d = json.loads(body)
+    except Exception:
+        return None
+    variants = d.get("variants") or []
+    if variants:
+        return any(v.get("available") for v in variants)
+    return d.get("available") if isinstance(d.get("available"), bool) else None
+
 def landed_name(body):
     """The product name the PAGE claims, from the most authoritative source available."""
     for blob in re.findall(r'<script[^>]*application/ld\+json[^>]*>(.*?)</script>', body, re.S):
@@ -112,6 +153,23 @@ def main():
         title = tm.group(1) if tm else slug
         pm = re.search(r'^price:\s*"?([\d.]+)"?', src, re.M)
         review_price = float(pm.group(1)) if pm else None
+
+        rows = offer_rows(src)
+        mfr = [r for r in rows if "(manufacturer)" in r["retailer"]]
+        for r in rows:
+            if "(manufacturer)" in r["retailer"]:
+                continue
+            if r["price"] not in (None, "null") and not r["url"]:
+                findings.append((slug, "PRICE_ON_DEAD_OFFER_ROW",
+                                 f'{r["retailer"]} row carries price {r["price"]} with an empty url',
+                                 "schema.org picks this row, so the page advertises an offer nobody "
+                                 "can buy. Move the price to the manufacturer row and null this one."))
+        for r in mfr:
+            if r["price"] in (None, "null") and review_price is not None:
+                findings.append((slug, "MFR_ROW_UNPRICED",
+                                 f'review price {review_price} but the manufacturer row price is null',
+                                 "The priced row ends up being some other retailer. Put the verified "
+                                 "manufacturer price on the manufacturer row."))
 
         for m in TIMEBOMB.finditer(src):
             line = src[:m.start()].count("\n") + 1
@@ -165,6 +223,11 @@ def main():
             avail = m.group(1)
         elif re.search(r'nicht zur Verf\u00fcgung|ausverkauft|nicht verf\u00fcgbar|out of stock|sold out', body, re.I):
             avail = "OutOfStock(text)"
+        # Shopify: ask the variants endpoint before believing the page's JSON-LD.
+        if avail and avail != "InStock":
+            sv = shopify_availability(url)
+            if sv is True:
+                avail = "InStock"   # a sold-out DEFAULT variant is not a sold-out product
         if avail and avail != "InStock" and claims_available is True:
             findings.append((slug, "STOCK_DRIFT", f'review says available: true, page says {avail}',
                              "Manufacturer is no longer stocking it. Set available: false with a "
@@ -218,7 +281,7 @@ def main():
     if not findings:
         print("clean: no model drift found"); return 0
     order = {"LANDS_ON_SEARCH":0,"DEAD_URL":1,"NAME_MISMATCH":2,"MODEL_QUALIFIER_DRIFT":3,
-             "PAGE_IS_NEWER_MODEL":4,"PRICE_IS_PROMO_NOT_LIST":5,"PRICE_MATCHES_NEITHER":6,"STOCK_DRIFT":7,"TIMEBOMB_PROSE":6,"REDIRECTED_TO_OTHER_SLUG":7,"REDIRECT_NOT_FOLLOWED":8,"FETCH_FAILED":9,
+             "PRICE_ON_DEAD_OFFER_ROW":4,"MFR_ROW_UNPRICED":5,"PAGE_IS_NEWER_MODEL":6,"PRICE_IS_PROMO_NOT_LIST":5,"PRICE_MATCHES_NEITHER":6,"STOCK_DRIFT":7,"TIMEBOMB_PROSE":6,"REDIRECTED_TO_OTHER_SLUG":7,"REDIRECT_NOT_FOLLOWED":8,"FETCH_FAILED":9,
              "NO_MANUFACTURER_URL":8}
     findings.sort(key=lambda f: (order.get(f[1], 9), f[0]))
     print(f"{len(findings)} finding(s):\n")
