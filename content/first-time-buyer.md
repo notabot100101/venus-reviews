@@ -30,7 +30,7 @@ Buying a first pleasure product is mostly about avoiding two mistakes: unsafe ma
 
 All three are external stimulators, which are the easiest category to start with. Prices are manufacturer EUR prices with their verification date.
 
-**[Fun Factory VIM](/products/fun-factory-vim/) — 4.0 — the gentle all-rounder.** A wand with deep, rumbly, broad massage rather than intense pinpoint contact. 66.95 EUR, verified August 2026. The most forgiving starting point.
+**[Fun Factory VIM](/products/fun-factory-vim/) — 4.0 — the gentle all-rounder.** A wand with deep, rumbly, broad massage rather than intense pinpoint contact. 66.95 EUR, verified October 2026. The most forgiving starting point.
 
 **[We-Vibe Tango X](/products/we-vibe-tango-x/) — 4.5 — the precise one.** Our highest-rated product under 90 EUR. A compact, simple bullet with pinpoint stimulation and a documented 120-minute runtime. 89.00 EUR, verified October 2026.
 
