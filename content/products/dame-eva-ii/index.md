@@ -13,7 +13,7 @@ specs:
   patterns: 1
   warranty_years: 3
   weight_g: null
-  dims_mm: "33 mm W (body) / 61 mm W (wings) x 43 mm H x 28 mm D"
+  dims_mm: "61 x 43 x 28 mm"
   app: null
   noise_db: null
 draft: false
@@ -51,6 +51,7 @@ badge: "Compact Pick"
 # shipping weight only), app, noise level in dB (only a qualitative Quietness slider and a "Quiet"
 # comparison-widget label are given, no number).
 # Image: unchanged (existing verified image kept).
+# Orchestrator 2026-10-13: dims_mm recorded as the overall footprint 61 x 43 x 28 mm (wings included, W x H x D); the 33 mm body-only width stays in prose.
 price: "129.00"
 price_checked: "2026-10-13"
 offers:

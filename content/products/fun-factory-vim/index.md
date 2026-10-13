@@ -7,7 +7,7 @@ description: "Full-size wand massager with a weighted motor, body-friendly silic
 sku: "fun-factory-vim"
 specs:
   material: "body-friendly silicone"
-  waterproof: "IPX7"
+  waterproof: "IPX7 (maker's care note: water-resistant, not for bath or shower)"
   runtime_min: null
   charge_min: null
   levels: 5
@@ -45,6 +45,7 @@ draft: false
 # in JSON-LD) when checked. NOT documented: runtime, charge time, warranty term, noise level in dB, app or
 # remote control.
 # Image: unchanged (existing verified image kept).
+# Orchestrator 2026-10-13: the waterproof spec value carries the care-note caveat inline so the spec table does not show a bare IPX7 that the same page contradicts.
 best_for: "Deep, rumbly external wand massage at the cheapest price in the wand category"
 badge: "Budget Wand Pick"
 rating: 4.0
@@ -134,7 +135,7 @@ Not documented: runtime, charge time, warranty term, app or remote control. Fun 
 
 ## Materials, Waterproofing and Cleaning
 
-The contact surface is body-friendly silicone over a plastic handle that houses the controls. Silicone is non-porous and suitable for external use when cleaned correctly; water-based lubricant is the conservative choice. Waterproofing is where Fun Factory's own page disagrees with itself: a feature bullet and a product badge both state "Wasserdicht (IPX7)," but a FAQ answer on the same page, under "Wie lässt sich VIM reinigen?", says the wand "ist wasserresistent und leicht zu reinigen... Achtung: wasserresistent heisst nicht wasserdicht!" (is water-resistant and easy to clean - caution: water-resistant does not mean waterproof), and specifically tells buyers not to take it into the bath or shower or clean it under running water. This review records the spec block's IPX7 claim in the specification field above but flags the contradiction here: anyone who wants bath or shower use, or wants to rinse VIM under a tap, should not rely on the IPX7 badge without confirming directly with Fun Factory first. The manufacturer's own recommended cleaning method is its spray-and-wipe cleaner, or a damp cloth.
+The contact surface is body-friendly silicone over a plastic handle that houses the controls. Silicone is non-porous and suitable for external use when cleaned correctly; water-based lubricant is the conservative choice. Waterproofing is where Fun Factory's own page disagrees with itself: a feature bullet and a product badge both state "Wasserdicht (IPX7)," but a FAQ answer on the same page, under "Wie lässt sich VIM reinigen?", says the wand "ist wasserresistent und leicht zu reinigen... Achtung: wasserresistent heisst nicht wasserdicht!" (is water-resistant and easy to clean - caution: water-resistant does not mean waterproof), and specifically tells buyers not to take it into the bath or shower or clean it under running water. This review records the IPX7 claim in the specification field above together with the care note's caveat, and flags the contradiction here: anyone who wants bath or shower use, or wants to rinse VIM under a tap, should not rely on the IPX7 badge without confirming directly with Fun Factory first. The manufacturer's own recommended cleaning method is its spray-and-wipe cleaner, or a damp cloth.
 
 ## Battery and Warranty
 

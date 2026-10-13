@@ -9,7 +9,7 @@ images:
 description: "Flexible, wraparound external vibrator with 6 vibration speeds and 6 rhythms, a button lock, a documented 40-120 minute runtime and 6-8 hour charge time, and IPX7 waterproofing, in body-friendly, hypoallergenic materials."
 sku: "fun-factory-manta"
 specs:
-  material: "body-friendly materials, hypoallergenic and non-porous (not stated as silicone)"
+  material: "body-friendly, hypoallergenic, non-porous materials; wings called silicone in the page copy"
   waterproof: "IPX7"
   runtime_min: null
   charge_min: null
@@ -17,7 +17,7 @@ specs:
   patterns: 6
   warranty_years: null
   weight_g: 287
-  dims_mm: "180 mm length; width/diameter flexible, not a fixed figure"
+  dims_mm: null
   app: null
   noise_db: null
 draft: false
@@ -47,19 +47,20 @@ badge: "Flexible Shape"
 # when checked - both variants were also out of stock at the prior check. NOT documented: warranty term,
 # noise level in dB, app or remote control, a single runtime or charge-time figure (only ranges are given).
 # Image: unchanged (existing verified image kept).
+# Orchestrator 2026-10-13: dims_mm set to null (only the 18 cm length is published, diameter "flexibel"); the page copy calls the wings "Silikonflügel" three times although the Material row does not name silicone, and the material value says so.
 price: "48.95"
 price_checked: "2026-10-13"
 best_for: "Flexible, wraparound external vibration for solo or partnered use"
 noise: "Medium noise"
 rating: 3.5
-rating_note: "A flexible wraparound external vibrator with a documented 6-speed, 6-rhythm motor, a button lock, IPX7 waterproofing and a 40-120 minute runtime range, but the manufacturer names only 'body-friendly materials' rather than silicone specifically, no single runtime, charge-time, warranty or noise figure is published, and both colourways were out of stock at the manufacturer when checked."
+rating_note: "A flexible wraparound external vibrator with a documented 6-speed, 6-rhythm motor, a button lock, IPX7 waterproofing and a 40-120 minute runtime range, but the manufacturer's Material row names only 'body-friendly materials' (only the marketing copy calls the wings silicone), no single runtime, charge-time, warranty or noise figure is published, and both colourways were out of stock at the manufacturer when checked."
 pros:
   - "Documented 6-speed, 6-rhythm motor ('6 Geschwindigkeiten & 6 Vibrationsrhythmen') with a battery-level indicator and a button lock for travel"
   - "Flexible wings wrap around the body for broader contact than a rigid external vibrator"
   - "IPX7 waterproof, with a published runtime range of 40-120 minutes and a charge-time range of 6-8 hours"
   - "Fully measured 287 g weight and a documented 18 cm length, with the diameter flexing to fit"
 cons:
-  - "Fun Factory names only 'body-friendly materials, hypoallergenic and non-porous' for Manta - not silicone and not 'medical-grade', despite that wording appearing in this page's previous version"
+  - "Fun Factory's Material row names only 'body-friendly materials, hypoallergenic and non-porous'; the wings are called silicone only in the marketing copy, and 'medical-grade' appears nowhere on the page"
   - "Runtime and charge time are published only as ranges (40-120 minutes; 6-8 hours), not as single figures, and warranty term and noise level are not documented at all"
   - "Both Petrol and Black were out of stock at the manufacturer when checked, with no buyable offer from Fun Factory directly"
   - "The charging cable is not explicitly labelled USB-C on this page, unlike Fun Factory's VIM and Volta listings"
@@ -112,7 +113,7 @@ Manta suits someone who wants a flexible external vibrator and is specifically i
 
 ## Format and Who It Is For
 
-Manta is an external vibrator with two flexible silicone-feeling wings that wrap around the body rather than pressing against a single point. Fun Factory's feature list describes powerful vibration for solo or partnered use, wings that adapt to body shape, a ribbed internal structure meant to hold lubricant in place, and deep, penetrating vibration. A dedicated Funktionen row in the spec block also lists a button lock (Tastensperre), useful for carrying the device without accidentally triggering it.
+Manta is an external vibrator with two flexible wings, called silicone in the page copy though not in its Material row, that wrap around the body rather than pressing against a single point. Fun Factory's feature list describes powerful vibration for solo or partnered use, wings that adapt to body shape, a ribbed internal structure meant to hold lubricant in place, and deep, penetrating vibration. A dedicated Funktionen row in the spec block also lists a button lock (Tastensperre), useful for carrying the device without accidentally triggering it.
 
 It suits buyers curious about wraparound contact who are comfortable learning a less familiar shape, and who do not need a confirmed single-figure runtime or a warranty term before buying. It is a less safe first purchase for anyone who wants a conventional, immediately familiar vibrator, and it is currently out of stock at the manufacturer in both colourways, so buyers who want it now will need to check a retailer.
 
@@ -128,7 +129,7 @@ Fun Factory's "Größe, Material & Mehr" block lists the following, verified on 
 - Weight: 287 g
 - Runtime: 40 to 120 minutes ("Akkulaufzeit 40 - 120 Minuten") - published as a range rather than a single number, most likely varying by speed setting
 - Charge time: 6 to 8 hours ("Ladedauer 6 - 8 Stunden") - also a range
-- Material: "Körperfreundliche Materialien, hypoallergen & nicht porös" (body-friendly materials, hypoallergenic and non-porous) - the page does not name silicone specifically, and does not use the word "medizinisch" (medical)
+- Material: "Körperfreundliche Materialien, hypoallergen & nicht porös" (body-friendly materials, hypoallergenic and non-porous) - the Material row does not name silicone, although the page copy calls the wings "Silikonflügel" (silicone wings); the page never uses the word "medizinisch" (medical)
 - Box contents: the toy, a charging cable without a USB adapter, and a booklet with the manual and play ideas
 - Article numbers: Petrol FF000976BT01, Black FF000976BK01
 
@@ -136,7 +137,7 @@ Not documented: a single runtime or charge-time figure (only ranges are given), 
 
 ## Materials, Waterproofing and Cleaning
 
-Fun Factory describes Manta's contact material only as "body-friendly materials, hypoallergenic and non-porous," without naming silicone specifically. That is a weaker material claim than Fun Factory makes for the [VIM](/products/fun-factory-vim/) and [Volta](/products/fun-factory-volta/) pages, both of which explicitly say "Silikon." Non-porous, body-friendly materials are generally suitable for external use when cleaned correctly, and water-based lubricant is the conservative default given the material is not confirmed as silicone.
+Fun Factory's Material row describes Manta's contact material only as "body-friendly materials, hypoallergenic and non-porous," while the page's marketing copy calls the wings "Silikonflügel" (silicone wings). That is a weaker material statement than the [VIM](/products/fun-factory-vim/) and [Volta](/products/fun-factory-volta/) pages make, both of which name silicone outright. Non-porous, body-friendly materials are generally suitable for external use when cleaned correctly, and water-based lubricant is the conservative default given that silicone is named in the copy but not in the Material row.
 
 The flexible wings and ribbed internal structure increase surface area and are designed to hold lubricant, which also means more careful cleaning is needed. The IPX7 rating supports a thorough rinse under running water with mild soap or a toy cleaner, more than a splashproof-only device would allow. Dry the wings and the ribbed texture fully before storage, and inspect the flexible sections for wear over time.
 
