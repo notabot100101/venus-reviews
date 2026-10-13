@@ -1,11 +1,36 @@
 ---
 sku: "lelo-mona"
-# VERIFIED 2026-10-12 via https://www.lelo.com/mona-2 (raw HTML spec block): run time 120 min;
-# charge time 120 min; 6 pattern modes; 2-year warranty; weight 128 g; 196.2 x 53.1 x 42 mm;
-# max noise 50 dB; 100% waterproof per LELO prose, NO IP rating published. NOT documented:
-# levels, app. Price 139.00 EUR unchanged from the last check
+# VERIFIED 2026-10-13 via https://www.lelo.com/mona-2 (landed on the product page, HTTP 200, no
+# redirect; raw HTML specification block + feature copy, tags stripped). Page <title> "MONA(tm) 2 |
+# Curved G-spot Wand with Ultimate Power" and JSON-LD Product name "MONA(tm) 2": the review title
+# "LELO Mona" is kept pending the owner's rename decision; the body describes the MONA 2. Materials
+# "Body-safe silicone / ABS plastic"; Finish "Matte"; Size "196.2 x 53.1 x 42mm / 7.72 x 2.0 x
+# 1.65 in"; Diameter "34.3 mm / 1.35 in"; Insertable length "110 mm / 4.3 in"; Weight "128 g /
+# 4.5 oz"; Battery "Li-Ion 500 mAh 3.7 V"; Charging "2 h at 5.0 V 500 mA"; User time "Up to 2 h";
+# Standby "Up to 90 days"; Frequency "100 Hz"; Switch off "Automatic after 20 minutes"; Max. noise
+# level "50 dB" (an exact figure, stored as 50); Interface "4-button interface, 6 modes" (patterns:
+# 6 per the LELO settings convention, no separate levels count, so levels: null). Feature tiles:
+# "SCULPTED FOR YOUR PLEASURE", "6 SETTINGS - from a teasing murmur to a satisfying pulse", "100%
+# WATERPROOF - perfect for the bath and shower", "EXTRA LONG-LASTING CHARGE", "EXTRA-SOFT
+# SILICONE", "ISO 3533 SAFETY ASSURANCE". Highlights: "IDEAL FOR DISCERNING WOMEN - This massager
+# is the pleasure product of choice for more experienced pleasure-seekers". How-to copy: "Add a
+# generous amount of LELO Personal Moisturizer", "You can even use the tip on your clitoris as a
+# warm-up". Box: MONA(tm) 2, USB-charging cord, satin storage pouch, warranty registration card,
+# detailed instruction manual. Warranty: "The 2-year warranty covers you up to two years after the
+# purchase date" (warranty_years: 2) plus "The 10-year warranty covers your product for ten years
+# after your 2-year warranty expires".
+# NOT documented: app or Bluetooth control (app: null), a remote, the number of motors, a
+# levels-vs-patterns split, an IP rating (only "100% waterproof"), how flexible the shaft is,
+# colour options beyond the dataLayer item_variant "Purple", and any earlier "Mona" model that the
+# MONA 2 replaces (none mentioned).
+# Price: JSON-LD Offer price "139.00", priceCurrency "EUR", availability InStock, sku "462";
+# dataLayer local_price 139 with discount_percentage "0%", so no discount and no struck-through
+# list figure was on the page when fetched (the 155.46 in the dataLayer is the USD analytics
+# value). The 22% promotion (108.42) reported from an earlier check was NOT present on this fetch;
+# 139 is the list and the selling price today.
+# Image: unchanged (existing verified image kept)
 specs:
-  material: "body-safe silicone and ABS plastic with a matte finish"
+  material: "body-safe silicone / ABS plastic"
   waterproof: "100% waterproof"
   runtime_min: 120
   charge_min: 120
@@ -13,39 +38,41 @@ specs:
   patterns: 6
   warranty_years: 2
   weight_g: 128
-  dims_mm: null
+  dims_mm: "196.2 x 53.1 x 42 mm"
   app: null
   noise_db: 50
 draft: false
 title: "LELO Mona"
-seo_description: "Lelo Mona 2 review covering G-spot vibrator fit, silicone and ABS materials, waterproof design, noise notes, and how it compares with other premium toys."
+seo_description: "LELO Mona review (LELO's page is titled MONA 2): a curved G-spot vibrator with 6 settings, an exact 50 dB noise figure, 100% waterproofing, a 2-hour runtime and a 2-year warranty. Specs and catalogue fit."
 schema_product: true
+description: "Curved insertable G-spot vibrator in body-safe silicone and ABS, sold by LELO as the MONA 2, with 6 settings on a 4-button interface, a documented 50 dB maximum and 100% waterproofing."
 image: "/images/products/lelo-mona/front.webp"
 images:
   - "/images/products/lelo-mona/front.webp"
 price: "139.00"
-price_checked: "2026-08-06"
+price_checked: "2026-10-13"
 category: "premium-feel"
 tags: ["premium", "ergonomic", "quiet", "swedish-design"]
 affiliate_link: ""
+best_for: "Targeted G-spot stimulation from a fully documented, 100% waterproof curved vibrator"
 rating: 4.0
-rating_note: "A classic, well-documented G-spot vibrator (materials, 50 dB, waterproof, 2+10-year warranty); the firm curved shape is fit-dependent and the 6-mode feature set is modest for the price."
+rating_note: "A completely documented G-spot vibrator: materials, 196.2 x 53.1 x 42 mm, 34.3 mm diameter, 110 mm insertable length, 128 g, a 2-hour runtime, an exact 50 dB maximum, 100% waterproofing and a 2-year warranty, in stock at 139 EUR; it stays at 4.0 because the fixed moulded curve is fit-dependent, six settings is a modest count for the price, and no app, remote or external arm is documented."
 pros:
-  - "Pronounced, firm curve - the classic G-spot design"
-  - "Documented body-safe silicone/ABS materials and ISO 3533 alignment"
-  - "100% waterproof; documented 50 dB max noise; up to 2-hour runtime"
-  - "Clear 2+10-year LELO warranty structure"
+  - "Complete spec block: body-safe silicone and ABS, 196.2 x 53.1 x 42 mm, 34.3 mm diameter, 110 mm insertable length, 128 g"
+  - "Exact documented 50 dB maximum noise level rather than an under-60 dB ceiling, with 100% waterproofing"
+  - "Up to 2 hours of use from a 2-hour charge, up to 90 days of standby and automatic switch-off after 20 minutes"
+  - "139 EUR list price, in stock at LELO when checked, with a 2-year warranty plus a 10-year quality guarantee"
 cons:
-  - "Fit-dependent: the firm curve suits some anatomies far better than others"
-  - "Feature set is modest (6 modes) for the 139 EUR price tier"
-  - "Internal-only - no external or dual stimulation"
-  - "Not the smallest or most portable option in the catalogue"
+  - "A fixed moulded curve with a 34.3 mm diameter is fit-dependent; LELO itself aims it at more experienced users"
+  - "Six settings on a 4-button interface is a modest count for 139 EUR; the Gigi 2 documents eight for 30 EUR less"
+  - "No app, remote or external arm is documented; internal stimulation only, with a clitoral warm-up the sole external use LELO describes"
+  - "No IP rating or motor count is published, only the 100% waterproof statement"
 offers:
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/mona-2"
     price: 139
     currency: "EUR"
-    checked: "2026-08-06"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""
@@ -79,52 +106,50 @@ offers:
     available: true
 ---
 
-LELO Mona 2 is best understood as a classic premium G-spot vibrator, not a novelty device and not an air-pulse toy. It suits someone who already prefers firm, curved internal pressure with vibration, and who would rather pay for a polished rechargeable design than buy a cheaper experiment. The caveat is that its strengths are specific: Mona 2 is not the most versatile couples toy here, not the smallest travel option, and not the right pick for shoppers who mainly want external suction-style stimulation.
+LELO Mona is the catalogue's curved G-spot vibrator from LELO. One point needs stating first: the manufacturer page this review links to is titled MONA 2, and LELO's structured data names the product "MONA 2" as well. This page keeps the review title "LELO Mona" for now, but everything below describes the MONA 2, the product LELO sells at that address; nothing on LELO's page mentions an earlier "Mona" model that it replaces.
 
-This review is based on LELO's published Mona 2 specifications, LELO's warranty and materials documentation, the current product catalogue, and patterns in published user feedback.
+Venus has not physically tested this product. This review is based on LELO's official MONA 2 product page and its published specification block, checked on 13 October 2026. Where LELO does not document something clearly, this page says so rather than filling the gap.
 
 ## Quick Verdict
 
-Mona 2 is a strong shortlist pick for shoppers who want a luxury-feeling insertable vibrator with a pronounced curve, a relatively firm body, waterproof construction, and a low-fuss rechargeable setup. It is easier to recommend to people who already like targeted G-spot toys than to absolute beginners, because the shape is purposeful rather than neutral. If you want broad external stimulation, app controls, wearable use, or partner-facing features, other products in this set make more sense.
+The MONA 2 is the pick for buyers who want a conventional insertable G-spot vibrator with a pronounced curve and a complete sheet. LELO publishes materials, dimensions, diameter, insertable length, weight, runtime, an exact 50 dB maximum noise level, 100% waterproofing, six settings and a two-year warranty. At 139 EUR, in stock with no discount shown when checked, it sits between the Gigi 2 and the WaveMotion rabbits. The caveats: a fixed curve is fit-dependent, six settings is a modest count for the price, and no app, remote or external arm is documented.
+
+## Format and Who It Is For
+
+The MONA 2 is a single-shaft internal vibrator: a curved wand of 196.2 x 53.1 x 42 mm with a documented 34.3 mm diameter and 110 mm insertable length, controlled by four buttons. LELO's how-to copy describes applying its Personal Moisturizer, inserting slowly and going deeper until the curve reaches the G-spot; using the tip on the clitoris as a warm-up is the only external use the page describes.
+
+That makes it a device for someone who already knows they respond to targeted internal pressure; LELO's own highlights call it the product of choice for "more experienced pleasure-seekers". The curve is part of the moulded shape, LELO says nothing about how much the shaft flexes, and there is no clitoral arm, so dual stimulation needs a second device. Buyers who want a gentler first internal toy, an adjustable shape or app control should look at the alternatives below.
 
 ## Documented Specifications
 
-Per LELO's published Mona 2 product specifications, Mona 2 uses body-safe silicone and ABS plastic with a matte finish. LELO lists the size as 220 x 51 x 33 mm, or 8.7 x 2.0 x 1.3 in. The documented diameter is 37 mm, or 1.5 in, and the documented insertable length is 110 mm, or 4.3 in. LELO lists the weight as 128 g, or 4.5 oz.
+LELO's specification block lists body-safe silicone and ABS plastic with a matte finish, without stating which parts each material covers. The size is 196.2 x 53.1 x 42 mm, the diameter 34.3 mm, the insertable length 110 mm and the weight 128 g.
 
-The battery is documented as a 500 mAh, 3.7 V lithium-ion battery. LELO lists charging as 2 hours at 5.0 V / 500 mA, user time as up to 2 hours, and standby time as up to 90 days. The interface is a 4-button control layout with 6 modes. LELO also lists frequency at 100 Hz, automatic switch-off after 20 minutes, and maximum noise level at 50 dB. The product page presents Mona 2 as 100% waterproof and includes a USB charging cord, satin storage pouch, warranty registration card, and instruction manual in the box.
+Power is a lithium-ion 500 mAh 3.7 V cell, charged in two hours at 5.0 V and 500 mA, for up to two hours of user time and up to 90 days of standby. The motor frequency is documented at 100 Hz, the device switches off automatically after 20 minutes, and the maximum noise level is stated as an exact 50 dB rather than a ceiling. The interface is four buttons with six modes, which the feature tiles repeat as "6 settings". LELO does not split those six into intensity levels and patterns, so this page records six settings and nothing more precise.
 
-Warranty coverage is also unusually clear. LELO describes a 2-year warranty from purchase date for defects, with a claim process that can lead to replacement, and says the receipt should be saved. LELO also describes a 10-year warranty period after the 2-year warranty expires. Current retailer pricing should be checked at purchase time.
+The feature copy adds "extra long-lasting charge", "extra-soft silicone" and ISO 3533 safety assurance. Not documented: app or Bluetooth control, a remote, the number of motors, an IP rating beyond "100% waterproof", and colour options other than the purple variant in the page data.
 
-## Materials and Body-Safety Notes
+## Materials, Waterproofing and Cleaning
 
-The best part of Mona 2's documentation is that the material stack is explicit: body-safe silicone over the contact areas, with ABS plastic for the hard components. For a buyer, that means the surface should be non-porous where the silicone covers the body-contact area, easier to clean than jelly-style materials, and compatible with water-based lubricant. Silicone lubricant is more complicated with silicone toys, so the conservative ownership advice is to use water-based lubricant unless LELO's instructions for a specific lubricant say otherwise.
+LELO marks the MONA 2 as 100% waterproof and suitable for the bath and shower, so the whole device can be rinsed under running water with mild soap and dried fully before it goes back in the supplied satin pouch. The contact surface is body-safe silicone, non-porous and straightforward to keep clean, with ABS plastic listed alongside it. LELO states ISO 3533 certification, the international safety standard for sex toys, a stronger signal than a generic "body-safe" claim. No IP rating is published, only the waterproof statement. Water-based lubricant is the conservative default on silicone unless LELO's instructions say otherwise.
 
-LELO also says Mona 2 meets ISO 3533, the international safety standard for sex toys. That is a stronger documentation signal than vague "body safe" marketing alone. It does not prove anything about one buyer's comfort or fit, but it does support the basic material-safety case for a premium purchase.
+## Battery and Warranty
 
-Because Mona 2 is waterproof, cleaning should be simpler than with splashproof-only products: the user can rinse the body-contact surface and clean around the buttons more confidently. The practical caution is the same as with most rechargeable waterproof toys: keep the charging contacts or port area dry before storing or charging, and inspect the surface over time for cuts, tackiness, or damage. The manufacturer does not document phthalate content in the available spec table.
+The two-hour charge gives a documented two hours of use, with up to 90 days of standby and an automatic switch-off after 20 minutes. LELO documents a two-year warranty from the purchase date, with a free replacement if a problem occurs in that time, followed by a ten-year quality guarantee once it expires. Keep the receipt; LELO's warranty text asks for it.
 
-## Published Feedback Synthesis
+## In the Catalogue
 
-Published feedback around Mona-style LELO vibrators is usually positive on build quality, smooth silicone feel, and the directness of the curved shape. Users who like it tend to describe it as precise and stronger than the minimalist silhouette suggests.
+### MONA 2 vs. the LELO Gigi 2
 
-The negative pattern is just as important. A curved G-spot vibrator is inherently more fit-dependent than a wand or compact external stimulator. Some buyers find the angle ideal; others find the shape too firm, too specific, or less useful for external stimulation than they hoped. Published reviews also tend to split on price: LELO's finish and warranty make sense to buyers who value longevity and a premium hand feel, while bargain-focused buyers often feel the same money should buy more functions, app features, or dual stimulation.
+The [LELO Gigi 2](/products/lelo-gigi-2/) is LELO's lighter, slimmer G-spot vibrator at 109 EUR: 163 x 35 x 42 mm and 79 g against the MONA 2's 196.2 x 53.1 x 42 mm and 128 g, with eight settings to six and a documented four-hour runtime against two; both are silicone and ABS and 100% waterproof. The MONA 2 answers with a thicker, longer curve, a published 34.3 mm diameter and 110 mm insertable length, an exact 50 dB noise figure and a stated two-year warranty, the last two of which the catalogue's Gigi 2 review does not record. Choose the Gigi 2 for a slimmer, longer-running and cheaper device; the MONA 2 for fuller internal pressure.
 
-Noise expectations should stay grounded. LELO documents a maximum noise level of 50 dB, which is quiet compared with many full-size wand-style toys but not silent. If "quiet" is the main buying reason, Womanizer Premium 2's Smart Silence feature or smaller external products may be more compelling.
+### MONA 2 vs. the We-Vibe Rave 2
 
-## Catalogue Comparisons
+The [We-Vibe Rave 2](/products/we-vibe-rave-2/) costs the same 139 EUR and takes the opposite approach to shape: an adjustable, asymmetrical body with app control and an IPX7 rating, 120 minutes of use from a 90-minute charge and a two-year warranty. The catalogue's Rave 2 review records no weight, dimensions, settings count or noise figure; LELO publishes all four. The Rave 2 is the choice for someone who wants to vary the angle or control the device from a phone; the MONA 2 for a fixed curve with a complete sheet and a known noise level.
 
-Within the 15-product catalogue, Mona 2 sits in the premium-feel, single-purpose internal category. LELO Enigma is the better LELO choice for shoppers who want dual stimulation and a more modern air-pulse/internal combination. LELO Sona 2 is a better fit for external sonic stimulation and shoppers who do not want an insertable toy. LELO Hugo is a separate prostate-focused category and should not be treated as an alternative unless the buyer specifically wants that use case.
+### MONA 2 among the LELO range
 
-Compared with Womanizer Premium 2, Mona 2 is more traditional and more physical: vibration plus shape, rather than contactless-style clitoral air technology. Compared with We-Vibe Chorus or We-Vibe Sync, Mona 2 is less couples-oriented and lacks app-controlled or wearable positioning as a core selling point. Compared with Lovehoney Desire, Mona 2 is positioned higher on materials polish and warranty documentation, but buyers who are price-sensitive may be happier starting lower.
+Within LELO's internal line the MONA 2 is the single-purpose option. The [Ina Wave 2](/products/lelo-ina-wave-2/) and [Soraya Wave](/products/lelo-soraya-wave/) add a WaveMotion shaft that rises and falls plus an external arm, and the [Enigma](/products/lelo-enigma/) pairs a G-spot arm with sonic clitoral stimulation; all three are 199 EUR, 60 EUR more, and heavier at 176 g to 196 g. The dedicated internal options are ranked on the [best G-spot vibrators](/best-g-spot-vibrators/) page, the MONA 2 holds the G-spot slot in the [premium picks](/premium-picks/), the full line-up is on the [LELO reviews hub](/lelo-reviews/), and the catalogue-wide ranking is in [best vibrators 2026](/best-vibrators-2026/).
 
-## Who Should Buy It
+## Value Position
 
-Choose Mona 2 if you want a premium rechargeable G-spot vibrator, value documented silicone/ABS materials, prefer a firm curve over a flexible rabbit-style toy, and want a waterproof product with a clear warranty path. It is also a sensible upgrade from a cheaper insertable vibrator that felt buzzy, plasticky, or underpowered.
-
-Skip it if you are unsure about internal toys, want a travel-small device, need app control, prefer broad external pressure, or want the strongest value-per-feature ratio. Also skip it if your priority is suction or air-pulse stimulation; a tag on this page says "suction," but LELO's Mona 2 documentation describes a G-spot wand vibrator with 6 modes, not an air-pulse product.
-
-## Ownership Notes
-
-The included storage pouch matters because silicone surfaces can collect lint in drawers. Store Mona 2 clean, dry, and away from sharp accessories. Charge before long storage if you do not use it often; LELO documents up to 90 days of standby, but lithium-ion batteries still age better when they are not left depleted for long periods.
-
-For warranty support, keep proof of purchase and register or document the purchase while the retailer record is easy to find.
+At a 139 EUR list price, in stock with no discount shown when checked, the MONA 2 is the mid-point of LELO's internal range: 30 EUR above the Gigi 2 and 60 EUR below the WaveMotion rabbits and the Enigma. What the money buys is documentation: exact dimensions, diameter, insertable length, noise figure, 100% waterproofing and a two-year warranty. What it does not buy is versatility: six settings, no documented app or remote, no external arm and a fixed curve. Buyers who want an adjustable or app-controlled shape should look at the Rave 2, buyers who want dual stimulation at the Wave rabbits or the Enigma, and buyers unsure about insertable toys should start elsewhere in the [catalogue](/best-vibrators-2026/).
