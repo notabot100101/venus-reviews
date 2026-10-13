@@ -32,9 +32,9 @@ All three are external stimulators, which are the easiest category to start with
 
 **[Fun Factory VIM](/products/fun-factory-vim/) — 4.0 — the gentle all-rounder.** A wand with deep, rumbly, broad massage rather than intense pinpoint contact. 66.95 EUR, verified August 2026. The most forgiving starting point.
 
-**[We-Vibe Tango X](/products/we-vibe-tango-x/) — 4.5 — the precise one.** Our highest-rated product under 90 EUR. A compact, simple bullet with pinpoint stimulation. 89.00 EUR, verified August 2026.
+**[We-Vibe Tango X](/products/we-vibe-tango-x/) — 4.5 — the precise one.** Our highest-rated product under 90 EUR. A compact, simple bullet with pinpoint stimulation and a documented 120-minute runtime. 89.00 EUR, verified October 2026.
 
-**[Satisfyer Pro 2](/products/satisfyer-pro-2/) — 3.5 — the budget air-pulse.** The inexpensive way to find out whether pressure-wave stimulation suits you at all. 69.95 EUR, verified October 2026.
+**[Satisfyer Pro 2](/products/satisfyer-pro-2/) — 3.5 — the budget air-pulse.** The inexpensive way to find out whether pressure-wave stimulation suits you at all. 79.95 EUR list, discounted to 55.97 EUR on Satisfyer's own store when checked, verified October 2026.
 
 More options in the same spirit are on the [best for beginners page](/best-for/beginners/).
 

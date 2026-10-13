@@ -13,7 +13,7 @@ faq:
   - question: "Is the Sila worth 60 EUR more than the Sona 2?"
     answer: "Only if you want gentler, broader stimulation. The extra 60 EUR buys the wider mouth, extra-soft silicone and softer intensity curve, not more power. If you want focused, more intense sonic stimulation, the Sona 2 is both cheaper and the higher-rated of the two."
   - question: "Which is more intense?"
-    answer: "The Sona 2. Its focused 23 mm mouth and 12 intensity levels concentrate the sonic pulses, while the Sila deliberately spreads them over a wider area with 8 levels for a softer sensation."
+    answer: "The Sona 2. Its focused 23 mm mouth and 12 settings concentrate the sonic pulses, while the Sila deliberately spreads them over a wider area with 8 settings for a softer sensation."
 ---
 
 ## LELO Sona 2 vs LELO Sila
@@ -28,18 +28,19 @@ Both reviews are built from LELO's official specifications, not physical testing
 | Manufacturer price | 109.00 EUR | 169.00 EUR |
 | Character | Focused, more intense | Wider, gentler |
 | Mouth | Focused, 23 mm | Significantly wider |
-| Intensity levels | 12 | 8 |
+| Settings | 12 | 8 |
 | Size / weight | 112 x 55 x 51 mm, 125 g | 80 x 75 x 35 mm, 105 g |
 | Battery | Li-Ion 520 mAh | Li-ion 520 mAh |
 | Runtime / charge | ~2 h / ~2 h | ~2 h / ~2 h |
 | Materials | Body-safe silicone + ABS | Body-safe silicone + ABS, extra-soft |
 | Waterproof | 100% waterproof | 100% waterproof |
+| Warranty | 2 years + 10-year quality guarantee | 2 years + 10-year quality guarantee |
 
 ### What the extra 60 EUR buys
 
-The Sila buys breadth and softness, not power. Its mouth is significantly wider than the Sona 2's focused 23 mm opening, spreading the sonic pulses over a larger surface area, and LELO describes its silicone as extra-soft and warm to the touch. It offers 8 intensity levels against the Sona 2's 12, consistent with a deliberately gentler range. It is the pick for people who find pinpoint sonic devices too intense.
+The Sila buys breadth and softness, not power. Its mouth is significantly wider than the Sona 2's focused 23 mm opening, spreading the sonic pulses over a larger surface area, and LELO describes its silicone as extra-soft and warm to the touch. It offers 8 settings against the Sona 2's 12, consistent with a deliberately gentler range. It is the pick for people who find pinpoint sonic devices too intense.
 
-The Sona 2 is the focused, higher-rated and cheaper option. Its concentrated 23 mm mouth and 12 intensity levels make it the more intense of the two, and at 109 EUR it is our top sonic pick. Unless you specifically want the gentler, broader sensation, it is the better value.
+The Sona 2 is the focused, higher-rated and cheaper option. Its concentrated 23 mm mouth and 12 settings make it the more intense of the two, and at 109 EUR it is our top sonic pick. Unless you specifically want the gentler, broader sensation, it is the better value.
 
 ### Which to buy
 

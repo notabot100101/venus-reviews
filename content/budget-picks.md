@@ -22,7 +22,7 @@ Fifteen of our 62 reviewed products cost less than 90 EUR. This page ranks all f
 
 ### Ranked
 
-**1. [We-Vibe Tango X](/products/we-vibe-tango-x/) — 4.5 — 89.00 EUR** (verified August 2026)
+**1. [We-Vibe Tango X](/products/we-vibe-tango-x/) — 4.5 — 89.00 EUR** (verified October 2026)
 The strongest value in the catalogue: a rating matching products at twice the price. Compact bullet, pinpoint external stimulation.
 
 **2. [Fun Factory Volta](/products/fun-factory-volta/) — 4.0 — 51.95 EUR** (verified October 2026)
@@ -40,8 +40,8 @@ The cheapest 3-in-1, combining air-pulse and insertable G-spot vibration, with a
 **6. [Womanizer Starlet 3](/products/womanizer-starlet-3/) — 3.5 — 69.00 EUR** (verified October 2026)
 The cheapest Womanizer and the best-documented budget air-pulse device: 6 levels, IPX7, exact dimensions and a 5-year warranty, held back only by a 30-minute runtime.
 
-**7. [Satisfyer Pro 2](/products/satisfyer-pro-2/) — 3.5 — 69.95 EUR** (verified October 2026)
-The inexpensive entry into air-pulse stimulation. Note: the manufacturer listed it as out of stock on its own store when last checked, so buy through the retailers listed in the review.
+**7. [Satisfyer Pro 2 Generation 3](/products/satisfyer-pro-2/) — 3.5 — 79.95 EUR** (verified October 2026; 55.97 EUR on Satisfyer's store when checked)
+The inexpensive entry into air-pulse stimulation, with 11 pressure-wave and 12 vibration programmes from two motors, IPX7 and a 15-year warranty; in stock on Satisfyer's own store when checked in October 2026. Satisfyer publishes no runtime or noise figure for it.
 
 **8. [Fun Factory Stronic G](/products/fun-factory-stronic/) — 3.5 — 69.95 EUR** (verified October 2026)
 The only thrusting device in the catalogue, and the cheapest place to try a pulsator. Well-documented on size and materials, but no published runtime, charge time or warranty.

@@ -13,7 +13,7 @@ faq:
   - question: "Which is better value?"
     answer: "The LELO Sona 2 at 109 EUR is 70 EUR cheaper than the Womanizer Premium 2 at 179 EUR, and both hold our 4.5 rating. The Premium 2's extra cost buys Smart Silence, a longer runtime and a five-year warranty."
   - question: "Which is quieter?"
-    answer: "The Womanizer Premium 2, thanks to Smart Silence. The LELO Sona 2 documents a 60 dB maximum, which is audible in a quiet room."
+    answer: "It cannot be settled from manufacturer data. The LELO Sona 2 documents a 60 dB maximum; Womanizer publishes no decibel figure for the Premium 2, but its Smart Silence feature stops the motor whenever the head leaves the skin."
 ---
 
 ## LELO Sona 2 vs Womanizer Premium 2
@@ -26,18 +26,18 @@ These two both stimulate the clitoris without direct vibration, and both hold ou
 | Manufacturer price | 109.00 EUR | 179.00 EUR |
 | Method | Sonic waves (broader) | Air-pulse (sealed point) |
 | Modes | 12 | 14 intensity levels |
-| Noise | 60 dB documented max | Smart Silence, quieter |
-| Weight | 125 g, compact | heavier |
-| Warranty | LELO standard | 5 years |
+| Noise | 60 dB documented max | Smart Silence, no dB figure published |
+| Weight | 125 g | 141.4 g |
+| Warranty | 2 years + 10-year quality guarantee | 5 years |
 
 ### How they feel different
 
 The Sona 2 sends sonic waves that resonate across a wider area, which many people find less pinpoint and less intense than air-pulse. It is compact at 125 g, fully waterproof in one-piece silicone, and well documented on materials, battery and modes. Its 60 dB maximum is honest but audible, and the stimulation is focused enough that placement is learned rather than obvious.
 
-The Premium 2 seals a pulse of air against one point, which is a more concentrated sensation. It is quieter in use thanks to Smart Silence, runs far longer per charge, and carries a five-year warranty. It costs 70 EUR more and only works when the head seals correctly against the anatomy.
+The Premium 2 seals a pulse of air against one point, which is a more concentrated sensation. Its Smart Silence feature stops the motor whenever the head leaves the skin, though Womanizer publishes no decibel figure; it runs far longer per charge (240 minutes against 120) and carries a five-year warranty. It costs 70 EUR more and only works when the head seals correctly against the anatomy.
 
 ### Which to buy
 
-Pick the **Sona 2** if you want a broader, less pinpoint sensation, a smaller travel-friendly body, and a lower price. Pick the **Premium 2** if you want the concentrated air-pulse feel with the quietest operation and the longest warranty.
+Pick the **Sona 2** if you want a broader, less pinpoint sensation, a smaller travel-friendly body, and a lower price. Pick the **Premium 2** if you want the concentrated air-pulse feel, Smart Silence, the longer runtime and the longest warranty.
 
 If you specifically want a gentler version of the sonic sensation, the [LELO Sila](/products/lelo-sila/) spreads it over a wider mouth at a lower intensity ceiling. The [best-of 2026 list](/best-vibrators-2026/) ranks both against everything else.

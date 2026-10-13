@@ -133,7 +133,7 @@ The [Fun Factory VIM](/products/fun-factory-vim/) is the catalogue's other wand:
 
 ### Smart Wand 2 Medium vs. the small external vibrators
 
-The [We-Vibe Tango X](/products/we-vibe-tango-x/) is the format contrast: a bullet with 8 documented intensity levels, IPX7 waterproofing and an 89 EUR price, for pinpoint stimulation. The Smart Wand 2 Medium is the broad-surface alternative at 169 EUR, with a documented runtime and weight that the Tango X page does not state. Which to choose is a question of sensation first: precise versus diffuse.
+The [We-Vibe Tango X](/products/we-vibe-tango-x/) is the format contrast: a bullet with 8 documented intensity levels, IPX7 waterproofing and an 89 EUR price, for pinpoint stimulation. The Smart Wand 2 Medium is the broad-surface alternative at 169 EUR, with a documented weight that the Tango X page does not state; both pages document a 2-hour runtime. Which to choose is a question of sensation first: precise versus diffuse.
 
 ### Smart Wand 2 Medium vs. the We-Vibe Wand 2
 

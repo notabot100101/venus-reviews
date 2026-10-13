@@ -122,7 +122,7 @@ The [Premium 2](/products/womanizer-premium-2/) at 179 EUR and [Next](/products/
 
 ### Starlet 3 vs. the budget air-pulse devices
 
-Against the [Satisfyer Pro 2](/products/satisfyer-pro-2/) at 69.95 EUR and the [Satisfyer Curvy Trinity 3](/products/satisfyer-curvy/) at 59.95 EUR, Starlet 3 is the better-documented device: Womanizer publishes dimensions, weight and runtime where Satisfyer does not, though Satisfyer counters with a 15-year warranty and, on the Curvy, an insertable arm. The whole field is ranked on the [best air-pulse & sonic stimulators](/best-air-pulse-stimulators/) page, and Starlet 3 sits with the rest of the sub-90 EUR devices on the [budget picks](/budget-picks/) page.
+Against the [Satisfyer Pro 2 Generation 3](/products/satisfyer-pro-2/) at a 79.95 EUR list price and the [Satisfyer Curvy Trinity 3](/products/satisfyer-curvy/) at 59.95 EUR, Starlet 3 is the better-documented device on battery: Womanizer publishes a runtime where Satisfyer does not, and the Pro 2 page states dimensions and weight but no runtime, though Satisfyer counters with a 15-year warranty and, on the Curvy, an insertable arm. The whole field is ranked on the [best air-pulse & sonic stimulators](/best-air-pulse-stimulators/) page, and Starlet 3 sits with the rest of the sub-90 EUR devices on the [budget picks](/budget-picks/) page.
 
 ## Value Position
 

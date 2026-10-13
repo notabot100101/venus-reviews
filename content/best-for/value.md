@@ -35,7 +35,7 @@ This is the product that made pressure-wave stimulation affordable, and it remai
 
 The seamless construction is a genuine improvement over earlier generations, which had a join between head and body exactly where residue collects.
 
-**What you give up:** runtime is modest at roughly sixty minutes at medium intensity, charging is slow, and the interface is fiddlier than premium alternatives. It is also audible — Whisper mode helps, but this is not a quiet device.
+**What you give up:** documentation on battery and noise. Satisfyer publishes no runtime, charge time or decibel figure for this model, only a whisper mode, and three Pro 2 generations sell side by side, so the generation has to be named at checkout.
 
 [Read Full Review](/products/satisfyer-pro-2/)
 

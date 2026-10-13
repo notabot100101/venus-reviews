@@ -118,7 +118,7 @@ Curvy Trinity 3 is rechargeable over an included USB magnetic cable, though Sati
 
 ### Curvy Trinity 3 vs the other Satisfyer
 
-The [Satisfyer Pro 2](/products/satisfyer-pro-2/) is the brand's single-purpose air-pulse stimulator at 69.95 EUR, also with a 15-year warranty. Curvy Trinity 3 is the more versatile device for less: it adds insertable G-spot vibration to the air-pulse, where the Pro 2 does air-pulse only. Both share the same honest caveat, a thin published spec sheet. If you want only the air-pulse sensation, the Pro 2 is simpler; if you want both sensations in one, Curvy Trinity 3 is the fuller device.
+The [Satisfyer Pro 2](/products/satisfyer-pro-2/) is the brand's external-only stimulator at a 79.95 EUR list price, also with a 15-year warranty, combining air-pulse with vibration from two motors. Curvy Trinity 3 is the more versatile device for less: it adds insertable G-spot vibration to the air-pulse. Both share one caveat: neither page publishes a runtime, although the Pro 2 Generation 3 page now states dimensions, weight and programme counts. If you want only the air-pulse sensation, the Pro 2 is simpler; if you want both sensations in one, Curvy Trinity 3 is the fuller device.
 
 ### Curvy Trinity 3 among the air-pulse field
 

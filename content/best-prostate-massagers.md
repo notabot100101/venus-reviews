@@ -34,7 +34,7 @@ Every value below comes from the manufacturer's own product page as recorded in 
 
 | | [LELO Loki Wave 2](/products/lelo-loki-wave-2/) | [LELO Hugo 2](/products/lelo-hugo-2/) | [LELO Hugo](/products/lelo-hugo/) | [We-Vibe Vector+](/products/we-vibe-vector/) | [We-Vibe Ditto+](/products/we-vibe-ditto-plus/) |
 |---|---|---|---|---|---|
-| Material | body-safe silicone + ABS | body-safe silicone, ABS plastic | body-safe silicone and ABS plastic | body-safe silicone | body-safe silicone, free of phthalates, BPA and latex |
+| Material | body-safe silicone + ABS | body-safe silicone, ABS plastic | body-safe silicone / ABS plastic | body-safe silicone | body-safe silicone, free of phthalates, BPA and latex |
 | Waterproof | 100% waterproof | 100% waterproof | 100% waterproof | not documented | IPX7 |
 | Runtime | 120 min | 60 min | 120 min | 120 min | 120 min |
 | Charge time | 120 min | 120 min | 120 min | 90 min | 90 min |
@@ -42,7 +42,7 @@ Every value below comes from the manufacturer's own product page as recorded in 
 | Modes / patterns | 12 | 10 | 6 | not documented | not documented |
 | Noise | 60 dB max | 60 dB max | 50 dB max | not documented | not documented |
 | Weight | 196 g | 121 g | 116 g | not documented | not documented |
-| Dimensions | 91 x 42 x 196 mm | 104 x 107 x 41 mm | not documented | not documented | 68.45 x 88.1 mm |
+| Dimensions | 91 x 42 x 196 mm | 104 x 107 x 41 mm | 104 x 107 x 41 mm | not documented | 68.45 x 88.1 mm |
 | Warranty | 2 years | 2 years | 2 years | 2 years | 2 years |
 | Control | 5 buttons on the device | 1 button and the LELO app | buttons and SenseMotion remote | button, remote and We-Vibe app | button, remote and We-Vibe app |
 | Price | 219.00 EUR | 179.00 EUR | 189.00 EUR | 139.00 EUR | 129.00 EUR |
@@ -54,7 +54,7 @@ Every value below comes from the manufacturer's own product page as recorded in 
 
 **If you want app control and two motors at a lower LELO price:** the [LELO Hugo 2](/products/lelo-hugo-2/). The successor to the Hugo, in stock at 179 EUR: body-safe silicone over ABS, 104 x 107 x 41 mm, 121 g, two motors, ten settings of which six need the LELO app, 100% waterproof, a noise ceiling under 60 dB and a 2-year warranty. Its documented runtime is only one hour, and no remote is listed.
 
-**If you want a remote-controlled vibrating massager from the same brand:** the [LELO Hugo](/products/lelo-hugo/). LELO's established prostate device with a SenseMotion motion remote, 100% waterproof, at 189 EUR. It was out of stock at the manufacturer when last checked, so buy through the retailers listed in the review.
+**If you want a remote-controlled vibrating massager from the same brand:** the [LELO Hugo](/products/lelo-hugo/). LELO's established prostate device with a SenseMotion motion remote: body-safe silicone over ABS, 104 x 107 x 41 mm, 116 g, two motors, six settings, a 50 dB maximum, a 2-hour runtime, 100% waterproof, at 189 EUR. It was out of stock at the manufacturer when last checked, so buy through the retailers listed in the review.
 
 **If you want adjustability and app control for less:** the [We-Vibe Vector+](/products/we-vibe-vector/). An adjustable prostate-and-perineum massager controlled by button, remote or the We-Vibe app at 139 EUR, the lowest price here, though We-Vibe publishes a thinner spec sheet than LELO.
 

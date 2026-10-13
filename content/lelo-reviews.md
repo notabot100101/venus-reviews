@@ -11,7 +11,7 @@ faq:
   - question: "Which LELO is the best overall?"
     answer: "The LELO Enigma holds our highest LELO rating at 4.5 for combining external sonic and internal G-spot stimulation. The LELO Sona 2, also 4.5, is the better pick if you want focused external-only stimulation at a lower 109 EUR price."
   - question: "What is the cheapest LELO we recommend?"
-    answer: "The LELO Sona 2 and LELO Gigi 2 are both 109 EUR, the lowest manufacturer prices among the LELO models we have reviewed."
+    answer: "The LELO Lily 3 and LELO Mia 3 are both 99 EUR, the lowest manufacturer list prices among the LELO models we have reviewed, followed by the Sona 2 and Gigi 2 at 109 EUR."
   - question: "Has Venus tested these LELO products?"
     answer: "No. Every LELO review is based on LELO's official product pages and structured data, with the date we checked each one stated on the page. We do not claim to have physically tested them."
 ---

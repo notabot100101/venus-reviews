@@ -13,7 +13,7 @@ faq:
   - question: "Which is the best overall?"
     answer: "Two share our top 4.5 rating: the LELO Sona 2 at 109 EUR for sonic, and the Womanizer Premium 2 at 179 EUR for air-pulse with the quietest operation and longest runtime."
   - question: "What is the cheapest way to try this sensation?"
-    answer: "The Satisfyer Pro 2 at 69.95 EUR is the least expensive honest entry into air-pulse, with a documented 15-year warranty. We rate it 3.5."
+    answer: "The Satisfyer Curvy Trinity 3 at 59.95 EUR is the cheapest device in this table, followed by the Womanizer Starlet 3 at 69 EUR and the Satisfyer Pro 3+ at 69.95 EUR list; the Satisfyer Pro 2 Generation 3 lists at 79.95 EUR but is usually discounted (55.97 EUR when checked). All four rate 3.5."
 ---
 
 ## Best Air-Pulse & Sonic Clitoral Stimulators
@@ -33,7 +33,7 @@ This is the "contactless" category: devices that stimulate the clitoris without 
 | [Dame Aer](/products/dame-aer/) | Air-pulse (compact) | 4.0 | 125.00 USD |
 | [Womanizer Classic 2](/products/womanizer-classic-2/) | Air-pulse (mid-range) | 4.0 | 119.00 EUR |
 | [Womanizer Liberty 2](/products/womanizer-liberty/) | Air-pulse (travel) | 4.0 | 99.00 EUR |
-| [Satisfyer Pro 2](/products/satisfyer-pro-2/) | Air-pulse | 3.5 | 69.95 EUR |
+| [Satisfyer Pro 2 Generation 3](/products/satisfyer-pro-2/) | Air-pulse + vibration (2 motors) | 3.5 | 79.95 EUR |
 | [Satisfyer Pro 3+](/products/satisfyer-pro-3-plus/) | Air-pulse + vibration (2-in-1) | 3.5 | 69.95 EUR |
 | [Satisfyer Curvy Trinity 3](/products/satisfyer-curvy/) | Air-pulse (3-in-1) | 3.5 | 59.95 EUR |
 | [Womanizer Starlet 3](/products/womanizer-starlet-3/) | Air-pulse (entry) | 3.5 | 69.00 EUR |
@@ -62,7 +62,7 @@ This is the "contactless" category: devices that stimulate the clitoris without 
 
 **If you want air-pulse that travels:** the [Womanizer Liberty 2](/products/womanizer-liberty/). A magnetic hygienic cover and a lock function on the Pleasure Air mechanism, with 8 levels, IPX7, a documented 120-minute runtime, a published 160 mAh battery and the 5-year warranty, at 99 EUR.
 
-**If you just want to try air-pulse cheaply:** the [Satisfyer Pro 2](/products/satisfyer-pro-2/). Louder and with a shorter runtime, but at 69.95 EUR with a 15-year warranty it is the low-risk way to find out whether the sensation works for you.
+**If you want the original two-motor air-pulse-and-vibration device with the longest warranty:** the [Satisfyer Pro 2 Generation 3](/products/satisfyer-pro-2/). 11 pressure-wave and 12 vibration programmes from two separately controlled motors, IPX7, a documented 203 g and 164 x 65 x 46 mm, and a 15-year warranty, at a 79.95 EUR list price that Satisfyer discounts heavily; it publishes no runtime, charge time or noise figure.
 
 **If you want air-pulse and vibration in one budget device:** the [Satisfyer Pro 3+](/products/satisfyer-pro-3-plus/). Two separately controlled motors, 11 air-pulse intensities and 10 vibration programmes, IPX7, a documented 113 g and 145 x 48 x 43 mm, and Satisfyer's 15-year warranty at a 69.95 EUR list price (shown discounted to 48.97 EUR), though it was unavailable on Satisfyer's own store when checked and publishes no runtime or charge time.
 

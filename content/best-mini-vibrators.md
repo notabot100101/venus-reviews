@@ -38,22 +38,22 @@ Every value below comes from the manufacturer's own product page as recorded in 
 
 | | [We-Vibe Tango X](/products/we-vibe-tango-x/) | [LELO Lily 3](/products/lelo-lily-3/) | [LELO Mia 3](/products/lelo-mia-3/) | [We-Vibe Touch X](/products/we-vibe-touch-x/) | [Dame Pom](/products/dame-pom/) | [Dame Dip](/products/dame-dip/) | [Fun Factory Laya III](/products/fun-factory-laya-iii/) | [Fun Factory Be One](/products/fun-factory-be-one/) | [Dame Fin](/products/dame-fin/) |
 |---|---|---|---|---|---|---|---|---|---|
-| Material | Body-safe silicone with grip texture | ABS with silicone soft touch coating | ABS, body-safe silicone | body-safe silicone, free of phthalates and BPA, made without latex | medical-grade (100% body-safe) silicone | medical-grade (100% body-safe) silicone | silicone and ABS plastic | body-friendly materials, hypoallergenic and non-porous | medical-grade (100% body-safe) silicone |
+| Material | body-safe silicone, made without phthalates, BPA or latex | ABS with silicone soft touch coating | ABS, body-safe silicone | body-safe silicone, free of phthalates and BPA, made without latex | medical-grade (100% body-safe) silicone | medical-grade (100% body-safe) silicone | silicone and ABS plastic | body-friendly materials, hypoallergenic and non-porous | medical-grade (100% body-safe) silicone |
 | Waterproof | IPX7 | 100% waterproof | 100% waterproof | IPX7 | waterproof | waterproof | IPX7 | IPX7 | waterproof |
-| Runtime | not documented | 120 min | 90 min | 120 min | 60 min | 90 min | not documented | 60 min | 60 min |
-| Charge time | not documented | 120 min | 120 min | 90 min | 120 min | 120 min | not documented | not documented | 120 min |
+| Runtime | 120 min | 120 min | 90 min | 120 min | 60 min | 90 min | not documented | 60 min | 60 min |
+| Charge time | 90 min | 120 min | 120 min | 90 min | 120 min | 120 min | not documented | not documented | 120 min |
 | Intensity levels | 8 | not documented | not documented | 8 | 5 | 5 | 7 | 4 | 5 |
 | Modes / patterns | 7 | 10 | 8 | 7 | 5 | 1 | 3 | 1 | 1 |
 | Noise | not documented | 60 dB max | 60 dB max | not documented | not documented | not documented | not documented | not documented | not documented |
 | Weight | not documented | 45 g | 36 g | not documented | not documented | not documented | 85 g | 28 g | not documented |
-| Dimensions | not documented | 39 x 34 x 74 mm | 22 x 22 x 111 mm | 102 x 43 x 34 mm | 83 x 56 x 30 mm | 147 x 33 mm | 107 x 50 x 41 mm | 70 x 20 mm | 76 x 38 mm |
+| Dimensions | 99.8 x 22.9 x 24.3 mm | 39 x 34 x 74 mm | 22 x 22 x 111 mm | 102 x 43 x 34 mm | 83 x 56 x 30 mm | 147 x 33 mm | 107 x 50 x 41 mm | 70 x 20 mm | 76 x 38 mm |
 | Warranty | 2 years | 2 years | 2 years | 2 years | 3 years | 3 years | not documented | not documented | 3 years |
 | Travel lock | not documented | not documented | yes | yes | not documented | not documented | not documented | yes | not documented |
 | Price | 89.00 EUR | 99.00 EUR | 99.00 EUR | 99.00 EUR | 103.00 USD | 44.00 USD | 32.95 EUR | 33.95 EUR | 49.00 USD |
 
 ### How to pick within the category
 
-**If you want the best-rated and cheapest in euros:** the [We-Vibe Tango X](/products/we-vibe-tango-x/). A slim bullet with 8 intensity levels and 7 modes, IPX7 and a 2-year warranty at 89 EUR, the top-rated device here at 4.5. We-Vibe publishes no runtime, weight or noise figure for it, so it wins on rating and price rather than on documentation.
+**If you want the best-rated and cheapest in euros:** the [We-Vibe Tango X](/products/we-vibe-tango-x/). A slim bullet with 8 intensity levels and 7 modes, IPX7 and a 2-year warranty at 89 EUR, the top-rated device here at 4.5. We-Vibe documents a 120-minute runtime from a 90-minute charge and a 99.8 x 22.9 x 24.3 mm body, but publishes no weight or noise figure for it.
 
 **If you want a lay-on mini with a published noise figure:** the [LELO Lily 3](/products/lelo-lily-3/). A 45 g, 39 x 34 x 74 mm body in ABS with a silicone soft-touch coating, 10 settings, 100% waterproof, a two-hour runtime from a two-hour charge and a documented 60 dB maximum, at 99 EUR.
 

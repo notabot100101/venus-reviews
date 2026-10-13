@@ -141,7 +141,7 @@ Pro 3+ is rechargeable over an included USB magnetic charging cable, powered by 
 
 ### vs. the Satisfyer Pro 2
 
-Both the Pro 3+ and the [Satisfyer Pro 2](/products/satisfyer-pro-2/) combine air-pulse and vibration through two separately controllable motors, and both document a 15-year warranty. The published program counts differ slightly - 11 pressure-wave and 10 vibration on the Pro 3+ against 11 pressure-wave and 12 vibration on the Pro 2 - and the Pro 3+ is considerably more compact: 113 g at 145 x 48 x 43 mm against the Pro 2's 203 g at 164 x 65 x 46 mm. The clearest difference is provenance: this review draws the Pro 3+'s figures directly from Satisfyer's own accessible product page, while the existing Pro 2 review notes that Satisfyer's official page was not reachable during that research, so its figures came from retailer listings instead. Both share the same 69.95 EUR list price and were unavailable on Satisfyer's own store when checked; the Pro 3+ was additionally marked down to 48.97 EUR at the time.
+Both the Pro 3+ and the [Satisfyer Pro 2](/products/satisfyer-pro-2/) combine air-pulse and vibration through two separately controllable motors, and both document a 15-year warranty. The published program counts differ slightly - 11 pressure-wave and 10 vibration on the Pro 3+ against 11 pressure-wave and 12 vibration on the Pro 2 - and the Pro 3+ is considerably more compact: 113 g at 145 x 48 x 43 mm against the Pro 2's 203 g at 164 x 65 x 46 mm. Both reviews draw their figures directly from Satisfyer's own product pages, checked in October 2026, and neither page publishes a runtime or a noise figure.
 
 ### vs. the Womanizer entry and mid-range models
 
