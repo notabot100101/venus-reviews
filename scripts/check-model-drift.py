@@ -76,6 +76,34 @@ def norm(s):
 # review from JSON-LD alone silently publishes a promotion as the list price.
 PRICE_BLOCK = re.compile(r'class="(?:price--content|product--price|product-info-price)[^"]*".{0,900}', re.S)
 
+
+# LELO publishes a Google-Analytics dataLayer beside the JSON-LD offer carrying
+# discount_percentage, so the LIST price is derivable without rendering:
+#   list = selling / (1 - d)
+# Verified on lelo-mona 2026-10-11: selling 108.42 at 22% off -> 139.00, which matched the
+# review exactly. Credit to the Venus session for pointing out it generalises; their
+# refresh-offers.py does the same. Rounded to whole euros with 1 EUR tolerance, because LELO
+# prices are whole-euro and the percentage is reported as an integer.
+DISCOUNT_RE = re.compile(r'"discount_percentage"\s*:\s*"?(\d{1,2})%?"?')
+LOCAL_PRICE_RE = re.compile(r'"local_price"\s*:\s*"?([\d.]+)"?')
+
+
+def derived_list_price(body):
+    """(list, selling, pct) from the dataLayer, or None when there is no discount."""
+    d = DISCOUNT_RE.search(body)
+    p = LOCAL_PRICE_RE.search(body)
+    if not d or not p:
+        return None
+    pct = int(d.group(1))
+    if pct <= 0:
+        return None
+    try:
+        selling = float(p.group(1))
+    except ValueError:
+        return None
+    lst = selling / (1 - pct / 100)
+    return round(lst), selling, pct
+
 def price_block_figures(body):
     """(figures found in the product's own price block, struck-price marker present)."""
     m = PRICE_BLOCK.search(body)
@@ -90,11 +118,27 @@ def price_block_figures(body):
                             r'Regul\u00e4rer Preis|UVP|statt\b', blk, re.I))
     return sorted(set(figs)), struck
 
+# 2026-10-13: our own Accept-Language header was causing a false finding. lelo.com/enigma-cruise
+# answers 200 to a plain request, but with "Accept-Language: de,..." it bounces a client through
+# /de/enigma-cruise-old until urllib gives up, which this checker reported as
+# REDIRECT_NOT_FOLLOWED on a perfectly healthy page. So: try with the header, because German
+# pages carry the spec tables we want, and fall back to a plain request when it fails.
+# Also raised the read cap: a 600 KB cap silently truncated dame.com (1.16 MB), and content past
+# the cut looked absent - that produced six false "unsourced medical-grade claim" findings.
+READ_CAP = 2_000_000
+
+
 def fetch(url, timeout=40):
-    req = urllib.request.Request(url, headers={"User-Agent": UA,
-                                               "Accept-Language": "de,en;q=0.8"})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.status, r.geturl(), r.read(600_000).decode("utf-8", "replace")
+    last = None
+    for hdrs in ({"User-Agent": UA, "Accept-Language": "de,en;q=0.8"},
+                 {"User-Agent": UA}):
+        try:
+            req = urllib.request.Request(url, headers=hdrs)
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.status, r.geturl(), r.read(READ_CAP).decode("utf-8", "replace")
+        except Exception as e:                                   # noqa: BLE001
+            last = e
+    raise last
 
 
 # SHOPIFY VARIANT TRAP (2026-10-12, caught by the Venus session before my false positive
@@ -235,6 +279,22 @@ def main():
         elif avail == "InStock" and claims_available is False:
             findings.append((slug, "STOCK_DRIFT", 'review says available: false, page says InStock',
                              "Back in stock - the offer row understates it."))
+
+        dl = derived_list_price(body)
+        if dl and review_price is not None:
+            lst, selling, pct = dl
+            if abs(review_price - selling) < 0.02:
+                findings.append((slug, "PRICE_IS_PROMO_NOT_LIST",
+                                 f"review price {review_price} is the SELLING price; the page's "
+                                 f"dataLayer shows {pct}% off, so list = {selling}/(1-{pct}/100) "
+                                 f"= about {lst}",
+                                 "House convention is the manufacturer LIST price with the "
+                                 "discount noted in prose."))
+            elif abs(review_price - lst) > 1.01:
+                findings.append((slug, "PRICE_MATCHES_NEITHER",
+                                 f"review price {review_price}; page sells at {selling} with {pct}% "
+                                 f"off, implying a list of about {lst}",
+                                 "Re-verify against the rendered price block before changing it."))
 
         figs, struck = price_block_figures(body)
         if review_price is not None and len(figs) >= 2 and struck:
