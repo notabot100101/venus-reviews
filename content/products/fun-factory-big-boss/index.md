@@ -61,13 +61,13 @@ image: "/images/products/fun-factory-big-boss/front.webp"
 images:
   - "/images/products/fun-factory-big-boss/front.webp"
 price: "49.95"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "Fun Factory (manufacturer)"
     url: "https://www.funfactory.com/products/big-boss"
     price: 49.95
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

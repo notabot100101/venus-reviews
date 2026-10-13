@@ -27,7 +27,7 @@ This is the counterpart to our [budget picks](/budget-picks/): the best premium 
 | Air-pulse | [Womanizer Next](/products/womanizer-next/) | 4.5 | 209.00 EUR |
 | Gentle sonic | [LELO Sila](/products/lelo-sila/) | 4.0 | 169.00 EUR |
 | G-spot / internal | [LELO Mona 2](/products/lelo-mona/) | 4.0 | 139.00 EUR |
-| Rabbit | [LELO Soraya Wave](/products/lelo-soraya-wave/) | 4.0 | 199.00 EUR |
+| Rabbit | [LELO Soraya Wave](/products/lelo-soraya-wave/) | 4.0 | 259.00 EUR |
 | Wand | [LELO Smart Wand 2 Medium](/products/lelo-smart-wand-2-medium/) | 4.0 | 169.00 EUR |
 | Prostate | [LELO Loki Wave 2](/products/lelo-loki-wave-2/) | 4.0 | 219.00 EUR |
 | Male | [LELO F1S V2](/products/lelo-f1s-v2/) | 4.0 | 199.00 EUR |

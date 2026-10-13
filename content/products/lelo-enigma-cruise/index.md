@@ -83,13 +83,13 @@ image: "/images/products/lelo-enigma-cruise/front.webp"
 images:
   - "/images/products/lelo-enigma-cruise/front.webp"
 price: "219.00"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/enigma-cruise"
     price: 219
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""
@@ -159,7 +159,7 @@ The [LELO Enigma](/products/lelo-enigma/) is the catalogue's top-rated dual at a
 
 ### Enigma Cruise vs. the rabbits and the other duals
 
-Against the catalogue's other duals, the Enigma Cruise is the sonic option rather than a vibrating rabbit. The [LELO Soraya Wave](/products/lelo-soraya-wave/) at 199 EUR is a conventional rabbit with LELO's WaveMotion internal arm, eight settings, 185 g, a documented 50 dB noise ceiling and a 2-hour charge; it is 20 EUR cheaper and documents two figures the Cruise does not. The [Womanizer Duo 2](/products/womanizer-duo-2/) at 209 EUR pairs air-pulse clitoral stimulation with a G-spot arm, documents 14 intensity levels, 10 patterns, an IPX7 rating and a 5-year warranty, and is 10 EUR cheaper. The Enigma Cruise's distinctive claim is contact-free sonic stimulation plus Cruise Control; its weakest point is the thinnest noise and charging documentation of the three. The wider field is ranked on the [best rabbit vibrators](/best-rabbit-vibrators/) and [best G-spot vibrators](/best-g-spot-vibrators/) pages.
+Against the catalogue's other duals, the Enigma Cruise is the sonic option rather than a vibrating rabbit. The [LELO Soraya Wave](/products/lelo-soraya-wave/) at a 259 EUR list price (199 EUR on promotion when checked) is a conventional rabbit with LELO's WaveMotion internal arm, eight settings, 185 g, a documented 50 dB noise ceiling and a 2-hour charge; it lists 40 EUR higher and documents two figures the Cruise does not. The [Womanizer Duo 2](/products/womanizer-duo-2/) at 209 EUR pairs air-pulse clitoral stimulation with a G-spot arm, documents 14 intensity levels, 10 patterns, an IPX7 rating and a 5-year warranty, and is 10 EUR cheaper. The Enigma Cruise's distinctive claim is contact-free sonic stimulation plus Cruise Control; its weakest point is the thinnest noise and charging documentation of the three. The wider field is ranked on the [best rabbit vibrators](/best-rabbit-vibrators/) and [best G-spot vibrators](/best-g-spot-vibrators/) pages.
 
 The full head-to-head with the original is [Enigma vs Enigma Cruise](/lelo-enigma-vs-lelo-enigma-cruise/).
 

@@ -51,13 +51,13 @@ image: "/images/products/fun-factory-be-one/front.webp"
 images:
   - "/images/products/fun-factory-be-one/front.webp"
 price: "33.95"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "Fun Factory (manufacturer)"
     url: "https://www.funfactory.com/products/be-one"
     price: 33.95
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

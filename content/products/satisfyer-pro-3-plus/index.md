@@ -69,13 +69,13 @@ image: "/images/products/satisfyer-pro-3-plus/front.webp"
 images:
   - "/images/products/satisfyer-pro-3-plus/front.webp"
 price: "69.95"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "Satisfyer (manufacturer)"
     url: "https://www.satisfyer.com/de/satisfyer-pro-3-plus"
     price: 69.95
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: false
   - retailer: "Amazon"
     url: ""

@@ -78,31 +78,32 @@ draft: false
 # confirmed as this product rather than the Sila. Flagged for the orchestrator: the Lilac card
 # https://assets.lelo.com/dx/styles/commerce_card_style/s3/product-images/2026-07/LELO_SILA_ProductShot_Angle_Lilac_2000%20%282%29.webp?VersionId=Z2TrWuVvwa0hslvpTqtkZGXefhy_BqSt&itok=HzEFA5i2
 # is the file LELO itself assigns to SKU 2635 if that binding is judged sufficient.
+# Orchestrator 2026-10-13 (browser pane, rendered price block): "189 EUR" struck, "139 EUR" selling, "save 50 EUR"; dataLayer discount_percentage 26%. The 139.00 recorded on 2026-10-12 was the promotional price; list 189 recorded as price per the house rule.
 best_for: "Gentle wide-mouth sonic clitoral stimulation with documented Cruise Control constant-intensity technology"
 badge: "Cruise Control Sonic"
 rating: 4.0
-rating_note: "LELO documents the Sila Cruise as completely as the Sila - materials, full dimensions, weight, battery, charging, user time, frequency, automatic switch-off and the two-tier warranty are all stated - and Cruise Control is a genuine, documented addition; it stays level with the Sila at 4.0 rather than above it because the 139 EUR page price is flagged by LELO as a 26% promotion with no standing list price stated, no noise ceiling or standby time is published, and the eight settings, 2-hour runtime and 520 mAh battery are unchanged from the Sila."
+rating_note: "LELO documents the Sila Cruise as completely as the Sila - materials, full dimensions, weight, battery, charging, user time, frequency, automatic switch-off and the two-tier warranty are all stated - and Cruise Control is a genuine, documented addition; it stays level with the Sila at 4.0 rather than above it because its 189 EUR list price (139 EUR on promotion when checked) is flagged by LELO as a 26% promotion with no standing list price stated, no noise ceiling or standby time is published, and the eight settings, 2-hour runtime and 520 mAh battery are unchanged from the Sila."
 pros:
   - "Full specification block: body-safe silicone and ABS, 80 x 75 x 35 mm, 105 g, Li-ion 520 mAh battery, 2-hour charge"
   - "Patented Cruise Control keeps the pulsations constant and releases extra power when the device is pressed hard against the body"
   - "Wide-mouth sonic stimulation that LELO positions for a gentle, slow build-up, 100% waterproof, with eight settings"
   - "2-year warranty plus a further 10-year quality guarantee once the base warranty expires, with ISO 3533 compliance stated"
 cons:
-  - "The 139 EUR page price is flagged by LELO's own analytics as a 26% promotion, and no standing list price is stated"
+  - "189 EUR manufacturer list price, shown at 139 EUR on promotion (26% off) when checked"
   - "No maximum noise level, standby time, IP rating or app control is stated on the Sila Cruise page"
   - "Eight settings, up to 2 hours of use and the 520 mAh battery are unchanged from the Sila"
   - "LELO's beginner positioning and gentle tuning mean buyers chasing intensity should look at the Sona 2 or Sona 3"
 image: "/images/products/lelo-sila-cruise/front.webp"
 images:
   - "/images/products/lelo-sila-cruise/front.webp"
-price: "139.00"
-price_checked: "2026-10-12"
+price: "189.00"
+price_checked: "2026-10-13"
 offers:
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/sila-cruise"
-    price: 139
+    price: 189
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""
@@ -180,4 +181,4 @@ Within LELO, the Sila Cruise is the external-only Cruise Control entry. The [LEL
 
 ## Value Position
 
-LELO's own product page gave the Sila Cruise a 139.00 EUR price, in stock, on 12 October 2026, with LELO's analytics flagging a 26% promotional discount and no pre-discount EUR figure stated. At that price it sits in the catalogue's middle band: above the Sona 2, below the Sona 3, the Sila, the Womanizer Premium 2 and the Enigma Cruise. The case for it is specific: the Sila's wide-mouth gentle format with documented Cruise Control, at a price that on the day checked undercut the Sila. If the promotion ends, the decision narrows to whether Cruise Control matters; if gentleness is not the requirement, the Sona 2 remains the better-value sonic pick. For the full ranking, see the [best-of 2026 catalogue](/best-vibrators-2026/).
+LELO's own product page gives the Sila Cruise a 189.00 EUR list price, shown struck through against a 139.00 EUR promotional price ("save 50 EUR", 26% off) when checked on 13 October 2026. At list it sits between the Sila at 169 EUR and the Enigma Cruise at 219 EUR; at the promotional price it undercuts the Sila. The case for it is specific: the Sila's wide-mouth gentle format with documented Cruise Control, at a price that on the day checked undercut the Sila. If the promotion ends, the decision narrows to whether Cruise Control matters; if gentleness is not the requirement, the Sona 2 remains the better-value sonic pick. For the full ranking, see the [best-of 2026 catalogue](/best-vibrators-2026/).

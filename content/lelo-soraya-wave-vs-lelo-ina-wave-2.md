@@ -1,7 +1,7 @@
 ---
 title: "LELO Soraya Wave vs LELO Ina Wave 2"
 seo_title: "LELO Soraya Wave vs LELO Ina Wave 2: Which WaveMotion Rabbit? | Venus"
-seo_description: "LELO Soraya Wave vs LELO Ina Wave 2 compared: the two WaveMotion rabbit vibrators at the same 199 EUR, on size, weight, settings, noise and documentation, with who each suits."
+seo_description: "LELO Soraya Wave vs LELO Ina Wave 2 compared: the two WaveMotion rabbit vibrators at 259 and 199 EUR list, on size, weight, settings, noise and documentation, with who each suits."
 description: "LELO's two WaveMotion rabbits at the same price, compared on what each one documents."
 slug: "lelo-soraya-wave-vs-lelo-ina-wave-2"
 date: 2026-10-12
@@ -9,9 +9,9 @@ draft: false
 author: "Venus Editorial Team"
 faq:
   - question: "What is the difference between the Soraya Wave and the Ina Wave 2?"
-    answer: "Both are LELO rabbits whose internal tip rises and falls with WaveMotion while an external arm vibrates, both 100% waterproof with a two-hour runtime and a 110 mm insertable length, both 199 EUR. The Soraya Wave is larger at 218 x 72 x 46 mm and 185 g with 8 settings and a documented 50 dB maximum. The Ina Wave 2 is smaller at 200 x 65 x 45 mm and 176 g with 12 settings and two synchronised motors, but LELO publishes no noise figure for it."
+    answer: "Both are LELO rabbits whose internal tip rises and falls with WaveMotion while an external arm vibrates, both 100% waterproof with a two-hour runtime and a 110 mm insertable length, the Ina Wave 2 at 199 EUR and the Soraya Wave at 259 EUR list (199 EUR on promotion when checked). The Soraya Wave is larger at 218 x 72 x 46 mm and 185 g with 8 settings and a documented 50 dB maximum. The Ina Wave 2 is smaller at 200 x 65 x 45 mm and 176 g with 12 settings and two synchronised motors, but LELO publishes no noise figure for it."
   - question: "Which is better value?"
-    answer: "Neither on price: both are 199 EUR and both rate 4.0. The Ina Wave 2 gives more settings in a lighter body; the Soraya Wave gives a documented noise ceiling. The choice is size and quietness documentation, not money."
+    answer: "On list price the Ina Wave 2, at 199 EUR against the Soraya Wave's 259 EUR (199 EUR on promotion when checked); both rate 4.0. The Ina Wave 2 gives more settings in a lighter body; the Soraya Wave gives a documented noise ceiling. The choice is size and quietness documentation, not money."
   - question: "Which is quieter?"
     answer: "Only the Soraya Wave has a published figure, a 50 dB maximum, among the quieter numbers in the catalogue. The Ina Wave 2 page publishes no noise level at all, so it cannot be compared on that point."
 ---
@@ -25,7 +25,7 @@ Both reviews are built from the manufacturers' official specifications, not phys
 | | [LELO Soraya Wave](/products/lelo-soraya-wave/) | [LELO Ina Wave 2](/products/lelo-ina-wave-2/) |
 |---|---|---|
 | Our rating | 4.0 | 4.0 |
-| Manufacturer price | 199.00 EUR | 199.00 EUR |
+| Manufacturer price | 259.00 EUR (199 EUR on promotion when checked) | 199.00 EUR |
 | Format | Rabbit with WaveMotion tip | Rabbit with WaveMotion tip |
 | Motors | not stated as a count | 2 synchronised motors (documented) |
 | Insertable length | 110 mm | 110 mm |

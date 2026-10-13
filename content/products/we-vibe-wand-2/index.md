@@ -49,13 +49,13 @@ image: "/images/products/we-vibe-wand-2/front.webp"
 images:
   - "/images/products/we-vibe-wand-2/front.webp"
 price: "159.00"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "We-Vibe (manufacturer)"
     url: "https://www.we-vibe.com/de/wand-2"
     price: 159
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

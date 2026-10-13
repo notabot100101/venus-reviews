@@ -11,7 +11,7 @@ faq:
   - question: "What is the difference between the Tor 3 and the Tiani 3?"
     answer: "Both are LELO couples' toys, but the format differs. The Tor 3 is a vibrating ring worn at the base during sex, mechanically simple and documented as 100% waterproof. The Tiani 3 is a worn C-shape held internally and externally, with a motion-sensitive SenseMotion remote and a 12 m range, but no documented waterproof rating."
   - question: "Which is better value?"
-    answer: "Both rate 4.0 and sit close on price: the Tiani 3 at 151.99 EUR and the Tor 3 at 159.00 EUR. The Tiani 3 adds the motion remote and is quieter; the Tor 3 adds full waterproofing and a simpler fit. Neither is clearly cheaper for what it does."
+    answer: "Both rate 4.0 and sit close on price: the Tiani 3 at 169 EUR list and the Tor 3 at 159 EUR list, both shown at 129 EUR on promotion when checked. The Tiani 3 adds the motion remote and is quieter; the Tor 3 adds full waterproofing and a simpler fit. Neither is clearly cheaper for what it does."
   - question: "Which is quieter?"
     answer: "The Tiani 3, at a documented 50 dB maximum, against the Tor 3's 60 dB. Both figures come from LELO's own specification blocks."
 ---
@@ -25,12 +25,12 @@ Both reviews are built from LELO's official specifications, not physical testing
 | | [LELO Tor 3](/products/lelo-tor-3/) | [LELO Tiani 3](/products/lelo-tiani-3/) |
 |---|---|---|
 | Our rating | 4.0 | 4.0 |
-| Manufacturer price | 159.00 EUR | 151.99 EUR |
+| Manufacturer price | 159.00 EUR (129 EUR on promotion when checked) | 169.00 EUR (129 EUR on promotion when checked) |
 | Format | Vibrating ring, worn at the base | Worn C-shape, internal + external |
 | Control | 2 buttons + LELO app | 1 button + SenseMotion motion remote (12 m) |
 | Motor | 130 Hz | 125 Hz |
 | Max noise | 60 dB | 50 dB |
-| Waterproof | 100% waterproof (documented) | Not documented |
+| Waterproof | 100% waterproof | 100% waterproof |
 | Materials | Body-safe silicone + ABS, ISO 3533 | FDA body-safe silicone + ABS, ISO 3533 |
 | Runtime / charge | ~2 h / ~2 h | ~2 h / ~2 h |
 | Warranty | 2 years | 2 years |

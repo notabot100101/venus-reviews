@@ -46,13 +46,13 @@ image: "/images/products/dame-aer/front.webp"
 images:
   - "/images/products/dame-aer/front.webp"
 price: "125.00"
-price_checked: "2026-10-10"
+price_checked: "2026-10-13"
 offers:
   - retailer: "Dame (manufacturer)"
     url: "https://www.dame.com/products/aer"
     price: 125
     currency: "USD"
-    checked: "2026-10-10"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

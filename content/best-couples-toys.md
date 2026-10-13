@@ -24,7 +24,7 @@ These are the devices built for two people at once: worn by one partner during s
 |---|---|---|---|
 | [We-Vibe Chorus](/products/we-vibe-chorus/) | Worn wearable | 4.5 | 209.00 EUR |
 | [LELO Tor 3](/products/lelo-tor-3/) | Vibrating ring | 4.0 | 159.00 EUR |
-| [LELO Tiani 3](/products/lelo-tiani-3/) | Worn wearable + motion remote | 4.0 | 151.99 EUR |
+| [LELO Tiani 3](/products/lelo-tiani-3/) | Worn wearable + motion remote | 4.0 | 169.00 EUR |
 | [We-Vibe Match](/products/we-vibe-match/) | Worn wearable (remote only) | 4.0 | 139.00 EUR |
 | [We-Vibe Moxie+](/products/we-vibe-moxie-plus/) | Panty vibrator (remote and app) | 4.0 | 129.00 EUR |
 | [We-Vibe Pivot 2](/products/we-vibe-pivot-2/) | Vibrating ring (app) | 3.5 | 89.00 EUR |

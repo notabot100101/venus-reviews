@@ -49,13 +49,13 @@ image: "/images/products/womanizer-vibe/front.webp"
 images:
   - "/images/products/womanizer-vibe/front.webp"
 price: "129.00"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "Womanizer (manufacturer)"
     url: "https://www.womanizer.com/de/vibe"
     price: 129
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

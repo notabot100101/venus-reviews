@@ -65,13 +65,13 @@ image: "/images/products/lelo-hugo-2/front.webp"
 images:
   - "/images/products/lelo-hugo-2/front.webp"
 price: "179.00"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/hugo-2"
     price: 179
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

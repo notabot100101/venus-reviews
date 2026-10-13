@@ -44,13 +44,13 @@ image: "/images/products/fun-factory-stronic/front.webp"
 images:
   - "/images/products/fun-factory-stronic/front.webp"
 price: "69.95"
-price_checked: "2026-10-08"
+price_checked: "2026-10-13"
 offers:
   - retailer: "Fun Factory (manufacturer)"
     url: "https://www.funfactory.com/products/stronic-g"
     price: 69.95
     currency: "EUR"
-    checked: "2026-10-08"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

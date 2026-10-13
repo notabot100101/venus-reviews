@@ -52,13 +52,13 @@ image: "/images/products/womanizer-duo-2/front.webp"
 images:
   - "/images/products/womanizer-duo-2/front.webp"
 price: "209.00"
-price_checked: "2026-10-08"
+price_checked: "2026-10-13"
 offers:
   - retailer: "Womanizer (manufacturer)"
     url: "https://www.womanizer.com/de/duo2"
     price: 209
     currency: "EUR"
-    checked: "2026-10-08"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

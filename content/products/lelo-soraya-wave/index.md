@@ -49,31 +49,32 @@ draft: false
 # analytics tracking data is in USD, not a verifiable EUR discount figure, so it is not used
 # here. Treat 199.00 EUR as the only confirmed price for this page at the time checked.
 # Orchestrator 2026-10-12: "8 pleasure settings" recorded as patterns (LELO publishes modes, not separate intensity levels).
+# Orchestrator 2026-10-13 (browser pane, rendered price block): "259 EUR" struck, "199 EUR" selling, "save 60 EUR"; dataLayer discount_percentage 23%. On 2026-10-12 the same page showed 199 EUR with 0% discount. House rule: list 259 recorded as price, the 199 EUR promotion in prose.
 best_for: "Dual G-spot and clitoral stimulation with a documented WaveMotion mechanism"
 badge: "WaveMotion Pick"
 rating: 4.0
-rating_note: "LELO documents Soraya Wave unusually completely for a rabbit - materials, full dimensions, weight, insertable length, battery, charging, user time, noise level and a two-tier warranty are all stated - and the WaveMotion mechanism is a genuine, clearly-explained point of difference; it loses half a point for an unstated app/Bluetooth status, no distinct pattern count, and a 199 EUR list price that puts it in the catalogue's premium tier."
+rating_note: "LELO documents Soraya Wave unusually completely for a rabbit - materials, full dimensions, weight, insertable length, battery, charging, user time, noise level and a two-tier warranty are all stated - and the WaveMotion mechanism is a genuine, clearly-explained point of difference; it loses half a point for an unstated app/Bluetooth status, no distinct pattern count, and a 259 EUR list price (199 EUR on promotion when checked) that puts it in the catalogue's premium tier."
 pros:
   - "Dual stimulation that is clearly documented: a WaveMotion G-spot shaft plus a separate external clitoral arm, each independently adjustable"
   - "Full specification block: body-safe silicone and ABS, 218 x 72 x 46 mm, 185 g, 110 mm insertable length"
   - "100% waterproof with a documented 50 dB maximum noise level, quiet for a motorised rabbit"
   - "2-year warranty plus a further 10-year quality guarantee once the base warranty expires"
 cons:
-  - "199 EUR manufacturer list price puts it in the catalogue's premium tier"
+  - "259 EUR manufacturer list price, shown at 199 EUR on promotion when checked, in the catalogue's premium tier"
   - "LELO does not state app/Bluetooth support or a distinct vibration-pattern count, only 8 pleasure settings"
   - "At 218 mm long and 72 mm across, this is a large, fit-sensitive rabbit"
   - "Documented 2-hour user time from a 2-hour charge is average rather than a standout"
 image: "/images/products/lelo-soraya-wave/front.webp"
 images:
   - "/images/products/lelo-soraya-wave/front.webp"
-price: "199.00"
-price_checked: "2026-10-12"
+price: "259.00"
+price_checked: "2026-10-13"
 offers:
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/soraya-wave"
-    price: 199
+    price: 259
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""
@@ -113,7 +114,7 @@ Venus has not physically tested this product. This review is based on LELO's off
 
 ## Quick Verdict
 
-Soraya Wave is the pick for someone who specifically wants a moving internal sensation alongside external clitoral stimulation, rather than a flexible-arm rabbit. LELO's documentation is unusually thorough: body-safe silicone over ABS, full dimensions of 218 x 72 x 46 mm, a stated 185 g weight, a 110 mm insertable length, a 50 dB maximum noise level, 100% waterproofing, 8 pleasure settings, and a two-tier warranty running 2 years as standard with a further 10-year quality guarantee after that. The WaveMotion mechanism itself is clearly described: the sculpted tip rises and falls against the G-spot, said to feel like a come-hither finger motion, while the external arm vibrates independently and both can be run together or separately. The caveats are a 199 EUR list price, no stated app or Bluetooth control, no distinct vibration-pattern count beyond the 8 settings, and a large format that, like any rabbit, is fit-sensitive.
+Soraya Wave is the pick for someone who specifically wants a moving internal sensation alongside external clitoral stimulation, rather than a flexible-arm rabbit. LELO's documentation is unusually thorough: body-safe silicone over ABS, full dimensions of 218 x 72 x 46 mm, a stated 185 g weight, a 110 mm insertable length, a 50 dB maximum noise level, 100% waterproofing, 8 pleasure settings, and a two-tier warranty running 2 years as standard with a further 10-year quality guarantee after that. The WaveMotion mechanism itself is clearly described: the sculpted tip rises and falls against the G-spot, said to feel like a come-hither finger motion, while the external arm vibrates independently and both can be run together or separately. The caveats are a 259 EUR list price (199 EUR on promotion when checked), no stated app or Bluetooth control, no distinct vibration-pattern count beyond the 8 settings, and a large format that, like any rabbit, is fit-sensitive.
 
 ## Format and Who It Is For
 
@@ -139,11 +140,11 @@ Soraya Wave is USB-rechargeable, with a 2-hour charge giving a documented 2-hour
 
 ### Soraya Wave vs. the We-Vibe Nova 2
 
-The [We-Vibe Nova 2](/products/we-vibe-nova-2/) is the catalogue's other dual-stimulation rabbit, at a 149 EUR list price with We-Connect app control and a flexible external arm built to maintain clitoral contact as the body moves. Soraya Wave costs more at 199 EUR and LELO does not document app control for it, but its point of difference is mechanical: a moving WaveMotion tip at the G-spot rather than a flexible external arm. Buyers who want app control should lean toward the Nova 2; buyers who want a come-hither internal motion should lean toward Soraya Wave.
+The [We-Vibe Nova 2](/products/we-vibe-nova-2/) is the catalogue's other dual-stimulation rabbit, at a 149 EUR list price with We-Connect app control and a flexible external arm built to maintain clitoral contact as the body moves. Soraya Wave lists at 259 EUR (199 EUR on promotion when checked) and LELO does not document app control for it, but its point of difference is mechanical: a moving WaveMotion tip at the G-spot rather than a flexible external arm. Buyers who want app control should lean toward the Nova 2; buyers who want a come-hither internal motion should lean toward Soraya Wave.
 
 ### Soraya Wave vs. the Ina Wave 2
 
-The [LELO Ina Wave 2](/products/lelo-ina-wave-2/) is the other WaveMotion rabbit, at the same 199 EUR: a smaller, lighter body (200 x 65 x 45 mm, 176 g against 218 x 72 x 46 mm, 185 g), the same 110 mm insertable length, 12 settings against 8, and two synchronised motors. The Soraya Wave documents a 50 dB maximum where the Ina Wave 2 page publishes no noise figure. Size and settings favour the Ina Wave 2; the documented noise ceiling favours the Soraya Wave. The full head-to-head is [Soraya Wave vs Ina Wave 2](/lelo-soraya-wave-vs-lelo-ina-wave-2/).
+The [LELO Ina Wave 2](/products/lelo-ina-wave-2/) is the other WaveMotion rabbit, at a 199 EUR list price, 60 EUR below the Soraya Wave's 259 EUR: a smaller, lighter body (200 x 65 x 45 mm, 176 g against 218 x 72 x 46 mm, 185 g), the same 110 mm insertable length, 12 settings against 8, and two synchronised motors. The Soraya Wave documents a 50 dB maximum where the Ina Wave 2 page publishes no noise figure. Size and settings favour the Ina Wave 2; the documented noise ceiling favours the Soraya Wave. The full head-to-head is [Soraya Wave vs Ina Wave 2](/lelo-soraya-wave-vs-lelo-ina-wave-2/).
 
 ### Soraya Wave vs. the value rabbit
 
@@ -155,4 +156,4 @@ Within LELO, Soraya Wave is the brand's dedicated dual-stimulation rabbit. The [
 
 ## Value Position
 
-LELO's own product page gives Soraya Wave a 199.00 EUR list price; the fetched page did not carry a separate, clearly-labelled discounted EUR figure alongside it, despite a sitewide "up to 50% off" promotional banner, so this review records 199 EUR as the only confirmed price at the time checked. That places Soraya Wave in the catalogue's premium tier, alongside devices like the [Womanizer Next](/products/womanizer-next/); it is ranked among the [premium picks](/premium-picks/). It is not a value-first buy, and the case for it is specific: a documented, body-safe dual-stimulation rabbit with a genuinely distinct internal mechanism and an unusually long combined warranty. Buyers who want dual stimulation at a lower price should weigh the [We-Vibe Nova 2](/products/we-vibe-nova-2/); for the full ranking, see the [best-of 2026 catalogue](/best-vibrators-2026/).
+LELO's own product page gives Soraya Wave a 259.00 EUR list price, shown struck through against a 199.00 EUR promotional price ("save 60 EUR") when checked on 13 October 2026; a day earlier the same page showed 199 EUR with no discount, so the list figure moved up while the selling price did not. This review records the list price, as the house convention requires, and notes the promotion. That places Soraya Wave in the catalogue's premium tier, alongside devices like the [Womanizer Next](/products/womanizer-next/); it is ranked among the [premium picks](/premium-picks/). It is not a value-first buy, and the case for it is specific: a documented, body-safe dual-stimulation rabbit with a genuinely distinct internal mechanism and an unusually long combined warranty. Buyers who want dual stimulation at a lower price should weigh the [We-Vibe Nova 2](/products/we-vibe-nova-2/); for the full ranking, see the [best-of 2026 catalogue](/best-vibrators-2026/).

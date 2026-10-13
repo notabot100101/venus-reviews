@@ -49,13 +49,13 @@ image: "/images/products/we-vibe-pivot-2/front.webp"
 images:
   - "/images/products/we-vibe-pivot-2/front.webp"
 price: "89.00"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "We-Vibe (manufacturer)"
     url: "https://www.we-vibe.com/de/pivot-2"
     price: 89
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

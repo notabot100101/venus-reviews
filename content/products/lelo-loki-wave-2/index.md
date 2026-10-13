@@ -58,13 +58,13 @@ image: "/images/products/lelo-loki-wave-2/front.webp"
 images:
   - "/images/products/lelo-loki-wave-2/front.webp"
 price: "219.00"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/loki-wave-2"
     price: 219
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

@@ -52,13 +52,13 @@ image: "/images/products/womanizer-classic-2/front.webp"
 images:
   - "/images/products/womanizer-classic-2/front.webp"
 price: "119.00"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "Womanizer (manufacturer)"
     url: "https://www.womanizer.com/de/classic-2"
     price: 119
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

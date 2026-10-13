@@ -42,13 +42,13 @@ image: "/images/products/lelo-tor-3/front.webp"
 images:
   - "/images/products/lelo-tor-3/front.webp"
 price: "159.00"
-price_checked: "2026-10-05"
+price_checked: "2026-10-13"
 offers:
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/tor-3"
     price: 159
     currency: "EUR"
-    checked: "2026-10-05"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

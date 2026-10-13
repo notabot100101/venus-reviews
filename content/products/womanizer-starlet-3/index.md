@@ -46,13 +46,13 @@ image: "/images/products/womanizer-starlet-3/front.webp"
 images:
   - "/images/products/womanizer-starlet-3/front.webp"
 price: "69.00"
-price_checked: "2026-10-10"
+price_checked: "2026-10-13"
 offers:
   - retailer: "Womanizer (manufacturer)"
     url: "https://www.womanizer.com/de/starlet-3"
     price: 69
     currency: "EUR"
-    checked: "2026-10-10"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

@@ -26,11 +26,12 @@ draft: false
 # 50 dB max, auto-off after 20 min, SenseMotion motion remote, wireless range up to 12 m,
 # 1-button + remote interface, 2x AAA in remote, 2-year warranty. Waterproof rating is NOT
 # documented in the current spec block (the Tor 3 block states 100% waterproof; this one does
-# not). Manufacturer list price 151.99 EUR (shown discounted to 135.20 EUR when checked).
+# not). Manufacturer list price 169 EUR (shown discounted to 129 EUR when checked).
+# Orchestrator 2026-10-13 (browser pane, rendered price block): "169 EUR" struck, "129 EUR" selling, "save 40 EUR"; dataLayer discount_percentage 24%. The 151.99 list / 135.20 promo recorded on 2026-10-06 no longer hold.
 best_for: "Couples wanting a worn, remote-controlled massager"
 badge: "Couples Pick"
 rating: 4.0
-rating_note: "A well-documented, ISO 3533 body-safe wearable couples' massager with a genuinely useful motion remote and a long 12 m range - but it is a fit-sensitive, partnered-use format, its waterproof rating is not documented, and at 151.99 EUR it is a specialist buy rather than a first toy."
+rating_note: "A well-documented, ISO 3533 body-safe wearable couples' massager with a genuinely useful motion remote and a long 12 m range - but it is a fit-sensitive, partnered-use format, its waterproof rating is not documented, and at 169 EUR it is a specialist buy rather than a first toy."
 pros:
   - "FDA-approved body-safe silicone and ABS, ISO 3533 certified"
   - "SenseMotion motion-sensitive remote with a documented wireless range up to 12 m"
@@ -39,19 +40,19 @@ pros:
 cons:
   - "A worn couples' massager is inherently fit-sensitive and a partnered-use product, not a solo all-rounder"
   - "LELO's current page does not document a waterproof rating, so treat it as splash-clean only"
-  - "151.99 EUR manufacturer list price for a single-purpose couples device"
+  - "169 EUR manufacturer list price (129 EUR on promotion when checked) for a single-purpose couples device"
   - "The remote runs on 2x AAA batteries rather than being rechargeable itself"
 image: "/images/products/lelo-tiani-3/front.webp"
 images:
   - "/images/products/lelo-tiani-3/front.webp"
-price: "151.99"
-price_checked: "2026-10-06"
+price: "169.00"
+price_checked: "2026-10-13"
 offers:
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/tiani-3"
-    price: 151.99
+    price: 169
     currency: "EUR"
-    checked: "2026-10-06"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""
@@ -91,7 +92,7 @@ Venus has not physically tested this product. This review is based on LELO's off
 
 ## Quick Verdict
 
-Tiani 3 is the pick for couples who want a worn, remote-controlled massager rather than a simple ring. The specifications are strong and documented: FDA-approved body-safe silicone over ABS, ISO 3533 certification, a 125 Hz motor, a low 50 dB maximum noise figure, and roughly two hours of use from a two-hour charge. The standout is the SenseMotion remote, a motion-sensitive controller with a documented wireless range of up to 12 metres, so a partner can steer the intensity with a flick of the wrist from across the room. The caveats are inherent to the format: a worn device is fit-sensitive, it is strictly a partnered-use product, LELO does not document a waterproof rating for it, and at a 151.99 EUR manufacturer list price it is a specialist purchase.
+Tiani 3 is the pick for couples who want a worn, remote-controlled massager rather than a simple ring. The specifications are strong and documented: FDA-approved body-safe silicone over ABS, ISO 3533 certification, a 125 Hz motor, a low 50 dB maximum noise figure, and roughly two hours of use from a two-hour charge. The standout is the SenseMotion remote, a motion-sensitive controller with a documented wireless range of up to 12 metres, so a partner can steer the intensity with a flick of the wrist from across the room. The caveats are inherent to the format: a worn device is fit-sensitive, it is strictly a partnered-use product, LELO does not document a waterproof rating for it, and at a 169 EUR manufacturer list price it is a specialist purchase.
 
 ## Format and Who It Is For
 
@@ -133,4 +134,4 @@ Within LELO, Tiani 3 and Tor 3 are the two dedicated couples products. The [Enig
 
 ## Value Position
 
-At a 151.99 EUR manufacturer list price, shown discounted to 135.20 EUR when we checked, Tiani 3 sits in LELO's mid tier. It is not a value-first pick, and it is not a do-everything device. The reason to buy it is specific: a couple who want a worn, motion-controlled massager with a long remote range, from a brand with a fully documented, body-safe specification. Buyers after a solo toy should start elsewhere in the [catalogue](/best-vibrators-2026/).
+At a 169 EUR manufacturer list price, shown discounted to 129 EUR when we checked on 13 October 2026, Tiani 3 sits in LELO's mid tier. It is not a value-first pick, and it is not a do-everything device. The reason to buy it is specific: a couple who want a worn, motion-controlled massager with a long remote range, from a brand with a fully documented, body-safe specification. Buyers after a solo toy should start elsewhere in the [catalogue](/best-vibrators-2026/).

@@ -44,13 +44,13 @@ image: "/images/products/we-vibe-melt/front.webp"
 images:
   - "/images/products/we-vibe-melt/front.webp"
 price: "149.00"
-price_checked: "2026-10-06"
+price_checked: "2026-10-13"
 offers:
   - retailer: "We-Vibe (manufacturer)"
     url: "https://www.we-vibe.com/melt"
     price: 149
     currency: "EUR"
-    checked: "2026-10-06"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

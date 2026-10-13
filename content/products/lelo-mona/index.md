@@ -150,7 +150,7 @@ The [We-Vibe Rave 2](/products/we-vibe-rave-2/) costs the same 139 EUR and takes
 
 ### Mona 2 among the LELO range
 
-Within LELO's internal line the Mona 2 is the single-purpose option. The [Ina Wave 2](/products/lelo-ina-wave-2/) and [Soraya Wave](/products/lelo-soraya-wave/) add a WaveMotion shaft that rises and falls plus an external arm, and the [Enigma](/products/lelo-enigma/) pairs a G-spot arm with sonic clitoral stimulation; all three are 199 EUR, 60 EUR more, and heavier at 176 g to 196 g. The dedicated internal options are ranked on the [best G-spot vibrators](/best-g-spot-vibrators/) page, the Mona 2 holds the G-spot slot in the [premium picks](/premium-picks/), the full line-up is on the [LELO reviews hub](/lelo-reviews/), and the catalogue-wide ranking is in [best vibrators 2026](/best-vibrators-2026/).
+Within LELO's internal line the Mona 2 is the single-purpose option. The [Ina Wave 2](/products/lelo-ina-wave-2/) and [Soraya Wave](/products/lelo-soraya-wave/) add a WaveMotion shaft that rises and falls plus an external arm, and the [Enigma](/products/lelo-enigma/) pairs a G-spot arm with sonic clitoral stimulation; the Ina Wave 2 and the Enigma are 199 EUR and the Soraya Wave 259 EUR list, 60 to 120 EUR more, and heavier at 176 g to 196 g. The dedicated internal options are ranked on the [best G-spot vibrators](/best-g-spot-vibrators/) page, the Mona 2 holds the G-spot slot in the [premium picks](/premium-picks/), the full line-up is on the [LELO reviews hub](/lelo-reviews/), and the catalogue-wide ranking is in [best vibrators 2026](/best-vibrators-2026/).
 
 ## Value Position
 

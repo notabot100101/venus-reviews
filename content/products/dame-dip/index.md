@@ -65,13 +65,13 @@ image: "/images/products/dame-dip/front.webp"
 images:
   - "/images/products/dame-dip/front.webp"
 price: "44.00"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "Dame (manufacturer)"
     url: "https://dame.com/products/dip"
     price: 44
     currency: "USD"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

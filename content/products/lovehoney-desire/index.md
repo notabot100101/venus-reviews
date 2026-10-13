@@ -146,7 +146,7 @@ The [We-Vibe Nova 2](/products/we-vibe-nova-2/) is the catalogue's app-controlle
 
 ### Desire vs. the LELO WaveMotion rabbits
 
-The [LELO Soraya Wave](/products/lelo-soraya-wave/) and [LELO Ina Wave 2](/products/lelo-ina-wave-2/) are the premium rabbits at 199 EUR each, with a shaft tip that physically rises and falls rather than only vibrating, full specification blocks, 2-hour runtimes and LELO's two-tier warranty. They cost twice what the Desire does and are the picks for anyone who wants a moving internal mechanism and complete documentation. All five rabbits are compared side by side on the [best rabbit vibrators](/best-rabbit-vibrators/) page, and the internal devices across brands on the [best G-spot & internal vibrators](/best-g-spot-vibrators/) page.
+The [LELO Soraya Wave](/products/lelo-soraya-wave/) and [LELO Ina Wave 2](/products/lelo-ina-wave-2/) are the premium rabbits at 259 and 199 EUR list, with a shaft tip that physically rises and falls rather than only vibrating, full specification blocks, 2-hour runtimes and LELO's two-tier warranty. They cost two to two-and-a-half times what the Desire does and are the picks for anyone who wants a moving internal mechanism and complete documentation. All five rabbits are compared side by side on the [best rabbit vibrators](/best-rabbit-vibrators/) page, and the internal devices across brands on the [best G-spot & internal vibrators](/best-g-spot-vibrators/) page.
 
 ## Value Position
 

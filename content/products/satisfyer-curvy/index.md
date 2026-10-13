@@ -46,13 +46,13 @@ image: "/images/products/satisfyer-curvy/front.webp"
 images:
   - "/images/products/satisfyer-curvy/front.webp"
 price: "59.95"
-price_checked: "2026-10-08"
+price_checked: "2026-10-13"
 offers:
   - retailer: "Satisfyer (manufacturer)"
     url: "https://www.satisfyer.com/de/satisfyer-curvy-trinity-3"
     price: 59.95
     currency: "EUR"
-    checked: "2026-10-08"
+    checked: "2026-10-13"
     available: false
   - retailer: "Amazon"
     url: ""

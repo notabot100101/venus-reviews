@@ -155,7 +155,7 @@ The [LELO Mona 2](/products/lelo-mona/) at 139 EUR is LELO's pronounced-curve G-
 
 ### Gigi 2 vs. the rabbits and the duals
 
-For internal and external stimulation at once, the Gigi 2 is the wrong shape. The [LELO Enigma](/products/lelo-enigma/) at 199 EUR pairs a sonic clitoral mouth with a flexible G-spot arm and documents a 2-hour user time and 196 g. The [LELO Soraya Wave](/products/lelo-soraya-wave/) and [LELO Ina Wave 2](/products/lelo-ina-wave-2/), both 199 EUR, are LELO's WaveMotion rabbits with eight and twelve settings respectively. The [We-Vibe Nova 2](/products/we-vibe-nova-2/) at 149 EUR is the app-controlled rabbit with an IPX7 rating and a 90-minute runtime. All cost at least 40 EUR more; the Gigi 2 trades their second contact point for a 79 g body, a lower price and a documented runtime none of them matches. The rabbits are ranked on the [best rabbit vibrators](/best-rabbit-vibrators/) page.
+For internal and external stimulation at once, the Gigi 2 is the wrong shape. The [LELO Enigma](/products/lelo-enigma/) at 199 EUR pairs a sonic clitoral mouth with a flexible G-spot arm and documents a 2-hour user time and 196 g. The [LELO Soraya Wave](/products/lelo-soraya-wave/) and [LELO Ina Wave 2](/products/lelo-ina-wave-2/), at 259 and 199 EUR list, are LELO's WaveMotion rabbits with eight and twelve settings respectively. The [We-Vibe Nova 2](/products/we-vibe-nova-2/) at 149 EUR is the app-controlled rabbit with an IPX7 rating and a 90-minute runtime. All cost at least 40 EUR more; the Gigi 2 trades their second contact point for a 79 g body, a lower price and a documented runtime none of them matches. The rabbits are ranked on the [best rabbit vibrators](/best-rabbit-vibrators/) page.
 
 ### Gigi 2 among the LELO range
 

@@ -73,13 +73,13 @@ image: "/images/products/lelo-sona-3/front.webp"
 images:
   - "/images/products/lelo-sona-3/front.webp"
 price: "149.00"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/sona-3"
     price: 149
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

@@ -28,7 +28,7 @@ This is the insertable category: devices designed for internal stimulation, usua
 | [LELO Gigi 2](/products/lelo-gigi-2/) | Dedicated G-spot | 4.0 | 109.00 EUR |
 | [LELO Mona 2](/products/lelo-mona/) | Firm curved internal | 4.0 | 139.00 EUR |
 | [We-Vibe Nova 2](/products/we-vibe-nova-2/) | Rabbit (dual, app) | 4.0 | 149.00 EUR |
-| [LELO Soraya Wave](/products/lelo-soraya-wave/) | Rabbit (dual, WaveMotion tip) | 4.0 | 199.00 EUR |
+| [LELO Soraya Wave](/products/lelo-soraya-wave/) | Rabbit (dual, WaveMotion tip) | 4.0 | 259.00 EUR |
 | [LELO Ina Wave 2](/products/lelo-ina-wave-2/) | Rabbit (dual, WaveMotion tip, compact) | 4.0 | 199.00 EUR |
 | [Dame Arc](/products/dame-arc/) | Curved G-spot + clitoral | 4.0 | 119.00 USD |
 | [We-Vibe Rave 2](/products/we-vibe-rave-2/) | Adjustable G-spot (app) | 4.0 | 139.00 EUR |
@@ -50,7 +50,7 @@ This is the insertable category: devices designed for internal stimulation, usua
 
 **If you want an internal arm that rotates, with app control:** the [LELO Ida Wave](/products/lelo-ida-wave/). A compact 63 x 56 x 93 mm, 102 g dual whose internal arm rotates in a finger-like motion while the external part vibrates, with 10 settings, 100% waterproofing, a two-hour runtime and LELO app control at 189 EUR; LELO publishes no insertable length or noise figure for it.
 
-**If you want a rabbit whose tip moves rather than only vibrates:** the [LELO Soraya Wave](/products/lelo-soraya-wave/). Its WaveMotion shaft rises and falls in a finger-like motion against the front wall while the external arm vibrates, with a fully documented spec sheet: 218 x 72 x 46 mm, 185 g, a 110 mm insertable length, a 50 dB maximum, 100% waterproof and a 2-year warranty, at 199 EUR. The [LELO Ina Wave 2](/products/lelo-ina-wave-2/) is the smaller, lighter WaveMotion rabbit at the same price: 200 x 65 x 45 mm, 176 g, 12 settings and two synchronised motors, with no noise figure published.
+**If you want a rabbit whose tip moves rather than only vibrates:** the [LELO Soraya Wave](/products/lelo-soraya-wave/). Its WaveMotion shaft rises and falls in a finger-like motion against the front wall while the external arm vibrates, with a fully documented spec sheet: 218 x 72 x 46 mm, 185 g, a 110 mm insertable length, a 50 dB maximum, 100% waterproof and a 2-year warranty, at a 259 EUR list price (199 EUR on promotion when checked). The [LELO Ina Wave 2](/products/lelo-ina-wave-2/) is the smaller, lighter WaveMotion rabbit at the same price: 200 x 65 x 45 mm, 176 g, 12 settings and two synchronised motors, with no noise figure published.
 
 **If you want an ergonomic curve from a reputable brand:** the [Dame Arc](/products/dame-arc/). Its angled handle keeps the wrist comfortable while the bulbed tip presses the front wall, it uses medical-grade silicone with a 3-year warranty, and it works internally or externally. The catch is that Dame prices in US dollars, so European buyers face conversion and import.
 

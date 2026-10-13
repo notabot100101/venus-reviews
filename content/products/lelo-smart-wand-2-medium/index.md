@@ -55,13 +55,13 @@ image: "/images/products/lelo-smart-wand-2-medium/front.webp"
 images:
   - "/images/products/lelo-smart-wand-2-medium/front.webp"
 price: "169.00"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/smart-wand-2-medium"
     price: 169
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

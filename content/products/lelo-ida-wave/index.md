@@ -90,7 +90,7 @@ pros:
   - "WaveMotion internal arm documented as a rotating finger-like massage motion, with two vibrating motors and Bluetooth app control"
   - "Compact and light: body-safe silicone and ABS, 63 x 56 x 93 mm and 102 g, the lightest LELO dual in the catalogue"
   - "10 settings, 100% waterproof, ISO 3533 certified, up to 2 hours of use from a 2-hour charge and 90-day standby"
-  - "189 EUR list price undercuts the Soraya Wave, Ina Wave 2 and Enigma by 10 EUR and the Enigma Cruise by 30 EUR, with a 2-year warranty plus a 10-year quality guarantee"
+  - "189 EUR list price undercuts the Ina Wave 2 and Enigma by 10 EUR and the Soraya Wave's 259 EUR list by 70 EUR and the Enigma Cruise by 30 EUR, with a 2-year warranty plus a 10-year quality guarantee"
 cons:
   - "189 EUR manufacturer list price is still in the catalogue's premium tier, 40 EUR above the app-controlled We-Vibe Nova 2"
   - "No insertable length, diameter or maximum noise level is published, where the Soraya Wave documents all three"
@@ -100,13 +100,13 @@ image: "/images/products/lelo-ida-wave/front.webp"
 images:
   - "/images/products/lelo-ida-wave/front.webp"
 price: "189.00"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/ida-wave"
     price: 189
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""
@@ -176,7 +176,7 @@ The 520 mAh cell matches the Ina Wave 2's and is smaller than the Soraya Wave's 
 
 ### Ida Wave vs. the WaveMotion rabbits
 
-The [LELO Soraya Wave](/products/lelo-soraya-wave/) and [LELO Ina Wave 2](/products/lelo-ina-wave-2/) share the WaveMotion name but are full-size rabbits with a 110 mm insertable shaft and a handle: 218 x 72 x 46 mm and 185 g, or 200 x 65 x 45 mm and 176 g, both at 199 EUR. Ida Wave is 63 x 56 x 93 mm and 102 g at 189 EUR, offers 10 settings to their 8 and 12, and is the only one of the three with documented app control. The mechanism differs too: the rabbits' tips rise and fall, Ida Wave's internal arm rotates. Only the Soraya Wave publishes a noise level, 50 dB, and an 850 mAh battery. The rabbits meet in [Soraya Wave vs Ina Wave 2](/lelo-soraya-wave-vs-lelo-ina-wave-2/) and are ranked on the [best rabbit vibrators](/best-rabbit-vibrators/) page; Ida Wave is not a rabbit by shape.
+The [LELO Soraya Wave](/products/lelo-soraya-wave/) and [LELO Ina Wave 2](/products/lelo-ina-wave-2/) share the WaveMotion name but are full-size rabbits with a 110 mm insertable shaft and a handle: 218 x 72 x 46 mm and 185 g, or 200 x 65 x 45 mm and 176 g, at 259 and 199 EUR list. Ida Wave is 63 x 56 x 93 mm and 102 g at 189 EUR, offers 10 settings to their 8 and 12, and is the only one of the three with documented app control. The mechanism differs too: the rabbits' tips rise and fall, Ida Wave's internal arm rotates. Only the Soraya Wave publishes a noise level, 50 dB, and an 850 mAh battery. The rabbits meet in [Soraya Wave vs Ina Wave 2](/lelo-soraya-wave-vs-lelo-ina-wave-2/) and are ranked on the [best rabbit vibrators](/best-rabbit-vibrators/) page; Ida Wave is not a rabbit by shape.
 
 ### Ida Wave vs. the Enigma duals
 

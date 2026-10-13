@@ -50,13 +50,13 @@ image: "/images/products/we-vibe-rave-2/front.webp"
 images:
   - "/images/products/we-vibe-rave-2/front.webp"
 price: "139.00"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "We-Vibe (manufacturer)"
     url: "https://www.we-vibe.com/de/rave-2"
     price: 139
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

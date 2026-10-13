@@ -49,13 +49,13 @@ image: "/images/products/fun-factory-miss-bi/front.webp"
 images:
   - "/images/products/fun-factory-miss-bi/front.webp"
 price: "53.95"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "Fun Factory (manufacturer)"
     url: "https://www.funfactory.com/products/miss-bi"
     price: 53.95
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

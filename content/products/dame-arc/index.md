@@ -44,13 +44,13 @@ image: "/images/products/dame-arc/front.webp"
 images:
   - "/images/products/dame-arc/front.webp"
 price: "119.00"
-price_checked: "2026-10-08"
+price_checked: "2026-10-13"
 offers:
   - retailer: "Dame (manufacturer)"
     url: "https://www.dame.com/products/arc"
     price: 119
     currency: "USD"
-    checked: "2026-10-08"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

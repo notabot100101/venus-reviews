@@ -63,14 +63,14 @@ draft: false
 best_for: "WaveMotion dual stimulation in a smaller, lighter rabbit than the Soraya Wave"
 badge: "WaveMotion Rabbit"
 rating: 4.0
-rating_note: "LELO documents Ina Wave 2 almost as completely as the Soraya Wave, with materials, full dimensions, insertable length, a diameter the Soraya Wave lacks, weight, battery, charging, user time, 12 modes, 100% waterproofing, ISO 3533 and the two-tier warranty, plus a clearly described WaveMotion mechanism in a smaller, lighter body at the same price; it loses half a point for publishing no noise figure at all, no app or remote control, and a 199 EUR list price in the premium tier."
+rating_note: "LELO documents Ina Wave 2 almost as completely as the Soraya Wave, with materials, full dimensions, insertable length, a diameter the Soraya Wave lacks, weight, battery, charging, user time, 12 modes, 100% waterproofing, ISO 3533 and the two-tier warranty, plus a clearly described WaveMotion mechanism in a smaller, lighter body at a lower list price; it loses half a point for publishing no noise figure at all, no app or remote control, and a 199 EUR list price in the premium tier."
 pros:
   - "WaveMotion tip documented to rise and fall against the G-spot, driven by two synchronized motors, with a separate external arm"
   - "Near-complete spec block: body-safe silicone and ABS, 200 x 65 x 45 mm, 110 mm insertable length, 37.09 mm diameter, 176 g"
   - "12 modes, 100% waterproof, ISO 3533 certified, and shorter, narrower and lighter than the Soraya Wave at the same price"
   - "Up to 2 hours of use from a 2-hour charge, 90-day standby, 2-year warranty plus a 10-year quality guarantee"
 cons:
-  - "199 EUR manufacturer list price, the same as the Soraya Wave and in the catalogue's premium tier"
+  - "199 EUR manufacturer list price, 60 EUR below the Soraya Wave's 259 EUR list, in the catalogue's premium tier"
   - "No maximum noise level is published at all, where the Soraya Wave documents 50 dB"
   - "No app, Bluetooth or remote control is documented; control is a five-button interface only"
   - "Fixed shaft-to-arm geometry and a 110 mm insertable shaft make fit anatomy-dependent, as with any rabbit"
@@ -78,13 +78,13 @@ image: "/images/products/lelo-ina-wave-2/front.webp"
 images:
   - "/images/products/lelo-ina-wave-2/front.webp"
 price: "199.00"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "LELO (manufacturer)"
     url: "https://www.lelo.com/ina-wave-2"
     price: 199
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""
@@ -124,7 +124,7 @@ Venus has not physically tested this product. This review is based on LELO's off
 
 ## Quick Verdict
 
-Ina Wave 2 is the pick for someone who wants LELO's moving-tip rabbit in a smaller package than the Soraya Wave at the same price. The specification block is nearly complete, from materials and full dimensions through battery, 12 modes, 100% waterproofing and a two-year warranty backed by a ten-year quality guarantee. The caveats are the 199 EUR price, no published noise figure, no documented app or remote control, and the fixed geometry that makes every rabbit fit-sensitive.
+Ina Wave 2 is the pick for someone who wants LELO's moving-tip rabbit in a smaller package than the Soraya Wave at a lower list price. The specification block is nearly complete, from materials and full dimensions through battery, 12 modes, 100% waterproofing and a two-year warranty backed by a ten-year quality guarantee. The caveats are the 199 EUR price, no published noise figure, no documented app or remote control, and the fixed geometry that makes every rabbit fit-sensitive.
 
 ## Format and Who It Is For
 
@@ -152,7 +152,7 @@ The 520 mAh cell is smaller than the Soraya Wave's 850 mAh, but the documented r
 
 ### Ina Wave 2 vs. the Soraya Wave
 
-The [LELO Soraya Wave](/products/lelo-soraya-wave/) is the obvious comparison: same brand, same WaveMotion mechanism, same 199 EUR list price, same 110 mm insertable length, same two-tier warranty. The documented differences are size and detail. Ina Wave 2 is 200 x 65 x 45 mm and 176 g against the Soraya Wave's 218 x 72 x 46 mm and 185 g, so it is shorter, narrower and lighter, it publishes a diameter where the Soraya Wave does not, and it offers 12 modes to the Soraya Wave's 8. The Soraya Wave answers with a larger 850 mAh battery, a 120 Hz frequency against 60 Hz and, decisively for some buyers, a documented 50 dB maximum noise level where Ina Wave 2 publishes none. At equal prices, the choice is a smaller body with more modes against a larger body with a stated noise figure.
+The [LELO Soraya Wave](/products/lelo-soraya-wave/) is the obvious comparison: same brand, same WaveMotion mechanism, a 199 EUR list price against the Soraya Wave's 259 EUR (199 EUR on promotion when checked), same 110 mm insertable length, same two-tier warranty. The documented differences are size and detail. Ina Wave 2 is 200 x 65 x 45 mm and 176 g against the Soraya Wave's 218 x 72 x 46 mm and 185 g, so it is shorter, narrower and lighter, it publishes a diameter where the Soraya Wave does not, and it offers 12 modes to the Soraya Wave's 8. The Soraya Wave answers with a larger 850 mAh battery, a 120 Hz frequency against 60 Hz and, decisively for some buyers, a documented 50 dB maximum noise level where Ina Wave 2 publishes none. At equal prices, the choice is a smaller body with more modes against a larger body with a stated noise figure.
 
 ### Ina Wave 2 vs. the other rabbits
 
@@ -166,4 +166,4 @@ Within LELO, Ina Wave 2 and the Soraya Wave are the two WaveMotion rabbits. The 
 
 ## Value Position
 
-LELO's product page gives Ina Wave 2 a 199.00 EUR list price, in stock when checked, with the page's discount field reading 0%, so no discounted figure is recorded here. That matches the Soraya Wave and the Enigma and is 50 EUR above the We-Vibe Nova 2, placing it in the catalogue's premium tier. The case for it is specific: a smaller, lighter WaveMotion rabbit with 12 modes, a documented diameter, 100% waterproofing, ISO 3533 certification and twelve years of combined stated cover. For the catalogue-wide ranking, see [best vibrators 2026](/best-vibrators-2026/).
+LELO's product page gives Ina Wave 2 a 199.00 EUR list price, in stock when checked, with the page's discount field reading 0%, so no discounted figure is recorded here. That matches the Enigma, sits 60 EUR below the Soraya Wave's 259 EUR list, and is 50 EUR above the We-Vibe Nova 2, placing it in the catalogue's premium tier. The case for it is specific: a smaller, lighter WaveMotion rabbit with 12 modes, a documented diameter, 100% waterproofing, ISO 3533 certification and twelve years of combined stated cover. For the catalogue-wide ranking, see [best vibrators 2026](/best-vibrators-2026/).

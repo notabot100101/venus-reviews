@@ -47,13 +47,13 @@ image: "/images/products/womanizer-liberty/front.webp"
 images:
   - "/images/products/womanizer-liberty/front.webp"
 price: "99.00"
-price_checked: "2026-10-10"
+price_checked: "2026-10-13"
 offers:
   - retailer: "Womanizer (manufacturer)"
     url: "https://www.womanizer.com/de/liberty-2"
     price: 99
     currency: "EUR"
-    checked: "2026-10-10"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

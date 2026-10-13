@@ -73,13 +73,13 @@ image: "/images/products/dame-fin/front.webp"
 images:
   - "/images/products/dame-fin/front.webp"
 price: "49.00"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "Dame (manufacturer)"
     url: "https://dame.com/products/fin"
     price: 49
     currency: "USD"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""

@@ -49,13 +49,13 @@ image: "/images/products/we-vibe-ditto-plus/front.webp"
 images:
   - "/images/products/we-vibe-ditto-plus/front.webp"
 price: "129.00"
-price_checked: "2026-10-12"
+price_checked: "2026-10-13"
 offers:
   - retailer: "We-Vibe (manufacturer)"
     url: "https://www.we-vibe.com/de/ditto-plus"
     price: 129
     currency: "EUR"
-    checked: "2026-10-12"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""
