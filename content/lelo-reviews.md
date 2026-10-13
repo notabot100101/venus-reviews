@@ -1,7 +1,7 @@
 ---
 title: "LELO Reviews"
 seo_title: "LELO Reviews: All 21 Models Rated & Compared | Venus"
-seo_description: "Every LELO product we have reviewed, rated and ranked: Enigma, Enigma Cruise, Sona 2, Sona 3, Sila, Sila Cruise, Gigi 2, Mona, Soraya Wave, Ina Wave 2, Ida Wave, Lily 3, Mia 3, Hugo, Hugo 2, Loki Wave 2, Smart Wand 2, Ora 3, Tor 3, Tiani 3 and F1S V2, with verified EUR prices and who each one is for."
+seo_description: "Every LELO product we have reviewed, rated and ranked: Enigma, Enigma Cruise, Sona 2, Sona 3, Sila, Sila Cruise, Gigi 2, Mona 2, Soraya Wave, Ina Wave 2, Ida Wave, Lily 3, Mia 3, Hugo, Hugo 2, Loki Wave 2, Smart Wand 2, Ora 3, Tor 3, Tiani 3 and F1S V2, with verified EUR prices and who each one is for."
 description: "All 21 LELO models we have reviewed, ranked, with who each one suits."
 slug: "lelo-reviews"
 date: 2026-10-04
@@ -29,7 +29,7 @@ LELO is the most-reviewed brand on Venus: twenty-one models across external, int
 | [LELO Sila](/products/lelo-sila/) | 4.0 | 169.00 EUR | Gentler, slower-build sonic stimulation |
 | [LELO Sila Cruise](/products/lelo-sila-cruise/) | 4.0 | 139.00 EUR | Gentle sonic with Cruise Control (promotional price) |
 | [LELO Gigi 2](/products/lelo-gigi-2/) | 4.0 | 109.00 EUR | Premium-feel G-spot |
-| [LELO Mona](/products/lelo-mona/) | 4.0 | 139.00 EUR | Premium-feel internal |
+| [LELO Mona 2](/products/lelo-mona/) | 4.0 | 139.00 EUR | Premium-feel internal |
 | [LELO Soraya Wave](/products/lelo-soraya-wave/) | 4.0 | 199.00 EUR | Dual rabbit with a moving WaveMotion tip |
 | [LELO Ina Wave 2](/products/lelo-ina-wave-2/) | 4.0 | 199.00 EUR | Compact WaveMotion rabbit, 12 settings |
 | [LELO Ida Wave](/products/lelo-ida-wave/) | 4.0 | 189.00 EUR | App-connected dual that rotates and vibrates |
@@ -52,7 +52,7 @@ LELO is the most-reviewed brand on Venus: twenty-one models across external, int
 
 **For dual stimulation**, the [Enigma](/products/lelo-enigma/) combines external sonic waves with internal G-spot stimulation in one body, which is what earns it the top LELO rating; [Enigma vs Sona 2](/lelo-enigma-vs-lelo-sona-2/) weighs it against the focused external-only pick. The [Enigma Cruise](/products/lelo-enigma-cruise/) is the same dual format with Cruise Control, which holds power in reserve and releases it under pressure, at 219 EUR; LELO calls the Enigma its predecessor without saying it is replaced; the two are compared in [Enigma vs Enigma Cruise](/lelo-enigma-vs-lelo-enigma-cruise/). The [Soraya Wave](/products/lelo-soraya-wave/) is the rabbit alternative: an insertable WaveMotion shaft whose tip rises and falls in a finger-like motion, plus a clitoral arm, fully documented at 199 EUR; the [Ina Wave 2](/products/lelo-ina-wave-2/) is the smaller, lighter WaveMotion rabbit at the same price with 12 settings. The [Ida Wave](/products/lelo-ida-wave/) is the app-connected dual whose internal arm rotates as well as vibrates, 63 x 56 x 93 mm and 102 g with 10 settings at 189 EUR. All three are ranked on the [best rabbit vibrators](/best-rabbit-vibrators/) page, and the two rabbits are compared in [Soraya Wave vs Ina Wave 2](/lelo-soraya-wave-vs-lelo-ina-wave-2/).
 
-**For internal or premium-feel**, the [Gigi 2](/products/lelo-gigi-2/) and [Mona](/products/lelo-mona/) cover G-spot and firmer internal use at 109 and 139 EUR; both are ranked in the [best G-spot vibrators](/best-g-spot-vibrators/) guide.
+**For internal or premium-feel**, the [Gigi 2](/products/lelo-gigi-2/) and [Mona 2](/products/lelo-mona/) cover G-spot and firmer internal use at 109 and 139 EUR; both are ranked in the [best G-spot vibrators](/best-g-spot-vibrators/) guide.
 
 **For prostate**, there are two picks: the [Hugo](/products/lelo-hugo/) is the established vibrating massager, out of stock at the manufacturer when last checked, and the [Loki Wave 2](/products/lelo-loki-wave-2/) adds a WaveMotion tip that moves in a finger-like motion, with two motors and a documented noise ceiling under 60 dB at 219 EUR; the [Hugo 2](/products/lelo-hugo-2/) is the app-controlled successor to the Hugo, in stock, with two motors, ten settings (six via the app) and a one-hour runtime at 179 EUR. All three are ranked on the [best prostate massagers](/best-prostate-massagers/) page, and the two current models are compared in [Hugo 2 vs Loki Wave 2](/lelo-hugo-2-vs-lelo-loki-wave-2/).
 

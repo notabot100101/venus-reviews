@@ -15,75 +15,7 @@ description: "Expert reviews and discreet analysis of premium pleasure products 
   </div>
 </section>
 
-<!-- Featured Products Section -->
-<section class="section">
-  <div class="container">
-    <h2>Featured Reviews</h2>
-    <p class="section-subtitle">Research-based picks with practical buyer-fit notes</p>
-    
-    <div class="product-grid">
-      <!-- Product 1: Lelo Sona 2 -->
-      <article class="product-card">
-        <div class="product-image">
-          <img src="/images/editorial/ambient-06.png" alt="Lelo Sona 2" loading="lazy">
-        </div>
-        <div class="product-info">
-          <h3>Lelo Sona 2</h3>
-          <div class="product-rating">Research-based review</div>
-          <p class="product-price">$179.99</p>
-          <p class="product-category">Sonic Wave</p>
-          <a href="/products/lelo-sona-2/" class="btn btn-sm">Read Review</a>
-        </div>
-      </article>
-      
-      <!-- Product 3: Lelo Hugo -->
-      <article class="product-card">
-        <div class="product-image">
-          <img src="/images/editorial/ambient-02.png" alt="Lelo Hugo" loading="lazy">
-        </div>
-        <div class="product-info">
-          <h3>Lelo Hugo</h3>
-          <div class="product-rating">Research-based review</div>
-          <p class="product-price">$199.99</p>
-          <p class="product-category">Premium Wellness</p>
-          <a href="/products/lelo-hugo/" class="btn btn-sm">Read Review</a>
-        </div>
-      </article>
-      
-      <!-- Product 4: Lovehoney Desire -->
-      <article class="product-card">
-        <div class="product-image">
-          <img src="/images/editorial/ambient-09.png" alt="Lovehoney Desire" loading="lazy">
-        </div>
-        <div class="product-info">
-          <h3>Lovehoney Desire</h3>
-          <div class="product-rating">Research-based review</div>
-          <p class="product-price">$59.99</p>
-          <p class="product-category">Mid-Range Bestseller</p>
-          <a href="/products/lovehoney-desire/" class="btn btn-sm">Read Review</a>
-        </div>
-      </article>
-      
-      <!-- Product 5: Fun Factory Manta -->
-      <article class="product-card">
-        <div class="product-image">
-        </div>
-        <div class="product-info">
-          <h3>Fun Factory Manta</h3>
-          <div class="product-rating">Research-based review</div>
-          <p class="product-price">$119.99</p>
-          <p class="product-category">Flexible Shape</p>
-          <a href="/products/fun-factory-manta/" class="btn btn-sm">Read Review</a>
-        </div>
-      </article>
-      
-    </div>
-    
-    <div class="section-actions">
-      <a href="/products/" class="btn btn-outline">View All Reviews</a>
-    </div>
-  </div>
-</section>
+<!-- Featured Reviews are rendered by layouts/index.html from the twelve lowest-weight product reviews (front-matter `weight`); nothing in this file's body is rendered on the homepage. The hand-written card block with ambient images and USD prices was removed 2026-10-13. -->
 
 <!-- Categories Section -->
 <section class="section section-alt">

@@ -141,7 +141,7 @@ Both are thrusting pulsators with ten programmes, IPX7 waterproofing and USB-C c
 
 ### Stronic Real vs. the vibrating internal picks
 
-Every other internal toy on Venus vibrates. The [LELO Mona](/products/lelo-mona/) at 139 EUR and [LELO Gigi 2](/products/lelo-gigi-2/) at 109 EUR are far lighter, with stated runtimes and charge times, and the Mona has a two-year warranty on record; the [Fun Factory Miss Bi](/products/fun-factory-miss-bi/) adds a clitoral arm for 53.95 EUR. None of them thrusts. The Stronic Real is a different mechanism rather than a better or worse version of those; the [best G-spot vibrators](/best-g-spot-vibrators/) page lays out that choice.
+Every other internal toy on Venus vibrates. The [LELO Mona 2](/products/lelo-mona/) at 139 EUR and [LELO Gigi 2](/products/lelo-gigi-2/) at 109 EUR are far lighter, with stated runtimes and charge times, and the Mona 2 has a two-year warranty on record; the [Fun Factory Miss Bi](/products/fun-factory-miss-bi/) adds a clitoral arm for 53.95 EUR. None of them thrusts. The Stronic Real is a different mechanism rather than a better or worse version of those; the [best G-spot vibrators](/best-g-spot-vibrators/) page lays out that choice.
 
 ### Stronic Real among the Fun Factory range
 

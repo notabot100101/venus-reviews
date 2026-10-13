@@ -18,7 +18,7 @@ specs:
   app: null
   noise_db: 50
 menu: "main"
-weight: 184
+weight: 16
 draft: false
 # VERIFIED 2026-10-12 via https://www.lelo.com/soraya-wave:
 # Materials: "Body-safe silicone, ABS plastic". Size: "218 x 72 x 46 mm / 8.58 x 2.83 x 1.81
@@ -151,7 +151,7 @@ The [Fun Factory Miss Bi](/products/fun-factory-miss-bi/) is the catalogue's bud
 
 ### Soraya Wave among the LELO range
 
-Within LELO, Soraya Wave is the brand's dedicated dual-stimulation rabbit. The [LELO Enigma](/products/lelo-enigma/) is LELO's other dual-stimulation device, pairing sonic clitoral technology with a G-spot arm rather than a rabbit shape, worth comparing if a sonic sensation appeals more than a moving shaft. For internal-only stimulation, the [LELO Mona](/products/lelo-mona/) and [LELO Gigi 2](/products/lelo-gigi-2/) are the dedicated G-spot picks, and from a different brand, the [Womanizer Duo 2](/products/womanizer-duo-2/) pairs air-pulse clitoral stimulation with a G-spot arm. The full LELO line-up is on the [LELO reviews hub](/lelo-reviews/), and internal/G-spot devices across brands are ranked on the [best G-spot & internal vibrators](/best-g-spot-vibrators/) page.
+Within LELO, Soraya Wave is the brand's dedicated dual-stimulation rabbit. The [LELO Enigma](/products/lelo-enigma/) is LELO's other dual-stimulation device, pairing sonic clitoral technology with a G-spot arm rather than a rabbit shape, worth comparing if a sonic sensation appeals more than a moving shaft. For internal-only stimulation, the [LELO Mona 2](/products/lelo-mona/) and [LELO Gigi 2](/products/lelo-gigi-2/) are the dedicated G-spot picks, and from a different brand, the [Womanizer Duo 2](/products/womanizer-duo-2/) pairs air-pulse clitoral stimulation with a G-spot arm. The full LELO line-up is on the [LELO reviews hub](/lelo-reviews/), and internal/G-spot devices across brands are ranked on the [best G-spot & internal vibrators](/best-g-spot-vibrators/) page.
 
 ## Value Position
 

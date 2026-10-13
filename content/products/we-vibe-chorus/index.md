@@ -29,7 +29,7 @@ specs:
 category: "dual-action"
 draft: false
 recoveryVersion: "2026.07.09-Phase0"
-weight: 60
+weight: 13
 badge: "Couples Pick"
 price: "209.00"
 price_checked: "2026-10-13"

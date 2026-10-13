@@ -1,5 +1,6 @@
 ---
 sku: "satisfyer-pro-2"
+weight: 214
 # VERIFIED 2026-10-13 via https://www.satisfyer.com/de/satisfyer-pro-2-generation-3 (raw HTML
 # "Eigenschaften" spec table + "Produktinformationen" feature copy): width 65 mm, height 46 mm,
 # length 164 mm; weight 203 g; material ABS plastic and silicone (body copy: super-soft,

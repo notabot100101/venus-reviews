@@ -116,7 +116,7 @@ Arc charges over USB-C, which is a practical advantage, any modern phone cable w
 
 ### Arc vs the other G-spot vibrators
 
-Within the insertable category, the [LELO Gigi 2](/products/lelo-gigi-2/) and [LELO Mona](/products/lelo-mona/) are the dedicated G-spot and firm-curve picks, both 100% waterproof with fuller published specs, and the [We-Vibe Nova 2](/products/we-vibe-nova-2/) is the app-controlled rabbit. Arc's advantages are its ergonomic handle and a clean 5-plus-5 control layout; its disadvantages are USD pricing and a vaguer waterproof claim. All are ranked on the [best G-spot & internal vibrators](/best-g-spot-vibrators/) page.
+Within the insertable category, the [LELO Gigi 2](/products/lelo-gigi-2/) and [LELO Mona 2](/products/lelo-mona/) are the dedicated G-spot and firm-curve picks, both 100% waterproof with fuller published specs, and the [We-Vibe Nova 2](/products/we-vibe-nova-2/) is the app-controlled rabbit. Arc's advantages are its ergonomic handle and a clean 5-plus-5 control layout; its disadvantages are USD pricing and a vaguer waterproof claim. All are ranked on the [best G-spot & internal vibrators](/best-g-spot-vibrators/) page.
 
 ### Arc vs the Dame Eva II
 

@@ -22,7 +22,7 @@ specs:
   noise_db: null
 draft: false
 recoveryVersion: "2026.07.09-Phase1"
-weight: 90
+weight: 21
 badge: "Precision Pick"
 # VERIFIED 2026-10-13 via https://www.funfactory.com/products/volta (landed URL; "Größe, Material & Mehr"
 # block plus feature list and "Zur Auswahl" panel, German, translated; products/volta.js variant data;

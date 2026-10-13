@@ -18,7 +18,7 @@ specs:
   app: null
   noise_db: 60
 menu: "main"
-weight: 185
+weight: 18
 draft: false
 # VERIFIED 2026-10-12 via https://www.lelo.com/loki-wave-2 (landed on the product page, no
 # redirect; raw HTML specification block + feature copy). Materials "Body-safe silicone, ABS

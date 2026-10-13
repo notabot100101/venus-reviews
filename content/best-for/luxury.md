@@ -53,7 +53,7 @@ Enigma is LELO's premium dual-stimulation device, pairing sonic external stimula
 
 ---
 
-### 3. Lelo Mona 2 — Best Documented G-Spot Vibrator
+### 3. LELO Mona 2 — Best Documented G-Spot Vibrator
 
 Mona 2 is the traditional pick here: vibration and shape rather than air-pulse or sonic stimulation. Its case rests on documentation. LELO publishes the full dimensions, a 500 mAh battery, a 2-hour charge, ISO 3533 conformity, and — unusually — a maximum noise level of 50 dB. Very few manufacturers in this category publish a decibel figure at all.
 

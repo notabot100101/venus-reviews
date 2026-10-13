@@ -60,7 +60,7 @@ specs:
   noise_db: 60
 menu: "main"
 recoveryVersion: "2026.07.11-Batch3"
-weight: 110
+weight: 14
 badge: "Sonic Wave"
 price: "109.00"
 price_checked: "2026-10-13"

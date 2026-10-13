@@ -18,7 +18,7 @@ specs:
   app: null
   noise_db: null
 menu: "main"
-weight: 183
+weight: 17
 draft: false
 # VERIFIED 2026-10-12 via https://www.lelo.com/smart-wand-2-medium (landed on the product page, no
 # redirect; raw HTML SPECIFICATIONS block + feature copy): Materials "Body-safe silicone, ABS
@@ -107,7 +107,7 @@ Smart Wand 2 Medium is the pick for someone who wants the wand format with a pre
 
 A wand is the opposite end of the external-stimulation spectrum from a bullet. Where the [We-Vibe Tango X](/products/we-vibe-tango-x/) concentrates its motor into a small tip for pinpoint stimulation, a wand puts the motor into a broad rounded head and spreads the vibration over a wide contact area, with a long handle that keeps the hand away from the point of contact. That makes it a two-purpose device, massager first and stimulator second, and a physically large one: at 210 x 85 x 45 mm this is a bag device rather than a pocket one, although LELO describes the medium size as convenient for use on the go.
 
-It suits people who respond to broad, diffuse vibration rather than a precise point, people who want one device for both massage and sexual use, and couples who want something easy to use over a partner's body. Anyone who wants internal stimulation should look at the [LELO Mona](/products/lelo-mona/) or [Enigma](/products/lelo-enigma/) instead, and anyone who prefers focused external sensation should start with the [Sona 2](/products/lelo-sona-2/) or the Tango X.
+It suits people who respond to broad, diffuse vibration rather than a precise point, people who want one device for both massage and sexual use, and couples who want something easy to use over a partner's body. Anyone who wants internal stimulation should look at the [LELO Mona 2](/products/lelo-mona/) or [Enigma](/products/lelo-enigma/) instead, and anyone who prefers focused external sensation should start with the [Sona 2](/products/lelo-sona-2/) or the Tango X.
 
 ## Documented Specifications
 
@@ -123,7 +123,7 @@ LELO marks the Smart Wand 2 Medium as 100% waterproof and describes it as suited
 
 ## Battery and Warranty
 
-The wand is cordless and rechargeable over USB, with the two-hour charge matching its documented two-hour user time, and a 90-day standby that suits occasional use. Two hours is average for the catalogue rather than a standout; the Sona 2 and Mona document the same figure. LELO documents a two-year warranty from the purchase date and a ten-year quality guarantee that begins when the warranty expires; the guarantee's terms are LELO's own, so confirm the current conditions on its warranty page before relying on it.
+The wand is cordless and rechargeable over USB, with the two-hour charge matching its documented two-hour user time, and a 90-day standby that suits occasional use. Two hours is average for the catalogue rather than a standout; the Sona 2 and Mona 2 document the same figure. LELO documents a two-year warranty from the purchase date and a ten-year quality guarantee that begins when the warranty expires; the guarantee's terms are LELO's own, so confirm the current conditions on its warranty page before relying on it.
 
 ## In the Catalogue
 
@@ -141,8 +141,8 @@ The [We-Vibe Wand 2](/products/we-vibe-wand-2/) is the catalogue's other premium
 
 ### Smart Wand 2 Medium among the LELO range
 
-Within LELO, the Smart Wand 2 Medium is the only wand reviewed here. The [Sona 2](/products/lelo-sona-2/) at 109 EUR is the focused external sonic pick, with a documented 60 dB noise figure, 12 patterns and a 125 g weight; the [Mona](/products/lelo-mona/) at 139 EUR is the insertable curved vibrator with a documented 50 dB figure; and the [Enigma](/products/lelo-enigma/) at 199 EUR is the dual sonic-and-internal device. All three share the same 100% waterproof statement and two-year warranty, and the Sona 2 and Mona match the wand's two-hour runtime. The full line-up is on the [LELO reviews hub](/lelo-reviews/), the top-tier devices are on the [premium picks](/premium-picks/) page, and the overall ranking is the [best vibrators 2026](/best-vibrators-2026/) page.
+Within LELO, the Smart Wand 2 Medium is the only wand reviewed here. The [Sona 2](/products/lelo-sona-2/) at 109 EUR is the focused external sonic pick, with a documented 60 dB noise figure, 12 patterns and a 125 g weight; the [Mona 2](/products/lelo-mona/) at 139 EUR is the insertable curved vibrator with a documented 50 dB figure; and the [Enigma](/products/lelo-enigma/) at 199 EUR is the dual sonic-and-internal device. All three share the same 100% waterproof statement and two-year warranty, and the Sona 2 and Mona 2 match the wand's two-hour runtime. The full line-up is on the [LELO reviews hub](/lelo-reviews/), the top-tier devices are on the [premium picks](/premium-picks/) page, and the overall ranking is the [best vibrators 2026](/best-vibrators-2026/) page.
 
 ## Value Position
 
-At a 169 EUR manufacturer list price, with no discount shown when we checked, the Smart Wand 2 Medium sits in LELO's mid tier, above the Mona and below the Enigma. It is not a value pick; the catalogue's other wand costs well under half as much. The reason to buy it is specific: you want the wand format with a complete, body-safe, fully waterproof specification sheet, a documented runtime and weight, and LELO's two-year warranty plus ten-year guarantee. Buyers who want the format at the lowest price should start with the [Fun Factory VIM](/products/fun-factory-vim/); for the whole catalogue, see the [best-of 2026 ranking](/best-vibrators-2026/).
+At a 169 EUR manufacturer list price, with no discount shown when we checked, the Smart Wand 2 Medium sits in LELO's mid tier, above the Mona 2 and below the Enigma. It is not a value pick; the catalogue's other wand costs well under half as much. The reason to buy it is specific: you want the wand format with a complete, body-safe, fully waterproof specification sheet, a documented runtime and weight, and LELO's two-year warranty plus ten-year guarantee. Buyers who want the format at the lowest price should start with the [Fun Factory VIM](/products/fun-factory-vim/); for the whole catalogue, see the [best-of 2026 ranking](/best-vibrators-2026/).

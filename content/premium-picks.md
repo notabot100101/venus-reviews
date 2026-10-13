@@ -26,7 +26,7 @@ This is the counterpart to our [budget picks](/budget-picks/): the best premium 
 | Couples | [We-Vibe Chorus](/products/we-vibe-chorus/) | 4.5 | 209.00 EUR |
 | Air-pulse | [Womanizer Next](/products/womanizer-next/) | 4.5 | 209.00 EUR |
 | Gentle sonic | [LELO Sila](/products/lelo-sila/) | 4.0 | 169.00 EUR |
-| G-spot / internal | [LELO Mona](/products/lelo-mona/) | 4.0 | 139.00 EUR |
+| G-spot / internal | [LELO Mona 2](/products/lelo-mona/) | 4.0 | 139.00 EUR |
 | Rabbit | [LELO Soraya Wave](/products/lelo-soraya-wave/) | 4.0 | 199.00 EUR |
 | Wand | [LELO Smart Wand 2 Medium](/products/lelo-smart-wand-2-medium/) | 4.0 | 169.00 EUR |
 | Prostate | [LELO Loki Wave 2](/products/lelo-loki-wave-2/) | 4.0 | 219.00 EUR |
@@ -42,7 +42,7 @@ This is the counterpart to our [budget picks](/budget-picks/): the best premium 
 
 **Gentle sonic — [LELO Sila](/products/lelo-sila/).** The wide-mouth sonic stimulator for people who find pinpoint devices too intense: the same core technology as the Sona 2, re-tuned softer over a larger contact area, 100% waterproof.
 
-**G-spot / internal — [LELO Mona](/products/lelo-mona/).** A firm, pronounced curve for targeted internal use, 100% waterproof with a documented 50 dB maximum. The dedicated internal options are ranked on the [best G-spot vibrators](/best-g-spot-vibrators/) page.
+**G-spot / internal — [LELO Mona 2](/products/lelo-mona/).** A firm, pronounced curve for targeted internal use, 100% waterproof with a documented 50 dB maximum. The dedicated internal options are ranked on the [best G-spot vibrators](/best-g-spot-vibrators/) page.
 
 **Rabbit — [LELO Soraya Wave](/products/lelo-soraya-wave/).** The dual-stimulation rabbit whose WaveMotion tip rises and falls in a finger-like motion rather than only vibrating, with a complete spec sheet: 218 x 72 x 46 mm, 185 g, a 50 dB maximum, 100% waterproof and a 2-year warranty. The rabbits across brands are ranked on the [best rabbit vibrators](/best-rabbit-vibrators/) page.
 

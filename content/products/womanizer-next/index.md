@@ -18,7 +18,7 @@ specs:
   app: null
   noise_db: null
 menu: "main"
-weight: 177
+weight: 15
 draft: false
 # VERIFIED 2026-10-10 via https://www.womanizer.com/de/next (landed on the product page, no
 # redirect; raw HTML spec table + feature copy, German, translated): 3D Pleasure Air with Climax

@@ -121,7 +121,7 @@ The [Lovehoney Desire](/products/lovehoney-desire/) is the conventional rabbit a
 
 ### Nova 2 among the internal options
 
-For internal stimulation without the external arm, the [LELO Gigi 2](/products/lelo-gigi-2/) and [LELO Mona](/products/lelo-mona/) are the dedicated G-spot and firm-curve picks, and the [LELO Enigma](/products/lelo-enigma/) is the dual sonic-and-G-spot device. All are ranked on the [best G-spot & internal vibrators](/best-g-spot-vibrators/) page.
+For internal stimulation without the external arm, the [LELO Gigi 2](/products/lelo-gigi-2/) and [LELO Mona 2](/products/lelo-mona/) are the dedicated G-spot and firm-curve picks, and the [LELO Enigma](/products/lelo-enigma/) is the dual sonic-and-G-spot device. All are ranked on the [best G-spot & internal vibrators](/best-g-spot-vibrators/) page.
 
 ### Nova 2 among the We-Vibe range
 

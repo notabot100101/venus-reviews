@@ -63,7 +63,7 @@ An earlier version of this page recommended an "H2O Holo Vibe" with a holographi
 
 ## Connected Does Not Mean Better
 
-If app control is not something you will use, the catalogue's best-engineered devices are not the connected ones. [Womanizer Premium 2](/products/womanizer-premium-2/) has no app at all and is the most refined external stimulator here. [Lelo Mona 2](/products/lelo-mona/) has six modes, four buttons and a published noise figure.
+If app control is not something you will use, the catalogue's best-engineered devices are not the connected ones. [Womanizer Premium 2](/products/womanizer-premium-2/) has no app at all and is the most refined external stimulator here. [LELO Mona 2](/products/lelo-mona/) has six modes, four buttons and a published noise figure.
 
 Buy connectivity because you want the specific thing it enables — partnered control, distance, or gesture input. Buying it as a proxy for quality gets you a shorter battery life and an app you will stop opening.
 

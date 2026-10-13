@@ -59,7 +59,7 @@ specs:
   noise_db: null
 draft: false
 recoveryVersion: "2026.07.09-Phase0"
-weight: 40
+weight: 10
 badge: "Advanced Pick"
 price: "199.00"
 price_checked: "2026-10-13"

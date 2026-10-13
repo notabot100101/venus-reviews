@@ -1,5 +1,6 @@
 ---
 sku: "lelo-gigi-2"
+weight: 213
 # VERIFIED 2026-10-13 via https://www.lelo.com/gigi-2:
 # Page title "GIGI(tm) 2 | The World's #1 Bestselling G-spot Vibrator | LELO", H1 "GIGI(tm) 2";
 # the page names no other generation of the Gigi.
@@ -66,14 +67,14 @@ tags: ["g-spot", "premium", "waterproof", "compact"]
 affiliate_link: ""
 best_for: "Compact flat-tip G-spot stimulation with the longest documented user time in the LELO devices reviewed here"
 rating: 4.0
-rating_note: "LELO documents the Gigi 2 well - materials, full dimensions, diameter, insertable length, weight, battery, charging, a 4-hour user time, standby, frequency, automatic switch-off, eight settings and the two-tier warranty are all stated - at a 109 EUR list price and with a user time double that of the Mona and Enigma; it stays at 4.0 because the page publishes no noise figure where the Mona page states 50 dB, no button count, no colour options and no app control, and eight settings is a short list."
+rating_note: "LELO documents the Gigi 2 well - materials, full dimensions, diameter, insertable length, weight, battery, charging, a 4-hour user time, standby, frequency, automatic switch-off, eight settings and the two-tier warranty are all stated - at a 109 EUR list price and with a user time double that of the Mona 2 and Enigma; it stays at 4.0 because the page publishes no noise figure where the Mona 2 page states 50 dB, no button count, no colour options and no app control, and eight settings is a short list."
 pros:
   - "Full specification block: body-safe silicone and ABS, 163 x 35 x 42 mm, 37.8 mm diameter, 95 mm insertable, 79 g, Li-ion 520 mAh battery"
-  - "Documented 4-hour user time from a 2-hour charge, double the 2 hours LELO states for the Mona, Enigma and Sona 2"
+  - "Documented 4-hour user time from a 2-hour charge, double the 2 hours LELO states for the Mona 2, Enigma and Sona 2"
   - "Curved, flattened tip that LELO documents as channelling vibration during G-spot massage and as flippable for clitoral use"
   - "100% waterproof with eight settings, a 2-year warranty plus a further 10-year quality guarantee, and ISO 3533 compliance stated"
 cons:
-  - "No maximum noise level is stated on the Gigi 2 page, where the Mona page documents a 50 dB ceiling"
+  - "No maximum noise level is stated on the Gigi 2 page, where the Mona 2 page documents a 50 dB ceiling"
   - "No button count, colour options, intensity-level count, travel lock or app control is published"
   - "Eight settings is a short feature list, and the 95 mm insertable length is modest for a dedicated G-spot device"
   - "Single-purpose insertable: no external arm, no dual stimulation and no sonic element"
@@ -118,7 +119,7 @@ offers:
     available: true
 ---
 
-LELO Gigi 2 is LELO's G-spot vibrator built around a curved, flattened tip: LELO documents the flat face as channelling vibration during G-spot massage and as flippable for clitoral use. At a 109 EUR list price and 79 g it is the lightest and cheapest of the LELO G-spot and dual devices reviewed here, below the curved [LELO Mona](/products/lelo-mona/) at 139 EUR and the dual-format [LELO Enigma](/products/lelo-enigma/) at 199 EUR, and the only one of the three with a documented 4-hour user time.
+LELO Gigi 2 is LELO's G-spot vibrator built around a curved, flattened tip: LELO documents the flat face as channelling vibration during G-spot massage and as flippable for clitoral use. At a 109 EUR list price and 79 g it is the lightest and cheapest of the LELO G-spot and dual devices reviewed here, below the curved [LELO Mona 2](/products/lelo-mona/) at 139 EUR and the dual-format [LELO Enigma](/products/lelo-enigma/) at 199 EUR, and the only one of the three with a documented 4-hour user time.
 
 Venus has not physically tested this product. This review is based on LELO's official Gigi 2 product page and its published specification block, checked on 13 October 2026. Where LELO does not document something clearly, this page says so rather than filling the gap.
 
@@ -130,7 +131,7 @@ Gigi 2 is the pick for someone who wants a compact, single-purpose G-spot vibrat
 
 Gigi 2 is an insertable G-spot vibrator with a curved shaft that ends in a broad, flattened tip. LELO's highlights copy presents the flat tip as the design argument: ideal for channelling deep and powerful vibrations during G-spot massage, and designed to be flipped over so the same face works as a clitoral massager. LELO's usage steps start with the flattened tip on the clitoris as a warm-up, then tilt the handle so the tip applies direct pressure or thrust on the G-spot.
 
-This format suits people who want a dedicated internal G-spot device small enough to pack and prefer a broad, flat contact face to a rounded one. The 95 mm insertable length and 37.8 mm diameter are modest, part of the compact brief rather than a flaw. It is single-purpose: no external arm, no sonic element, no app layer. Buyers who want blended stimulation should look at the Enigma or a rabbit, and buyers who need a documented noise figure have one on the Mona page but not here.
+This format suits people who want a dedicated internal G-spot device small enough to pack and prefer a broad, flat contact face to a rounded one. The 95 mm insertable length and 37.8 mm diameter are modest, part of the compact brief rather than a flaw. It is single-purpose: no external arm, no sonic element, no app layer. Buyers who want blended stimulation should look at the Enigma or a rabbit, and buyers who need a documented noise figure have one on the Mona 2 page but not here.
 
 ## Documented Specifications
 
@@ -144,13 +145,13 @@ LELO states the Gigi 2 is 100% waterproof, suitable for the bath and shower, and
 
 ## Battery and Warranty
 
-Gigi 2 is USB-rechargeable, with a 2-hour charge giving up to 4 hours of user time and up to 90 days of standby, and it switches itself off after 20 minutes. That is double the 2 hours LELO states for the Mona, Enigma and Sona 2, and the longest user time among the LELO devices reviewed here. LELO documents a 2-year warranty from the purchase date, with a free replacement if a problem occurs in that period provided the receipt is kept, and separately states a 10-year quality guarantee once the base warranty expires. Buyers relying on the extended guarantee should confirm the current registration terms on LELO's warranty page first.
+Gigi 2 is USB-rechargeable, with a 2-hour charge giving up to 4 hours of user time and up to 90 days of standby, and it switches itself off after 20 minutes. That is double the 2 hours LELO states for the Mona 2, Enigma and Sona 2, and the longest user time among the LELO devices reviewed here. LELO documents a 2-year warranty from the purchase date, with a free replacement if a problem occurs in that period provided the receipt is kept, and separately states a 10-year quality guarantee once the base warranty expires. Buyers relying on the extended guarantee should confirm the current registration terms on LELO's warranty page first.
 
 ## In the Catalogue
 
-### Gigi 2 vs. the Mona
+### Gigi 2 vs. the Mona 2
 
-The [LELO Mona](/products/lelo-mona/) at 139 EUR is LELO's pronounced-curve G-spot vibrator and the Gigi 2's direct counterpart. On documented values the Mona has six modes to the Gigi 2's eight, weighs 128 g against 79 g, states a 2-hour user time against 4 hours, and publishes a 50 dB maximum noise level where the Gigi 2 page states none; both document a 2-hour charge, 100% waterproofing and the two-tier warranty. The Gigi 2 is 30 EUR cheaper, lighter and longer-running; the Mona is the choice for a firm curve and a documented noise ceiling. Both are ranked on the [best G-spot vibrators](/best-g-spot-vibrators/) page.
+The [LELO Mona 2](/products/lelo-mona/) at 139 EUR is LELO's pronounced-curve G-spot vibrator and the Gigi 2's direct counterpart. On documented values the Mona 2 has six modes to the Gigi 2's eight, weighs 128 g against 79 g, states a 2-hour user time against 4 hours, and publishes a 50 dB maximum noise level where the Gigi 2 page states none; both document a 2-hour charge, 100% waterproofing and the two-tier warranty. The Gigi 2 is 30 EUR cheaper, lighter and longer-running; the Mona 2 is the choice for a firm curve and a documented noise ceiling. Both are ranked on the [best G-spot vibrators](/best-g-spot-vibrators/) page.
 
 ### Gigi 2 vs. the rabbits and the duals
 
@@ -162,4 +163,4 @@ Within LELO, the Gigi 2 shares its 109 EUR list price with the [LELO Sona 2](/pr
 
 ## Value Position
 
-LELO's own product page gives the Gigi 2 a 109.00 EUR list price, in stock, with no discount applied at the time checked. That is level with the Sona 2, 30 EUR below the Mona, 40 EUR below the Nova 2 and 90 EUR below the Enigma. The case for it is specific: the lightest and longest-running of the LELO G-spot and dual devices reviewed here, with a documented flat, flippable tip, a complete body specification and a stated 2-year warranty plus 10-year guarantee. If a noise figure, a second contact point or app control matters more than compactness and runtime, the Mona and the rabbits document those. For the full ranking, see the [best-of 2026 catalogue](/best-vibrators-2026/).
+LELO's own product page gives the Gigi 2 a 109.00 EUR list price, in stock, with no discount applied at the time checked. That is level with the Sona 2, 30 EUR below the Mona 2, 40 EUR below the Nova 2 and 90 EUR below the Enigma. The case for it is specific: the lightest and longest-running of the LELO G-spot and dual devices reviewed here, with a documented flat, flippable tip, a complete body specification and a stated 2-year warranty plus 10-year guarantee. If a noise figure, a second contact point or app control matters more than compactness and runtime, the Mona 2 and the rabbits document those. For the full ranking, see the [best-of 2026 catalogue](/best-vibrators-2026/).

@@ -1,5 +1,7 @@
 ---
 sku: "womanizer-premium-2"
+weight: 12
+badge: "Air-Pulse Pick"
 # VERIFIED 2026-10-13 via https://www.womanizer.com/de/premium-2 (raw HTML spec block): IPX7;
 # run time 240 min; charge time 120 min; 14 intensity levels; Autopilot 2.0 and Smart Silence
 # (automatic/discretion features, not a stated program count); body-safe silicone made without

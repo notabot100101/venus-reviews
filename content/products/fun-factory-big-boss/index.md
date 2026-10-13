@@ -143,7 +143,7 @@ Big Boss runs on a built-in rechargeable battery over USB-C, so any standard cab
 
 ### Big Boss vs. the LELO G-spot vibrators
 
-The [LELO Mona](/products/lelo-mona/) at 139 EUR documents 128 g, 196.2 x 53.1 x 42 mm, a 120-minute runtime from a 120-minute charge, 6 patterns, a 2-year warranty and a 50 dB noise ceiling. The [LELO Gigi 2](/products/lelo-gigi-2/) at 109 EUR is lighter still at 79 g, 163 x 35 x 42 mm, with a 240-minute runtime. Big Boss is roughly 2.7 times the Mona's weight and nearly double its width, at a third of the price - but LELO documents runtime, charge time and, for the Mona, warranty and noise, none of which Fun Factory publishes.
+The [LELO Mona 2](/products/lelo-mona/) at 139 EUR documents 128 g, 196.2 x 53.1 x 42 mm, a 120-minute runtime from a 120-minute charge, 6 patterns, a 2-year warranty and a 50 dB noise ceiling. The [LELO Gigi 2](/products/lelo-gigi-2/) at 109 EUR is lighter still at 79 g, 163 x 35 x 42 mm, with a 240-minute runtime. Big Boss is roughly 2.7 times the Mona 2's weight and nearly double its width, at a third of the price - but LELO documents runtime, charge time and, for the Mona 2, warranty and noise, none of which Fun Factory publishes.
 
 ### Big Boss vs. the Stronic pulsators
 

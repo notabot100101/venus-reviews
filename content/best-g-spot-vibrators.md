@@ -9,7 +9,7 @@ draft: false
 author: "Venus Editorial Team"
 faq:
   - question: "What makes a vibrator good for the G-spot?"
-    answer: "A firm, curved or angled insertable shape that can hold pressure against the front wall, rather than a straight or very soft body. Our picks range from LELO's flattened-tip Gigi 2 and pronounced-curve Mona to the dual-action Enigma, which adds external stimulation on top."
+    answer: "A firm, curved or angled insertable shape that can hold pressure against the front wall, rather than a straight or very soft body. Our picks range from LELO's flattened-tip Gigi 2 and pronounced-curve Mona 2 to the dual-action Enigma, which adds external stimulation on top."
   - question: "Which G-spot vibrator is the best overall?"
     answer: "The LELO Enigma at 199 EUR holds the top rating of 4.5 because it adds external sonic stimulation to internal G-spot vibration. For a dedicated single-purpose G-spot device, the LELO Gigi 2 at 109 EUR is the focused pick at 4.0."
   - question: "What is the cheapest internal vibrator you recommend?"
@@ -26,7 +26,7 @@ This is the insertable category: devices designed for internal stimulation, usua
 | [LELO Enigma Cruise](/products/lelo-enigma-cruise/) | Dual with Cruise Control | 4.0 | 219.00 EUR |
 | [LELO Ida Wave](/products/lelo-ida-wave/) | Dual, rotating internal arm (app) | 4.0 | 189.00 EUR |
 | [LELO Gigi 2](/products/lelo-gigi-2/) | Dedicated G-spot | 4.0 | 109.00 EUR |
-| [LELO Mona](/products/lelo-mona/) | Firm curved internal | 4.0 | 139.00 EUR |
+| [LELO Mona 2](/products/lelo-mona/) | Firm curved internal | 4.0 | 139.00 EUR |
 | [We-Vibe Nova 2](/products/we-vibe-nova-2/) | Rabbit (dual, app) | 4.0 | 149.00 EUR |
 | [LELO Soraya Wave](/products/lelo-soraya-wave/) | Rabbit (dual, WaveMotion tip) | 4.0 | 199.00 EUR |
 | [LELO Ina Wave 2](/products/lelo-ina-wave-2/) | Rabbit (dual, WaveMotion tip, compact) | 4.0 | 199.00 EUR |
@@ -44,7 +44,7 @@ This is the insertable category: devices designed for internal stimulation, usua
 
 **If you want a dedicated, travel-friendly G-spot device:** the [LELO Gigi 2](/products/lelo-gigi-2/). Its flattened tip is a genuine design difference for broad front-wall contact, it is light at 79 g with a documented insertable 95 mm and 100% waterproofing, and it runs up to 4 hours per charge. LELO does not publish a noise figure for it.
 
-**If you want a firmer, more pronounced curve:** the [LELO Mona](/products/lelo-mona/). A longer, firmer body with a purposeful curve for targeted internal pressure, 100% waterproof with a documented 50 dB maximum. It is aimed at people who already like targeted G-spot toys rather than absolute beginners.
+**If you want a firmer, more pronounced curve:** the [LELO Mona 2](/products/lelo-mona/). A longer, firmer body with a purposeful curve for targeted internal pressure, 100% waterproof with a documented 50 dB maximum. It is aimed at people who already like targeted G-spot toys rather than absolute beginners.
 
 **If you want a well-documented, app-controlled rabbit:** the [We-Vibe Nova 2](/products/we-vibe-nova-2/). Its flexible external arm is built to keep clitoral contact as the device moves, it is rated IPX7 with a clear body-safe materials statement, and the We-Vibe app adds remote control. It is the rabbit to pick when documentation and features matter.
 

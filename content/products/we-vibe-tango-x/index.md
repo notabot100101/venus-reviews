@@ -27,7 +27,8 @@ specs:
   noise_db: null
 category: "external-stimulation"
 menu: "main"
-weight: 160
+weight: 11
+badge: "Top-Rated Bullet"
 draft: false
 best_for: "Pinpoint external stimulation"
 rating: 4.5

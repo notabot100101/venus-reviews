@@ -122,7 +122,7 @@ The documented figures are up to 120 minutes of use from a charge of up to 90 mi
 
 ### Rave 2 vs. the LELO G-spot vibrators
 
-The [LELO Gigi 2](/products/lelo-gigi-2/) and [LELO Mona](/products/lelo-mona/) are the catalogue's dedicated G-spot picks, at 109 and 139 EUR. LELO publishes what We-Vibe does not: dimensions, weight and, on the Mona, a maximum noise figure, with a 100% waterproof statement. Rave 2 answers with app control and an adjustable shape, which neither LELO offers. If a fully documented physical spec matters most, the LELOs lead; if app control on an internal toy matters most, Rave 2 is the We-Vibe answer at the Mona's price.
+The [LELO Gigi 2](/products/lelo-gigi-2/) and [LELO Mona 2](/products/lelo-mona/) are the catalogue's dedicated G-spot picks, at 109 and 139 EUR. LELO publishes what We-Vibe does not: dimensions, weight and, on the Mona 2, a maximum noise figure, with a 100% waterproof statement. Rave 2 answers with app control and an adjustable shape, which neither LELO offers. If a fully documented physical spec matters most, the LELOs lead; if app control on an internal toy matters most, Rave 2 is the We-Vibe answer at the Mona 2's price.
 
 ### Rave 2 vs. the Nova 2
 
@@ -134,4 +134,4 @@ Rave 2 is the brand's dedicated internal device. The [Jive](/products/we-vibe-ji
 
 ## Value Position
 
-At 139 EUR, Rave 2 is priced level with the LELO Mona and below the Nova 2. The reason to buy it is specific: an app-controlled, adjustable G-spot vibrator from a brand with a clear materials statement, an IPX7 rating and a 2-year warranty. The reasons to hesitate are the undocumented levels, weight and noise, and the impossible dimensions on the page. For the whole catalogue, see the [best-of 2026 ranking](/best-vibrators-2026/).
+At 139 EUR, Rave 2 is priced level with the LELO Mona 2 and below the Nova 2. The reason to buy it is specific: an app-controlled, adjustable G-spot vibrator from a brand with a clear materials statement, an IPX7 rating and a 2-year warranty. The reasons to hesitate are the undocumented levels, weight and noise, and the impossible dimensions on the page. For the whole catalogue, see the [best-of 2026 ranking](/best-vibrators-2026/).

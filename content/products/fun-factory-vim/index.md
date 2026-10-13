@@ -19,7 +19,7 @@ specs:
   noise_db: null
 category: "wand"
 menu: "main"
-weight: 170
+weight: 20
 draft: false
 # VERIFIED 2026-10-13 via https://www.funfactory.com/products/vim (landed URL; "Größe, Material & Mehr"
 # block plus feature list, cleaning FAQ and "Zur Auswahl" panel, German, translated; products/vim.js
