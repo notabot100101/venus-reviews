@@ -1,15 +1,42 @@
 ---
 title: "LELO Hugo"
-seo_description: "Lelo Hugo review covering prostate-massager fit, remote control, materials, noise, waterproof design, and how it compares with other premium wellness devices."
+seo_description: "LELO Hugo review: a remote-controlled prostate massager with two motors, a SenseMotion motion remote, 6 settings, an exact 50 dB noise figure, 100% waterproofing and a 2-year warranty, out of stock at LELO when checked. Specs and catalogue fit."
 schema_product: true
-description: "Premium prostate massager with a wellness-focused shape, strong motor, and quiet waterproof design."
+description: "Remote-controlled prostate massager in body-safe silicone and ABS with two motors in the tip and base, a motion-sensitive SenseMotion remote, 6 settings, a documented 50 dB maximum and 100% waterproofing."
 sku: "lelo-hugo"
-# VERIFIED 2026-10-12 via https://www.lelo.com/hugo (raw HTML spec/feature block): run time
-# 120 min; charge time 120 min; 6 pattern/settings modes; 2-year warranty; weight 116 g;
-# 104 x 107 x 41 mm; max noise 50 dB; 100% waterproof per LELO prose, NO IP rating published.
-# NOT documented: levels, app. Price 189.00 EUR unchanged from the last check
+# VERIFIED 2026-10-13 via https://www.lelo.com/hugo (landed on the product page, HTTP 200, no
+# redirect; raw HTML specification block + feature copy, tags stripped). Page <title> "HUGO(tm) |
+# Remote Controlled Prostate Vibrator by LELO", JSON-LD Product name "HUGO(tm)". Materials
+# "Body-safe silicone / ABS plastic"; Size "104 x 107 x 41 mm / 4.1 x 4.2 x 1.6 in."; Diameter
+# "32.5 mm / 1.28 in."; Insertable length "72 mm / 2.83 in."; Weight "116 g / 4.1 oz."; Battery
+# "Li-Ion 420 mAh 3.7 V"; Charging "2 h at 5.0 V 500 mA"; User time "2 h"; Standby "90 days";
+# Max. noise level "50 dB" (an exact figure, stored as 50); Switch off "Automatic after 20
+# minutes"; Interface "1-button + remote". Feature tiles: "ISO 3533 SAFETY ASSURANCE", "6
+# SETTINGS - from a teasing murmur to a satisfying pulse" (patterns: 6 per the LELO settings
+# convention, no separate levels count, so levels: null), "REMOTE-CONTROLLED - wireless controls
+# for adventurous pleasure", "EXTRA-SOFT SILICONE", "100% WATERPROOF - perfect for the bath and
+# shower", "GLOBAL BESTSELLER"; "SenseMotion(tm) technology allows you to use the motion-sensitive
+# remote controller to increase the pleasure with the flick of a wrist". Highlights: "MORE POWER
+# FOR MORE PLEASURE - Two vibrating motors in the base and tip for double the pleasure",
+# "REMOTE-CONTROLLED - Motion-controlled and with more options than standard remote-controlled
+# prostate massagers", "MEDIUM-SIZED FOR ALL LEVELS OF EXPERIENCE". How-to copy: "Apply a
+# generous amount of LELO Personal Moisturizer on HUGO(tm)", "Insert HUGO(tm), breathing deeply
+# until it feels comfortable. Power it on." Box: HUGO(tm), wireless remote controller,
+# USB-charging cord, satin storage pouch, warranty registration card, detailed instruction
+# manual, 2xAAA batteries for the remote. Warranty: "The 2-year warranty covers you up to two
+# years after the purchase date" (warranty_years: 2) plus "The 10-year warranty covers your
+# product for ten years after your 2-year warranty expires".
+# NOT documented: app or Bluetooth control (app: null), a Finish line, a motor frequency, the
+# remote's range, battery life or own water resistance, a levels-vs-patterns split, an IP rating
+# (only "100% waterproof"), colour options beyond the dataLayer item_variant "Ocean Blue", and
+# any statement that the Hugo is discontinued or replaced by the Hugo 2.
+# Price: JSON-LD Offer price "189.00", priceCurrency "EUR", availability OutOfStock (available:
+# false, as on the 2026-08-06 check), sku "1404"; dataLayer local_price 189 with
+# discount_percentage "0%", so 189 is the list price and no struck-through figure was on the page
+# (the 211.38 in the dataLayer is the USD analytics value).
+# Image: unchanged (existing verified image kept)
 specs:
-  material: "body-safe silicone and ABS plastic"
+  material: "body-safe silicone / ABS plastic"
   waterproof: "100% waterproof"
   runtime_min: 120
   charge_min: 120
@@ -17,7 +44,7 @@ specs:
   patterns: 6
   warranty_years: 2
   weight_g: 116
-  dims_mm: null
+  dims_mm: "104 x 107 x 41 mm"
   app: null
   noise_db: 50
 menu: "main"
@@ -25,22 +52,22 @@ recoveryVersion: "2026.07.11-Batch3"
 weight: 100
 badge: "Premium Wellness"
 price: "189.00"
-price_checked: "2026-08-06"
+price_checked: "2026-10-13"
 category: "prostate"
-best_for: "Premium prostate wellness"
+best_for: "Remote-controlled prostate massage with a documented 50 dB noise figure and 2-hour runtime"
 noise: "Low noise"
 rating: 4.0
-rating_note: "Strongly documented premium prostate massager (materials, 50 dB ceiling, 2+10-year warranty), but the original HUGO was sold out at LELO when checked and buyers now land on the un-reviewed HUGO 2."
+rating_note: "A completely documented prostate massager: materials, 104 x 107 x 41 mm, 32.5 mm diameter, 72 mm insertable length, 116 g, two motors, a 2-hour runtime, an exact 50 dB maximum, 100% waterproofing, a motion remote and a 2-year warranty; it stays at 4.0 because LELO's page listed it out of stock again when checked, the remote's range and water resistance are not documented, and the app-controlled Hugo 2 is 10 EUR cheaper and in stock."
 pros:
-  - "Documented premium prostate design: 72 mm insertable length, 32.5 mm diameter"
-  - "Body-safe silicone/ABS with ISO 3533 alignment"
-  - "Remote control with SenseMotion; 100% waterproof body; 50 dB max noise"
-  - "2-hour runtime and clear LELO 2+10-year warranty language"
+  - "Complete spec block: body-safe silicone and ABS, 104 x 107 x 41 mm, 32.5 mm diameter, 72 mm insertable length, 116 g"
+  - "Two vibrating motors in the base and tip, plus a wireless SenseMotion remote that responds to wrist movement, with its 2 AAA batteries in the box"
+  - "Exact documented 50 dB maximum noise level, 100% waterproofing and ISO 3533 safety assurance"
+  - "Documented 2-hour user time from a 2-hour charge, double the Hugo 2's figure, with a 2-year warranty plus a 10-year quality guarantee"
 cons:
-  - "Original HUGO was sold out at LELO when checked - buyers land on the un-reviewed HUGO 2 successor"
-  - "Prostate toys are hygiene-, preparation- and anatomy-sensitive"
-  - "Motion-based remote splits opinion; some users prefer plain buttons"
-  - "The remote's own water-resistance is not documented"
+  - "Out of stock at LELO when checked (JSON-LD OutOfStock, as in August); the page gives no restock date"
+  - "The remote's range, battery life and water resistance are not documented, only that it takes 2 AAA batteries"
+  - "Six settings and no app; the Hugo 2 documents ten settings with Bluetooth app control for 10 EUR less"
+  - "An insertable anal-use format with a 72 mm insertable length and 32.5 mm diameter; lubricant, slow insertion and thorough cleaning matter, and it is not a first toy"
 image: "/images/products/lelo-hugo/front.webp"
 images:
   - "/images/products/lelo-hugo/front.webp"
@@ -49,7 +76,7 @@ offers:
     url: "https://www.lelo.com/hugo"
     price: 189
     currency: "EUR"
-    checked: "2026-08-06"
+    checked: "2026-10-13"
     available: false
   - retailer: "Amazon"
     url: ""
@@ -83,62 +110,50 @@ offers:
     available: true
 ---
 
-Lelo Hugo is the prostate-focused premium pick. It is not a general couples vibrator, a clitoral stimulator, or a beginner-neutral shape. Its place is clearer: a rechargeable, waterproof, remote-controlled prostate massager with documented dimensions, silicone/ABS materials, a motion-sensitive remote concept, and LELO's warranty language.
+LELO Hugo is LELO's original remote-controlled prostate massager, the model the app-controlled [LELO Hugo 2](/products/lelo-hugo-2/) followed. LELO still lists it as a separate product, and nothing on its page says it has been discontinued or replaced. The complication is stock: LELO's page showed it out of stock when checked, as it did in August.
 
-This review is based on LELO's live Hugo product page, LELO's published warranty and ISO 3533 language, the current catalogue, and patterns in published user feedback.
-
-
-## Availability Note (checked 6 August 2026)
-
-The original HUGO showed 189 EUR but **SOLD OUT** on LELO's own product page
-when checked. LELO's successor, HUGO 2, sells at 179 EUR with app control
-(lelo.com/hugo-2). Until stock returns, buyers following this review should
-expect to land on the successor model, which this page does not yet cover.
+Venus has not physically tested this product. This review is based on LELO's official Hugo product page and its published specification block, checked on 13 October 2026. Where LELO does not document something clearly, this page says so rather than filling the gap.
 
 ## Quick Verdict
 
-Hugo belongs on the shortlist for shoppers who specifically want a premium prostate massager with a remote-control setup and a compact insertable length. LELO's documentation makes the core proposition easy to compare: body-safe silicone and ABS plastic, 100% waterproof construction, 2-hour runtime, 50 dB max noise, and a 1-button plus remote interface. The main caveat is category fit. Prostate toys require comfort, preparation, anatomy compatibility, and realistic expectations; a strong spec sheet does not make this a casual impulse purchase.
+Hugo is the pick for buyers who want a LELO prostate massager with a physical remote rather than an app. The specification block is complete, from materials and dimensions to a two-hour runtime, an exact 50 dB noise figure, 100% waterproofing, six settings, two motors and a two-year warranty. At 189 EUR it costs 10 EUR more than the Hugo 2 and 30 EUR less than the Loki Wave 2. The caveats are availability, the undocumented range and water resistance of the remote, and the usual warning that an insertable anal device is not a first toy.
+
+## Format and Who It Is For
+
+Hugo is a two-part prostate massager with a motor at each end: LELO documents "two vibrating motors in the base and tip". The insertable section is documented at 72 mm of insertable length and 32.5 mm in diameter, inside an overall 104 x 107 x 41 mm body, so most of the device stays outside as the retrieval handle; anything used anally needs a part that cannot pass fully inside. LELO's how-to steps are a generous amount of its Personal Moisturizer, slow insertion while breathing deeply, then powering on; it positions the Hugo as "medium-sized for all levels of experience".
+
+Control is one button on the device plus the wireless remote. LELO's SenseMotion technology lets the motion-sensitive remote increase intensity "with the flick of a wrist", but the page states neither the remote's range nor whether the remote itself is water-resistant. No app or Bluetooth control is documented; buyers who want a phone-controlled device should look at the Hugo 2.
 
 ## Documented Specifications
 
-Per LELO's live Hugo product page at `https://www.lelo.com/hugo`, Hugo is described as a remote-controlled prostate massager. LELO documents the materials as body-safe silicone and ABS plastic. The product is listed as 104 x 107 x 41 mm, or 4.1 x 4.2 x 1.6 in. Diameter is documented as 32.5 mm, or 1.28 in, and insertable length is documented as 72 mm, or 2.83 in. Weight is documented as 116 g, or 4.1 oz.
+LELO's specification block lists body-safe silicone and ABS plastic, 104 x 107 x 41 mm, a 32.5 mm diameter, a 72 mm insertable length and 116 g. Unlike LELO's newer pages it gives no finish and no motor frequency.
 
-The battery is documented as Li-Ion 420 mAh, 3.7 V. LELO lists charging as 2 hours at 5.0 V / 500 mA, user time as 2 hours, standby as 90 days, maximum noise level as 50 dB, and automatic switch-off after 20 minutes. The interface is documented as 1-button plus remote. LELO also describes Hugo as remote-controlled, says its SenseMotion technology lets the motion-sensitive remote increase pleasure with wrist movement, and presents the product as 100% waterproof and extra-soft silicone.
+Power is a lithium-ion 420 mAh 3.7 V cell, charged in two hours at 5.0 V and 500 mA, for two hours of user time and 90 days of standby. The maximum noise level is stated as an exact 50 dB, the device switches off automatically after 20 minutes, and the interface is one button plus the remote. The feature tiles add six settings, "from a teasing murmur to a satisfying pulse", extra-soft silicone, 100% waterproofing and ISO 3533 safety assurance. LELO does not split the six settings into intensity levels and patterns, so this page records six settings and nothing more precise.
 
-The box contents listed by LELO include Hugo, a USB-charging cord, satin storage pouch, warranty registration card, and instruction manual. LELO's warranty section states a 2-year warranty from purchase date for problems that can lead to replacement, followed by a 10-year warranty after the 2-year warranty expires.
+The box holds the Hugo, the wireless remote, a USB-charging cord, a satin pouch, the warranty card, the manual and two AAA batteries for the remote.
 
-Vibration modes, exact remote range, remote battery details, app compatibility, and phthalate-free status were not documented in the visible Hugo specification table.
+## Materials, Waterproofing and Cleaning
 
-## Materials and Cleaning Analysis
+LELO marks the Hugo body as 100% waterproof and suitable for the bath and shower, so the device can be rinsed under running water with mild soap and dried fully before storage. For an anal device, clean before and after every use and check the silicone surface for damage first. LELO states ISO 3533 certification for body-safe materials, a useful signal for a product intended for anal contact. No IP rating is published beyond the "100% waterproof" statement, which covers the massager only; LELO says nothing about the remote, so keep it dry. Water-based lubricant is the conservative default on silicone unless LELO's instructions say otherwise.
 
-Hugo's material documentation is solid: body-safe silicone over the contact surface and ABS plastic for hard components. LELO also uses ISO 3533 safety language for its pleasure devices, which is a useful documentation signal for a product intended for anal contact. The practical buyer takeaway is still conservative: use plenty of compatible lubricant, default to water-based lubricant unless LELO's instructions say otherwise, and check the surface before each use.
+## Battery and Warranty
 
-Waterproof construction is especially relevant here. Anal toys need careful cleaning, and a waterproof body gives more confidence around rinsing the insertable section and cleaning around the base. That said, the remote should not be treated as waterproof unless the manufacturer says so for the remote specifically. The review source documents the product body as waterproof, not the remote's waterproof rating.
+The two-hour charge gives a documented two hours of use, with 90 days of standby and an automatic switch-off after 20 minutes. The remote runs on two AAA batteries, supplied in the box; its battery life is not documented. LELO documents a two-year warranty from the purchase date, with a free replacement if a problem occurs in that time, followed by a ten-year quality guarantee once the two-year warranty expires. Keep the receipt; LELO's warranty text asks for it.
 
-The 72 mm insertable length and 32.5 mm diameter make Hugo less intimidating on paper than some longer prostate massagers, but dimensions do not guarantee comfort. Buyers should still consider gradual use, relaxation, hygiene, and whether the shape suits their experience level.
+## In the Catalogue
 
-## Published Feedback Synthesis
+### Hugo vs. the Hugo 2
 
-Published feedback for Hugo-type LELO products usually concentrates on three things: premium finish, targeted shape, and remote-control appeal. Positive buyer patterns often come from users who already understand prostate stimulation and want a refined product rather than a cheap trial device. The remote is a major part of the appeal because it allows solo adjustment without reaching awkwardly and gives partnered use a clear control point.
+The [LELO Hugo 2](/products/lelo-hugo-2/) shares the Hugo's 104 x 107 x 41 mm footprint, 72 mm insertable length, 420 mAh battery and two-motor layout, and weighs 121 g to the Hugo's 116 g. The differences run both ways: the Hugo lists two hours of user time, an exact 50 dB figure and a 32.5 mm diameter where the Hugo 2 lists one hour, a ceiling under 60 dB and no diameter; the Hugo has the SenseMotion remote and six settings with no app, the Hugo 2 Bluetooth app control, ten settings of which six need the app, and no remote. The Hugo 2 is 10 EUR cheaper at 179 EUR and was in stock when checked; the Hugo was not.
 
-The negative feedback pattern is also predictable. Fit and insertion comfort vary sharply. Some users find the shape precise; others find it too specific, too firm, or less intuitive than expected. Remote controls can also split opinion. Motion-based controls sound elegant, but some buyers prefer simple buttons because they are easier to manage when attention is elsewhere.
+### Hugo vs. the Loki Wave 2
 
-Noise is documented at a maximum of 50 dB on LELO's page. This supports the product's low-noise positioning, though real-world perception varies with bedding, room acoustics, and body contact.
+The [LELO Loki Wave 2](/products/lelo-loki-wave-2/) at 219 EUR is the larger device: 91 x 42 x 196 mm, a 100 mm insertable length and 196 g against the Hugo's 72 mm and 116 g. Its WaveMotion tip moves in a finger-like motion on top of vibration from two motors, it has twelve settings, an 850 mAh battery for two hours of use and a noise ceiling under 60 dB, and documents no app or remote. The Hugo answers with a shorter insertion, a documented diameter, an exact 50 dB figure, the remote and a 30 EUR lower price. The two current models are compared head-to-head in [Hugo 2 vs Loki Wave 2](/lelo-hugo-2-vs-lelo-loki-wave-2/).
 
-## Catalogue Comparisons
+### Hugo beyond LELO
 
-Hugo is not a substitute for LELO Enigma, Mona 2, or Sona 2. Enigma is a dual clitoral/G-spot product; Mona 2 is a curved G-spot vibrator; Sona 2 is an external sonic stimulator. Hugo is the prostate-focused LELO entry.
+Outside LELO, the [We-Vibe Vector+](/products/we-vibe-vector/) at 139 EUR is the catalogue's other prostate massager with a remote, and the only one with button, remote and app control together, though its catalogue review records no weight, dimensions or noise figure. The category is ranked on the [best prostate massagers](/best-prostate-massagers/) page, the Hugo also sits in the [premium picks](/premium-picks/) tier, the full LELO line-up is on the [LELO reviews hub](/lelo-reviews/), and the catalogue-wide ranking is in [best vibrators 2026](/best-vibrators-2026/).
 
-Compared with We-Vibe Chorus and We-Vibe Sync, Hugo is more solo/prostate-specific and less about wearable intercourse positioning. Chorus and Sync are couples toys with app or remote ecosystems; Hugo's couple use is more about partner-controlled prostate stimulation through a dedicated remote.
+## Value Position
 
-Compared with Womanizer Premium 2, Hugo sits in an entirely different decision tree. Womanizer is external air stimulation; Hugo is insertable anal/prostate stimulation. A buyer choosing between them probably needs to clarify body focus before comparing price or warranty.
-
-## Who Should Buy It
-
-Choose Hugo if prostate stimulation is the actual goal, you want a premium rechargeable product, you value a documented silicone/ABS build, and remote control matters. It is strongest for buyers who already know the category is appealing and want a polished, traceable purchase with a clear warranty path.
-
-Skip it if you are unsure about anal toys, want the simplest possible first product, need app control, prefer a non-insertable device, or want exact remote range and remote battery specifications before buying. Also skip it if the idea of a motion-sensitive remote sounds distracting rather than helpful.
-
-## Ownership Notes
-
-Keep the receipt and buy through a legitimate retailer so LELO's 2-year and later 10-year warranty language can actually be used. Clean and dry the product fully before storing it in the pouch, and store the remote with the toy so the set does not get separated. For a product in this category, good preparation and cleaning habits matter as much as the hardware choice.
+At a 189 EUR list price, with no discount shown when checked, the Hugo is the middle of LELO's three prostate massagers, but the price is academic while LELO's own page shows it out of stock. What the money buys over the Hugo 2 is the remote, the longer documented runtime and the exact noise figure; what it gives up is app control, four settings and availability. Buyers who need a device now should look at the in-stock Hugo 2 or the retailers listed above; buyers who want a remote should check LELO's stock first or consider the cheaper Vector+; buyers unsure about anal toys should start elsewhere in the [catalogue](/best-vibrators-2026/).
