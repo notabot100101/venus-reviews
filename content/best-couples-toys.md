@@ -13,7 +13,7 @@ faq:
   - question: "Which couples' toy is the best overall?"
     answer: "The We-Vibe Chorus holds our top couples rating at 4.5 for its Squeeze Remote, touch-sense control and clear materials disclosure, though at 209 EUR it is the most expensive. The LELO Tor 3 and LELO Tiani 3 both rate 4.0 at around 150 to 160 EUR."
   - question: "What is the cheapest couples' toy you recommend?"
-    answer: "The Dame Eva II at 129 EUR is the least expensive here, a hands-free clitoral stimulator that tucks under the labia rather than being worn internally. We rate it 3.5."
+    answer: "The Dame Eva II at 129 USD (Dame prices in dollars) is the least expensive here, a hands-free clitoral stimulator that tucks under the labia rather than being worn internally. We rate it 3.5."
 ---
 
 ## Best Couples' Toys
@@ -30,7 +30,7 @@ These are the devices built for two people at once: worn by one partner during s
 | [We-Vibe Pivot 2](/products/we-vibe-pivot-2/) | Vibrating ring (app) | 3.5 | 89.00 EUR |
 | [We-Vibe Verge 2](/products/we-vibe-verge-2/) | Vibrating ring with perineum stimulator (app) | 3.5 | 99.00 EUR |
 | [Fun Factory Be One](/products/fun-factory-be-one/) | Finger-worn vibrator | 3.5 | 33.95 EUR |
-| [Dame Eva II](/products/dame-eva-ii/) | Hands-free external | 3.5 | 129.00 EUR |
+| [Dame Eva II](/products/dame-eva-ii/) | Hands-free external | 3.5 | 129.00 USD |
 
 ### How to pick within the category
 

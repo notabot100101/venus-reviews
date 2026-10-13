@@ -121,7 +121,7 @@ The documented figures are up to 120 minutes of use from a charge of up to 150 m
 
 ### Wand 2 vs. the Fun Factory VIM
 
-The [Fun Factory VIM](/products/fun-factory-vim/) is the catalogue's other wand, at 66.95 EUR against the Wand 2's 159 EUR. Both document body-safe silicone and an IPX7 rating. The Wand 2 adds what the VIM review does not list: a documented runtime and charge time, a stated 2-year warranty, Smart Silence, a bundled remote and app control. If the budget is the deciding factor, the VIM is the way into the wand format; if cordless convenience with remote and app control matters, the Wand 2 is the better-documented choice.
+The [Fun Factory VIM](/products/fun-factory-vim/) is the catalogue's other wand, at 66.95 EUR against the Wand 2's 159 EUR. Both pages list silicone and an IPX7 rating, though Fun Factory's own care note calls the VIM water-resistant and not for the bath or shower. The Wand 2 adds what the VIM review does not list: a documented runtime and charge time, a stated 2-year warranty, Smart Silence, a bundled remote and app control. If the budget is the deciding factor, the VIM is the way into the wand format; if cordless convenience with remote and app control matters, the Wand 2 is the better-documented choice.
 
 ### Wand 2 vs. the LELO Smart Wand 2 Medium
 

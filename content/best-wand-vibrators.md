@@ -33,19 +33,19 @@ Every value below comes from the manufacturer's own product page as recorded in 
 
 | | [Fun Factory VIM](/products/fun-factory-vim/) | [LELO Smart Wand 2 Medium](/products/lelo-smart-wand-2-medium/) | [We-Vibe Wand 2](/products/we-vibe-wand-2/) | [Dame Com](/products/dame-com/) |
 |---|---|---|---|---|
-| Material | body-safe silicone | body-safe silicone + ABS plastic | body-safe silicone, phthalate- and BPA-free, made without latex | medical-grade (100% body-safe) silicone |
-| Waterproof | IPX7 | 100% waterproof | IPX7 | waterproof |
+| Material | body-friendly silicone | body-safe silicone + ABS plastic | body-safe silicone, phthalate- and BPA-free, made without latex | medical-grade (100% body-safe) silicone |
+| Waterproof | IPX7 (maker's care note: water-resistant, not for bath or shower) | 100% waterproof | IPX7 | waterproof |
 | Runtime | not documented | 120 min | 120 min | 60 min |
 | Charge time | not documented | 120 min | 150 min | 150 min |
 | Intensity levels | 5 | not documented | not documented | 5 |
 | Modes / patterns | 3 | 10 | not documented | 5 |
 | Noise | not documented | not documented | not documented | not documented |
-| Weight | not documented | 155 g | not documented | not documented |
-| Dimensions | not documented | 210 x 85 x 45 mm | not documented | 254 x 46 x 46 mm |
+| Weight | 437 g | 155 g | not documented | not documented |
+| Dimensions | 315 x 61 x 61 mm | 210 x 85 x 45 mm | not documented | 254 x 46 x 46 mm |
 | Warranty | not documented | 2 years | 2 years | 3 years |
 | Control | buttons, USB-C charging | 3 buttons | buttons, remote and We-Vibe app | buttons with a travel lock |
 | Price | 66.95 EUR | 169.00 EUR | 159.00 EUR | 119.00 USD |
-| Manufacturer stock | out of stock when checked | in stock when checked | in stock when checked | in stock when checked |
+| Manufacturer stock | in stock when checked | in stock when checked | in stock when checked | in stock when checked |
 
 ### How to pick within the category
 
@@ -53,7 +53,7 @@ Every value below comes from the manufacturer's own product page as recorded in 
 
 **If you want app and partner control:** the [We-Vibe Wand 2](/products/we-vibe-wand-2/). A flexible, ridged head, more than ten intensity levels, Smart Silence that only runs the motor on skin contact, IPX7, a documented 120-minute runtime from a 150-minute charge, a remote in the box and the We-Vibe app. We-Vibe publishes no dimensions, weight or noise figure for it.
 
-**If you want the wand format for the least money:** the [Fun Factory VIM](/products/fun-factory-vim/). A German-made weighted-motor wand in body-safe silicone, IPX7 and USB-C rechargeable at 66.95 EUR, less than half the price of the other two. Fun Factory does not publish its runtime, charge time, weight, dimensions or warranty term.
+**If you want the wand format for the least money:** the [Fun Factory VIM](/products/fun-factory-vim/). A German-made weighted-motor wand in body-friendly silicone, a measured 437 g and 315 x 61 x 61 mm, USB-C rechargeable, with an IPX7 badge that Fun Factory's own care note contradicts (water-resistant, not for the bath or shower), at 66.95 EUR, less than half the price of the other two. Fun Factory does not publish its runtime, charge time, weight, dimensions or warranty term.
 
 **If you want a flexible neck and a smaller head:** the [Dame Com](/products/dame-com/). Dame calls it a wand: medical-grade silicone, a bendable neck, 5 levels and 5 patterns, a travel lock, USB-C, a 1-hour runtime from a 2.5-hour charge and a 3-year warranty, at 119 USD rather than euros. Dame states it is waterproof without an IP rating, publishes no weight or noise figure, and its page carries two different dimension figures, which the review discloses.
 

@@ -25,14 +25,14 @@ Fifteen of our 62 reviewed products cost less than 90 EUR. This page ranks all f
 **1. [We-Vibe Tango X](/products/we-vibe-tango-x/) — 4.5 — 89.00 EUR** (verified August 2026)
 The strongest value in the catalogue: a rating matching products at twice the price. Compact bullet, pinpoint external stimulation.
 
-**2. [Fun Factory Volta](/products/fun-factory-volta/) — 4.0 — 51.95 EUR** (verified August 2026)
+**2. [Fun Factory Volta](/products/fun-factory-volta/) — 4.0 — 51.95 EUR** (verified October 2026)
 Precise external contact, and the cheapest 4.0-rated product we have reviewed.
 
-**3. [Fun Factory VIM](/products/fun-factory-vim/) — 4.0 — 66.95 EUR** (verified August 2026)
+**3. [Fun Factory VIM](/products/fun-factory-vim/) — 4.0 — 66.95 EUR** (verified October 2026)
 A full-size wand with deep, rumbly massage at a budget price, in stock at the manufacturer when checked in October 2026.
 
-**4. [Fun Factory Manta](/products/fun-factory-manta/) — 3.5 — 48.95 EUR** (verified August 2026)
-The cheapest product in the catalogue, built for flexible external use.
+**4. [Fun Factory Manta](/products/fun-factory-manta/) — 3.5 — 48.95 EUR** (verified October 2026)
+A flexible wraparound external vibrator with a documented 6-speed, 6-rhythm motor and IPX7 rating; both colourways were out of stock at Fun Factory when checked in October 2026.
 
 **5. [Satisfyer Curvy Trinity 3](/products/satisfyer-curvy/) — 3.5 — 59.95 EUR** (verified October 2026)
 The cheapest 3-in-1, combining air-pulse and insertable G-spot vibration, with a 15-year warranty. Thin published specs, and out of stock at the manufacturer when checked, so buy through the retailers listed.
