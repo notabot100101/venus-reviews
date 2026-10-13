@@ -117,7 +117,7 @@ Nova 2 is rechargeable over USB, with a charge of up to 90 minutes giving up to 
 
 ### Nova 2 vs the other rabbit
 
-The catalogue's only other rabbit is the [Lovehoney Desire](/products/lovehoney-desire/) at 69.99 EUR, which is cheaper but whose materials, waterproofing and warranty were not documented by the manufacturer when we reviewed it. Nova 2 costs more than twice as much, but it is fully documented and adds app control and the adaptive external arm, which is why it rates higher.
+The [Lovehoney Desire](/products/lovehoney-desire/) is the conventional rabbit at 99.95 EUR: a firm silicone shaft with a fixed external arm, submersible, with 8 patterns each adjustable across 12 speeds, but no published runtime, charge time, weight or warranty term. Nova 2 costs 49 EUR more, is fully documented, and adds app control and the adaptive external arm, which is why it rates higher.
 
 ### Nova 2 among the internal options
 

@@ -18,7 +18,7 @@ faq:
 
 ## Budget Picks Under 90 EUR
 
-Sixteen of our 62 reviewed products cost less than 90 EUR. This page ranks all sixteen by review rating. Prices are manufacturer EUR prices with the date we verified them; each pick links to its full review, including what we could not verify.
+Fifteen of our 62 reviewed products cost less than 90 EUR. This page ranks all fifteen by review rating. Prices are manufacturer EUR prices with the date we verified them; each pick links to its full review, including what we could not verify.
 
 ### Ranked
 
@@ -67,9 +67,7 @@ The cheapest lay-on external here: a documented 107 x 50 x 41 mm, 85 g body that
 **15. [Fun Factory Be One](/products/fun-factory-be-one/) — 3.5 — 33.95 EUR** (verified October 2026)
 The cheapest powered device in the catalogue: a 28 g finger-worn couples' vibrator with two motors, 4 speeds and a random rhythm, a button lock, IPX7 and USB-C, with a 60-minute runtime and no warranty term or named material published.
 
-**16. [Lovehoney Desire](/products/lovehoney-desire/) — 3.0 — 69.99 EUR** (verified August 2026)
-A classic rabbit design at a value price, but key specifications could not be verified from manufacturer sources when reviewed. Check materials, waterproofing and warranty on the retailer page before buying.
 
 ### How to Spend Less Without Regret
 
-The pattern across these sixteen: the 48–70 EUR band already buys documented body-safe materials from real manufacturers. What the extra money buys above 90 EUR is quieter motors, app features and premium formats, not safety, which is exactly what the [premium picks](/premium-picks/) page lays out. If this is a first purchase, start at the [first-time buyer page](/first-time-buyer/); for the full field, see the [ranked 2026 picks](/best-vibrators-2026/).
+The pattern across these fifteen: the 48–70 EUR band already buys documented body-safe materials from real manufacturers. What the extra money buys above 90 EUR is quieter motors, app features and premium formats, not safety, which is exactly what the [premium picks](/premium-picks/) page lays out. If this is a first purchase, start at the [first-time buyer page](/first-time-buyer/); for the full field, see the [ranked 2026 picks](/best-vibrators-2026/).

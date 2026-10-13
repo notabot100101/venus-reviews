@@ -13,7 +13,7 @@ faq:
   - question: "Which G-spot vibrator is the best overall?"
     answer: "The LELO Enigma at 199 EUR holds the top rating of 4.5 because it adds external sonic stimulation to internal G-spot vibration. For a dedicated single-purpose G-spot device, the LELO Gigi 2 at 109 EUR is the focused pick at 4.0."
   - question: "What is the cheapest internal vibrator you recommend?"
-    answer: "The Lovehoney Desire rabbit at 69.99 EUR is the cheapest, rated 3.0, but several of its specifications were not documented by the manufacturer when reviewed, so confirm materials, waterproofing and warranty on the retailer page first."
+    answer: "The Fun Factory Big Boss at 49.95 EUR is the cheapest, rated 3.5, a large silicone G-spot vibrator with a published 230 x 76 x 45 mm size and 350 g weight. The cheapest dual-stimulation option is the Fun Factory Miss Bi at 53.95 EUR, also 3.5, with a published 173 x 76 x 38 mm body and 230 g."
 ---
 
 ## Best G-Spot & Internal Vibrators
@@ -36,7 +36,7 @@ This is the insertable category: devices designed for internal stimulation, usua
 | [Fun Factory Stronic Real](/products/fun-factory-stronic-real/) | Thrusting pulsator, realistic shape | 3.5 | 67.95 EUR |
 | [Fun Factory Big Boss](/products/fun-factory-big-boss/) | Large, girthy G-spot vibrator | 3.5 | 49.95 EUR |
 | [Fun Factory Miss Bi](/products/fun-factory-miss-bi/) | Rabbit (dual, value) | 3.5 | 53.95 EUR |
-| [Lovehoney Desire](/products/lovehoney-desire/) | Rabbit (internal + clitoral) | 3.0 | 69.99 EUR |
+| [Lovehoney Desire](/products/lovehoney-desire/) | Rabbit (internal + clitoral, classic) | 3.0 | 99.95 EUR |
 
 ### How to pick within the category
 
@@ -62,6 +62,6 @@ This is the insertable category: devices designed for internal stimulation, usua
 
 **If you want dual stimulation at the lowest price:** the [Fun Factory Miss Bi](/products/fun-factory-miss-bi/). A silicone rabbit with a documented 173 x 76 x 38 mm body, 230 g, IPX7, USB-C charging and 12 programmes at 53.95 EUR, though Fun Factory publishes no runtime, charge time or warranty term for it.
 
-**If you want a value rabbit:** the [Lovehoney Desire](/products/lovehoney-desire/). A mainstream dual-motor rabbit at the lowest price here, but several specifications were not documented by the manufacturer when we reviewed it, so treat materials, waterproofing and warranty as items to confirm on the retailer page before buying.
+**If you want a classic firm rabbit with a wide speed range:** the [Lovehoney Desire](/products/lovehoney-desire/). Lovehoney's own-brand rabbit in latex- and phthalate-free silicone, submersible, with 8 patterns each adjustable across 12 speeds and a 254 mm body at 99.95 EUR; Lovehoney publishes no runtime, charge time, weight or warranty term, which is why it rates 3.0.
 
 For premium internal options against the rest of the top tier, see the [premium picks](/premium-picks/); if this is a first purchase, the [first-time buyer guide](/first-time-buyer/) covers what matters, and the [best-of 2026 ranking](/best-vibrators-2026/) places all fifteen against the full catalogue. The rabbit-format devices are compared on their own [best rabbit vibrators](/best-rabbit-vibrators/) page.

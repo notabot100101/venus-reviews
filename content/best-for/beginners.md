@@ -14,19 +14,19 @@ Starting your journey doesn't mean settling for low quality. These products offe
 
 ## Our Top Beginner Picks
 
-### 1. Lovehoney Desire — Value Rabbit (verify before buying)
+### 1. Lovehoney Desire — Classic Rabbit
 
 **Evidence note:** Research-based beginner fit pick
 
-The classic rabbit format at a mid-range price, with dual motors and rechargeable power. The familiar shape makes it approachable — but Lovehoney's product page was not fully reachable during our research, so materials, waterproofing, runtime and warranty could not be verified from manufacturer sources. Our current review rates it 3.0/5 and tells buyers to verify the specification on the retailer page before purchasing.
+The classic rabbit format from Lovehoney's own brand: a firm silicone shaft with the traditional external ears, 8 vibration patterns each adjustable across 12 speeds, submersible waterproofing and a storage case that doubles as a charging box, at 99.95 EUR on Lovehoney's EU store. Lovehoney publishes no runtime, charge time, weight or warranty term, so those stay unverified.
 
 **Why it's beginner-friendly:**
-- Familiar dual-stimulation rabbit design
-- Straightforward controls
-- Rechargeable convenience at a value price
-- Wide retailer availability
+- Familiar dual-stimulation rabbit design with simple button control
+- A wide, gradual range: 12 speed steps inside each of 8 patterns
+- Rechargeable, submersible and easy to clean
+- Stated body-safe silicone, latex- and phthalate-free
 
-**The catch:** key specifications could not be verified from manufacturer documentation when reviewed — check materials, waterproofing and warranty on the current retailer page before buying.
+**The catch:** runtime, charge time, weight and warranty are not published, and a fixed-arm rabbit is the most anatomy-dependent format in the catalogue, so fit is not guaranteed.
 
 [Read Full Review](/products/lovehoney-desire/)
 

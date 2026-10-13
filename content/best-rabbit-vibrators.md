@@ -26,7 +26,7 @@ A rabbit is a dual-stimulation vibrator: an insertable shaft curved toward the G
 | [LELO Soraya Wave](/products/lelo-soraya-wave/) | Rabbit, moving WaveMotion tip | 4.0 | 199.00 EUR |
 | [LELO Ina Wave 2](/products/lelo-ina-wave-2/) | Rabbit, moving WaveMotion tip, compact | 4.0 | 199.00 EUR |
 | [Fun Factory Miss Bi](/products/fun-factory-miss-bi/) | Rabbit, value, LOOP handle | 3.5 | 53.95 EUR |
-| [Lovehoney Desire](/products/lovehoney-desire/) | Rabbit, value | 3.0 | 69.99 EUR |
+| [Lovehoney Desire](/products/lovehoney-desire/) | Rabbit, classic, firm shaft | 3.0 | 99.95 EUR |
 
 ### Documented specifications side by side
 
@@ -34,19 +34,19 @@ Every value below comes from the manufacturer's own product page as recorded in 
 
 | | [We-Vibe Nova 2](/products/we-vibe-nova-2/) | [LELO Soraya Wave](/products/lelo-soraya-wave/) | [LELO Ina Wave 2](/products/lelo-ina-wave-2/) | [Fun Factory Miss Bi](/products/fun-factory-miss-bi/) | [Lovehoney Desire](/products/lovehoney-desire/) |
 |---|---|---|---|---|---|
-| Material | body-safe silicone (phthalate/BPA/latex-free) | body-safe silicone, ABS plastic | body-safe silicone, ABS plastic | silicone, ABS plastic, polycarbonate | not documented |
-| Waterproof | IPX7 | 100% waterproof | 100% waterproof | IPX7 | not documented |
+| Material | body-safe silicone (phthalate/BPA/latex-free) | body-safe silicone, ABS plastic | body-safe silicone, ABS plastic | silicone, ABS plastic, polycarbonate | silicone |
+| Waterproof | IPX7 | 100% waterproof | 100% waterproof | IPX7 | submersible |
 | Runtime | 90 min | 120 min | 120 min | not documented | not documented |
 | Charge time | 120 min | 120 min | 120 min | not documented | not documented |
-| Intensity levels | not documented | not documented | not documented | not documented | not documented |
-| Modes / patterns | not documented | 8 | 12 | 12 | not documented |
+| Intensity levels | not documented | not documented | not documented | not documented | 12 |
+| Modes / patterns | not documented | 8 | 12 | 12 | 8 |
 | Noise | not documented | 50 dB max | not documented | not documented | not documented |
 | Weight | not documented | 185 g | 176 g | 230 g | not documented |
-| Dimensions | 217 x 85 x 39 mm | 218 x 72 x 46 mm | 200 x 65 x 45 mm | 173 x 76 x 38 mm | not documented |
+| Dimensions | 217 x 85 x 39 mm | 218 x 72 x 46 mm | 200 x 65 x 45 mm | 173 x 76 x 38 mm | not documented (254 mm length only) |
 | Warranty | 2 years | 2 years | 2 years | not documented | not documented |
-| Control | buttons and We-Vibe app | buttons on the device | 5 buttons on the device | buttons on the LOOP handle | buttons |
-| Price | 149.00 EUR | 199.00 EUR | 199.00 EUR | 53.95 EUR | 69.99 EUR |
-| Manufacturer stock | in stock when checked | in stock when checked | in stock when checked | in stock when checked | not checked at the manufacturer |
+| Control | buttons and We-Vibe app | buttons on the device | 5 buttons on the device | buttons on the LOOP handle | buttons on the base |
+| Price | 149.00 EUR | 199.00 EUR | 199.00 EUR | 53.95 EUR | 99.95 EUR |
+| Manufacturer stock | in stock when checked | in stock when checked | in stock when checked | in stock when checked | in stock when checked |
 
 ### How to pick within the category
 
@@ -58,7 +58,7 @@ Every value below comes from the manufacturer's own product page as recorded in 
 
 **If you want dual stimulation at the lowest price with real documentation:** the [Fun Factory Miss Bi](/products/fun-factory-miss-bi/). A silicone rabbit with a documented 173 x 76 x 38 mm body, 230 g, IPX7, USB-C charging and 12 programmes at 53.95 EUR, though Fun Factory publishes no runtime, charge time or warranty term.
 
-**If price is everything:** the [Lovehoney Desire](/products/lovehoney-desire/). The cheapest-rated rabbit here, but several of its specifications were not documented by the manufacturer when reviewed, so confirm materials, waterproofing and warranty on the retailer page before buying.
+**If you want a classic firm rabbit with the widest speed range:** the [Lovehoney Desire](/products/lovehoney-desire/). Lovehoney's own-brand rabbit in latex- and phthalate-free silicone, submersible, with 8 patterns each adjustable across 12 speeds and a 254 mm body with 127 mm insertable, at 99.95 EUR; Lovehoney publishes no runtime, charge time, weight or warranty term, so it rates below the better-documented rabbits.
 
 The two LELO WaveMotion rabbits are compared head-to-head in [Soraya Wave vs Ina Wave 2](/lelo-soraya-wave-vs-lelo-ina-wave-2/).
 
