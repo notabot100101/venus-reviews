@@ -1,19 +1,15 @@
 ---
 title: "Fun Factory Volta"
 seo_title: "Fun Factory Volta Review | Venus"
-seo_description: "Fun Factory Volta review covering twin-tip external stimulation, precision fit, material notes, noise, and how it compares with other flexible vibrators."
+seo_description: "Fun Factory Volta review: a twin-tip external vibrator in body-friendly, hygienic silicone with 6 speeds and 6 patterns, a fully measured 63 x 47 x 191 mm, 190 g body, IPX7 waterproofing and USB-C charging at 51.95 EUR. Specs, format and catalogue fit."
 schema_product: true
 image: "/images/products/fun-factory-volta/front.webp"
 images:
   - "/images/products/fun-factory-volta/front.webp"
-description: "Twin-tip stimulator for precise external contact and a more exploratory feel."
+description: "Twin-tip external vibrator in body-friendly, hygienic silicone, with 6 vibration speeds and 6 patterns, a fully measured 190 g, 63 x 47 x 191 mm body, IPX7 waterproofing and USB-C charging."
 sku: "fun-factory-volta"
-# VERIFIED 2026-10-12 via https://www.funfactory.com/products/volta (raw HTML spec block):
-# IPX7; 6 intensity levels; 6 pattern modes; weight 190 g; 63 x 47 x 191 mm. NOT documented:
-# runtime_min, charge_min, warranty_years, app, noise_db. Price 51.95 EUR unchanged from the
-# last check
 specs:
-  material: "body-friendly hygienic silicone"
+  material: "body-friendly, hygienic silicone"
   waterproof: "IPX7"
   runtime_min: null
   charge_min: null
@@ -21,35 +17,52 @@ specs:
   patterns: 6
   warranty_years: null
   weight_g: 190
-  dims_mm: null
+  dims_mm: "63 x 47 x 191 mm"
   app: null
   noise_db: null
 draft: false
 recoveryVersion: "2026.07.09-Phase1"
 weight: 90
 badge: "Precision Pick"
+# VERIFIED 2026-10-13 via https://www.funfactory.com/products/volta (landed URL; "Größe, Material & Mehr"
+# block plus feature list and "Zur Auswahl" panel, German, translated; products/volta.js variant data;
+# JSON-LD offers): type twin-tip external vibrator ("Aufliegevibrator"); the structured spec table gives
+# weight 190 g ("Gewicht 190 g"), length 63 mm, width 47 mm, height 191 mm ("Länge 63 mm", "Breite 47 mm",
+# "Höhe 191 mm") - the table does not include a separate Material or Farbe row; material is instead named in
+# the feature list as "Körperfreundliches, hygienisches Silikon" (body-friendly, hygienic silicone), which is
+# what this review records; colours Aquamarine, Black and Pink, consistent between the variant picker and
+# the .js/JSON-LD data, article numbers FF001001AM01 (Aquamarine), FF001001BK01 (Black) and FF001001MG01
+# (Pink); battery "Akku x 1 enthalten", rechargeable via USB-C per the feature list ("Wiederaufladbar via
+# USB-C"); waterproof "Wasserdicht (IPX7)" in the feature list and a product badge, with no contradicting
+# cleaning-FAQ language found on this page (unlike the VIM page); "6 Vibrationsmuster treffen auf 6
+# Geschwindigkeiten" (6 patterns meet 6 speeds), recorded as levels: 6, patterns: 6. Price 51.95 EUR
+# (og:price:amount "51,95" EUR; .js price 5195 cents, compare_at_price 0, so no discount; JSON-LD offers
+# confirm 51.95 EUR for all three variants); Aquamarine, Black and Pink all available: true (InStock in
+# JSON-LD) when checked. NOT documented: runtime, charge time, warranty term, noise level in dB, app or
+# remote control.
+# Image: unchanged (existing verified image kept).
 price: "51.95"
-price_checked: "2026-08-06"
-best_for: "Precise external contact"
+price_checked: "2026-10-13"
+best_for: "Precise, split-tip external contact with a fully documented spec sheet"
 noise: "Medium noise"
 rating: 4.0
-rating_note: "Well-documented precision twin-tip design (6 speeds, 6 patterns, IPX7, named silicone), but runtime, charge time and warranty were not documented, and the shape needs a learning curve."
+rating_note: "A fully measured 190 g, 63 x 47 x 191 mm twin-tip external vibrator in body-friendly, hygienic silicone, with a documented 6-speed, 6-pattern motor, IPX7 waterproofing and USB-C charging, and all three colourways in stock when checked - held to 4.0 because runtime, charge time, warranty and noise are not documented, and the twin-tip shape carries a real learning curve."
 pros:
-  - "Twin-tip fluttering design offers genuinely different contact styles"
-  - "Documented 6 speeds, 6 patterns, USB-C, IPX7 and hygienic silicone"
-  - "LOOP handle with ribbed grip helps hold a steady angle"
-  - "Narrower, more targeted profile than Manta's flexible wings"
+  - "Fully measured 190 g, 63 x 47 x 191 mm body, with a documented 6-speed, 6-pattern motor"
+  - "Twin-tip, fluttering design offers genuinely different contact styles from a standard external vibrator"
+  - "IPX7 waterproof and USB-C rechargeable, with an ergonomic, ribbed LOOP handle for grip"
+  - "All three colourways - Aquamarine, Black and Pink - were in stock from the manufacturer when checked"
 cons:
-  - "Runtime, charge time and warranty term are not documented by the manufacturer"
-  - "Unusual shape with a real learning curve"
-  - "Split-tip contact is not what everyone wants - no broad wand coverage"
-  - "Handled toy is less pocketable than a mini vibrator"
+  - "Runtime, charge time and warranty term are not documented on the product page"
+  - "No decibel noise figure is published - Venus's own noise label here is a general estimate, not a manufacturer figure"
+  - "Split-tip contact is not what every buyer wants, and the unusual shape has a real learning curve"
+  - "A handled toy is less pocketable than a mini vibrator"
 offers:
   - retailer: "Fun Factory (manufacturer)"
     url: "https://www.funfactory.com/products/volta"
     price: 51.95
     currency: "EUR"
-    checked: "2026-08-06"
+    checked: "2026-10-13"
     available: true
   - retailer: "Amazon"
     url: ""
@@ -83,52 +96,60 @@ offers:
     available: true
 ---
 
-Fun Factory Volta is a precision external pick. Its defining feature is the twin-tip, fluttering shape: more targeted than Manta's flexible wings, more exploratory than a bullet, and less broad than a wand. It is best framed as a control-focused external vibrator for shoppers who want to vary pressure, angle, and contact style.
+Fun Factory Volta is a precision external vibrator built around a twin-tip, fluttering shape rather than a single point of contact or a broad wand head. Fun Factory's "Größe, Material & Mehr" block documents a 190 g, 63 x 47 x 191 mm body in body-friendly, hygienic silicone, 6 vibration speeds and 6 patterns, IPX7 waterproofing and USB-C charging, controlled through a ribbed LOOP handle meant to hold even with wet or lubricated hands.
 
-This review is based on Fun Factory's published Volta product page, the current product catalogue, and patterns in published user feedback for precision external vibrators.
+Venus has not physically tested this product. This review is based on Fun Factory's official Volta product page, its "Material & Mehr" specification block and its published variant data, checked on 13 October 2026. Where Fun Factory does not document something, this page says so rather than filling the gap.
 
 ## Quick Verdict
 
-Volta is easier to recommend than many unusual shapes because Fun Factory documents several meaningful basics: 6 vibration patterns, 6 speeds, USB-C rechargeability, IPX7 waterproofing, an ergonomic LOOP handle with ribbed grip, and body-friendly hygienic silicone. It still is not the most familiar shape, and the twin tips will not suit everyone, but the spec transparency is better than Manta's visible page.
+Volta suits someone who wants precise, variable external contact rather than a fixed point of stimulation or broad wand coverage: two silicone tips can be used together, apart, or against different spots, and 6 speeds plus 6 patterns give real room to vary the feel. Fun Factory documents a fully measured 190 g, 63 x 47 x 191 mm body in body-friendly, hygienic silicone, IPX7 waterproofing and USB-C charging, at 51.95 EUR with all three colourways - Aquamarine, Black and Pink - in stock when checked. Against that, no runtime, charge time, warranty term or noise figure is published, and the twin-tip shape is less immediately familiar than a bullet or a conventional lay-on vibrator.
 
-This is a good shortlist pick for shoppers who want precise external contact and enjoy experimenting. It is less suitable for buyers who want broad pressure, internal stimulation, or a toy that requires no learning curve.
+## Format and Who It Is For
+
+Volta is a lay-on external vibrator distinguished by its two flexible, fluttering silicone tips rather than a single contact surface. Fun Factory's feature list frames it as a clitoris vibrator first, with the tips placeable on either side of the clitoris, above it, spread along the labia, or with one tip near the vaginal entrance - the page explicitly invites experimentation with placement. A ribbed LOOP handle, shared with the [Big Boss](/products/fun-factory-big-boss/) and [Miss Bi](/products/fun-factory-miss-bi/), gives a secure grip for holding a steady angle.
+
+It suits buyers who enjoy varying pressure, angle and contact style and are comfortable with a shape that takes a little longer to learn than a standard external vibrator. It is less suitable for anyone who wants broad-surface wand coverage, simple pinpoint bullet stimulation, or a device with no learning curve at all, and for anyone who specifically needs a documented runtime or warranty before buying.
 
 ## Documented Specifications
 
-Per Fun Factory's published Volta product JSON at `https://www.funfactory.com/products/volta.js`, Volta is titled "VOLTA" and typed as an external vibrator. The description documents 6 vibration patterns and 6 speeds. It also says Volta provides fluttering stimulation for the clitoris or vagina, is rechargeable via USB-C, is waterproof to IPX7, has an ergonomic LOOP handle with ribbed structure for grip, and uses body-friendly hygienic silicone.
+Fun Factory's "Größe, Material & Mehr" block lists the following, verified on 13 October 2026:
 
-The product data lists Aquamarine, Black, and Pink variants, with SKUs including `FF001001AM01`, `FF001001BK01`, and `FF001001MG01`. It lists a variant weight of 190 g (product-feed or shipping weight, not necessarily toy weight). Exact dimensions, battery capacity, runtime, charge time, sound level, and warranty term were not documented by the manufacturer in the available data.
+- Weight: 190 g
+- Length: 63 mm
+- Width: 47 mm
+- Height: 191 mm
+- Material: the structured spec table does not carry a separate Material row for this product; the feature list instead names "Körperfreundliches, hygienisches Silikon" (body-friendly, hygienic silicone), used here as the documented material statement
+- Colour: Aquamarine, Black and Pink, consistent between the variant picker and the published variant data, article numbers FF001001AM01, FF001001BK01 and FF001001MG01
+- Battery: one rechargeable battery ("Akku x 1 enthalten"), charged over USB-C per the feature list ("Wiederaufladbar via USB-C")
+- Waterproof: yes, IPX7 ("Wasserdicht (IPX7)"), stated consistently in the feature list and a product badge with no contradicting language elsewhere on the page
+- Vibration: 6 speeds and 6 patterns ("6 Vibrationsmuster treffen auf 6 Geschwindigkeiten")
 
-The documented USB-C detail is worth separating from generic "rechargeable" language. USB-C is easier to replace than proprietary magnetic pins and is a practical advantage for travel or shared charging setups, but it does not tell buyers how long Volta runs between charges. The IPX7 rating is also meaningful but bounded: it supports water-safe cleaning and bath/shower confidence within the rating, not indefinite soaking or storage while wet.
+Not documented: runtime, charge time, noise level in decibels, warranty term, app or remote control.
 
-## Materials and Body-Safety Notes
+## Materials, Waterproofing and Cleaning
 
-Volta's visible material documentation is stronger than Manta's because the manufacturer description specifically names body-friendly hygienic silicone. For a buyer, that supports the basic non-porous contact-material case. Buyers looking for details like medical-grade silicone or phthalate-free construction should check Fun Factory's current product documentation.
+The tips and body are body-friendly, hygienic silicone over a handle that houses the controls. Silicone is non-porous and suitable for external use when cleaned correctly; water-based lubricant is the conservative choice, since silicone-based lubricant can degrade a silicone toy's surface. The IPX7 rating means Volta can be rinsed under running water with mild soap or a toy cleaner and used in the bath or shower, and unlike the [VIM](/products/fun-factory-vim/) page, no FAQ language on this page contradicts that waterproofing claim.
 
-The twin tips and loop handle affect cleaning. The tips create edges where lubricant can collect, and the ribbed handle can hold residue if cleaned quickly. IPX7 waterproofing makes a careful rinse more practical than with splashproof-only toys. Dry the space between the tips and around the handle texture before storing.
+The twin-tip design and ribbed handle create more surface detail than a smooth external vibrator, which means more places for lubricant residue to collect. Pay particular attention to the gap between the tips and the texture of the handle grip, and dry both fully before storage.
 
-The LOOP handle is not just visual branding. For a precision toy, grip changes how easy it is to hold a steady angle without pressing too hard. That matters for buyers with hand fatigue or anyone who dislikes tiny bullet controls. The tradeoff is size: a handled toy is less pocketable than a mini vibrator.
+## Battery and Warranty
 
-Water-based lubricant remains the conservative default. Silicone lubricant can be risky with silicone toys unless the manufacturer explicitly says it is compatible.
+Volta runs on a built-in rechargeable battery over USB-C, so any standard cable works. That is where the documentation stops: no runtime or charge time is published for this model, and no warranty term appears on the page, a gap shared by the [VIM](/products/fun-factory-vim/) and [Manta](/products/fun-factory-manta/) pages. Buyers who want a specific battery life or a warranty window should check Fun Factory's manual or ask the retailer first.
 
-## Published Feedback Synthesis
+## In the Catalogue
 
-Published feedback on Volta-style toys usually highlights precision and variety. Users who like them appreciate being able to use both tips together, one tip alone, or the space between tips for a different contact feel. The 6 speeds and 6 patterns matter because the shape invites experimentation rather than one fixed use.
+### Volta vs. the Fun Factory externals
 
-The negatives are also predictable. Some buyers do not want fluttering or split-tip contact; they want broad pressure from a wand or simple pinpoint stimulation from a bullet. Others find that unusual shapes take more time to learn. A product can be well made and still be wrong for someone who wants obvious placement and immediate familiarity.
+Within Fun Factory's own range, Volta sits between the smaller [Laya III](/products/fun-factory-laya-iii/) (85 g, 32.95 EUR, 7 speeds, 3 patterns) and the larger [Manta](/products/fun-factory-manta/) (287 g, 48.95 EUR, 6 speeds, 6 patterns, currently out of stock at the manufacturer): Volta is the more targeted, precision-focused shape, where Manta is built for broader wraparound contact and Laya III for simple palm-held use. The [VIM](/products/fun-factory-vim/) wand (437 g, 66.95 EUR) is a different format entirely, built for broad-surface massage rather than pinpoint control.
 
-## Catalogue Comparisons
+### Volta vs. other precision external vibrators
 
-Volta is the sharper counterpart to Fun Factory Manta. Manta is better for flexible wraparound contact; Volta is better for targeted external control. Dame Eva II is the wearable couples alternative, but it gives up handheld precision. Womanizer Premium 2 is the air-pulse alternative for shoppers who want focused clitoral stimulation without direct vibration.
+On the [best mini & bullet vibrators](/best-mini-vibrators/) page, Volta's closest comparisons are toys built around a distinctive contact shape rather than a simple bullet tip. Volta's documentation advantage is its fully measured dimensions and weight and its consistent IPX7 claim; its gap, shared with most of the Fun Factory catalogue reviewed here, is the missing runtime, charge time and warranty figures that some competitors publish.
 
-Compared with LELO Sona 2, Volta is more tactile and shape-driven. Compared with LELO Mona 2, it is external and exploratory rather than insertable and G-spot focused. Compared with Lovehoney Desire, it avoids rabbit-fit issues but does not provide simultaneous internal stimulation.
+### Volta among the Fun Factory range
 
-## Who Should Buy It
+Across the Fun Factory models Venus has reviewed, Volta is the only one with a genuinely split-tip contact surface, distinct from the [Big Boss](/products/fun-factory-big-boss/) G-spot vibrator, the wand-format [VIM](/products/fun-factory-vim/), and the flexible-wing [Manta](/products/fun-factory-manta/). The full line-up is on the [Fun Factory reviews hub](/fun-factory-reviews/).
 
-Choose Volta if you want a silicone external vibrator with documented speeds, patterns, USB-C rechargeability, and waterproofing. It is especially good for shoppers who like precise pressure and want a distinctive shape without moving into app-connected or air-pulse categories.
+## Value Position
 
-Skip it if you want a broad wand, a simple bullet, insertable stimulation, documented runtime, or a product with no learning curve. Also skip it if split-tip contact sounds distracting rather than appealing.
-
-## Ownership Notes
-
-Because runtime and charge time were not documented by the manufacturer in the visible data, charge before planned use and keep the USB-C cable accessible. Clean carefully between the tips and around the ribbed handle. Check the retailer page for warranty handling, because the available manufacturer data did not document a warranty term.
+At 51.95 EUR direct from the manufacturer, with no discount and all three colourways in stock when checked, Volta sits in the mid-range of Fun Factory's external vibrators and qualifies for the [budget picks](/budget-picks/) page alongside the brand's other sub-60 EUR devices. The price buys a fully measured, IPX7, USB-C-rechargeable vibrator with a documented 6-speed, 6-pattern motor and a genuinely distinctive twin-tip shape. It does not buy a documented runtime, charge time, warranty or decibel noise figure. It rates 4.0, reflecting solid size, material and motor documentation offset by the missing battery and warranty figures and a shape that needs a short learning curve. Buyers weighing format first should start with the [catalogue overview](/best-vibrators-2026/).
