@@ -17,6 +17,25 @@
 # Usage: deploy-version-to-production.sh <version> [--apply]
 set -euo pipefail
 
+# ---------------------------------------------------------------------------
+# SUPERSEDED 2026-10-17 — refuses to run. Kept for reference only.
+#
+# This was the one-shot that shipped the best-of design on 2026-07-30 and it has
+# rotted in two ways that make running it today actively harmful or impossible:
+#   - BASE_URL below is the OLD domain. Production moved to
+#     https://venusreviews.net/ (reviews.ultramarine963.com now 301s there);
+#     building with the old baseURL would point every canonical URL, og:url and
+#     sitemap entry at the redirecting domain.
+#   - SRC points at workspaces/venus-versions/, which was destroyed 2026-08-08.
+# Current production deploys go through the newer flow (see the recent
+# "deploy: ... (<source-sha>)" commits on hostinger-deploy). If a future
+# whole-design promotion needs this pattern again, fix the domain and source
+# path first, then remove this block deliberately.
+echo "ERROR: deploy-version-to-production.sh is superseded (2026-10-17) and refuses to run." >&2
+echo "       See the comment block at the top of this script for why and what replaced it." >&2
+exit 1
+# ---------------------------------------------------------------------------
+
 VERSION="${1:?usage: deploy-version-to-production.sh <version> [--apply]}"
 APPLY="${2:-}"
 REPO=/home/paul/.openclaw/workspaces/worker/venus-site

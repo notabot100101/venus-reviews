@@ -8,12 +8,15 @@
 # bridge - see directives/site-project-repo-policy.md, "Known gap".
 #
 # Usage: promote-version.sh <version-name> <agent-workspace> <deploy-target>
-#   <deploy-target> is either a branch name (whole-subdomain deploy) or
-#   "preview:<subpath>" to publish into a subfolder of the preview gallery.
+#   <deploy-target> is "preview:<subpath>" — publish into a subfolder of the
+#   preview gallery. The former whole-subdomain targets (dev, staging) were
+#   retired 2026-10-17: their branches and hPanel connections no longer exist.
+#   Note preview deliberately stays on preview.reviews.ultramarine963.com even
+#   though production moved to venusreviews.net — that subdomain is still the
+#   live preview host.
 #
-# Examples:
+# Example:
 #   promote-version.sh data-driven planner preview:data-driven
-#   promote-version.sh keep-current-polish worker dev
 set -euo pipefail
 
 VERSION="${1:?usage: promote-version.sh <version> <agent-workspace> <deploy-target>}"
@@ -69,10 +72,12 @@ case "$TARGET" in
     BASE_URL="https://preview.reviews.ultramarine963.com/$SUBPATH/"
     BRANCH="preview"
     ;;
-  dev)     BASE_URL="https://dev.reviews.ultramarine963.com/";     BRANCH="dev" ;;
-  staging) BASE_URL="https://staging.reviews.ultramarine963.com/"; BRANCH="staging" ;;
+  dev|staging)
+    echo "ERROR: target '$TARGET' was retired 2026-10-17 - its branch and hPanel connection no longer exist. Use preview:<subpath>." >&2
+    exit 1
+    ;;
   *)
-    echo "ERROR: unrecognised deploy target '$TARGET'." >&2
+    echo "ERROR: unrecognised deploy target '$TARGET' (only preview:<subpath> is live)." >&2
     exit 1
     ;;
 esac
