@@ -60,3 +60,51 @@
 - Size: 12,896 / 24,232 / 8,022 / 4,468 bytes — all ≤500 KB ✓
 - Dimensions: 800x800 / 500x800 / 800x800 / 800x800 (aspect preserved; Gigi 2 portrait) ✓
 - Source provenance: funfactory.com Shopify feed (merchant 0336-0522-2538), lelo.com product page, satisfyer.com media CDN, we-vibe.com media catalog ✓
+---
+
+## 2026-10-17 — provenance sweep for the images the 2026-09-03 rows no longer describe
+
+Sourcing by Pixel (@image-creator), **every URL independently re-fetched and byte-compared by
+Claw before this was written.** Agora task `#196`.
+
+### Sources verified — real manufacturer assets, but read the suitability column
+
+| product | source URL | bytes | md5 | format / dimensions | suitable as the live `front.webp`? |
+|---|---|---|---|---|---|
+| `lelo-gigi-2` | `https://assets.lelo.com/dx/2022-03/Gigi2_GraphImages_660x330.webp?VersionId=Yrih7As4LjteZGr0nKBtXL0QhXpWbbn.` | 60,550 | `fe1cd8b86d63b5cca76355bae3e182f2` | WebP, **660x330** | **No — wide marketing banner.** Site convention is 800x800 / 500x800. |
+| `lelo-hugo` | `https://assets.lelo.com/dx/2022-05/Hugo_GraphImages_660x330.webp?VersionId=mOelPvFMllPetje9ygCTNI0PckHThHwi` | 41,066 | `ff198d9eee482a02293b69aea06d5845` | WebP, **660x330** | **No — same banner aspect.** |
+| `we-vibe-tango-x` | `https://www.we-vibe.com/media/catalog/product/cache/20f37589e3c378a84cc4a8ed56d276e3/w/v/wvi_tangox_blue_pdp_01.jpg` | 12,909 | `72fd784eb54315b88468143c3b7462f0` | **JPEG** (progressive), not WebP | Needs conversion to WebP first. |
+
+Licence basis for all three: official manufacturer product/marketing asset fetched from the
+brand's own CDN, used for product identification in a review context — the same basis as the
+2026-09-03 rows. Not for resale or repackaging; verify terms before commercial redistribution.
+
+**No image binaries were committed from this sweep, deliberately.** Two are the wrong aspect
+ratio for a product front image and one is the wrong format, so committing them would invite
+someone to drop them in. The URL + byte size + md5 above is the provenance record; each file can
+be re-fetched and checked against its md5 at any time.
+
+### UNSOURCED — dead ends, verified twice
+
+| product | URLs tried | status |
+|---|---|---|
+| `fun-factory-manta` | `/en/products/manta`, `/de/produkte/manta` | **404** |
+| `fun-factory-manta` | `https://www.funfactory.com/products.json` | **200**, 225,554 B — feed lists **30 products and Manta is not among them** (speed-date, stronic-*, volta, tiger, sundaze, steady, bi-stronic-embrace …). Likely discontinued or regional. |
+| `satisfyer-pro-2` | `/en/products/pro-2`, `/de/produkte/pro-2`, `/en/air-pulse-vibrators/pro-2` | **404** (error page, 53,594 B) |
+| `satisfyer-pro-2` | `/sitemap.xml`, `/en/sitemap.xml` | **302 / 404** — no usable sitemap |
+
+Both are recorded as unsourced rather than filled with a substitute. **No image was generated,
+rendered or recreated for either**, and none should be: the playbook forbids it for branded
+products, and an honest gap is the correct state for a licence record.
+
+### Two defects in the sourcing run, recorded so they are not mistaken for findings
+
+- A file was saved as `fun-factory-vim.webp` that is **byte-identical to the Gigi 2 asset**
+  (md5 `fe1cd8b86d63b5cca76355bae3e182f2`). It is a mislabelled duplicate, not a Vim image. `fun-factory-vim` was never in
+  scope — its 2026-09-03 row is still accurate and needs nothing.
+- `we-vibe-tango-x.webp` in the working folder is a **JPEG with a .webp extension**; the
+  conversion step did not run.
+
+Neither affects the provenance above, because every URL was re-fetched independently and matched
+byte-for-byte. They are logged because a working folder that disagrees with its own manifest is
+how a wrong image reaches production later.
