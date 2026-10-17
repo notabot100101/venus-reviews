@@ -7,6 +7,9 @@ RewriteRule ^(.*)$ https://venusreviews.net/$1 [R=301,L]
 # www -> apex (added 2026-09-18: www served a duplicate 200 copy of the site)
 RewriteCond %{HTTP_HOST} ^www\.venusreviews\.net$ [NC]
 RewriteRule ^(.*)$ https://venusreviews.net/$1 [R=301,L]
+# venusreviews.com -> .net 301 (Paul chose .net canonical 2026-10-17; preserves path/slugs)
+RewriteCond %{HTTP_HOST} ^(www\.)?venusreviews\.com$ [NC]
+RewriteRule ^(.*)$ https://venusreviews.net/$1 [R=301,L]
 DirectoryIndex index.html
 Options -Indexes
 
