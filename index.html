@@ -27,7 +27,17 @@
 <section class="sect" id="newsletter"><div class="wrap">
 <h2>Grid Bot Weekly</h2>
 <p class="note">Mondays, under 400 words: the week's testnet A/B result, the real-money bots' fills, what we changed, what we test next. Double opt-in, unsubscribe in every mail.</p>
-<p class="placeholder">Newsletter signup opens once our privacy notice covers it. Until then, nothing is collected on this site.</p>
+<p class="placeholder" id="newsPlaceholder">Newsletter signup opens once our privacy notice covers it. Until then, nothing is collected on this site.</p>
+<!-- Form stays hidden until subscribe.php reports Brevo is configured (503 until ../brevo-config-trade.php
+     exists on the server). Double opt-in: nothing is stored before the subscriber confirms by email (Agora #53, D2). -->
+<form class="signup" id="newsForm" hidden novalidate action="/subscribe.php" method="post">
+<label for="newsEmail" class="note">Your email. One confirmation mail first; unsubscribe in every issue. See <a href="/datenschutz.html#newsletter">Datenschutz</a>.</label>
+<input id="newsEmail" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required>
+<input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+<button type="submit">Send me Grid Bot Weekly</button>
+</form>
+<p class="note" id="newsOk" hidden>Almost there: we sent you an email. Click the link in it to confirm, and you are on the list.</p>
+<p class="note" id="newsErr" hidden>That did not work just now. Please try again in a moment.</p>
 </div></section>
 
 <section class="sect"><div class="wrap">
@@ -44,4 +54,26 @@
 <p><a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz / Privacy</a> · <a href="https://ultramarine963.com/">ultramarine963.com</a></p>
 <p>&copy; 2026 Paul Budzisch. No cookies, no tracking.</p>
 </div></footer>
+<script>
+// Newsletter: reveal the form only when subscribe.php says Brevo is configured
+// (503 = no config on the server yet; 422 for an empty probe = configured).
+(function(){
+  var f=document.getElementById('newsForm'),ok=document.getElementById('newsOk'),err=document.getElementById('newsErr'),
+      ph=document.getElementById('newsPlaceholder'),em=document.getElementById('newsEmail');
+  if(!f)return;
+  if(new URLSearchParams(location.search).get('subscribed')==='1'){ph.textContent='Confirmed. Thank you, the next Grid Bot Weekly lands on Monday.';return;}
+  fetch('/subscribe.php',{method:'POST',body:new FormData()}).then(function(r){
+    if(r.status===503)return;
+    ph.hidden=true;f.hidden=false;
+    f.addEventListener('submit',function(ev){
+      ev.preventDefault();err.hidden=true;
+      if(!em.value||em.validity.typeMismatch){em.focus();return;}
+      var btn=f.querySelector('button');btn.disabled=true;
+      fetch('/subscribe.php',{method:'POST',body:new FormData(f)}).then(function(r2){
+        if(r2.ok){f.hidden=true;ok.hidden=false;}else{err.hidden=false;btn.disabled=false;}
+      }).catch(function(){err.hidden=false;btn.disabled=false;});
+    });
+  }).catch(function(){});
+})();
+</script>
 </body></html>
