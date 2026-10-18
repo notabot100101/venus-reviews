@@ -1,28 +1,27 @@
 /*
  * Cookie-consent banner + Google Analytics 4 loader for the Grid Bot trade site.
  *
- * DARK / NOT INSTALLED until BOTH are true:
- *   1. GA4_ID below is set to Paul's real measurement id (Google Analytics > Admin >
- *      Data streams > the trade.ultramarine963.com stream, the "G-XXXXXXXXXX" value).
- *   2. Paul has said "install GA4" and the branch is merged + deployed.
- * While GA4_ID is empty (or the placeholder), this file does NOTHING: no banner, no cookie,
- * no network call, so the site keeps its "no cookies, no tracking" promise.
+ * ARMED 2026-10-18 on Paul's "install GA4" with measurement id G-XG7R0ZNQ4R (a GA4
+ * measurement id is public in page source). Still DARK because this branch is UNMERGED:
+ * it goes live only when the branch is merged + deployed, which waits for Lex's banner
+ * text and the Datenschutz GA4 section (board task #362). If GA4_ID is emptied, this file
+ * does NOTHING: no banner, no cookie, no network call.
  *
  * Compliance (TTDSG section 25 + GDPR): GA4 sets cookies, so it loads ONLY after the visitor
  * clicks Accept. Declining (or ignoring) the banner loads nothing. The choice is stored in
  * localStorage (strictly necessary, not a cookie) so the banner is not shown again.
  *
- * STILL TO DO before go-live (do NOT invent these -- see README-ga4.md):
+ * STILL TO DO before this branch is merged (do NOT invent these -- see README-ga4.md):
  *   - Replace the [Lex] banner text below with Lex's approved wording.
- *   - Lex's GA4 section must be in datenschutz.html (anchor id="analytics") and the footer
- *     "No cookies, no tracking." line reworded, in the SAME commit that sets GA4_ID.
- *   - Add  <script src="/consent.js" defer></script>  to every page's <head>.
+ *   - Add Lex's GA4 section to datenschutz.html (anchor id="analytics"), add the
+ *     <script src="/consent.js" defer></script> include to the home page (index.php after the
+ *     Brevo branch merges) and datenschutz.html, and reword their footer line, in the same merge.
  */
 (function () {
   'use strict';
 
-  // <-- PLACEHOLDER. Empty = inert. Paste Paul's "G-XXXXXXXXXX" here to arm (only on "install GA4").
-  var GA4_ID = '';
+  // Public GA4 measurement id. Armed on "install GA4". Empty = inert.
+  var GA4_ID = 'G-XG7R0ZNQ4R';
 
   // Do nothing at all unless a real measurement id is present.
   if (!/^G-[A-Z0-9]{6,}$/.test(GA4_ID)) { return; }
