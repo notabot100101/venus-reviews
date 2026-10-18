@@ -4,7 +4,7 @@
  *
  * Config lives OUTSIDE the webroot, never in the repo, survives git deploys:
  *   ../brevo-config-trade.php  (next to this subdomain's docroot; create in hPanel File Manager or SSH)
- * Until it exists this endpoint answers 503 and index.html keeps its placeholder text,
+ * Until it exists this endpoint answers 503 and index.php keeps its placeholder text,
  * so deploying this file changes nothing user-visible on its own.
  *
  *   <?php return [
@@ -16,6 +16,10 @@
  *
  * Only /contacts/doubleOptinConfirmation is called: Brevo sends the confirmation mail and the
  * address joins the list after the click (Agora #53, decision D2). Nothing is stored here.
+ *
+ * Attribution: an optional "source" field (set server-side in index.php from utm_source /
+ * utm_campaign) is forwarded as the Brevo text contact attribute SOURCE. The account must have
+ * a contact attribute named SOURCE (type Text); a plain signup with no source omits it entirely.
  */
 header('Content-Type: application/json; charset=utf-8');
 header('Cache-Control: no-store');
@@ -46,12 +50,20 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
   exit;
 }
 
-$payload = json_encode([
+// Arrival channel for attribution; sanitised again here in case of a direct POST.
+$source = preg_replace('/[^A-Za-z0-9 ._\/-]/', '', trim($_POST['source'] ?? ''));
+$source = substr($source, 0, 80);
+
+$contact = [
   'email'          => $email,
-  'includeListIds' => [(int)$cfg['list_id']],
-  'templateId'     => (int)$cfg['template_id'],
+  'includeListIds' => [(int) $cfg['list_id']],
+  'templateId'     => (int) $cfg['template_id'],
   'redirectionUrl' => $cfg['redirect'],
-]);
+];
+if ($source !== '') {
+  $contact['attributes'] = ['SOURCE' => $source];
+}
+$payload = json_encode($contact);
 
 $ch = curl_init('https://api.brevo.com/v3/contacts/doubleOptinConfirmation');
 curl_setopt_array($ch, [
