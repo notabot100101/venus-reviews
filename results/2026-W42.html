@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026-W42 — Grid Trading Bot</title>
+<meta name="description" content="Grid Trading Bot evaluation for 2026-W42: testnet A/B results, gate table, real-money bot count.">
+<link rel="canonical" href="https://trade.ultramarine963.com/results/2026-W42.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header><div class="wrap"><a class="mark" href="/">GRID<span>BOT</span></a>
+<nav><a href="/results/">Results</a><a href="/method.html">Method</a><a href="/offer.html">Offer</a><a href="/faq.html">FAQ</a></nav></div></header>
+<main>
+<section class="sect"><div class="wrap">
+<h2>2026-W42 · regular run 2026-10-18</h2>
+<p class="note">Testnet A/B evaluation from the regular Sunday run only. All performance numbers below are testnet numbers; real-money detail is limited to the public-cleared bot count.</p>
+<h3>Gate result</h3>
+<p>0 testnet experiments meet all five criteria. 28 EUR pairs are currently represented on testnet. Losers, insufficient-evidence rows, and overfit flags stay visible.</p>
+<table><tr><th>Experiment</th><th>Criteria</th><th>Testnet fills</th><th>Realized drawdown</th><th>Verdict</th></tr>
+<tr><td>WINEUR:new_pair_candidate</td><td>3/5</td><td>26</td><td>0.2538%</td><td>insufficient_evidence</td></tr>
+<tr><td>ATOMEUR:new_pair_candidate</td><td>4/5</td><td>38</td><td>0.5996%</td><td>insufficient_evidence</td></tr>
+<tr><td>WLDEUR:new_pair_candidate</td><td>4/5</td><td>30</td><td>2.6002%</td><td>insufficient_evidence</td></tr>
+<tr><td>ADAEUR:new_pair_candidate</td><td>4/5</td><td>33</td><td>1.0509%</td><td>insufficient_evidence</td></tr>
+<tr><td>ETHEUR:tier_count</td><td>3/5</td><td>15</td><td>0.0098%</td><td>insufficient_evidence</td></tr>
+<tr><td>DOGEEUR:spacing</td><td>3/5</td><td>8</td><td>0.0539%</td><td>insufficient_evidence</td></tr>
+<tr><td>BTCEUR:position_size</td><td>3/5</td><td>4</td><td>0.0%</td><td>insufficient_evidence</td></tr>
+<tr><td>DOTEUR:new_pair_candidate</td><td>3/5</td><td>27</td><td>0.7767%</td><td>insufficient_evidence</td></tr>
+<tr><td>BTCEUR:sma_days</td><td>0/5</td><td>6</td><td>n/a</td><td>insufficient_evidence</td></tr>
+<tr><td>SHIBEUR:new_pair_candidate</td><td>3/5</td><td>5</td><td>0.0%</td><td>insufficient_evidence</td></tr>
+<tr><td>SUIEUR:new_pair_candidate</td><td>3/5</td><td>12</td><td>0.0%</td><td>insufficient_evidence</td></tr>
+<tr><td>ICPEUR:new_pair_candidate</td><td>2/5</td><td>16</td><td>0.5309%</td><td>insufficient_evidence</td></tr>
+<tr><td>PEPEEUR:new_pair_candidate</td><td>3/5</td><td>22</td><td>0.2379%</td><td>insufficient_evidence</td></tr>
+<tr><td>LINKEUR:new_pair_candidate</td><td>3/5</td><td>14</td><td>0.0568%</td><td>insufficient_evidence</td></tr>
+<tr><td>POLEUR:new_pair_candidate</td><td>3/5</td><td>15</td><td>0.0978%</td><td>insufficient_evidence</td></tr>
+<tr><td>AVAXEUR:new_pair_candidate</td><td>3/5</td><td>14</td><td>0.5106%</td><td>insufficient_evidence</td></tr>
+<tr><td>NEAREUR:new_pair_candidate</td><td>4/5</td><td>30</td><td>1.2999%</td><td>insufficient_evidence</td></tr>
+<tr><td>EGLDEUR:new_pair_candidate</td><td>2/5</td><td>16</td><td>0.4027%</td><td>insufficient_evidence</td></tr>
+<tr><td>APTEUR:new_pair_candidate</td><td>4/5</td><td>32</td><td>0.2845%</td><td>insufficient_evidence</td></tr>
+<tr><td>XLMEUR:new_pair_candidate</td><td>2/5</td><td>8</td><td>0.3231%</td><td>insufficient_evidence</td></tr>
+<tr><td>SOLEUR:spacing</td><td>2/5</td><td>8</td><td>0.2016%</td><td>insufficient_evidence</td></tr>
+<tr><td>SEUR:new_pair_candidate</td><td>2/5</td><td>22</td><td>0.4519%</td><td>insufficient_evidence</td></tr>
+<tr><td>RENDEREUR:new_pair_candidate</td><td>3/5</td><td>16</td><td>0.1851%</td><td>insufficient_evidence</td></tr>
+<tr><td>BCHEUR:new_pair_candidate</td><td>3/5</td><td>15</td><td>0.0053%</td><td>insufficient_evidence</td></tr>
+<tr><td>LTCEUR:new_pair_candidate</td><td>2/5</td><td>7</td><td>0.248%</td><td>insufficient_evidence</td></tr>
+<tr><td>XRPEUR:new_pair_candidate</td><td>3/5</td><td>5</td><td>0.0417%</td><td>insufficient_evidence</td></tr>
+<tr><td>BNBEUR:position_size</td><td>0/5</td><td>3</td><td>n/a</td><td>insufficient_evidence</td></tr>
+<tr><td>VETEUR:new_pair_candidate</td><td>0/5</td><td>1</td><td>n/a</td><td>insufficient_evidence</td></tr>
+</table>
+<h3>Walk-forward flags (7-day train / 7-day test, simulated)</h3>
+<table><tr><th>Pairs</th><th>Flag</th><th>Note</th></tr>
+<tr><td colspan="3">Walk-forward verdicts are not in the regular Sunday A/B JSON, so this table is not rendered for generated pages.</td></tr>
+</table>
+<p class="note">Walk-forward is a backtest on recent candles. It is weak evidence and independent of the testnet trades.</p>
+<h3>Real money</h3>
+<p>3 real-money bots are enabled. Public reporting intentionally excludes amounts, caps, PnL, order details, cron times, and infrastructure details.</p>
+<h3>Decision</h3>
+<p>Nothing is promoted automatically. Promotion to real money remains Paul's explicit decision after review.</p>
+</div></section>
+</main>
+<footer><div class="wrap">
+<p class="risk">This site documents software we build and test. It is not investment advice, we do not manage anyone's money, and testnet results do not predict live performance. Crypto trading can lose your whole stake.</p>
+<p><a href="/impressum.html">Impressum</a> · <a href="/datenschutz.html">Datenschutz / Privacy</a> · <a href="https://ultramarine963.com/">ultramarine963.com</a></p>
+<p>&copy; 2026 Paul Budzisch. No cookies, no tracking.</p>
+</div></footer>
+</body></html>
