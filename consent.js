@@ -12,7 +12,6 @@
  * localStorage (strictly necessary, not a cookie) so the banner is not shown again.
  *
  * STILL TO DO before this branch is merged (do NOT invent these -- see README-ga4.md):
- *   - Replace the [Lex] banner text below with Lex's approved wording.
  *   - Add Lex's GA4 section to datenschutz.html (anchor id="analytics"), add the
  *     <script src="/consent.js" defer></script> include to the home page (index.php after the
  *     Brevo branch merges) and datenschutz.html, and reword their footer line, in the same merge.
@@ -72,25 +71,45 @@
     b.className = 'cc-banner';
     b.setAttribute('role', 'dialog');
     b.setAttribute('aria-label', 'Cookie consent');
-    // [Lex] Replace this text with Lex's approved banner wording before go-live.
+    // Banner wording: Lex, Agora #362, 2026-10-18 (EN first because the site is English; DE below).
     var p = document.createElement('p');
-    p.innerHTML = '[Lex: banner text] We would like to use Google Analytics to measure how this ' +
-      'site is used. It sets cookies and loads only if you accept. See the ' +
-      '<a href="/datenschutz.html#analytics">privacy notice</a>.';
+    p.innerHTML = '<strong>Cookie notice \u2014 Analytics (Google Analytics)</strong><br>' +
+      'This website uses Google Analytics (GA4) to understand how visitors use our site. With your consent, ' +
+      'information (cookies) is stored on and read from your device, and your data is processed into anonymised ' +
+      'usage statistics. Legal bases: Art. 6 (1)(a) GDPR and \u00a7 25 (1) TTDSG. You can withdraw your consent at any ' +
+      'time with effect for the future, e.g. via this banner. ' +
+      '<a href="/datenschutz.html#analytics">Learn more in the privacy notice</a>.<br>' +
+      '<span lang="de"><strong>Cookie-Hinweis \u2014 Analyse (Google Analytics)</strong><br>' +
+      'Diese Website verwendet Google Analytics (GA4), um zu verstehen, wie Besucherinnen und Besucher unsere Website ' +
+      'nutzen. Mit Ihrer Einwilligung werden Informationen (Cookies) auf Ihrem Ger\u00e4t gespeichert und ausgelesen und ' +
+      'Ihre Daten zu anonymisierten Nutzungsstatistiken verarbeitet. Rechtsgrundlagen sind Art. 6 Abs. 1 lit. a DSGVO ' +
+      'und \u00a7 25 Abs. 1 TTDSG. Sie k\u00f6nnen Ihre Einwilligung jederzeit mit Wirkung f\u00fcr die Zukunft widerrufen, ' +
+      'z.\u00a0B. \u00fcber dieses Banner. <a href="/datenschutz.html#analytics">Mehr erfahren in der Datenschutzerkl\u00e4rung</a>.</span>';
     b.appendChild(p);
 
     var accept = document.createElement('button');
-    accept.className = 'cc-accept'; accept.type = 'button'; accept.textContent = 'Accept';
+    accept.className = 'cc-accept'; accept.type = 'button'; accept.textContent = 'Accept / Zustimmen';
     accept.addEventListener('click', function () { writeConsent('granted'); removeBanner(b); loadGA4(); });
 
     var decline = document.createElement('button');
-    decline.className = 'cc-decline'; decline.type = 'button'; decline.textContent = 'Decline';
+    decline.className = 'cc-decline'; decline.type = 'button'; decline.textContent = 'Decline / Ablehnen';
     decline.addEventListener('click', function () { writeConsent('denied'); removeBanner(b); });
 
     b.appendChild(accept);
     b.appendChild(decline);
     document.body.appendChild(b);
   }
+
+  // Re-open link in the footer, so consent can be changed on every page (Lex wiring note, #362).
+  function addReopenLink() {
+    var f = document.querySelector('footer .wrap p:last-child') || document.querySelector('footer');
+    if (!f || document.getElementById('cc-reopen')) { return; }
+    var a = document.createElement('a');
+    a.id = 'cc-reopen'; a.href = '#'; a.textContent = 'Cookie settings / Cookie-Einstellungen';
+    a.addEventListener('click', function (ev) { ev.preventDefault(); if (!document.querySelector('.cc-banner')) { showBanner(); } });
+    f.appendChild(document.createTextNode(' \u00b7 ')); f.appendChild(a);
+  }
+  if (document.body) { addReopenLink(); } else { document.addEventListener('DOMContentLoaded', addReopenLink); }
 
   var prior = readConsent();
   if (prior === 'granted') {
