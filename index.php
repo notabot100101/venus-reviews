@@ -38,18 +38,31 @@ $source_attr = htmlspecialchars($source, ENT_QUOTES, 'UTF-8');
 <h1>Grid Trading Bot.<br><em>Tested in public.</em></h1>
 <p>A grid bot for EUR crypto pairs on Binance. Every week we run A/B experiments on testnet, publish the full evaluation including the losers, and promote a pair to real money only when it clears a fixed gate.</p>
 <p>No projected returns. Just the log.</p>
+<?php
+// The weekly publisher (ai-server, Mondays) rewrites the stat tiles in index.html, not in this
+// file. Show its current tiles so the home page never goes stale; fall back to the last known
+// values if index.html is missing or its tile block cannot be found.
+$status_html = '';
+$published = @file_get_contents(__DIR__ . '/index.html');
+if ($published !== false && preg_match('#<div class="status">.*?</div>\s*</div>#s', $published, $m)) {
+    $status_html = $m[0];
+}
+if ($status_html !== '') {
+    echo $status_html;
+} else { ?>
 <div class="status">
-<div><b>2026-10-11</b><small>Last regular evaluation</small></div>
+<div><b>2026-11-01</b><small>Last regular evaluation</small></div>
 <div><b>28</b><small>EUR pairs on testnet</small></div>
-<div><b>0</b><small>Experiments cleared the gate</small></div>
-<div><b>3</b><small>Real-money bots</small></div>
+<div><b>7</b><small>Experiments cleared the gate</small></div>
+<div><b>2</b><small>Real-money bots</small></div>
 </div>
+<?php } ?>
 </div></section>
 
 <section class="sect" id="newsletter"><div class="wrap">
 <h2>Grid Bot Weekly</h2>
 <p class="note">Mondays, under 400 words: the week's testnet A/B result, the real-money bots' fills, what we changed, what we test next. Double opt-in, unsubscribe in every mail.</p>
-<p class="placeholder" id="newsPlaceholder">Newsletter signup opens once our privacy notice covers it. Until then, nothing is collected on this site.</p>
+<p class="placeholder" id="newsPlaceholder">Newsletter signup opens shortly. Until then, nothing is collected on this site.</p>
 <!-- Form stays hidden until subscribe.php reports Brevo is configured (503 until ../brevo-config-trade.php
      exists on the server). Double opt-in: nothing is stored before the subscriber confirms by email (Agora #53, D2). -->
 <form class="signup" id="newsForm" hidden novalidate action="/subscribe.php" method="post">
