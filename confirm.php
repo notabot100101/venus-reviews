@@ -107,6 +107,7 @@ $payload = json_encode([
   'email'         => $email,
   'listIds'       => [(int) $cfg['list_id']],
   'updateEnabled' => true,
+  'emailBlacklisted' => false,   // a fresh confirmed opt-in lifts an earlier unsubscribe
   'attributes'    => $attributes,
 ]);
 

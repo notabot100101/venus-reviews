@@ -54,6 +54,38 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL) || strlen($email) > 254) {
   exit;
 }
 
+// --- send limits: this endpoint mails whatever address it is given, so cap it to stop anyone
+// using it to flood a stranger's inbox or burn the Brevo free plan's 300 mails/day. Counters live
+// next to the config, outside the webroot; only hashes are stored, never addresses or IPs.
+$rateDir = dirname(__DIR__) . '/.trade-signup-limits';
+$allowSend = static function (string $key, int $max, int $window) use ($rateDir): bool {
+  if (!is_dir($rateDir) && !@mkdir($rateDir, 0700, true) && !is_dir($rateDir)) {
+    return true;                          // cannot track: fail open rather than break signup
+  }
+  $file = $rateDir . '/' . hash('sha256', $key) . '.json';
+  $fh = @fopen($file, 'c+');
+  if ($fh === false) { return true; }
+  flock($fh, LOCK_EX);
+  $now = time();
+  $hits = json_decode(stream_get_contents($fh) ?: '[]', true);
+  $hits = array_values(array_filter(is_array($hits) ? $hits : [], fn($t) => is_int($t) && $t > $now - $window));
+  $ok = count($hits) < $max;
+  if ($ok) { $hits[] = $now; }
+  ftruncate($fh, 0); rewind($fh); fwrite($fh, json_encode($hits));
+  flock($fh, LOCK_UN); fclose($fh);
+  return $ok;
+};
+$clientIp = $_SERVER['REMOTE_ADDR'] ?? '';
+if (!$allowSend('ip|' . $clientIp, 10, 3600) || !$allowSend('all|' . gmdate('Y-m-d'), 200, 86400)) {
+  http_response_code(429);
+  echo json_encode(['ok' => false, 'error' => 'busy']);
+  exit;
+}
+if (!$allowSend('email|' . $email, 3, 86400)) {
+  echo json_encode(['ok' => true]);       // already mailed 3x today: answer as usual, send nothing
+  exit;
+}
+
 // Arrival channel for attribution; sanitised again here in case of a direct POST.
 $source = preg_replace('/[^A-Za-z0-9 ._\/-]/', '', trim($_POST['source'] ?? ''));
 $source = substr($source, 0, 80);
