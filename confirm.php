@@ -20,6 +20,42 @@ function page(string $title, string $body, int $code = 200): void {
   exit;
 }
 
+/** Best-effort welcome ("hello") email with a working one-click unsubscribe. Never fatal. */
+function send_welcome(array $cfg, string $email): void {
+  try {
+    $unsub = rtrim($cfg['unsubscribe_url'], '?') . '?e=' . rawurlencode($email)
+           . '&k=' . hash_hmac('sha256', $email, (string) $cfg['hmac_secret']);
+    $u = htmlspecialchars($unsub, ENT_QUOTES, 'UTF-8');
+    $html = '<!doctype html><html><body style="font-family:Arial,Helvetica,sans-serif;font-size:15px;color:#222;line-height:1.55">'
+      . '<p>Willkommen beim <strong>Grid Bot Weekly</strong> &ndash; und danke f&uuml;r Ihre Best&auml;tigung.</p>'
+      . '<p>Jeden Montag, unter 400 W&ouml;rtern: das A/B-Ergebnis der Woche aus dem Testnetz, die Fills der echten Bots, was wir ge&auml;ndert haben und was wir als N&auml;chstes testen. Keine Hypes, keine Versprechen &ndash; nur die Zahlen.</p>'
+      . '<p>Die erste Ausgabe erreicht Sie am kommenden Montag.</p>'
+      . '<hr style="border:none;border-top:1px solid #eee;margin:18px 0">'
+      . '<p style="font-size:13px;color:#444"><em>English:</em> Welcome to Grid Bot Weekly, and thanks for confirming. Every Monday, under 400 words: the week\'s testnet A/B result, the real bots\' fills, what we changed and what we test next. Your first issue arrives this coming Monday.</p>'
+      . '<p style="font-size:12px;color:#888">Sie m&ouml;chten keine E-Mails mehr? <a href="' . $u . '">Hier mit einem Klick abmelden</a> / '
+      . '<a href="' . $u . '">Unsubscribe in one click</a>. aiffiliation &middot; Paul Budzisch, Papierm&uuml;hlenweg 3, 07973 Greiz, Deutschland.</p>'
+      . '</body></html>';
+    $payload = json_encode([
+      'sender'      => ['name' => 'Grid Bot Weekly', 'email' => 'info@aiffiliation.de'],
+      'to'          => [['email' => $email]],
+      'subject'     => 'Willkommen beim Grid Bot Weekly / Welcome aboard',
+      'htmlContent' => $html,
+      'tags'        => ['grid-bot-weekly-welcome'],
+      'headers'     => [
+        'List-Unsubscribe'      => '<' . $unsub . '>, <mailto:info@aiffiliation.de?subject=unsubscribe>',
+        'List-Unsubscribe-Post' => 'List-Unsubscribe=One-Click',
+      ],
+    ]);
+    $ch = curl_init('https://api.brevo.com/v3/smtp/email');
+    curl_setopt_array($ch, [
+      CURLOPT_POST => true, CURLOPT_POSTFIELDS => $payload, CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 10,
+      CURLOPT_HTTPHEADER => ['accept: application/json', 'content-type: application/json', 'api-key: ' . $cfg['api_key']],
+    ]);
+    curl_exec($ch);
+    curl_close($ch);
+  } catch (\Throwable $e) { /* best-effort: never block confirmation */ }
+}
+
 if (!is_file($configPath)) {
   page('Nicht verfügbar', '<h1>Momentan nicht verfügbar</h1><p>Bitte versuchen Sie es später erneut.</p>', 503);
 }
@@ -91,6 +127,7 @@ $status = curl_getinfo($ch, CURLINFO_RESPONSE_CODE);
 curl_close($ch);
 
 if ($status === 201 || $status === 204) {
+  send_welcome($cfg, $email);   // best-effort "hello" with one-click unsubscribe
   header('Location: ' . $cfg['redirect'], true, 302);
   exit;
 }

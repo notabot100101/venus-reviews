@@ -16,8 +16,9 @@
  *     'api_key'     => 'xkeysib-...',                                  // Brevo: SMTP & API -> API keys
  *     'list_id'     => 4,                                             // Contacts -> Lists -> "trading"
  *     'hmac_secret' => '<64+ hex chars, random, secret>',            // signs the confirm link
- *     'confirm_url' => 'https://trade.ultramarine963.com/confirm.php',
- *     'redirect'    => 'https://trade.ultramarine963.com/?subscribed=1',
+ *     'confirm_url'     => 'https://trade.ultramarine963.com/confirm.php',
+ *     'unsubscribe_url' => 'https://trade.ultramarine963.com/unsubscribe.php',  // used by confirm.php + unsubscribe.php
+ *     'redirect'        => 'https://trade.ultramarine963.com/?subscribed=1',
  *   ];
  *
  * Attribution: an optional "source" field (set in index.php from utm_source / utm_campaign) rides
